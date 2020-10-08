@@ -8,5 +8,9 @@
 			"Name": "HoudiniEngine",
 			"Enabled": false
 		}
+	],
+	"TargetPlatforms": [
+		"WindowsNoEditor",
+		"WindowsNoEditorWin32"
 	]
 }
