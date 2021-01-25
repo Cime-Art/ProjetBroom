@@ -1,6 +1,261 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E2641E9D-3291-49C1-BB69-EF255352D572}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Esteban" ID="{E2641E9D-3291-49C1-BB69-EF255352D572}" PersistMode="Standalone"/>
+		<WorkUnit Name="Esteban" ID="{E2641E9D-3291-49C1-BB69-EF255352D572}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Kitchen" ID="{8D523F74-7A20-4DC9-B6AA-3C2612087C43}" ShortID="980856706">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<ActorMixer Name="Kitchen_Mixer" ID="{DD039748-3BF3-46B0-A3D6-39A91016A06F}" ShortID="971835316">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Folder Name="BoilerDoor" ID="{A0E085E3-F68A-445B-8E25-CEB1AC04E3B4}" ShortID="255869084">
+									<ChildrenList>
+										<ActorMixer Name="BoilerDoor_Mixer" ID="{598D38BB-1151-40DB-B0C0-9A522085E634}" ShortID="48446661">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="BoilerDoorOpen_RND" ID="{3C01B8E0-642D-4BB7-8B79-1D89472F1EA0}" ShortID="509517915">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="BoilerDoorClose_RND" ID="{4C27D804-3CDE-4CB6-B2A2-AAE986478927}" ShortID="595684067">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{DEE00A9E-9FF7-4757-BDA0-35F5F8B76034}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="220"/>
+																			<Property Name="Min" Type="Real64" Value="-220"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Amb_OS_BoilerDoorClose_01" ID="{31181977-248A-48CD-BC72-6059AFD18008}" ShortID="282636180">
+															<PropertyList>
+																<Property Name="OverrideEffect" Type="bool" Value="True"/>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>-30</Value>
+																	</ValueList>
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{00469FFB-EFE2-4160-BD5E-36474A4A1488}">
+																				<PropertyList>
+																					<Property Name="Max" Type="Real64" Value="303"/>
+																					<Property Name="Min" Type="Real64" Value="-253"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_OS_BoilerDoorClose_01" ID="{4808575C-8D09-4C59-8132-8C1587BFC401}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_OS_BoilerDoorClose_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1015033216"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_OS_BoilerDoorClose_01" ID="{4808575C-8D09-4C59-8132-8C1587BFC401}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_OS_BoilerDoorClose_02" ID="{DDF30987-D826-4F6C-8F5F-689A72513789}" ShortID="969572583">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{F4BB4A15-660D-424D-BB8D-F6752B23E452}">
+																				<PropertyList>
+																					<Property Name="Max" Type="Real64" Value="202"/>
+																					<Property Name="Min" Type="Real64" Value="-227"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_OS_BoilerDoorClose_02" ID="{03C5D667-6C2D-42EF-B8B7-8B78235B28BB}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_OS_BoilerDoorClose_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="318945443"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_OS_BoilerDoorClose_02" ID="{03C5D667-6C2D-42EF-B8B7-8B78235B28BB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</ActorMixer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="BoilerFire" ID="{3E4E7ECE-AFCB-449F-96E0-B34AB82A3B51}" ShortID="931048044">
+									<ChildrenList>
+										<ActorMixer Name="BoilerFire" ID="{22436B13-32B4-4427-A760-54D47AC89004}" ShortID="58789963">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="BoilerFire_RND" ID="{55239E29-5D0F-401C-8F0E-4D4CB9B9C7B3}" ShortID="116504828">
+													<PropertyList>
+														<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Amb_LP_FireBoiler_01_THOMAS_v4" ID="{CB7DD513-7B9C-4B1B-8A3D-675CB1601294}" ShortID="259769262">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_LP_FireBoiler_01_THOMAS_v4" ID="{9FDF797A-AE85-4F6E-AEBA-385528C7CF37}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_LP_FireBoiler_01_THOMAS_v4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="772159076"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_LP_FireBoiler_01_THOMAS_v4" ID="{9FDF797A-AE85-4F6E-AEBA-385528C7CF37}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_LP_FireBoiler_02_THOMAS_v4" ID="{8205DB72-CA03-4B23-933F-1ACF94D80B60}" ShortID="194971395">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_LP_FireBoiler_02_THOMAS_v4" ID="{D2FFCE35-DA4B-454E-9B27-C0F87B23351F}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_LP_FireBoiler_02_THOMAS_v4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="268132525"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_LP_FireBoiler_02_THOMAS_v4" ID="{D2FFCE35-DA4B-454E-9B27-C0F87B23351F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_LP_FireBoiler_03_THOMAS_v4" ID="{60EB914F-F7C1-4D02-B97C-D4A67979200D}" ShortID="167372128">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_LP_FireBoiler_03_THOMAS_v4" ID="{8A45EBEA-AFFF-413F-B483-A34E8A754F9B}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_LP_FireBoiler_03_THOMAS_v4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="506192257"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_LP_FireBoiler_03_THOMAS_v4" ID="{8A45EBEA-AFFF-413F-B483-A34E8A754F9B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</ActorMixer>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
