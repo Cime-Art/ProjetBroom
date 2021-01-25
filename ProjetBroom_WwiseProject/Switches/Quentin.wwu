@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7F6E1D4D-46A7-4061-8D66-E8BA06519B13}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Quentin" ID="{7F6E1D4D-46A7-4061-8D66-E8BA06519B13}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="CreaksTrigger" ID="{5AC10103-DAD3-4839-AE4C-71498B41F71F}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Yes" ID="{6BA372BE-1414-41F5-AF65-A9F14BC604F2}"/>
+						<Switch Name="No" ID="{D598B921-AEB4-45D0-9757-0502A47EF998}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>
+						<Curve Name="" ID="{9D3AE624-CA7A-4A50-80B2-4739AED44A7A}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>-48</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>-38.67567</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
