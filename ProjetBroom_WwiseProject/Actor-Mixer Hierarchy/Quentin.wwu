@@ -1,6 +1,791 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F43A4335-1406-4E14-B8F4-E8FEBCBFF69F}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Quentin" ID="{F43A4335-1406-4E14-B8F4-E8FEBCBFF69F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Quentin" ID="{F43A4335-1406-4E14-B8F4-E8FEBCBFF69F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Barn" ID="{02733252-A941-44E4-8A56-47016A090CC6}" ShortID="938438576">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<ActorMixer Name="Barn_Mixer" ID="{32BB5A4A-E0A2-47B3-A133-D81D49AA4458}" ShortID="265531320">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="Creaks_Switch" ID="{B089FF42-8387-4327-80EF-C6575C426365}" ShortID="840396643">
+									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BD13D0EE-2B53-4822-B9C0-90D38DE301C3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="120"/>
+															<Property Name="Min" Type="Real64" Value="-30"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{D94C2B08-7474-4635-94C3-02E6BCEAE2DF}" ShortID="185022755">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}" WorkUnitID="{B56FC655-7691-4FBF-80D7-EEC8B37E5D78}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{CFD6DA97-3A44-43CC-B632-B2C8B5D55C55}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>-11.01397</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-46.82701</XPos>
+																<YPos>-2.69629</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>-44.23409</XPos>
+																<YPos>-1.22926</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>-40.50378</XPos>
+																<YPos>-0.62742</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>-37.44839</XPos>
+																<YPos>-0.38819</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>-35.42821</XPos>
+																<YPos>0.07552</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>-28.62469</XPos>
+																<YPos>0.60721</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>-19.31486</XPos>
+																<YPos>1.06475</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0.54304</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="No" ID="{D598B921-AEB4-45D0-9757-0502A47EF998}" WorkUnitID="{7F6E1D4D-46A7-4061-8D66-E8BA06519B13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="CreaksTrigger" ID="{5AC10103-DAD3-4839-AE4C-71498B41F71F}" WorkUnitID="{7F6E1D4D-46A7-4061-8D66-E8BA06519B13}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Woodcreaks_RND" ID="{521E3D5A-0F16-463E-8728-206919511A21}" ShortID="341049740">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>42</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>24</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8A4B18BB-6AC5-487F-A03F-4EC2DCB775C2}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Amb_OS_BarnCreaks_01_Ferreira_v1" ID="{F4DAC4E5-F412-4123-8CE5-870B1D1FF868}" ShortID="1073469138">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_OS_BarnCreaks_01_Ferreira_v1" ID="{9303A696-DA91-4615-AC11-109553B44630}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_OS_BarnCreaks_01_Ferreira_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="343125497"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_OS_BarnCreaks_01_Ferreira_v1" ID="{9303A696-DA91-4615-AC11-109553B44630}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_OS_BarnCreaks_02_Ferreira_v1" ID="{17C02F7C-78B6-4FD1-B5B0-CF36198038BF}" ShortID="956019003">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_OS_BarnCreaks_02_Ferreira_v1" ID="{B79C72EB-561F-4FC3-8C32-CF869C536F89}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_OS_BarnCreaks_02_Ferreira_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="456578051"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_OS_BarnCreaks_02_Ferreira_v1" ID="{B79C72EB-561F-4FC3-8C32-CF869C536F89}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_OS_BarnCreaks_03_Ferreira_v1" ID="{7578ED01-4A83-4C51-98E1-31A449D87FFB}" ShortID="145062521">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_OS_BarnCreaks_03_Ferreira_v1" ID="{B0FE8ADF-2636-4999-86F0-59EF1C53B713}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_OS_BarnCreaks_03_Ferreira_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="920441641"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_OS_BarnCreaks_03_Ferreira_v1" ID="{B0FE8ADF-2636-4999-86F0-59EF1C53B713}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_OS_BarnCreaks_04_Ferreira_v1" ID="{6BAB05A4-DFEE-4F61-934E-A6F2A4C6E59B}" ShortID="93510325">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_OS_BarnCreaks_04_Ferreira_v1" ID="{EFA03786-8536-4BB2-8A45-882CF0C61A70}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_OS_BarnCreaks_04_Ferreira_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1005803012"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_OS_BarnCreaks_04_Ferreira_v1" ID="{EFA03786-8536-4BB2-8A45-882CF0C61A70}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Silence" ID="{F717B7AB-0C02-48C6-A3DA-4ECDEE124122}" ShortID="937978304">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{59984C19-9EE8-4404-9CDA-188463D43143}" ShortID="847734174" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{59984C19-9EE8-4404-9CDA-188463D43143}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Woodcreaks_RND" ID="{521E3D5A-0F16-463E-8728-206919511A21}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>0.2</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Silence" ID="{F717B7AB-0C02-48C6-A3DA-4ECDEE124122}"/>
+												<PropertyList>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>1.2</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>2</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="No" ID="{D598B921-AEB4-45D0-9757-0502A47EF998}"/>
+												<ItemList>
+													<ItemRef Name="Silence" ID="{F717B7AB-0C02-48C6-A3DA-4ECDEE124122}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Yes" ID="{6BA372BE-1414-41F5-AF65-A9F14BC604F2}"/>
+												<ItemList>
+													<ItemRef Name="Woodcreaks_RND" ID="{521E3D5A-0F16-463E-8728-206919511A21}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<RandomSequenceContainer Name="Mouses_RND" ID="{EF407805-86C3-4FF9-939E-11CC096FBFBE}" ShortID="105473562">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+										<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{ED5398E9-6290-45E3-B284-ABE5BED0FD73}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1FA9B8A9-5DA1-4C12-BB4B-CD627DBF3831}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="30"/>
+															<Property Name="Min" Type="Real64" Value="-30"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1C7124FD-CEB6-4267-9176-6337BA918EA8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-0.5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Amb_OS_BarnMouse_01_Ferreira_v1" ID="{23D18819-12BB-47D8-A507-F55C9EE0668C}" ShortID="190099345">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_OS_BarnMouse_01_Ferreira_v1" ID="{6A513523-8C83-4CA7-958E-0597E05968FD}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0419047619047619"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.137142857142857"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.26285714285714"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Amb_OS_BarnMouse_01_Ferreira_v1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1036241396"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{0F5B7B05-B866-484A-8914-FD0041F6BC97}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="Amb_OS_BarnMouse_01_Ferreira_v1_Path" ID="{884409A8-CC92-4AD5-8F1A-27AB9946E903}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="1000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-100</XPos>
+																	<YPos>88.21656</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>77.70701</YPos>
+																	<Flags>0</Flags>
+																	<Time>1000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_OS_BarnMouse_01_Ferreira_v1" ID="{6A513523-8C83-4CA7-958E-0597E05968FD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Amb_OS_BarnMouse_02_Ferreira_v1" ID="{C6E66BEA-30E4-45D2-A90F-E95DD6227C37}" ShortID="1061346763">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_OS_BarnMouse_02_Ferreira_v1" ID="{D6BDB7C2-58E7-46A9-9400-386D3AA9A4F3}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0239455782312925"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0628571428571429"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.113741496598639"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.77496598639456"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Amb_OS_BarnMouse_02_Ferreira_v1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="928666914"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_OS_BarnMouse_02_Ferreira_v1" ID="{D6BDB7C2-58E7-46A9-9400-386D3AA9A4F3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Amb_OS_BarnMouse_03_Ferreira_v1" ID="{C296F2B7-A351-40D3-80BE-0736AB68B66B}" ShortID="47011621">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_OS_BarnMouse_03_Ferreira_v1" ID="{9F274303-AFC4-4C02-826D-94F7FAB79926}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0500680272108844"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0187755102040816"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.137687074829932"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.66789115646258"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Amb_OS_BarnMouse_03_Ferreira_v1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="960928492"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_OS_BarnMouse_03_Ferreira_v1" ID="{9F274303-AFC4-4C02-826D-94F7FAB79926}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Amb_OS_BarnMouse_04_Ferreira_v1" ID="{F21A1EDE-8BC0-4006-B256-5C4E839D58F2}" ShortID="613780495">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_OS_BarnMouse_04_Ferreira_v1" ID="{883069F4-B3B9-4A8F-ACD6-4389B6801E36}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0329251700680271"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.119727891156463"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.67020408163265"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Amb_OS_BarnMouse_04_Ferreira_v1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="176245362"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_OS_BarnMouse_04_Ferreira_v1" ID="{883069F4-B3B9-4A8F-ACD6-4389B6801E36}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{3184ED94-DCC1-4948-A310-7C0EA8F2BE47}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="7.105427357601E-15"/>
+											</PropertyList>
+										</Panner>
+										<Position Name="" ID="{D92D8883-02A9-4185-8E0B-CD254FED52BB}">
+											<PropertyList>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="Mouses_RND_Path_01" ID="{92D587A0-CCC9-4E31-9099-8317143BEF84}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="500"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>100</YPos>
+															<Flags>0</Flags>
+															<Time>500</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Mouses_RND_Path_02" ID="{0A5D3BE4-F33C-4C72-96A6-E6524A8E3A70}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="900"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>100</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<Flags>0</Flags>
+															<Time>900</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+								<Sound Name="BarnWindLoop" ID="{14AD35F8-0ACD-4030-B675-785AE2BC813C}" ShortID="1015618446">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<ObjectRef Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="WwiseMeterTrigger" ID="{1CA92C67-3E71-4D1E-9783-5E3ECDD15446}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="SoundSeed Air Wind" ID="{B2E8DF88-8B02-4740-BE28-9923982783D2}" ShortID="609950257" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
+											<PropertyList>
+												<Property Name="AverageVelocity" Type="Real32" Value="-230"/>
+												<Property Name="DurationRandom" Type="Real32" Value="2"/>
+												<Property Name="FrequencyScale" Type="Real32" Value="0.8"/>
+												<Property Name="GainOffsetAutomate" Type="bool" Value="True"/>
+												<Property Name="Gustiness" Type="Real32" Value="0.49"/>
+												<Property Name="GustinessAutomate" Type="bool" Value="True"/>
+												<Property Name="MaxDistance" Type="Real32" Value="35"/>
+												<Property Name="MinDistance" Type="Real32" Value="1.2"/>
+												<Property Name="QFactorScale" Type="Real32" Value="0.51"/>
+												<Property Name="Variability" Type="Real32" Value="0.74"/>
+												<Property Name="VelocityDynamicRange" Type="Real32" Value="0.88"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<PluginData>
+	<CurveList Version="1">
+		<CurveInfo Name="GainOffset">
+			<Curve Name="" ID="{C0EC3B6D-F961-40FC-8BC2-950E4292A785}">
+				<PropertyList>
+					<Property Name="Flags" Type="int32" Value="1"/>
+				</PropertyList>
+				<PointList>
+					<Point>
+						<XPos>0</XPos>
+						<YPos>-6.5924</YPos>
+						<Flags>5</Flags>
+					</Point>
+					<Point>
+						<XPos>0.69621</XPos>
+						<YPos>-5.69309</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>1.09178</XPos>
+						<YPos>-8.25136</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>1.86709</XPos>
+						<YPos>-0.27176</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>2.97468</XPos>
+						<YPos>-11.9611</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>3.75</XPos>
+						<YPos>8.11473</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>4.47786</XPos>
+						<YPos>-19.31746</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>5.23734</XPos>
+						<YPos>-12.54001</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>6.15505</XPos>
+						<YPos>-21.29367</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>7.76899</XPos>
+						<YPos>16.07006</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>9.11393</XPos>
+						<YPos>-3.91964</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>10</XPos>
+						<YPos>-5.17988</YPos>
+						<Flags>37</Flags>
+					</Point>
+				</PointList>
+			</Curve>
+		</CurveInfo>
+		<CurveInfo Name="Gustiness">
+			<Curve Name="" ID="{A698A7DA-0E7F-46A7-9505-D1FD0BFAE71E}">
+				<PropertyList>
+					<Property Name="Flags" Type="int32" Value="1"/>
+				</PropertyList>
+				<PointList>
+					<Point>
+						<XPos>0</XPos>
+						<YPos>-0.00196</YPos>
+						<Flags>5</Flags>
+					</Point>
+					<Point>
+						<XPos>1.85126</XPos>
+						<YPos>0.16763</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>2.94304</XPos>
+						<YPos>0.09164</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>3.90823</XPos>
+						<YPos>0.37171</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>4.28797</XPos>
+						<YPos>-0.00196</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>5.18987</XPos>
+						<YPos>0.03169</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>6.15506</XPos>
+						<YPos>-0.00196</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>7.75316</XPos>
+						<YPos>0.30116</YPos>
+						<Flags>0</Flags>
+					</Point>
+					<Point>
+						<XPos>10</XPos>
+						<YPos>0.03327</YPos>
+						<Flags>37</Flags>
+					</Point>
+				</PointList>
+			</Curve>
+		</CurveInfo>
+	</CurveList>
+</PluginData>
+											<PluginInnerObjectList>
+												<List Name="Deflectors">
+													<PluginInnerObject Name="" ID="{F7DD78CE-8B14-4AE6-A563-C4E21CC01211}" PluginName="Deflector" CompanyID="0" PluginID="121">
+														<PropertyList>
+															<Property Name="Frequency" Type="Real32" Value="935"/>
+															<Property Name="Gain" Type="Real32" Value="2"/>
+															<Property Name="QFactor" Type="Real32" Value="9.03"/>
+														</PropertyList>
+													</PluginInnerObject>
+													<PluginInnerObject Name="" ID="{A0BB7E34-9E2D-45FC-AFC7-ECD0CEBEFD4E}" PluginName="Deflector" CompanyID="0" PluginID="121">
+														<PropertyList>
+															<Property Name="Frequency" Type="Real32" Value="1646"/>
+															<Property Name="Gain" Type="Real32" Value="-14"/>
+															<Property Name="PanX" Type="Real64" Value="2"/>
+														</PropertyList>
+													</PluginInnerObject>
+													<PluginInnerObject Name="" ID="{DA4360CF-6E92-477F-8A21-3BA61A258D9C}" PluginName="Deflector" CompanyID="0" PluginID="121">
+														<PropertyList>
+															<Property Name="Gain" Type="Real32" Value="-14"/>
+															<Property Name="PanX" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</PluginInnerObject>
+												</List>
+											</PluginInnerObjectList>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SoundSeed Air Wind" ID="{B2E8DF88-8B02-4740-BE28-9923982783D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

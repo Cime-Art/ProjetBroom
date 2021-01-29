@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8A9E5361-FAEB-4573-AB4C-F57DD042DC90}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Yanis" ID="{8A9E5361-FAEB-4573-AB4C-F57DD042DC90}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Amb Jail" ID="{C55B399D-94AE-4ED5-9A7A-8C99A4726084}" ShortID="575439442">
+					<ChildrenList>
+						<Event Name="Play_LoudScream" ID="{B4C1EC9E-D211-406D-A84B-09673CAE01EA}">
+							<ChildrenList>
+								<Action Name="" ID="{7F276362-02AD-43DF-A03F-46E9D11E1936}" ShortID="203430836">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Loud_Scream_RND" ID="{60FE3C75-0EBD-447E-BA4F-7D3310EE574B}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SmallAnimalRun_Away" ID="{4112958F-6BBC-406C-9E1C-36F01C27CBF3}">
+							<ChildrenList>
+								<Action Name="" ID="{11D30800-C24C-4F8B-9997-1DD520DF2911}" ShortID="42181976">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SmallAnimalRunAway_RND" ID="{41562958-9F6B-4F92-B84C-7096AD1DB366}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SmallAnimalRun_OnPipe" ID="{D6FC6C4A-F8F9-4A59-B627-4BB28CB95E77}">
+							<ChildrenList>
+								<Action Name="" ID="{2B242863-F7EA-4B4E-822E-F0481B5B3FCC}" ShortID="386911382">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SmallAnimalRunOnPipe_RND" ID="{3FE17EE2-83A4-4425-8103-B904C3EE7E6C}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DoorSlam" ID="{9EFF254D-B0CE-47F8-BE42-95488772D7BE}">
+							<ChildrenList>
+								<Action Name="" ID="{D5A26A45-20F3-4F87-9ABC-FBD455F10EED}" ShortID="369017419">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door_Slam_RND" ID="{2DBBACC3-EA9E-4041-B5BE-F7E39B9E78C0}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
