@@ -2,11 +2,27 @@
 <WwiseDocument Type="WorkUnit" ID="{30B9BCEA-09BA-48CE-B6CF-377BE308973B}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="Marius" ID="{30B9BCEA-09BA-48CE-B6CF-377BE308973B}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
-				<Folder Name="Plateforme_Mouvante" ID="{13F67A29-C354-4449-95C5-FDB95B6B3FD7}" ShortID="415365498">
+				<Folder Name="Moving_platform" ID="{13F67A29-C354-4449-95C5-FDB95B6B3FD7}" ShortID="415365498">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<ActorMixer Name="Plateforme_mouvante_MXR" ID="{E06599F3-267F-487A-983E-8275E4BC4162}" ShortID="672886199">
+						<ActorMixer Name="Moving_platform_MXR" ID="{E06599F3-267F-487A-983E-8275E4BC4162}" ShortID="672886199">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Moving_platform" ID="{3103F567-8AAF-42BC-81C8-DCC492E399FF}" WorkUnitID="{5BCBBB32-6890-488A-B670-7C2C57B38DE9}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 								</Reference>
@@ -15,7 +31,11 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<BlendContainer Name="Plateforme_Mouvante_Blend" ID="{F11E09A5-DE05-4350-9679-757746BF32A1}" ShortID="711670616">
+								<BlendContainer Name="Moving_Platform_Blend" ID="{F11E09A5-DE05-4350-9679-757746BF32A1}" ShortID="711670616">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -27,6 +47,8 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Metal_Creaking_RND" ID="{1D249B9E-E9A2-49A0-812A-F55DFD48A3C8}" ShortID="683340629">
 											<PropertyList>
+												<Property Name="Color" Type="int16" Value="19"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -73,6 +95,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="OS_Squeak-005" ID="{0AFDCC89-89E6-4968-A522-3E33D7B032A3}" ShortID="633207603">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="19"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -95,6 +121,10 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="OS_Squeak-006" ID="{20CE13A7-85F0-4F16-9D91-128A8B7A263E}" ShortID="1012951709">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="19"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -117,6 +147,10 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="OS_Squeak-007" ID="{4C66D0DD-E898-49DC-A45C-0C950E46F248}" ShortID="197806583">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="19"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -139,6 +173,10 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="OS_Squeak-008" ID="{AB628266-EBBB-458C-945A-7EF5E89C33F7}" ShortID="285758274">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="19"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -161,6 +199,10 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="OS_Squeak-009" ID="{9E8E2C48-A0E9-4764-A615-D909D65BF15F}" ShortID="357217176">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="19"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -183,6 +225,10 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="OS_Squeak-010" ID="{57824C7D-BCEE-4FD0-82C3-2C1A749A1F5B}" ShortID="928231913">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="19"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -208,10 +254,12 @@
 										</RandomSequenceContainer>
 										<Sound Name="rattle_gear_LP" ID="{E88C8AAB-9D7C-45FB-88AE-DD13A8B6A8FF}" ShortID="778745351">
 											<PropertyList>
+												<Property Name="Color" Type="int16" Value="19"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>7</Value>
+														<Value>5</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -237,6 +285,16 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Base_metal_LP" ID="{CAA23BF8-2CD9-486E-97C2-D4AE9043F790}" ShortID="76127026">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="19"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -245,6 +303,25 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LP_base_metal" ID="{1073348F-E744-4391-82B7-5563F25BEBA3}">
+													<Language>SFX</Language>
+													<AudioFile>LP_base_metal.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="857153113"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="LP_base_metal-001" ID="{A34ED1A0-5D10-4A40-B89A-F1FF0F42E3F1}">
+													<Language>SFX</Language>
+													<AudioFile>LP_base_metal-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1058579694"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="LP_base_metal" ID="{1073348F-E744-4391-82B7-5563F25BEBA3}" Platform="Linked"/>
+											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</BlendContainer>
