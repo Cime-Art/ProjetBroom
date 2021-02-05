@@ -19,86 +19,31 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Loud_Scream_RND" ID="{60FE3C75-0EBD-447E-BA4F-7D3310EE574B}" ShortID="139695534">
+								<Sound Name="Amb_OS_DropOfBlood _03_Anger_V2" ID="{BE89027B-3726-44F5-B36C-A523182AABD1}" ShortID="935388575">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_OS_DropOfBlood _03_Anger_V2" ID="{63E75FC0-6CA3-43E1-B56C-29A7EEEC707B}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_OS_DropOfBlood _03_Anger_V2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="51866659"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_OS_DropOfBlood _03_Anger_V2" ID="{63E75FC0-6CA3-43E1-B56C-29A7EEEC707B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{3CB08984-AF63-4EA1-873C-996A0CB8A527}" ShortID="411868436">
 									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
-										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
-										<Property Name="Lowpass" Type="int16">
-											<RTPCList>
-												<RTPC Name="" ID="{B171F584-066E-475F-A5E8-3E4F4710114C}" ShortID="393721428">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Distance" ID="{C1FB3B6B-0CEC-4F98-9EE2-487C8123E3DE}" WorkUnitID="{97B50114-DA2D-4E1B-B386-76C5B2E5F457}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{987CF2BD-02B6-47CE-941E-75C4404A7DFB}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="65537"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-100</YPos>
-																<Flags>5</Flags>
-																<SegmentShape>Log2</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>50</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{181C6F7A-81A1-4806-A10A-28458FAE4FA5}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="5"/>
-															<Property Name="Min" Type="Real64" Value="-3"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{2A6E088F-FE12-44AF-9857-ADEEBBFF0778}" ShortID="757758935">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Distance" ID="{C1FB3B6B-0CEC-4F98-9EE2-487C8123E3DE}" WorkUnitID="{97B50114-DA2D-4E1B-B386-76C5B2E5F457}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{ABC930ED-1939-4FEB-85A2-505ABFD11E5D}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-0</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>50</XPos>
-																<YPos>-200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -109,7 +54,46 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Amb_OS_LoudScream _02" ID="{5BD2D92C-D0AA-45B7-B796-1D265A930319}" ShortID="960734039">
+										<AudioFileSource Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{61A5BF32-CAFC-4010-9705-6D61B6035B70}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_LP_AcidFlow_01_Anger_V2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="243081619"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{61A5BF32-CAFC-4010-9705-6D61B6035B70}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Acid_Burn_RND" ID="{6BB3A517-8199-4F0D-9680-7C51A4BEEE6F}" ShortID="980299239">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1A5E735C-4B64-4DBD-B1AE-CFA316FF6A5F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Amb_OS_AcidBurn_03_Dambrosio_V1" ID="{56CF3858-F622-43FA-8F7D-B54066F5D1C6}" ShortID="761632336">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -119,19 +103,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_LoudScream _02" ID="{23CC5FC9-82AB-470B-ADFE-99D4D089B745}">
+												<AudioFileSource Name="Amb_OS_AcidBurn_03_Dambrosio_V1" ID="{084FBF29-B3FB-48A0-8C55-4CDF7CCF17F0}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_LoudScream _02.wav</AudioFile>
+													<AudioFile>Amb_OS_AcidBurn_03_Dambrosio_V1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1065920960"/>
+														<MediaID ID="466270226"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_LoudScream _02" ID="{23CC5FC9-82AB-470B-ADFE-99D4D089B745}" Platform="Linked"/>
+												<ActiveSource Name="Amb_OS_AcidBurn_03_Dambrosio_V1" ID="{084FBF29-B3FB-48A0-8C55-4CDF7CCF17F0}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_OS_LoudScream _03" ID="{C185979A-B883-4101-B006-8C8A4C17F0BC}" ShortID="856864734">
+										<Sound Name="Amb_OS_AcidBurnShort_02_Dambrosio_V1" ID="{DB98F7B9-751F-4B3C-803C-D84D339206CB}" ShortID="645688538">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -141,19 +125,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_LoudScream _03" ID="{AF5B02A0-11E7-4232-9AD4-4C93725B062B}">
+												<AudioFileSource Name="Amb_OS_AcidBurnShort_02_Dambrosio_V1" ID="{802DF775-B191-41C8-80DC-35A678E569AD}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_LoudScream _03.wav</AudioFile>
+													<AudioFile>Amb_OS_AcidBurnShort_02_Dambrosio_V1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="307205449"/>
+														<MediaID ID="304693331"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_LoudScream _03" ID="{AF5B02A0-11E7-4232-9AD4-4C93725B062B}" Platform="Linked"/>
+												<ActiveSource Name="Amb_OS_AcidBurnShort_02_Dambrosio_V1" ID="{802DF775-B191-41C8-80DC-35A678E569AD}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_OS_LoudScream _04" ID="{3BBC3BA2-A7C6-41F9-81FE-94E44926EBD4}" ShortID="271262821">
+										<Sound Name="Amb_OS_AcidBurnShort_03_Dambrosio_V1" ID="{FCCC0052-DFE9-474D-8D12-AC07DB0BA46A}" ShortID="721435273">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -163,19 +147,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_LoudScream _04" ID="{955E508A-CADA-4172-AD80-7657C027F7F4}">
+												<AudioFileSource Name="Amb_OS_AcidBurnShort_03_Dambrosio_V1" ID="{5C2D079F-5313-4036-B4B8-6BF3ED3903F5}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_LoudScream _04.wav</AudioFile>
+													<AudioFile>Amb_OS_AcidBurnShort_03_Dambrosio_V1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="955547604"/>
+														<MediaID ID="322187271"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_LoudScream _04" ID="{955E508A-CADA-4172-AD80-7657C027F7F4}" Platform="Linked"/>
+												<ActiveSource Name="Amb_OS_AcidBurnShort_03_Dambrosio_V1" ID="{5C2D079F-5313-4036-B4B8-6BF3ED3903F5}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_OS_LoudScream _05" ID="{F50C80F5-60D5-42D8-82EF-85671F8A3714}" ShortID="596375232">
+										<Sound Name="Amb_OS_AcidBurn_04_Dambrosio_V1" ID="{C651AE43-2E70-4687-9CA4-D4C662633E58}" ShortID="899874540">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -185,19 +169,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_LoudScream _05" ID="{F7FAF7A1-569E-41E4-96C7-5E0198AE2686}">
+												<AudioFileSource Name="Amb_OS_AcidBurn_04_Dambrosio_V1" ID="{458599B9-3B75-45AD-8520-2B93175D4284}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_LoudScream _05.wav</AudioFile>
+													<AudioFile>Amb_OS_AcidBurn_04_Dambrosio_V1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="57531894"/>
+														<MediaID ID="247299220"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_LoudScream _05" ID="{F7FAF7A1-569E-41E4-96C7-5E0198AE2686}" Platform="Linked"/>
+												<ActiveSource Name="Amb_OS_AcidBurn_04_Dambrosio_V1" ID="{458599B9-3B75-45AD-8520-2B93175D4284}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_OS_LoudScream _06" ID="{545704C4-015F-4A93-B1CC-809A592E3C3F}" ShortID="595501221">
+										<Sound Name="Amb_OS_AcidBurnShort_01_Dambrosio_V1" ID="{75E44065-6ACF-450D-BB85-7E5D3B60AC6B}" ShortID="93389614">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -207,19 +191,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_LoudScream _06" ID="{C5D3EA01-CFC1-4A47-AB72-04D6830A7FC3}">
+												<AudioFileSource Name="Amb_OS_AcidBurnShort_01_Dambrosio_V1" ID="{BD4C05D3-71BD-49B5-AC59-CE99A49136EC}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_LoudScream _06.wav</AudioFile>
+													<AudioFile>Amb_OS_AcidBurnShort_01_Dambrosio_V1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="748597434"/>
+														<MediaID ID="593878152"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_LoudScream _06" ID="{C5D3EA01-CFC1-4A47-AB72-04D6830A7FC3}" Platform="Linked"/>
+												<ActiveSource Name="Amb_OS_AcidBurnShort_01_Dambrosio_V1" ID="{BD4C05D3-71BD-49B5-AC59-CE99A49136EC}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_OS_LoudScream _07" ID="{54DF1588-9CA8-4CEB-BDD2-A71F20556F55}" ShortID="239274388">
+										<Sound Name="Amb_OS_AcidBurn_02_Dambrosio_V1" ID="{500F748B-C0D1-4C16-81DC-1C5935B877C9}" ShortID="911326579">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -229,19 +213,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_LoudScream _07" ID="{BCFC8276-DA02-4D43-B297-A2519FC9C0BD}">
+												<AudioFileSource Name="Amb_OS_AcidBurn_02_Dambrosio_V1" ID="{1CEB690D-6312-48D6-B618-7B4D61BAC252}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_LoudScream _07.wav</AudioFile>
+													<AudioFile>Amb_OS_AcidBurn_02_Dambrosio_V1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="988609163"/>
+														<MediaID ID="47929116"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_LoudScream _07" ID="{BCFC8276-DA02-4D43-B297-A2519FC9C0BD}" Platform="Linked"/>
+												<ActiveSource Name="Amb_OS_AcidBurn_02_Dambrosio_V1" ID="{1CEB690D-6312-48D6-B618-7B4D61BAC252}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_OS_LoudScream _08" ID="{07A4ADB7-5939-443A-81B1-B36E71EA0939}" ShortID="15860117">
+										<Sound Name="Amb_OS_AcidBurnShort_04_Dambrosio_V1" ID="{01CE3FAD-A300-4F8B-B2DC-30F42F42D490}" ShortID="798222491">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -251,19 +235,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_LoudScream _08" ID="{50BCA40F-7CFD-45E6-B4F3-04558F5C7629}">
+												<AudioFileSource Name="Amb_OS_AcidBurnShort_04_Dambrosio_V1" ID="{38CB33EE-AB6E-402D-9D17-B39130590CC7}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_LoudScream _08.wav</AudioFile>
+													<AudioFile>Amb_OS_AcidBurnShort_04_Dambrosio_V1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="736490182"/>
+														<MediaID ID="1030970303"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_LoudScream _08" ID="{50BCA40F-7CFD-45E6-B4F3-04558F5C7629}" Platform="Linked"/>
+												<ActiveSource Name="Amb_OS_AcidBurnShort_04_Dambrosio_V1" ID="{38CB33EE-AB6E-402D-9D17-B39130590CC7}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_OS_LoudScream _09" ID="{EE0C1575-4499-4030-915D-02B39115728D}" ShortID="253976889">
+										<Sound Name="Amb_OS_AcidBurn_01_Dambrosio_V1" ID="{D933EF95-8BE0-461D-BF30-2E16556848C7}" ShortID="951241109">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -273,19 +257,48 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_LoudScream _09" ID="{3EB3023E-CDA2-48B7-852F-BBC5BE223942}">
+												<AudioFileSource Name="Amb_OS_AcidBurn_01_Dambrosio_V1" ID="{17F700BD-6B09-4D30-AD2B-057F95E58855}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_LoudScream _09.wav</AudioFile>
+													<AudioFile>Amb_OS_AcidBurn_01_Dambrosio_V1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="353570191"/>
+														<MediaID ID="645056266"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_LoudScream _09" ID="{3EB3023E-CDA2-48B7-852F-BBC5BE223942}" Platform="Linked"/>
+												<ActiveSource Name="Amb_OS_AcidBurn_01_Dambrosio_V1" ID="{17F700BD-6B09-4D30-AD2B-057F95E58855}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_OS_LoudScream _10" ID="{35EB61DE-7BE8-4B2A-AB57-026A33C9224A}" ShortID="536495330">
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="ChainSound_RND" ID="{B644B460-85DB-4B6D-9A11-91C63EC66632}" ShortID="762257326">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D596B4B1-C7A8-4A6E-856B-76D8ED8FAAC5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Amb_OS_ChainSound _01_Anger_V1" ID="{9EFB3FD2-8B0B-4AB0-8A3F-ADD04143EE1A}" ShortID="936497453">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -295,19 +308,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_LoudScream _10" ID="{6B128DE9-28E1-4D97-92AA-AA7720533B88}">
+												<AudioFileSource Name="Amb_OS_ChainSound _01_Anger_V1" ID="{3603005D-8280-4EC3-BD71-B1690D6F29B2}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_LoudScream _10.wav</AudioFile>
+													<AudioFile>Amb_OS_ChainSound _01_Anger_V1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="707667073"/>
+														<MediaID ID="119753742"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_LoudScream _10" ID="{6B128DE9-28E1-4D97-92AA-AA7720533B88}" Platform="Linked"/>
+												<ActiveSource Name="Amb_OS_ChainSound _01_Anger_V1" ID="{3603005D-8280-4EC3-BD71-B1690D6F29B2}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_OS_LoudScream _11" ID="{B109E8AA-0FA1-40EB-84A0-8E6AD79E677C}" ShortID="57179981">
+										<Sound Name="Amb_OS_ChainSound _02_Anger_V1" ID="{C04F5238-D5A1-4684-8494-F364AECF33C6}" ShortID="110614151">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -317,19 +330,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_LoudScream _11" ID="{1F3AEFE8-EE7D-49D9-906F-7568B9047047}">
+												<AudioFileSource Name="Amb_OS_ChainSound _02_Anger_V1" ID="{7B3C0789-130B-4A93-877F-7554644E70B5}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_LoudScream _11.wav</AudioFile>
+													<AudioFile>Amb_OS_ChainSound _02_Anger_V1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="873273895"/>
+														<MediaID ID="671214801"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_LoudScream _11" ID="{1F3AEFE8-EE7D-49D9-906F-7568B9047047}" Platform="Linked"/>
+												<ActiveSource Name="Amb_OS_ChainSound _02_Anger_V1" ID="{7B3C0789-130B-4A93-877F-7554644E70B5}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_OS_LoudScream _12" ID="{EF4706C6-97E6-4382-9EF8-6CC090A4EFCF}" ShortID="901843396">
+										<Sound Name="Amb_OS_ChainSound _03_Anger_V1" ID="{BD3F67F7-DD76-45C3-B6BE-E3357902B85E}" ShortID="725236504">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -339,38 +352,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_LoudScream _12" ID="{0C352CF6-1ED0-442C-B1A3-237359E06C13}">
+												<AudioFileSource Name="Amb_OS_ChainSound _03_Anger_V1" ID="{D22AEE84-8A59-48CA-817A-BB045B0835E7}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_LoudScream _12.wav</AudioFile>
+													<AudioFile>Amb_OS_ChainSound _03_Anger_V1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="182136846"/>
+														<MediaID ID="825854171"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_LoudScream _12" ID="{0C352CF6-1ED0-442C-B1A3-237359E06C13}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_OS_LoudScream _01" ID="{6F34E494-1CE0-4F54-885B-6F9A656F9CAF}" ShortID="90836029">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_LoudScream _01" ID="{A1BCEDFB-E29B-4DF1-8845-BC2000E89A2D}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_OS_LoudScream _01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="879665187"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_LoudScream _01" ID="{A1BCEDFB-E29B-4DF1-8845-BC2000E89A2D}" Platform="Linked"/>
+												<ActiveSource Name="Amb_OS_ChainSound _03_Anger_V1" ID="{D22AEE84-8A59-48CA-817A-BB045B0835E7}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -411,6 +402,7 @@
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
 											<ModifierList>
@@ -418,8 +410,7 @@
 													<Modifier Name="" ID="{6E93C5E7-0367-4DF8-8806-4811EF9E0C64}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="5"/>
-															<Property Name="Min" Type="Real64" Value="-3"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -464,8 +455,35 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 										</Reference>
 									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="MetalSlam_RND" ID="{F1C49D9A-41E7-4476-B1B2-8AB89EB131C8}" ShortID="274968258">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{26613D89-2366-45E7-9E43-CD56BE949469}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Amb_OS_DoorSlam _05" ID="{33D3CFC1-1684-4D05-AD96-51AF1997462E}" ShortID="167223236">
+										<Sound Name="Amb_OS_MetalSlam _01_Anger_V2" ID="{022ECF86-4806-4D17-AD02-9E17512B50D7}" ShortID="222812411">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -475,19 +493,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_DoorSlam _05" ID="{AD0C29B5-D16E-4764-A8B8-ACE72B2ECADF}">
+												<AudioFileSource Name="Amb_OS_MetalSlam _01_Anger_V2" ID="{481D55E4-048A-49E1-BBC8-F6520193A9B1}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_DoorSlam _05.wav</AudioFile>
+													<AudioFile>Amb_OS_MetalSlam _01_Anger_V2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="907402912"/>
+														<MediaID ID="54927575"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_DoorSlam _05" ID="{AD0C29B5-D16E-4764-A8B8-ACE72B2ECADF}" Platform="Linked"/>
+												<ActiveSource Name="Amb_OS_MetalSlam _01_Anger_V2" ID="{481D55E4-048A-49E1-BBC8-F6520193A9B1}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_OS_DoorSlam _06" ID="{FF31171A-CB4E-47DE-8A5D-189DA6B62C39}" ShortID="167903210">
+										<Sound Name="Amb_OS_MetalSlam _02_Anger_V2" ID="{A24BE83E-27F9-4FBE-B9AE-BB4651A750A0}" ShortID="137699518">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -497,19 +515,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_DoorSlam _06" ID="{4312FC8E-1C09-49AF-93FB-490D28D8C179}">
+												<AudioFileSource Name="Amb_OS_MetalSlam _02_Anger_V2" ID="{2F0A2E14-8F25-493D-B29A-EF1891960FF7}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_DoorSlam _06.wav</AudioFile>
+													<AudioFile>Amb_OS_MetalSlam _02_Anger_V2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="524224611"/>
+														<MediaID ID="332065101"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_DoorSlam _06" ID="{4312FC8E-1C09-49AF-93FB-490D28D8C179}" Platform="Linked"/>
+												<ActiveSource Name="Amb_OS_MetalSlam _02_Anger_V2" ID="{2F0A2E14-8F25-493D-B29A-EF1891960FF7}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_OS_DoorSlam_01" ID="{FF7074E6-88CC-4F4D-A6B8-B64FD7A88B1D}" ShortID="782452897">
+										<Sound Name="Amb_OS_MetalSlam _03_Anger_V2" ID="{702A8F79-EE0B-490E-B778-75A559633D45}" ShortID="285171723">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -519,19 +537,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_DoorSlam_01" ID="{7ECA9BA9-498A-4701-B01F-785A9D50BD6E}">
+												<AudioFileSource Name="Amb_OS_MetalSlam _03_Anger_V2" ID="{C81AE53C-783D-45E9-B165-C5450CC8D1B9}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_DoorSlam_01.wav</AudioFile>
+													<AudioFile>Amb_OS_MetalSlam _03_Anger_V2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="387141477"/>
+														<MediaID ID="153514516"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_DoorSlam_01" ID="{7ECA9BA9-498A-4701-B01F-785A9D50BD6E}" Platform="Linked"/>
+												<ActiveSource Name="Amb_OS_MetalSlam _03_Anger_V2" ID="{C81AE53C-783D-45E9-B165-C5450CC8D1B9}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_OS_DoorSlam_02" ID="{D07B0E5C-D79F-4BCA-B785-9798A21CBE33}" ShortID="482802342">
+										<Sound Name="Amb_OS_MetalSlam _04_Anger_V2" ID="{B27C7DBF-7CFF-4D76-835D-7E287B29A78F}" ShortID="942530121">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -541,77 +559,33 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_DoorSlam_02" ID="{B42C9298-EAD3-4CB5-9A21-F68A1F33A488}">
+												<AudioFileSource Name="Amb_OS_MetalSlam _04_Anger_V2" ID="{DFD9A49C-BF7C-4733-9A7C-2B487550A9CF}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_DoorSlam_02.wav</AudioFile>
+													<AudioFile>Amb_OS_MetalSlam _04_Anger_V2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="429651683"/>
+														<MediaID ID="225568473"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_DoorSlam_02" ID="{B42C9298-EAD3-4CB5-9A21-F68A1F33A488}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_OS_DoorSlam_03" ID="{1AA58E2C-1103-470E-8064-C0BB954A7B98}" ShortID="195705499">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_DoorSlam_03" ID="{ABA65524-3C91-4C03-8A68-6ACC010C63F2}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_OS_DoorSlam_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="29011749"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_DoorSlam_03" ID="{ABA65524-3C91-4C03-8A68-6ACC010C63F2}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_OS_DoorSlam_04" ID="{E5F49137-92BC-4883-A1E2-EEE3410D8C8C}" ShortID="760566981">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_DoorSlam_04" ID="{AE8A0C10-9C63-43ED-AC51-99AB37F127C1}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_OS_DoorSlam_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="445475103"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_DoorSlam_04" ID="{AE8A0C10-9C63-43ED-AC51-99AB37F127C1}" Platform="Linked"/>
+												<ActiveSource Name="Amb_OS_MetalSlam _04_Anger_V2" ID="{DFD9A49C-BF7C-4733-9A7C-2B487550A9CF}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SmallAnimalRunAway_RND" ID="{41562958-9F6B-4F92-B84C-7096AD1DB366}" ShortID="919790729">
+								<RandomSequenceContainer Name="Loud_Scream_RND" ID="{60FE3C75-0EBD-447E-BA4F-7D3310EE574B}" ShortID="139695534">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 										<Property Name="Lowpass" Type="int16">
 											<RTPCList>
-												<RTPC Name="" ID="{C52C0292-B821-4893-AE21-E63501475292}" ShortID="725504709">
+												<RTPC Name="" ID="{B171F584-066E-475F-A5E8-3E4F4710114C}" ShortID="393721428">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="Distance" ID="{C1FB3B6B-0CEC-4F98-9EE2-487C8123E3DE}" WorkUnitID="{97B50114-DA2D-4E1B-B386-76C5B2E5F457}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{83004EB9-0EBE-4B79-B0B5-4F8E19FA1E5B}">
+													<Curve Name="" ID="{987CF2BD-02B6-47CE-941E-75C4404A7DFB}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
@@ -635,23 +609,38 @@
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{181C6F7A-81A1-4806-A10A-28458FAE4FA5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
-												<RTPC Name="" ID="{5EA4148D-AD2D-45C6-B986-388A31D7DB55}" ShortID="787692357">
+												<RTPC Name="" ID="{2A6E088F-FE12-44AF-9857-ADEEBBFF0778}" ShortID="757758935">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="Distance" ID="{C1FB3B6B-0CEC-4F98-9EE2-487C8123E3DE}" WorkUnitID="{97B50114-DA2D-4E1B-B386-76C5B2E5F457}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{0013644B-2332-420A-9D68-0301685A387E}">
+													<Curve Name="" ID="{ABC930ED-1939-4FEB-85A2-505ABFD11E5D}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
@@ -673,8 +662,35 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 										</Reference>
 									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Metal_Crackles_RND" ID="{364ED687-95EA-4B71-B87C-1EF52D551685}" ShortID="118967555">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{94809790-583D-42AB-B7B6-A32307200A63}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Amb_OS_SmallAnimalRunAway _01" ID="{A5E16B9B-651F-4117-9EDE-B45F8E7094C0}" ShortID="65724424">
+										<Sound Name="Amb_LP_MetalCrackles_04_Anger_V1" ID="{0B71CCEA-25AD-4251-A7B4-1AF716A10DD0}" ShortID="844402220">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -684,19 +700,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_SmallAnimalRunAway _01" ID="{AD3DDF62-7D30-445B-BBAC-9196DA7754F7}">
+												<AudioFileSource Name="Amb_LP_MetalCrackles_04_Anger_V1" ID="{85E361F7-E452-4E01-9219-6EBCE5AC673C}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_SmallAnimalRunAway _01.wav</AudioFile>
+													<AudioFile>Amb_LP_MetalCrackles_04_Anger_V1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="170655483"/>
+														<MediaID ID="167263208"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_SmallAnimalRunAway _01" ID="{AD3DDF62-7D30-445B-BBAC-9196DA7754F7}" Platform="Linked"/>
+												<ActiveSource Name="Amb_LP_MetalCrackles_04_Anger_V1" ID="{85E361F7-E452-4E01-9219-6EBCE5AC673C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_OS_SmallAnimalRunAway _02" ID="{129FA54D-4212-4E1B-99A4-16B69DA2027F}" ShortID="266628153">
+										<Sound Name="Amb_LP_MetalCrackles_06_Anger_V1" ID="{905D645D-2CBD-41A1-856F-85A626913529}" ShortID="904465222">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -706,19 +722,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_SmallAnimalRunAway _02" ID="{7AEEC974-29D4-48E6-AACB-B760C20A378A}">
+												<AudioFileSource Name="Amb_LP_MetalCrackles_06_Anger_V1" ID="{A63F1148-9B0F-4278-B8BF-F4C3311A33D0}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_SmallAnimalRunAway _02.wav</AudioFile>
+													<AudioFile>Amb_LP_MetalCrackles_06_Anger_V1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="774929472"/>
+														<MediaID ID="459003642"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_SmallAnimalRunAway _02" ID="{7AEEC974-29D4-48E6-AACB-B760C20A378A}" Platform="Linked"/>
+												<ActiveSource Name="Amb_LP_MetalCrackles_06_Anger_V1" ID="{A63F1148-9B0F-4278-B8BF-F4C3311A33D0}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_OS_SmallAnimalRunAway _03" ID="{E2BFFAF4-5DEA-49A0-9AD1-77BAC3E6AF14}" ShortID="607114784">
+										<Sound Name="Amb_LP_MetalCrackles_01_Anger_V1" ID="{6A59B284-73C0-46A1-ADBF-C7361F71AA45}" ShortID="1036855471">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -728,16 +744,228 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_SmallAnimalRunAway _03" ID="{57BA0899-FD52-48AD-9E45-E591232B020E}">
+												<AudioFileSource Name="Amb_LP_MetalCrackles_01_Anger_V1" ID="{750D459F-D1B9-4589-B11A-12C21D48A3C0}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_OS_SmallAnimalRunAway _03.wav</AudioFile>
+													<AudioFile>Amb_LP_MetalCrackles_01_Anger_V1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1026635698"/>
+														<MediaID ID="292745445"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_SmallAnimalRunAway _03" ID="{57BA0899-FD52-48AD-9E45-E591232B020E}" Platform="Linked"/>
+												<ActiveSource Name="Amb_LP_MetalCrackles_01_Anger_V1" ID="{750D459F-D1B9-4589-B11A-12C21D48A3C0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Amb_LP_MetalCrackles_03_Anger_V1" ID="{6BA8D266-4DE5-4335-B2BC-51CFFC410386}" ShortID="924691767">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_LP_MetalCrackles_03_Anger_V1" ID="{492C5604-EC83-4236-8BB7-05921B2DA276}">
+													<Language>SFX</Language>
+													<AudioFile>Amb_LP_MetalCrackles_03_Anger_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="600171906"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_LP_MetalCrackles_03_Anger_V1" ID="{492C5604-EC83-4236-8BB7-05921B2DA276}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="WoodWork_RND" ID="{EBA4BCB9-0BD4-41CC-9BC1-188126B6A9A8}" ShortID="431533743">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5A7E0A59-B170-439C-B5B1-F77852609CAD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Amb_OS_WoodWork _02_Anger_V1" ID="{1B8D6B9B-61D2-4561-9291-205B2A3757D3}" ShortID="462518795">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_OS_WoodWork _02_Anger_V1" ID="{CD4362BA-4328-4FBA-AF4A-300FAE9962DB}">
+													<Language>SFX</Language>
+													<AudioFile>Amb_OS_WoodWork _02_Anger_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="393276479"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_OS_WoodWork _02_Anger_V1" ID="{CD4362BA-4328-4FBA-AF4A-300FAE9962DB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Amb_OS_WoodWork _01_Anger_V1" ID="{CA7A0ED2-70D0-48D3-8F10-2BBE6200AF13}" ShortID="559854562">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_OS_WoodWork _01_Anger_V1" ID="{D07271A2-6028-4A8F-9FA9-0C46DF962850}">
+													<Language>SFX</Language>
+													<AudioFile>Amb_OS_WoodWork _01_Anger_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="638264367"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_OS_WoodWork _01_Anger_V1" ID="{D07271A2-6028-4A8F-9FA9-0C46DF962850}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Amb_OS_WoodWork _07_Anger_V1" ID="{4EC622FF-1CA2-4006-B757-C9F6AD4FAB61}" ShortID="366871737">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_OS_WoodWork _07_Anger_V1" ID="{6D432086-2FE5-4127-B160-918555EBD4B2}">
+													<Language>SFX</Language>
+													<AudioFile>Amb_OS_WoodWork _07_Anger_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1034064840"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_OS_WoodWork _07_Anger_V1" ID="{6D432086-2FE5-4127-B160-918555EBD4B2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="WallCrackle_RND" ID="{E7DA4AFB-1932-4055-85E2-7A0475840297}" ShortID="1030350763">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{05ED4E3F-C43C-49B6-82A2-5D8BD05EDF02}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Amb_OS_WallCrackle _06_Anger_V1" ID="{65CB6D9C-82A1-4FB2-A2ED-991D82DD95F1}" ShortID="101168031">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_OS_WallCrackle _06_Anger_V1" ID="{D4EF2769-B4CC-4F94-9133-893B21DBB23E}">
+													<Language>SFX</Language>
+													<AudioFile>Amb_OS_WallCrackle _06_Anger_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="117484169"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_OS_WallCrackle _06_Anger_V1" ID="{D4EF2769-B4CC-4F94-9133-893B21DBB23E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Amb_OS_WallCrackle _01_Anger_V1" ID="{369CCBB7-1D35-475D-B1B5-50374F0C97E4}" ShortID="947307292">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_OS_WallCrackle _01_Anger_V1" ID="{59892B9B-3168-445C-A2AF-3333695F9D1D}">
+													<Language>SFX</Language>
+													<AudioFile>Amb_OS_WallCrackle _01_Anger_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="110744945"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_OS_WallCrackle _01_Anger_V1" ID="{59892B9B-3168-445C-A2AF-3333695F9D1D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Amb_OS_WallCrackle _04_Anger_V1" ID="{2D1238F0-7B05-4901-ABE3-C817ECC29735}" ShortID="581495760">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_OS_WallCrackle _04_Anger_V1" ID="{2BCAD727-AA4E-4E6B-A575-BCF7C3779FDD}">
+													<Language>SFX</Language>
+													<AudioFile>Amb_OS_WallCrackle _04_Anger_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="684720242"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_OS_WallCrackle _04_Anger_V1" ID="{2BCAD727-AA4E-4E6B-A575-BCF7C3779FDD}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -778,6 +1006,20 @@
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B0C8405E-B0F7-45BD-945D-A69EF318322A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
@@ -816,53 +1058,118 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 										</Reference>
 									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Amb_OS_SmallAnimalRunOnPipe _01" ID="{68B83111-BE50-4BB2-9453-F10B3B04F073}" ShortID="583917011">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_SmallAnimalRunOnPipe _01" ID="{5C5BE420-5403-44EB-956D-96375516C694}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_OS_SmallAnimalRunOnPipe _01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="915234838"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_SmallAnimalRunOnPipe _01" ID="{5C5BE420-5403-44EB-956D-96375516C694}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_OS_SmallAnimalRunOnPipe _02" ID="{B92AAA4D-0AB2-47D0-AB96-439CCAEEBD46}" ShortID="31633020">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_OS_SmallAnimalRunOnPipe _02" ID="{323B12FE-28C9-418D-93BF-177C5F6CC221}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_OS_SmallAnimalRunOnPipe _02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="886354470"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_OS_SmallAnimalRunOnPipe _02" ID="{323B12FE-28C9-418D-93BF-177C5F6CC221}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SmallAnimalRunAway_RND" ID="{41562958-9F6B-4F92-B84C-7096AD1DB366}" ShortID="919790729">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{C52C0292-B821-4893-AE21-E63501475292}" ShortID="725504709">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance" ID="{C1FB3B6B-0CEC-4F98-9EE2-487C8123E3DE}" WorkUnitID="{97B50114-DA2D-4E1B-B386-76C5B2E5F457}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{83004EB9-0EBE-4B79-B0B5-4F8E19FA1E5B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-100</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>50</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5E2F1EA7-3778-422D-B60F-5109F5C89F66}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{5EA4148D-AD2D-45C6-B986-388A31D7DB55}" ShortID="787692357">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance" ID="{C1FB3B6B-0CEC-4F98-9EE2-487C8123E3DE}" WorkUnitID="{97B50114-DA2D-4E1B-B386-76C5B2E5F457}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{0013644B-2332-420A-9D68-0301685A387E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>50</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<Sound Name="Amb_LP_Generalambient_03_Anger_V1" ID="{97CE94F7-B051-42A7-B3D3-D7B87F8E3921}" ShortID="582380332">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_LP_Generalambient_03_Anger_V1" ID="{283EF41F-F65F-4965-9F1B-720DA71AC7A2}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_LP_Generalambient_03_Anger_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="630403641"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_LP_Generalambient_03_Anger_V1" ID="{283EF41F-F65F-4965-9F1B-720DA71AC7A2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
