@@ -16,7 +16,6 @@
 						<State Name="snail_idle_state" ID="{0FA01A6A-8402-4707-8D0C-DB4F741AC1D1}"/>
 						<State Name="snail_forward_state" ID="{DDC224E8-4B12-4DFB-B007-7F5676DE062C}"/>
 						<State Name="snail_explosion_state" ID="{EAE40543-B022-4A55-A67E-4A6512A247C4}"/>
-						<State Name="snail_death" ID="{E7085303-A007-435C-A18D-58D9FBFBE903}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
@@ -35,24 +34,6 @@
 							<StartState Name="snail_forward_state" ID="{DDC224E8-4B12-4DFB-B007-7F5676DE062C}"/>
 							<EndState Name="snail_explosion_state" ID="{EAE40543-B022-4A55-A67E-4A6512A247C4}"/>
 							<Time>0</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="snail_explosion_state" ID="{EAE40543-B022-4A55-A67E-4A6512A247C4}"/>
-							<EndState Name="snail_death" ID="{E7085303-A007-435C-A18D-58D9FBFBE903}"/>
-							<Time>0.5</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="snail_idle_state" ID="{0FA01A6A-8402-4707-8D0C-DB4F741AC1D1}"/>
-							<EndState Name="snail_death" ID="{E7085303-A007-435C-A18D-58D9FBFBE903}"/>
-							<Time>0.5</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="snail_forward_state" ID="{DDC224E8-4B12-4DFB-B007-7F5676DE062C}"/>
-							<EndState Name="snail_death" ID="{E7085303-A007-435C-A18D-58D9FBFBE903}"/>
-							<Time>0.5</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 					</TransitionList>

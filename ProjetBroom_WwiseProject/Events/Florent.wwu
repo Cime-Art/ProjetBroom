@@ -7,12 +7,34 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="play_snail" ID="{447A310E-962E-4F21-97B5-3BDEF6DA9439}">
+				<Event Name="event_play_snail" ID="{447A310E-962E-4F21-97B5-3BDEF6DA9439}">
 					<ChildrenList>
 						<Action Name="" ID="{1542EAD9-DC5C-42BE-A77B-EE7B9748CF96}" ShortID="781241767">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="snail_sw" ID="{9755276C-D2F5-4D9F-BF19-93760A3986D9}" WorkUnitID="{17FB5FE7-E556-4A0B-978E-F7F55D12C984}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="event_play_snailDeath" ID="{F375802B-63B1-4AD9-BD48-A191325A7355}">
+					<ChildrenList>
+						<Action Name="" ID="{008749A4-A684-4B94-B767-EEB2A4D642FB}" ShortID="961388084">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="death_rnd" ID="{AFBABF7A-A6D3-4980-A0D5-C4E45F7DF209}" WorkUnitID="{17FB5FE7-E556-4A0B-978E-F7F55D12C984}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="event_play_snailGethit" ID="{F7FBC086-DAA1-4334-AB5E-EC3F0BCC489B}">
+					<ChildrenList>
+						<Action Name="" ID="{E1F26936-7227-4732-A413-8EB7807A44AB}" ShortID="254737494">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="getHit_rnd" ID="{5C32D8E5-71A9-4EAC-92F5-571C0854DDFF}" WorkUnitID="{17FB5FE7-E556-4A0B-978E-F7F55D12C984}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
