@@ -10,7 +10,7 @@
 								<Action Name="" ID="{BC91D691-BE92-4134-9B2F-AAFF22DF4A67}" ShortID="560509262">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{074C587C-9786-4A1D-8480-46445469E684}" WorkUnitID="{4631E6A9-5317-499D-A33D-7671303C8598}"/>
+											<ObjectRef Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{D313F4AC-0C98-44F7-9D2E-BBEA77F00847}" WorkUnitID="{4631E6A9-5317-499D-A33D-7671303C8598}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -21,7 +21,7 @@
 								<Action Name="" ID="{0E7444F1-A983-46E9-A9E7-138348C20227}" ShortID="613772020">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_OS_CancelMenu_Pelloux_V1" ID="{8EE6B83B-ED22-4997-B173-39112525A3C7}" WorkUnitID="{4631E6A9-5317-499D-A33D-7671303C8598}"/>
+											<ObjectRef Name="UI_OS_CancelMenu_Pelloux_V1" ID="{8D83C7CA-58B7-4E4C-B4D5-412C7C8EE7C9}" WorkUnitID="{4631E6A9-5317-499D-A33D-7671303C8598}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -32,7 +32,7 @@
 								<Action Name="" ID="{91CE7C97-AA0B-4CE8-BF4C-C2A8BE0938F7}" ShortID="888084238">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_OS_SelectMenu_Pelloux_V1" ID="{8D8E79D3-9A9C-4273-B6CF-8F97B1D88D07}" WorkUnitID="{4631E6A9-5317-499D-A33D-7671303C8598}"/>
+											<ObjectRef Name="UI_OS_SelectMenu_Pelloux_V1" ID="{68089EE4-B016-4BD3-866E-7C1CC3896915}" WorkUnitID="{4631E6A9-5317-499D-A33D-7671303C8598}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

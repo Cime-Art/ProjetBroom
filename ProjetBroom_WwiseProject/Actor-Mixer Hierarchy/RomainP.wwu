@@ -1,6 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4631E6A9-5317-499D-A33D-7671303C8598}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="RomainP" ID="{4631E6A9-5317-499D-A33D-7671303C8598}" PersistMode="Standalone"/>
+		<WorkUnit Name="RomainP" ID="{4631E6A9-5317-499D-A33D-7671303C8598}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="UI" ID="{EF12E330-49B5-4F88-9634-3D187AF79953}" ShortID="908792133">
+					<ChildrenList>
+						<ActorMixer Name="UI_Mixer" ID="{26587E3E-7B76-4177-BB9C-1737C0C208DB}" ShortID="1069732912">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="UI_OS_CancelMenu_Pelloux_V1" ID="{8D83C7CA-58B7-4E4C-B4D5-412C7C8EE7C9}" ShortID="968799979">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OS_CancelMenu_Pelloux_V1" ID="{A22B2BC1-7165-48A6-A1F3-2AD8148D75F8}">
+											<Language>SFX</Language>
+											<AudioFile>UI_OS_CancelMenu_Pelloux_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="165636784"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OS_CancelMenu_Pelloux_V1" ID="{A22B2BC1-7165-48A6-A1F3-2AD8148D75F8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{D313F4AC-0C98-44F7-9D2E-BBEA77F00847}" ShortID="190411333">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{607F25BB-C3E0-42E6-A47D-1FE1E52AFD38}">
+											<Language>SFX</Language>
+											<AudioFile>UI_OS_ConfirmMenu_Pelloux_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="423599221"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{607F25BB-C3E0-42E6-A47D-1FE1E52AFD38}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI_OS_PauseNegative_Pelloux_V1" ID="{18DE66D1-D29A-4452-A2E7-1D7B0458AD45}" ShortID="462141962">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OS_PauseNegative_Pelloux_V1" ID="{72492E5D-0259-4CBA-8D2A-3AAA6B1119E5}">
+											<Language>SFX</Language>
+											<AudioFile>UI_OS_PauseNegative_Pelloux_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587935516"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OS_PauseNegative_Pelloux_V1" ID="{72492E5D-0259-4CBA-8D2A-3AAA6B1119E5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI_OS_PausePositive_Pelloux_V1" ID="{ED542CE8-FC77-454A-A629-FAE1AC1C3CCB}" ShortID="1014642155">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OS_PausePositive_Pelloux_V1" ID="{E2AA184B-20FB-4C14-A394-C30579465C1B}">
+											<Language>SFX</Language>
+											<AudioFile>UI_OS_PausePositive_Pelloux_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="590140872"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OS_PausePositive_Pelloux_V1" ID="{E2AA184B-20FB-4C14-A394-C30579465C1B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI_OS_SelectMenu_Pelloux_V1" ID="{68089EE4-B016-4BD3-866E-7C1CC3896915}" ShortID="370672208">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OS_SelectMenu_Pelloux_V1" ID="{8BB23BEB-C54B-4C7E-A4D6-F1DB83C47E6F}">
+											<Language>SFX</Language>
+											<AudioFile>UI_OS_SelectMenu_Pelloux_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1058332340"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OS_SelectMenu_Pelloux_V1" ID="{8BB23BEB-C54B-4C7E-A4D6-F1DB83C47E6F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
