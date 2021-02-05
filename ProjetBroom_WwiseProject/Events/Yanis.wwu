@@ -132,6 +132,111 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Player" ID="{D1FED1C5-BBFA-4B91-8B9C-B34C5481E712}" ShortID="216071867">
+					<ChildrenList>
+						<Event Name="Play_Dash" ID="{41628044-E4DB-4E56-96EF-9CECD74D9D80}">
+							<ChildrenList>
+								<Action Name="" ID="{3478A5CD-8FA7-49EB-B77A-071A9FA8FD2E}" ShortID="863104267">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dash_RND" ID="{3D547C53-CD14-4F7A-A2E5-0A29A00C85B2}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Jump" ID="{07F8A0D8-E6CC-4A11-A15E-7F382C9FAAD5}">
+							<ChildrenList>
+								<Action Name="" ID="{D94EB1F4-1878-4EEF-AA2F-15D3592E3501}" ShortID="587896722">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump_SQ" ID="{8E013E34-7DFE-4B81-BB84-E228CD35BB7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_ClimbLadder" ID="{3139DFA7-6389-4007-BB77-3BE669ACD606}">
+							<ChildrenList>
+								<Action Name="" ID="{25456B03-A395-4F80-BA86-4462EDB3130A}" ShortID="836402880">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PLAYER_OS_CLIMBLADDERS_01_LAURIER_V1" ID="{2E0C57C2-3507-424D-ADCF-4DAB32FA7B65}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Idle" ID="{CB8DC4C0-96BA-4838-B420-5149EA7EAA09}">
+							<ChildrenList>
+								<Action Name="" ID="{FAA02C51-DE3D-4F1B-BF47-556254FDE302}" ShortID="187181950">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Idle" ID="{C50F110B-9788-42D2-80FA-A68BF506F8E8}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Run" ID="{46EDAF78-E06E-47DE-B6A7-AFBB61BE04F5}">
+							<ChildrenList>
+								<Action Name="" ID="{7AF04FF4-9E55-433F-BBE8-F81F7A48D7B4}" ShortID="983662375">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Run_Switch" ID="{2F9E30AE-1D2F-4559-9590-9E461169FCDC}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Walk" ID="{E30DE647-2691-4369-8F15-05806ADA0796}">
+							<ChildrenList>
+								<Action Name="" ID="{190C7648-0528-4098-8659-9F677E747F82}" ShortID="619844143">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Walk_Switch" ID="{BE3A9EBE-D515-4AAE-8A31-DAD1A0862DE1}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Death" ID="{656B2557-33C8-42F4-8BDC-520AFFE31F0E}"/>
+						<Event Name="Play_Gethit" ID="{C12665ED-6430-43A0-8125-DF6C7B8DF933}"/>
+						<Event Name="Play_HorizontalAttack" ID="{A52327C4-DFD7-4B97-958A-B03467060263}">
+							<ChildrenList>
+								<Action Name="" ID="{C3C43A77-534B-422D-A211-A56FA1BF9F65}" ShortID="437744594">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Horizontal_Attack_RND" ID="{1AE310C8-BDC4-47CD-97D7-606F0CFD2717}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Land" ID="{67453AF6-FD7B-4896-B17B-31F1BF8CFFDF}">
+							<ChildrenList>
+								<Action Name="" ID="{F3BEE11F-EB57-40B1-8EA6-B46C45DB22D1}" ShortID="1021558581">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Land_Switch" ID="{C97CF8B8-982A-4F0B-800E-990720D44C76}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_VerticalAttack" ID="{56CEEBA7-A531-4335-864F-9A43442F20F6}">
+							<ChildrenList>
+								<Action Name="" ID="{BB38A4EF-286B-4C55-B9DA-6F4A8E69C8B1}" ShortID="891465832">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Vertical_Attack_RND" ID="{FB3A1F31-3E07-44D1-ACBB-AD944DE5592B}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
