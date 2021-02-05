@@ -26,6 +26,43 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="Metal_Creaking_RND" ID="{1D249B9E-E9A2-49A0-812A-F55DFD48A3C8}" ShortID="683340629">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5709387F-611C-481A-9AD9-746C8C61A2CB}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C187A26D-6EFD-4FAB-BE7E-B412BEEFC31E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -34,8 +71,150 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="OS_Squeak-005" ID="{0AFDCC89-89E6-4968-A522-3E33D7B032A3}" ShortID="633207603">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_Squeak-005" ID="{3E46B495-746F-433C-AD7C-3B6341FDB635}">
+															<Language>SFX</Language>
+															<AudioFile>OS_Squeak-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="509265307"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_Squeak-005" ID="{3E46B495-746F-433C-AD7C-3B6341FDB635}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_Squeak-006" ID="{20CE13A7-85F0-4F16-9D91-128A8B7A263E}" ShortID="1012951709">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_Squeak-006" ID="{E1A352B8-07BF-49B9-8F59-ED3A1E5C34F6}">
+															<Language>SFX</Language>
+															<AudioFile>OS_Squeak-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="852849635"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_Squeak-006" ID="{E1A352B8-07BF-49B9-8F59-ED3A1E5C34F6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_Squeak-007" ID="{4C66D0DD-E898-49DC-A45C-0C950E46F248}" ShortID="197806583">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_Squeak-007" ID="{11D69A50-CE88-4B97-894A-5FAD24400445}">
+															<Language>SFX</Language>
+															<AudioFile>OS_Squeak-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="383540625"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_Squeak-007" ID="{11D69A50-CE88-4B97-894A-5FAD24400445}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_Squeak-008" ID="{AB628266-EBBB-458C-945A-7EF5E89C33F7}" ShortID="285758274">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_Squeak-008" ID="{AF9D924F-12F2-47E7-B183-1D67C1F33B2A}">
+															<Language>SFX</Language>
+															<AudioFile>OS_Squeak-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="5703124"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_Squeak-008" ID="{AF9D924F-12F2-47E7-B183-1D67C1F33B2A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_Squeak-009" ID="{9E8E2C48-A0E9-4764-A615-D909D65BF15F}" ShortID="357217176">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_Squeak-009" ID="{9D33B6EE-D50F-4366-8A23-C8311D89609F}">
+															<Language>SFX</Language>
+															<AudioFile>OS_Squeak-009.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1046127105"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_Squeak-009" ID="{9D33B6EE-D50F-4366-8A23-C8311D89609F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_Squeak-010" ID="{57824C7D-BCEE-4FD0-82C3-2C1A749A1F5B}" ShortID="928231913">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_Squeak-010" ID="{BBF5EC71-1CFC-4825-8DBA-B3F2B6B77004}">
+															<Language>SFX</Language>
+															<AudioFile>OS_Squeak-010.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="745662056"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_Squeak-010" ID="{BBF5EC71-1CFC-4825-8DBA-B3F2B6B77004}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<Sound Name="rattle_gear_LP" ID="{E88C8AAB-9D7C-45FB-88AE-DD13A8B6A8FF}" ShortID="778745351">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -44,6 +223,18 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LP_Moving_platform_rattle_v2" ID="{DBBA6900-C780-4E27-B0DE-27DF9ABEE082}">
+													<Language>SFX</Language>
+													<AudioFile>LP_Moving_platform_rattle_v2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="988802551"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="LP_Moving_platform_rattle_v2" ID="{DBBA6900-C780-4E27-B0DE-27DF9ABEE082}" Platform="Linked"/>
+											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Base_metal_LP" ID="{CAA23BF8-2CD9-486E-97C2-D4AE9043F790}" ShortID="76127026">
 											<ReferenceList>

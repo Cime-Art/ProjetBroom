@@ -53,6 +53,83 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Acid" ID="{28BACA49-E159-4A48-8251-AC23F8D1DFCB}">
+							<ChildrenList>
+								<Action Name="" ID="{04D35E2E-14F6-4C8D-8D77-9198EFD5F1EF}" ShortID="861996591">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Acid_Blend" ID="{F763EA5F-C91F-45DC-B589-B05AD6652766}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MetalCrackle" ID="{2A114124-982D-4C23-B701-56AC6487DBFD}">
+							<ChildrenList>
+								<Action Name="" ID="{B16113A0-6E1F-4D4B-A364-81DE871C3805}" ShortID="810892003">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Metal_Crackles_RND" ID="{364ED687-95EA-4B71-B87C-1EF52D551685}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MetalSlam" ID="{BF21997B-00E1-4508-B929-8E295A3D1D30}">
+							<ChildrenList>
+								<Action Name="" ID="{7B717D3F-B7D6-4D9D-B57F-38DBFB4AF007}" ShortID="241938184">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MetalSlam_RND" ID="{F1C49D9A-41E7-4476-B1B2-8AB89EB131C8}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_WallCrackle" ID="{43B268DE-2A0B-4969-9D6F-722CB78E6487}">
+							<ChildrenList>
+								<Action Name="" ID="{C633BDBA-7446-4623-AEE5-D3AD2D4C9728}" ShortID="448839089">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WallCrackle_RND" ID="{E7DA4AFB-1932-4055-85E2-7A0475840297}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_WoodWork" ID="{38A15D2C-308B-45D4-A28D-601193FCB594}">
+							<ChildrenList>
+								<Action Name="" ID="{DDDD0700-D3F6-49B3-A138-C34F0B6DB4F5}" ShortID="640377559">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WoodWork_RND" ID="{EBA4BCB9-0BD4-41CC-9BC1-188126B6A9A8}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_GeneralAmbient" ID="{72B96B9B-72FE-4BF4-85CD-6A50426EABA5}">
+							<ChildrenList>
+								<Action Name="" ID="{6D0B3C9B-6853-4AED-A3D6-EB09E62F1ACC}" ShortID="978526039">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_LP_Generalambient_03_Anger_V1" ID="{97CE94F7-B051-42A7-B3D3-D7B87F8E3921}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PLay_DropOfBlood" ID="{880FC5AA-B52B-4D12-9EF4-D3C8DE6D3B1B}">
+							<ChildrenList>
+								<Action Name="" ID="{816F87E7-7F6E-404E-BB3E-60FD066DA659}" ShortID="587406532">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_OS_DropOfBlood _03_Anger_V2" ID="{BE89027B-3726-44F5-B36C-A523182AABD1}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
