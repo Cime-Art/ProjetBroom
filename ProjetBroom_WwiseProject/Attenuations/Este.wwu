@@ -9,7 +9,7 @@
 			<ChildrenList>
 				<Attenuation Name="Boiler_Att" ID="{85D9B5E7-C0D4-4020-A345-835D9B4FEB01}" ShortID="259471978">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="1800"/>
+						<Property Name="RadiusMax" Type="Real64" Value="1500"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -25,7 +25,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>1800</XPos>
+											<XPos>1500</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
