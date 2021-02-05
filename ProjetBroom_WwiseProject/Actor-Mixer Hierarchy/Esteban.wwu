@@ -353,7 +353,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_OS_FireBoiler_01_THOMAS_V1" ID="{1F01FA1C-9B18-4CC7-ACA4-1F369E38C2C6}" ShortID="804497372">
+										<Sound Name="SFX_OS_FireBoiler_01_THOMAS_V2" ID="{52E6BB11-6B74-40A6-A2F5-BC24DD49820E}" ShortID="350591282">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -363,16 +363,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_OS_FireBoiler_01_THOMAS_V1" ID="{F7103743-9213-4853-A883-E522512F9E27}">
+												<AudioFileSource Name="SFX_OS_FireBoiler_01_THOMAS_V2" ID="{7AAE21F0-4558-4872-9662-2C537E192CB1}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_OS_FireBoiler_01_THOMAS_V1.wav</AudioFile>
+													<AudioFile>SFX_OS_FireBoiler_01_THOMAS_V2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="548925147"/>
+														<MediaID ID="669762021"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_OS_FireBoiler_01_THOMAS_V1" ID="{F7103743-9213-4853-A883-E522512F9E27}" Platform="Linked"/>
+												<ActiveSource Name="SFX_OS_FireBoiler_01_THOMAS_V2" ID="{7AAE21F0-4558-4872-9662-2C537E192CB1}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
