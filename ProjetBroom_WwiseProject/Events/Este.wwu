@@ -59,6 +59,64 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Event_Fireplace" ID="{4AAB860F-3F22-4975-B78E-A6366E7DAEA4}">
+					<ChildrenList>
+						<Action Name="" ID="{4199EA9D-4ECE-4E4C-9E8A-B78FA850B7DA}" ShortID="597408355">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FireplaceCrackle_RND" ID="{1DA16A7E-9FB6-4C31-8DF8-CF203168A567}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5D34B2D3-49E2-4D7B-AEC4-742189634127}" ShortID="817640975">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FireplacePreparation_RND" ID="{172109C0-24FF-4845-A2F6-9518881A3C40}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_PigSpit" ID="{F324CDE4-4FC6-4873-A9D7-E9B8321CFFD7}">
+					<ChildrenList>
+						<Action Name="" ID="{50626367-A22F-4A24-98F3-C5ADE69D67B8}" ShortID="156655497">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FabInFire_RND" ID="{20EFF269-EE49-45E3-9C31-36789C2780C4}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7EE0448C-C2FC-4579-B8E6-65C94FB5BA70}" ShortID="287125972">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PigSpit_Blend" ID="{0C283331-4AF5-4CD4-8F96-763B38761E41}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Fire" ID="{BB4EAB3C-6450-4E42-836B-45C50F17FB2D}">
+					<ChildrenList>
+						<Action Name="" ID="{46E3D777-E1A1-4248-859A-EE6B26FD54FC}" ShortID="415795488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire_RND" ID="{42B4AC35-2464-4DC0-8F87-F1B99FA012C0}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_WaterDrop" ID="{D5DA1EA7-9027-456A-BCDC-F1ECF99DF735}">
+					<ChildrenList>
+						<Action Name="" ID="{D3D4FF1C-FC71-4CD7-A4E7-1CF6F0365CF1}" ShortID="420298964">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterDrop_RND" ID="{FAEB3EBB-E8DC-4D27-A021-871D7498411E}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
