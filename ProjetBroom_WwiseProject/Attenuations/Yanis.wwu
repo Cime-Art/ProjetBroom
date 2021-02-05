@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{99F8433C-82A7-48B5-9395-DD19A1952FD7}" SchemaVersion="97">
 	<Attenuations>
 		<WorkUnit Name="Yanis" ID="{99F8433C-82A7-48B5-9395-DD19A1952FD7}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Attenuation Name="Distance_Acid" ID="{07920A1D-5CF8-4DA1-A56A-FA825A3276A2}" ShortID="104444301">
 					<CurveUsageInfoList>

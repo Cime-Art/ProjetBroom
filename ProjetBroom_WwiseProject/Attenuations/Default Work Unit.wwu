@@ -4,7 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="Roman" ID="{44874BFD-7193-4EB1-8CFB-8B7A1BF809DA}" PersistMode="Reference"/>
-				<WorkUnit Name="Este" ID="{7F799448-99C2-42A9-A1A6-859232DAC130}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Attenuations>
