@@ -43,185 +43,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<RandomSequenceContainer Name="explosion_seq" ID="{DF3A8E9E-9FAA-4C51-8299-36DCEF92A29C}" ShortID="869285662">
-											<PropertyList>
-												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<RandomSequenceContainer Name="explosion_rnd" ID="{8400DF58-BA65-4BC9-BF47-72F57D2CCA0A}" ShortID="955129923">
-													<PropertyList>
-														<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{5514994D-3E9C-47D6-81CD-88F61DA21077}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="300"/>
-																			<Property Name="Min" Type="Real64" Value="-300"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="Mob_OS_SnailExplosion_02_Sabarros_v2" ID="{482ADE88-F47F-4A75-B1F7-D47A8E5AB932}" ShortID="535418468">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Mob_OS_SnailExplosion_02_Sabarros_v2" ID="{1D1FDE3E-9FF8-4275-82A3-0013B5A2421E}">
-																	<PropertyList>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="0.132743105168091"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="0.0688297582353064"/>
-																		<Property Name="TrimEnd" Type="Real64" Value="3.10717194319383"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>Mob_OS_SnailExplosion_02_Sabarros_v2.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="61549097"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Mob_OS_SnailExplosion_02_Sabarros_v2" ID="{1D1FDE3E-9FF8-4275-82A3-0013B5A2421E}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Mob_OS_SnailExplosion_01_Sabarros_v2" ID="{8181846D-C854-4F83-8311-1EADE787FB5B}" ShortID="927805145">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Mob_OS_SnailExplosion_01_Sabarros_v2" ID="{D26775E8-284F-4F14-9DAB-7F222310BD60}">
-																	<PropertyList>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0613938838415158"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="0.1309736188619"/>
-																		<Property Name="TrimEnd" Type="Real64" Value="2.50896338632327"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>Mob_OS_SnailExplosion_01_Sabarros_v2.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="582245440"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Mob_OS_SnailExplosion_01_Sabarros_v2" ID="{D26775E8-284F-4F14-9DAB-7F222310BD60}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<Sound Name="acidPuddle_sfx" ID="{6252907C-4105-4514-B4D2-4B3BE3EAE28D}" ShortID="212440775">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{E2D112AA-6F06-41C1-A3A2-2F4B54299785}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="200"/>
-																			<Property Name="Min" Type="Real64" Value="-200"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-8</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Mob_LP_SnailAcidPuddle_01_Sabarros_v1" ID="{480D9202-494B-4ED8-990D-74A2BD51DB1B}">
-															<Language>SFX</Language>
-															<AudioFile>Mob_LP_SnailAcidPuddle_01_Sabarros_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="575220597"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Mob_LP_SnailAcidPuddle_01_Sabarros_v1" ID="{480D9202-494B-4ED8-990D-74A2BD51DB1B}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-											<StateInfo>
-												<StateGroupList>
-													<StateGroupInfo>
-														<StateGroupRef Name="snail_stateGroup" ID="{06D12334-E3DA-49C3-BA8E-488BA8181B01}"/>
-													</StateGroupInfo>
-												</StateGroupList>
-												<CustomStateList>
-													<CustomState>
-														<StateRef Name="snail_idle_state" ID="{0FA01A6A-8402-4707-8D0C-DB4F741AC1D1}"/>
-														<CustomState Name="" ID="{3F8C2933-B24E-4363-B738-63D36BEACC64}" ShortID="398299298">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="-96"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="snail_explosion_state" ID="{EAE40543-B022-4A55-A67E-4A6512A247C4}"/>
-														<CustomState Name="" ID="{62B2948A-816D-4760-8A7B-A5B18D37B571}" ShortID="354551222"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="snail_forward_state" ID="{DDC224E8-4B12-4DFB-B007-7F5676DE062C}"/>
-														<CustomState Name="" ID="{7D886B1D-BEE4-4411-B876-859EDCF5CCAE}" ShortID="824813461">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="-96"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-												</CustomStateList>
-											</StateInfo>
-											<Playlist>
-												<ItemRef Name="explosion_rnd" ID="{8400DF58-BA65-4BC9-BF47-72F57D2CCA0A}"/>
-												<ItemRef Name="acidPuddle_sfx" ID="{6252907C-4105-4514-B4D2-4B3BE3EAE28D}"/>
-											</Playlist>
-										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="idle_rnd" ID="{BBC6B1AF-4331-4589-84D6-9655FB0EB96F}" ShortID="832494362">
 											<PropertyList>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -255,7 +76,7 @@
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-3</Value>
+														<Value>-8</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1130,6 +951,292 @@
 												</CustomStateList>
 											</StateInfo>
 										</BlendContainer>
+										<BlendContainer Name="snail_explosionDeath_blend" ID="{56AFDFE6-234C-44C7-98CD-0B395F735D8E}" ShortID="476998422">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="death_rnd" ID="{AFBABF7A-A6D3-4980-A0D5-C4E45F7DF209}" ShortID="292027592">
+													<PropertyList>
+														<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>0.5</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{D50285B7-B4B4-4A05-A410-3AEE83A7498E}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="350"/>
+																			<Property Name="Min" Type="Real64" Value="-350"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Mob_OS_SnailDeath_01_Sabarros_v1_02" ID="{E5DBA7B7-0BF3-496A-B0F8-423A78FDBEC9}" ShortID="107986430">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Mob_OS_SnailDeath_01_Sabarros_v1" ID="{C72CDB58-26E0-4975-9F27-CEF511AF3028}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.788255196398242"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.90077912274553"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="7.42010891542879"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Mob_OS_SnailDeath_01_Sabarros_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="546238481"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Mob_OS_SnailDeath_01_Sabarros_v1" ID="{C72CDB58-26E0-4975-9F27-CEF511AF3028}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Mob_OS_SnailDeath_01_Sabarros_v1_01" ID="{396617C5-5B89-4056-8311-D4B13184BDD2}" ShortID="530546100">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Mob_OS_SnailDeath_01_Sabarros_v1" ID="{A9E42168-B972-4E9F-8C11-95B6AF81B2CE}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.525503464265495"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.168161108564958"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.89026905346022"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Mob_OS_SnailDeath_01_Sabarros_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="623946850"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Mob_OS_SnailDeath_01_Sabarros_v1" ID="{A9E42168-B972-4E9F-8C11-95B6AF81B2CE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="explosion_seq" ID="{DF3A8E9E-9FAA-4C51-8299-36DCEF92A29C}" ShortID="869285662">
+													<PropertyList>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="explosion_rnd" ID="{8400DF58-BA65-4BC9-BF47-72F57D2CCA0A}" ShortID="955129923">
+															<PropertyList>
+																<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{5514994D-3E9C-47D6-81CD-88F61DA21077}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="300"/>
+																					<Property Name="Min" Type="Real64" Value="-300"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Mob_OS_SnailExplosion_02_Sabarros_v2" ID="{482ADE88-F47F-4A75-B1F7-D47A8E5AB932}" ShortID="535418468">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SnailExplosion_02_Sabarros_v2" ID="{1D1FDE3E-9FF8-4275-82A3-0013B5A2421E}">
+																			<PropertyList>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.132743105168091"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0688297582353064"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="3.10717194319383"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SnailExplosion_02_Sabarros_v2.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="61549097"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SnailExplosion_02_Sabarros_v2" ID="{1D1FDE3E-9FF8-4275-82A3-0013B5A2421E}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Mob_OS_SnailExplosion_01_Sabarros_v2" ID="{8181846D-C854-4F83-8311-1EADE787FB5B}" ShortID="927805145">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SnailExplosion_01_Sabarros_v2" ID="{D26775E8-284F-4F14-9DAB-7F222310BD60}">
+																			<PropertyList>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0613938838415158"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.1309736188619"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="2.50896338632327"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SnailExplosion_01_Sabarros_v2.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="582245440"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SnailExplosion_01_Sabarros_v2" ID="{D26775E8-284F-4F14-9DAB-7F222310BD60}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<Sound Name="acidPuddle_sfx" ID="{6252907C-4105-4514-B4D2-4B3BE3EAE28D}" ShortID="212440775">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{E2D112AA-6F06-41C1-A3A2-2F4B54299785}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="200"/>
+																					<Property Name="Min" Type="Real64" Value="-200"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Mob_LP_SnailAcidPuddle_01_Sabarros_v1" ID="{480D9202-494B-4ED8-990D-74A2BD51DB1B}">
+																	<Language>SFX</Language>
+																	<AudioFile>Mob_LP_SnailAcidPuddle_01_Sabarros_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="575220597"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Mob_LP_SnailAcidPuddle_01_Sabarros_v1" ID="{480D9202-494B-4ED8-990D-74A2BD51DB1B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="snail_stateGroup" ID="{06D12334-E3DA-49C3-BA8E-488BA8181B01}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="snail_idle_state" ID="{0FA01A6A-8402-4707-8D0C-DB4F741AC1D1}"/>
+																<CustomState Name="" ID="{3F8C2933-B24E-4363-B738-63D36BEACC64}" ShortID="398299298">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-96"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="snail_explosion_state" ID="{EAE40543-B022-4A55-A67E-4A6512A247C4}"/>
+																<CustomState Name="" ID="{62B2948A-816D-4760-8A7B-A5B18D37B571}" ShortID="354551222"/>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="snail_forward_state" ID="{DDC224E8-4B12-4DFB-B007-7F5676DE062C}"/>
+																<CustomState Name="" ID="{7D886B1D-BEE4-4411-B876-859EDCF5CCAE}" ShortID="824813461">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-96"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
+													<Playlist>
+														<ItemRef Name="explosion_rnd" ID="{8400DF58-BA65-4BC9-BF47-72F57D2CCA0A}"/>
+														<ItemRef Name="acidPuddle_sfx" ID="{6252907C-4105-4514-B4D2-4B3BE3EAE28D}"/>
+													</Playlist>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
@@ -1137,17 +1244,17 @@
 												<ItemRef Name="forward_blend" ID="{E4D4BC8B-B00B-4EF9-988B-7CE3139C40A2}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="explosion_seq" ID="{DF3A8E9E-9FAA-4C51-8299-36DCEF92A29C}"/>
+												<ItemRef Name="idle_rnd" ID="{BBC6B1AF-4331-4589-84D6-9655FB0EB96F}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="idle_rnd" ID="{BBC6B1AF-4331-4589-84D6-9655FB0EB96F}"/>
+												<ItemRef Name="snail_explosionDeath_blend" ID="{56AFDFE6-234C-44C7-98CD-0B395F735D8E}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
 											<Grouping>
 												<SwitchRef Name="snail_explosion_state" ID="{EAE40543-B022-4A55-A67E-4A6512A247C4}"/>
 												<ItemList>
-													<ItemRef Name="explosion_seq" ID="{DF3A8E9E-9FAA-4C51-8299-36DCEF92A29C}"/>
+													<ItemRef Name="snail_explosionDeath_blend" ID="{56AFDFE6-234C-44C7-98CD-0B395F735D8E}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
@@ -1313,101 +1420,6 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Mob_OS_SnailGetHit_01_Sabarros_v1" ID="{9757D40B-3B7C-4FAC-B742-8B4D849603DC}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="death_rnd" ID="{AFBABF7A-A6D3-4980-A0D5-C4E45F7DF209}" ShortID="292027592">
-									<PropertyList>
-										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
-										<Property Name="InitialDelay" Type="Real64">
-											<ValueList>
-												<Value>0.5</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{D50285B7-B4B4-4A05-A410-3AEE83A7498E}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="350"/>
-															<Property Name="Min" Type="Real64" Value="-350"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Mob_OS_SnailDeath_01_Sabarros_v1_02" ID="{E5DBA7B7-0BF3-496A-B0F8-423A78FDBEC9}" ShortID="107986430">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Mob_OS_SnailDeath_01_Sabarros_v1" ID="{C72CDB58-26E0-4975-9F27-CEF511AF3028}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.788255196398242"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.90077912274553"/>
-														<Property Name="TrimEnd" Type="Real64" Value="7.42010891542879"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Mob_OS_SnailDeath_01_Sabarros_v1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="546238481"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Mob_OS_SnailDeath_01_Sabarros_v1" ID="{C72CDB58-26E0-4975-9F27-CEF511AF3028}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Mob_OS_SnailDeath_01_Sabarros_v1_01" ID="{396617C5-5B89-4056-8311-D4B13184BDD2}" ShortID="530546100">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Mob_OS_SnailDeath_01_Sabarros_v1" ID="{A9E42168-B972-4E9F-8C11-95B6AF81B2CE}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.525503464265495"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.168161108564958"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.89026905346022"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Mob_OS_SnailDeath_01_Sabarros_v1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="623946850"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Mob_OS_SnailDeath_01_Sabarros_v1" ID="{A9E42168-B972-4E9F-8C11-95B6AF81B2CE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

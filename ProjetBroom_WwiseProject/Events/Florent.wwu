@@ -20,17 +20,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="event_play_snailDeath" ID="{F375802B-63B1-4AD9-BD48-A191325A7355}">
-							<ChildrenList>
-								<Action Name="" ID="{008749A4-A684-4B94-B767-EEB2A4D642FB}" ShortID="961388084">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="death_rnd" ID="{AFBABF7A-A6D3-4980-A0D5-C4E45F7DF209}" WorkUnitID="{17FB5FE7-E556-4A0B-978E-F7F55D12C984}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="event_play_snailGethit" ID="{F7FBC086-DAA1-4334-AB5E-EC3F0BCC489B}">
 							<ChildrenList>
 								<Action Name="" ID="{E1F26936-7227-4732-A413-8EB7807A44AB}" ShortID="254737494">

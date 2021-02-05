@@ -14,10 +14,6 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="event_play_snailDeath" ID="{F375802B-63B1-4AD9-BD48-A191325A7355}" WorkUnitID="{602C5174-255D-4D88-AB0D-1FDB6E618FCC}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="event_play_snailGethit" ID="{F7FBC086-DAA1-4334-AB5E-EC3F0BCC489B}" WorkUnitID="{602C5174-255D-4D88-AB0D-1FDB6E618FCC}"/>
 							<Position X="2" Y="0"/>
 						</Module>
