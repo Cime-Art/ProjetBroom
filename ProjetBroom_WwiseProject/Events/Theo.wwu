@@ -9,7 +9,7 @@
 			<ChildrenList>
 				<Folder Name="Amb_Garden" ID="{76E5A171-C8D1-4E6F-B6D2-FE71C3518ECC}" ShortID="169159932">
 					<ChildrenList>
-						<Event Name="Play_Amb_1" ID="{28AF0A73-6774-44B4-8650-76C0B04BC186}">
+						<Event Name="Event_Amb_GardenStart" ID="{28AF0A73-6774-44B4-8650-76C0B04BC186}">
 							<ChildrenList>
 								<Action Name="" ID="{C113D8B6-F832-48FF-93A1-C45B6380E722}" ShortID="728719490">
 									<ReferenceList>
@@ -20,18 +20,18 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Well" ID="{8B35CC93-DE08-438C-8236-C63507909074}">
+						<Event Name="Event_Well" ID="{8B35CC93-DE08-438C-8236-C63507909074}">
 							<ChildrenList>
 								<Action Name="" ID="{858EE27B-C0CF-4BCC-95A5-0272FE53C29B}" ShortID="463695280">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Blend_2_Amb_2" ID="{B48372F7-AC7D-4644-B189-8635DEF155D1}"/>
+											<ObjectRef Name="Random_Well" ID="{563BDDC5-2E6D-4689-B0C8-1BD2D13AB37A}" WorkUnitID="{82D2DEE7-CDA1-458C-8333-3A2B02988995}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Amb_2" ID="{55584FC8-D010-48A9-9282-A03863CF1135}">
+						<Event Name="Event_Amb_Garden" ID="{55584FC8-D010-48A9-9282-A03863CF1135}">
 							<ChildrenList>
 								<Action Name="" ID="{C5449F59-E31C-4D1E-B34C-E9F7E131D9C3}" ShortID="485347288">
 									<ReferenceList>
