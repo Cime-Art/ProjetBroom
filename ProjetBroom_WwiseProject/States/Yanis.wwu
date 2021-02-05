@@ -22,6 +22,13 @@
 								<State Name="Get_Hit" ID="{313417D2-528F-4AE5-BEC8-7103D6B8B063}"/>
 							</ChildrenList>
 						</StateGroup>
+						<StateGroup Name="Attack_Player" ID="{F4C1C98C-5C3C-4633-B807-4A2A8D392089}">
+							<ChildrenList>
+								<State Name="None" ID="{6BE8E5B3-D636-4C4D-9972-3E8D865F5B65}"/>
+								<State Name="Horizontal_Attack" ID="{29119539-FA27-4A7E-9AC4-1E234705F8DA}"/>
+								<State Name="Vertical_Attack" ID="{A5508C83-70A7-41D9-A58C-963227B6004B}"/>
+							</ChildrenList>
+						</StateGroup>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

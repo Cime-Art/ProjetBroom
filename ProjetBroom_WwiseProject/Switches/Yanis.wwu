@@ -16,12 +16,6 @@
 						<Switch Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
 					</ChildrenList>
 				</SwitchGroup>
-				<SwitchGroup Name="Attack_Player" ID="{E354B34C-7479-4A44-983E-AEDA0C87B574}">
-					<ChildrenList>
-						<Switch Name="Horizontal_Attack" ID="{D1C92719-49C9-464B-9DEC-77D80485E087}"/>
-						<Switch Name="Vertical_Attack" ID="{4F254E92-430E-4335-9D65-8349D5E6B9BD}"/>
-					</ChildrenList>
-				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

@@ -2474,19 +2474,19 @@
 												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
-										<SwitchContainer Name="Attack_Player_Switch" ID="{4A4828A0-6CDC-4B88-A2C2-32852A145804}" ShortID="701461120">
+										<SwitchContainer Name="Attack_Player_State" ID="{4A4828A0-6CDC-4B88-A2C2-32852A145804}" ShortID="701461120">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 												</Reference>
 												<Reference Name="DefaultSwitchOrState">
-													<ObjectRef Name="Horizontal_Attack" ID="{D1C92719-49C9-464B-9DEC-77D80485E087}" WorkUnitID="{B276314E-FF14-407F-BF90-871C4A0D56FB}"/>
+													<ObjectRef Name="None" ID="{6BE8E5B3-D636-4C4D-9972-3E8D865F5B65}" WorkUnitID="{28C3AD78-98DF-424D-BD75-1840A2112364}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 												</Reference>
 												<Reference Name="SwitchGroupOrStateGroup">
-													<ObjectRef Name="Attack_Player" ID="{E354B34C-7479-4A44-983E-AEDA0C87B574}" WorkUnitID="{B276314E-FF14-407F-BF90-871C4A0D56FB}"/>
+													<ObjectRef Name="Attack_Player" ID="{F4C1C98C-5C3C-4633-B807-4A2A8D392089}" WorkUnitID="{28C3AD78-98DF-424D-BD75-1840A2112364}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -2614,13 +2614,13 @@
 												</GroupingBehaviorList>
 												<GroupingList>
 													<Grouping>
-														<SwitchRef Name="Horizontal_Attack" ID="{D1C92719-49C9-464B-9DEC-77D80485E087}"/>
+														<SwitchRef Name="Horizontal_Attack" ID="{29119539-FA27-4A7E-9AC4-1E234705F8DA}"/>
 														<ItemList>
 															<ItemRef Name="Horizontal_Attack_RND" ID="{1AE310C8-BDC4-47CD-97D7-606F0CFD2717}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
-														<SwitchRef Name="Vertical_Attack" ID="{4F254E92-430E-4335-9D65-8349D5E6B9BD}"/>
+														<SwitchRef Name="Vertical_Attack" ID="{A5508C83-70A7-41D9-A58C-963227B6004B}"/>
 														<ItemList>
 															<ItemRef Name="Vertical_Attack_RND" ID="{FB3A1F31-3E07-44D1-ACBB-AD944DE5592B}"/>
 														</ItemList>
