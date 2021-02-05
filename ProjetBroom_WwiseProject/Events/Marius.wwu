@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{50A742BF-F8D8-4C2F-889C-6D3C22882EA4}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Marius" ID="{50A742BF-F8D8-4C2F-889C-6D3C22882EA4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Event_Moving_Platform" ID="{99DC410A-C91A-4404-BFB7-F4711DE2488B}">
+					<ChildrenList>
+						<Action Name="" ID="{3279FCFE-A7C9-4CB0-9104-9D56AFEEEB35}" ShortID="531779271">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plateforme_Mouvante_Blend" ID="{F11E09A5-DE05-4350-9679-757746BF32A1}" WorkUnitID="{30B9BCEA-09BA-48CE-B6CF-377BE308973B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
