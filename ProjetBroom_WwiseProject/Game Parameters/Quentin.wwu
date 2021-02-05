@@ -3,13 +3,27 @@
 	<GameParameters>
 		<WorkUnit Name="Quentin" ID="{B56FC655-7691-4FBF-80D7-EEC8B37E5D78}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}">
+				<Folder Name="Ambs" ID="{4103731D-30E5-4BB6-BFB3-EEE540F0D2FB}" ShortID="423235017">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="-48"/>
-						<Property Name="Max" Type="Real64" Value="0"/>
-						<Property Name="Min" Type="Real64" Value="-48"/>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
-				</GameParameter>
+					<ChildrenList>
+						<GameParameter Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="-48"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-48"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Mobs" ID="{AEC17DEB-E32C-4233-AA73-7D2A4F0438BB}" ShortID="468156556">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -13,12 +13,12 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="BarnAmb_Play" ID="{C51B7A00-08E4-4840-B9F4-46D89497B5A2}">
+						<Event Name="Event_BarnAmb" ID="{C51B7A00-08E4-4840-B9F4-46D89497B5A2}">
 							<ChildrenList>
 								<Action Name="" ID="{494642C2-EB3D-4C31-A683-C43F75EA9AC3}" ShortID="145734647">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="BarnWindLoop" ID="{14AD35F8-0ACD-4030-B675-785AE2BC813C}" WorkUnitID="{F43A4335-1406-4E14-B8F4-E8FEBCBFF69F}"/>
+											<ObjectRef Name="Winds_RND" ID="{87D68A1F-5F01-4AF2-9A02-5849F27D9EFB}" WorkUnitID="{F43A4335-1406-4E14-B8F4-E8FEBCBFF69F}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -31,7 +31,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="MouseSqueaks_Play" ID="{9199295D-6E26-4ED3-AFED-45A7EA1F7945}">
+						<Event Name="Event_MouseSqueaks" ID="{9199295D-6E26-4ED3-AFED-45A7EA1F7945}">
 							<ChildrenList>
 								<Action Name="" ID="{BD86CCF3-24AC-4570-AA29-F30A4690036B}" ShortID="266264509">
 									<ReferenceList>
@@ -43,6 +43,12 @@
 							</ChildrenList>
 						</Event>
 					</ChildrenList>
+				</Folder>
+				<Folder Name="Mobs" ID="{B3F8F684-B4FE-404C-B3AC-ABB4558463EC}" ShortID="65884548">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 				</Folder>
 			</ChildrenList>
 		</WorkUnit>
