@@ -10,7 +10,11 @@
 				<Event Name="play_snail" ID="{447A310E-962E-4F21-97B5-3BDEF6DA9439}">
 					<ChildrenList>
 						<Action Name="" ID="{1542EAD9-DC5C-42BE-A77B-EE7B9748CF96}" ShortID="781241767">
-							<ReferenceList/>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="snail_sw" ID="{9755276C-D2F5-4D9F-BF19-93760A3986D9}" WorkUnitID="{17FB5FE7-E556-4A0B-978E-F7F55D12C984}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>

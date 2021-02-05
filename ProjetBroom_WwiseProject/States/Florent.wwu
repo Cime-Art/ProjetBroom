@@ -22,7 +22,7 @@
 						<Transition>
 							<StartState Name="snail_idle_state" ID="{0FA01A6A-8402-4707-8D0C-DB4F741AC1D1}"/>
 							<EndState Name="snail_forward_state" ID="{DDC224E8-4B12-4DFB-B007-7F5676DE062C}"/>
-							<Time>0.5</Time>
+							<Time>0.2</Time>
 							<IsShared>true</IsShared>
 						</Transition>
 						<Transition>
