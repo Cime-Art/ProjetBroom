@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5DFBBCEB-33A3-4310-BC08-4615DFAA20ED}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Este" ID="{5DFBBCEB-33A3-4310-BC08-4615DFAA20ED}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Event_Boiler" ID="{21565AFE-8ACE-4627-A74C-9F9EF4B25786}">
+					<ChildrenList>
+						<Action Name="" ID="{DBDD19B2-B691-4F1C-A045-35CB2C69464D}" ShortID="260788410">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShakeBoiler_Blend" ID="{1088126B-CC47-4D6D-89E5-DB2263088422}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{307E5D60-D63F-4C14-BD70-7EBE56ACD7AE}" ShortID="357608213">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BoilerDoorOpen_RND" ID="{3C01B8E0-642D-4BB7-8B79-1D89472F1EA0}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{548790C3-F137-4301-8390-F3832DBC5D7B}" ShortID="769183650">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.05"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FireBoiler_RND" ID="{8815DF08-01A1-44C8-8E43-F65F0B0FDDC2}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5F324A89-1CCE-4E48-A2BE-4F7E61410789}" ShortID="568087129">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BoilerDoorClose_RND" ID="{4C27D804-3CDE-4CB6-B2A2-AAE986478927}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_AmbBoiler" ID="{F98DAF6A-6CE6-418F-B05D-6AD9824BEEED}">
+					<ChildrenList>
+						<Action Name="" ID="{DA177F9C-A0A0-4BFE-8E7C-CAFA54375F62}" ShortID="554967204">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_LP_FireBoiler_01" ID="{D5F75D44-C415-4B8F-9CA2-48B85066E4BC}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
