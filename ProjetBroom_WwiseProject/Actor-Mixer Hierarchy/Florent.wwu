@@ -2428,9 +2428,92 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<BlendContainer Name="death_blend" ID="{12A6B904-9AA8-4452-A1CE-D06246E6489A}" ShortID="283863685">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="death_sfx" ID="{41B2EAB0-E97B-4100-941D-B5FC368B13B2}" ShortID="46364686">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>1800</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="fusion death" ID="{59212A0E-78F3-458C-8B83-BC344DA77D64}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.40200696747215"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.63579830875547"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>fusion death.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="531637367"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="fusion death" ID="{59212A0E-78F3-458C-8B83-BC344DA77D64}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="death_sfx_01" ID="{06E13151-C523-40BA-BB45-D6C93B271BBB}" ShortID="553596085">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="fusion death" ID="{DF5A2EA2-DBB0-47BF-AA4E-CDC73890C414}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.40200696747215"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.63579830875547"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>fusion death.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="531637367"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="fusion death" ID="{DF5A2EA2-DBB0-47BF-AA4E-CDC73890C414}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="death_blend" ID="{12A6B904-9AA8-4452-A1CE-D06246E6489A}"/>
+											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="forward_rnd" ID="{0EE4492F-2740-4782-BCAB-0B0A7CED285A}"/>
 											</GroupingBehavior>
@@ -2482,6 +2565,12 @@
 												<SwitchRef Name="fusion_attackJump_state" ID="{69CF3D59-B61B-4378-981D-E6F3E898A8DC}"/>
 												<ItemList>
 													<ItemRef Name="attackJump_rnd" ID="{73A396BC-223D-41A4-85BE-5A6985BEEB22}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="fusion_death_state" ID="{1A8C349D-C133-4088-A937-CDC39B7441C3}"/>
+												<ItemList>
+													<ItemRef Name="death_blend" ID="{12A6B904-9AA8-4452-A1CE-D06246E6489A}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>

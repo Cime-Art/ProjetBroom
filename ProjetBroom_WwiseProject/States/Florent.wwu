@@ -39,6 +39,9 @@
 					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="fusion_stateGroup" ID="{A347BED0-8871-48A9-97E5-E9D67EC28829}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.1"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{7A53225C-7782-4EEE-A3D4-DAF13135DCB0}"/>
 						<State Name="fusion_idle_state" ID="{10339BCF-D34A-431F-8077-FB35A7027054}"/>
@@ -48,6 +51,7 @@
 						<State Name="fusion_attackJump_state" ID="{69CF3D59-B61B-4378-981D-E6F3E898A8DC}"/>
 						<State Name="fusion_attackLaunchFireball_state" ID="{F3D4CB02-484A-4F7F-8765-00BE2666E349}"/>
 						<State Name="fusion_attackLaunchSkull_state" ID="{6B109F10-0EFD-4096-AC81-71F2B601AB2D}"/>
+						<State Name="fusion_death_state" ID="{1A8C349D-C133-4088-A937-CDC39B7441C3}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
