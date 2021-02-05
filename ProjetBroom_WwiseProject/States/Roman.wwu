@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{422C5C2E-5FC8-4EA7-A509-66BE4BF7574A}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Roman" ID="{422C5C2E-5FC8-4EA7-A509-66BE4BF7574A}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="21"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<StateGroup Name="FullArmorBoss_State" ID="{67F34BC9-1E75-46C5-86BA-4DB7987DFAEE}">
+					<ChildrenList>
+						<State Name="None" ID="{76DD572D-951D-4027-93F0-2C3C154AB123}"/>
+						<State Name="Movement" ID="{FC3CB18A-2E56-48B6-9B59-1CA57DA9B652}"/>
+						<State Name="Idle" ID="{56282F06-44E3-4E5A-89AB-741A4CC1148F}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

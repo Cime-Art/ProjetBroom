@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}" SchemaVersion="97">
 	<Attenuations>
-		<WorkUnit Name="Default Work Unit" ID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Roman" ID="{44874BFD-7193-4EB1-8CFB-8B7A1BF809DA}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Attenuations>
 </WwiseDocument>
