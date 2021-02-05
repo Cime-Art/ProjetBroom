@@ -132,6 +132,32 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Player" ID="{D1FED1C5-BBFA-4B91-8B9C-B34C5481E712}" ShortID="216071867">
+					<ChildrenList>
+						<Event Name="Play_PlayerState" ID="{04E59C8F-53CB-461A-A1BE-B2E3C5976BDC}">
+							<ChildrenList>
+								<Action Name="" ID="{B2206C98-BB85-4B92-8DAD-975E54BD3931}" ShortID="892151372">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_State" ID="{A7C07438-CDF2-4E04-9E32-CDB6BC81ABC1}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PlayerAttack" ID="{F52CBFA5-E664-443E-81AE-EC096D80B8E9}">
+							<ChildrenList>
+								<Action Name="" ID="{E46EED83-5095-4878-AD47-A4C0E8E1D08D}" ShortID="527752860">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Attack_Player_State" ID="{4A4828A0-6CDC-4B88-A2C2-32852A145804}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B276314E-FF14-407F-BF90-871C4A0D56FB}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Yanis" ID="{B276314E-FF14-407F-BF90-871C4A0D56FB}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SwitchGroup Name="Ground_Texture" ID="{114D3573-0162-443F-904A-5CBCB4D72526}">
+					<ChildrenList>
+						<Switch Name="Grass" ID="{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}"/>
+						<Switch Name="Marble" ID="{26008F53-70C5-4250-94E4-85ADD5226647}"/>
+						<Switch Name="Wood" ID="{C46FAED0-B41E-4EE9-9947-400381ADF4E9}"/>
+						<Switch Name="Rock" ID="{9B9060B1-E708-451D-A47A-B7BDBAEB466B}"/>
+						<Switch Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

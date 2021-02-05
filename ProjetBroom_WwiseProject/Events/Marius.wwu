@@ -22,6 +22,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Event_platform_hit_border" ID="{AE9C0C55-366F-4E9D-AE56-50FCEBFA9F57}">
+					<ChildrenList>
+						<Action Name="" ID="{A6ACE096-02C3-4687-80C4-1B4B0E73030A}" ShortID="904462145">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Metal_hit_RND" ID="{526ED3BB-C310-4C3B-BCC1-7BECBD38FFAA}" WorkUnitID="{30B9BCEA-09BA-48CE-B6CF-377BE308973B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
