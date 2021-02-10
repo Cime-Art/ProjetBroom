@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{602C5174-255D-4D88-AB0D-1FDB6E618FCC}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Florent" ID="{602C5174-255D-4D88-AB0D-1FDB6E618FCC}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="14"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Snail" ID="{9FF916D5-CFBD-4A58-8515-07EBA869F337}" ShortID="68799420">
+					<ChildrenList>
+						<Event Name="event_play_snail" ID="{447A310E-962E-4F21-97B5-3BDEF6DA9439}">
+							<ChildrenList>
+								<Action Name="" ID="{1542EAD9-DC5C-42BE-A77B-EE7B9748CF96}" ShortID="781241767">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="snail_sw" ID="{9755276C-D2F5-4D9F-BF19-93760A3986D9}" WorkUnitID="{17FB5FE7-E556-4A0B-978E-F7F55D12C984}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="event_play_snailGethit" ID="{F7FBC086-DAA1-4334-AB5E-EC3F0BCC489B}">
+							<ChildrenList>
+								<Action Name="" ID="{E1F26936-7227-4732-A413-8EB7807A44AB}" ShortID="254737494">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="getHit_rnd" ID="{5C32D8E5-71A9-4EAC-92F5-571C0854DDFF}" WorkUnitID="{17FB5FE7-E556-4A0B-978E-F7F55D12C984}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Fusion" ID="{57688E16-DE99-47F0-8C1D-1D00386F3215}" ShortID="276320742">
+					<ChildrenList>
+						<Event Name="event_play_fusion" ID="{D28E3B9B-D675-44AD-9F54-98E0EC64DE3C}">
+							<ChildrenList>
+								<Action Name="" ID="{DC51552B-F745-4979-8690-E86F22D822FA}" ShortID="789372439">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fusion_sw" ID="{E5B9DA07-DA8E-4A10-82AC-49D69B5F8DC8}" WorkUnitID="{17FB5FE7-E556-4A0B-978E-F7F55D12C984}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="event_play_getHit" ID="{8E0DB832-E985-4005-9A1C-36A29A0C223A}">
+							<ChildrenList>
+								<Action Name="" ID="{28A55791-0AD2-468F-B1FA-7E2B6781E964}" ShortID="555277175">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="getHit_rnd" ID="{29A0E1CF-6595-4690-8D9D-91A5D19C949D}" WorkUnitID="{17FB5FE7-E556-4A0B-978E-F7F55D12C984}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

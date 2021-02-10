@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{62F4BC40-A196-4CFF-BF4B-12EB7FCAAB19}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="RomainH" ID="{62F4BC40-A196-4CFF-BF4B-12EB7FCAAB19}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="MobBat" ID="{A5FF6718-C9CA-451D-9787-B11B346749AF}" ShortID="889567158">
+					<ChildrenList>
+						<Event Name="Play_Bat" ID="{C752B68C-797D-4542-A55A-14626ABA6758}">
+							<ChildrenList>
+								<Action Name="" ID="{A88B06B5-24CB-4DC0-9753-D1646F6B43FA}" ShortID="402682731">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mechanics_Switch" ID="{85B3E691-AEB8-4322-B440-F7706B1BFFC9}" WorkUnitID="{BA4B3986-C1E3-4CD3-94D8-607C21725B90}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

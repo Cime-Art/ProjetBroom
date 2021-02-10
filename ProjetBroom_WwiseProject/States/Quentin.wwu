@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DAB74F0E-BF78-4781-AC63-818955D87C98}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Quentin" ID="{DAB74F0E-BF78-4781-AC63-818955D87C98}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Mobs" ID="{6763F45B-F3DB-4133-9211-E9104962B981}" ShortID="116398811">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<StateGroup Name="Skeletons_States" ID="{8E0B59CC-EF76-4DF4-A2FD-E6F5497E7EDE}">
+							<ChildrenList>
+								<State Name="None" ID="{2EAE5F90-F5B3-41A0-8734-6F51A4899E14}"/>
+								<State Name="Idle" ID="{01918E68-12E2-437F-A395-4294713382AF}"/>
+								<State Name="Attack_01" ID="{6A788D11-83AF-4E57-A972-D8501EB3701E}"/>
+								<State Name="Attack_02" ID="{0696777F-E7C6-4026-B6B4-ABCED8009654}"/>
+								<State Name="MoveForward" ID="{72477CFF-BC6E-418D-9BE6-C100A905113A}"/>
+								<State Name="GetHit" ID="{15D9E8D3-2DC8-494B-B268-2563327B3EE0}"/>
+								<State Name="Death" ID="{DBDDDA37-0DA2-4A84-81FC-E3277CAEF706}"/>
+								<State Name="PlayerHit" ID="{F53F7AEA-E95E-4F6E-BC3B-4A3F7D2B0528}"/>
+							</ChildrenList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
