@@ -53,12 +53,12 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Acid" ID="{28BACA49-E159-4A48-8251-AC23F8D1DFCB}">
+						<Event Name="Play_AcidFlow" ID="{28BACA49-E159-4A48-8251-AC23F8D1DFCB}">
 							<ChildrenList>
 								<Action Name="" ID="{04D35E2E-14F6-4C8D-8D77-9198EFD5F1EF}" ShortID="861996591">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Acid_Blend" ID="{F763EA5F-C91F-45DC-B589-B05AD6652766}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+											<ObjectRef Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{3CB08984-AF63-4EA1-873C-996A0CB8A527}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -125,6 +125,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Amb_OS_DropOfBlood _03_Anger_V2" ID="{BE89027B-3726-44F5-B36C-A523182AABD1}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AcidBurn" ID="{399FDEC2-77E2-435A-B458-BA31B44D62CF}">
+							<ChildrenList>
+								<Action Name="" ID="{D84DF949-59A1-4A7B-A92F-B97633E65592}" ShortID="828935777">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Acid_Burn_RND" ID="{6BB3A517-8199-4F0D-9680-7C51A4BEEE6F}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_ChainSound" ID="{FE2E0FC3-4052-4CBC-B90C-E0362A175C71}">
+							<ChildrenList>
+								<Action Name="" ID="{B0F76F6B-36BD-47D5-B03F-AA6B76A0D1AC}" ShortID="129214727">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ChainSound_RND" ID="{B644B460-85DB-4B6D-9A11-91C63EC66632}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
