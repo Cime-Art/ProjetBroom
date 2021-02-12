@@ -8,6 +8,13 @@
 			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="Kitchen_Mixer" ID="{DD039748-3BF3-46B0-A3D6-39A91016A06F}" ShortID="971835316">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -23,7 +30,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -42,11 +49,6 @@
 								<RandomSequenceContainer Name="FireplacePreparation_RND" ID="{172109C0-24FF-4845-A2F6-9518881A3C40}" ShortID="940610319">
 									<PropertyList>
 										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-1</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -57,34 +59,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Amb_LP_FirePlace_Preparation_03" ID="{DDBFD5E2-44A5-45CF-AF90-2F1CA3D59BBE}" ShortID="618066070">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_LP_FirePlace_Preparation_03" ID="{9644D5C1-49B3-4F22-BAF2-4A2EF9A75D5D}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_LP_FirePlace_Preparation_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="169023131"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_LP_FirePlace_Preparation_03" ID="{9644D5C1-49B3-4F22-BAF2-4A2EF9A75D5D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="Amb_LP_FirePlace_Preparation_01" ID="{0AACC654-F974-47D4-9A6D-0DFA76F48EAE}" ShortID="74729965">
 											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>17</Value>
+													</ValueList>
+												</Property>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -109,7 +96,17 @@
 										</Sound>
 										<Sound Name="Amb_LP_FirePlace_Preparation_02" ID="{522122AD-7B5F-4EA7-8BC1-8736C4E13E98}" ShortID="1071137305">
 											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>19</Value>
+													</ValueList>
+												</Property>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -139,8 +136,26 @@
 										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 										<Property Name="Highpass" Type="int16">
 											<ValueList>
-												<Value>15</Value>
+												<Value>25</Value>
 											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DB77F8BC-1283-4460-BABE-75F2D1A88184}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -152,14 +167,25 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Amb_LP_FireBoiler_01" ID="{E889981A-9570-4902-9C0F-970A89FB0F07}" ShortID="265233942">
+										<Sound Name="Amb_LP_FirePlace-Fire_01_THOMAS_v2" ID="{4B838FE4-F7F2-4B60-92C6-E79A848BB1B5}" ShortID="908951412">
 											<PropertyList>
-												<Property Name="Highpass" Type="int16">
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2916F65F-E764-4650-9440-0539F86AB6BB}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>6</Value>
+														<Value>10</Value>
 													</ValueList>
 												</Property>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -170,76 +196,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_LP_FireBoiler_01" ID="{02EC9B67-1B0A-43BF-82A5-079C1B5A0FAE}">
+												<AudioFileSource Name="Amb_LP_FirePlace-Fire_01_THOMAS_v2" ID="{4B5A2D83-58EC-4E60-ABFE-009B571D70A2}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_LP_FireBoiler_01.wav</AudioFile>
+													<AudioFile>Amb_LP_FirePlace-Fire_01_THOMAS_v2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="347286129"/>
+														<MediaID ID="669909420"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_LP_FireBoiler_01" ID="{02EC9B67-1B0A-43BF-82A5-079C1B5A0FAE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_LP_FireBoiler_02" ID="{1A2FA77B-6ADA-41F4-9EBB-A1FBCA3EE4BD}" ShortID="16126055">
-											<PropertyList>
-												<Property Name="Highpass" Type="int16">
-													<ValueList>
-														<Value>7</Value>
-													</ValueList>
-												</Property>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_LP_FireBoiler_02" ID="{16B4F20F-D08B-4377-9E16-DAF1C32E2EBA}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_LP_FireBoiler_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="129739053"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_LP_FireBoiler_02" ID="{16B4F20F-D08B-4377-9E16-DAF1C32E2EBA}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_LP_FireBoiler_03" ID="{41148289-57EE-46CB-8ADB-09FAD7183F41}" ShortID="38934375">
-											<PropertyList>
-												<Property Name="Highpass" Type="int16">
-													<ValueList>
-														<Value>5</Value>
-													</ValueList>
-												</Property>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_LP_FireBoiler_03" ID="{6130A78D-4D45-4C82-AEAD-A0667A0D5E2F}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_LP_FireBoiler_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="879526776"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_LP_FireBoiler_03" ID="{6130A78D-4D45-4C82-AEAD-A0667A0D5E2F}" Platform="Linked"/>
+												<ActiveSource Name="Amb_LP_FirePlace-Fire_01_THOMAS_v2" ID="{4B5A2D83-58EC-4E60-ABFE-009B571D70A2}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -252,7 +218,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>12</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -270,6 +236,21 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="FabInFire_RND" ID="{20EFF269-EE49-45E3-9C31-36789C2780C4}" ShortID="681964325">
 									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7DD060B9-7FC4-469D-BADD-CEF4C55DBC55}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -280,7 +261,7 @@
 													<Modifier Name="" ID="{07C8C4CD-4065-4FC1-9811-A036E0B7294A}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Max" Type="Real64" Value="6"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -289,7 +270,7 @@
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -383,9 +364,9 @@
 								<BlendContainer Name="PigSpit_Blend" ID="{0C283331-4AF5-4CD4-8F96-763B38761E41}" ShortID="567439463">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
-										<Property Name="Volume" Type="Real64">
+										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>9</Value>
+												<Value>23</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -445,13 +426,13 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Fireplace_Att" ID="{FFC1A8A3-AFC9-453A-94EF-0B2C06393706}" WorkUnitID="{7F799448-99C2-42A9-A1A6-859232DAC130}"/>
+									<ObjectRef Name="PigSpit_Att" ID="{705EB1D0-9BA7-4976-AA03-4B93EC124967}" WorkUnitID="{7F799448-99C2-42A9-A1A6-859232DAC130}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -467,17 +448,17 @@
 										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 										<Property Name="Highpass" Type="int16">
 											<ValueList>
-												<Value>7</Value>
+												<Value>18</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>12</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -543,31 +524,6 @@
 												<ActiveSource Name="Amb_LP_FireBoiler_02" ID="{BB9AAE87-685A-4CA8-ABF2-4887979862EC}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_LP_FireBoiler_03" ID="{4D4A1D18-FE27-4F1E-AB54-0EBFA2F64DC2}" ShortID="511174727">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_LP_FireBoiler_03" ID="{5894FDFF-9B77-414D-B897-6760A2D28CA3}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_LP_FireBoiler_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="879526776"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_LP_FireBoiler_03" ID="{5894FDFF-9B77-414D-B897-6760A2D28CA3}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
@@ -578,7 +534,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>-3.5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -598,29 +554,26 @@
 									<PropertyList>
 										<Property Name="Highpass" Type="int16">
 											<ValueList>
-												<Value>14</Value>
+												<Value>10</Value>
 											</ValueList>
 										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4">
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{8C241822-DEE1-4A67-B44E-C73CAEEBD6AE}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1105,7 +1058,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_OS_FireBoiler_01_THOMAS_V2" ID="{52E6BB11-6B74-40A6-A2F5-BC24DD49820E}" ShortID="350591282">
+										<Sound Name="SFX_OS_FireBoiler_01_THOMAS_V3" ID="{267788CD-3301-4D0C-ACB4-55C55CD21DD9}" ShortID="494678942">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -1115,16 +1068,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_OS_FireBoiler_01_THOMAS_V2" ID="{7AAE21F0-4558-4872-9662-2C537E192CB1}">
+												<AudioFileSource Name="SFX_OS_FireBoiler_01_THOMAS_V3" ID="{D37AEA8F-8C4A-4931-A216-B6F0372BE9D9}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_OS_FireBoiler_01_THOMAS_V2.wav</AudioFile>
+													<AudioFile>SFX_OS_FireBoiler_01_THOMAS_V3.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="669762021"/>
+														<MediaID ID="337937105"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_OS_FireBoiler_01_THOMAS_V2" ID="{7AAE21F0-4558-4872-9662-2C537E192CB1}" Platform="Linked"/>
+												<ActiveSource Name="SFX_OS_FireBoiler_01_THOMAS_V3" ID="{D37AEA8F-8C4A-4931-A216-B6F0372BE9D9}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
