@@ -2,31 +2,54 @@
 <WwiseDocument Type="WorkUnit" ID="{BA40347D-B690-4032-BF8F-715074FCA3A3}" SchemaVersion="97">
 	<Busses>
 		<WorkUnit Name="Quentin" ID="{BA40347D-B690-4032-BF8F-715074FCA3A3}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="7"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
-				<Folder Name="BarnWwiseMeter" ID="{401238E1-B7FF-4268-B726-62A208FB7DD2}" ShortID="311591842">
+				<Folder Name="Barn" ID="{7F119D73-CCC1-4F38-A236-9D79E590EE78}" ShortID="401896965">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<Bus Name="Master Bus" ID="{654CF242-3AAB-4A3C-8BC1-51FB53B7AD24}">
-							<ReferenceList>
-								<Reference Name="AudioDevice">
-									<ObjectRef Name="System" ID="{242403DC-E1DA-4717-9AFE-05B0FD4A52D6}" WorkUnitID="{E006E180-8AFC-41C1-A96A-4E5F054F3333}"/>
-								</Reference>
-							</ReferenceList>
+						<Folder Name="Barn" ID="{401238E1-B7FF-4268-B726-62A208FB7DD2}" ShortID="311591842">
 							<ChildrenList>
-								<AuxBus Name="WwiseMeterTrigger" ID="{1CA92C67-3E71-4D1E-9783-5E3ECDD15446}">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-									</PropertyList>
+								<Bus Name="Master Bus" ID="{654CF242-3AAB-4A3C-8BC1-51FB53B7AD24}">
 									<ReferenceList>
-										<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
-											<ObjectRef Name="New_Wwise_Meter" ID="{7DD46896-7FD5-4E9E-94F2-5AA467B66412}" WorkUnitID="{8831817A-B624-4F4A-962C-86066C2C19EC}"/>
+										<Reference Name="AudioDevice">
+											<ObjectRef Name="System" ID="{242403DC-E1DA-4717-9AFE-05B0FD4A52D6}" WorkUnitID="{E006E180-8AFC-41C1-A96A-4E5F054F3333}"/>
 										</Reference>
 									</ReferenceList>
-									<PositioningInfo>
-										<Position Name="" ID="{30F2E041-C931-4380-BEB2-B64F8397CF12}"/>
-									</PositioningInfo>
-								</AuxBus>
+									<ChildrenList>
+										<AuxBus Name="WwiseMeterTrigger" ID="{1CA92C67-3E71-4D1E-9783-5E3ECDD15446}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+													<ObjectRef Name="New_Wwise_Meter" ID="{7DD46896-7FD5-4E9E-94F2-5AA467B66412}" WorkUnitID="{8831817A-B624-4F4A-962C-86066C2C19EC}"/>
+												</Reference>
+											</ReferenceList>
+											<PositioningInfo>
+												<Position Name="" ID="{30F2E041-C931-4380-BEB2-B64F8397CF12}"/>
+											</PositioningInfo>
+										</AuxBus>
+										<AuxBus Name="BarnRVB" ID="{780ABCD2-7C8A-41E7-B728-6DC7D6896F81}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Church_Small_Wood" ID="{940CCB47-F031-4C6A-B0E6-726CAC418C02}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
 							</ChildrenList>
-						</Bus>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
