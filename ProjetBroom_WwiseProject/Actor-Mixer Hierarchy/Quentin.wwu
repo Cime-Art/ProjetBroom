@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{F43A4335-1406-4E14-B8F4-E8FEBCBFF69F}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="Quentin" ID="{F43A4335-1406-4E14-B8F4-E8FEBCBFF69F}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="7"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Folder Name="Mobs" ID="{CF94F55E-F86A-4FD4-97B6-09D0F2B3A07E}" ShortID="493016844">
 					<PropertyList>
@@ -419,8 +423,6 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
-												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
 													<ModifierList>
@@ -435,7 +437,6 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
-												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -657,11 +658,15 @@
 										</RandomSequenceContainer>
 										<ActorMixer Name="Wind_Mixer" ID="{66897461-236C-4D15-B903-7ABAA7449254}" ShortID="347909291">
 											<PropertyList>
-												<Property Name="3DPosition" Type="int16" Value="1"/>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="AmnBarnATT" ID="{53999B35-31D8-4951-9515-7EBFBDFA891A}" WorkUnitID="{482BB428-B137-42E9-99DB-065944E42D8C}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 												</Reference>
@@ -678,6 +683,7 @@
 																<Value>1</Value>
 															</ValueList>
 														</Property>
+														<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 														<Property Name="Pitch" Type="int32">
 															<ModifierList>
 																<ModifierInfo>
@@ -692,6 +698,11 @@
 															</ModifierList>
 														</Property>
 														<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>4</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>3</Value>
@@ -714,18 +725,23 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
+																				<XPos>-47.49573</XPos>
+																				<YPos>-3.41392</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
 																				<XPos>-45.8786</XPos>
-																				<YPos>-7.87301</YPos>
+																				<YPos>-1.45632</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>-43.60183</XPos>
-																				<YPos>-2.59391</YPos>
+																				<XPos>-43.50728</XPos>
+																				<YPos>-1.0759</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>-40.60916</XPos>
-																				<YPos>-1.21988</YPos>
+																				<XPos>-40.64068</XPos>
+																				<YPos>-0.53924</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
@@ -771,6 +787,9 @@
 														</Reference>
 														<Reference Name="SwitchGroupOrStateGroup">
 															<ObjectRef Name="CreaksTrigger" ID="{5AC10103-DAD3-4839-AE4C-71498B41F71F}" WorkUnitID="{7F6E1D4D-46A7-4061-8D66-E8BA06519B13}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="BarnRVB" ID="{780ABCD2-7C8A-41E7-B728-6DC7D6896F81}" WorkUnitID="{BA40347D-B690-4032-BF8F-715074FCA3A3}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -1179,9 +1198,11 @@
 																<Value>3</Value>
 															</ValueList>
 														</Property>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5">
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
 															<ModifierList>
 																<ModifierInfo>
 																	<Modifier Name="" ID="{8C07D256-E0BC-47F8-9F36-7B4997993FA1}">
@@ -1194,14 +1215,25 @@
 															</ModifierList>
 														</Property>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-														<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="AmnBarnATT" ID="{53999B35-31D8-4951-9515-7EBFBDFA891A}" WorkUnitID="{482BB428-B137-42E9-99DB-065944E42D8C}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="BarnRVB" ID="{780ABCD2-7C8A-41E7-B728-6DC7D6896F81}" WorkUnitID="{BA40347D-B690-4032-BF8F-715074FCA3A3}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -1211,6 +1243,11 @@
 																<Property Name="3DSpatialization" Type="int16" Value="1"/>
 																<Property Name="OverrideEffect" Type="bool" Value="True"/>
 																<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>47</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -1536,6 +1573,11 @@
 																<Property Name="3DSpatialization" Type="int16" Value="1"/>
 																<Property Name="OverrideEffect" Type="bool" Value="True"/>
 																<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>46</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -1861,6 +1903,11 @@
 																<Property Name="3DSpatialization" Type="int16" Value="1"/>
 																<Property Name="OverrideEffect" Type="bool" Value="True"/>
 																<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>46</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -2180,8 +2227,415 @@
 																<ActiveSource Name="SoundSeed Air Wind" ID="{AE197EA5-E919-4838-8FA0-56A62D2CC130}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
+														<Sound Name="Silence_01" ID="{D3C0CE2F-1DB5-438D-871F-EA5645CDF95C}" ShortID="287394909">
+															<PropertyList>
+																<Property Name="3DPosition" Type="int16" Value="1"/>
+																<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>63</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="AmnBarnATT" ID="{53999B35-31D8-4951-9515-7EBFBDFA891A}" WorkUnitID="{482BB428-B137-42E9-99DB-065944E42D8C}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="BarnRVB" ID="{780ABCD2-7C8A-41E7-B728-6DC7D6896F81}" WorkUnitID="{BA40347D-B690-4032-BF8F-715074FCA3A3}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Wwise Silence" ID="{AE927F26-0910-467F-8AE7-4620DEEC1D2C}" ShortID="420388801" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																	<PropertyList>
+																		<Property Name="Length" Type="Real32" Value="6"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<PositioningInfo>
+																<Position Name="" ID="{8BE1B1C4-F0DA-4123-ACF2-ED7D425A6603}">
+																	<PropertyList>
+																		<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																		<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3"/>
+																	</PropertyList>
+																	<ChildrenList>
+																		<Path2D Name="Wind_Mixer_Path" ID="{F3214EF7-F3D6-4944-8D21-3968B6D3EBE4}">
+																			<PropertyList>
+																				<Property Name="AppendOffset" Type="Uint32" Value="3000"/>
+																				<Property Name="Duration" Type="Uint32" Value="30000"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>50</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-46.83544</XPos>
+																					<YPos>11.46497</YPos>
+																					<Flags>0</Flags>
+																					<Time>3333</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-23.41772</XPos>
+																					<YPos>7.64331</YPos>
+																					<Flags>0</Flags>
+																					<Time>6666</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-5.0632911392405</XPos>
+																					<YPos>4.45859872611466</YPos>
+																					<Flags>0</Flags>
+																					<Time>10000</Time>
+																				</Point>
+																				<Point>
+																					<XPos>34.1772151898734</XPos>
+																					<YPos>6.36942675159236</YPos>
+																					<Flags>0</Flags>
+																					<Time>13333</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-20.88608</XPos>
+																					<YPos>24.84076</YPos>
+																					<Flags>0</Flags>
+																					<Time>16666</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-40.50633</XPos>
+																					<YPos>32.48408</YPos>
+																					<Flags>0</Flags>
+																					<Time>20000</Time>
+																				</Point>
+																				<Point>
+																					<XPos>36.7088607594937</XPos>
+																					<YPos>32.484076433121</YPos>
+																					<Flags>0</Flags>
+																					<Time>23333</Time>
+																				</Point>
+																				<Point>
+																					<XPos>38.60759</XPos>
+																					<YPos>12.10191</YPos>
+																					<Flags>0</Flags>
+																					<Time>26666</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-0.632911392405063</XPos>
+																					<YPos>10.828025477707</YPos>
+																					<Flags>0</Flags>
+																					<Time>30000</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="Wind_Mixer_Path_01" ID="{36851896-BCE6-4464-B230-A025EB5BC701}">
+																			<PropertyList>
+																				<Property Name="AppendOffset" Type="Uint32" Value="3200"/>
+																				<Property Name="Duration" Type="Uint32" Value="21000"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>50</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-44.3038</XPos>
+																					<YPos>19.10828</YPos>
+																					<Flags>0</Flags>
+																					<Time>3500</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-9.49367088607595</XPos>
+																					<YPos>6.36942675159236</YPos>
+																					<Flags>0</Flags>
+																					<Time>7000</Time>
+																				</Point>
+																				<Point>
+																					<XPos>29.11392</XPos>
+																					<YPos>5.09554</YPos>
+																					<Flags>0</Flags>
+																					<Time>10500</Time>
+																				</Point>
+																				<Point>
+																					<XPos>33.5443</XPos>
+																					<YPos>24.20382</YPos>
+																					<Flags>0</Flags>
+																					<Time>14000</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-1.89873417721519</XPos>
+																					<YPos>31.2101910828026</YPos>
+																					<Flags>0</Flags>
+																					<Time>17500</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-53.16456</XPos>
+																					<YPos>8.9172</YPos>
+																					<Flags>0</Flags>
+																					<Time>21000</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																	</ChildrenList>
+																</Position>
+															</PositioningInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="Wwise Silence" ID="{AE927F26-0910-467F-8AE7-4620DEEC1D2C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_02" ID="{42050F82-5E64-4F0E-9972-809EDE9C7D78}" ShortID="737424616">
+															<PropertyList>
+																<Property Name="3DPosition" Type="int16" Value="1"/>
+																<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>47</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="AmnBarnATT" ID="{53999B35-31D8-4951-9515-7EBFBDFA891A}" WorkUnitID="{482BB428-B137-42E9-99DB-065944E42D8C}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="BarnRVB" ID="{780ABCD2-7C8A-41E7-B728-6DC7D6896F81}" WorkUnitID="{BA40347D-B690-4032-BF8F-715074FCA3A3}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Wwise Silence" ID="{68078E5A-17C9-4833-86F1-504904F5F82E}" ShortID="696294888" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																	<PropertyList>
+																		<Property Name="Length" Type="Real32" Value="7"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<PositioningInfo>
+																<Position Name="" ID="{544FFE68-CD0B-4E08-B995-223C094F16B2}">
+																	<PropertyList>
+																		<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																		<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3"/>
+																	</PropertyList>
+																	<ChildrenList>
+																		<Path2D Name="Wind_Mixer_Path" ID="{7F30F522-E896-49A3-8960-6DCD5E06128E}">
+																			<PropertyList>
+																				<Property Name="AppendOffset" Type="Uint32" Value="3000"/>
+																				<Property Name="Duration" Type="Uint32" Value="30000"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>50</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-46.83544</XPos>
+																					<YPos>11.46497</YPos>
+																					<Flags>0</Flags>
+																					<Time>3333</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-23.41772</XPos>
+																					<YPos>7.64331</YPos>
+																					<Flags>0</Flags>
+																					<Time>6666</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-5.0632911392405</XPos>
+																					<YPos>4.45859872611466</YPos>
+																					<Flags>0</Flags>
+																					<Time>10000</Time>
+																				</Point>
+																				<Point>
+																					<XPos>34.1772151898734</XPos>
+																					<YPos>6.36942675159236</YPos>
+																					<Flags>0</Flags>
+																					<Time>13333</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-20.88608</XPos>
+																					<YPos>24.84076</YPos>
+																					<Flags>0</Flags>
+																					<Time>16666</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-40.50633</XPos>
+																					<YPos>32.48408</YPos>
+																					<Flags>0</Flags>
+																					<Time>20000</Time>
+																				</Point>
+																				<Point>
+																					<XPos>36.7088607594937</XPos>
+																					<YPos>32.484076433121</YPos>
+																					<Flags>0</Flags>
+																					<Time>23333</Time>
+																				</Point>
+																				<Point>
+																					<XPos>38.60759</XPos>
+																					<YPos>12.10191</YPos>
+																					<Flags>0</Flags>
+																					<Time>26666</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-0.632911392405063</XPos>
+																					<YPos>10.828025477707</YPos>
+																					<Flags>0</Flags>
+																					<Time>30000</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="Wind_Mixer_Path_01" ID="{EE8126B9-A154-47DA-AD48-06AB465C9CE2}">
+																			<PropertyList>
+																				<Property Name="AppendOffset" Type="Uint32" Value="3200"/>
+																				<Property Name="Duration" Type="Uint32" Value="21000"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>50</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-44.3038</XPos>
+																					<YPos>19.10828</YPos>
+																					<Flags>0</Flags>
+																					<Time>3500</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-9.49367088607595</XPos>
+																					<YPos>6.36942675159236</YPos>
+																					<Flags>0</Flags>
+																					<Time>7000</Time>
+																				</Point>
+																				<Point>
+																					<XPos>29.11392</XPos>
+																					<YPos>5.09554</YPos>
+																					<Flags>0</Flags>
+																					<Time>10500</Time>
+																				</Point>
+																				<Point>
+																					<XPos>33.5443</XPos>
+																					<YPos>24.20382</YPos>
+																					<Flags>0</Flags>
+																					<Time>14000</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-1.89873417721519</XPos>
+																					<YPos>31.2101910828026</YPos>
+																					<Flags>0</Flags>
+																					<Time>17500</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-53.16456</XPos>
+																					<YPos>8.9172</YPos>
+																					<Flags>0</Flags>
+																					<Time>21000</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																	</ChildrenList>
+																</Position>
+															</PositioningInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="Wwise Silence" ID="{68078E5A-17C9-4833-86F1-504904F5F82E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
+												<Sound Name="WindBackGround" ID="{5FB16CC8-E2FB-4D2F-9659-7E1CB3F580D0}" ShortID="656469982">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-12</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<SourcePlugin Name="SoundSeed Air Wind" ID="{0C7F99F1-A486-4E70-98F7-E5762EFAD6DD}" ShortID="522069659" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
+															<PropertyList>
+																<Property Name="AverageVelocity" Type="Real32" Value="-480"/>
+																<Property Name="AverageVelocityRandom" Type="Real32" Value="10"/>
+																<Property Name="FrequencyScale" Type="Real32" Value="0.08"/>
+																<Property Name="GainOffset" Type="Real32" Value="-3.6"/>
+																<Property Name="GainOffsetRandom" Type="Real32" Value="3.8"/>
+																<Property Name="Gustiness" Type="Real32" Value="0.19"/>
+																<Property Name="QFactorScale" Type="Real32" Value="-0.59"/>
+																<Property Name="Variability" Type="Real32" Value="0.52"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<PluginData>
+	<CurveList Version="1">
+		<CurveInfo Name="GainOffset">
+			<Curve Name="" ID="{CA2985F3-7656-4A1E-A129-EBBC332F069F}">
+				<PropertyList>
+					<Property Name="Flags" Type="int32" Value="1"/>
+				</PropertyList>
+				<PointList>
+					<Point>
+						<XPos>0</XPos>
+						<YPos>0</YPos>
+						<Flags>5</Flags>
+					</Point>
+					<Point>
+						<XPos>10</XPos>
+						<YPos>0</YPos>
+						<Flags>37</Flags>
+					</Point>
+				</PointList>
+			</Curve>
+		</CurveInfo>
+	</CurveList>
+</PluginData>
+															<PluginInnerObjectList>
+																<List Name="Deflectors">
+																	<PluginInnerObject Name="" ID="{801C4D8C-886D-4800-99C0-A45C801A9995}" PluginName="Deflector" CompanyID="0" PluginID="121">
+																		<PropertyList>
+																			<Property Name="Frequency" Type="Real32" Value="304"/>
+																			<Property Name="Gain" Type="Real32" Value="-2"/>
+																			<Property Name="QFactor" Type="Real32" Value="22.16"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{8A7D90BC-2803-4B14-8595-F65B833A85F5}" PluginName="Deflector" CompanyID="0" PluginID="121">
+																		<PropertyList>
+																			<Property Name="Frequency" Type="Real32" Value="892"/>
+																			<Property Name="Gain" Type="Real32" Value="-3"/>
+																			<Property Name="QFactor" Type="Real32" Value="14.81"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
+														</SourcePlugin>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SoundSeed Air Wind" ID="{0C7F99F1-A486-4E70-98F7-E5762EFAD6DD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 											<PositioningInfo>
 												<Position Name="" ID="{91F78198-73CF-40A8-BE27-84F35171385C}">
