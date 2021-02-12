@@ -767,6 +767,7 @@
 						</ActorMixer>
 						<ActorMixer Name="Mouse_Mixer" ID="{2111BB85-1DDC-4009-BAD8-A686BD02C1CD}" ShortID="496005978">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
