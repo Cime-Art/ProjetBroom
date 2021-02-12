@@ -117,17 +117,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Event_MouseKitchen" ID="{5696F8B6-CE60-4769-BCD7-22B1D11D8A10}">
-					<ChildrenList>
-						<Action Name="" ID="{A476B5DA-081B-4441-A038-CC7185847102}" ShortID="552162778">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Mouses_RND" ID="{0579C7F5-30FE-456D-A09F-24A21CE97D7F}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Event_AmbKitchenGen" ID="{B55CD3CD-63AD-4CAC-800B-7FB1C7A3FD47}">
 					<ChildrenList>
 						<Action Name="" ID="{A901C3E7-B4EB-41E1-9AF7-68A69281FD7D}" ShortID="936434533">
@@ -145,6 +134,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="FireplaceCrackle_RND" ID="{1DA16A7E-9FB6-4C31-8DF8-CF203168A567}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_MouseKitchen" ID="{7780A269-D527-424C-9495-A3631EBB9B94}">
+					<ChildrenList>
+						<Action Name="" ID="{7FFCF626-FEFA-4209-BAE9-F4BB254F443F}" ShortID="116864382">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MouseKitchen_RND" ID="{A4F6456F-E90E-4ACF-8F0D-7DFDD1EDED41}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
