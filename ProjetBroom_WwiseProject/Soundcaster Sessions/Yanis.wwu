@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2191821D-D814-4E7B-9DD0-FEE29723BABA}" SchemaVersion="97">
+	<SoundcasterSessions>
+		<WorkUnit Name="Yanis" ID="{2191821D-D814-4E7B-9DD0-FEE29723BABA}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SoundcasterSession Name="Jail" ID="{287F2C1E-2023-4C90-BE3D-BCA86800E6C5}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_GeneralAmbient" ID="{72B96B9B-72FE-4BF4-85CD-6A50426EABA5}" WorkUnitID="{8A9E5361-FAEB-4573-AB4C-F57DD042DC90}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MetalCrackle" ID="{2A114124-982D-4C23-B701-56AC6487DBFD}" WorkUnitID="{8A9E5361-FAEB-4573-AB4C-F57DD042DC90}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_DoorSlam" ID="{9EFF254D-B0CE-47F8-BE42-95488772D7BE}" WorkUnitID="{8A9E5361-FAEB-4573-AB4C-F57DD042DC90}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_WallCrackle" ID="{43B268DE-2A0B-4969-9D6F-722CB78E6487}" WorkUnitID="{8A9E5361-FAEB-4573-AB4C-F57DD042DC90}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_LoudScream" ID="{B4C1EC9E-D211-406D-A84B-09673CAE01EA}" WorkUnitID="{8A9E5361-FAEB-4573-AB4C-F57DD042DC90}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SmallAnimalRun_Away" ID="{4112958F-6BBC-406C-9E1C-36F01C27CBF3}" WorkUnitID="{8A9E5361-FAEB-4573-AB4C-F57DD042DC90}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MetalSlam" ID="{BF21997B-00E1-4508-B929-8E295A3D1D30}" WorkUnitID="{8A9E5361-FAEB-4573-AB4C-F57DD042DC90}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ChainSound" ID="{FE2E0FC3-4052-4CBC-B90C-E0362A175C71}" WorkUnitID="{8A9E5361-FAEB-4573-AB4C-F57DD042DC90}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_WoodWork" ID="{38A15D2C-308B-45D4-A28D-601193FCB594}" WorkUnitID="{8A9E5361-FAEB-4573-AB4C-F57DD042DC90}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PLay_DropOfBlood" ID="{880FC5AA-B52B-4D12-9EF4-D3C8DE6D3B1B}" WorkUnitID="{8A9E5361-FAEB-4573-AB4C-F57DD042DC90}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SmallAnimalRun_OnPipe" ID="{D6FC6C4A-F8F9-4A59-B627-4BB28CB95E77}" WorkUnitID="{8A9E5361-FAEB-4573-AB4C-F57DD042DC90}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AcidFlow" ID="{28BACA49-E159-4A48-8251-AC23F8D1DFCB}" WorkUnitID="{8A9E5361-FAEB-4573-AB4C-F57DD042DC90}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AcidBurn" ID="{399FDEC2-77E2-435A-B458-BA31B44D62CF}" WorkUnitID="{8A9E5361-FAEB-4573-AB4C-F57DD042DC90}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance" ID="{C1FB3B6B-0CEC-4F98-9EE2-487C8123E3DE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
+						<CurrentSwitchRef Name="No" ID="{D598B921-AEB4-45D0-9757-0502A47EF998}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
