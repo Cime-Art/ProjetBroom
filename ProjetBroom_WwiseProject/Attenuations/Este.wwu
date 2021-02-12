@@ -628,7 +628,7 @@
 										</Point>
 										<Point>
 											<XPos>108.0721</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -669,9 +669,9 @@
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
-				<Attenuation Name="KitchenGen_Att" ID="{7144CFB9-4ECA-4744-9C65-5AE68030003D}" ShortID="806835572">
+				<Attenuation Name="WindWindow_Att" ID="{7144CFB9-4ECA-4744-9C65-5AE68030003D}" ShortID="806835572">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="2000"/>
+						<Property Name="RadiusMax" Type="Real64" Value="700"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -687,7 +687,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>2000</XPos>
+											<XPos>700</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -708,7 +708,31 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 						</HighPassFilterUsage>
 						<SpreadUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="Spread" ID="{A3D6A1A0-8480-4C92-943D-6C63C2A597B8}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="1"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>100</YPos>
+											<Flags>5</Flags>
+											<SegmentShape>Log1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>177.7429465</XPos>
+											<YPos>37.51306</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>700</XPos>
+											<YPos>0</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</SpreadUsage>
 						<FocusUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
