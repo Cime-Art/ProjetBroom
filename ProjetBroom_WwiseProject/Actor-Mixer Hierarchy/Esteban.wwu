@@ -994,6 +994,53 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
+						<ActorMixer Name="AmbKitchenGen_Mixer" ID="{B2639510-79B3-4927-91A6-DC3203D8AC45}" ShortID="393717719">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="KitchenGen_Att" ID="{7144CFB9-4ECA-4744-9C65-5AE68030003D}" WorkUnitID="{7F799448-99C2-42A9-A1A6-859232DAC130}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_LP_KitchenGen_01_THOMAS_V1" ID="{DF071549-2816-47BD-8A0A-60C9701AE614}" ShortID="600992130">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_LP_KitchenGen_01_THOMAS_V1" ID="{D0C150A7-1670-4AAD-8B8F-A2B4F94AA64A}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_LP_KitchenGen_01_THOMAS_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="677219341"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_LP_KitchenGen_01_THOMAS_V1" ID="{D0C150A7-1670-4AAD-8B8F-A2B4F94AA64A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Boiler_Mixer" ID="{F681D883-3C53-4E8F-A377-00F8F19D8B1E}" ShortID="200011092">

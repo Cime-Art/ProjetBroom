@@ -128,6 +128,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Event_AmbKitchenGen" ID="{B55CD3CD-63AD-4CAC-800B-7FB1C7A3FD47}">
+					<ChildrenList>
+						<Action Name="" ID="{A901C3E7-B4EB-41E1-9AF7-68A69281FD7D}" ShortID="936434533">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_LP_KitchenGen_01_THOMAS_V1" ID="{DF071549-2816-47BD-8A0A-60C9701AE614}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
