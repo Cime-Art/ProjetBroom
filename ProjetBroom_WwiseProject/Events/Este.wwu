@@ -59,15 +59,8 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Event_Fireplace" ID="{4AAB860F-3F22-4975-B78E-A6366E7DAEA4}">
+				<Event Name="Event_FireplacePreparation" ID="{4AAB860F-3F22-4975-B78E-A6366E7DAEA4}">
 					<ChildrenList>
-						<Action Name="" ID="{4199EA9D-4ECE-4E4C-9E8A-B78FA850B7DA}" ShortID="597408355">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="FireplaceCrackle_RND" ID="{1DA16A7E-9FB6-4C31-8DF8-CF203168A567}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{5D34B2D3-49E2-4D7B-AEC4-742189634127}" ShortID="817640975">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -134,6 +127,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="AMB_LP_KitchenGen_01_THOMAS_V1" ID="{DF071549-2816-47BD-8A0A-60C9701AE614}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_FireplaceCrackles" ID="{01EA8BE6-0420-4BA0-8206-2496A7391D17}">
+					<ChildrenList>
+						<Action Name="" ID="{7B4870F6-32E5-4262-8F9F-647F2A41CD43}" ShortID="1002786870">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FireplaceCrackle_RND" ID="{1DA16A7E-9FB6-4C31-8DF8-CF203168A567}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

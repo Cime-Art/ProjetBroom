@@ -9,7 +9,7 @@
 			<ChildrenList>
 				<Attenuation Name="Boiler_Att" ID="{85D9B5E7-C0D4-4020-A345-835D9B4FEB01}" ShortID="259471978">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="1500"/>
+						<Property Name="RadiusMax" Type="Real64" Value="1250"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -23,9 +23,22 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1500</XPos>
+											<XPos>493.730416666666</XPos>
+											<YPos>-4.5776</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>721.003135416667</XPos>
+											<YPos>-12.20726</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>1250</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -40,7 +53,7 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 						</VolumeWetUserUsage>
 						<LowPassFilterUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None">
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 								<Curve Name="LowPassFilter" ID="{0F5F79ED-948B-44DA-BE18-8BD041D7C3AB}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="65537"/>
@@ -50,10 +63,17 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1500</XPos>
-											<YPos>100</YPos>
+											<XPos>652.42946875</XPos>
+											<YPos>34</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>1250</XPos>
+											<YPos>42</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -61,7 +81,7 @@
 							</CurveUsageInfo>
 						</LowPassFilterUsage>
 						<HighPassFilterUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+							<CurveUsageInfo Platform="Linked" CurveToUse="None">
 								<Curve Name="HighPassFilter" ID="{C783F226-ED56-4760-AF59-8908ED955E5C}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="65537"/>
@@ -73,12 +93,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>754.7022</XPos>
+											<XPos>628.9185</XPos>
 											<YPos>23</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>1500</XPos>
+											<XPos>1250</XPos>
 											<YPos>23</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -99,7 +119,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>1500</XPos>
+											<XPos>1250</XPos>
 											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -108,7 +128,7 @@
 							</CurveUsageInfo>
 						</SpreadUsage>
 						<FocusUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None">
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 								<Curve Name="Focus" ID="{06CD4E09-CCE0-42F8-8AA5-6148C9DD0CC7}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="1"/>
@@ -116,12 +136,18 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>100</YPos>
+											<YPos>0</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>1500</XPos>
-											<YPos>0</YPos>
+											<XPos>225.313483333333</XPos>
+											<YPos>-0</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>1250</XPos>
+											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -217,7 +243,7 @@
 							</CurveUsageInfo>
 						</HighPassFilterUsage>
 						<SpreadUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+							<CurveUsageInfo Platform="Linked" CurveToUse="None">
 								<Curve Name="Spread" ID="{695FDBE0-1535-463A-9EB2-9BD9DEE2DB18}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="1"/>
@@ -245,7 +271,7 @@
 							</CurveUsageInfo>
 						</SpreadUsage>
 						<FocusUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None">
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 								<Curve Name="Focus" ID="{FC0B79EB-46F6-4DA3-B3DF-5D7B0A53072D}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="1"/>
@@ -253,12 +279,18 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>100</YPos>
+											<YPos>0</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>820</XPos>
+											<XPos>231.34796</XPos>
 											<YPos>0</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>820</XPos>
+											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -269,7 +301,7 @@
 				</Attenuation>
 				<Attenuation Name="PigSpit_Att" ID="{705EB1D0-9BA7-4976-AA03-4B93EC124967}" ShortID="713085167">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="1100"/>
+						<Property Name="RadiusMax" Type="Real64" Value="1000"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -286,24 +318,19 @@
 											<SegmentShape>Exp2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>258.62067</XPos>
-											<YPos>-8.41622</YPos>
+											<XPos>424.7649</XPos>
+											<YPos>-4.84891</YPos>
 											<Flags>0</Flags>
-											<SegmentShape>Log2</SegmentShape>
+											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>665.51725</XPos>
-											<YPos>-17.89637</YPos>
+											<XPos>730.40753</XPos>
+											<YPos>-7.45022</YPos>
 											<Flags>0</Flags>
-											<SegmentShape>Exp2</SegmentShape>
+											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>810.34483</XPos>
-											<YPos>-20.12322</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>1100</XPos>
+											<XPos>1000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -331,15 +358,16 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>462.068963888888</XPos>
-											<YPos>24</YPos>
+											<XPos>592.47649</XPos>
+											<YPos>64</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>1100</XPos>
-											<YPos>22</YPos>
+											<XPos>1000</XPos>
+											<YPos>66</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -347,7 +375,7 @@
 							</CurveUsageInfo>
 						</HighPassFilterUsage>
 						<SpreadUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+							<CurveUsageInfo Platform="Linked" CurveToUse="None">
 								<Curve Name="Spread" ID="{015E2F45-E669-440A-AFD8-82958054C340}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="1"/>
@@ -355,13 +383,19 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>100</YPos>
+											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>Exp2</SegmentShape>
+											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1100</XPos>
-											<YPos>0</YPos>
+											<XPos>300.94044</XPos>
+											<YPos>49.17136</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>1000</XPos>
+											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -377,13 +411,19 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>100</YPos>
+											<YPos>-0</YPos>
 											<Flags>5</Flags>
 											<SegmentShape>Exp2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1100</XPos>
+											<XPos>221.00313</XPos>
 											<YPos>0</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log2</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>1000</XPos>
+											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -394,7 +434,7 @@
 				</Attenuation>
 				<Attenuation Name="WaterDrop_Att" ID="{B9E765E5-CEA6-4B1D-8750-9BCF99454CA2}" ShortID="524012910">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="700"/>
+						<Property Name="RadiusMax" Type="Real64" Value="550"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -408,15 +448,22 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>199.68652</XPos>
-											<YPos>-3.10477</YPos>
+											<XPos>233.62069</XPos>
+											<YPos>-3.64598</YPos>
 											<Flags>0</Flags>
-											<SegmentShape>Exp2</SegmentShape>
+											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>700</XPos>
+											<XPos>400.862070714286</XPos>
+											<YPos>-11.97876</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>550</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -443,7 +490,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>700</XPos>
+											<XPos>550</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -467,7 +514,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>700</XPos>
+											<XPos>550</XPos>
 											<YPos>18.03279</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -476,7 +523,7 @@
 							</CurveUsageInfo>
 						</SpreadUsage>
 						<FocusUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None">
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 								<Curve Name="Focus" ID="{7F8A5DC3-2EA0-428B-AE73-63F42E45DC9C}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="1"/>
@@ -484,12 +531,18 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>100</YPos>
+											<YPos>0</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>700</XPos>
+											<XPos>162.931034482759</XPos>
 											<YPos>0</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>550</XPos>
+											<YPos>99.99997</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -500,7 +553,7 @@
 				</Attenuation>
 				<Attenuation Name="Mouse_Att" ID="{846EF7DD-DB85-45BD-9222-1BF48A605109}" ShortID="683431346">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="750"/>
+						<Property Name="RadiusMax" Type="Real64" Value="350"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -514,15 +567,23 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>205.721</XPos>
-											<YPos>-7.25433</YPos>
+											<XPos>132.75862</XPos>
+											<YPos>-3.71367</YPos>
 											<Flags>0</Flags>
+											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>750</XPos>
-											<YPos>-200</YPos>
+											<XPos>233.15047</XPos>
+											<YPos>-9.14929</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>350</XPos>
+											<YPos>-20.12321</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -545,7 +606,31 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 						</SpreadUsage>
 						<FocusUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="Focus" ID="{707C5ECA-79EF-453D-A18F-E1B38168056F}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="1"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>92.7116</XPos>
+											<YPos>0</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>350</XPos>
+											<YPos>100</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
