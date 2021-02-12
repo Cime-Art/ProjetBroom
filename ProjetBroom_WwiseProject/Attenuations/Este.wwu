@@ -141,13 +141,13 @@
 										</Point>
 										<Point>
 											<XPos>225.313483333333</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>1250</XPos>
-											<YPos>100</YPos>
+											<YPos>60.56339</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -290,7 +290,7 @@
 										</Point>
 										<Point>
 											<XPos>820</XPos>
-											<YPos>100</YPos>
+											<YPos>74.64789</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -411,7 +411,7 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>5</Flags>
 											<SegmentShape>Exp2</SegmentShape>
 										</Point>
