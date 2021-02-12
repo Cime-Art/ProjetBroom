@@ -218,7 +218,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -426,7 +426,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>1</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -717,6 +717,280 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Mouse_Mixer" ID="{2111BB85-1DDC-4009-BAD8-A686BD02C1CD}" ShortID="496005978">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Mouse_Att" ID="{846EF7DD-DB85-45BD-9222-1BF48A605109}" WorkUnitID="{7F799448-99C2-42A9-A1A6-859232DAC130}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Mouses_RND" ID="{0579C7F5-30FE-456D-A09F-24A21CE97D7F}" ShortID="782413133">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+										<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{07F485AE-831C-4AAC-BD06-A3645D7E07E6}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="30"/>
+															<Property Name="Min" Type="Real64" Value="-30"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3279A4C1-1192-4EDD-936B-F8E30994AEEC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-0.5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Amb_OS_BarnMouse_01_Ferreira_v1" ID="{CD358865-9D40-4B78-9B20-0390CEC0BCA8}" ShortID="1004786531">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_OS_BarnMouse_01_Ferreira_v1" ID="{BD05E712-C3F4-45DD-BCBA-FFF81724FC21}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0419047619047619"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.137142857142857"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.26285714285714"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Amb_OS_BarnMouse_01_Ferreira_v1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1036241396"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{D607B449-9459-42C7-A136-1B69F3E5F0C9}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="Amb_OS_BarnMouse_01_Ferreira_v1_Path" ID="{5217691E-62AE-4E0B-BBEF-973D32E50FC4}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="1000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-100</XPos>
+																	<YPos>88.21656</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>77.70701</YPos>
+																	<Flags>0</Flags>
+																	<Time>1000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_OS_BarnMouse_01_Ferreira_v1" ID="{BD05E712-C3F4-45DD-BCBA-FFF81724FC21}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Amb_OS_BarnMouse_02_Ferreira_v1" ID="{26F103F8-DD64-4ABC-94B2-9D429F2CFD06}" ShortID="690137573">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_OS_BarnMouse_02_Ferreira_v1" ID="{32F03827-2568-4C54-997D-6FD3044B2ED7}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0239455782312925"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0628571428571429"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.113741496598639"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.77496598639456"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Amb_OS_BarnMouse_02_Ferreira_v1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="928666914"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_OS_BarnMouse_02_Ferreira_v1" ID="{32F03827-2568-4C54-997D-6FD3044B2ED7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Amb_OS_BarnMouse_03_Ferreira_v1" ID="{1FBC552E-6760-4FC7-AAA7-BE9095D2EB9E}" ShortID="654907318">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_OS_BarnMouse_03_Ferreira_v1" ID="{9708125E-627D-4497-A231-36362AB2B5D2}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0500680272108844"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0187755102040816"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.137687074829932"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.66789115646258"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Amb_OS_BarnMouse_03_Ferreira_v1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="960928492"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_OS_BarnMouse_03_Ferreira_v1" ID="{9708125E-627D-4497-A231-36362AB2B5D2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Amb_OS_BarnMouse_04_Ferreira_v1" ID="{9508C3E3-147E-483D-99B0-230B8D17EAF1}" ShortID="215052619">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_OS_BarnMouse_04_Ferreira_v1" ID="{6F63675B-C5FD-4CB9-8080-5DA0D28A7586}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0329251700680271"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.119727891156463"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.67020408163265"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Amb_OS_BarnMouse_04_Ferreira_v1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="176245362"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_OS_BarnMouse_04_Ferreira_v1" ID="{6F63675B-C5FD-4CB9-8080-5DA0D28A7586}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{DECA40F9-BCAD-4232-964F-A035C988F382}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="7.105427357601E-15"/>
+											</PropertyList>
+										</Panner>
+										<Position Name="" ID="{41E7DBB6-F26A-4B27-86F8-2B68C260EEA1}">
+											<PropertyList>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="Mouses_RND_Path_01" ID="{90D2A2E9-F9F4-49EB-8B79-3B67E2BCBB8B}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="500"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>100</YPos>
+															<Flags>0</Flags>
+															<Time>500</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Mouses_RND_Path_02" ID="{9BD20590-D46C-40E1-82B7-0F4E9569ABA6}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="900"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>100</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<Flags>0</Flags>
+															<Time>900</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>

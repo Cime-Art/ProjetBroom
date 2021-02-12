@@ -117,6 +117,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Event_MouseKitchen" ID="{5696F8B6-CE60-4769-BCD7-22B1D11D8A10}">
+					<ChildrenList>
+						<Action Name="" ID="{A476B5DA-081B-4441-A038-CC7185847102}" ShortID="552162778">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mouses_RND" ID="{0579C7F5-30FE-456D-A09F-24A21CE97D7F}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
