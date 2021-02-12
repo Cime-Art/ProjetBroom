@@ -87,7 +87,7 @@
 							</CurveUsageInfo>
 						</HighPassFilterUsage>
 						<SpreadUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+							<CurveUsageInfo Platform="Linked" CurveToUse="None">
 								<Curve Name="Spread" ID="{8F18EC0A-E31A-4474-894E-55AD268B9C0D}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="1"/>

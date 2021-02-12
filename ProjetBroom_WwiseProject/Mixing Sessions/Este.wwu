@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1E42D115-5080-4AA6-AFC6-9265B3A8DFDC}" SchemaVersion="97">
+	<MixingSessions>
+		<WorkUnit Name="Este" ID="{1E42D115-5080-4AA6-AFC6-9265B3A8DFDC}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<MixingSession Name="Boiler_MixSession" ID="{392B8304-C38B-4CD0-B92D-59B22D155AA0}">
+					<ObjectList>
+						<ObjectRef Name="Amb_LP_FireBoiler_01" ID="{D5F75D44-C415-4B8F-9CA2-48B85066E4BC}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+						<ObjectRef Name="ShakeBoiler_Blend" ID="{1088126B-CC47-4D6D-89E5-DB2263088422}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+						<ObjectRef Name="FireBoiler_RND" ID="{8815DF08-01A1-44C8-8E43-F65F0B0FDDC2}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+						<ObjectRef Name="BoilerDoorOpen_RND" ID="{3C01B8E0-642D-4BB7-8B79-1D89472F1EA0}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+						<ObjectRef Name="BoilerDoorClose_RND" ID="{4C27D804-3CDE-4CB6-B2A2-AAE986478927}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>
