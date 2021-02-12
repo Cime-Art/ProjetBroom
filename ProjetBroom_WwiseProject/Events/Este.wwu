@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5DFBBCEB-33A3-4310-BC08-4615DFAA20ED}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Este" ID="{5DFBBCEB-33A3-4310-BC08-4615DFAA20ED}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Event_Boiler" ID="{21565AFE-8ACE-4627-A74C-9F9EF4B25786}">
+					<ChildrenList>
+						<Action Name="" ID="{DBDD19B2-B691-4F1C-A045-35CB2C69464D}" ShortID="260788410">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShakeBoiler_Blend" ID="{1088126B-CC47-4D6D-89E5-DB2263088422}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{307E5D60-D63F-4C14-BD70-7EBE56ACD7AE}" ShortID="357608213">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BoilerDoorOpen_RND" ID="{3C01B8E0-642D-4BB7-8B79-1D89472F1EA0}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{548790C3-F137-4301-8390-F3832DBC5D7B}" ShortID="769183650">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.05"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FireBoiler_RND" ID="{8815DF08-01A1-44C8-8E43-F65F0B0FDDC2}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5F324A89-1CCE-4E48-A2BE-4F7E61410789}" ShortID="568087129">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BoilerDoorClose_RND" ID="{4C27D804-3CDE-4CB6-B2A2-AAE986478927}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_AmbBoiler" ID="{F98DAF6A-6CE6-418F-B05D-6AD9824BEEED}">
+					<ChildrenList>
+						<Action Name="" ID="{DA177F9C-A0A0-4BFE-8E7C-CAFA54375F62}" ShortID="554967204">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_LP_FireBoiler_01" ID="{D5F75D44-C415-4B8F-9CA2-48B85066E4BC}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Fireplace" ID="{4AAB860F-3F22-4975-B78E-A6366E7DAEA4}">
+					<ChildrenList>
+						<Action Name="" ID="{4199EA9D-4ECE-4E4C-9E8A-B78FA850B7DA}" ShortID="597408355">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FireplaceCrackle_RND" ID="{1DA16A7E-9FB6-4C31-8DF8-CF203168A567}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5D34B2D3-49E2-4D7B-AEC4-742189634127}" ShortID="817640975">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FireplacePreparation_RND" ID="{172109C0-24FF-4845-A2F6-9518881A3C40}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_PigSpit" ID="{F324CDE4-4FC6-4873-A9D7-E9B8321CFFD7}">
+					<ChildrenList>
+						<Action Name="" ID="{50626367-A22F-4A24-98F3-C5ADE69D67B8}" ShortID="156655497">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FabInFire_RND" ID="{20EFF269-EE49-45E3-9C31-36789C2780C4}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7EE0448C-C2FC-4579-B8E6-65C94FB5BA70}" ShortID="287125972">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PigSpit_Blend" ID="{0C283331-4AF5-4CD4-8F96-763B38761E41}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Fire" ID="{BB4EAB3C-6450-4E42-836B-45C50F17FB2D}">
+					<ChildrenList>
+						<Action Name="" ID="{46E3D777-E1A1-4248-859A-EE6B26FD54FC}" ShortID="415795488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire_RND" ID="{42B4AC35-2464-4DC0-8F87-F1B99FA012C0}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_WaterDrop" ID="{D5DA1EA7-9027-456A-BCDC-F1ECF99DF735}">
+					<ChildrenList>
+						<Action Name="" ID="{D3D4FF1C-FC71-4CD7-A4E7-1CF6F0365CF1}" ShortID="420298964">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterDrop_RND" ID="{FAEB3EBB-E8DC-4D27-A021-871D7498411E}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

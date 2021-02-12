@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8831817A-B624-4F4A-962C-86066C2C19EC}" SchemaVersion="97">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{8831817A-B624-4F4A-962C-86066C2C19EC}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8831817A-B624-4F4A-962C-86066C2C19EC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Wwise_Meter" ID="{7DD46896-7FD5-4E9E-94F2-5AA467B66412}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>
+</PluginData>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>
