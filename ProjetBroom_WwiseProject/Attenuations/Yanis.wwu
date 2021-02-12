@@ -8,6 +8,9 @@
 			</PropertyList>
 			<ChildrenList>
 				<Attenuation Name="Distance_Acid" ID="{07920A1D-5CF8-4DA1-A56A-FA825A3276A2}" ShortID="104444301">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="2500"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -22,8 +25,8 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
-											<YPos>-200</YPos>
+											<XPos>2500</XPos>
+											<YPos>-50</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -50,8 +53,8 @@
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
-											<YPos>44</YPos>
+											<XPos>2500</XPos>
+											<YPos>61</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -71,7 +74,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>2500</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
