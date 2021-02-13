@@ -91,7 +91,7 @@
 								<Action Name="" ID="{816F87E7-7F6E-404E-BB3E-60FD066DA659}" ShortID="587406532">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Amb_OS_DropOfBlood _03_Anger_V2" ID="{BE89027B-3726-44F5-B36C-A523182AABD1}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+											<ObjectRef Name="Drop_Of_Blood_RND" ID="{AFA0E82C-586A-479A-9627-ED5F40706FC9}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -130,7 +130,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Jail_Graoning_Prisoner" ID="{EABAB4A6-69AB-45B8-BD5A-19E5B6B557DA}"/>
+						<Event Name="Play_Jail_Graoning_Prisoner" ID="{EABAB4A6-69AB-45B8-BD5A-19E5B6B557DA}">
+							<ChildrenList>
+								<Action Name="" ID="{FDF11C53-7508-4CBA-AB3E-F621BEA92636}" ShortID="99744794">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jail_Graoning_Prisoner_RND" ID="{BA8FA58E-6833-40A7-B45F-BFF8D4361A9D}" WorkUnitID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Play_Stone_Fall" ID="{70873511-AA7A-4629-B316-B57E31707FA8}">
 							<ChildrenList>
 								<Action Name="" ID="{BC708285-6D07-4CCB-856A-BC9E581DDAA8}" ShortID="578509528">
