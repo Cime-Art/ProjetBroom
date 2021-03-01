@@ -29,6 +29,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{106AAE58-451E-4A4C-9A02-C3FE0E446E48}" ShortID="571246219">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WindBackGround" ID="{5FB16CC8-E2FB-4D2F-9659-7E1CB3F580D0}" WorkUnitID="{F43A4335-1406-4E14-B8F4-E8FEBCBFF69F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Event_MouseSqueaks" ID="{9199295D-6E26-4ED3-AFED-45A7EA1F7945}">

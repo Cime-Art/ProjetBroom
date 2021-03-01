@@ -18,7 +18,7 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Event_Fireplace" ID="{4AAB860F-3F22-4975-B78E-A6366E7DAEA4}" WorkUnitID="{5DFBBCEB-33A3-4310-BC08-4615DFAA20ED}"/>
+							<ObjectRef Name="Event_FireplacePreparation" ID="{4AAB860F-3F22-4975-B78E-A6366E7DAEA4}" WorkUnitID="{5DFBBCEB-33A3-4310-BC08-4615DFAA20ED}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1E42D115-5080-4AA6-AFC6-9265B3A8DFDC}" SchemaVersion="97">
+	<MixingSessions>
+		<WorkUnit Name="Este" ID="{1E42D115-5080-4AA6-AFC6-9265B3A8DFDC}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<MixingSession Name="Boiler_MixSession" ID="{392B8304-C38B-4CD0-B92D-59B22D155AA0}">
+					<ObjectList>
+						<ObjectRef Name="Amb_LP_FireBoiler_01" ID="{D5F75D44-C415-4B8F-9CA2-48B85066E4BC}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+						<ObjectRef Name="ShakeBoiler_Blend" ID="{1088126B-CC47-4D6D-89E5-DB2263088422}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+						<ObjectRef Name="FireBoiler_RND" ID="{8815DF08-01A1-44C8-8E43-F65F0B0FDDC2}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+						<ObjectRef Name="BoilerDoorOpen_RND" ID="{3C01B8E0-642D-4BB7-8B79-1D89472F1EA0}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+						<ObjectRef Name="BoilerDoorClose_RND" ID="{4C27D804-3CDE-4CB6-B2A2-AAE986478927}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="Kitchen_MixSession" ID="{FC6D851B-9170-4A24-89E6-409CC55659F0}">
+					<ObjectList>
+						<ObjectRef Name="FireplaceCrackle_RND" ID="{1DA16A7E-9FB6-4C31-8DF8-CF203168A567}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+						<ObjectRef Name="FireplacePreparation_RND" ID="{172109C0-24FF-4845-A2F6-9518881A3C40}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+						<ObjectRef Name="FabInFire_RND" ID="{20EFF269-EE49-45E3-9C31-36789C2780C4}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+						<ObjectRef Name="PigSpit_Blend" ID="{0C283331-4AF5-4CD4-8F96-763B38761E41}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+						<ObjectRef Name="WaterDrop_Mixer" ID="{1C489967-8E42-4496-9E2F-0EBBD250E930}" WorkUnitID="{E2641E9D-3291-49C1-BB69-EF255352D572}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>
