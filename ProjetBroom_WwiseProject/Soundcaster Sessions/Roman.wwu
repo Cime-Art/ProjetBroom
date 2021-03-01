@@ -47,9 +47,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Movement" ID="{FC3CB18A-2E56-48B6-9B59-1CA57DA9B652}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="No" ID="{D598B921-AEB4-45D0-9757-0502A47EF998}"/>
-					</CurrentSwitchList>
+					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

@@ -32,9 +32,7 @@
 						<CurrentStateRef Name="None" ID="{76DD572D-951D-4027-93F0-2C3C154AB123}"/>
 						<CurrentStateRef Name="snail_explosion_state" ID="{EAE40543-B022-4A55-A67E-4A6512A247C4}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="No" ID="{D598B921-AEB4-45D0-9757-0502A47EF998}"/>
-					</CurrentSwitchList>
+					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

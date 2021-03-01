@@ -36,7 +36,7 @@
 								<Action Name="" ID="{C5449F59-E31C-4D1E-B34C-E9F7E131D9C3}" ShortID="485347288">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Blend_1_Amb_2" ID="{47C96A24-1912-4825-9381-503E5AD75D3F}" WorkUnitID="{82D2DEE7-CDA1-458C-8333-3A2B02988995}"/>
+											<ObjectRef Name="Garden_Blend" ID="{47C96A24-1912-4825-9381-503E5AD75D3F}" WorkUnitID="{82D2DEE7-CDA1-458C-8333-3A2B02988995}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

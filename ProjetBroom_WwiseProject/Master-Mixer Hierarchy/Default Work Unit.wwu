@@ -9,6 +9,70 @@
 							<ObjectRef Name="System" ID="{242403DC-E1DA-4717-9AFE-05B0FD4A52D6}" WorkUnitID="{E006E180-8AFC-41C1-A96A-4E5F054F3333}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}"/>
+						<Bus Name="Music" ID="{3AAA1A5D-7D18-49B8-944D-76833FC3D4F7}"/>
+						<Bus Name="Reverb" ID="{57622A57-C774-468F-9076-C83F1BD659DB}">
+							<ChildrenList>
+								<AuxBus Name="Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Church_Small_Wood" ID="{940CCB47-F031-4C6A-B0E6-726CAC418C02}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="In_Out" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="In" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
+												<CustomState Name="" ID="{6C17EFDD-C773-4D42-BCBE-6DBBE291E755}" ShortID="275164984"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
+												<CustomState Name="" ID="{B4D3FA46-DE2A-4E08-A45D-4686609C7E1E}" ShortID="328018132">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</AuxBus>
+								<AuxBus Name="Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="In_Out" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="In" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
+												<CustomState Name="" ID="{2BD13C4A-E9B5-4857-9D71-90D10321BFBF}" ShortID="110557687">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
+												<CustomState Name="" ID="{2C3FDB9D-C7F9-433A-B60F-5F3450127130}" ShortID="1066740429"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

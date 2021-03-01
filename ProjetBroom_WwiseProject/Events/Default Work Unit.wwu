@@ -1,6 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{675F061C-E88F-4C92-9E74-619C166A4A10}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{675F061C-E88F-4C92-9E74-619C166A4A10}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{675F061C-E88F-4C92-9E74-619C166A4A10}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Tuto" ID="{C5848E0C-DB86-4041-B214-BE3A333D64A3}" ShortID="579642512">
+					<ChildrenList>
+						<Folder Name="Kitchen" ID="{B6CA45A2-68C0-4184-8FC2-9BC0771EC574}" ShortID="400942531">
+							<ChildrenList>
+								<Event Name="Event_WaterDrop" ID="{D5DA1EA7-9027-456A-BCDC-F1ECF99DF735}">
+									<ChildrenList>
+										<Action Name="" ID="{D3D4FF1C-FC71-4CD7-A4E7-1CF6F0365CF1}" ShortID="420298964">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WaterDrop_RND" ID="{FAEB3EBB-E8DC-4D27-A021-871D7498411E}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_Cauldron" ID="{4FDAC826-2CC2-4917-97B6-D3CFF0B74B46}">
+									<ChildrenList>
+										<Action Name="" ID="{D3E49981-33F2-4945-884A-CB4BFE83015A}" ShortID="1036878123">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Cauldron" ID="{40F65729-E37D-466C-843F-8E1CAB3F3CD7}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_Pig" ID="{EAEE72C1-B501-406A-A804-BB76124FFAAF}">
+									<ChildrenList>
+										<Action Name="" ID="{0E5ECB55-2CC3-4D7F-8C94-0549B44DE095}" ShortID="94568978">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pig" ID="{3D00763A-C1D9-49D9-BC67-8B653468A4E3}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Boiler" ID="{E3693FC2-1B70-4FD8-A1E2-1B3E6707E479}" ShortID="756491329">
+							<ChildrenList>
+								<Event Name="Event_FireBoiler_LP" ID="{F98DAF6A-6CE6-418F-B05D-6AD9824BEEED}">
+									<ChildrenList>
+										<Action Name="" ID="{DA177F9C-A0A0-4BFE-8E7C-CAFA54375F62}" ShortID="554967204">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_LP_FireBoiler" ID="{D5F75D44-C415-4B8F-9CA2-48B85066E4BC}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_Boiler" ID="{21565AFE-8ACE-4627-A74C-9F9EF4B25786}">
+									<ChildrenList>
+										<Action Name="" ID="{DBDD19B2-B691-4F1C-A045-35CB2C69464D}" ShortID="260788410">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ShakeBoiler_Blend" ID="{1088126B-CC47-4D6D-89E5-DB2263088422}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{307E5D60-D63F-4C14-BD70-7EBE56ACD7AE}" ShortID="357608213">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BoilerDoorOpen_RND" ID="{3C01B8E0-642D-4BB7-8B79-1D89472F1EA0}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{548790C3-F137-4301-8390-F3832DBC5D7B}" ShortID="769183650">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.05"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FireBoiler_RND" ID="{8815DF08-01A1-44C8-8E43-F65F0B0FDDC2}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5F324A89-1CCE-4E48-A2BE-4F7E61410789}" ShortID="568087129">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.7"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BoilerDoorClose_RND" ID="{4C27D804-3CDE-4CB6-B2A2-AAE986478927}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Graden" ID="{ED1492A4-C035-4B53-B7AA-391E1A1D2D1A}" ShortID="639803857">
+							<ChildrenList>
+								<Event Name="Event_Wind" ID="{454DBA94-787F-42A5-9B79-FDC08286E3AB}">
+									<ChildrenList>
+										<Action Name="" ID="{4CC2BD69-A305-4246-B223-FD81050EF5D0}" ShortID="10166107">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WindBackGround" ID="{5FB16CC8-E2FB-4D2F-9659-7E1CB3F580D0}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Barn" ID="{02522A83-BC4E-4657-9610-61A50DF642B4}" ShortID="874818272"/>
+						<Folder Name="Animal" ID="{D55875FB-3811-42E0-A438-19DCCEA645DA}" ShortID="1004056870">
+							<ChildrenList>
+								<Event Name="Event_Mouse" ID="{19562801-0BA6-4D5A-A66C-A7671D1E19AA}">
+									<ChildrenList>
+										<Action Name="" ID="{00F9695C-98E1-4145-BDE5-88782FBCCD6D}" ShortID="933405581">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Mouse_RND" ID="{A4F6456F-E90E-4ACF-8F0D-7DFDD1EDED41}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
