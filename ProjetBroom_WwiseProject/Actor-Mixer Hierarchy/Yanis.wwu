@@ -4,6 +4,11 @@
 		<WorkUnit Name="Yanis" ID="{C11AF323-F60A-473A-81BE-E7AF8DE63640}" PersistMode="Standalone">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="Inclusion" Type="bool">
+					<ValueList>
+						<Value>False</Value>
+					</ValueList>
+				</Property>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>

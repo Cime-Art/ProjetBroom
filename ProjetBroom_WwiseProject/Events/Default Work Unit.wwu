@@ -45,6 +45,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_Ember_Loop" ID="{94F39B4D-7631-47D5-B8B6-8F16C8B4D547}">
+											<ChildrenList>
+												<Action Name="" ID="{04F8E361-A85C-4EE0-B5E8-127A296B329A}" ShortID="46899339">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Ember_Loop" ID="{8060AF2F-5D37-4667-839D-CD42EF452211}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Boiler" ID="{E3693FC2-1B70-4FD8-A1E2-1B3E6707E479}" ShortID="756491329">
