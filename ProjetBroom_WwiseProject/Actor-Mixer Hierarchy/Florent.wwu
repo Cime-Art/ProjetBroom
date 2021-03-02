@@ -4,6 +4,11 @@
 		<WorkUnit Name="Florent" ID="{17FB5FE7-E556-4A0B-978E-F7F55D12C984}" PersistMode="Standalone">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="14"/>
+				<Property Name="Inclusion" Type="bool">
+					<ValueList>
+						<Value>False</Value>
+					</ValueList>
+				</Property>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
