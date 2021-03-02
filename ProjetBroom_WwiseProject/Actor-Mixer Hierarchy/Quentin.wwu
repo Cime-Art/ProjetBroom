@@ -4,11 +4,6 @@
 		<WorkUnit Name="Quentin" ID="{F43A4335-1406-4E14-B8F4-E8FEBCBFF69F}" PersistMode="Standalone">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="7"/>
-				<Property Name="Inclusion" Type="bool">
-					<ValueList>
-						<Value>False</Value>
-					</ValueList>
-				</Property>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
@@ -368,54 +363,6 @@
 												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
-									</ChildrenList>
-								</ActorMixer>
-							</ChildrenList>
-						</Folder>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Ambiances" ID="{7D3A7CCE-535E-46C2-8B1C-37F8FE80DD93}" ShortID="311746036">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="4"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Folder Name="Jail" ID="{07A6F5D7-CD62-4D22-8C3C-03650769E8C5}" ShortID="294066396">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="17"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-							<ChildrenList>
-								<ActorMixer Name="JailEvents" ID="{5B0A188B-68DF-4AB4-B61E-9398A3118E8A}" ShortID="302330498">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<RandomSequenceContainer Name="Groaning_Prisoner_RND" ID="{B2C747C0-357B-4DE9-B7BB-444A7FB314EA}" ShortID="123988885">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="PlateformDestruction_RND" ID="{84C64EB5-3F04-4F0C-8442-690C271C176A}" ShortID="211599464">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-										</RandomSequenceContainer>
 									</ChildrenList>
 								</ActorMixer>
 							</ChildrenList>
