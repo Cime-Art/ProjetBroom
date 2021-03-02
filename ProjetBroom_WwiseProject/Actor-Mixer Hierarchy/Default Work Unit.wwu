@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+							<ObjectRef Name="Reverb" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 						</Reference>
 						<Reference Name="UserAuxSend0">
 							<ObjectRef Name="Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
@@ -45,605 +45,17 @@
 													<ChildrenList>
 														<Folder Name="Animals" ID="{9ECA41C7-5E82-43B1-82C7-8F576FA66686}" ShortID="182633039">
 															<ChildrenList>
-																<RandomSequenceContainer Name="Birds_RND" ID="{6DAEA02D-6BEF-4306-AB32-B56A570FE1D6}" ShortID="388478493">
+																<ActorMixer Name="Animals_Mix" ID="{AD861830-DCF7-4AE5-8C38-97E10CF85E72}" ShortID="442452877">
 																	<PropertyList>
-																		<Property Name="InitialDelay" Type="Real64">
+																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>1</Value>
+																				<Value>12</Value>
 																			</ValueList>
-																			<ModifierList>
-																				<ModifierInfo>
-																					<Modifier Name="" ID="{D9374ED6-615C-4635-B8BE-FAB18F33DC73}">
-																						<PropertyList>
-																							<Property Name="Enabled" Type="bool" Value="True"/>
-																							<Property Name="Max" Type="Real64" Value="8"/>
-																							<Property Name="Min" Type="Real64" Value="-10"/>
-																						</PropertyList>
-																					</Modifier>
-																				</ModifierInfo>
-																			</ModifierList>
 																		</Property>
-																		<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-																	</PropertyList>
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<Sound Name="Birds" ID="{23E74E01-2F06-49D3-8299-A4F0C12E599F}" ShortID="17433993">
-																			<PropertyList>
-																				<Property Name="Pitch" Type="int32">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{7F7CF13A-7120-4AAF-80ED-1E8EA8000096}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="51"/>
-																									<Property Name="Min" Type="Real64" Value="-51"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Volume" Type="Real64">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{895B9496-956A-4129-85EA-F4575C2383CE}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="4"/>
-																									<Property Name="Min" Type="Real64" Value="-2"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Weight" Type="Real64">
-																					<ValueList>
-																						<Value>10</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="Amb_OS_Birds_01_Theo_v1" ID="{6597C36F-DC8E-4F7B-9785-BDF8F5A021BB}">
-																					<Language>SFX</Language>
-																					<AudioFile>Amb_OS_Birds_01_Theo_v1.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="557251298"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="Amb_OS_Birds_01_Theo_v1" ID="{6597C36F-DC8E-4F7B-9785-BDF8F5A021BB}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="Silence" ID="{CC06A216-F87A-44DE-937D-A2B983FFA17D}" ShortID="1037781223">
-																			<PropertyList>
-																				<Property Name="Pitch" Type="int32">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{5B576069-D741-42EE-A43A-0F2F27812065}">
-																								<PropertyList>
-																									<Property Name="Max" Type="Real64" Value="51"/>
-																									<Property Name="Min" Type="Real64" Value="-51"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Volume" Type="Real64">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{9A4EF334-03F4-4ECB-B221-B36563E73E41}">
-																								<PropertyList>
-																									<Property Name="Max" Type="Real64" Value="3"/>
-																									<Property Name="Min" Type="Real64" Value="-3"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Weight" Type="Real64">
-																					<ValueList>
-																						<Value>70</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<SourcePlugin Name="Wwise Silence" ID="{1D38C9D2-88E3-4D96-86E9-1226311E4166}" ShortID="801108675" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-																					<Language>SFX</Language>
-																				</SourcePlugin>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="Wwise Silence" ID="{1D38C9D2-88E3-4D96-86E9-1226311E4166}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="Birds_2" ID="{DCF3FDA5-0F9B-4B29-9EDC-2523E2DEB2C6}" ShortID="561694566">
-																			<PropertyList>
-																				<Property Name="Pitch" Type="int32">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{6A2DC02F-2FEA-470F-A05A-3622F6EB323A}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="76"/>
-																									<Property Name="Min" Type="Real64" Value="-51"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Volume" Type="Real64">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{158468EB-2FE2-4595-AB3E-3C7C0B30DD26}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="3"/>
-																									<Property Name="Min" Type="Real64" Value="-3"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Weight" Type="Real64">
-																					<ValueList>
-																						<Value>12</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="Amb_OS_Birds_02_Theo_v1" ID="{7C59F853-0C4B-4F68-8E8B-75270D61CE55}">
-																					<Language>SFX</Language>
-																					<AudioFile>Amb_OS_Birds_02_Theo_v1.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="407118889"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="Amb_OS_Birds_02_Theo_v1" ID="{7C59F853-0C4B-4F68-8E8B-75270D61CE55}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="Birds_3" ID="{D87A3914-DB7A-4ED8-A3B9-9DE11D712E68}" ShortID="202064957">
-																			<PropertyList>
-																				<Property Name="Pitch" Type="int32">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{B043E586-283B-44E2-A998-2459000E40A2}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="76"/>
-																									<Property Name="Min" Type="Real64" Value="-51"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Volume" Type="Real64">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{F66499D4-9D5E-40E4-A892-9DCD256097B5}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="3"/>
-																									<Property Name="Min" Type="Real64" Value="-3"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Weight" Type="Real64">
-																					<ValueList>
-																						<Value>11</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="Amb_OS_Birds_03_Theo_v1" ID="{37F112F0-F73C-4212-8541-6A279C9121DE}">
-																					<Language>SFX</Language>
-																					<AudioFile>Amb_OS_Birds_03_Theo_v1.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="38604352"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="Amb_OS_Birds_03_Theo_v1" ID="{37F112F0-F73C-4212-8541-6A279C9121DE}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																	</ChildrenList>
-																</RandomSequenceContainer>
-																<RandomSequenceContainer Name="Insects_RND" ID="{1F7C5368-0E77-4A6B-BC68-E8105B402654}" ShortID="696762067">
-																	<PropertyList>
-																		<Property Name="InitialDelay" Type="Real64">
-																			<ValueList>
-																				<Value>1</Value>
-																			</ValueList>
-																			<ModifierList>
-																				<ModifierInfo>
-																					<Modifier Name="" ID="{4D9FB427-8B48-4C09-971D-0A0E23C7D17E}">
-																						<PropertyList>
-																							<Property Name="Enabled" Type="bool" Value="True"/>
-																							<Property Name="Max" Type="Real64" Value="8"/>
-																							<Property Name="Min" Type="Real64" Value="-8"/>
-																						</PropertyList>
-																					</Modifier>
-																				</ModifierInfo>
-																			</ModifierList>
-																		</Property>
-																		<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-																	</PropertyList>
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<Sound Name="Insect_1" ID="{1CDD7177-44BA-4AA9-8F0F-50A6477F409B}" ShortID="165159185">
-																			<PropertyList>
-																				<Property Name="Pitch" Type="int32">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{5280B420-7569-4CAF-9413-27E19E09A205}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="76"/>
-																									<Property Name="Min" Type="Real64" Value="-51"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Volume" Type="Real64">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{44B53600-F8B7-4A48-AB1B-7ED772DEED00}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Min" Type="Real64" Value="-3"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Weight" Type="Real64">
-																					<ValueList>
-																						<Value>11</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="Amb_OS_Insect_01_Théo_v1" ID="{0D79E09C-185E-4BE9-9DDD-73405C3A65EE}">
-																					<Language>SFX</Language>
-																					<AudioFile>Amb_OS_Insect_01_Théo_v1.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="758818316"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="Amb_OS_Insect_01_Théo_v1" ID="{0D79E09C-185E-4BE9-9DDD-73405C3A65EE}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="Insect_2" ID="{552960DA-C734-4874-BD91-A4676620F476}" ShortID="1043003080">
-																			<PropertyList>
-																				<Property Name="Pitch" Type="int32">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{FD350541-0D46-4045-AFD0-0AE5ECE04D2B}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="51"/>
-																									<Property Name="Min" Type="Real64" Value="-51"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Volume" Type="Real64">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{CEE5787A-AB7E-4834-8A83-4EB370729FEF}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="3"/>
-																									<Property Name="Min" Type="Real64" Value="-3"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Weight" Type="Real64">
-																					<ValueList>
-																						<Value>12</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="Amb_OS_Insect_02_Théo_v1" ID="{E94DA6B2-F090-4F34-B627-8492462CE5A9}">
-																					<Language>SFX</Language>
-																					<AudioFile>Amb_OS_Insect_02_Théo_v1.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="512196167"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="Amb_OS_Insect_02_Théo_v1" ID="{E94DA6B2-F090-4F34-B627-8492462CE5A9}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="Insect_3" ID="{8D386EF3-351C-47E8-9B3B-7539F1491173}" ShortID="621977448">
-																			<PropertyList>
-																				<Property Name="Pitch" Type="int32">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{5E24C51C-87DA-492E-98FB-87332BAA81BC}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="76"/>
-																									<Property Name="Min" Type="Real64" Value="-76"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Volume" Type="Real64">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{8DB42415-08A4-4BC8-B08F-7496C2FF1417}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="3"/>
-																									<Property Name="Min" Type="Real64" Value="-3"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Weight" Type="Real64">
-																					<ValueList>
-																						<Value>11</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="Amb_OS_Insect_03_Théo_v1" ID="{39269A4C-6C4E-4299-AF1E-47ECC94C4ED6}">
-																					<Language>SFX</Language>
-																					<AudioFile>Amb_OS_Insect_03_Théo_v1.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="608862945"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="Amb_OS_Insect_03_Théo_v1" ID="{39269A4C-6C4E-4299-AF1E-47ECC94C4ED6}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="Insect_4" ID="{3172CB17-38AE-4C90-A41A-1ACFA0155633}" ShortID="934922054">
-																			<PropertyList>
-																				<Property Name="Pitch" Type="int32">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{28FE1E62-92DA-4FB2-8DCB-45F27C216981}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="76"/>
-																									<Property Name="Min" Type="Real64" Value="-51"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Volume" Type="Real64">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{ABC31422-1C8C-4BAD-A513-A67B6B96563D}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="3"/>
-																									<Property Name="Min" Type="Real64" Value="-3"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Weight" Type="Real64">
-																					<ValueList>
-																						<Value>11</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="Amb_OS_Insect_04_Théo_v1" ID="{290B3043-FEAC-4C03-B2E1-5E381A2BD556}">
-																					<Language>SFX</Language>
-																					<AudioFile>Amb_OS_Insect_04_Théo_v1.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="18170108"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="Amb_OS_Insect_04_Théo_v1" ID="{290B3043-FEAC-4C03-B2E1-5E381A2BD556}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="Insect_5" ID="{07E0EFDF-85AE-4B40-A288-26CED6AFB19F}" ShortID="292060085">
-																			<PropertyList>
-																				<Property Name="Pitch" Type="int32">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{F27EBDA0-C496-405B-84C0-E53FC5D11C6E}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="51"/>
-																									<Property Name="Min" Type="Real64" Value="-51"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Volume" Type="Real64">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{81DEAB00-A8EB-4020-BA41-5BD8D81E5740}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="3"/>
-																									<Property Name="Min" Type="Real64" Value="-3"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Weight" Type="Real64">
-																					<ValueList>
-																						<Value>11</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="Amb_OS_Insect_05_Théo_v1" ID="{59FAB1E1-D4C5-425D-B530-00767E755FA8}">
-																					<Language>SFX</Language>
-																					<AudioFile>Amb_OS_Insect_05_Théo_v1.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="9142248"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="Amb_OS_Insect_05_Théo_v1" ID="{59FAB1E1-D4C5-425D-B530-00767E755FA8}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="Silence" ID="{F198740A-0D0E-4DBF-94E1-31E64ADE014F}" ShortID="86483800">
-																			<PropertyList>
-																				<Property Name="Weight" Type="Real64">
-																					<ValueList>
-																						<Value>77</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<SourcePlugin Name="Wwise Silence" ID="{04083FE5-EC53-4B37-8083-CB857093203D}" ShortID="42928060" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-																					<Language>SFX</Language>
-																				</SourcePlugin>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="Wwise Silence" ID="{04083FE5-EC53-4B37-8083-CB857093203D}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																	</ChildrenList>
-																</RandomSequenceContainer>
-																<RandomSequenceContainer Name="Mouse_RND" ID="{A4F6456F-E90E-4ACF-8F0D-7DFDD1EDED41}" ShortID="851017140">
-																	<PropertyList>
-																		<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-																		<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-																		<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-																		<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
-																			<ModifierList>
-																				<ModifierInfo>
-																					<Modifier Name="" ID="{0ADE2910-4354-4BE1-992C-EE290A479D62}">
-																						<PropertyList>
-																							<Property Name="Enabled" Type="bool" Value="True"/>
-																							<Property Name="Max" Type="Real64" Value="5"/>
-																						</PropertyList>
-																					</Modifier>
-																				</ModifierInfo>
-																			</ModifierList>
-																		</Property>
-																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Attenuation">
-																			<ObjectRef Name="Mouse_Att" ID="{846EF7DD-DB85-45BD-9222-1BF48A605109}" WorkUnitID="{7F799448-99C2-42A9-A1A6-859232DAC130}"/>
+																			<ObjectRef Name="Animals_Att" ID="{846EF7DD-DB85-45BD-9222-1BF48A605109}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
 																		</Reference>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -653,362 +65,930 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<Sound Name="Amb_OS_BarnMouse_01_Ferreira_v1" ID="{7749DF84-A926-4F05-8F3B-E65C97049054}" ShortID="592979818">
+																		<RandomSequenceContainer Name="Birds_RND" ID="{6DAEA02D-6BEF-4306-AB32-B56A570FE1D6}" ShortID="388478493">
 																			<PropertyList>
-																				<Property Name="3DPosition" Type="int16" Value="2"/>
 																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																				<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
-																				<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+																				<Property Name="InitialDelay" Type="Real64">
+																					<ValueList>
+																						<Value>1</Value>
+																					</ValueList>
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{D9374ED6-615C-4635-B8BE-FAB18F33DC73}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="8"/>
+																									<Property Name="Min" Type="Real64" Value="-10"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																				<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																				<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																				<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																				<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																				<Property Name="UserAuxSendVolume0" Type="Real64">
+																					<ValueList>
+																						<Value>-10</Value>
+																					</ValueList>
+																				</Property>
 																			</PropertyList>
 																			<ReferenceList>
+																				<Reference Name="Attenuation">
+																					<Custom CreatedFrom="{846EF7DD-DB85-45BD-9222-1BF48A605109}">
+																						<Attenuation Name="Animals_Att (Custom)" ID="{DA075D28-EE70-4C37-89FA-F40BCD65B14D}" ShortID="241036493">
+																							<PropertyList>
+																								<Property Name="RadiusMax" Type="Real64" Value="350"/>
+																							</PropertyList>
+																							<CurveUsageInfoList>
+																								<VolumeDryUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="VolumeDry" ID="{08C139F3-4DD7-40D5-BE8C-A1E30C74D189}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="3"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>0</YPos>
+																													<Flags>5</Flags>
+																													<SegmentShape>Exp1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>132.75862</XPos>
+																													<YPos>-3.71367</YPos>
+																													<Flags>0</Flags>
+																													<SegmentShape>Log1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>233.15047</XPos>
+																													<YPos>-9.14929</YPos>
+																													<Flags>0</Flags>
+																													<SegmentShape>Log1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>350</XPos>
+																													<YPos>-20.12321</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</VolumeDryUsage>
+																								<VolumeWetGameUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																								</VolumeWetGameUsage>
+																								<VolumeWetUserUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																								</VolumeWetUserUsage>
+																								<LowPassFilterUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																								</LowPassFilterUsage>
+																								<HighPassFilterUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																								</HighPassFilterUsage>
+																								<SpreadUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="Spread" ID="{0F07A56F-2349-46C7-9B7C-BDAAC39E882E}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="1"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>100</YPos>
+																													<Flags>5</Flags>
+																													<SegmentShape>Log1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>108.0721</XPos>
+																													<YPos>0</YPos>
+																													<Flags>0</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>350</XPos>
+																													<YPos>0</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</SpreadUsage>
+																								<FocusUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																										<Curve Name="Focus" ID="{D9666F86-5798-40C3-AD44-B53A7258F15D}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="1"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>14.78873</YPos>
+																													<Flags>5</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>92.7116</XPos>
+																													<YPos>14.08451</YPos>
+																													<Flags>0</Flags>
+																													<SegmentShape>Exp1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>350</XPos>
+																													<YPos>100</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</FocusUsage>
+																							</CurveUsageInfoList>
+																						</Attenuation>
+																					</Custom>
+																				</Reference>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																				</Reference>
 																				<Reference Name="OutputBus">
 																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend1">
+																					<ObjectRef Name="Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
 																			</ReferenceList>
 																			<ChildrenList>
-																				<AudioFileSource Name="Amb_OS_BarnMouse_01_Ferreira_v1" ID="{9E6AB599-88F4-4A7F-AD23-9E4DDDFFD69E}">
+																				<Sound Name="Birds" ID="{23E74E01-2F06-49D3-8299-A4F0C12E599F}" ShortID="17433993">
 																					<PropertyList>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="0.0419047619047619"/>
-																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																						<Property Name="TrimBegin" Type="Real64" Value="0.137142857142857"/>
-																						<Property Name="TrimEnd" Type="Real64" Value="1.26285714285714"/>
+																						<Property Name="Pitch" Type="int32">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{7F7CF13A-7120-4AAF-80ED-1E8EA8000096}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="51"/>
+																											<Property Name="Min" Type="Real64" Value="-51"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Volume" Type="Real64">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{895B9496-956A-4129-85EA-F4575C2383CE}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="4"/>
+																											<Property Name="Min" Type="Real64" Value="-2"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Weight" Type="Real64">
+																							<ValueList>
+																								<Value>10</Value>
+																							</ValueList>
+																						</Property>
 																					</PropertyList>
-																					<Language>SFX</Language>
-																					<AudioFile>Amb_OS_BarnMouse_01_Ferreira_v1.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="1036241396"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<PositioningInfo>
-																				<Panner Name="" ID="{C37617C7-FD0D-4014-A820-88AAE566DD43}">
-																					<PropertyList>
-																						<Property Name="PanX" Type="Real64" Value="7.105427357601E-15"/>
-																					</PropertyList>
-																				</Panner>
-																				<Position Name="" ID="{A99DFA2E-A408-41BB-8334-A2CCDB1CFE6D}">
-																					<PropertyList>
-																						<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
-																						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-																						<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="0.5"/>
-																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
 																					<ChildrenList>
-																						<Path2D Name="Mouses_RND_Path_01" ID="{D17C3E71-62C2-42A7-A7A7-4740E709C7B1}">
-																							<PropertyList>
-																								<Property Name="Duration" Type="Uint32" Value="500"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>12</Flags>
-																									<Time>0</Time>
-																								</Point>
-																								<Point>
-																									<XPos>-100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>0</Flags>
-																									<Time>500</Time>
-																								</Point>
-																							</PointList>
-																						</Path2D>
-																						<Path2D Name="Mouses_RND_Path_02" ID="{430B4A5C-B017-42F7-BAC4-C6287CC69C49}">
-																							<PropertyList>
-																								<Property Name="Duration" Type="Uint32" Value="900"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>-100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>12</Flags>
-																									<Time>0</Time>
-																								</Point>
-																								<Point>
-																									<XPos>100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>0</Flags>
-																									<Time>900</Time>
-																								</Point>
-																							</PointList>
-																						</Path2D>
+																						<AudioFileSource Name="Amb_OS_Birds_01_Theo_v1" ID="{6597C36F-DC8E-4F7B-9785-BDF8F5A021BB}">
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_Birds_01_Theo_v1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="557251298"/>
+																							</MediaIDList>
+																						</AudioFileSource>
 																					</ChildrenList>
-																				</Position>
-																			</PositioningInfo>
-																			<ActiveSourceList>
-																				<ActiveSource Name="Amb_OS_BarnMouse_01_Ferreira_v1" ID="{9E6AB599-88F4-4A7F-AD23-9E4DDDFFD69E}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="Amb_OS_BarnMouse_02_Ferreira_v1" ID="{ACF87CFB-F559-4233-AA98-C849A0DA43DC}" ShortID="100239058">
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_Birds_01_Theo_v1" ID="{6597C36F-DC8E-4F7B-9785-BDF8F5A021BB}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Silence" ID="{CC06A216-F87A-44DE-937D-A2B983FFA17D}" ShortID="1037781223">
+																					<PropertyList>
+																						<Property Name="Pitch" Type="int32">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{5B576069-D741-42EE-A43A-0F2F27812065}">
+																										<PropertyList>
+																											<Property Name="Max" Type="Real64" Value="51"/>
+																											<Property Name="Min" Type="Real64" Value="-51"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Volume" Type="Real64">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{9A4EF334-03F4-4ECB-B221-B36563E73E41}">
+																										<PropertyList>
+																											<Property Name="Max" Type="Real64" Value="3"/>
+																											<Property Name="Min" Type="Real64" Value="-3"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Weight" Type="Real64">
+																							<ValueList>
+																								<Value>0.001</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<SourcePlugin Name="Wwise Silence" ID="{1D38C9D2-88E3-4D96-86E9-1226311E4166}" ShortID="801108675" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																							<Language>SFX</Language>
+																						</SourcePlugin>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Wwise Silence" ID="{1D38C9D2-88E3-4D96-86E9-1226311E4166}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Birds_2" ID="{DCF3FDA5-0F9B-4B29-9EDC-2523E2DEB2C6}" ShortID="561694566">
+																					<PropertyList>
+																						<Property Name="Pitch" Type="int32">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{6A2DC02F-2FEA-470F-A05A-3622F6EB323A}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="76"/>
+																											<Property Name="Min" Type="Real64" Value="-51"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Volume" Type="Real64">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{158468EB-2FE2-4595-AB3E-3C7C0B30DD26}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="3"/>
+																											<Property Name="Min" Type="Real64" Value="-3"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Weight" Type="Real64">
+																							<ValueList>
+																								<Value>12</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_Birds_02_Theo_v1" ID="{7C59F853-0C4B-4F68-8E8B-75270D61CE55}">
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_Birds_02_Theo_v1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="407118889"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_Birds_02_Theo_v1" ID="{7C59F853-0C4B-4F68-8E8B-75270D61CE55}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Birds_3" ID="{D87A3914-DB7A-4ED8-A3B9-9DE11D712E68}" ShortID="202064957">
+																					<PropertyList>
+																						<Property Name="Pitch" Type="int32">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{B043E586-283B-44E2-A998-2459000E40A2}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="76"/>
+																											<Property Name="Min" Type="Real64" Value="-51"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Volume" Type="Real64">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{F66499D4-9D5E-40E4-A892-9DCD256097B5}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="3"/>
+																											<Property Name="Min" Type="Real64" Value="-3"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Weight" Type="Real64">
+																							<ValueList>
+																								<Value>11</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_Birds_03_Theo_v1" ID="{37F112F0-F73C-4212-8541-6A279C9121DE}">
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_Birds_03_Theo_v1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="38604352"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_Birds_03_Theo_v1" ID="{37F112F0-F73C-4212-8541-6A279C9121DE}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																			</ChildrenList>
+																			<StateInfo>
+																				<StatePropertyList>
+																					<Property Name="GameAuxSendVolume"/>
+																					<Property Name="Highpass"/>
+																					<Property Name="Lowpass"/>
+																					<Property Name="MakeUpGain"/>
+																					<Property Name="Pitch"/>
+																					<Property Name="Volume"/>
+																				</StatePropertyList>
+																			</StateInfo>
+																		</RandomSequenceContainer>
+																		<RandomSequenceContainer Name="Insects_RND" ID="{1F7C5368-0E77-4A6B-BC68-E8105B402654}" ShortID="696762067">
 																			<PropertyList>
-																				<Property Name="3DPosition" Type="int16" Value="2"/>
 																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																				<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
-																				<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+																				<Property Name="InitialDelay" Type="Real64">
+																					<ValueList>
+																						<Value>1</Value>
+																					</ValueList>
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{4D9FB427-8B48-4C09-971D-0A0E23C7D17E}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="8"/>
+																									<Property Name="Min" Type="Real64" Value="-8"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																				<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																				<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																				<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																				<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																				<Property Name="UserAuxSendVolume0" Type="Real64">
+																					<ValueList>
+																						<Value>-10</Value>
+																					</ValueList>
+																				</Property>
 																			</PropertyList>
 																			<ReferenceList>
+																				<Reference Name="Attenuation">
+																					<Custom CreatedFrom="{846EF7DD-DB85-45BD-9222-1BF48A605109}">
+																						<Attenuation Name="Animals_Att (Custom)" ID="{8DEB9B6F-90FE-49BE-AD4C-C7D7B4B65551}" ShortID="372529687">
+																							<PropertyList>
+																								<Property Name="RadiusMax" Type="Real64" Value="350"/>
+																							</PropertyList>
+																							<CurveUsageInfoList>
+																								<VolumeDryUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="VolumeDry" ID="{AC607556-B240-4413-8224-8A019BE4CB7F}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="3"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>0</YPos>
+																													<Flags>5</Flags>
+																													<SegmentShape>Exp1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>132.75862</XPos>
+																													<YPos>-3.71367</YPos>
+																													<Flags>0</Flags>
+																													<SegmentShape>Log1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>233.15047</XPos>
+																													<YPos>-9.14929</YPos>
+																													<Flags>0</Flags>
+																													<SegmentShape>Log1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>350</XPos>
+																													<YPos>-20.12321</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</VolumeDryUsage>
+																								<VolumeWetGameUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="VolumeWetGame" ID="{F77A5F09-BACA-4CCF-83E9-F5C85AE5BA1B}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="3"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>0</YPos>
+																													<Flags>5</Flags>
+																													<SegmentShape>Exp1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>132.75862</XPos>
+																													<YPos>-3.71367</YPos>
+																													<Flags>0</Flags>
+																													<SegmentShape>Log1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>233.15047</XPos>
+																													<YPos>-9.14929</YPos>
+																													<Flags>0</Flags>
+																													<SegmentShape>Log1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>350</XPos>
+																													<YPos>-20.12321</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</VolumeWetGameUsage>
+																								<VolumeWetUserUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="VolumeWetUser" ID="{046C2A38-8945-4433-B38B-4EEF58522774}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="3"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>0</YPos>
+																													<Flags>5</Flags>
+																													<SegmentShape>Exp1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>132.75862</XPos>
+																													<YPos>-3.71367</YPos>
+																													<Flags>0</Flags>
+																													<SegmentShape>Log1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>233.15047</XPos>
+																													<YPos>-9.14929</YPos>
+																													<Flags>0</Flags>
+																													<SegmentShape>Log1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>350</XPos>
+																													<YPos>-20.12321</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</VolumeWetUserUsage>
+																								<LowPassFilterUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																								</LowPassFilterUsage>
+																								<HighPassFilterUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																								</HighPassFilterUsage>
+																								<SpreadUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="Spread" ID="{1E9D077E-3BE0-4247-A35B-21641C1D6E9D}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="1"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>100</YPos>
+																													<Flags>5</Flags>
+																													<SegmentShape>Log1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>108.0721</XPos>
+																													<YPos>0</YPos>
+																													<Flags>0</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>350</XPos>
+																													<YPos>0</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</SpreadUsage>
+																								<FocusUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																										<Curve Name="Focus" ID="{F07DBE2F-8852-4FD5-A5E6-38599BBACF91}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="1"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>14.78873</YPos>
+																													<Flags>5</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>92.7116</XPos>
+																													<YPos>14.08451</YPos>
+																													<Flags>0</Flags>
+																													<SegmentShape>Exp1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>350</XPos>
+																													<YPos>100</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</FocusUsage>
+																							</CurveUsageInfoList>
+																						</Attenuation>
+																					</Custom>
+																				</Reference>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																				</Reference>
 																				<Reference Name="OutputBus">
 																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="Amb_OS_BarnMouse_02_Ferreira_v1" ID="{5AD48301-8485-4069-AA06-B631B1095DC4}">
-																					<PropertyList>
-																						<Property Name="FadeInDuration" Type="Real64" Value="0.0239455782312925"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="0.0628571428571429"/>
-																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																						<Property Name="TrimBegin" Type="Real64" Value="0.113741496598639"/>
-																						<Property Name="TrimEnd" Type="Real64" Value="1.77496598639456"/>
-																					</PropertyList>
-																					<Language>SFX</Language>
-																					<AudioFile>Amb_OS_BarnMouse_02_Ferreira_v1.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="928666914"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<PositioningInfo>
-																				<Panner Name="" ID="{F0C83732-191F-4AC8-9114-249E990974D9}">
-																					<PropertyList>
-																						<Property Name="PanX" Type="Real64" Value="7.105427357601E-15"/>
-																					</PropertyList>
-																				</Panner>
-																				<Position Name="" ID="{ECE41FFA-EE58-4CF5-A4A4-56B2C626ADED}">
-																					<PropertyList>
-																						<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
-																						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-																						<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="0.5"/>
-																					</PropertyList>
-																					<ChildrenList>
-																						<Path2D Name="Mouses_RND_Path_01" ID="{0F66A5D7-0B9E-4514-A505-C39F776A0035}">
-																							<PropertyList>
-																								<Property Name="Duration" Type="Uint32" Value="500"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>12</Flags>
-																									<Time>0</Time>
-																								</Point>
-																								<Point>
-																									<XPos>-100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>0</Flags>
-																									<Time>500</Time>
-																								</Point>
-																							</PointList>
-																						</Path2D>
-																						<Path2D Name="Mouses_RND_Path_02" ID="{FA932FA3-F737-401F-991A-D8E549B7E8BC}">
-																							<PropertyList>
-																								<Property Name="Duration" Type="Uint32" Value="900"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>-100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>12</Flags>
-																									<Time>0</Time>
-																								</Point>
-																								<Point>
-																									<XPos>100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>0</Flags>
-																									<Time>900</Time>
-																								</Point>
-																							</PointList>
-																						</Path2D>
-																					</ChildrenList>
-																				</Position>
-																			</PositioningInfo>
-																			<ActiveSourceList>
-																				<ActiveSource Name="Amb_OS_BarnMouse_02_Ferreira_v1" ID="{5AD48301-8485-4069-AA06-B631B1095DC4}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="Amb_OS_BarnMouse_04_Ferreira_v1" ID="{BAED037E-DD9A-4807-8CB5-E0C04A1CF6F5}" ShortID="217117268">
-																			<PropertyList>
-																				<Property Name="3DPosition" Type="int16" Value="2"/>
-																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																				<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
-																				<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				<Reference Name="UserAuxSend1">
+																					<ObjectRef Name="Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																				</Reference>
 																			</ReferenceList>
 																			<ChildrenList>
-																				<AudioFileSource Name="Amb_OS_BarnMouse_04_Ferreira_v1" ID="{D8FC407B-B96A-424E-8BA2-970A7419B2BB}">
+																				<Sound Name="Insect_1" ID="{1CDD7177-44BA-4AA9-8F0F-50A6477F409B}" ShortID="165159185">
 																					<PropertyList>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="0.0329251700680271"/>
-																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																						<Property Name="TrimBegin" Type="Real64" Value="0.119727891156463"/>
-																						<Property Name="TrimEnd" Type="Real64" Value="1.67020408163265"/>
+																						<Property Name="Pitch" Type="int32">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{5280B420-7569-4CAF-9413-27E19E09A205}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="76"/>
+																											<Property Name="Min" Type="Real64" Value="-51"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Volume" Type="Real64">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{44B53600-F8B7-4A48-AB1B-7ED772DEED00}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Min" Type="Real64" Value="-3"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Weight" Type="Real64">
+																							<ValueList>
+																								<Value>11</Value>
+																							</ValueList>
+																						</Property>
 																					</PropertyList>
-																					<Language>SFX</Language>
-																					<AudioFile>Amb_OS_BarnMouse_04_Ferreira_v1.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="176245362"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<PositioningInfo>
-																				<Panner Name="" ID="{C2A452CD-F992-44E9-A52A-A30E1BBDF08A}">
-																					<PropertyList>
-																						<Property Name="PanX" Type="Real64" Value="7.105427357601E-15"/>
-																					</PropertyList>
-																				</Panner>
-																				<Position Name="" ID="{E0CCA4C2-F372-4369-A1A0-B786979DF92D}">
-																					<PropertyList>
-																						<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
-																						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-																						<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="0.5"/>
-																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
 																					<ChildrenList>
-																						<Path2D Name="Mouses_RND_Path_01" ID="{F1E99BA3-A2C5-48C4-B715-190414458717}">
-																							<PropertyList>
-																								<Property Name="Duration" Type="Uint32" Value="500"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>12</Flags>
-																									<Time>0</Time>
-																								</Point>
-																								<Point>
-																									<XPos>-100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>0</Flags>
-																									<Time>500</Time>
-																								</Point>
-																							</PointList>
-																						</Path2D>
-																						<Path2D Name="Mouses_RND_Path_02" ID="{EB1EF83F-056D-40F2-8655-B4CE27724065}">
-																							<PropertyList>
-																								<Property Name="Duration" Type="Uint32" Value="900"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>-100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>12</Flags>
-																									<Time>0</Time>
-																								</Point>
-																								<Point>
-																									<XPos>100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>0</Flags>
-																									<Time>900</Time>
-																								</Point>
-																							</PointList>
-																						</Path2D>
+																						<AudioFileSource Name="Amb_OS_Insect_01_Théo_v1" ID="{0D79E09C-185E-4BE9-9DDD-73405C3A65EE}">
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_Insect_01_Théo_v1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="758818316"/>
+																							</MediaIDList>
+																						</AudioFileSource>
 																					</ChildrenList>
-																				</Position>
-																			</PositioningInfo>
-																			<ActiveSourceList>
-																				<ActiveSource Name="Amb_OS_BarnMouse_04_Ferreira_v1" ID="{D8FC407B-B96A-424E-8BA2-970A7419B2BB}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="Amb_OS_BarnMouse_03_Ferreira_v1" ID="{BB9E099C-82FA-4BDF-9D0F-BBEE200065C9}" ShortID="283137521">
-																			<PropertyList>
-																				<Property Name="3DPosition" Type="int16" Value="2"/>
-																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																				<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
-																				<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="Amb_OS_BarnMouse_03_Ferreira_v1" ID="{3C92B753-9F43-42F9-8B67-C2F0BE6A6E64}">
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_Insect_01_Théo_v1" ID="{0D79E09C-185E-4BE9-9DDD-73405C3A65EE}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Insect_2" ID="{552960DA-C734-4874-BD91-A4676620F476}" ShortID="1043003080">
 																					<PropertyList>
-																						<Property Name="FadeInDuration" Type="Real64" Value="0.0500680272108844"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="0.0187755102040816"/>
-																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																						<Property Name="TrimBegin" Type="Real64" Value="0.137687074829932"/>
-																						<Property Name="TrimEnd" Type="Real64" Value="1.66789115646258"/>
+																						<Property Name="Pitch" Type="int32">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{FD350541-0D46-4045-AFD0-0AE5ECE04D2B}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="51"/>
+																											<Property Name="Min" Type="Real64" Value="-51"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Volume" Type="Real64">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{CEE5787A-AB7E-4834-8A83-4EB370729FEF}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="3"/>
+																											<Property Name="Min" Type="Real64" Value="-3"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Weight" Type="Real64">
+																							<ValueList>
+																								<Value>12</Value>
+																							</ValueList>
+																						</Property>
 																					</PropertyList>
-																					<Language>SFX</Language>
-																					<AudioFile>Amb_OS_BarnMouse_03_Ferreira_v1.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="960928492"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<PositioningInfo>
-																				<Panner Name="" ID="{CCC6F125-947F-4D26-A1C1-34C63C31C8A5}">
-																					<PropertyList>
-																						<Property Name="PanX" Type="Real64" Value="7.105427357601E-15"/>
-																					</PropertyList>
-																				</Panner>
-																				<Position Name="" ID="{B95013E1-D6BB-4B12-B5A7-EB33C8F7A032}">
-																					<PropertyList>
-																						<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
-																						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-																						<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="0.5"/>
-																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
 																					<ChildrenList>
-																						<Path2D Name="Mouses_RND_Path_01" ID="{F589E2B3-6343-44E2-AA60-FD311B552A4D}">
-																							<PropertyList>
-																								<Property Name="Duration" Type="Uint32" Value="500"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>12</Flags>
-																									<Time>0</Time>
-																								</Point>
-																								<Point>
-																									<XPos>-100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>0</Flags>
-																									<Time>500</Time>
-																								</Point>
-																							</PointList>
-																						</Path2D>
-																						<Path2D Name="Mouses_RND_Path_02" ID="{840F2352-0E0D-43BB-AE99-CE9420AE7C35}">
-																							<PropertyList>
-																								<Property Name="Duration" Type="Uint32" Value="900"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>-100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>12</Flags>
-																									<Time>0</Time>
-																								</Point>
-																								<Point>
-																									<XPos>100</XPos>
-																									<YPos>100</YPos>
-																									<Flags>0</Flags>
-																									<Time>900</Time>
-																								</Point>
-																							</PointList>
-																						</Path2D>
+																						<AudioFileSource Name="Amb_OS_Insect_02_Théo_v1" ID="{E94DA6B2-F090-4F34-B627-8492462CE5A9}">
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_Insect_02_Théo_v1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="512196167"/>
+																							</MediaIDList>
+																						</AudioFileSource>
 																					</ChildrenList>
-																				</Position>
-																			</PositioningInfo>
-																			<ActiveSourceList>
-																				<ActiveSource Name="Amb_OS_BarnMouse_03_Ferreira_v1" ID="{3C92B753-9F43-42F9-8B67-C2F0BE6A6E64}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_Insect_02_Théo_v1" ID="{E94DA6B2-F090-4F34-B627-8492462CE5A9}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Insect_3" ID="{8D386EF3-351C-47E8-9B3B-7539F1491173}" ShortID="621977448">
+																					<PropertyList>
+																						<Property Name="Pitch" Type="int32">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{5E24C51C-87DA-492E-98FB-87332BAA81BC}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="76"/>
+																											<Property Name="Min" Type="Real64" Value="-76"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Volume" Type="Real64">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{8DB42415-08A4-4BC8-B08F-7496C2FF1417}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="3"/>
+																											<Property Name="Min" Type="Real64" Value="-3"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Weight" Type="Real64">
+																							<ValueList>
+																								<Value>11</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_Insect_03_Théo_v1" ID="{39269A4C-6C4E-4299-AF1E-47ECC94C4ED6}">
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_Insect_03_Théo_v1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="608862945"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_Insect_03_Théo_v1" ID="{39269A4C-6C4E-4299-AF1E-47ECC94C4ED6}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Insect_4" ID="{3172CB17-38AE-4C90-A41A-1ACFA0155633}" ShortID="934922054">
+																					<PropertyList>
+																						<Property Name="Pitch" Type="int32">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{28FE1E62-92DA-4FB2-8DCB-45F27C216981}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="76"/>
+																											<Property Name="Min" Type="Real64" Value="-51"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Volume" Type="Real64">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{ABC31422-1C8C-4BAD-A513-A67B6B96563D}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="3"/>
+																											<Property Name="Min" Type="Real64" Value="-3"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Weight" Type="Real64">
+																							<ValueList>
+																								<Value>11</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_Insect_04_Théo_v1" ID="{290B3043-FEAC-4C03-B2E1-5E381A2BD556}">
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_Insect_04_Théo_v1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="18170108"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_Insect_04_Théo_v1" ID="{290B3043-FEAC-4C03-B2E1-5E381A2BD556}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Insect_5" ID="{07E0EFDF-85AE-4B40-A288-26CED6AFB19F}" ShortID="292060085">
+																					<PropertyList>
+																						<Property Name="Pitch" Type="int32">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{F27EBDA0-C496-405B-84C0-E53FC5D11C6E}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="51"/>
+																											<Property Name="Min" Type="Real64" Value="-51"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Volume" Type="Real64">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{81DEAB00-A8EB-4020-BA41-5BD8D81E5740}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="3"/>
+																											<Property Name="Min" Type="Real64" Value="-3"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Weight" Type="Real64">
+																							<ValueList>
+																								<Value>11</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_Insect_05_Théo_v1" ID="{59FAB1E1-D4C5-425D-B530-00767E755FA8}">
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_Insect_05_Théo_v1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="9142248"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_Insect_05_Théo_v1" ID="{59FAB1E1-D4C5-425D-B530-00767E755FA8}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Silence" ID="{F198740A-0D0E-4DBF-94E1-31E64ADE014F}" ShortID="86483800">
+																					<PropertyList>
+																						<Property Name="Weight" Type="Real64">
+																							<ValueList>
+																								<Value>0.001</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<SourcePlugin Name="Wwise Silence" ID="{04083FE5-EC53-4B37-8083-CB857093203D}" ShortID="42928060" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																							<Language>SFX</Language>
+																						</SourcePlugin>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Wwise Silence" ID="{04083FE5-EC53-4B37-8083-CB857093203D}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																			</ChildrenList>
+																		</RandomSequenceContainer>
 																	</ChildrenList>
-																</RandomSequenceContainer>
+																	<StateInfo>
+																		<StateGroupList>
+																			<StateGroupInfo>
+																				<StateGroupRef Name="In_Out" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
+																			</StateGroupInfo>
+																		</StateGroupList>
+																		<CustomStateList>
+																			<CustomState>
+																				<StateRef Name="In" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
+																				<CustomState Name="" ID="{AF7A8183-9614-4406-A465-9135C164B50C}" ShortID="63781986">
+																					<PropertyList>
+																						<Property Name="Highpass" Type="int16" Value="34"/>
+																						<Property Name="Lowpass" Type="int16" Value="47"/>
+																						<Property Name="Volume" Type="Real64" Value="-9"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																			<CustomState>
+																				<StateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
+																				<CustomState Name="" ID="{D5B95736-C923-44DA-8BE4-8F31D6FA086D}" ShortID="983325719"/>
+																			</CustomState>
+																		</CustomStateList>
+																	</StateInfo>
+																</ActorMixer>
 															</ChildrenList>
 														</Folder>
 														<Sound Name="WindBackGround" ID="{5FB16CC8-E2FB-4D2F-9659-7E1CB3F580D0}" ShortID="656469982">
@@ -1123,7 +1103,7 @@
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
-																	<ObjectRef Name="WaterDrop_Att" ID="{B9E765E5-CEA6-4B1D-8750-9BCF99454CA2}" WorkUnitID="{7F799448-99C2-42A9-A1A6-859232DAC130}"/>
+																	<ObjectRef Name="WaterDrop_Att" ID="{B9E765E5-CEA6-4B1D-8750-9BCF99454CA2}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
 																</Reference>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -1317,7 +1297,7 @@
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Attenuation">
-																			<ObjectRef Name="PigSpit_Att" ID="{705EB1D0-9BA7-4976-AA03-4B93EC124967}" WorkUnitID="{7F799448-99C2-42A9-A1A6-859232DAC130}"/>
+																			<ObjectRef Name="PigSpit_Att" ID="{705EB1D0-9BA7-4976-AA03-4B93EC124967}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
 																		</Reference>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -1380,7 +1360,7 @@
 																					</PropertyList>
 																					<ReferenceList>
 																						<Reference Name="Attenuation">
-																							<ObjectRef Name="PigSpit_Att" ID="{705EB1D0-9BA7-4976-AA03-4B93EC124967}" WorkUnitID="{7F799448-99C2-42A9-A1A6-859232DAC130}"/>
+																							<ObjectRef Name="PigSpit_Att" ID="{705EB1D0-9BA7-4976-AA03-4B93EC124967}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
 																						</Reference>
 																						<Reference Name="Conversion">
 																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -1475,7 +1455,7 @@
 																					</PropertyList>
 																					<ReferenceList>
 																						<Reference Name="Attenuation">
-																							<ObjectRef Name="PigSpit_Att" ID="{705EB1D0-9BA7-4976-AA03-4B93EC124967}" WorkUnitID="{7F799448-99C2-42A9-A1A6-859232DAC130}"/>
+																							<ObjectRef Name="PigSpit_Att" ID="{705EB1D0-9BA7-4976-AA03-4B93EC124967}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
 																						</Reference>
 																						<Reference Name="Conversion">
 																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -1551,7 +1531,14 @@
 																	</ChildrenList>
 																</ActorMixer>
 																<ActorMixer Name="Cauldron" ID="{C67831F8-64A4-4745-87BA-39665562AF2D}" ShortID="221500754">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																	</PropertyList>
 																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="Fireplace_Att" ID="{FFC1A8A3-AFC9-453A-94EF-0B2C06393706}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																		</Reference>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																		</Reference>
@@ -1593,9 +1580,6 @@
 																						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 																						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																						<Property Name="Volume" Type="Real64">
-																							<ValueList>
-																								<Value>-9</Value>
-																							</ValueList>
 																							<ModifierList>
 																								<ModifierInfo>
 																									<Modifier Name="" ID="{DAEC5C9C-7082-46D5-BBB7-EBDDC4528E68}">
@@ -1692,11 +1676,6 @@
 																				<Sound Name="Fire_Preparation_LP" ID="{B557CAAC-0216-41AA-B32A-18BB22CB183E}" ShortID="449459905">
 																					<PropertyList>
 																						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																						<Property Name="Volume" Type="Real64">
-																							<ValueList>
-																								<Value>-10</Value>
-																							</ValueList>
-																						</Property>
 																					</PropertyList>
 																					<ReferenceList>
 																						<Reference Name="Conversion">
@@ -1735,7 +1714,6 @@
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="1"/>
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
-														<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -1778,6 +1756,11 @@
 																		<Value>True</Value>
 																	</ValueList>
 																</Property>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>1</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -1787,7 +1770,10 @@
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 																<Reference Name="UserAuxSend0">
-																	<ObjectRef Name="BarnRVB" ID="{780ABCD2-7C8A-41E7-B728-6DC7D6896F81}" WorkUnitID="{BA40347D-B690-4032-BF8F-715074FCA3A3}"/>
+																	<ObjectRef Name="Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend1">
+																	<ObjectRef Name="Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
@@ -2047,17 +2033,535 @@
 														</RandomSequenceContainer>
 													</ChildrenList>
 												</ActorMixer>
+												<RandomSequenceContainer Name="Mouse_RND" ID="{A4F6456F-E90E-4ACF-8F0D-7DFDD1EDED41}" ShortID="851017140">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{0ADE2910-4354-4BE1-992C-EE290A479D62}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="5"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<Custom CreatedFrom="{846EF7DD-DB85-45BD-9222-1BF48A605109}">
+																<Attenuation Name="Animals_Att (Custom)" ID="{4392EBFE-1E20-4667-A6D5-5F69EC90CA10}" ShortID="605604212">
+																	<PropertyList>
+																		<Property Name="RadiusMax" Type="Real64" Value="350"/>
+																	</PropertyList>
+																	<CurveUsageInfoList>
+																		<VolumeDryUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="VolumeDry" ID="{3391862F-78BC-498D-8C39-7A0F13CECB1C}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="3"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>0</YPos>
+																							<Flags>5</Flags>
+																							<SegmentShape>Exp1</SegmentShape>
+																						</Point>
+																						<Point>
+																							<XPos>132.75862</XPos>
+																							<YPos>-3.71367</YPos>
+																							<Flags>0</Flags>
+																							<SegmentShape>Log1</SegmentShape>
+																						</Point>
+																						<Point>
+																							<XPos>233.15047</XPos>
+																							<YPos>-9.14929</YPos>
+																							<Flags>0</Flags>
+																							<SegmentShape>Log1</SegmentShape>
+																						</Point>
+																						<Point>
+																							<XPos>350</XPos>
+																							<YPos>-20.12321</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</VolumeDryUsage>
+																		<VolumeWetGameUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																		</VolumeWetGameUsage>
+																		<VolumeWetUserUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																		</VolumeWetUserUsage>
+																		<LowPassFilterUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																		</LowPassFilterUsage>
+																		<HighPassFilterUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																		</HighPassFilterUsage>
+																		<SpreadUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="Spread" ID="{480089A2-79DB-47B0-BA71-89712ACE41B0}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="1"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>100</YPos>
+																							<Flags>5</Flags>
+																							<SegmentShape>Log1</SegmentShape>
+																						</Point>
+																						<Point>
+																							<XPos>108.0721</XPos>
+																							<YPos>0</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>350</XPos>
+																							<YPos>0</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</SpreadUsage>
+																		<FocusUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																				<Curve Name="Focus" ID="{790C7016-6526-4D62-A62E-E6DD6D891582}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="1"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>14.78873</YPos>
+																							<Flags>5</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>92.7116</XPos>
+																							<YPos>14.08451</YPos>
+																							<Flags>0</Flags>
+																							<SegmentShape>Exp1</SegmentShape>
+																						</Point>
+																						<Point>
+																							<XPos>350</XPos>
+																							<YPos>100</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</FocusUsage>
+																	</CurveUsageInfoList>
+																</Attenuation>
+															</Custom>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Amb_OS_BarnMouse_01_Ferreira_v1" ID="{7749DF84-A926-4F05-8F3B-E65C97049054}" ShortID="592979818">
+															<PropertyList>
+																<Property Name="3DPosition" Type="int16" Value="2"/>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+																<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_OS_BarnMouse_01_Ferreira_v1" ID="{9E6AB599-88F4-4A7F-AD23-9E4DDDFFD69E}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0419047619047619"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.137142857142857"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.26285714285714"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_OS_BarnMouse_01_Ferreira_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1036241396"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<PositioningInfo>
+																<Panner Name="" ID="{C37617C7-FD0D-4014-A820-88AAE566DD43}">
+																	<PropertyList>
+																		<Property Name="PanX" Type="Real64" Value="7.105427357601E-15"/>
+																	</PropertyList>
+																</Panner>
+																<Position Name="" ID="{A99DFA2E-A408-41BB-8334-A2CCDB1CFE6D}">
+																	<PropertyList>
+																		<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																		<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="0.5"/>
+																	</PropertyList>
+																	<ChildrenList>
+																		<Path2D Name="Mouses_RND_Path_01" ID="{D17C3E71-62C2-42A7-A7A7-4740E709C7B1}">
+																			<PropertyList>
+																				<Property Name="Duration" Type="Uint32" Value="500"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>0</Flags>
+																					<Time>500</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="Mouses_RND_Path_02" ID="{430B4A5C-B017-42F7-BAC4-C6287CC69C49}">
+																			<PropertyList>
+																				<Property Name="Duration" Type="Uint32" Value="900"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>-100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>0</Flags>
+																					<Time>900</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																	</ChildrenList>
+																</Position>
+															</PositioningInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_OS_BarnMouse_01_Ferreira_v1" ID="{9E6AB599-88F4-4A7F-AD23-9E4DDDFFD69E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_OS_BarnMouse_02_Ferreira_v1" ID="{ACF87CFB-F559-4233-AA98-C849A0DA43DC}" ShortID="100239058">
+															<PropertyList>
+																<Property Name="3DPosition" Type="int16" Value="2"/>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+																<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_OS_BarnMouse_02_Ferreira_v1" ID="{5AD48301-8485-4069-AA06-B631B1095DC4}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0239455782312925"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0628571428571429"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.113741496598639"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.77496598639456"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_OS_BarnMouse_02_Ferreira_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="928666914"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<PositioningInfo>
+																<Panner Name="" ID="{F0C83732-191F-4AC8-9114-249E990974D9}">
+																	<PropertyList>
+																		<Property Name="PanX" Type="Real64" Value="7.105427357601E-15"/>
+																	</PropertyList>
+																</Panner>
+																<Position Name="" ID="{ECE41FFA-EE58-4CF5-A4A4-56B2C626ADED}">
+																	<PropertyList>
+																		<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																		<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="0.5"/>
+																	</PropertyList>
+																	<ChildrenList>
+																		<Path2D Name="Mouses_RND_Path_01" ID="{0F66A5D7-0B9E-4514-A505-C39F776A0035}">
+																			<PropertyList>
+																				<Property Name="Duration" Type="Uint32" Value="500"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>0</Flags>
+																					<Time>500</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="Mouses_RND_Path_02" ID="{FA932FA3-F737-401F-991A-D8E549B7E8BC}">
+																			<PropertyList>
+																				<Property Name="Duration" Type="Uint32" Value="900"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>-100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>0</Flags>
+																					<Time>900</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																	</ChildrenList>
+																</Position>
+															</PositioningInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_OS_BarnMouse_02_Ferreira_v1" ID="{5AD48301-8485-4069-AA06-B631B1095DC4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_OS_BarnMouse_04_Ferreira_v1" ID="{BAED037E-DD9A-4807-8CB5-E0C04A1CF6F5}" ShortID="217117268">
+															<PropertyList>
+																<Property Name="3DPosition" Type="int16" Value="2"/>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+																<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_OS_BarnMouse_04_Ferreira_v1" ID="{D8FC407B-B96A-424E-8BA2-970A7419B2BB}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0329251700680271"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.119727891156463"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.67020408163265"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_OS_BarnMouse_04_Ferreira_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="176245362"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<PositioningInfo>
+																<Panner Name="" ID="{C2A452CD-F992-44E9-A52A-A30E1BBDF08A}">
+																	<PropertyList>
+																		<Property Name="PanX" Type="Real64" Value="7.105427357601E-15"/>
+																	</PropertyList>
+																</Panner>
+																<Position Name="" ID="{E0CCA4C2-F372-4369-A1A0-B786979DF92D}">
+																	<PropertyList>
+																		<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																		<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="0.5"/>
+																	</PropertyList>
+																	<ChildrenList>
+																		<Path2D Name="Mouses_RND_Path_01" ID="{F1E99BA3-A2C5-48C4-B715-190414458717}">
+																			<PropertyList>
+																				<Property Name="Duration" Type="Uint32" Value="500"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>0</Flags>
+																					<Time>500</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="Mouses_RND_Path_02" ID="{EB1EF83F-056D-40F2-8655-B4CE27724065}">
+																			<PropertyList>
+																				<Property Name="Duration" Type="Uint32" Value="900"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>-100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>0</Flags>
+																					<Time>900</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																	</ChildrenList>
+																</Position>
+															</PositioningInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_OS_BarnMouse_04_Ferreira_v1" ID="{D8FC407B-B96A-424E-8BA2-970A7419B2BB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_OS_BarnMouse_03_Ferreira_v1" ID="{BB9E099C-82FA-4BDF-9D0F-BBEE200065C9}" ShortID="283137521">
+															<PropertyList>
+																<Property Name="3DPosition" Type="int16" Value="2"/>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+																<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_OS_BarnMouse_03_Ferreira_v1" ID="{3C92B753-9F43-42F9-8B67-C2F0BE6A6E64}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0500680272108844"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0187755102040816"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.137687074829932"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.66789115646258"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_OS_BarnMouse_03_Ferreira_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="960928492"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<PositioningInfo>
+																<Panner Name="" ID="{CCC6F125-947F-4D26-A1C1-34C63C31C8A5}">
+																	<PropertyList>
+																		<Property Name="PanX" Type="Real64" Value="7.105427357601E-15"/>
+																	</PropertyList>
+																</Panner>
+																<Position Name="" ID="{B95013E1-D6BB-4B12-B5A7-EB33C8F7A032}">
+																	<PropertyList>
+																		<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																		<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="0.5"/>
+																	</PropertyList>
+																	<ChildrenList>
+																		<Path2D Name="Mouses_RND_Path_01" ID="{F589E2B3-6343-44E2-AA60-FD311B552A4D}">
+																			<PropertyList>
+																				<Property Name="Duration" Type="Uint32" Value="500"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>0</Flags>
+																					<Time>500</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="Mouses_RND_Path_02" ID="{840F2352-0E0D-43BB-AE99-CE9420AE7C35}">
+																			<PropertyList>
+																				<Property Name="Duration" Type="Uint32" Value="900"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>-100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>0</Flags>
+																					<Time>900</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																	</ChildrenList>
+																</Position>
+															</PositioningInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_OS_BarnMouse_03_Ferreira_v1" ID="{3C92B753-9F43-42F9-8B67-C2F0BE6A6E64}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
 										<Folder Name="Boiler" ID="{ABD7D055-9C40-41B2-BB9E-3FD913F7F635}" ShortID="780708867">
 											<ChildrenList>
 												<ActorMixer Name="BoilerAction_Mixer" ID="{D2425880-5315-45B3-B440-EC6DDC059E74}" ShortID="484262012">
+													<PropertyList>
+														<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -2563,7 +3067,7 @@
 																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
-																		<Value>-16</Value>
+																		<Value>-13</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>

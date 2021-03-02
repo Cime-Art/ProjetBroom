@@ -4,6 +4,11 @@
 		<WorkUnit Name="Quentin" ID="{F43A4335-1406-4E14-B8F4-E8FEBCBFF69F}" PersistMode="Standalone">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="7"/>
+				<Property Name="Inclusion" Type="bool">
+					<ValueList>
+						<Value>False</Value>
+					</ValueList>
+				</Property>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>

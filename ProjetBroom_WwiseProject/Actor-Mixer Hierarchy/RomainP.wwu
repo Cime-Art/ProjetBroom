@@ -2,6 +2,13 @@
 <WwiseDocument Type="WorkUnit" ID="{4631E6A9-5317-499D-A33D-7671303C8598}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="RomainP" ID="{4631E6A9-5317-499D-A33D-7671303C8598}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Inclusion" Type="bool">
+					<ValueList>
+						<Value>False</Value>
+					</ValueList>
+				</Property>
+			</PropertyList>
 			<ChildrenList>
 				<Folder Name="UI" ID="{7C37E2D6-8DAE-4D60-8EB8-6BE217F31211}" ShortID="923036066">
 					<ChildrenList>

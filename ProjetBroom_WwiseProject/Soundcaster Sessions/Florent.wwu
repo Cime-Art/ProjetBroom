@@ -8,16 +8,6 @@
 			</PropertyList>
 			<ChildrenList>
 				<SoundcasterSession Name="snail_soundcaster" ID="{7EB06539-2EF8-433F-BAD2-BE13D30DC3E9}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="event_play_snail" ID="{447A310E-962E-4F21-97B5-3BDEF6DA9439}" WorkUnitID="{602C5174-255D-4D88-AB0D-1FDB6E618FCC}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="event_play_snailGethit" ID="{F7FBC086-DAA1-4334-AB5E-EC3F0BCC489B}" WorkUnitID="{602C5174-255D-4D88-AB0D-1FDB6E618FCC}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>

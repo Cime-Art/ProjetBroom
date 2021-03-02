@@ -8,16 +8,6 @@
 			</PropertyList>
 			<ChildrenList>
 				<SoundcasterSession Name="test moving platform" ID="{8030EE05-ABBD-424B-9DC9-4411E00EA08B}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="Event_Moving_Platform" ID="{99DC410A-C91A-4404-BFB7-F4711DE2488B}" WorkUnitID="{50A742BF-F8D8-4C2F-889C-6D3C22882EA4}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Event_platform_hit_border" ID="{AE9C0C55-366F-4E9D-AE56-50FCEBFA9F57}" WorkUnitID="{50A742BF-F8D8-4C2F-889C-6D3C22882EA4}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>

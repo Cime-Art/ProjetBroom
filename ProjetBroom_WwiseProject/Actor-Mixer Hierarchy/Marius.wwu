@@ -4,6 +4,11 @@
 		<WorkUnit Name="Marius" ID="{30B9BCEA-09BA-48CE-B6CF-377BE308973B}" PersistMode="Standalone">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="Inclusion" Type="bool">
+					<ValueList>
+						<Value>False</Value>
+					</ValueList>
+				</Property>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
