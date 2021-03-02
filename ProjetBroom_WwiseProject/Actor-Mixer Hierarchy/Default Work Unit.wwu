@@ -1011,10 +1011,10 @@
 															<ChildrenList>
 																<SourcePlugin Name="SoundSeed Air Wind" ID="{0C7F99F1-A486-4E70-98F7-E5762EFAD6DD}" ShortID="522069659" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
 																	<PropertyList>
-																		<Property Name="AverageVelocity" Type="Real32" Value="-480"/>
+																		<Property Name="AverageVelocity" Type="Real32" Value="-1360"/>
 																		<Property Name="AverageVelocityRandom" Type="Real32" Value="10"/>
 																		<Property Name="FrequencyScale" Type="Real32" Value="0.08"/>
-																		<Property Name="GainOffset" Type="Real32" Value="-3.6"/>
+																		<Property Name="GainOffset" Type="Real32" Value="23"/>
 																		<Property Name="GainOffsetRandom" Type="Real32" Value="3.8"/>
 																		<Property Name="Gustiness" Type="Real32" Value="0.19"/>
 																		<Property Name="QFactorScale" Type="Real32" Value="-0.59"/>
@@ -1048,14 +1048,14 @@
 																		<List Name="Deflectors">
 																			<PluginInnerObject Name="" ID="{801C4D8C-886D-4800-99C0-A45C801A9995}" PluginName="Deflector" CompanyID="0" PluginID="121">
 																				<PropertyList>
-																					<Property Name="Frequency" Type="Real32" Value="490"/>
+																					<Property Name="Frequency" Type="Real32" Value="978"/>
 																					<Property Name="Gain" Type="Real32" Value="-2"/>
 																					<Property Name="QFactor" Type="Real32" Value="22.16"/>
 																				</PropertyList>
 																			</PluginInnerObject>
 																			<PluginInnerObject Name="" ID="{8A7D90BC-2803-4B14-8595-F65B833A85F5}" PluginName="Deflector" CompanyID="0" PluginID="121">
 																				<PropertyList>
-																					<Property Name="Frequency" Type="Real32" Value="763"/>
+																					<Property Name="Frequency" Type="Real32" Value="706"/>
 																					<Property Name="Gain" Type="Real32" Value="-3"/>
 																					<Property Name="QFactor" Type="Real32" Value="14.81"/>
 																				</PropertyList>
@@ -1071,6 +1071,28 @@
 																	</PluginInnerObjectList>
 																</SourcePlugin>
 															</ChildrenList>
+															<StateInfo>
+																<StateGroupList>
+																	<StateGroupInfo>
+																		<StateGroupRef Name="In_Out" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
+																	</StateGroupInfo>
+																</StateGroupList>
+																<CustomStateList>
+																	<CustomState>
+																		<StateRef Name="In" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
+																		<CustomState Name="" ID="{F0D53ECC-E130-4BDE-9B23-5FC83E2BBF61}" ShortID="662878464">
+																			<PropertyList>
+																				<Property Name="Lowpass" Type="int16" Value="59"/>
+																				<Property Name="Volume" Type="Real64" Value="-7"/>
+																			</PropertyList>
+																		</CustomState>
+																	</CustomState>
+																	<CustomState>
+																		<StateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
+																		<CustomState Name="" ID="{2CC588D3-E4BA-41CC-8552-900A3AB34890}" ShortID="782098803"/>
+																	</CustomState>
+																</CustomStateList>
+															</StateInfo>
 															<ActiveSourceList>
 																<ActiveSource Name="SoundSeed Air Wind" ID="{0C7F99F1-A486-4E70-98F7-E5762EFAD6DD}" Platform="Linked"/>
 															</ActiveSourceList>
@@ -1486,15 +1508,10 @@
 																				</Sound>
 																				<Sound Name="Ember_Loop" ID="{31FC812E-F6C5-46E4-8A5B-D45E3B453620}" ShortID="158158421">
 																					<PropertyList>
-																						<Property Name="Highpass" Type="int16">
-																							<ValueList>
-																								<Value>39</Value>
-																							</ValueList>
-																						</Property>
 																						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																						<Property Name="Volume" Type="Real64">
 																							<ValueList>
-																								<Value>-12</Value>
+																								<Value>-13</Value>
 																							</ValueList>
 																						</Property>
 																					</PropertyList>
@@ -1511,7 +1528,7 @@
 																							<PropertyList>
 																								<Property Name="VolumeOffset" Type="Real64">
 																									<ValueList>
-																										<Value>13</Value>
+																										<Value>24</Value>
 																									</ValueList>
 																								</Property>
 																							</PropertyList>
@@ -1702,6 +1719,188 @@
 																		</BlendContainer>
 																	</ChildrenList>
 																</ActorMixer>
+																<Sound Name="Ember_Loop" ID="{8060AF2F-5D37-4667-839D-CD42EF452211}" ShortID="123317990">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-13</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<Custom CreatedFrom="{705EB1D0-9BA7-4976-AA03-4B93EC124967}">
+																				<Attenuation Name="PigSpit_Att (Custom)" ID="{38561CA9-BC99-4EBD-9396-B6A0E5AFEB7E}" ShortID="340350887">
+																					<PropertyList>
+																						<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+																					</PropertyList>
+																					<CurveUsageInfoList>
+																						<VolumeDryUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																								<Curve Name="VolumeDry" ID="{9F8C181F-E1A1-4C79-A4DD-97982CA095AC}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="3"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>0</YPos>
+																											<Flags>5</Flags>
+																											<SegmentShape>Log1</SegmentShape>
+																										</Point>
+																										<Point>
+																											<XPos>424.7649</XPos>
+																											<YPos>-4.84891</YPos>
+																											<Flags>0</Flags>
+																											<SegmentShape>Log1</SegmentShape>
+																										</Point>
+																										<Point>
+																											<XPos>757.0533</XPos>
+																											<YPos>-9.93818</YPos>
+																											<Flags>0</Flags>
+																											<SegmentShape>Log1</SegmentShape>
+																										</Point>
+																										<Point>
+																											<XPos>1000</XPos>
+																											<YPos>-200</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</CurveUsageInfo>
+																						</VolumeDryUsage>
+																						<VolumeWetGameUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																						</VolumeWetGameUsage>
+																						<VolumeWetUserUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																						</VolumeWetUserUsage>
+																						<LowPassFilterUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</LowPassFilterUsage>
+																						<HighPassFilterUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																								<Curve Name="HighPassFilter" ID="{BD48EE12-4E40-4DE9-B0AD-CE0A16C018B3}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="65537"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>0</YPos>
+																											<Flags>5</Flags>
+																											<SegmentShape>Exp1</SegmentShape>
+																										</Point>
+																										<Point>
+																											<XPos>608.15047</XPos>
+																											<YPos>39</YPos>
+																											<Flags>0</Flags>
+																										</Point>
+																										<Point>
+																											<XPos>1000</XPos>
+																											<YPos>39</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</CurveUsageInfo>
+																						</HighPassFilterUsage>
+																						<SpreadUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																								<Curve Name="Spread" ID="{21AD1C1C-8825-4613-AB03-0D4A4D2688AA}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="1"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>100</YPos>
+																											<Flags>5</Flags>
+																											<SegmentShape>Log1</SegmentShape>
+																										</Point>
+																										<Point>
+																											<XPos>515.67398</XPos>
+																											<YPos>25</YPos>
+																											<Flags>0</Flags>
+																											<SegmentShape>Exp1</SegmentShape>
+																										</Point>
+																										<Point>
+																											<XPos>1000</XPos>
+																											<YPos>25</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</CurveUsageInfo>
+																						</SpreadUsage>
+																						<FocusUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																								<Curve Name="Focus" ID="{EC495DDB-A465-4E73-9E72-83FA3A339214}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="1"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>78.87324</YPos>
+																											<Flags>5</Flags>
+																											<SegmentShape>Exp2</SegmentShape>
+																										</Point>
+																										<Point>
+																											<XPos>365.20376</XPos>
+																											<YPos>80.28169</YPos>
+																											<Flags>0</Flags>
+																											<SegmentShape>Log2</SegmentShape>
+																										</Point>
+																										<Point>
+																											<XPos>1000</XPos>
+																											<YPos>100</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</CurveUsageInfo>
+																						</FocusUsage>
+																					</CurveUsageInfoList>
+																				</Attenuation>
+																			</Custom>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Reverb" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend1">
+																			<ObjectRef Name="Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="AMB_LP_cendres_v3" ID="{493DD44D-AF5E-49D3-BC03-66D750F5A86E}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>24</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>AMB_LP_cendres_v3.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="164158550"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="AMB_LP_cendres_v3" ID="{493DD44D-AF5E-49D3-BC03-66D750F5A86E}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
 															</ChildrenList>
 														</Folder>
 													</ChildrenList>
@@ -1714,6 +1913,16 @@
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="1"/>
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>-5</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>12</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -1725,6 +1934,9 @@
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
 													</ReferenceList>
 													<ChildrenList>
 														<RandomSequenceContainer Name="TilesOrWoodcreaks_RND" ID="{95A8D384-8D77-4A67-83C3-BB320244B9AB}" ShortID="531988257">
@@ -1735,6 +1947,7 @@
 																		<Value>3</Value>
 																	</ValueList>
 																</Property>
+																<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
@@ -1750,7 +1963,6 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
-																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																<Property Name="UseMaxSoundPerInstance" Type="bool">
 																	<ValueList>
 																		<Value>True</Value>
@@ -1758,7 +1970,7 @@
 																</Property>
 																<Property Name="UserAuxSendVolume0" Type="Real64">
 																	<ValueList>
-																		<Value>1</Value>
+																		<Value>5</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -1900,7 +2112,7 @@
 																	<PropertyList>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>3</Value>
+																				<Value>8</Value>
 																			</ValueList>
 																		</Property>
 																		<Property Name="Weight" Type="Real64">
@@ -2548,9 +2760,13 @@
 											<ChildrenList>
 												<ActorMixer Name="BoilerAction_Mixer" ID="{D2425880-5315-45B3-B440-EC6DDC059E74}" ShortID="484262012">
 													<PropertyList>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Boiler_Att" ID="{85D9B5E7-C0D4-4020-A345-835D9B4FEB01}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 														</Reference>
