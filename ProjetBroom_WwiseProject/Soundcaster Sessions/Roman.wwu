@@ -8,32 +8,6 @@
 			</PropertyList>
 			<ChildrenList>
 				<SoundcasterSession Name="Full Armor Boss" ID="{797E6095-3220-4BCA-A473-D073A1FE6F59}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="Play_CACHeavy_RND" ID="{56AE7AF0-A453-4E3C-9EA1-5D7BD070DC2E}" WorkUnitID="{478FD5B5-F132-4D02-809B-099B52F58864}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_GetHit_RND" ID="{0B1ACF73-CC11-4767-B41B-00F8CB19EDD8}" WorkUnitID="{478FD5B5-F132-4D02-809B-099B52F58864}"/>
-							<Position X="0" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_CACLight_RND" ID="{5960761F-549C-4541-8F0F-9F92C1F7C534}" WorkUnitID="{478FD5B5-F132-4D02-809B-099B52F58864}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Death_RND" ID="{0C56BC35-4F6E-49AA-ACC2-FF2597006A13}" WorkUnitID="{478FD5B5-F132-4D02-809B-099B52F58864}"/>
-							<Position X="1" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_LunchObject_RND" ID="{8370D3F9-08D2-4092-AE28-B71205D31CF0}" WorkUnitID="{478FD5B5-F132-4D02-809B-099B52F58864}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Movement_Idle_Switch" ID="{88956795-8282-438A-ADB6-16B0C194F0EC}" WorkUnitID="{478FD5B5-F132-4D02-809B-099B52F58864}"/>
-							<Position X="2" Y="1"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>
@@ -47,9 +21,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Movement" ID="{FC3CB18A-2E56-48B6-9B59-1CA57DA9B652}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="No" ID="{D598B921-AEB4-45D0-9757-0502A47EF998}"/>
-					</CurrentSwitchList>
+					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

@@ -10,16 +10,12 @@
 				<SoundcasterSession Name="Tests" ID="{F3AF0858-0CC8-4AA4-B8F4-F0737ED64EA6}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Event_Boiler" ID="{21565AFE-8ACE-4627-A74C-9F9EF4B25786}" WorkUnitID="{5DFBBCEB-33A3-4310-BC08-4615DFAA20ED}"/>
+							<ObjectRef Name="Event_Boiler" ID="{21565AFE-8ACE-4627-A74C-9F9EF4B25786}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Event_AmbBoiler" ID="{F98DAF6A-6CE6-418F-B05D-6AD9824BEEED}" WorkUnitID="{5DFBBCEB-33A3-4310-BC08-4615DFAA20ED}"/>
+							<ObjectRef Name="Event_FireBoiler_LP" ID="{F98DAF6A-6CE6-418F-B05D-6AD9824BEEED}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
 							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Event_FireplacePreparation" ID="{4AAB860F-3F22-4975-B78E-A6366E7DAEA4}" WorkUnitID="{5DFBBCEB-33A3-4310-BC08-4615DFAA20ED}"/>
-							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -33,9 +29,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="No" ID="{D598B921-AEB4-45D0-9757-0502A47EF998}"/>
-					</CurrentSwitchList>
+					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
