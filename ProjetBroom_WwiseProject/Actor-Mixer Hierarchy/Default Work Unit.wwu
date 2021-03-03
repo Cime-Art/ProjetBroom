@@ -993,38 +993,92 @@
 																		</ActorMixer>
 																	</ChildrenList>
 																</Folder>
-																<Sound Name="WindBackGround" ID="{5FB16CC8-E2FB-4D2F-9659-7E1CB3F580D0}" ShortID="656469982">
-																	<PropertyList>
-																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																		<Property Name="Volume" Type="Real64">
-																			<ValueList>
-																				<Value>-6</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
+																<Folder Name="Wind" ID="{5A728254-F9D8-41B4-966A-19BF718D047D}" ShortID="654915680">
 																	<ChildrenList>
-																		<SourcePlugin Name="SoundSeed Air Wind" ID="{0C7F99F1-A486-4E70-98F7-E5762EFAD6DD}" ShortID="522069659" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
+																		<BlendContainer Name="Wind_Blend" ID="{2939C4E3-68B4-4427-937A-2420FE4F76F0}" ShortID="751858465">
 																			<PropertyList>
-																				<Property Name="AverageVelocity" Type="Real32" Value="-1360"/>
-																				<Property Name="AverageVelocityRandom" Type="Real32" Value="10"/>
-																				<Property Name="FrequencyScale" Type="Real32" Value="0.08"/>
-																				<Property Name="GainOffset" Type="Real32" Value="23"/>
-																				<Property Name="GainOffsetRandom" Type="Real32" Value="3.8"/>
-																				<Property Name="Gustiness" Type="Real32" Value="0.19"/>
-																				<Property Name="QFactorScale" Type="Real32" Value="-0.59"/>
-																				<Property Name="Variability" Type="Real32" Value="0.2"/>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-6</Value>
+																					</ValueList>
+																				</Property>
 																			</PropertyList>
-																			<Language>SFX</Language>
-																			<PluginData>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<Sound Name="Wind_Low" ID="{5FB16CC8-E2FB-4D2F-9659-7E1CB3F580D0}" ShortID="656469982">
+																					<PropertyList>
+																						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-2</Value>
+																							</ValueList>
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{E9C583B1-7CDB-4DCD-9648-736871C49C86}">
+																										<PropertyList>
+																											<Property Name="Min" Type="Real64" Value="-3"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend0">
+																							<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend1">
+																							<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<SourcePlugin Name="SoundSeed Air Wind" ID="{0C7F99F1-A486-4E70-98F7-E5762EFAD6DD}" ShortID="522069659" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
+																							<PropertyList>
+																								<Property Name="AverageVelocity" Type="Real32" Value="-830"/>
+																								<Property Name="AverageVelocityRandom" Type="Real32" Value="10"/>
+																								<Property Name="Duration" Type="Real64" Value="20"/>
+																								<Property Name="FrequencyScale" Type="Real32" Value="0.34"/>
+																								<Property Name="GainOffset" Type="Real32" Value="24"/>
+																								<Property Name="Gustiness" Type="Real32" Value="0.3"/>
+																								<Property Name="MinDistance" Type="Real32" Value="0.1"/>
+																								<Property Name="QFactorScale" Type="Real32" Value="-0.59"/>
+																								<Property Name="Variability" Type="Real32" Value="0.2"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<PluginData>
 	<CurveList Version="1">
+		<CurveInfo Name="AverageVelocity">
+			<Curve Name="" ID="{7D441668-33B3-490A-BADB-159B061CB99F}">
+				<PropertyList>
+					<Property Name="Flags" Type="int32" Value="1"/>
+				</PropertyList>
+				<PointList>
+					<Point>
+						<XPos>0</XPos>
+						<YPos>-830</YPos>
+						<Flags>5</Flags>
+					</Point>
+					<Point>
+						<XPos>20</XPos>
+						<YPos>-730</YPos>
+						<Flags>37</Flags>
+					</Point>
+				</PointList>
+			</Curve>
+		</CurveInfo>
 		<CurveInfo Name="GainOffset">
 			<Curve Name="" ID="{CA2985F3-7656-4A1E-A129-EBBC332F069F}">
 				<PropertyList>
@@ -1037,7 +1091,26 @@
 						<Flags>5</Flags>
 					</Point>
 					<Point>
-						<XPos>10</XPos>
+						<XPos>20</XPos>
+						<YPos>0</YPos>
+						<Flags>37</Flags>
+					</Point>
+				</PointList>
+			</Curve>
+		</CurveInfo>
+		<CurveInfo Name="Gustiness">
+			<Curve Name="" ID="{7CA6066B-615B-485A-A6DC-355FB6FDC6A3}">
+				<PropertyList>
+					<Property Name="Flags" Type="int32" Value="1"/>
+				</PropertyList>
+				<PointList>
+					<Point>
+						<XPos>0</XPos>
+						<YPos>0</YPos>
+						<Flags>5</Flags>
+					</Point>
+					<Point>
+						<XPos>20</XPos>
 						<YPos>0</YPos>
 						<Flags>37</Flags>
 					</Point>
@@ -1046,59 +1119,117 @@
 		</CurveInfo>
 	</CurveList>
 </PluginData>
-																			<PluginInnerObjectList>
-																				<List Name="Deflectors">
-																					<PluginInnerObject Name="" ID="{801C4D8C-886D-4800-99C0-A45C801A9995}" PluginName="Deflector" CompanyID="0" PluginID="121">
-																						<PropertyList>
-																							<Property Name="Frequency" Type="Real32" Value="978"/>
-																							<Property Name="Gain" Type="Real32" Value="-2"/>
-																							<Property Name="QFactor" Type="Real32" Value="22.16"/>
-																						</PropertyList>
-																					</PluginInnerObject>
-																					<PluginInnerObject Name="" ID="{8A7D90BC-2803-4B14-8595-F65B833A85F5}" PluginName="Deflector" CompanyID="0" PluginID="121">
-																						<PropertyList>
-																							<Property Name="Frequency" Type="Real32" Value="706"/>
-																							<Property Name="Gain" Type="Real32" Value="-3"/>
-																							<Property Name="QFactor" Type="Real32" Value="14.81"/>
-																						</PropertyList>
-																					</PluginInnerObject>
-																					<PluginInnerObject Name="" ID="{84990B77-F8BF-41BD-9220-44182A4AF3AB}" PluginName="Deflector" CompanyID="0" PluginID="121">
-																						<PropertyList>
-																							<Property Name="Frequency" Type="Real32" Value="304"/>
-																							<Property Name="Gain" Type="Real32" Value="-2"/>
-																							<Property Name="QFactor" Type="Real32" Value="0.1"/>
-																						</PropertyList>
-																					</PluginInnerObject>
-																				</List>
-																			</PluginInnerObjectList>
-																		</SourcePlugin>
-																	</ChildrenList>
-																	<StateInfo>
-																		<StateGroupList>
-																			<StateGroupInfo>
-																				<StateGroupRef Name="In_Out" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
-																			</StateGroupInfo>
-																		</StateGroupList>
-																		<CustomStateList>
-																			<CustomState>
-																				<StateRef Name="In" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
-																				<CustomState Name="" ID="{F0D53ECC-E130-4BDE-9B23-5FC83E2BBF61}" ShortID="662878464">
+																							<PluginInnerObjectList>
+																								<List Name="Deflectors">
+																									<PluginInnerObject Name="" ID="{84990B77-F8BF-41BD-9220-44182A4AF3AB}" PluginName="Deflector" CompanyID="0" PluginID="121">
+																										<PropertyList>
+																											<Property Name="Frequency" Type="Real32" Value="390"/>
+																											<Property Name="Gain" Type="Real32" Value="2"/>
+																											<Property Name="PanY" Type="Real64" Value="1.55431223447522E-15"/>
+																											<Property Name="QFactor" Type="Real32" Value="0.1"/>
+																										</PropertyList>
+																									</PluginInnerObject>
+																								</List>
+																							</PluginInnerObjectList>
+																						</SourcePlugin>
+																					</ChildrenList>
+																					<StateInfo>
+																						<StateGroupList>
+																							<StateGroupInfo>
+																								<StateGroupRef Name="In_Out" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
+																							</StateGroupInfo>
+																						</StateGroupList>
+																						<CustomStateList>
+																							<CustomState>
+																								<StateRef Name="In" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
+																								<CustomState Name="" ID="{F0D53ECC-E130-4BDE-9B23-5FC83E2BBF61}" ShortID="662878464">
+																									<PropertyList>
+																										<Property Name="Lowpass" Type="int16" Value="46"/>
+																										<Property Name="Volume" Type="Real64" Value="-5"/>
+																									</PropertyList>
+																								</CustomState>
+																							</CustomState>
+																							<CustomState>
+																								<StateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
+																								<CustomState Name="" ID="{2CC588D3-E4BA-41CC-8552-900A3AB34890}" ShortID="782098803"/>
+																							</CustomState>
+																						</CustomStateList>
+																					</StateInfo>
+																					<ActiveSourceList>
+																						<ActiveSource Name="SoundSeed Air Wind" ID="{0C7F99F1-A486-4E70-98F7-E5762EFAD6DD}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Wind_variation" ID="{92B4103C-2FCE-4976-848E-52E58F25917C}" ShortID="166924364">
 																					<PropertyList>
-																						<Property Name="Lowpass" Type="int16" Value="59"/>
-																						<Property Name="Volume" Type="Real64" Value="-7"/>
+																						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-6</Value>
+																							</ValueList>
+																						</Property>
 																					</PropertyList>
-																				</CustomState>
-																			</CustomState>
-																			<CustomState>
-																				<StateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
-																				<CustomState Name="" ID="{2CC588D3-E4BA-41CC-8552-900A3AB34890}" ShortID="782098803"/>
-																			</CustomState>
-																		</CustomStateList>
-																	</StateInfo>
-																	<ActiveSourceList>
-																		<ActiveSource Name="SoundSeed Air Wind" ID="{0C7F99F1-A486-4E70-98F7-E5762EFAD6DD}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend0">
+																							<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend1">
+																							<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<SourcePlugin Name="SoundSeed Air Wind" ID="{66BA22E6-4290-4080-ADEC-B61E7760A996}" ShortID="324716711" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
+																							<PropertyList>
+																								<Property Name="AverageVelocity" Type="Real32" Value="-30"/>
+																								<Property Name="FrequencyScale" Type="Real32" Value="0.21"/>
+																								<Property Name="GainOffset" Type="Real32" Value="24"/>
+																								<Property Name="Gustiness" Type="Real32" Value="0.4"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<PluginData/>
+																							<PluginInnerObjectList>
+																								<List Name="Deflectors">
+																									<PluginInnerObject Name="" ID="{DBBFC0EB-3631-4AA4-A7D4-6DE02E306E0D}" PluginName="Deflector" CompanyID="0" PluginID="121"/>
+																								</List>
+																							</PluginInnerObjectList>
+																						</SourcePlugin>
+																					</ChildrenList>
+																					<StateInfo>
+																						<StateGroupList>
+																							<StateGroupInfo>
+																								<StateGroupRef Name="In_Out" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
+																							</StateGroupInfo>
+																						</StateGroupList>
+																						<CustomStateList>
+																							<CustomState>
+																								<StateRef Name="In" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
+																								<CustomState Name="" ID="{9532EDE5-90AA-4906-B2A8-C1193F794135}" ShortID="719272581">
+																									<PropertyList>
+																										<Property Name="Lowpass" Type="int16" Value="46"/>
+																										<Property Name="Pitch" Type="int32" Value="50"/>
+																										<Property Name="Volume" Type="Real64" Value="-5"/>
+																									</PropertyList>
+																								</CustomState>
+																							</CustomState>
+																							<CustomState>
+																								<StateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
+																								<CustomState Name="" ID="{8F4C4461-9A9D-41D0-8850-7FE291A1C03E}" ShortID="320610587"/>
+																							</CustomState>
+																						</CustomStateList>
+																					</StateInfo>
+																					<ActiveSourceList>
+																						<ActiveSource Name="SoundSeed Air Wind" ID="{66BA22E6-4290-4080-ADEC-B61E7760A996}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																			</ChildrenList>
+																		</BlendContainer>
+																	</ChildrenList>
+																</Folder>
 															</ChildrenList>
 														</ActorMixer>
 													</ChildrenList>
@@ -1161,11 +1292,6 @@
 																					</ModifierList>
 																				</Property>
 																				<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-																				<Property Name="Volume" Type="Real64">
-																					<ValueList>
-																						<Value>-4</Value>
-																					</ValueList>
-																				</Property>
 																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
@@ -1376,11 +1502,6 @@
 																									</ModifierList>
 																								</Property>
 																								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-																								<Property Name="Volume" Type="Real64">
-																									<ValueList>
-																										<Value>-4</Value>
-																									</ValueList>
-																								</Property>
 																							</PropertyList>
 																							<ReferenceList>
 																								<Reference Name="Attenuation">
@@ -1493,7 +1614,7 @@
 																									<PropertyList>
 																										<Property Name="VolumeOffset" Type="Real64">
 																											<ValueList>
-																												<Value>10</Value>
+																												<Value>24</Value>
 																											</ValueList>
 																										</Property>
 																									</PropertyList>
@@ -1513,7 +1634,7 @@
 																								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																								<Property Name="Volume" Type="Real64">
 																									<ValueList>
-																										<Value>-13</Value>
+																										<Value>-4</Value>
 																									</ValueList>
 																								</Property>
 																							</PropertyList>
@@ -1567,6 +1688,13 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<BlendContainer Name="Cauldron" ID="{40F65729-E37D-466C-843F-8E1CAB3F3CD7}" ShortID="153204206">
+																					<PropertyList>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-7</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
 																					<ReferenceList>
 																						<Reference Name="Conversion">
 																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -1599,6 +1727,9 @@
 																								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 																								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																								<Property Name="Volume" Type="Real64">
+																									<ValueList>
+																										<Value>-2</Value>
+																									</ValueList>
 																									<ModifierList>
 																										<ModifierInfo>
 																											<Modifier Name="" ID="{DAEC5C9C-7082-46D5-BBB7-EBDDC4528E68}">
@@ -1644,6 +1775,13 @@
 																									</ReferenceList>
 																									<ChildrenList>
 																										<AudioFileSource Name="Amb_LP_FirePlace_Preparation_01" ID="{BDADAB83-0EB4-4401-96E1-8AE9025EE81A}">
+																											<PropertyList>
+																												<Property Name="VolumeOffset" Type="Real64">
+																													<ValueList>
+																														<Value>24</Value>
+																													</ValueList>
+																												</Property>
+																											</PropertyList>
 																											<Language>SFX</Language>
 																											<AudioFile>Amb_LP_FirePlace_Preparation_01.wav</AudioFile>
 																											<MediaIDList>
@@ -1679,6 +1817,13 @@
 																									</ReferenceList>
 																									<ChildrenList>
 																										<AudioFileSource Name="Amb_LP_FirePlace_Preparation_02" ID="{BCA7AA99-8077-4BB8-899E-FA5197F0E746}">
+																											<PropertyList>
+																												<Property Name="VolumeOffset" Type="Real64">
+																													<ValueList>
+																														<Value>24</Value>
+																													</ValueList>
+																												</Property>
+																											</PropertyList>
 																											<Language>SFX</Language>
 																											<AudioFile>Amb_LP_FirePlace_Preparation_02.wav</AudioFile>
 																											<MediaIDList>
@@ -1695,6 +1840,11 @@
 																						<Sound Name="Fire_Preparation_LP" ID="{B557CAAC-0216-41AA-B32A-18BB22CB183E}" ShortID="449459905">
 																							<PropertyList>
 																								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																								<Property Name="Volume" Type="Real64">
+																									<ValueList>
+																										<Value>-6</Value>
+																									</ValueList>
+																								</Property>
 																							</PropertyList>
 																							<ReferenceList>
 																								<Reference Name="Conversion">
@@ -1706,6 +1856,13 @@
 																							</ReferenceList>
 																							<ChildrenList>
 																								<AudioFileSource Name="Amb_LP_FirePlaceCrackles_02_THOMAS_v2" ID="{15D8B3F8-2F84-48EE-A648-1D1405F666A8}">
+																									<PropertyList>
+																										<Property Name="VolumeOffset" Type="Real64">
+																											<ValueList>
+																												<Value>24</Value>
+																											</ValueList>
+																										</Property>
+																									</PropertyList>
 																									<Language>SFX</Language>
 																									<AudioFile>Amb_LP_FirePlaceCrackles_02_THOMAS_v2.wav</AudioFile>
 																									<MediaIDList>
