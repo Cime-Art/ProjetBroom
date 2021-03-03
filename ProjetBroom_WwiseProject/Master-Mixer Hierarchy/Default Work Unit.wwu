@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<PropertyList>
-						<Property Name="Volume" Type="Real64">
+						<Property Name="BusVolume" Type="Real64">
 							<RTPCList>
 								<RTPC Name="" ID="{E8D60B5F-2DEE-4EB8-927E-6734EC402E7A}" ShortID="560653193">
 									<ReferenceList>
@@ -24,7 +24,7 @@
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>100</XPos>
+												<XPos>1</XPos>
 												<YPos>0</YPos>
 												<Flags>37</Flags>
 											</Point>
@@ -42,7 +42,7 @@
 					<ChildrenList>
 						<Bus Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}">
 							<PropertyList>
-								<Property Name="Volume" Type="Real64">
+								<Property Name="BusVolume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{CEF16563-B8DB-46C4-92DE-0374731CCB68}" ShortID="967425472">
 											<ReferenceList>
@@ -61,12 +61,7 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>49.281045751634</XPos>
-														<YPos>-6.1464016989565</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
+														<XPos>1</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -103,7 +98,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>100</XPos>
+																<XPos>1</XPos>
 																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -187,7 +182,7 @@
 						</Bus>
 						<Bus Name="Music" ID="{3AAA1A5D-7D18-49B8-944D-76833FC3D4F7}">
 							<PropertyList>
-								<Property Name="Volume" Type="Real64">
+								<Property Name="BusVolume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{9728DB01-34E5-4233-B213-D0EB34A633A9}" ShortID="961214121">
 											<ReferenceList>
@@ -206,7 +201,7 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>100</XPos>
+														<XPos>1</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>
