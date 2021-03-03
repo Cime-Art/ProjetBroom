@@ -164,7 +164,76 @@
 						<Folder Name="Hell" ID="{246DE10D-6236-481E-B819-17F138DBE94D}" ShortID="241790163"/>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="HUD" ID="{47B1D365-9F37-4CF3-9E74-E281BAF228B1}" ShortID="354925204"/>
+				<Folder Name="HUD" ID="{47B1D365-9F37-4CF3-9E74-E281BAF228B1}" ShortID="354925204">
+					<ChildrenList>
+						<Event Name="Play_UI_OS_ConfirmMenu_Pelloux_V1" ID="{9E653B40-302C-4FE1-BEDC-B42827C734F0}">
+							<ChildrenList>
+								<Action Name="" ID="{A3EB2C06-5476-4726-AAAB-EEED560FF50C}" ShortID="850719429">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{B4772A2B-5C8F-4EE2-BE98-264B53932EBB}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_OS_CancelMenu_Pelloux_V1" ID="{281D30D2-6B68-4193-B99B-DF664394378E}">
+							<ChildrenList>
+								<Action Name="" ID="{A80FA8C2-8270-4B63-8B3A-FCF0B557EEA6}" ShortID="166436491">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_OS_CancelMenu_Pelloux_V1" ID="{F03AC8C4-4A76-4AAD-9A68-EA0CE5EA6767}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_OS_PauseNegative_Pelloux_V1" ID="{B3186E8C-BB9F-41EE-8D20-DD1F1D6A6D1D}">
+							<ChildrenList>
+								<Action Name="" ID="{80FB1B59-EED5-4933-BD3D-EA96F66A2210}" ShortID="20355238">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_OS_PauseNegative_Pelloux_V1" ID="{EFE276CF-75ED-4AF8-9270-59C2D71D9B71}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_OS_PausePositive_Pelloux_V1" ID="{1B119576-A71F-479C-8451-2C85C819CCC7}">
+							<ChildrenList>
+								<Action Name="" ID="{C5E00F89-8EC9-4E12-9D70-DFAB3304DF50}" ShortID="193315019">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_OS_PausePositive_Pelloux_V1" ID="{60901711-FE2A-4173-9841-749670B300C6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_OS_SelectMenu_Pelloux_V1" ID="{1B07E622-5BF3-4634-9F5E-1C99C8594916}">
+							<ChildrenList>
+								<Action Name="" ID="{F36CC2CF-ACF1-4820-A145-2141B5542DE1}" ShortID="512671360">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_OS_SelectMenu_Pelloux_V1" ID="{30DEF323-3C08-4756-9D63-C237D979AC9D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_test" ID="{D1CC8D8A-6F49-409F-8684-6FC690FEF9D5}">
+							<ChildrenList>
+								<Action Name="" ID="{8F8FA069-68B7-4742-92BD-48AF1EA3F6B6}" ShortID="507892977">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="test" ID="{A87D99C7-4560-4B22-A692-76B048A13E5D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="Music" ID="{2CEDBBDC-CB85-4E14-8222-C28F7310FCF3}" ShortID="881711098"/>
 			</ChildrenList>
 		</WorkUnit>

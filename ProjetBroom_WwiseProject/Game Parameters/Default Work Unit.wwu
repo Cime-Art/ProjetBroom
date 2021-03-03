@@ -5,9 +5,24 @@
 			<ChildrenList>
 				<Folder Name="Option" ID="{A1BB4FFB-37E5-4225-A7D2-3363A27DB0E4}" ShortID="998888507">
 					<ChildrenList>
-						<GameParameter Name="SFX_Volume_GP" ID="{29C3E1C2-AF31-45DD-AAF7-8B2CEE14EBBB}"/>
-						<GameParameter Name="Music_Volume_GP" ID="{8ADB53BC-CDEB-4DF8-BDBA-5421C56CD850}"/>
-						<GameParameter Name="Master_Volume_GP" ID="{C0054CA0-46BD-4911-8ADF-2435B99B7B79}"/>
+						<GameParameter Name="SFX_Volume_GP" ID="{29C3E1C2-AF31-45DD-AAF7-8B2CEE14EBBB}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Music_Volume_GP" ID="{8ADB53BC-CDEB-4DF8-BDBA-5421C56CD850}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Master_Volume_GP" ID="{C0054CA0-46BD-4911-8ADF-2435B99B7B79}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
