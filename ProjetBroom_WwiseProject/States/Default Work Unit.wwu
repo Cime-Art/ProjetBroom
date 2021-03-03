@@ -17,6 +17,354 @@
 						</StateGroup>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Mob" ID="{03424B2F-A83B-4759-B72F-4E61D0259141}" ShortID="644371790">
+					<ChildrenList>
+						<Folder Name="Snail" ID="{00CA7886-E543-4B56-8C2F-470CD8DE8BD5}" ShortID="70289061">
+							<ChildrenList>
+								<StateGroup Name="snail_stateGroup" ID="{06D12334-E3DA-49C3-BA8E-488BA8181B01}">
+									<PropertyList>
+										<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ChildrenList>
+										<State Name="None" ID="{680AFC01-2598-4A67-8ADD-6047F9443835}"/>
+										<State Name="snail_idle_state" ID="{0FA01A6A-8402-4707-8D0C-DB4F741AC1D1}"/>
+										<State Name="snail_forward_state" ID="{DDC224E8-4B12-4DFB-B007-7F5676DE062C}"/>
+										<State Name="snail_explosion_state" ID="{EAE40543-B022-4A55-A67E-4A6512A247C4}"/>
+									</ChildrenList>
+									<TransitionList>
+										<Transition>
+											<StartState Name="snail_idle_state" ID="{0FA01A6A-8402-4707-8D0C-DB4F741AC1D1}"/>
+											<EndState Name="snail_forward_state" ID="{DDC224E8-4B12-4DFB-B007-7F5676DE062C}"/>
+											<Time>0.2</Time>
+											<IsShared>true</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="snail_idle_state" ID="{0FA01A6A-8402-4707-8D0C-DB4F741AC1D1}"/>
+											<EndState Name="snail_explosion_state" ID="{EAE40543-B022-4A55-A67E-4A6512A247C4}"/>
+											<Time>0</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="snail_forward_state" ID="{DDC224E8-4B12-4DFB-B007-7F5676DE062C}"/>
+											<EndState Name="snail_explosion_state" ID="{EAE40543-B022-4A55-A67E-4A6512A247C4}"/>
+											<Time>0</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+									</TransitionList>
+								</StateGroup>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Boss" ID="{7396F40E-37EB-47D7-B7A5-0B8CDAC6FC6E}" ShortID="938658785">
+							<ChildrenList>
+								<StateGroup Name="fusion_stateGroup" ID="{A347BED0-8871-48A9-97E5-E9D67EC28829}">
+									<PropertyList>
+										<Property Name="DefaultTransitionTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ChildrenList>
+										<State Name="None" ID="{7A53225C-7782-4EEE-A3D4-DAF13135DCB0}"/>
+										<State Name="fusion_idle_state" ID="{10339BCF-D34A-431F-8077-FB35A7027054}"/>
+										<State Name="fusion_forward_state" ID="{8B0EDF19-843D-44C2-AD99-4FED3E514CB0}"/>
+										<State Name="fusion_attackCACHeavy_state" ID="{6C82704F-9687-4A29-BAC4-D95BF0EE40F8}"/>
+										<State Name="fusion_attackCACLight_state" ID="{C29AD1B2-1B04-4399-A8F9-321C5E00E7A5}"/>
+										<State Name="fusion_attackJump_state" ID="{69CF3D59-B61B-4378-981D-E6F3E898A8DC}"/>
+										<State Name="fusion_attackLaunchFireball_state" ID="{F3D4CB02-484A-4F7F-8765-00BE2666E349}"/>
+										<State Name="fusion_attackLaunchSkull_state" ID="{6B109F10-0EFD-4096-AC81-71F2B601AB2D}"/>
+										<State Name="fusion_death_state" ID="{1A8C349D-C133-4088-A937-CDC39B7441C3}"/>
+									</ChildrenList>
+									<TransitionList>
+										<Transition>
+											<StartState Name="fusion_forward_state" ID="{8B0EDF19-843D-44C2-AD99-4FED3E514CB0}"/>
+											<EndState Name="fusion_idle_state" ID="{10339BCF-D34A-431F-8077-FB35A7027054}"/>
+											<Time>0.5</Time>
+											<IsShared>true</IsShared>
+										</Transition>
+									</TransitionList>
+								</StateGroup>
+								<StateGroup Name="FullArmorBoss_State" ID="{67F34BC9-1E75-46C5-86BA-4DB7987DFAEE}">
+									<ChildrenList>
+										<State Name="None" ID="{76DD572D-951D-4027-93F0-2C3C154AB123}"/>
+										<State Name="Movement" ID="{FC3CB18A-2E56-48B6-9B59-1CA57DA9B652}"/>
+										<State Name="Idle" ID="{56282F06-44E3-4E5A-89AB-741A4CC1148F}"/>
+									</ChildrenList>
+								</StateGroup>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Skeletons" ID="{9FB814CE-E2C5-46E1-A1CB-6B9EE1C8F99F}" ShortID="951081005">
+							<ChildrenList>
+								<StateGroup Name="Skeletons_States" ID="{8E0B59CC-EF76-4DF4-A2FD-E6F5497E7EDE}">
+									<ChildrenList>
+										<State Name="None" ID="{2EAE5F90-F5B3-41A0-8734-6F51A4899E14}"/>
+										<State Name="Idle" ID="{01918E68-12E2-437F-A395-4294713382AF}"/>
+										<State Name="Attack_01" ID="{6A788D11-83AF-4E57-A972-D8501EB3701E}"/>
+										<State Name="Attack_02" ID="{0696777F-E7C6-4026-B6B4-ABCED8009654}"/>
+										<State Name="MoveForward" ID="{72477CFF-BC6E-418D-9BE6-C100A905113A}"/>
+										<State Name="GetHit" ID="{15D9E8D3-2DC8-494B-B268-2563327B3EE0}"/>
+										<State Name="Death" ID="{DBDDDA37-0DA2-4A84-81FC-E3277CAEF706}"/>
+										<State Name="PlayerHit" ID="{F53F7AEA-E95E-4F6E-BC3B-4A3F7D2B0528}"/>
+									</ChildrenList>
+								</StateGroup>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Alambic" ID="{8863D212-9448-4E9F-8EA8-1EFAE37CF593}" ShortID="1067554320">
+							<ChildrenList>
+								<StateGroup Name="AlambicState" ID="{5D0972B3-BA52-404C-B357-CF903463E0F3}">
+									<ChildrenList>
+										<State Name="None" ID="{7C618440-98D7-4E0F-918D-DC80C67D7657}"/>
+										<State Name="JumpingFoward" ID="{1EC72FDC-448D-47DE-94C7-703D50A03E5B}"/>
+										<State Name="HitPlayer" ID="{5CD90A00-F8EC-4BD4-8AAE-81A563EE3A00}"/>
+										<State Name="Death" ID="{89641210-3783-4D1D-84DC-61FB0E74D79A}"/>
+										<State Name="GetHit" ID="{A9A09131-EC25-4C29-85E9-964E119917FB}"/>
+										<State Name="PoppingSmoke" ID="{FA7BED36-D0DF-4E1F-B951-81BB3CBAB9B5}"/>
+										<State Name="Idle" ID="{1ECB41B4-12B8-4DDA-8EE9-A316CB1ED9D7}"/>
+									</ChildrenList>
+									<TransitionList>
+										<Transition>
+											<StartState Name="Idle" ID="{1ECB41B4-12B8-4DDA-8EE9-A316CB1ED9D7}"/>
+											<EndState Name="Death" ID="{89641210-3783-4D1D-84DC-61FB0E74D79A}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="Idle" ID="{1ECB41B4-12B8-4DDA-8EE9-A316CB1ED9D7}"/>
+											<EndState Name="GetHit" ID="{A9A09131-EC25-4C29-85E9-964E119917FB}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="Idle" ID="{1ECB41B4-12B8-4DDA-8EE9-A316CB1ED9D7}"/>
+											<EndState Name="HitPlayer" ID="{5CD90A00-F8EC-4BD4-8AAE-81A563EE3A00}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="Idle" ID="{1ECB41B4-12B8-4DDA-8EE9-A316CB1ED9D7}"/>
+											<EndState Name="JumpingFoward" ID="{1EC72FDC-448D-47DE-94C7-703D50A03E5B}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="Idle" ID="{1ECB41B4-12B8-4DDA-8EE9-A316CB1ED9D7}"/>
+											<EndState Name="PoppingSmoke" ID="{FA7BED36-D0DF-4E1F-B951-81BB3CBAB9B5}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="GetHit" ID="{A9A09131-EC25-4C29-85E9-964E119917FB}"/>
+											<EndState Name="Idle" ID="{1ECB41B4-12B8-4DDA-8EE9-A316CB1ED9D7}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="HitPlayer" ID="{5CD90A00-F8EC-4BD4-8AAE-81A563EE3A00}"/>
+											<EndState Name="Idle" ID="{1ECB41B4-12B8-4DDA-8EE9-A316CB1ED9D7}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="JumpingFoward" ID="{1EC72FDC-448D-47DE-94C7-703D50A03E5B}"/>
+											<EndState Name="Idle" ID="{1ECB41B4-12B8-4DDA-8EE9-A316CB1ED9D7}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="PoppingSmoke" ID="{FA7BED36-D0DF-4E1F-B951-81BB3CBAB9B5}"/>
+											<EndState Name="Idle" ID="{1ECB41B4-12B8-4DDA-8EE9-A316CB1ED9D7}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+									</TransitionList>
+								</StateGroup>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Blob" ID="{72B37292-2159-4ECC-B7EB-98603F305519}" ShortID="261962197">
+							<ChildrenList>
+								<StateGroup Name="BlobState" ID="{ADCABB22-0EBF-4CA1-9713-C62947219A3B}">
+									<ChildrenList>
+										<State Name="None" ID="{B6BEE669-9401-4B04-A8B0-DBF3EB29A0C7}"/>
+										<State Name="Idle" ID="{4CDE5827-6DA5-47F0-B121-9A86755BAD9D}"/>
+										<State Name="Death" ID="{F311E317-45CB-4FDB-9DD8-195946237B63}"/>
+										<State Name="JumpingFoward" ID="{8E9ABAA6-A0D3-4057-BEAB-EDF0D4D04DC1}"/>
+										<State Name="AttackClose" ID="{3D95C4C7-A207-4116-AC15-AFD6EE5DCFA8}"/>
+										<State Name="AttackSplash" ID="{1538D426-850B-434F-AE98-D80042AED2B2}"/>
+										<State Name="GetHit" ID="{36CC439D-EF8D-4AF5-9BF2-CA74836451B6}"/>
+										<State Name="HitPlayer" ID="{7C873DE3-8A84-4C8F-B7D8-49C7BC1202D2}"/>
+									</ChildrenList>
+									<TransitionList>
+										<Transition>
+											<StartState Name="Idle" ID="{4CDE5827-6DA5-47F0-B121-9A86755BAD9D}"/>
+											<EndState Name="Death" ID="{F311E317-45CB-4FDB-9DD8-195946237B63}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="Idle" ID="{4CDE5827-6DA5-47F0-B121-9A86755BAD9D}"/>
+											<EndState Name="AttackClose" ID="{3D95C4C7-A207-4116-AC15-AFD6EE5DCFA8}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="Idle" ID="{4CDE5827-6DA5-47F0-B121-9A86755BAD9D}"/>
+											<EndState Name="AttackSplash" ID="{1538D426-850B-434F-AE98-D80042AED2B2}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="Idle" ID="{4CDE5827-6DA5-47F0-B121-9A86755BAD9D}"/>
+											<EndState Name="JumpingFoward" ID="{8E9ABAA6-A0D3-4057-BEAB-EDF0D4D04DC1}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="Idle" ID="{4CDE5827-6DA5-47F0-B121-9A86755BAD9D}"/>
+											<EndState Name="GetHit" ID="{36CC439D-EF8D-4AF5-9BF2-CA74836451B6}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="Idle" ID="{4CDE5827-6DA5-47F0-B121-9A86755BAD9D}"/>
+											<EndState Name="HitPlayer" ID="{7C873DE3-8A84-4C8F-B7D8-49C7BC1202D2}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="AttackClose" ID="{3D95C4C7-A207-4116-AC15-AFD6EE5DCFA8}"/>
+											<EndState Name="Idle" ID="{4CDE5827-6DA5-47F0-B121-9A86755BAD9D}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="AttackSplash" ID="{1538D426-850B-434F-AE98-D80042AED2B2}"/>
+											<EndState Name="Idle" ID="{4CDE5827-6DA5-47F0-B121-9A86755BAD9D}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="JumpingFoward" ID="{8E9ABAA6-A0D3-4057-BEAB-EDF0D4D04DC1}"/>
+											<EndState Name="Idle" ID="{4CDE5827-6DA5-47F0-B121-9A86755BAD9D}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="GetHit" ID="{36CC439D-EF8D-4AF5-9BF2-CA74836451B6}"/>
+											<EndState Name="Idle" ID="{4CDE5827-6DA5-47F0-B121-9A86755BAD9D}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="HitPlayer" ID="{7C873DE3-8A84-4C8F-B7D8-49C7BC1202D2}"/>
+											<EndState Name="Idle" ID="{4CDE5827-6DA5-47F0-B121-9A86755BAD9D}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+									</TransitionList>
+								</StateGroup>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Bat" ID="{1960A5DA-44B1-4B40-96EE-1289EC6C5F88}" ShortID="962427971">
+							<ChildrenList>
+								<StateGroup Name="Bat_State" ID="{F87E36D5-3F9E-434B-9DCF-48B17783F99C}">
+									<PropertyList>
+										<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<State Name="None" ID="{6A5133DE-DA2D-427B-AB5A-2F44A2287EE1}"/>
+										<State Name="AttackDash" ID="{5B80D29A-A039-4786-976E-D99773E840BD}"/>
+										<State Name="Death" ID="{E536D397-698A-4511-9C8E-828359EAAB66}"/>
+										<State Name="GetHit" ID="{D8DA8C52-4744-48CB-936E-13E39E697C57}"/>
+										<State Name="Iddle" ID="{814F3730-E2F9-4BBF-853A-1EC0F414A9F5}"/>
+										<State Name="MoveForward" ID="{A2357AE4-5E03-4A94-A99D-186BB5DE8E9D}"/>
+									</ChildrenList>
+									<TransitionList>
+										<Transition>
+											<StartState Name="Iddle" ID="{814F3730-E2F9-4BBF-853A-1EC0F414A9F5}"/>
+											<EndState Name="AttackDash" ID="{5B80D29A-A039-4786-976E-D99773E840BD}"/>
+											<Time>0</Time>
+											<IsShared>true</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="Iddle" ID="{814F3730-E2F9-4BBF-853A-1EC0F414A9F5}"/>
+											<EndState Name="Death" ID="{E536D397-698A-4511-9C8E-828359EAAB66}"/>
+											<Time>0</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="Iddle" ID="{814F3730-E2F9-4BBF-853A-1EC0F414A9F5}"/>
+											<EndState Name="GetHit" ID="{D8DA8C52-4744-48CB-936E-13E39E697C57}"/>
+											<Time>0</Time>
+											<IsShared>true</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="Iddle" ID="{814F3730-E2F9-4BBF-853A-1EC0F414A9F5}"/>
+											<EndState Name="MoveForward" ID="{A2357AE4-5E03-4A94-A99D-186BB5DE8E9D}"/>
+											<Time>0</Time>
+											<IsShared>true</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="MoveForward" ID="{A2357AE4-5E03-4A94-A99D-186BB5DE8E9D}"/>
+											<EndState Name="AttackDash" ID="{5B80D29A-A039-4786-976E-D99773E840BD}"/>
+											<Time>0</Time>
+											<IsShared>true</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="MoveForward" ID="{A2357AE4-5E03-4A94-A99D-186BB5DE8E9D}"/>
+											<EndState Name="Death" ID="{E536D397-698A-4511-9C8E-828359EAAB66}"/>
+											<Time>0</Time>
+											<IsShared>true</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="MoveForward" ID="{A2357AE4-5E03-4A94-A99D-186BB5DE8E9D}"/>
+											<EndState Name="GetHit" ID="{D8DA8C52-4744-48CB-936E-13E39E697C57}"/>
+											<Time>0</Time>
+											<IsShared>true</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="GetHit" ID="{D8DA8C52-4744-48CB-936E-13E39E697C57}"/>
+											<EndState Name="AttackDash" ID="{5B80D29A-A039-4786-976E-D99773E840BD}"/>
+											<Time>0</Time>
+											<IsShared>true</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="GetHit" ID="{D8DA8C52-4744-48CB-936E-13E39E697C57}"/>
+											<EndState Name="Death" ID="{E536D397-698A-4511-9C8E-828359EAAB66}"/>
+											<Time>0</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="AttackDash" ID="{5B80D29A-A039-4786-976E-D99773E840BD}"/>
+											<EndState Name="Death" ID="{E536D397-698A-4511-9C8E-828359EAAB66}"/>
+											<Time>0</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+									</TransitionList>
+								</StateGroup>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{0E1C6292-8971-4BBB-80A0-0F23EB7A5EAB}" ShortID="284628511">
+					<ChildrenList>
+						<StateGroup Name="Player" ID="{52C6582A-0EEC-473D-AB50-CFFC13999A05}">
+							<ChildrenList>
+								<State Name="None" ID="{57BBBC35-1BE8-459C-845B-6BCDCF5ADB4F}"/>
+								<State Name="Walk" ID="{56DD354D-678B-4950-8ACF-971BA335BA93}"/>
+								<State Name="Run" ID="{BCCFDE82-F435-4DA8-84C5-CF68C91E48CB}"/>
+								<State Name="Jump" ID="{48A01FA1-801A-4377-B165-AF9E9E1694BE}"/>
+								<State Name="Dash" ID="{76359FD8-18FA-4D9C-B17F-EAFD751C4275}"/>
+								<State Name="Climb_Ladder" ID="{BEFBE9F0-16C9-4F89-A433-A4901CF4E84E}"/>
+								<State Name="Idle" ID="{67ECEA7E-FD7F-46CE-AB6E-68E9C4CAE5D9}"/>
+								<State Name="Death" ID="{9BA5A500-913D-4768-9D2F-5188A4C59867}"/>
+								<State Name="Get_Hit" ID="{313417D2-528F-4AE5-BEC8-7103D6B8B063}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="Attack_Player" ID="{F4C1C98C-5C3C-4633-B807-4A2A8D392089}">
+							<ChildrenList>
+								<State Name="None" ID="{6BE8E5B3-D636-4C4D-9972-3E8D865F5B65}"/>
+								<State Name="Horizontal_Attack" ID="{29119539-FA27-4A7E-9AC4-1E234705F8DA}"/>
+								<State Name="Vertical_Attack" ID="{A5508C83-70A7-41D9-A58C-963227B6004B}"/>
+							</ChildrenList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
