@@ -18,12 +18,6 @@
 						</GameParameter>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Mobs" ID="{AEC17DEB-E32C-4233-AA73-7D2A4F0438BB}" ShortID="468156556">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
