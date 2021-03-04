@@ -1230,6 +1230,51 @@
 																		</BlendContainer>
 																	</ChildrenList>
 																</Folder>
+																<Folder Name="Foliage" ID="{D2B5D83D-A611-4D0F-861A-878356DB0EDC}" ShortID="408702117">
+																	<ChildrenList>
+																		<Sound Name="Foliage" ID="{0AC2F898-4ACC-41BB-A1F4-5DE8BECAE3D9}" ShortID="59563164">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<SourcePlugin Name="SoundSeed Air Wind" ID="{4B313091-A785-459B-9E47-7F183BEE472D}" ShortID="599872766" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
+																					<PropertyList>
+																						<Property Name="AverageVelocity" Type="Real32" Value="-1110"/>
+																						<Property Name="Duration" Type="Real64" Value="0.1"/>
+																						<Property Name="GustinessRandom" Type="Real32" Value="0.2"/>
+																						<Property Name="Variability" Type="Real32" Value="0.5"/>
+																						<Property Name="VariabilityRandom" Type="Real32" Value="0.2"/>
+																					</PropertyList>
+																					<Language>SFX</Language>
+																					<PluginData/>
+																					<PluginInnerObjectList>
+																						<List Name="Deflectors">
+																							<PluginInnerObject Name="" ID="{0BD7A4A5-EC36-4899-81F4-0D6296E37B18}" PluginName="Deflector" CompanyID="0" PluginID="121">
+																								<PropertyList>
+																									<Property Name="Frequency" Type="Real32" Value="2938"/>
+																									<Property Name="QFactor" Type="Real32" Value="0.1"/>
+																								</PropertyList>
+																							</PluginInnerObject>
+																							<PluginInnerObject Name="" ID="{A235D4CF-9A74-4C06-8F89-EA64287CFA44}" PluginName="Deflector" CompanyID="0" PluginID="121">
+																								<PropertyList>
+																									<Property Name="Frequency" Type="Real32" Value="304"/>
+																								</PropertyList>
+																							</PluginInnerObject>
+																						</List>
+																					</PluginInnerObjectList>
+																				</SourcePlugin>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SoundSeed Air Wind" ID="{4B313091-A785-459B-9E47-7F183BEE472D}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</Folder>
 															</ChildrenList>
 														</ActorMixer>
 													</ChildrenList>
