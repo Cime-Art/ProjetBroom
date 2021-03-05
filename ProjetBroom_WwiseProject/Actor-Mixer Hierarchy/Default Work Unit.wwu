@@ -4280,7 +4280,6 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
-																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 															</PropertyList>
 															<ReferenceList>
@@ -4479,7 +4478,6 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
-																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 																<Property Name="UserAuxSendVolume0" Type="Real64">
 																	<ValueList>
@@ -4854,7 +4852,6 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
-																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
 																		<Value>-4</Value>
@@ -5065,10 +5062,9 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
-																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
-																		<Value>3</Value>
+																		<Value>-20</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -5166,6 +5162,13 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="Amb_OS_SmallAnimalRunOnPipe _01" ID="{8A73CB3B-3F40-438C-A41E-046071556F14}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>24</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Amb_OS_SmallAnimalRunOnPipe _01.wav</AudioFile>
 																			<MediaIDList>
@@ -5188,6 +5191,13 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="Amb_OS_SmallAnimalRunOnPipe _02" ID="{BE6B6BF1-1EB1-49F0-9426-4ECB1347E713}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>24</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Amb_OS_SmallAnimalRunOnPipe _02.wav</AudioFile>
 																			<MediaIDList>
@@ -5222,7 +5232,6 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
-																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 																<Property Name="UserAuxSendVolume0" Type="Real64">
 																	<ValueList>
@@ -5357,7 +5366,6 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
-																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -5526,7 +5534,6 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
-																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 															</PropertyList>
 															<ReferenceList>
@@ -5979,7 +5986,6 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
-																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -10300,207 +10306,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SwitchContainer Name="Walk_Switch" ID="{BE3A9EBE-D515-4AAE-8A31-DAD1A0862DE1}" ShortID="151533379">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="DefaultSwitchOrState">
-													<ObjectRef Name="Grass" ID="{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-												<Reference Name="SwitchGroupOrStateGroup">
-													<ObjectRef Name="FTPS_Ground_Texture" ID="{114D3573-0162-443F-904A-5CBCB4D72526}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Player_OS_FootstepBones_01_LeBozec_v1" ID="{29F435C5-C281-4AD4-8A11-50CE39A5FAC3}" ShortID="692207907">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_OS_FootstepBones_01_LeBozec_v1" ID="{150C4859-AB7F-4B49-898F-506F818DE394}">
-															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="1.83837130295763"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="1.83837130295763"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>Player_OS_FootstepBones_01_LeBozec_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="276355796"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_FootstepBones_01_LeBozec_v1" ID="{150C4859-AB7F-4B49-898F-506F818DE394}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_OS_FootstepGrass_01_LeBozec_v1" ID="{12F98C52-FF7F-4900-A2D8-3353D3359E0B}" ShortID="227606594">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_OS_FootstepGrass_01_LeBozec_v1" ID="{E2503D17-8C9D-4B7F-A08B-06811DC28381}">
-															<Language>SFX</Language>
-															<AudioFile>Player_OS_FootstepGrass_01_LeBozec_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="825000866"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_FootstepGrass_01_LeBozec_v1" ID="{E2503D17-8C9D-4B7F-A08B-06811DC28381}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_OS_FootstepMarble_01_LeBozec_v1" ID="{3E36A6CD-B102-40E8-8273-B5C0147D9FC8}" ShortID="151202853">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_OS_FootstepMarble_01_LeBozec_v1" ID="{AC5DF6FA-5229-45C2-82A4-1FEE4EF5D054}">
-															<Language>SFX</Language>
-															<AudioFile>Player_OS_FootstepMarble_01_LeBozec_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="625421372"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_FootstepMarble_01_LeBozec_v1" ID="{AC5DF6FA-5229-45C2-82A4-1FEE4EF5D054}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_OS_FootstepRock_01_LeBozec_v1" ID="{E1508419-782A-4851-91F7-E836DA57B598}" ShortID="454045916">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_OS_FootstepRock_01_LeBozec_v1" ID="{B4D9DCEF-046A-49CF-9A5B-6998BCFCA743}">
-															<Language>SFX</Language>
-															<AudioFile>Player_OS_FootstepRock_01_LeBozec_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="860722888"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_FootstepRock_01_LeBozec_v1" ID="{B4D9DCEF-046A-49CF-9A5B-6998BCFCA743}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{AC60E22A-B543-4DFD-8475-C7E71AEFBD2C}" ShortID="911939859">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{51F86542-E3EB-4FF1-BD4A-222144CA4280}">
-															<Language>SFX</Language>
-															<AudioFile>Player_OS_FootstepWood_01_LeBozec_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="75625254"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{51F86542-E3EB-4FF1-BD4A-222144CA4280}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-											<GroupingInfo>
-												<GroupingBehaviorList>
-													<GroupingBehavior>
-														<ItemRef Name="Player_OS_FootstepRock_01_LeBozec_v1" ID="{E1508419-782A-4851-91F7-E836DA57B598}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{AC60E22A-B543-4DFD-8475-C7E71AEFBD2C}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="Player_OS_FootstepGrass_01_LeBozec_v1" ID="{12F98C52-FF7F-4900-A2D8-3353D3359E0B}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="Player_OS_FootstepBones_01_LeBozec_v1" ID="{29F435C5-C281-4AD4-8A11-50CE39A5FAC3}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="Player_OS_FootstepMarble_01_LeBozec_v1" ID="{3E36A6CD-B102-40E8-8273-B5C0147D9FC8}"/>
-													</GroupingBehavior>
-												</GroupingBehaviorList>
-												<GroupingList>
-													<Grouping>
-														<SwitchRef Name="Marble" ID="{26008F53-70C5-4250-94E4-85ADD5226647}"/>
-														<ItemList>
-															<ItemRef Name="Player_OS_FootstepMarble_01_LeBozec_v1" ID="{3E36A6CD-B102-40E8-8273-B5C0147D9FC8}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="Rock" ID="{9B9060B1-E708-451D-A47A-B7BDBAEB466B}"/>
-														<ItemList>
-															<ItemRef Name="Player_OS_FootstepRock_01_LeBozec_v1" ID="{E1508419-782A-4851-91F7-E836DA57B598}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
-														<ItemList>
-															<ItemRef Name="Player_OS_FootstepBones_01_LeBozec_v1" ID="{29F435C5-C281-4AD4-8A11-50CE39A5FAC3}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="Grass" ID="{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}"/>
-														<ItemList>
-															<ItemRef Name="Player_OS_FootstepGrass_01_LeBozec_v1" ID="{12F98C52-FF7F-4900-A2D8-3353D3359E0B}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="Wood" ID="{C46FAED0-B41E-4EE9-9947-400381ADF4E9}"/>
-														<ItemList>
-															<ItemRef Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{AC60E22A-B543-4DFD-8475-C7E71AEFBD2C}"/>
-														</ItemList>
-													</Grouping>
-												</GroupingList>
-											</GroupingInfo>
-										</SwitchContainer>
-										<SwitchContainer Name="Run_Switch" ID="{2F9E30AE-1D2F-4559-9590-9E461169FCDC}" ShortID="163492483">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="DefaultSwitchOrState">
-													<ObjectRef Name="Grass" ID="{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-												<Reference Name="SwitchGroupOrStateGroup">
-													<ObjectRef Name="FTPS_Ground_Texture" ID="{114D3573-0162-443F-904A-5CBCB4D72526}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
-												</Reference>
-											</ReferenceList>
-											<GroupingInfo/>
-										</SwitchContainer>
 										<RandomSequenceContainer Name="Dash_RND" ID="{3D547C53-CD14-4F7A-A2E5-0A29A00C85B2}" ShortID="484644063">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -10960,13 +10765,7 @@
 												<ItemRef Name="Dash_RND" ID="{3D547C53-CD14-4F7A-A2E5-0A29A00C85B2}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="Run_Switch" ID="{2F9E30AE-1D2F-4559-9590-9E461169FCDC}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
 												<ItemRef Name="Land_Switch" ID="{C97CF8B8-982A-4F0B-800E-990720D44C76}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="Walk_Switch" ID="{BE3A9EBE-D515-4AAE-8A31-DAD1A0862DE1}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="PLAYER_OS_CLIMBLADDERS_01_LAURIER_V1" ID="{2E0C57C2-3507-424D-ADCF-4DAB32FA7B65}"/>
@@ -10983,21 +10782,9 @@
 												</ItemList>
 											</Grouping>
 											<Grouping>
-												<SwitchRef Name="Walk" ID="{56DD354D-678B-4950-8ACF-971BA335BA93}"/>
-												<ItemList>
-													<ItemRef Name="Walk_Switch" ID="{BE3A9EBE-D515-4AAE-8A31-DAD1A0862DE1}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
 												<SwitchRef Name="Idle" ID="{67ECEA7E-FD7F-46CE-AB6E-68E9C4CAE5D9}"/>
 												<ItemList>
 													<ItemRef Name="Idle" ID="{C50F110B-9788-42D2-80FA-A68BF506F8E8}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Run" ID="{BCCFDE82-F435-4DA8-84C5-CF68C91E48CB}"/>
-												<ItemList>
-													<ItemRef Name="Run_Switch" ID="{2F9E30AE-1D2F-4559-9590-9E461169FCDC}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
@@ -11520,6 +11307,194 @@
 												</Sound>
 											</ChildrenList>
 										</Folder>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="FTPS" ID="{19E9908E-9FDF-4492-8363-44B67721A142}" ShortID="594373181">
+									<ChildrenList>
+										<SwitchContainer Name="FTPS_Switch" ID="{FE5FA13C-5A04-4E62-AF3E-08AB6EB47F48}" ShortID="576737675">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="Rock" ID="{9B9060B1-E708-451D-A47A-B7BDBAEB466B}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="FTPS_Ground_Texture" ID="{114D3573-0162-443F-904A-5CBCB4D72526}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Player_OS_FootstepBones_01_LeBozec_v1" ID="{29F435C5-C281-4AD4-8A11-50CE39A5FAC3}" ShortID="692207907">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Player_OS_FootstepBones_01_LeBozec_v1" ID="{150C4859-AB7F-4B49-898F-506F818DE394}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="1.83837130295763"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.83837130295763"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Player_OS_FootstepBones_01_LeBozec_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="276355796"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Player_OS_FootstepBones_01_LeBozec_v1" ID="{150C4859-AB7F-4B49-898F-506F818DE394}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Player_OS_FootstepGrass_01_LeBozec_v1" ID="{12F98C52-FF7F-4900-A2D8-3353D3359E0B}" ShortID="227606594">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Player_OS_FootstepGrass_01_LeBozec_v1" ID="{E2503D17-8C9D-4B7F-A08B-06811DC28381}">
+															<Language>SFX</Language>
+															<AudioFile>Player_OS_FootstepGrass_01_LeBozec_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="825000866"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Player_OS_FootstepGrass_01_LeBozec_v1" ID="{E2503D17-8C9D-4B7F-A08B-06811DC28381}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{AC60E22A-B543-4DFD-8475-C7E71AEFBD2C}" ShortID="911939859">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{51F86542-E3EB-4FF1-BD4A-222144CA4280}">
+															<Language>SFX</Language>
+															<AudioFile>Player_OS_FootstepWood_01_LeBozec_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="75625254"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{51F86542-E3EB-4FF1-BD4A-222144CA4280}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Player_OS_FootstepMarble_01_LeBozec_v1" ID="{3E36A6CD-B102-40E8-8273-B5C0147D9FC8}" ShortID="151202853">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Player_OS_FootstepMarble_01_LeBozec_v1" ID="{AC5DF6FA-5229-45C2-82A4-1FEE4EF5D054}">
+															<Language>SFX</Language>
+															<AudioFile>Player_OS_FootstepMarble_01_LeBozec_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="625421372"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Player_OS_FootstepMarble_01_LeBozec_v1" ID="{AC5DF6FA-5229-45C2-82A4-1FEE4EF5D054}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Player_OS_FootstepRock_01_LeBozec_v1" ID="{E1508419-782A-4851-91F7-E836DA57B598}" ShortID="454045916">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Player_OS_FootstepRock_01_LeBozec_v1" ID="{B4D9DCEF-046A-49CF-9A5B-6998BCFCA743}">
+															<Language>SFX</Language>
+															<AudioFile>Player_OS_FootstepRock_01_LeBozec_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="860722888"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Player_OS_FootstepRock_01_LeBozec_v1" ID="{B4D9DCEF-046A-49CF-9A5B-6998BCFCA743}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Player_OS_FootstepRock_01_LeBozec_v1" ID="{E1508419-782A-4851-91F7-E836DA57B598}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{AC60E22A-B543-4DFD-8475-C7E71AEFBD2C}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Player_OS_FootstepGrass_01_LeBozec_v1" ID="{12F98C52-FF7F-4900-A2D8-3353D3359E0B}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Player_OS_FootstepBones_01_LeBozec_v1" ID="{29F435C5-C281-4AD4-8A11-50CE39A5FAC3}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Player_OS_FootstepMarble_01_LeBozec_v1" ID="{3E36A6CD-B102-40E8-8273-B5C0147D9FC8}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Marble" ID="{26008F53-70C5-4250-94E4-85ADD5226647}"/>
+														<ItemList>
+															<ItemRef Name="Player_OS_FootstepMarble_01_LeBozec_v1" ID="{3E36A6CD-B102-40E8-8273-B5C0147D9FC8}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Rock" ID="{9B9060B1-E708-451D-A47A-B7BDBAEB466B}"/>
+														<ItemList>
+															<ItemRef Name="Player_OS_FootstepRock_01_LeBozec_v1" ID="{E1508419-782A-4851-91F7-E836DA57B598}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
+														<ItemList>
+															<ItemRef Name="Player_OS_FootstepBones_01_LeBozec_v1" ID="{29F435C5-C281-4AD4-8A11-50CE39A5FAC3}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Grass" ID="{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}"/>
+														<ItemList>
+															<ItemRef Name="Player_OS_FootstepGrass_01_LeBozec_v1" ID="{12F98C52-FF7F-4900-A2D8-3353D3359E0B}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Wood" ID="{C46FAED0-B41E-4EE9-9947-400381ADF4E9}"/>
+														<ItemList>
+															<ItemRef Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{AC60E22A-B543-4DFD-8475-C7E71AEFBD2C}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
