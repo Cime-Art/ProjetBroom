@@ -4,7 +4,47 @@
 		<WorkUnit Name="Default Work Unit" ID="{675F061C-E88F-4C92-9E74-619C166A4A10}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="Mob" ID="{24D4DBCD-6495-4D0F-AABC-2C5DF3B1EC18}" ShortID="36840186"/>
-				<Folder Name="Player" ID="{E0B7312B-EEF9-4945-A695-D1ABB792191B}" ShortID="611497882"/>
+				<Folder Name="Player" ID="{E0B7312B-EEF9-4945-A695-D1ABB792191B}" ShortID="611497882">
+					<ChildrenList>
+						<Folder Name="Spell" ID="{3D7AA9DB-A52D-4FF7-BC06-28F56D952C71}" ShortID="384035320">
+							<ChildrenList>
+								<Event Name="Play_Poisoning_Zone" ID="{3F3995EC-CD36-433F-8FF7-C40029EB3DB5}">
+									<ChildrenList>
+										<Action Name="" ID="{8C42A481-34B9-4A38-85B8-45E2126B6517}" ShortID="231322182">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Poisoning_Zone" ID="{EE89BDD5-89E0-4CD3-8FAE-290B425A168B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Laser_Beam" ID="{F1B48984-047C-4520-BCC8-BDF77F7DE6BE}">
+									<ChildrenList>
+										<Action Name="" ID="{368815AD-AC0B-4C19-9649-3CEC69F2ED39}" ShortID="618582160">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Laser Beam" ID="{132B3411-B726-460A-A588-447DCEE88BEB}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Cast_Poison" ID="{CDE051D1-040E-4853-80BF-9E5707732ACA}">
+									<ChildrenList>
+										<Action Name="" ID="{BEF101FA-5FAB-4C4B-A592-D261204ACAFD}" ShortID="459978055">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Cast Poison" ID="{D8B9BB3F-76AC-446F-A8B1-F744CA31389C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="Level" ID="{31E239D9-DA48-443A-9DB4-47AB46FB7CE7}" ShortID="325022143">
 					<ChildrenList>
 						<Folder Name="Jail" ID="{C3F1BD7A-4082-49F3-8585-D2B4845B0630}" ShortID="235480507">
