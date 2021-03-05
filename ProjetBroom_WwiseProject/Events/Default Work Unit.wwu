@@ -41,6 +41,28 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_Cast_Water" ID="{CE56FD6F-9FB1-4138-976D-FFF444134B61}">
+									<ChildrenList>
+										<Action Name="" ID="{911D6491-BACB-4E00-870B-6EBC3289634B}" ShortID="633837362">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Cast Water" ID="{9D4EB83B-275F-4617-BD22-5377FEA3D2CF}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Cast_Ice" ID="{D1E3DB3C-8EDF-4336-93FF-00276C4F1E18}">
+									<ChildrenList>
+										<Action Name="" ID="{C0906FB0-F258-4DA2-9140-F9E68D7A2EFD}" ShortID="880306066">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Cast Ice" ID="{D310A01D-5C10-4544-936E-B24DB991C7E8}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -204,6 +226,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="AMB_LP_KitchenAmb_01_SABARROS_V1" ID="{514C5859-8518-4D32-9EFF-BC5BE94821BC}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_WindWindow" ID="{40C33BD0-E020-49F0-B917-D4DE2DA99E45}">
+											<ChildrenList>
+												<Action Name="" ID="{D4711271-9A18-49A7-BCAE-E23762E72201}" ShortID="91585588">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="WindsWindow_RND" ID="{2DA8110D-811C-48DC-9257-98D5342C8E6D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
