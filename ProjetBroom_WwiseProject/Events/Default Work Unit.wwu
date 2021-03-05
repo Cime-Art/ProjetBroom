@@ -63,6 +63,51 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+<<<<<<< HEAD
+								<Event Name="Stop_Cast_Poison" ID="{838B1E28-30DE-4FC3-9A29-BC03B44B04E0}">
+									<ChildrenList>
+										<Action Name="" ID="{DC62CAD6-BA7F-4B1F-9E15-A9A14433EBC6}" ShortID="211621473">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Cast Poison" ID="{D8B9BB3F-76AC-446F-A8B1-F744CA31389C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Cast_Ice" ID="{F14E448D-36ED-47F5-AAE6-57EA489D6A52}">
+									<ChildrenList>
+										<Action Name="" ID="{0C327A79-5B2C-4267-97B3-EBE918F2DBAB}" ShortID="779182213">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Cast Ice" ID="{D310A01D-5C10-4544-936E-B24DB991C7E8}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Cast_Water" ID="{65E3AB85-D02A-445F-99CA-7BF2A0612BF5}">
+									<ChildrenList>
+										<Action Name="" ID="{0FF2AC9C-1F58-4ED6-8C8F-FC2EEC226226}" ShortID="736733978">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Cast Water" ID="{9D4EB83B-275F-4617-BD22-5377FEA3D2CF}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+=======
+>>>>>>> parent of 6c9be734 (Revert "Merge branch 'Game-Art' of https://github.com/Cime-Art/ProjetBroom into Game-Art")
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
