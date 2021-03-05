@@ -65,6 +65,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="FTPS" ID="{FD3F6F9F-C1C8-4BC7-8E7C-62F7DE33D63B}" ShortID="981069562">
+							<ChildrenList>
+								<Event Name="Play_FTPS_Switch" ID="{15B37050-9321-48B3-AF32-AD69C00DF836}">
+									<ChildrenList>
+										<Action Name="" ID="{A461BACB-E160-4659-854A-8C6CCBB8A95E}" ShortID="976817170">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FTPS_Switch" ID="{FE5FA13C-5A04-4E62-AF3E-08AB6EB47F48}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Level" ID="{31E239D9-DA48-443A-9DB4-47AB46FB7CE7}" ShortID="325022143">
