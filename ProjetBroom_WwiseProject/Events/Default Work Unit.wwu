@@ -56,6 +56,11 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Event_KitchenAmb" ID="{F88D1D0A-5BC6-4192-8D86-8878DC756579}">
+											<ChildrenList>
+												<Action Name="" ID="{49932882-01D7-473A-8FCA-B3A2BEAB9471}" ShortID="711919056"/>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Boiler" ID="{E3693FC2-1B70-4FD8-A1E2-1B3E6707E479}" ShortID="756491329">
