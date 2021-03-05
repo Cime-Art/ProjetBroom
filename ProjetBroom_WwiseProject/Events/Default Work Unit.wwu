@@ -63,6 +63,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+<<<<<<< HEAD
 								<Event Name="Stop_Cast_Poison" ID="{838B1E28-30DE-4FC3-9A29-BC03B44B04E0}">
 									<ChildrenList>
 										<Action Name="" ID="{DC62CAD6-BA7F-4B1F-9E15-A9A14433EBC6}" ShortID="211621473">
@@ -105,6 +106,8 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+=======
+>>>>>>> parent of 6c9be734 (Revert "Merge branch 'Game-Art' of https://github.com/Cime-Art/ProjetBroom into Game-Art")
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

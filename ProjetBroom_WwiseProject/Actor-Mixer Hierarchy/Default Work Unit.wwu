@@ -11555,7 +11555,205 @@
 													</ChildrenList>
 												</Folder>
 											</ChildrenList>
+<<<<<<< HEAD
 										</ActorMixer>
+=======
+										</Folder>
+										<Folder Name="Ice" ID="{59ACDFCB-A88B-4603-851F-88574602EEF7}" ShortID="117021369">
+											<ChildrenList>
+												<BlendContainer Name="Cast Ice" ID="{D310A01D-5C10-4544-936E-B24DB991C7E8}" ShortID="1061895115">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="LP_CastSpellIce_GOICO_01_v2" ID="{0D107794-BD03-4494-8734-7FB0EF478FD2}" ShortID="697487853">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="LP_CastSpellIce_GOICO_01_v2" ID="{A0764110-EEC0-4E8F-A78E-E6ABE9BFB8BC}">
+																	<Language>SFX</Language>
+																	<AudioFile>LP_CastSpellIce_GOICO_01_v2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="402042555"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="LP_CastSpellIce_GOICO_01_v2" ID="{A0764110-EEC0-4E8F-A78E-E6ABE9BFB8BC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_CastSpellIce_GOICO_01_v1" ID="{2F741039-2813-4505-BC89-E4F48FB3B273}" ShortID="364555332">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_CastSpellIce_GOICO_01_v1" ID="{0F0E91F9-BA0A-47A1-A985-A14FF12A28DD}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_CastSpellIce_GOICO_01_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="639887348"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_CastSpellIce_GOICO_01_v1" ID="{0F0E91F9-BA0A-47A1-A985-A14FF12A28DD}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<BlendTrackList>
+														<BlendTrack Name="New Blend Track" ID="{2EAE0633-89A4-4DCF-95F0-68A927B224E9}" ShortID="254937426">
+															<BlendTrackAssocList>
+																<BlendTrackAssoc>
+																	<ItemRef Name="LP_CastSpellIce_GOICO_01_v2" ID="{0D107794-BD03-4494-8734-7FB0EF478FD2}"/>
+																</BlendTrackAssoc>
+																<BlendTrackAssoc>
+																	<ItemRef Name="OS_CastSpellIce_GOICO_01_v1" ID="{2F741039-2813-4505-BC89-E4F48FB3B273}"/>
+																</BlendTrackAssoc>
+															</BlendTrackAssocList>
+														</BlendTrack>
+													</BlendTrackList>
+												</BlendContainer>
+												<Sound Name="OS_ImpactSpellIce_GOICO_01_v2" ID="{315EC8FB-F655-4CEB-B131-2C08A0AEB0C1}" ShortID="654679159">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_ImpactSpellIce_GOICO_01_v2" ID="{7D5A576A-C299-4769-8A3A-A395D3EB8EAD}">
+															<Language>SFX</Language>
+															<AudioFile>OS_ImpactSpellIce_GOICO_01_v2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="345640373"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_ImpactSpellIce_GOICO_01_v2" ID="{7D5A576A-C299-4769-8A3A-A395D3EB8EAD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Water" ID="{57A6CE13-F784-41A1-AC80-4D5D725652B1}" ShortID="400241736">
+											<ChildrenList>
+												<BlendContainer Name="Cast Water" ID="{9D4EB83B-275F-4617-BD22-5377FEA3D2CF}" ShortID="832977072">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="OS_CastSpellWater_GOICO_01_v1" ID="{4B48A376-D976-41EE-A9F1-69FEF0A902CB}" ShortID="987363620">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_CastSpellWater_GOICO_01_v1" ID="{09299DD1-269E-4748-9C24-A261564C750C}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_CastSpellWater_GOICO_01_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="938053655"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_CastSpellWater_GOICO_01_v1" ID="{09299DD1-269E-4748-9C24-A261564C750C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="LP_CastSpellWater_GOICO_01_v1" ID="{53ACF014-C9FF-4381-99CA-F1FFAE7D2D20}" ShortID="581260486">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="LP_CastSpellWater_GOICO_01_v1" ID="{822EF01A-FACD-4932-A51D-EC2FAA08BA5A}">
+																	<Language>SFX</Language>
+																	<AudioFile>LP_CastSpellWater_GOICO_01_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="744377855"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="LP_CastSpellWater_GOICO_01_v1" ID="{822EF01A-FACD-4932-A51D-EC2FAA08BA5A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<BlendTrackList>
+														<BlendTrack Name="New Blend Track" ID="{CB8BE9B1-CD1B-403B-8B8D-3A802FD02871}" ShortID="881326947">
+															<BlendTrackAssocList>
+																<BlendTrackAssoc>
+																	<ItemRef Name="LP_CastSpellWater_GOICO_01_v1" ID="{53ACF014-C9FF-4381-99CA-F1FFAE7D2D20}"/>
+																</BlendTrackAssoc>
+																<BlendTrackAssoc>
+																	<ItemRef Name="OS_CastSpellWater_GOICO_01_v1" ID="{4B48A376-D976-41EE-A9F1-69FEF0A902CB}"/>
+																</BlendTrackAssoc>
+															</BlendTrackAssocList>
+														</BlendTrack>
+													</BlendTrackList>
+												</BlendContainer>
+												<Sound Name="OS_ImpactSpellWater_GOICO_01_v2" ID="{FA13B5AE-EA3D-4860-998B-78521A5EC132}" ShortID="496996022">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_ImpactSpellWater_GOICO_01_v2" ID="{9BF53CE8-2871-42B0-9A7D-9C0047621B34}">
+															<Language>SFX</Language>
+															<AudioFile>OS_ImpactSpellWater_GOICO_01_v2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="120478342"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_ImpactSpellWater_GOICO_01_v2" ID="{9BF53CE8-2871-42B0-9A7D-9C0047621B34}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+>>>>>>> parent of 6c9be734 (Revert "Merge branch 'Game-Art' of https://github.com/Cime-Art/ProjetBroom into Game-Art")
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
