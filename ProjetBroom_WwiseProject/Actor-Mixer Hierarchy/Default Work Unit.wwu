@@ -4854,7 +4854,7 @@
 																</Property>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
-																		<Value>-4</Value>
+																		<Value>-20</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -4959,6 +4959,13 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="Amb_OS_SmallAnimalRunAway _01" ID="{089A3CFB-730C-4BA7-B564-C7171261F09A}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>24</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Amb_OS_SmallAnimalRunAway _01.wav</AudioFile>
 																			<MediaIDList>
@@ -4971,13 +4978,6 @@
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="Amb_OS_SmallAnimalRunAway _02" ID="{11C8F059-DCE0-487B-8AB7-0608F9E32B9F}" ShortID="99637309">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64">
-																			<ValueList>
-																				<Value>-5</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -4988,6 +4988,13 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="Amb_OS_SmallAnimalRunAway _02" ID="{B1D5E589-160F-4AEB-A2AA-CA541AB55346}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>24</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Amb_OS_SmallAnimalRunAway _02.wav</AudioFile>
 																			<MediaIDList>
@@ -5010,6 +5017,13 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="Amb_OS_SmallAnimalRunAway _03" ID="{5D694A56-28AA-43BD-922A-C35ACF5E0933}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>24</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Amb_OS_SmallAnimalRunAway _03.wav</AudioFile>
 																			<MediaIDList>
@@ -6127,6 +6141,11 @@
 																				<Value>-5</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-8</Value>
+																			</ValueList>
+																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
@@ -6144,7 +6163,7 @@
 																			<PropertyList>
 																				<Property Name="VolumeOffset" Type="Real64">
 																					<ValueList>
-																						<Value>-1.9</Value>
+																						<Value>24</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
