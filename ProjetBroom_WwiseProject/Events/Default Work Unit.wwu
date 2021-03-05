@@ -7,7 +7,109 @@
 				<Folder Name="Player" ID="{E0B7312B-EEF9-4945-A695-D1ABB792191B}" ShortID="611497882"/>
 				<Folder Name="Level" ID="{31E239D9-DA48-443A-9DB4-47AB46FB7CE7}" ShortID="325022143">
 					<ChildrenList>
-						<Folder Name="Jail" ID="{C3F1BD7A-4082-49F3-8585-D2B4845B0630}" ShortID="235480507"/>
+						<Folder Name="Jail" ID="{C3F1BD7A-4082-49F3-8585-D2B4845B0630}" ShortID="235480507">
+							<ChildrenList>
+								<Event Name="Play_Groaning_Prisoner_RND" ID="{FC28DCDC-6A48-4D9F-AA36-56A24AA48A71}">
+									<ChildrenList>
+										<Action Name="" ID="{279978D3-CF50-4BAB-B48F-C9003A0574FB}" ShortID="712690063">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Groaning_Prisoner_RND" ID="{B2C747C0-357B-4DE9-B7BB-444A7FB314EA}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Chain_Sound_RND" ID="{9E204E7B-ED38-4840-84C2-233A129169F5}">
+									<ChildrenList>
+										<Action Name="" ID="{CE6C47DE-551A-4501-9B5B-63D86892E3E5}" ShortID="398489218">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Chain_Sound_RND" ID="{B644B460-85DB-4B6D-9A11-91C63EC66632}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Door_Slam_RND" ID="{69A2596B-4BAC-40BB-8129-7D6DE554BAB2}">
+									<ChildrenList>
+										<Action Name="" ID="{1AD06DDA-C12D-4F63-9F99-73E5D393CD88}" ShortID="932263093">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Door_Slam_RND" ID="{2DBBACC3-EA9E-4041-B5BE-F7E39B9E78C0}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Drop_Of_Blood_RND" ID="{C23957F2-6BF6-4C35-B8FE-EA5AF883B66C}">
+									<ChildrenList>
+										<Action Name="" ID="{FB7EB6DB-BCF9-46D0-8A8B-B41D65D70E1C}" ShortID="399392774">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Drop_Of_Blood_RND" ID="{AFA0E82C-586A-479A-9627-ED5F40706FC9}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Metal_Slam_RND" ID="{3EC97F90-8DC3-488D-9F11-734C12D0B777}">
+									<ChildrenList>
+										<Action Name="" ID="{1E045611-F544-4342-B3E4-003CE3D09A8C}" ShortID="907299685">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal_Slam_RND" ID="{F1C49D9A-41E7-4476-B1B2-8AB89EB131C8}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Small_Animal_Run_Away_RND" ID="{7CA1FC7F-95E3-40B5-BC6D-4775B12CA2A9}">
+									<ChildrenList>
+										<Action Name="" ID="{829260A0-3CE7-438B-A1CD-D712F2F76288}" ShortID="289619216">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Small_Animal_Run_Away_RND" ID="{41562958-9F6B-4F92-B84C-7096AD1DB366}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Small_Animal_Run_In_Pipe_RND" ID="{336F1B0C-6E80-478F-B852-944C06B1D63A}">
+									<ChildrenList>
+										<Action Name="" ID="{BB8186BC-F4C0-4C7F-A843-595972A691B9}" ShortID="333196031">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Small_Animal_Run_In_Pipe_RND" ID="{20E701B0-DF59-4440-9E3C-AF9B827A7DF6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Small_Animal_Run_On_Pipe_RND" ID="{6AFC6053-C056-46CE-B494-B01C3171307A}">
+									<ChildrenList>
+										<Action Name="" ID="{F82E3616-1A3D-4601-A272-7F87173E9DE1}" ShortID="775483840">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Small_Animal_Run_On_Pipe_RND" ID="{3FE17EE2-83A4-4425-8103-B904C3EE7E6C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Stone_Fall_RND" ID="{B45CB74B-09F5-4D57-BF51-498CBDCC493B}">
+									<ChildrenList>
+										<Action Name="" ID="{5BE5BEFA-44DF-42D0-8C24-78BEA04590F8}" ShortID="865481954">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Stone_Fall_RND" ID="{438CF10A-94EB-416C-804A-432742B3D178}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 						<Folder Name="Tuto" ID="{C5848E0C-DB86-4041-B214-BE3A333D64A3}" ShortID="579642512">
 							<ChildrenList>
 								<Folder Name="Kitchen" ID="{B6CA45A2-68C0-4184-8FC2-9BC0771EC574}" ShortID="400942531">
