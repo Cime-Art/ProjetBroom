@@ -58,7 +58,13 @@
 										</Event>
 										<Event Name="Event_KitchenAmb" ID="{F88D1D0A-5BC6-4192-8D86-8878DC756579}">
 											<ChildrenList>
-												<Action Name="" ID="{49932882-01D7-473A-8FCA-B3A2BEAB9471}" ShortID="711919056"/>
+												<Action Name="" ID="{49932882-01D7-473A-8FCA-B3A2BEAB9471}" ShortID="711919056">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="AMB_LP_KitchenAmb_01_SABARROS_V1" ID="{514C5859-8518-4D32-9EFF-BC5BE94821BC}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 									</ChildrenList>
