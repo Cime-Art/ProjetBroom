@@ -15,6 +15,14 @@
 								<Switch Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
 							</ChildrenList>
 						</SwitchGroup>
+						<SwitchGroup Name="Hit_Materials_Switch" ID="{3A57482F-BD07-4C9B-AEE9-015021B95BB8}">
+							<ChildrenList>
+								<Switch Name="HollowWood" ID="{1F2AC1FA-3447-485A-9D88-E2F9F8A1CDFA}"/>
+								<Switch Name="DryWood" ID="{B7624EDB-88F7-4B4F-8B22-48863C6006CF}"/>
+								<Switch Name="HollowMetal" ID="{4B4D5094-77C8-4732-B3E0-436D3DB45EE8}"/>
+								<Switch Name="Rock" ID="{3164F961-5C9D-41BA-A8F0-B7B2181634E3}"/>
+							</ChildrenList>
+						</SwitchGroup>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

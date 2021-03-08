@@ -1168,14 +1168,14 @@
 																					<ChildrenList>
 																						<SourcePlugin Name="SoundSeed Air Wind" ID="{0C7F99F1-A486-4E70-98F7-E5762EFAD6DD}" ShortID="522069659" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
 																							<PropertyList>
-																								<Property Name="AverageVelocity" Type="Real32" Value="-830"/>
+																								<Property Name="AverageVelocity" Type="Real32" Value="-30"/>
 																								<Property Name="AverageVelocityRandom" Type="Real32" Value="10"/>
 																								<Property Name="Duration" Type="Real64" Value="20"/>
-																								<Property Name="FrequencyScale" Type="Real32" Value="0.34"/>
-																								<Property Name="GainOffset" Type="Real32" Value="24"/>
+																								<Property Name="FrequencyScale" Type="Real32" Value="-0.59"/>
+																								<Property Name="GainOffset" Type="Real32" Value="0.7"/>
 																								<Property Name="Gustiness" Type="Real32" Value="0.3"/>
 																								<Property Name="MinDistance" Type="Real32" Value="0.1"/>
-																								<Property Name="QFactorScale" Type="Real32" Value="-0.59"/>
+																								<Property Name="QFactorScale" Type="Real32" Value="-0.08"/>
 																								<Property Name="Variability" Type="Real32" Value="0.2"/>
 																							</PropertyList>
 																							<Language>SFX</Language>
@@ -1244,7 +1244,7 @@
 																								<List Name="Deflectors">
 																									<PluginInnerObject Name="" ID="{84990B77-F8BF-41BD-9220-44182A4AF3AB}" PluginName="Deflector" CompanyID="0" PluginID="121">
 																										<PropertyList>
-																											<Property Name="Frequency" Type="Real32" Value="390"/>
+																											<Property Name="Frequency" Type="Real32" Value="3656"/>
 																											<Property Name="Gain" Type="Real32" Value="2"/>
 																											<Property Name="PanY" Type="Real64" Value="1.55431223447522E-15"/>
 																											<Property Name="QFactor" Type="Real32" Value="0.1"/>
@@ -1293,7 +1293,7 @@
 																						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																						<Property Name="Volume" Type="Real64">
 																							<ValueList>
-																								<Value>-6</Value>
+																								<Value>-3</Value>
 																							</ValueList>
 																						</Property>
 																					</PropertyList>
@@ -1314,16 +1314,49 @@
 																					<ChildrenList>
 																						<SourcePlugin Name="SoundSeed Air Wind" ID="{66BA22E6-4290-4080-ADEC-B61E7760A996}" ShortID="324716711" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
 																							<PropertyList>
-																								<Property Name="AverageVelocity" Type="Real32" Value="-30"/>
+																								<Property Name="AverageVelocity" Type="Real32" Value="-380"/>
+																								<Property Name="AverageVelocityRandom" Type="Real32" Value="330"/>
 																								<Property Name="FrequencyScale" Type="Real32" Value="0.21"/>
 																								<Property Name="GainOffset" Type="Real32" Value="24"/>
-																								<Property Name="Gustiness" Type="Real32" Value="0.4"/>
+																								<Property Name="GainOffsetRandom" Type="Real32" Value="11.4"/>
+																								<Property Name="Gustiness" Type="Real32" Value="0.19"/>
+																								<Property Name="GustinessRandom" Type="Real32" Value="0.27"/>
+																								<Property Name="QFactorScale" Type="Real32" Value="-0.08"/>
+																								<Property Name="Variability" Type="Real32" Value="0.33"/>
+																								<Property Name="VariabilityRandom" Type="Real32" Value="0.36"/>
 																							</PropertyList>
 																							<Language>SFX</Language>
-																							<PluginData/>
+																							<PluginData>
+	<CurveList Version="1">
+		<CurveInfo Name="Gustiness">
+			<Curve Name="" ID="{ECB82A41-DBE1-4713-B953-818C92387C2E}">
+				<PropertyList>
+					<Property Name="Flags" Type="int32" Value="1"/>
+				</PropertyList>
+				<PointList>
+					<Point>
+						<XPos>0</XPos>
+						<YPos>0</YPos>
+						<Flags>5</Flags>
+					</Point>
+					<Point>
+						<XPos>10</XPos>
+						<YPos>0</YPos>
+						<Flags>37</Flags>
+					</Point>
+				</PointList>
+			</Curve>
+		</CurveInfo>
+	</CurveList>
+</PluginData>
 																							<PluginInnerObjectList>
 																								<List Name="Deflectors">
-																									<PluginInnerObject Name="" ID="{DBBFC0EB-3631-4AA4-A7D4-6DE02E306E0D}" PluginName="Deflector" CompanyID="0" PluginID="121"/>
+																									<PluginInnerObject Name="" ID="{DBBFC0EB-3631-4AA4-A7D4-6DE02E306E0D}" PluginName="Deflector" CompanyID="0" PluginID="121">
+																										<PropertyList>
+																											<Property Name="Frequency" Type="Real32" Value="533"/>
+																											<Property Name="QFactor" Type="Real32" Value="0.63"/>
+																										</PropertyList>
+																									</PluginInnerObject>
 																								</List>
 																							</PluginInnerObjectList>
 																						</SourcePlugin>
@@ -2519,11 +2552,6 @@
 																		<Value>-5</Value>
 																	</ValueList>
 																</Property>
-																<Property Name="Volume" Type="Real64">
-																	<ValueList>
-																		<Value>12</Value>
-																	</ValueList>
-																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -2711,11 +2739,6 @@
 																		</RandomSequenceContainer>
 																		<RandomSequenceContainer Name="Tiles_RND" ID="{43FAD4EF-0E3E-479B-9FE2-7BCC46A00133}" ShortID="156847173">
 																			<PropertyList>
-																				<Property Name="Volume" Type="Real64">
-																					<ValueList>
-																						<Value>8</Value>
-																					</ValueList>
-																				</Property>
 																				<Property Name="Weight" Type="Real64">
 																					<ValueList>
 																						<Value>41</Value>
@@ -2746,6 +2769,11 @@
 																								<Property Name="FadeOutDuration" Type="Real64" Value="0.0538775510204081"/>
 																								<Property Name="LoopBegin" Type="Real64" Value="0"/>
 																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="VolumeOffset" Type="Real64">
+																									<ValueList>
+																										<Value>8</Value>
+																									</ValueList>
+																								</Property>
 																							</PropertyList>
 																							<Language>SFX</Language>
 																							<AudioFile>Amb_OS_BarnTiles_01_Ferreira_v1.wav</AudioFile>
@@ -2773,6 +2801,11 @@
 																								<Property Name="FadeOutDuration" Type="Real64" Value="0.0468027210884354"/>
 																								<Property Name="LoopBegin" Type="Real64" Value="0"/>
 																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="VolumeOffset" Type="Real64">
+																									<ValueList>
+																										<Value>8</Value>
+																									</ValueList>
+																								</Property>
 																							</PropertyList>
 																							<Language>SFX</Language>
 																							<AudioFile>Amb_OS_BarnTiles_02_Ferreira_v1.wav</AudioFile>
@@ -2800,6 +2833,11 @@
 																								<Property Name="FadeOutDuration" Type="Real64" Value="0.240408163265306"/>
 																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																								<Property Name="TrimEnd" Type="Real64" Value="1.51836734693878"/>
+																								<Property Name="VolumeOffset" Type="Real64">
+																									<ValueList>
+																										<Value>8</Value>
+																									</ValueList>
+																								</Property>
 																							</PropertyList>
 																							<Language>SFX</Language>
 																							<AudioFile>Amb_OS_BarnTiles_03_Ferreira_v1.wav</AudioFile>
@@ -2828,6 +2866,11 @@
 																								<Property Name="FadeOutDuration" Type="Real64" Value="0.67482993197279"/>
 																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																								<Property Name="TrimBegin" Type="Real64" Value="1.52258503401361"/>
+																								<Property Name="VolumeOffset" Type="Real64">
+																									<ValueList>
+																										<Value>8</Value>
+																									</ValueList>
+																								</Property>
 																							</PropertyList>
 																							<Language>SFX</Language>
 																							<AudioFile>Amb_OS_BarnTiles_03_Ferreira_v1.wav</AudioFile>
@@ -12189,6 +12232,372 @@
 														<SwitchRef Name="Wood" ID="{C46FAED0-B41E-4EE9-9947-400381ADF4E9}"/>
 														<ItemList>
 															<ItemRef Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{AC60E22A-B543-4DFD-8475-C7E71AEFBD2C}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="MaterialHits" ID="{A7429467-B82E-47B7-A74F-EE1FF1A7604A}" ShortID="974598076">
+									<ChildrenList>
+										<SwitchContainer Name="HitMaterials_Switch" ID="{60A4AE27-18ED-49E5-B94E-D119E46C3555}" ShortID="791492322">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="Hit_Materials_Switch" ID="{3A57482F-BD07-4C9B-AEE9-015021B95BB8}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Hollow_WoodHit_RND" ID="{AC4A92BC-B651-439F-87FD-734042B88285}" ShortID="552128879">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{FAB675DD-2AA8-4013-94D8-C54A8C940867}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="733"/>
+																			<Property Name="Min" Type="Real64" Value="-300"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="27 - SFX_OS_HollowWoodHit_01_Ferreira_v1" ID="{3CC74FA1-2914-4731-AD48-D212AD6C3385}" ShortID="1063977404">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="27 - SFX_OS_HollowWoodHit_01_Ferreira_v1" ID="{F5E6C102-2F9C-4F76-9528-751D2907985B}">
+																	<Language>SFX</Language>
+																	<AudioFile>27 - SFX_OS_HollowWoodHit_01_Ferreira_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="743849027"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="27 - SFX_OS_HollowWoodHit_01_Ferreira_v1" ID="{F5E6C102-2F9C-4F76-9528-751D2907985B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="28 - SFX_OS_HollowWoodHit_02_Ferreira_v1" ID="{7F4C9631-DBE7-4EEA-A37F-FA9E0BCE2537}" ShortID="954129171">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="28 - SFX_OS_HollowWoodHit_02_Ferreira_v1" ID="{59DD5AD5-CC7E-49A6-BDA7-81DFFA3DE8C1}">
+																	<Language>SFX</Language>
+																	<AudioFile>28 - SFX_OS_HollowWoodHit_02_Ferreira_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="776926126"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="28 - SFX_OS_HollowWoodHit_02_Ferreira_v1" ID="{59DD5AD5-CC7E-49A6-BDA7-81DFFA3DE8C1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Metal_HollowHit_RND" ID="{524D4D36-B129-4733-B042-A35946E54C0C}" ShortID="377978273">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{A0C5D9E7-F066-461E-8D8D-2C4831DB884D}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="429"/>
+																			<Property Name="Min" Type="Real64" Value="-177"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="23 - SFX_OS_HollowMetalHit_01_Ferreira_v1" ID="{E1EA6B7A-3676-4172-9BBF-82498FFE514D}" ShortID="1049667722">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="23 - SFX_OS_HollowMetalHit_01_Ferreira_v1" ID="{FCC55A0F-B9E8-42B7-8350-945B9DCCE441}">
+																	<Language>SFX</Language>
+																	<AudioFile>23 - SFX_OS_HollowMetalHit_01_Ferreira_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="837685776"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="23 - SFX_OS_HollowMetalHit_01_Ferreira_v1" ID="{FCC55A0F-B9E8-42B7-8350-945B9DCCE441}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="24 - SFX_OS_HollowMetalHit_02_Ferreira_v1" ID="{EDF84491-3CE1-4B40-B94E-858E527F6E71}" ShortID="259088617">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="24 - SFX_OS_HollowMetalHit_02_Ferreira_v1" ID="{F1B29C6E-B346-4917-8D33-FD9B706280D1}">
+																	<Language>SFX</Language>
+																	<AudioFile>24 - SFX_OS_HollowMetalHit_02_Ferreira_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="56183595"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="24 - SFX_OS_HollowMetalHit_02_Ferreira_v1" ID="{F1B29C6E-B346-4917-8D33-FD9B706280D1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="RockHit_RND" ID="{B9C0624B-E06B-4DE7-8311-2B24AE45F440}" ShortID="847284783">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{2EE40D51-E6AD-44CE-84B8-60152620CDE6}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="500"/>
+																			<Property Name="Min" Type="Real64" Value="-278"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="25 - SFX_OS_StoneHit_01_Ferreira_v1" ID="{31889283-FD45-40AC-A933-A8691D3AA961}" ShortID="830169837">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="25 - SFX_OS_StoneHit_01_Ferreira_v1" ID="{A7A096E4-B6DD-4968-9CC3-C97BD6483457}">
+																	<Language>SFX</Language>
+																	<AudioFile>25 - SFX_OS_StoneHit_01_Ferreira_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="405699160"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="25 - SFX_OS_StoneHit_01_Ferreira_v1" ID="{A7A096E4-B6DD-4968-9CC3-C97BD6483457}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="26 - SFX_OS_StoneHit_02_Ferreira_v1" ID="{FB40E265-D053-4ACA-97BA-31192C3F9011}" ShortID="641244907">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="26 - SFX_OS_StoneHit_02_Ferreira_v1" ID="{5C6DB467-6864-4D7E-B4B8-D434F64B2F4F}">
+																	<Language>SFX</Language>
+																	<AudioFile>26 - SFX_OS_StoneHit_02_Ferreira_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="697610052"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="26 - SFX_OS_StoneHit_02_Ferreira_v1" ID="{5C6DB467-6864-4D7E-B4B8-D434F64B2F4F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Dry_WoodHit_RND" ID="{2FF0601A-6F45-4134-B4D1-A01715F37009}" ShortID="187086416">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{C1915017-3372-47A0-9F81-465404E45682}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="1061"/>
+																			<Property Name="Min" Type="Real64" Value="-303"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="29 - SFX_OS_DryWoodHit_01_Ferreira_v1" ID="{47E8D9DE-AF3A-4413-957D-BE5EBBF3CD05}" ShortID="1701600">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="29 - SFX_OS_DryWoodHit_01_Ferreira_v1" ID="{48ED38D3-984C-46BD-ACFB-205A8C0AA42E}">
+																	<Language>SFX</Language>
+																	<AudioFile>29 - SFX_OS_DryWoodHit_01_Ferreira_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="636609700"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="29 - SFX_OS_DryWoodHit_01_Ferreira_v1" ID="{48ED38D3-984C-46BD-ACFB-205A8C0AA42E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="30 - SFX_OS_DryWoodHit_02_Ferreira_v1" ID="{C88FC0B9-D92D-4C11-B0C5-62486D5DC92E}" ShortID="388038017">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="30 - SFX_OS_DryWoodHit_02_Ferreira_v1" ID="{BFB7259F-FCB7-402B-AECE-FE1FC9A30D6F}">
+																	<Language>SFX</Language>
+																	<AudioFile>30 - SFX_OS_DryWoodHit_02_Ferreira_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="199213318"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="30 - SFX_OS_DryWoodHit_02_Ferreira_v1" ID="{BFB7259F-FCB7-402B-AECE-FE1FC9A30D6F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Hit_Collision" ID="{A93B332E-379C-4278-82BE-8AE596A932E3}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="No_Collision" ID="{7CD36F6F-0671-4C28-83A9-5282CBCC5361}"/>
+														<CustomState Name="" ID="{EB7672D7-D045-4A4F-8543-09630C329683}" ShortID="164713831">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Collision" ID="{C6150A52-6F3D-4C66-8248-95E11E678743}"/>
+														<CustomState Name="" ID="{383E7114-2C74-47EB-9205-3CA3AD99F98B}" ShortID="145379484"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Dry_WoodHit_RND" ID="{2FF0601A-6F45-4134-B4D1-A01715F37009}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Metal_HollowHit_RND" ID="{524D4D36-B129-4733-B042-A35946E54C0C}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="RockHit_RND" ID="{B9C0624B-E06B-4DE7-8311-2B24AE45F440}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Hollow_WoodHit_RND" ID="{AC4A92BC-B651-439F-87FD-734042B88285}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Rock" ID="{3164F961-5C9D-41BA-A8F0-B7B2181634E3}"/>
+														<ItemList>
+															<ItemRef Name="RockHit_RND" ID="{B9C0624B-E06B-4DE7-8311-2B24AE45F440}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="HollowMetal" ID="{4B4D5094-77C8-4732-B3E0-436D3DB45EE8}"/>
+														<ItemList>
+															<ItemRef Name="Metal_HollowHit_RND" ID="{524D4D36-B129-4733-B042-A35946E54C0C}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="DryWood" ID="{B7624EDB-88F7-4B4F-8B22-48863C6006CF}"/>
+														<ItemList>
+															<ItemRef Name="Dry_WoodHit_RND" ID="{2FF0601A-6F45-4134-B4D1-A01715F37009}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="HollowWood" ID="{1F2AC1FA-3447-485A-9D88-E2F9F8A1CDFA}"/>
+														<ItemList>
+															<ItemRef Name="Hollow_WoodHit_RND" ID="{AC4A92BC-B651-439F-87FD-734042B88285}"/>
 														</ItemList>
 													</Grouping>
 												</GroupingList>

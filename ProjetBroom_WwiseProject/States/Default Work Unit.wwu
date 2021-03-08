@@ -361,6 +361,13 @@
 								<State Name="Vertical_Attack" ID="{A5508C83-70A7-41D9-A58C-963227B6004B}"/>
 							</ChildrenList>
 						</StateGroup>
+						<StateGroup Name="Hit_Collision" ID="{A93B332E-379C-4278-82BE-8AE596A932E3}">
+							<ChildrenList>
+								<State Name="None" ID="{0E28124A-8AC3-47B9-BE61-EB81108A519F}"/>
+								<State Name="Collision" ID="{C6150A52-6F3D-4C66-8248-95E11E678743}"/>
+								<State Name="No_Collision" ID="{7CD36F6F-0671-4C28-83A9-5282CBCC5361}"/>
+							</ChildrenList>
+						</StateGroup>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
