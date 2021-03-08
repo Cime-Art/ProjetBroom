@@ -8,61 +8,116 @@
 					<ChildrenList>
 						<Folder Name="Spell" ID="{3D7AA9DB-A52D-4FF7-BC06-28F56D952C71}" ShortID="384035320">
 							<ChildrenList>
-								<Event Name="Play_Poisoning_Zone" ID="{3F3995EC-CD36-433F-8FF7-C40029EB3DB5}">
+								<Folder Name="Poison" ID="{F9B89DCC-BE43-4B06-A0DC-EA0D49596CF5}" ShortID="628118426">
 									<ChildrenList>
-										<Action Name="" ID="{8C42A481-34B9-4A38-85B8-45E2126B6517}" ShortID="231322182">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Poisoning_Zone" ID="{EE89BDD5-89E0-4CD3-8FAE-290B425A168B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
+										<Event Name="Event_PreCast_Poison" ID="{CDE051D1-040E-4853-80BF-9E5707732ACA}">
+											<ChildrenList>
+												<Action Name="" ID="{BEF101FA-5FAB-4C4B-A592-D261204ACAFD}" ShortID="459978055">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Cast Poison" ID="{D8B9BB3F-76AC-446F-A8B1-F744CA31389C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_Cast_Poisoning" ID="{3F3995EC-CD36-433F-8FF7-C40029EB3DB5}">
+											<ChildrenList>
+												<Action Name="" ID="{8C42A481-34B9-4A38-85B8-45E2126B6517}" ShortID="231322182">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Poisoning_Zone" ID="{EE89BDD5-89E0-4CD3-8FAE-290B425A168B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Stop_PreCast_Poison" ID="{AF8FE4CA-5C03-4AF6-9BDD-A28079DCD3FA}">
+											<ChildrenList>
+												<Action Name="" ID="{B095D38A-C556-4D22-A5F2-D374B2F3B710}" ShortID="46608446">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Cast Poison" ID="{D8B9BB3F-76AC-446F-A8B1-F744CA31389C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
-								</Event>
-								<Event Name="Play_Laser_Beam" ID="{F1B48984-047C-4520-BCC8-BDF77F7DE6BE}">
+								</Folder>
+								<Folder Name="Ice" ID="{FF68F4CB-7D01-4E80-AB97-CDD8B28B1DEE}" ShortID="164648259">
 									<ChildrenList>
-										<Action Name="" ID="{368815AD-AC0B-4C19-9649-3CEC69F2ED39}" ShortID="618582160">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Laser Beam" ID="{132B3411-B726-460A-A588-447DCEE88BEB}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
+										<Event Name="Play_Cast_Ice" ID="{D1E3DB3C-8EDF-4336-93FF-00276C4F1E18}">
+											<ChildrenList>
+												<Action Name="" ID="{C0906FB0-F258-4DA2-9140-F9E68D7A2EFD}" ShortID="880306066">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Cast Ice" ID="{D310A01D-5C10-4544-936E-B24DB991C7E8}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
-								</Event>
-								<Event Name="Play_Cast_Poison" ID="{CDE051D1-040E-4853-80BF-9E5707732ACA}">
+								</Folder>
+								<Folder Name="Water" ID="{9738FF7D-C67C-4570-A59C-A37512FD480B}" ShortID="569093535">
 									<ChildrenList>
-										<Action Name="" ID="{BEF101FA-5FAB-4C4B-A592-D261204ACAFD}" ShortID="459978055">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Cast Poison" ID="{D8B9BB3F-76AC-446F-A8B1-F744CA31389C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
+										<Event Name="Event_PreCast_Water" ID="{CE56FD6F-9FB1-4138-976D-FFF444134B61}">
+											<ChildrenList>
+												<Action Name="" ID="{911D6491-BACB-4E00-870B-6EBC3289634B}" ShortID="633837362">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Cast Water" ID="{9D4EB83B-275F-4617-BD22-5377FEA3D2CF}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_Cast_Water" ID="{CE78BC33-553F-4834-8AA2-D27963605A11}">
+											<ChildrenList>
+												<Action Name="" ID="{6254E183-D63A-45AC-8F35-1602EF18450F}" ShortID="622294090">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="OS_ImpactSpellWater_GOICO_01_v2" ID="{FA13B5AE-EA3D-4860-998B-78521A5EC132}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Stop_Precat_Water" ID="{0335AA83-73BE-4E3C-9AEF-643CB4086EA7}">
+											<ChildrenList>
+												<Action Name="" ID="{1349473D-A2BF-4B8E-A5A5-8924905BAFB8}" ShortID="853121028">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Cast Water" ID="{9D4EB83B-275F-4617-BD22-5377FEA3D2CF}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
-								</Event>
-								<Event Name="Play_Cast_Water" ID="{CE56FD6F-9FB1-4138-976D-FFF444134B61}">
+								</Folder>
+								<Folder Name="Laser_Sponge" ID="{66377A04-F655-4AF3-9231-84636091621A}" ShortID="1016645182">
 									<ChildrenList>
-										<Action Name="" ID="{911D6491-BACB-4E00-870B-6EBC3289634B}" ShortID="633837362">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Cast Water" ID="{9D4EB83B-275F-4617-BD22-5377FEA3D2CF}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
+										<Event Name="Play_Laser_Beam" ID="{F1B48984-047C-4520-BCC8-BDF77F7DE6BE}">
+											<ChildrenList>
+												<Action Name="" ID="{368815AD-AC0B-4C19-9649-3CEC69F2ED39}" ShortID="618582160">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Laser Beam" ID="{132B3411-B726-460A-A588-447DCEE88BEB}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
-								</Event>
-								<Event Name="Play_Cast_Ice" ID="{D1E3DB3C-8EDF-4336-93FF-00276C4F1E18}">
-									<ChildrenList>
-										<Action Name="" ID="{C0906FB0-F258-4DA2-9140-F9E68D7A2EFD}" ShortID="880306066">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Cast Ice" ID="{D310A01D-5C10-4544-936E-B24DB991C7E8}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="FTPS" ID="{FD3F6F9F-C1C8-4BC7-8E7C-62F7DE33D63B}" ShortID="981069562">
