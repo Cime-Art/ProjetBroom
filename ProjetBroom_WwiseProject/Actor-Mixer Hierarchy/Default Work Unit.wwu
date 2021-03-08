@@ -265,7 +265,7 @@
 																								</Reference>
 																							</ReferenceList>
 																							<ChildrenList>
-																								<AudioFileSource Name="Birds_Theo_OS_01" ID="{ED91D71A-55B8-448C-BD6C-9DE8915DF72C}">
+																								<AudioFileSource Name="Birds_Theo_OS_01" ID="{75F4ED71-9A17-4E60-AF5A-3E5EF4350F6B}">
 																									<Language>SFX</Language>
 																									<AudioFile>Birds_Theo_OS_01.wav</AudioFile>
 																									<MediaIDList>
@@ -274,7 +274,7 @@
 																								</AudioFileSource>
 																							</ChildrenList>
 																							<ActiveSourceList>
-																								<ActiveSource Name="Birds_Theo_OS_01" ID="{ED91D71A-55B8-448C-BD6C-9DE8915DF72C}" Platform="Linked"/>
+																								<ActiveSource Name="Birds_Theo_OS_01" ID="{75F4ED71-9A17-4E60-AF5A-3E5EF4350F6B}" Platform="Linked"/>
 																							</ActiveSourceList>
 																						</Sound>
 																						<Sound Name="Silence" ID="{CC06A216-F87A-44DE-937D-A2B983FFA17D}" ShortID="1037781223">
@@ -369,7 +369,7 @@
 																								</Reference>
 																							</ReferenceList>
 																							<ChildrenList>
-																								<AudioFileSource Name="Birds_Theo_OS_02" ID="{E7F44003-8923-4017-9CA6-B071A4036125}">
+																								<AudioFileSource Name="Birds_Theo_OS_02" ID="{F50F5F87-93F8-4B0E-81DF-F8B82C49EF6C}">
 																									<Language>SFX</Language>
 																									<AudioFile>Birds_Theo_OS_02.wav</AudioFile>
 																									<MediaIDList>
@@ -378,7 +378,7 @@
 																								</AudioFileSource>
 																							</ChildrenList>
 																							<ActiveSourceList>
-																								<ActiveSource Name="Birds_Theo_OS_02" ID="{E7F44003-8923-4017-9CA6-B071A4036125}" Platform="Linked"/>
+																								<ActiveSource Name="Birds_Theo_OS_02" ID="{F50F5F87-93F8-4B0E-81DF-F8B82C49EF6C}" Platform="Linked"/>
 																							</ActiveSourceList>
 																						</Sound>
 																						<Sound Name="Birds_3" ID="{D87A3914-DB7A-4ED8-A3B9-9DE11D712E68}" ShortID="202064957">
@@ -424,7 +424,7 @@
 																								</Reference>
 																							</ReferenceList>
 																							<ChildrenList>
-																								<AudioFileSource Name="Birds_Theo_OS_03" ID="{26CF3087-1ABA-4B20-BBF6-B37FDCBAB6C6}">
+																								<AudioFileSource Name="Birds_Theo_OS_03" ID="{5905A58F-2EAA-4665-864F-B3BB3FCEAF37}">
 																									<Language>SFX</Language>
 																									<AudioFile>Birds_Theo_OS_03.wav</AudioFile>
 																									<MediaIDList>
@@ -433,7 +433,7 @@
 																								</AudioFileSource>
 																							</ChildrenList>
 																							<ActiveSourceList>
-																								<ActiveSource Name="Birds_Theo_OS_03" ID="{26CF3087-1ABA-4B20-BBF6-B37FDCBAB6C6}" Platform="Linked"/>
+																								<ActiveSource Name="Birds_Theo_OS_03" ID="{5905A58F-2EAA-4665-864F-B3BB3FCEAF37}" Platform="Linked"/>
 																							</ActiveSourceList>
 																						</Sound>
 																						<Sound Name="Birds_4" ID="{AEFB532A-E0B2-49A8-95F3-F6258DCE20F4}" ShortID="285140157">
@@ -453,7 +453,7 @@
 																								</Reference>
 																							</ReferenceList>
 																							<ChildrenList>
-																								<AudioFileSource Name="Birds_Theo_OS_04" ID="{E1B625B7-350D-4C8B-8C30-611C7F58507F}">
+																								<AudioFileSource Name="Birds_Theo_OS_04" ID="{74B6EDA8-25F0-444B-AF4F-A179A5EE70F6}">
 																									<Language>SFX</Language>
 																									<AudioFile>Birds_Theo_OS_04.wav</AudioFile>
 																									<MediaIDList>
@@ -462,7 +462,7 @@
 																								</AudioFileSource>
 																							</ChildrenList>
 																							<ActiveSourceList>
-																								<ActiveSource Name="Birds_Theo_OS_04" ID="{E1B625B7-350D-4C8B-8C30-611C7F58507F}" Platform="Linked"/>
+																								<ActiveSource Name="Birds_Theo_OS_04" ID="{74B6EDA8-25F0-444B-AF4F-A179A5EE70F6}" Platform="Linked"/>
 																							</ActiveSourceList>
 																						</Sound>
 																						<Sound Name="Birds_5" ID="{9317F4A0-F158-43F1-A842-67069D3F91C8}" ShortID="465583728">
@@ -475,7 +475,7 @@
 																								</Reference>
 																							</ReferenceList>
 																							<ChildrenList>
-																								<AudioFileSource Name="Birds_Theo_OS_05" ID="{646E7191-8D79-4597-9535-3ED23F85442A}">
+																								<AudioFileSource Name="Birds_Theo_OS_05" ID="{A46BB1F1-038A-4499-BA4B-93E87AC6581A}">
 																									<Language>SFX</Language>
 																									<AudioFile>Birds_Theo_OS_05.wav</AudioFile>
 																									<MediaIDList>
@@ -484,7 +484,7 @@
 																								</AudioFileSource>
 																							</ChildrenList>
 																							<ActiveSourceList>
-																								<ActiveSource Name="Birds_Theo_OS_05" ID="{646E7191-8D79-4597-9535-3ED23F85442A}" Platform="Linked"/>
+																								<ActiveSource Name="Birds_Theo_OS_05" ID="{A46BB1F1-038A-4499-BA4B-93E87AC6581A}" Platform="Linked"/>
 																							</ActiveSourceList>
 																						</Sound>
 																						<Sound Name="Birds_6" ID="{0767B0E6-9036-46CC-A32C-DEF80C6A3D45}" ShortID="407425792">
@@ -497,7 +497,7 @@
 																								</Reference>
 																							</ReferenceList>
 																							<ChildrenList>
-																								<AudioFileSource Name="Birds_Theo_OS_06" ID="{1ECB794A-C03E-4E59-A41D-16A4A982AC69}">
+																								<AudioFileSource Name="Birds_Theo_OS_06" ID="{0B1E2FCE-D335-464C-BD2F-5D6607B9BC7E}">
 																									<Language>SFX</Language>
 																									<AudioFile>Birds_Theo_OS_06.wav</AudioFile>
 																									<MediaIDList>
@@ -506,7 +506,7 @@
 																								</AudioFileSource>
 																							</ChildrenList>
 																							<ActiveSourceList>
-																								<ActiveSource Name="Birds_Theo_OS_06" ID="{1ECB794A-C03E-4E59-A41D-16A4A982AC69}" Platform="Linked"/>
+																								<ActiveSource Name="Birds_Theo_OS_06" ID="{0B1E2FCE-D335-464C-BD2F-5D6607B9BC7E}" Platform="Linked"/>
 																							</ActiveSourceList>
 																						</Sound>
 																					</ChildrenList>
@@ -1047,16 +1047,16 @@
 																								</Reference>
 																							</ReferenceList>
 																							<ChildrenList>
-																								<AudioFileSource Name="Insect_6" ID="{F7FF022F-E2DD-4189-B497-AD3F0D60EB38}">
+																								<AudioFileSource Name="Insect_Theo_OS_06" ID="{B4D7B9B4-3C8D-43B3-9F80-37E4FC964175}">
 																									<Language>SFX</Language>
-																									<AudioFile>Insect_Theo_OS_01.wav</AudioFile>
+																									<AudioFile>Insect_Theo_OS_04.wav</AudioFile>
 																									<MediaIDList>
-																										<MediaID ID="70759845"/>
+																										<MediaID ID="734515349"/>
 																									</MediaIDList>
 																								</AudioFileSource>
 																							</ChildrenList>
 																							<ActiveSourceList>
-																								<ActiveSource Name="Insect_6" ID="{F7FF022F-E2DD-4189-B497-AD3F0D60EB38}" Platform="Linked"/>
+																								<ActiveSource Name="Insect_Theo_OS_06" ID="{B4D7B9B4-3C8D-43B3-9F80-37E4FC964175}" Platform="Linked"/>
 																							</ActiveSourceList>
 																						</Sound>
 																						<Sound Name="Insect_7" ID="{DCABB8A3-E45C-4526-ADDA-6F3641DBE558}" ShortID="269213682">
@@ -1069,16 +1069,16 @@
 																								</Reference>
 																							</ReferenceList>
 																							<ChildrenList>
-																								<AudioFileSource Name="Insect_07" ID="{2B1E21C0-2458-469B-907F-3F6E204311F0}">
+																								<AudioFileSource Name="Insect_Theo_OS_07" ID="{0E1DEA4F-B3D5-43A4-BABE-B6AA453762B1}">
 																									<Language>SFX</Language>
-																									<AudioFile>Insect_Theo_OS_02.wav</AudioFile>
+																									<AudioFile>Insect_Theo_OS_05.wav</AudioFile>
 																									<MediaIDList>
-																										<MediaID ID="166901068"/>
+																										<MediaID ID="721004410"/>
 																									</MediaIDList>
 																								</AudioFileSource>
 																							</ChildrenList>
 																							<ActiveSourceList>
-																								<ActiveSource Name="Insect_07" ID="{2B1E21C0-2458-469B-907F-3F6E204311F0}" Platform="Linked"/>
+																								<ActiveSource Name="Insect_Theo_OS_07" ID="{0E1DEA4F-B3D5-43A4-BABE-B6AA453762B1}" Platform="Linked"/>
 																							</ActiveSourceList>
 																						</Sound>
 																					</ChildrenList>
@@ -1414,7 +1414,7 @@
 																			<ChildrenList>
 																				<SourcePlugin Name="SoundSeed Air Wind" ID="{4B313091-A785-459B-9E47-7F183BEE472D}" ShortID="599872766" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
 																					<PropertyList>
-																						<Property Name="AverageVelocity" Type="Real32" Value="-1110"/>
+																						<Property Name="AverageVelocity" Type="Real32" Value="-930"/>
 																						<Property Name="Duration" Type="Real64" Value="0.1"/>
 																						<Property Name="GustinessRandom" Type="Real32" Value="0.2"/>
 																						<Property Name="Variability" Type="Real32" Value="0.5"/>
@@ -12168,6 +12168,52 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Player_OS_FootstepBones_01_LAURIER_v2" ID="{FEF3AFB2-E571-4835-9943-DA855A1E6EB1}" ShortID="61674429">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_FootstepBones_01_LAURIER_v2" ID="{4F3D98EC-6DC3-4444-B366-9CDB0F8E206B}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FootstepBones_01_LAURIER_v2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="292996249"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_FootstepBones_01_LAURIER_v2" ID="{4F3D98EC-6DC3-4444-B366-9CDB0F8E206B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Player_OS_FootstepBones_02_LAURIER_v2" ID="{F9250897-C6D2-4A14-8641-DCC45E19891C}" ShortID="262902522">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_FootstepBones_02_LAURIER_v2" ID="{C200FD92-59FE-4B31-A13C-A0F5906A8618}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FootstepBones_02_LAURIER_v2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="875094860"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_FootstepBones_02_LAURIER_v2" ID="{C200FD92-59FE-4B31-A13C-A0F5906A8618}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="FTPS_Grass_RND" ID="{1F91A52C-1C21-4E32-B8F6-A6BC1EF7215F}" ShortID="250447623">
 													<ReferenceList>
@@ -12178,6 +12224,74 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Player_OS_FootstepGrass_03_LAURIER_v2" ID="{0F24AF96-59B6-4225-865C-05E9C5B47E39}" ShortID="643158604">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_FootstepGrass_03_LAURIER_v2" ID="{555EA7A0-04BA-455E-9DFD-0EBDEDC5DBAA}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FootstepGrass_03_LAURIER_v2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="105283502"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_FootstepGrass_03_LAURIER_v2" ID="{555EA7A0-04BA-455E-9DFD-0EBDEDC5DBAA}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Player_OS_FootstepGrass_01_LAURIER_v2" ID="{2A25F706-2B40-457F-A222-77BE8AD1CC17}" ShortID="256832302">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_FootstepGrass_01_LAURIER_v2" ID="{1123D649-238C-4F21-83FD-B10B0064C164}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FootstepGrass_01_LAURIER_v2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="870274469"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_FootstepGrass_01_LAURIER_v2" ID="{1123D649-238C-4F21-83FD-B10B0064C164}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Player_OS_FootstepGrass_02_LAURIER_v2" ID="{113D5214-496C-4CE0-BE62-86E1BAD18AA6}" ShortID="142131956">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_FootstepGrass_02_LAURIER_v2" ID="{CF32817B-6E6B-4A89-9B99-3B2FB98B79A1}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FootstepGrass_02_LAURIER_v2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="14622240"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_FootstepGrass_02_LAURIER_v2" ID="{CF32817B-6E6B-4A89-9B99-3B2FB98B79A1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="FTPS_Marble_RND" ID="{5FF2A40C-C831-422C-8298-74965CCDDA7D}" ShortID="342021109">
 													<ReferenceList>
@@ -12188,6 +12302,74 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Player_OS_FootstepMarble_01_LAURIER_v3" ID="{F7E83F5E-EF74-419E-8A38-592F485CCEB9}" ShortID="757856480">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_FootstepMarble_01_LAURIER_v3" ID="{3905AE7E-05EA-44F2-9753-4FE7DE3AFFC3}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FootstepMarble_01_LAURIER_v3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="297167024"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_FootstepMarble_01_LAURIER_v3" ID="{3905AE7E-05EA-44F2-9753-4FE7DE3AFFC3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Player_OS_FootstepMarble_02_LAURIER_v3" ID="{2BFB5462-97C3-4BEC-8D56-38BC9711B697}" ShortID="834593716">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_FootstepMarble_02_LAURIER_v3" ID="{9BC60E62-586D-4A52-84AF-A3A66C703B69}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FootstepMarble_02_LAURIER_v3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1059082895"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_FootstepMarble_02_LAURIER_v3" ID="{9BC60E62-586D-4A52-84AF-A3A66C703B69}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Player_OS_FootstepMarble_03_LAURIER_v3" ID="{238947C2-339D-4043-877D-F2754086E861}" ShortID="164444879">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_FootstepMarble_03_LAURIER_v3" ID="{357089CB-5A65-4C5F-970D-EDD649D25604}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FootstepMarble_03_LAURIER_v3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="472552462"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_FootstepMarble_03_LAURIER_v3" ID="{357089CB-5A65-4C5F-970D-EDD649D25604}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="FTPS_Wood_RND" ID="{E4CAC13D-0C78-4672-A36C-22C1D2678308}" ShortID="1015953787">
 													<ReferenceList>
@@ -12198,6 +12380,74 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Player_OS_FootstepWood_03_LAURIER_v2" ID="{316A97BE-BF08-4BCF-BAD8-4A670F206F6C}" ShortID="787236865">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_FootstepWood_03_LAURIER_v2" ID="{BC97377F-7DF5-456E-918F-8D1152BE6B64}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FootstepWood_03_LAURIER_v2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="545147057"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_FootstepWood_03_LAURIER_v2" ID="{BC97377F-7DF5-456E-918F-8D1152BE6B64}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Player_OS_FootstepWood_02_LAURIER_v2" ID="{3F607F3C-CD6C-497B-B125-46341CDF2957}" ShortID="604513063">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_FootstepWood_02_LAURIER_v2" ID="{9ECCA313-2323-4AB9-A13F-5D831D611D17}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FootstepWood_02_LAURIER_v2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="875266461"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_FootstepWood_02_LAURIER_v2" ID="{9ECCA313-2323-4AB9-A13F-5D831D611D17}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Player_OS_FootstepWood_01_LAURIER_v2" ID="{4B967D80-020F-4FB4-B407-3D8F233FA0A3}" ShortID="1059464704">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_FootstepWood_01_LAURIER_v2" ID="{0ECFBADC-D0D0-4E03-8FE5-B785D21CADA2}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FootstepWood_01_LAURIER_v2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="128046037"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_FootstepWood_01_LAURIER_v2" ID="{0ECFBADC-D0D0-4E03-8FE5-B785D21CADA2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="FTPS_Dirt_RND" ID="{EB664AA9-DFE5-4BD6-8CFF-8F241548E633}" ShortID="1024670368">
 													<ReferenceList>
