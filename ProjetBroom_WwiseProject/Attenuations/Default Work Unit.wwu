@@ -454,8 +454,14 @@
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>500</XPos>
-													<YPos>45</YPos>
+													<XPos>450</XPos>
+													<YPos>100</YPos>
+													<Flags>0</Flags>
+													<SegmentShape>Log1</SegmentShape>
+												</Point>
+												<Point>
+													<XPos>745.28302</XPos>
+													<YPos>40</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
@@ -1214,7 +1220,7 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
-								<Property Name="RadiusMax" Type="Real64" Value="1800"/>
+								<Property Name="RadiusMax" Type="Real64" Value="1400"/>
 							</PropertyList>
 							<CurveUsageInfoList>
 								<VolumeDryUsage>
@@ -1230,7 +1236,7 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>1800</XPos>
+													<XPos>1400</XPos>
 													<YPos>-50</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -1254,12 +1260,12 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>1068.75</XPos>
+													<XPos>831.25</XPos>
 													<YPos>-7.62551</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>1800</XPos>
+													<XPos>1400</XPos>
 													<YPos>-50</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -1281,7 +1287,7 @@
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>1800</XPos>
+													<XPos>1400</XPos>
 													<YPos>61</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -1302,7 +1308,7 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>1800</XPos>
+													<XPos>1400</XPos>
 													<YPos>100</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -1323,12 +1329,12 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>1077.21394875</XPos>
+													<XPos>837.83307125</XPos>
 													<YPos>90.0552</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>1800</XPos>
+													<XPos>1400</XPos>
 													<YPos>6.07729</YPos>
 													<Flags>37</Flags>
 												</Point>
