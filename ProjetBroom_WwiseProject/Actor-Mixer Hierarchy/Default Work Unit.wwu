@@ -11796,6 +11796,102 @@
 														<ActiveSource Name="Spell_OS_BeamAttack_01_Dambrosio_v1" ID="{AF7FCBFC-0E39-4825-BD5D-7AF9136715E7}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<BlendContainer Name="Cast_Laser" ID="{B35D4DE7-B752-4F37-8D6D-4ADDF93CF7D4}" ShortID="221371762">
+													<PropertyList>
+														<Property Name="BlendBehavior" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Spell_OS_CastAttack_Dambrosio_V1 [2021-03-05 165928]" ID="{CEF54F3A-B03C-48F9-9C2F-CBA19B61B4DC}" ShortID="219072250">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-4</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Spell_OS_CastAttack_Dambrosio_V1 [2021-03-05 165928]" ID="{51D91AC3-976C-4F14-98E3-1BC0C51BB5B9}">
+																	<Language>SFX</Language>
+																	<AudioFile>Spell_OS_CastAttack_Dambrosio_V1 [2021-03-05 165928].wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="120410220"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Spell_OS_CastAttack_Dambrosio_V1 [2021-03-05 165928]" ID="{51D91AC3-976C-4F14-98E3-1BC0C51BB5B9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Spell_LP_CastBeam_V1_Dambrosio_V1" ID="{E5444124-3AF8-475B-BF69-E0B26FF48730}" ShortID="443258233">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>0.375</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Spell_LP_CastBeam_V1_Dambrosio_V1" ID="{946EE4D2-6472-4BCD-A3C9-BF6DF0299655}">
+																	<Language>SFX</Language>
+																	<AudioFile>Spell_LP_CastBeam_V1_Dambrosio_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="660900822"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Spell_LP_CastBeam_V1_Dambrosio_V1" ID="{946EE4D2-6472-4BCD-A3C9-BF6DF0299655}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<BlendTrackList>
+														<BlendTrack Name="New Blend Track" ID="{44F2358D-5DCB-402C-A24C-A4BC15EBD2AF}" ShortID="844210875">
+															<BlendTrackAssocList>
+																<BlendTrackAssoc>
+																	<ItemRef Name="Spell_LP_CastBeam_V1_Dambrosio_V1" ID="{E5444124-3AF8-475B-BF69-E0B26FF48730}"/>
+																</BlendTrackAssoc>
+																<BlendTrackAssoc>
+																	<ItemRef Name="Spell_OS_CastAttack_Dambrosio_V1 [2021-03-05 165928]" ID="{CEF54F3A-B03C-48F9-9C2F-CBA19B61B4DC}"/>
+																</BlendTrackAssoc>
+															</BlendTrackAssocList>
+														</BlendTrack>
+													</BlendTrackList>
+												</BlendContainer>
 											</ChildrenList>
 										</Folder>
 										<Folder Name="Poisoning" ID="{6E428375-3C0C-4C3E-B497-EEB5943EB346}" ShortID="349418682">
@@ -11824,6 +11920,7 @@
 												</Sound>
 												<BlendContainer Name="Cast Poison" ID="{D8B9BB3F-76AC-446F-A8B1-F744CA31389C}" ShortID="1023056734">
 													<PropertyList>
+														<Property Name="BlendBehavior" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-9</Value>
