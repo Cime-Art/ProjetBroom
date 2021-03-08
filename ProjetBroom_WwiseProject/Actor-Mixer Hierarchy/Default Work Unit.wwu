@@ -11780,6 +11780,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Spell_OS_BeamAttack_01_Dambrosio_v1" ID="{AF7FCBFC-0E39-4825-BD5D-7AF9136715E7}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.485707905251142"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.485707905251142"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Spell_OS_BeamAttack_01_Dambrosio_v1.wav</AudioFile>
 															<MediaIDList>
@@ -12019,6 +12024,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="OS_ImpactSpellWater_GOICO_01_v2" ID="{9BF53CE8-2871-42B0-9A7D-9C0047621B34}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.836904323630137"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.836904323630137"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>OS_ImpactSpellWater_GOICO_01_v2.wav</AudioFile>
 															<MediaIDList>
