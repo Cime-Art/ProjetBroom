@@ -252,7 +252,7 @@
 																								</Property>
 																								<Property Name="Weight" Type="Real64">
 																									<ValueList>
-																										<Value>10</Value>
+																										<Value>56</Value>
 																									</ValueList>
 																								</Property>
 																							</PropertyList>
@@ -265,16 +265,16 @@
 																								</Reference>
 																							</ReferenceList>
 																							<ChildrenList>
-																								<AudioFileSource Name="Amb_OS_Birds_01_Theo_v1" ID="{6597C36F-DC8E-4F7B-9785-BDF8F5A021BB}">
+																								<AudioFileSource Name="Birds_Theo_OS_01" ID="{E85C0C2C-8A54-4991-9A38-BC85536F8D7A}">
 																									<Language>SFX</Language>
-																									<AudioFile>Amb_OS_Birds_01_Theo_v1.wav</AudioFile>
+																									<AudioFile>Birds_Theo_OS_01.wav</AudioFile>
 																									<MediaIDList>
-																										<MediaID ID="557251298"/>
+																										<MediaID ID="153640576"/>
 																									</MediaIDList>
 																								</AudioFileSource>
 																							</ChildrenList>
 																							<ActiveSourceList>
-																								<ActiveSource Name="Amb_OS_Birds_01_Theo_v1" ID="{6597C36F-DC8E-4F7B-9785-BDF8F5A021BB}" Platform="Linked"/>
+																								<ActiveSource Name="Birds_Theo_OS_01" ID="{E85C0C2C-8A54-4991-9A38-BC85536F8D7A}" Platform="Linked"/>
 																							</ActiveSourceList>
 																						</Sound>
 																						<Sound Name="Silence" ID="{CC06A216-F87A-44DE-937D-A2B983FFA17D}" ShortID="1037781223">
@@ -356,7 +356,7 @@
 																								</Property>
 																								<Property Name="Weight" Type="Real64">
 																									<ValueList>
-																										<Value>12</Value>
+																										<Value>51</Value>
 																									</ValueList>
 																								</Property>
 																							</PropertyList>
@@ -369,16 +369,16 @@
 																								</Reference>
 																							</ReferenceList>
 																							<ChildrenList>
-																								<AudioFileSource Name="Amb_OS_Birds_02_Theo_v1" ID="{7C59F853-0C4B-4F68-8E8B-75270D61CE55}">
+																								<AudioFileSource Name="Birds_Theo_OS_02" ID="{C02A89DD-6930-427F-953A-6EB910B324FB}">
 																									<Language>SFX</Language>
-																									<AudioFile>Amb_OS_Birds_02_Theo_v1.wav</AudioFile>
+																									<AudioFile>Birds_Theo_OS_02.wav</AudioFile>
 																									<MediaIDList>
-																										<MediaID ID="407118889"/>
+																										<MediaID ID="14701179"/>
 																									</MediaIDList>
 																								</AudioFileSource>
 																							</ChildrenList>
 																							<ActiveSourceList>
-																								<ActiveSource Name="Amb_OS_Birds_02_Theo_v1" ID="{7C59F853-0C4B-4F68-8E8B-75270D61CE55}" Platform="Linked"/>
+																								<ActiveSource Name="Birds_Theo_OS_02" ID="{C02A89DD-6930-427F-953A-6EB910B324FB}" Platform="Linked"/>
 																							</ActiveSourceList>
 																						</Sound>
 																						<Sound Name="Birds_3" ID="{D87A3914-DB7A-4ED8-A3B9-9DE11D712E68}" ShortID="202064957">
@@ -411,7 +411,7 @@
 																								</Property>
 																								<Property Name="Weight" Type="Real64">
 																									<ValueList>
-																										<Value>11</Value>
+																										<Value>44</Value>
 																									</ValueList>
 																								</Property>
 																							</PropertyList>
@@ -424,16 +424,89 @@
 																								</Reference>
 																							</ReferenceList>
 																							<ChildrenList>
-																								<AudioFileSource Name="Amb_OS_Birds_03_Theo_v1" ID="{37F112F0-F73C-4212-8541-6A279C9121DE}">
+																								<AudioFileSource Name="Birds_Theo_OS_03" ID="{1FC74E2B-AD1C-42AD-91CE-4E662746EC62}">
 																									<Language>SFX</Language>
-																									<AudioFile>Amb_OS_Birds_03_Theo_v1.wav</AudioFile>
+																									<AudioFile>Birds_Theo_OS_03.wav</AudioFile>
 																									<MediaIDList>
-																										<MediaID ID="38604352"/>
+																										<MediaID ID="172788494"/>
 																									</MediaIDList>
 																								</AudioFileSource>
 																							</ChildrenList>
 																							<ActiveSourceList>
-																								<ActiveSource Name="Amb_OS_Birds_03_Theo_v1" ID="{37F112F0-F73C-4212-8541-6A279C9121DE}" Platform="Linked"/>
+																								<ActiveSource Name="Birds_Theo_OS_03" ID="{1FC74E2B-AD1C-42AD-91CE-4E662746EC62}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="Birds_4" ID="{77082611-AA1E-44FE-B0F8-1B67915378EC}" ShortID="956100533">
+																							<PropertyList>
+																								<Property Name="Weight" Type="Real64">
+																									<ValueList>
+																										<Value>19</Value>
+																									</ValueList>
+																								</Property>
+																							</PropertyList>
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Birds_Theo_OS_04" ID="{33604448-D603-433B-8C61-5547BEBD7517}">
+																									<Language>SFX</Language>
+																									<AudioFile>Birds_Theo_OS_04.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="422917049"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Birds_Theo_OS_04" ID="{33604448-D603-433B-8C61-5547BEBD7517}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="Birds_5" ID="{E372A5F4-A95A-4C99-A3FE-1E5B0642C842}" ShortID="841068112">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Birds_Theo_OS_05" ID="{ACBBC415-19E5-49C8-951F-93161F37D2DD}">
+																									<Language>SFX</Language>
+																									<AudioFile>Birds_Theo_OS_05.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="853644929"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Birds_Theo_OS_05" ID="{ACBBC415-19E5-49C8-951F-93161F37D2DD}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="Birds_6" ID="{DC5BF336-B661-4CF0-841B-758FB2ED257B}" ShortID="735566932">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Birds_Theo_OS_06" ID="{6D7F344A-8A54-428B-81A9-C7E467840DA8}">
+																									<Language>SFX</Language>
+																									<AudioFile>Birds_Theo_OS_06.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="258375272"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Birds_Theo_OS_06" ID="{6D7F344A-8A54-428B-81A9-C7E467840DA8}" Platform="Linked"/>
 																							</ActiveSourceList>
 																						</Sound>
 																					</ChildrenList>
@@ -694,7 +767,7 @@
 																								</Property>
 																								<Property Name="Weight" Type="Real64">
 																									<ValueList>
-																										<Value>11</Value>
+																										<Value>31</Value>
 																									</ValueList>
 																								</Property>
 																							</PropertyList>
@@ -749,7 +822,7 @@
 																								</Property>
 																								<Property Name="Weight" Type="Real64">
 																									<ValueList>
-																										<Value>12</Value>
+																										<Value>25</Value>
 																									</ValueList>
 																								</Property>
 																							</PropertyList>
@@ -804,7 +877,7 @@
 																								</Property>
 																								<Property Name="Weight" Type="Real64">
 																									<ValueList>
-																										<Value>11</Value>
+																										<Value>26</Value>
 																									</ValueList>
 																								</Property>
 																							</PropertyList>
@@ -859,7 +932,7 @@
 																								</Property>
 																								<Property Name="Weight" Type="Real64">
 																									<ValueList>
-																										<Value>11</Value>
+																										<Value>26</Value>
 																									</ValueList>
 																								</Property>
 																							</PropertyList>
@@ -914,7 +987,7 @@
 																								</Property>
 																								<Property Name="Weight" Type="Real64">
 																									<ValueList>
-																										<Value>11</Value>
+																										<Value>28</Value>
 																									</ValueList>
 																								</Property>
 																							</PropertyList>
@@ -962,6 +1035,64 @@
 																							</ChildrenList>
 																							<ActiveSourceList>
 																								<ActiveSource Name="Wwise Silence" ID="{04083FE5-EC53-4B37-8083-CB857093203D}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="Insect_6" ID="{012E9C67-BC6F-4FC7-AC9A-7D17BB8322BB}" ShortID="146567300">
+																							<PropertyList>
+																								<Property Name="Weight" Type="Real64">
+																									<ValueList>
+																										<Value>26</Value>
+																									</ValueList>
+																								</Property>
+																							</PropertyList>
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Insect_6" ID="{07740D38-7FDD-494F-A9F0-3ADECA1991B9}">
+																									<Language>SFX</Language>
+																									<AudioFile>Insect_Theo_OS_01.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="509321838"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Insect_6" ID="{07740D38-7FDD-494F-A9F0-3ADECA1991B9}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="Insect_7" ID="{2166A52E-7289-4070-B502-D9BB30A90458}" ShortID="62253789">
+																							<PropertyList>
+																								<Property Name="Weight" Type="Real64">
+																									<ValueList>
+																										<Value>24</Value>
+																									</ValueList>
+																								</Property>
+																							</PropertyList>
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Insect_7" ID="{A6135BB5-9CE7-4A04-AF91-E3AE929DAD0A}">
+																									<Language>SFX</Language>
+																									<AudioFile>Insect_Theo_OS_02.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="584572011"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Insect_7" ID="{A6135BB5-9CE7-4A04-AF91-E3AE929DAD0A}" Platform="Linked"/>
 																							</ActiveSourceList>
 																						</Sound>
 																					</ChildrenList>
