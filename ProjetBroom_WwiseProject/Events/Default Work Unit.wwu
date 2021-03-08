@@ -50,12 +50,12 @@
 								</Folder>
 								<Folder Name="Ice" ID="{FF68F4CB-7D01-4E80-AB97-CDD8B28B1DEE}" ShortID="164648259">
 									<ChildrenList>
-										<Event Name="Play_Cast_Ice" ID="{D1E3DB3C-8EDF-4336-93FF-00276C4F1E18}">
+										<Event Name="Event_Cast_Ice" ID="{30666C01-DDCF-4019-8FC2-10CD5F312174}">
 											<ChildrenList>
-												<Action Name="" ID="{C0906FB0-F258-4DA2-9140-F9E68D7A2EFD}" ShortID="880306066">
+												<Action Name="" ID="{4BBA5E1B-5D90-46CF-8828-F862EA034403}" ShortID="766648624">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Cast Ice" ID="{D310A01D-5C10-4544-936E-B24DB991C7E8}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+															<ObjectRef Name="OS_ImpactSpellIce_GOICO_01_v4" ID="{1A55C20F-3034-4A0A-9B9F-7771EF572485}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -508,31 +508,9 @@
 				</Folder>
 				<Folder Name="HUD" ID="{47B1D365-9F37-4CF3-9E74-E281BAF228B1}" ShortID="354925204">
 					<ChildrenList>
-						<Event Name="Event_UI_ConfirmMenu" ID="{9E653B40-302C-4FE1-BEDC-B42827C734F0}">
+						<Event Name="Event_UI_PauseNegative" ID="{5585E47F-74BB-4CF2-ADC1-6FC021B1B051}">
 							<ChildrenList>
-								<Action Name="" ID="{A3EB2C06-5476-4726-AAAB-EEED560FF50C}" ShortID="850719429">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{B4772A2B-5C8F-4EE2-BE98-264B53932EBB}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Event_UI_CancelMenu" ID="{281D30D2-6B68-4193-B99B-DF664394378E}">
-							<ChildrenList>
-								<Action Name="" ID="{A80FA8C2-8270-4B63-8B3A-FCF0B557EEA6}" ShortID="166436491">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="UI_OS_CancelMenu_Pelloux_V1" ID="{F03AC8C4-4A76-4AAD-9A68-EA0CE5EA6767}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Event_Ui_Pause_back" ID="{B3186E8C-BB9F-41EE-8D20-DD1F1D6A6D1D}">
-							<ChildrenList>
-								<Action Name="" ID="{80FB1B59-EED5-4933-BD3D-EA96F66A2210}" ShortID="20355238">
+								<Action Name="" ID="{86690768-BC1A-456C-BF89-1515974CDBCC}" ShortID="107264645">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="UI_OS_PauseNegative_Pelloux_V1" ID="{EFE276CF-75ED-4AF8-9270-59C2D71D9B71}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
@@ -541,20 +519,31 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Event_UI_Pause_enter" ID="{1B119576-A71F-479C-8451-2C85C819CCC7}">
+						<Event Name="Event_UI_CancelMenu" ID="{44C742B4-797A-4670-9939-9E592F581A81}">
 							<ChildrenList>
-								<Action Name="" ID="{C5E00F89-8EC9-4E12-9D70-DFAB3304DF50}" ShortID="193315019">
+								<Action Name="" ID="{1EF47207-A1A2-4D88-A9CC-14E38D01CA50}" ShortID="811704560">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_OS_PausePositive_Pelloux_V1" ID="{60901711-FE2A-4173-9841-749670B300C6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+											<ObjectRef Name="UI_OS_CancelMenu_Pelloux_V1" ID="{F03AC8C4-4A76-4AAD-9A68-EA0CE5EA6767}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Event_UI_Select" ID="{1B07E622-5BF3-4634-9F5E-1C99C8594916}">
+						<Event Name="Event_UI_ConfirmMenu" ID="{2820A47E-AD2F-4122-B070-CBC0061106CB}">
 							<ChildrenList>
-								<Action Name="" ID="{F36CC2CF-ACF1-4820-A145-2141B5542DE1}" ShortID="512671360">
+								<Action Name="" ID="{F7EC9D29-10DC-4282-973D-4B5F3B2F2B00}" ShortID="628825241">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{B4772A2B-5C8F-4EE2-BE98-264B53932EBB}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_UI_SelectMenu" ID="{7D7EBABF-4E99-406B-AC6B-92ED339DE302}">
+							<ChildrenList>
+								<Action Name="" ID="{C31F378A-61F1-4552-9F3D-BB3CEF79492C}" ShortID="799076710">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="UI_OS_SelectMenu_Pelloux_V1" ID="{30DEF323-3C08-4756-9D63-C237D979AC9D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
@@ -563,9 +552,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Event_UI_Select_Pause" ID="{E8A40327-80C9-4EEF-A265-07F35BD709E5}">
+						<Event Name="Event_UI_PausePositive" ID="{965D4949-D790-4F75-BBE9-9378A7C1B22F}">
 							<ChildrenList>
-								<Action Name="" ID="{A06F7644-2084-42D5-A689-C080F9059AF0}" ShortID="722473644">
+								<Action Name="" ID="{F25F5CC1-75A3-4FAF-A58B-BA62495C5011}" ShortID="624967744">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_OS_PausePositive_Pelloux_V1" ID="{60901711-FE2A-4173-9841-749670B300C6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_UI_SelectMenu" ID="{80D8B165-3855-4B00-9430-E8C58E83614E}">
+							<ChildrenList>
+								<Action Name="" ID="{DC445811-EDF5-490E-80CC-6B5E7351A2F3}" ShortID="53008549">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="7"/>
 									</PropertyList>
