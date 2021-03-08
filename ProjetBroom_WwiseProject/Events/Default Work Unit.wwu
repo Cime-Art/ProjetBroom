@@ -107,7 +107,7 @@
 								</Folder>
 								<Folder Name="Laser_Sponge" ID="{66377A04-F655-4AF3-9231-84636091621A}" ShortID="1016645182">
 									<ChildrenList>
-										<Event Name="Play_Laser_Beam" ID="{F1B48984-047C-4520-BCC8-BDF77F7DE6BE}">
+										<Event Name="Event_Laser_Beam" ID="{F1B48984-047C-4520-BCC8-BDF77F7DE6BE}">
 											<ChildrenList>
 												<Action Name="" ID="{368815AD-AC0B-4C19-9649-3CEC69F2ED39}" ShortID="618582160">
 													<ReferenceList>
@@ -124,7 +124,7 @@
 						</Folder>
 						<Folder Name="FTPS" ID="{FD3F6F9F-C1C8-4BC7-8E7C-62F7DE33D63B}" ShortID="981069562">
 							<ChildrenList>
-								<Event Name="Play_FTPS_Switch" ID="{15B37050-9321-48B3-AF32-AD69C00DF836}">
+								<Event Name="Event_FTPS" ID="{15B37050-9321-48B3-AF32-AD69C00DF836}">
 									<ChildrenList>
 										<Action Name="" ID="{A461BACB-E160-4659-854A-8C6CCBB8A95E}" ShortID="976817170">
 											<ReferenceList>
@@ -145,7 +145,7 @@
 							<ChildrenList>
 								<Folder Name="Acid" ID="{CB9F4081-86D4-4536-8A75-C5E8128F9CBB}" ShortID="1068887577">
 									<ChildrenList>
-										<Event Name="Play_Amb_LP_Acid_Cascad_01__Anger_V3" ID="{9CECD77E-A978-45D1-B12B-5B65479AB4D8}">
+										<Event Name="Event_AcidCascad" ID="{9CECD77E-A978-45D1-B12B-5B65479AB4D8}">
 											<ChildrenList>
 												<Action Name="" ID="{B50843B5-CBCB-4BF0-B335-210FE8D23477}" ShortID="285983676">
 													<ReferenceList>
@@ -156,7 +156,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Play_Acid_Burn_RND" ID="{D06702FF-8831-4F63-87EF-A17C25324091}">
+										<Event Name="Event_AcidBurn" ID="{D06702FF-8831-4F63-87EF-A17C25324091}">
 											<ChildrenList>
 												<Action Name="" ID="{34C240BB-9098-4CFA-AB3D-E664657B98AA}" ShortID="261005694">
 													<ReferenceList>
@@ -167,7 +167,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Play_Amb_LP_AcidFlow_01_Anger_V2" ID="{B6C99268-D85F-48FF-9DBA-FBA880BBC13D}">
+										<Event Name="Event_AcidFlow" ID="{B6C99268-D85F-48FF-9DBA-FBA880BBC13D}">
 											<ChildrenList>
 												<Action Name="" ID="{C51FC484-BA7E-4922-B8DA-41DF54421913}" ShortID="241711118">
 													<ReferenceList>
@@ -182,7 +182,7 @@
 								</Folder>
 								<Folder Name="Animal" ID="{47D526AA-7169-4D66-BF75-F69FA009AC09}" ShortID="119963362">
 									<ChildrenList>
-										<Event Name="Play_Small_Animal_Run_On_Pipe_RND" ID="{6AFC6053-C056-46CE-B494-B01C3171307A}">
+										<Event Name="Event_SmallAnimalRunOnPipe" ID="{6AFC6053-C056-46CE-B494-B01C3171307A}">
 											<ChildrenList>
 												<Action Name="" ID="{F82E3616-1A3D-4601-A272-7F87173E9DE1}" ShortID="775483840">
 													<ReferenceList>
@@ -193,7 +193,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Play_Small_Animal_Run_Away_RND" ID="{7CA1FC7F-95E3-40B5-BC6D-4775B12CA2A9}">
+										<Event Name="Event_SmallAnimalRunAway" ID="{7CA1FC7F-95E3-40B5-BC6D-4775B12CA2A9}">
 											<ChildrenList>
 												<Action Name="" ID="{829260A0-3CE7-438B-A1CD-D712F2F76288}" ShortID="289619216">
 													<ReferenceList>
@@ -204,7 +204,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Play_Small_Animal_Run_In_Pipe_RND" ID="{336F1B0C-6E80-478F-B852-944C06B1D63A}">
+										<Event Name="Event_SmallAnimalRunInPipe" ID="{336F1B0C-6E80-478F-B852-944C06B1D63A}">
 											<ChildrenList>
 												<Action Name="" ID="{BB8186BC-F4C0-4C7F-A843-595972A691B9}" ShortID="333196031">
 													<ReferenceList>
@@ -219,7 +219,7 @@
 								</Folder>
 								<Folder Name="General" ID="{D7422071-AE00-46DF-A9FF-187B2CBC3C18}" ShortID="270075256">
 									<ChildrenList>
-										<Event Name="Play_Amb_LP_Generalambient_03_Anger_V1" ID="{506323C3-EBB3-43F8-A00B-D52422DE193C}">
+										<Event Name="Event_Generalambient" ID="{506323C3-EBB3-43F8-A00B-D52422DE193C}">
 											<ChildrenList>
 												<Action Name="" ID="{8DC38C5C-16D9-4ACA-B730-E5BE68EC284A}" ShortID="1067984297">
 													<ReferenceList>
@@ -234,7 +234,7 @@
 								</Folder>
 								<Folder Name="Metal" ID="{45F9050E-FBCB-4589-8ADB-C7A2D91CAE71}" ShortID="178376947">
 									<ChildrenList>
-										<Event Name="Play_Metal_Slam_RND" ID="{3EC97F90-8DC3-488D-9F11-734C12D0B777}">
+										<Event Name="Event_MetalSlam" ID="{3EC97F90-8DC3-488D-9F11-734C12D0B777}">
 											<ChildrenList>
 												<Action Name="" ID="{1E045611-F544-4342-B3E4-003CE3D09A8C}" ShortID="907299685">
 													<ReferenceList>
@@ -245,7 +245,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Play_Chain_Sound_RND" ID="{9E204E7B-ED38-4840-84C2-233A129169F5}">
+										<Event Name="Event_ChainSound" ID="{9E204E7B-ED38-4840-84C2-233A129169F5}">
 											<ChildrenList>
 												<Action Name="" ID="{CE6C47DE-551A-4501-9B5B-63D86892E3E5}" ShortID="398489218">
 													<ReferenceList>
@@ -256,7 +256,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Play_Door_Slam_RND" ID="{69A2596B-4BAC-40BB-8129-7D6DE554BAB2}">
+										<Event Name="Event_DoorSlam" ID="{69A2596B-4BAC-40BB-8129-7D6DE554BAB2}">
 											<ChildrenList>
 												<Action Name="" ID="{1AD06DDA-C12D-4F63-9F99-73E5D393CD88}" ShortID="932263093">
 													<ReferenceList>
@@ -267,7 +267,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Play_Metal_Crakles_RND" ID="{212335FE-367A-420A-B0EC-D6D4284E04CF}">
+										<Event Name="Event_MetalCrakles" ID="{212335FE-367A-420A-B0EC-D6D4284E04CF}">
 											<ChildrenList>
 												<Action Name="" ID="{138F6536-369C-4BA8-89BA-389CEB82543B}" ShortID="880101881">
 													<ReferenceList>
@@ -282,7 +282,7 @@
 								</Folder>
 								<Folder Name="Voices" ID="{6B9AF06D-6EB1-4A6E-830A-8FD002CFBAD6}" ShortID="912728728">
 									<ChildrenList>
-										<Event Name="Play_Groaning_Prisoner_RND" ID="{FC28DCDC-6A48-4D9F-AA36-56A24AA48A71}">
+										<Event Name="Event_GroaningPrisoner" ID="{FC28DCDC-6A48-4D9F-AA36-56A24AA48A71}">
 											<ChildrenList>
 												<Action Name="" ID="{279978D3-CF50-4BAB-B48F-C9003A0574FB}" ShortID="712690063">
 													<ReferenceList>
@@ -293,7 +293,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Play_Loud_Scream_RND" ID="{BC7048F1-5CDE-4377-AE48-FCE261B2ABDB}">
+										<Event Name="Event_LoudScream" ID="{BC7048F1-5CDE-4377-AE48-FCE261B2ABDB}">
 											<ChildrenList>
 												<Action Name="" ID="{C227730D-B9BC-436A-840E-DE7BCE06964A}" ShortID="845474577">
 													<ReferenceList>
@@ -306,7 +306,7 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
-								<Event Name="Play_Drop_Of_Blood_RND" ID="{C23957F2-6BF6-4C35-B8FE-EA5AF883B66C}">
+								<Event Name="Event_DropOfBlood" ID="{C23957F2-6BF6-4C35-B8FE-EA5AF883B66C}">
 									<ChildrenList>
 										<Action Name="" ID="{FB7EB6DB-BCF9-46D0-8A8B-B41D65D70E1C}" ShortID="399392774">
 											<ReferenceList>
@@ -317,7 +317,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_Stone_Fall_RND" ID="{B45CB74B-09F5-4D57-BF51-498CBDCC493B}">
+								<Event Name="Event_StoneFall" ID="{B45CB74B-09F5-4D57-BF51-498CBDCC493B}">
 									<ChildrenList>
 										<Action Name="" ID="{5BE5BEFA-44DF-42D0-8C24-78BEA04590F8}" ShortID="865481954">
 											<ReferenceList>
