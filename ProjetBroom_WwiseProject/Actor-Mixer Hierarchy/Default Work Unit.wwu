@@ -12159,7 +12159,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Player_OS_FootstepBones_01_LeBozec_v1" ID="{29F435C5-C281-4AD4-8A11-50CE39A5FAC3}" ShortID="692207907">
+												<RandomSequenceContainer Name="FTPS_Bones_RND" ID="{E941B0E4-FBD9-4BFE-A18B-7E5F70A2062B}" ShortID="106949911">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -12168,25 +12168,8 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_OS_FootstepBones_01_LeBozec_v1" ID="{150C4859-AB7F-4B49-898F-506F818DE394}">
-															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="1.83837130295763"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="1.83837130295763"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>Player_OS_FootstepBones_01_LeBozec_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="276355796"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_FootstepBones_01_LeBozec_v1" ID="{150C4859-AB7F-4B49-898F-506F818DE394}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_OS_FootstepGrass_01_LeBozec_v1" ID="{12F98C52-FF7F-4900-A2D8-3353D3359E0B}" ShortID="227606594">
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="FTPS_Grass_RND" ID="{1F91A52C-1C21-4E32-B8F6-A6BC1EF7215F}" ShortID="250447623">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -12195,20 +12178,8 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_OS_FootstepGrass_01_LeBozec_v1" ID="{E2503D17-8C9D-4B7F-A08B-06811DC28381}">
-															<Language>SFX</Language>
-															<AudioFile>Player_OS_FootstepGrass_01_LeBozec_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="825000866"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_FootstepGrass_01_LeBozec_v1" ID="{E2503D17-8C9D-4B7F-A08B-06811DC28381}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{AC60E22A-B543-4DFD-8475-C7E71AEFBD2C}" ShortID="911939859">
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="FTPS_Marble_RND" ID="{5FF2A40C-C831-422C-8298-74965CCDDA7D}" ShortID="342021109">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -12217,20 +12188,8 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{51F86542-E3EB-4FF1-BD4A-222144CA4280}">
-															<Language>SFX</Language>
-															<AudioFile>Player_OS_FootstepWood_01_LeBozec_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="75625254"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{51F86542-E3EB-4FF1-BD4A-222144CA4280}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_OS_FootstepMarble_01_LeBozec_v1" ID="{3E36A6CD-B102-40E8-8273-B5C0147D9FC8}" ShortID="151202853">
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="FTPS_Wood_RND" ID="{E4CAC13D-0C78-4672-A36C-22C1D2678308}" ShortID="1015953787">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -12239,20 +12198,8 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_OS_FootstepMarble_01_LeBozec_v1" ID="{AC5DF6FA-5229-45C2-82A4-1FEE4EF5D054}">
-															<Language>SFX</Language>
-															<AudioFile>Player_OS_FootstepMarble_01_LeBozec_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="625421372"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_FootstepMarble_01_LeBozec_v1" ID="{AC5DF6FA-5229-45C2-82A4-1FEE4EF5D054}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_OS_FootstepRock_01_LeBozec_v1" ID="{E1508419-782A-4851-91F7-E836DA57B598}" ShortID="454045916">
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="FTPS_Dirt_RND" ID="{EB664AA9-DFE5-4BD6-8CFF-8F241548E633}" ShortID="1024670368">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -12261,67 +12208,68 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_OS_FootstepRock_01_LeBozec_v1" ID="{B4D9DCEF-046A-49CF-9A5B-6998BCFCA743}">
-															<Language>SFX</Language>
-															<AudioFile>Player_OS_FootstepRock_01_LeBozec_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="860722888"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_FootstepRock_01_LeBozec_v1" ID="{B4D9DCEF-046A-49CF-9A5B-6998BCFCA743}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="FTPS_Rock_RND" ID="{6B29EFEA-0041-4299-AE0D-D13007B95F72}" ShortID="506401561">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="Player_OS_FootstepRock_01_LeBozec_v1" ID="{E1508419-782A-4851-91F7-E836DA57B598}"/>
+														<ItemRef Name="FTPS_Marble_RND" ID="{5FF2A40C-C831-422C-8298-74965CCDDA7D}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{AC60E22A-B543-4DFD-8475-C7E71AEFBD2C}"/>
+														<ItemRef Name="FTPS_Grass_RND" ID="{1F91A52C-1C21-4E32-B8F6-A6BC1EF7215F}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Player_OS_FootstepGrass_01_LeBozec_v1" ID="{12F98C52-FF7F-4900-A2D8-3353D3359E0B}"/>
+														<ItemRef Name="FTPS_Wood_RND" ID="{E4CAC13D-0C78-4672-A36C-22C1D2678308}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Player_OS_FootstepBones_01_LeBozec_v1" ID="{29F435C5-C281-4AD4-8A11-50CE39A5FAC3}"/>
+														<ItemRef Name="FTPS_Dirt_RND" ID="{EB664AA9-DFE5-4BD6-8CFF-8F241548E633}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Player_OS_FootstepMarble_01_LeBozec_v1" ID="{3E36A6CD-B102-40E8-8273-B5C0147D9FC8}"/>
+														<ItemRef Name="FTPS_Bones_RND" ID="{E941B0E4-FBD9-4BFE-A18B-7E5F70A2062B}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="FTPS_Rock_RND" ID="{6B29EFEA-0041-4299-AE0D-D13007B95F72}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>
 													<Grouping>
 														<SwitchRef Name="Marble" ID="{26008F53-70C5-4250-94E4-85ADD5226647}"/>
 														<ItemList>
-															<ItemRef Name="Player_OS_FootstepMarble_01_LeBozec_v1" ID="{3E36A6CD-B102-40E8-8273-B5C0147D9FC8}"/>
+															<ItemRef Name="FTPS_Marble_RND" ID="{5FF2A40C-C831-422C-8298-74965CCDDA7D}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
 														<SwitchRef Name="Rock" ID="{9B9060B1-E708-451D-A47A-B7BDBAEB466B}"/>
 														<ItemList>
-															<ItemRef Name="Player_OS_FootstepRock_01_LeBozec_v1" ID="{E1508419-782A-4851-91F7-E836DA57B598}"/>
+															<ItemRef Name="FTPS_Rock_RND" ID="{6B29EFEA-0041-4299-AE0D-D13007B95F72}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
 														<SwitchRef Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
 														<ItemList>
-															<ItemRef Name="Player_OS_FootstepBones_01_LeBozec_v1" ID="{29F435C5-C281-4AD4-8A11-50CE39A5FAC3}"/>
+															<ItemRef Name="FTPS_Bones_RND" ID="{E941B0E4-FBD9-4BFE-A18B-7E5F70A2062B}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
 														<SwitchRef Name="Grass" ID="{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}"/>
 														<ItemList>
-															<ItemRef Name="Player_OS_FootstepGrass_01_LeBozec_v1" ID="{12F98C52-FF7F-4900-A2D8-3353D3359E0B}"/>
+															<ItemRef Name="FTPS_Grass_RND" ID="{1F91A52C-1C21-4E32-B8F6-A6BC1EF7215F}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
 														<SwitchRef Name="Wood" ID="{C46FAED0-B41E-4EE9-9947-400381ADF4E9}"/>
 														<ItemList>
-															<ItemRef Name="Player_OS_FootstepWood_01_LeBozec_v1" ID="{AC60E22A-B543-4DFD-8475-C7E71AEFBD2C}"/>
+															<ItemRef Name="FTPS_Wood_RND" ID="{E4CAC13D-0C78-4672-A36C-22C1D2678308}"/>
 														</ItemList>
 													</Grouping>
 												</GroupingList>
