@@ -162,6 +162,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="HitMaterials" ID="{B5ECF495-4440-4D67-97A1-C296D7A5B22F}" ShortID="416291621">
+							<ChildrenList>
+								<Event Name="Event_Play_MaterialHit" ID="{0CA7DACA-CEE3-47DD-ABBB-FF2BBDA63BC6}">
+									<ChildrenList>
+										<Action Name="" ID="{DDD2A0DE-E61E-4026-9431-4DC300C2CA49}" ShortID="672415515">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HitMaterials_Switch" ID="{60A4AE27-18ED-49E5-B94E-D119E46C3555}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Level" ID="{31E239D9-DA48-443A-9DB4-47AB46FB7CE7}" ShortID="325022143">
