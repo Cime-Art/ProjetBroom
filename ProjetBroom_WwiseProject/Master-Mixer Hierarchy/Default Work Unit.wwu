@@ -118,13 +118,17 @@
 											<StateInfo>
 												<StateGroupList>
 													<StateGroupInfo>
-														<StateGroupRef Name="In_Out" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
+														<StateGroupRef Name="State_Gate" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
 													</StateGroupInfo>
 												</StateGroupList>
 												<CustomStateList>
 													<CustomState>
-														<StateRef Name="In" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
+														<StateRef Name="In_Barn" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
 														<CustomState Name="" ID="{6C17EFDD-C773-4D42-BCBE-6DBBE291E755}" ShortID="275164984"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="In_Kitchen" ID="{D0B086CF-5F0F-4B67-83DB-4E500E5AD494}"/>
+														<CustomState Name="" ID="{A0B515F3-0195-4B4D-A33C-C562D28AA777}" ShortID="814649244"/>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
@@ -146,17 +150,21 @@
 											<StateInfo>
 												<StateGroupList>
 													<StateGroupInfo>
-														<StateGroupRef Name="In_Out" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
+														<StateGroupRef Name="State_Gate" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
 													</StateGroupInfo>
 												</StateGroupList>
 												<CustomStateList>
 													<CustomState>
-														<StateRef Name="In" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
+														<StateRef Name="In_Barn" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
 														<CustomState Name="" ID="{2BD13C4A-E9B5-4857-9D71-90D10321BFBF}" ShortID="110557687">
 															<PropertyList>
 																<Property Name="BusVolume" Type="Real64" Value="-108"/>
 															</PropertyList>
 														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="In_Kitchen" ID="{D0B086CF-5F0F-4B67-83DB-4E500E5AD494}"/>
+														<CustomState Name="" ID="{E96E74B5-D5C3-4127-A9D7-67460BEBB5B4}" ShortID="666352694"/>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
