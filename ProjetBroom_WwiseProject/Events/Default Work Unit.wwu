@@ -15,7 +15,7 @@
 												<Action Name="" ID="{BEF101FA-5FAB-4C4B-A592-D261204ACAFD}" ShortID="459978055">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Cast Poison" ID="{D8B9BB3F-76AC-446F-A8B1-F744CA31389C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+															<ObjectRef Name="PreCast_Spell_Poison" ID="{D8B9BB3F-76AC-446F-A8B1-F744CA31389C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -26,7 +26,7 @@
 												<Action Name="" ID="{8C42A481-34B9-4A38-85B8-45E2126B6517}" ShortID="231322182">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Poisoning_Zone" ID="{EE89BDD5-89E0-4CD3-8FAE-290B425A168B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+															<ObjectRef Name="Cast_Spell_Poison" ID="{EE89BDD5-89E0-4CD3-8FAE-290B425A168B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -41,7 +41,7 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Cast Poison" ID="{D8B9BB3F-76AC-446F-A8B1-F744CA31389C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+															<ObjectRef Name="PreCast_Spell_Poison" ID="{D8B9BB3F-76AC-446F-A8B1-F744CA31389C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -66,38 +66,37 @@
 								</Folder>
 								<Folder Name="Water" ID="{9738FF7D-C67C-4570-A59C-A37512FD480B}" ShortID="569093535">
 									<ChildrenList>
-										<Event Name="Event_PreCast_Water" ID="{CE56FD6F-9FB1-4138-976D-FFF444134B61}">
+										<Event Name="Event_Cast_Spell_Water" ID="{0068368A-D4C6-4056-8735-4262E1EE6A4C}">
 											<ChildrenList>
-												<Action Name="" ID="{911D6491-BACB-4E00-870B-6EBC3289634B}" ShortID="633837362">
+												<Action Name="" ID="{50153397-83B2-4905-8BF0-07FC0409DD1A}" ShortID="137254695">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Cast Water" ID="{9D4EB83B-275F-4617-BD22-5377FEA3D2CF}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+															<ObjectRef Name="Cast_Spell_Water" ID="{FA13B5AE-EA3D-4860-998B-78521A5EC132}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Event_Cast_Water" ID="{CE78BC33-553F-4834-8AA2-D27963605A11}">
+										<Event Name="Event_PreCast_Spell_Water" ID="{C53C4F50-AC5C-4C5F-8E37-E2ADFAF35EBF}">
 											<ChildrenList>
-												<Action Name="" ID="{6254E183-D63A-45AC-8F35-1602EF18450F}" ShortID="622294090">
+												<Action Name="" ID="{6B42C41D-BF17-4985-A6A9-C610BBFD6CFF}" ShortID="748088253">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="OS_ImpactSpellWater_GOICO_01_v2" ID="{FA13B5AE-EA3D-4860-998B-78521A5EC132}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+															<ObjectRef Name="PreCast_Spell_Water" ID="{9D4EB83B-275F-4617-BD22-5377FEA3D2CF}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Stop_Precat_Water" ID="{0335AA83-73BE-4E3C-9AEF-643CB4086EA7}">
+										<Event Name="Stop_PreCast_Spell_Water" ID="{51955BF9-3ED0-4F1C-9AD2-1FBC1C40108B}">
 											<ChildrenList>
-												<Action Name="" ID="{1349473D-A2BF-4B8E-A5A5-8924905BAFB8}" ShortID="853121028">
+												<Action Name="" ID="{B271F536-3344-4670-9273-1D75BE8B2548}" ShortID="662994989">
 													<PropertyList>
 														<Property Name="ActionType" Type="int16" Value="2"/>
-														<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Cast Water" ID="{9D4EB83B-275F-4617-BD22-5377FEA3D2CF}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+															<ObjectRef Name="PreCast_Spell_Water" ID="{9D4EB83B-275F-4617-BD22-5377FEA3D2CF}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -107,7 +106,7 @@
 								</Folder>
 								<Folder Name="Laser_Sponge" ID="{66377A04-F655-4AF3-9231-84636091621A}" ShortID="1016645182">
 									<ChildrenList>
-										<Event Name="Event_Laser_Beam" ID="{F1B48984-047C-4520-BCC8-BDF77F7DE6BE}">
+										<Event Name="Event_Cast_Laser" ID="{F1B48984-047C-4520-BCC8-BDF77F7DE6BE}">
 											<ChildrenList>
 												<Action Name="" ID="{368815AD-AC0B-4C19-9649-3CEC69F2ED39}" ShortID="618582160">
 													<ReferenceList>
@@ -118,7 +117,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Event_Play_Cast_Laser" ID="{9B2BF5CE-4600-4F94-A209-EA551CB424D9}">
+										<Event Name="Event_PreCast_Laser" ID="{9B2BF5CE-4600-4F94-A209-EA551CB424D9}">
 											<ChildrenList>
 												<Action Name="" ID="{687B3998-35A3-40EC-9353-CAB41983D2DA}" ShortID="474983927">
 													<ReferenceList>
@@ -129,7 +128,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Event_Stop_Cast_Laser" ID="{B0812FB4-D566-4113-AA35-F0DA04EDDCC5}">
+										<Event Name="Stop_PreCast_Laser" ID="{B0812FB4-D566-4113-AA35-F0DA04EDDCC5}">
 											<ChildrenList>
 												<Action Name="" ID="{7A7655E5-079B-4440-8327-BDA97A88EFB4}" ShortID="861385614">
 													<PropertyList>
@@ -170,6 +169,21 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="HitMaterials_Switch" ID="{60A4AE27-18ED-49E5-B94E-D119E46C3555}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Action" ID="{02C5C9CC-581A-4633-9AC3-FD50F6D9ACAA}" ShortID="168640285">
+							<ChildrenList>
+								<Event Name="Event_Player_Action" ID="{867F8C69-6DE8-4547-946B-D7B10521DC25}">
+									<ChildrenList>
+										<Action Name="" ID="{29BA9505-704E-4FF3-8B23-DC00B9044301}" ShortID="508155101">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Player_State" ID="{A7C07438-CDF2-4E04-9E32-CDB6BC81ABC1}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
