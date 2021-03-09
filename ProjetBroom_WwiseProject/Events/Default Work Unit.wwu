@@ -562,7 +562,7 @@
 						<Folder Name="Hell" ID="{246DE10D-6236-481E-B819-17F138DBE94D}" ShortID="241790163"/>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="HUD" ID="{47B1D365-9F37-4CF3-9E74-E281BAF228B1}" ShortID="354925204">
+				<Folder Name="HUD_Menu" ID="{47B1D365-9F37-4CF3-9E74-E281BAF228B1}" ShortID="354925204">
 					<ChildrenList>
 						<Event Name="Event_UI_PauseNegative" ID="{5585E47F-74BB-4CF2-ADC1-6FC021B1B051}">
 							<ChildrenList>
@@ -636,6 +636,21 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{2CEDBBDC-CB85-4E14-8222-C28F7310FCF3}" ShortID="881711098"/>
+				<Folder Name="HUD_Bestiaire" ID="{A65AEFFB-17BE-4A48-8AEB-B255A4055161}" ShortID="208839244">
+					<ChildrenList>
+						<Event Name="Event_UI_Book" ID="{E02A7C80-E645-4505-A72D-D4E7CBBBBFC5}">
+							<ChildrenList>
+								<Action Name="" ID="{1D776F32-24B2-4D53-B15C-3482C0AC17B0}" ShortID="62165251">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Book_RND" ID="{E81A962F-DB81-42E2-8AE4-C1904F082A5E}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
