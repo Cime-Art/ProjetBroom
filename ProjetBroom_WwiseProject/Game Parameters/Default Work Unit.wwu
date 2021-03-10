@@ -25,16 +25,6 @@
 						</GameParameter>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Spell" ID="{088931AA-4442-4839-BFCD-DC6FB9A60315}" ShortID="123666315">
-					<ChildrenList>
-						<GameParameter Name="distance_Spell" ID="{868489C7-C3CA-44AE-AA5B-E52964ED7E0A}">
-							<PropertyList>
-								<Property Name="InitialValue" Type="Real64" Value="0"/>
-								<Property Name="Max" Type="Real64" Value="700"/>
-							</PropertyList>
-						</GameParameter>
-					</ChildrenList>
-				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
