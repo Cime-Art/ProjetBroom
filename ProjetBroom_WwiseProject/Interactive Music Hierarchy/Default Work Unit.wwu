@@ -159,6 +159,12 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
+							<StingerList>
+								<MusicStinger Name="" ID="{B1100DA8-6310-4E27-B7CD-AD67C0FD4C0F}">
+									<TriggerRef Name="Stop_Crash" ID="{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}" WorkUnitID="{22563B21-8DD4-4D99-8CA7-9928C730618D}"/>
+									<SegmentRef Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{01D1E0D9-8CF9-424A-86E9-9A0578AAE2FF}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+								</MusicStinger>
+							</StingerList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{FDCFCD64-9291-4C2B-B362-DFF0D708A4E3}" ShortID="537763551">
 									<PropertyList>
@@ -182,6 +188,11 @@
 						<MusicPlaylistContainer Name="Musique Tuto Playlist" ID="{7152B11B-C572-44D6-AA23-BC06A8BAF9DD}" ShortID="332202157">
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="117"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -363,6 +374,11 @@
 										<MusicTrack Name="calme" ID="{EE05515D-F0BE-47BF-A06D-3CB0E898DF34}" ShortID="758197297">
 											<PropertyList>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -468,44 +484,6 @@
 																<Property Name="PlayAt" Type="Real64" Value="24615.4038025467"/>
 															</PropertyList>
 															<AudioSourceRef Name="militaire 2" ID="{F9D00D20-E925-459C-8721-8FC371678905}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
-										</MusicTrack>
-										<MusicTrack Name="militaire 1" ID="{25C129AD-9852-44A1-81F4-3752070F4E01}" ShortID="973725688">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="GOICO-musique-calme-percu" ID="{965062E3-167C-47B9-B0DF-C527DE333C54}">
-													<Language>SFX</Language>
-													<AudioFile>GOICO-musique-calme-percu.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="692924159"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{2C3CD14B-B5BA-431A-BB1C-E3D5ED293BF8}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{E48A5280-C6A6-4D98-BA9D-0A7BD90F497E}">
-													<ClipList>
-														<MusicClip Name="GOICO-musique-calme-percu" ID="{4BAB701B-4B0E-47AF-9AB9-7ED64253661C}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="34871.7916666667"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="GOICO-musique-calme-percu" ID="{965062E3-167C-47B9-B0DF-C527DE333C54}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -753,6 +731,12 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
+							<StingerList>
+								<MusicStinger Name="" ID="{BBC6AE91-F5F2-4BF8-92CE-E7482A062649}">
+									<TriggerRef Name="Stop_Crash" ID="{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}" WorkUnitID="{22563B21-8DD4-4D99-8CA7-9928C730618D}"/>
+									<SegmentRef Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{01D1E0D9-8CF9-424A-86E9-9A0578AAE2FF}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+								</MusicStinger>
+							</StingerList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{712AB3FD-1600-4B58-A862-CF2CCFFD8783}" ShortID="205821334">
 									<ChildrenList>
@@ -779,6 +763,125 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Stinger" ID="{B047DE97-EB2C-4FD0-86DB-5BA025A6CFFE}" ShortID="289192697">
+					<ChildrenList>
+						<MusicSegment Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{01D1E0D9-8CF9-424A-86E9-9A0578AAE2FF}" ShortID="1027996616">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>19</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7AA33A63-01D8-430B-B28C-50D5852EA33F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="38"/>
+													<Property Name="Min" Type="Real64" Value="-19"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F4A178D6-38B3-47F2-A716-81BACC8DDB93}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="22"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="OutputBusLowpass" Type="int16">
+									<ValueList>
+										<Value>36</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-39</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="RVB_crash_stop" ID="{378C0390-8212-4574-A063-4C60DB877840}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{AE599B25-A59E-472A-84A4-54769AC7A3F7}" ShortID="612474723">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{62E4A3A6-AADF-4C4B-A6C0-750AF0262FDC}">
+											<Language>SFX</Language>
+											<AudioFile>MUS_OS_CrashEventStop_01_Dambrosio_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="487484988"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6E2A3D28-7DC7-4142-94D0-FC678438FDCE}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6AB8C8A8-EDA6-48E5-B023-06CC9CD9D258}">
+											<ClipList>
+												<MusicClip Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{EAE3E391-7761-4F7D-86BE-2D48A27322B6}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="2977.95918367347"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{62E4A3A6-AADF-4C4B-A6C0-750AF0262FDC}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{FC469CC7-BC6F-4734-89DF-0A6A6F542B54}">
+									<PropertyList>
+										<Property Name="TimeMs" Type="Real64" Value="34.6507000427142"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="Exit Cue" ID="{D5549107-3491-4F64-B902-FFBB5AEAB4A4}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="34.8416214075758"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
