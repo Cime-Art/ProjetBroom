@@ -191,6 +191,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Jump" ID="{C283CB0A-F45A-40BC-9543-6909F7F3FAA7}" ShortID="484522045">
+							<ChildrenList>
+								<Event Name="Event_Land" ID="{F0D1A12A-885F-4632-AF59-27ABF26A7E59}">
+									<ChildrenList>
+										<Action Name="" ID="{D8D781BC-066D-466D-BD16-686D24EF9880}" ShortID="970428138">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Land_Switch" ID="{C97CF8B8-982A-4F0B-800E-990720D44C76}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Level" ID="{31E239D9-DA48-443A-9DB4-47AB46FB7CE7}" ShortID="325022143">
