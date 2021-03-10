@@ -13580,11 +13580,114 @@
 														<ItemRef Name="Woodcreaks_RND" ID="{42E596DE-B829-4053-BA41-02F250B5D7B0}"/>
 													</Playlist>
 												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="FTPS_HollowWood_RND" ID="{D6ECAD17-C73B-4FC1-BF57-D8F4476A0929}" ShortID="89298322">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_OS_FootstepHollowWood_01" ID="{19FA1310-E25A-4554-A5F6-2C78903C28D6}" ShortID="110548140">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_OS_FootstepHollowWood_01" ID="{0EE3A6B0-8660-4E5C-9107-975E92670364}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_OS_FootstepHollowWood_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="612576183"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_OS_FootstepHollowWood_01" ID="{0EE3A6B0-8660-4E5C-9107-975E92670364}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_OS_FootstepHollowWood_02" ID="{DCF30FB2-91A3-4367-ABF1-33951146D67B}" ShortID="78382114">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_OS_FootstepHollowWood_02" ID="{B86C03C5-4E29-47A6-A37F-8EDEE3440B34}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_OS_FootstepHollowWood_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="480732657"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_OS_FootstepHollowWood_02" ID="{B86C03C5-4E29-47A6-A37F-8EDEE3440B34}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_OS_FootstepHollowWood_03" ID="{10DEA5A9-F8E0-48A2-A858-EED0BDCC12F6}" ShortID="125933522">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_OS_FootstepHollowWood_03" ID="{61134C00-6353-4BE5-904D-EBB84DCE7969}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_OS_FootstepHollowWood_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="492389530"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_OS_FootstepHollowWood_03" ID="{61134C00-6353-4BE5-904D-EBB84DCE7969}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_OS_FootstepHollowWood_04" ID="{65FF1061-28BF-4464-94C3-C68815F0FAAF}" ShortID="289301118">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_OS_FootstepHollowWood_04" ID="{F62A4E1B-6117-4827-86AF-110A1BDA5B54}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_OS_FootstepHollowWood_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="669996436"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_OS_FootstepHollowWood_04" ID="{F62A4E1B-6117-4827-86AF-110A1BDA5B54}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
 														<ItemRef Name="FTPS_Marble_RND" ID="{5FF2A40C-C831-422C-8298-74965CCDDA7D}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="FTPS_HollowWood_RND" ID="{D6ECAD17-C73B-4FC1-BF57-D8F4476A0929}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="FTPS_Grass_RND" ID="{1F91A52C-1C21-4E32-B8F6-A6BC1EF7215F}"/>
@@ -13607,6 +13710,12 @@
 														<SwitchRef Name="Dirt" ID="{582AA115-3908-4988-A027-4CA5D944777B}"/>
 														<ItemList>
 															<ItemRef Name="FTPS_Dirt_RND" ID="{EB664AA9-DFE5-4BD6-8CFF-8F241548E633}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="HollowWood" ID="{4C39F64F-8808-49DB-962F-DAE2302BDFB2}"/>
+														<ItemList>
+															<ItemRef Name="FTPS_HollowWood_RND" ID="{D6ECAD17-C73B-4FC1-BF57-D8F4476A0929}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
