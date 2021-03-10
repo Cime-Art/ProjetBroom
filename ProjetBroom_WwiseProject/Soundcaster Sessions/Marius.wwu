@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D6A97F6A-1925-4843-924E-54F16196D436}" SchemaVersion="97">
+	<SoundcasterSessions>
+		<WorkUnit Name="Marius" ID="{D6A97F6A-1925-4843-924E-54F16196D436}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SoundcasterSession Name="test moving platform" ID="{8030EE05-ABBD-424B-9DC9-4411E00EA08B}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance" ID="{C1FB3B6B-0CEC-4F98-9EE2-487C8123E3DE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

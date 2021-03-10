@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{22563B21-8DD4-4D99-8CA7-9928C730618D}" SchemaVersion="97">
 	<Triggers>
-		<WorkUnit Name="Default Work Unit" ID="{22563B21-8DD4-4D99-8CA7-9928C730618D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{22563B21-8DD4-4D99-8CA7-9928C730618D}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Quentin" ID="{46905270-BCAB-4BE2-9E05-05E8FB756EC5}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Triggers>
 </WwiseDocument>

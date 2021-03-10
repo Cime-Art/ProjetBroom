@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3A599014-4898-415D-B39D-D52B391C7FB6}" SchemaVersion="97">
+	<SoundcasterSessions>
+		<WorkUnit Name="Este" ID="{3A599014-4898-415D-B39D-D52B391C7FB6}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SoundcasterSession Name="Tests" ID="{F3AF0858-0CC8-4AA4-B8F4-F0737ED64EA6}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Event_Boiler" ID="{21565AFE-8ACE-4627-A74C-9F9EF4B25786}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Event_FireBoiler_LP" ID="{F98DAF6A-6CE6-418F-B05D-6AD9824BEEED}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance" ID="{C1FB3B6B-0CEC-4F98-9EE2-487C8123E3DE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

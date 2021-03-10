@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1188079C-C5AE-4954-90F1-6F85E9D1D163}" SchemaVersion="97">
+	<SoundcasterSessions>
+		<WorkUnit Name="Florent" ID="{1188079C-C5AE-4954-90F1-6F85E9D1D163}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="14"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SoundcasterSession Name="snail_soundcaster" ID="{7EB06539-2EF8-433F-BAD2-BE13D30DC3E9}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance" ID="{C1FB3B6B-0CEC-4F98-9EE2-487C8123E3DE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{76DD572D-951D-4027-93F0-2C3C154AB123}"/>
+						<CurrentStateRef Name="snail_explosion_state" ID="{EAE40543-B022-4A55-A67E-4A6512A247C4}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
