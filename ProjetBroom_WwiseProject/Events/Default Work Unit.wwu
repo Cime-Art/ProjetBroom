@@ -693,7 +693,60 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Music" ID="{2CEDBBDC-CB85-4E14-8222-C28F7310FCF3}" ShortID="881711098"/>
+				<Folder Name="Music" ID="{2CEDBBDC-CB85-4E14-8222-C28F7310FCF3}" ShortID="881711098">
+					<ChildrenList>
+						<Event Name="Event_Play_Musique_Tuto_Playlist" ID="{13E5C37A-0F1D-49DF-A0D5-2143A07CEFA3}">
+							<ChildrenList>
+								<Action Name="" ID="{F3D75DA2-44D7-442F-AB54-883B57D2F7C9}" ShortID="22057562">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Musique Tuto Playlist" ID="{7152B11B-C572-44D6-AA23-BC06A8BAF9DD}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Stop_Music_Menu_Playlist" ID="{44975B61-D219-4206-B9CC-FA6E0585D70E}">
+							<ChildrenList>
+								<Action Name="" ID="{C0B7D466-2A12-4A41-A449-4ACEFF09603C}" ShortID="3767221">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music Menu Playlist" ID="{5E85781E-ED9E-4FEF-8696-8D5C0EF887EB}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Stop_Musique_Tuto_Playlist" ID="{A89C0662-10EE-4477-A981-7BA3F33AC8E4}">
+							<ChildrenList>
+								<Action Name="" ID="{06595CED-C772-41AF-9838-E5D7FADAC2AA}" ShortID="133709571">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Musique Tuto Playlist" ID="{7152B11B-C572-44D6-AA23-BC06A8BAF9DD}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Play_Music_Menu_Playlist" ID="{371C6439-B971-48DB-B334-F8486B76DECA}">
+							<ChildrenList>
+								<Action Name="" ID="{A5993473-4FDE-4C30-B1D7-3FE717268B9A}" ShortID="107659571">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music Menu Playlist" ID="{5E85781E-ED9E-4FEF-8696-8D5C0EF887EB}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="HUD_Bestiaire" ID="{A65AEFFB-17BE-4A48-8AEB-B255A4055161}" ShortID="208839244">
 					<ChildrenList>
 						<Event Name="Event_UI_Book" ID="{E02A7C80-E645-4505-A72D-D4E7CBBBBFC5}">
