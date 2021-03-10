@@ -452,6 +452,27 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{11DFBAA6-B6CE-4234-81D0-E0DFFF4D0E0F}" ShortID="96472683">
+													<PropertyList>
+														<Property Name="Delay" Type="Real64" Value="5">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{02388E16-62EB-4D2D-A891-346651BC29D4}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="5"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Birds_RND" ID="{6DAEA02D-6BEF-4306-AB32-B56A570FE1D6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 									</ChildrenList>
@@ -550,6 +571,43 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Mouse_RND" ID="{A4F6456F-E90E-4ACF-8F0D-7DFDD1EDED41}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_Insects" ID="{EE0E7337-8FA0-43EB-96AD-D6D504EB231C}">
+											<ChildrenList>
+												<Action Name="" ID="{384241DE-0C37-49B1-9683-418D113E53B5}" ShortID="58203934">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Insects_RND" ID="{1F7C5368-0E77-4A6B-BC68-E8105B402654}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_Birds" ID="{6535C61E-91A7-4568-965B-3C7D8D6BD94A}">
+											<ChildrenList>
+												<Action Name="" ID="{4C90E5BB-F748-427C-B9F1-655B01350D74}" ShortID="225067503">
+													<PropertyList>
+														<Property Name="Delay" Type="Real64" Value="5">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{9A0302A2-1EA2-490E-933D-A6845572E2B3}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="5"/>
+																			<Property Name="Min" Type="Real64" Value="-5"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Birds_RND" ID="{6DAEA02D-6BEF-4306-AB32-B56A570FE1D6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

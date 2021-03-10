@@ -6,6 +6,9 @@
 				<Folder Name="Environement" ID="{E8696055-813E-42B8-9C6F-B84CAD73D3E4}" ShortID="593504742">
 					<ChildrenList>
 						<StateGroup Name="State_Gate" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
 							<ChildrenList>
 								<State Name="None" ID="{6D47C0C6-5A10-42E8-876A-0F1F09BE2DA8}"/>
 								<State Name="In_Barn" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
