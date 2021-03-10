@@ -201,7 +201,7 @@
 						</Attenuation>
 						<Attenuation Name="Boiler_Att" ID="{85D9B5E7-C0D4-4020-A345-835D9B4FEB01}" ShortID="259471978">
 							<PropertyList>
-								<Property Name="RadiusMax" Type="Real64" Value="2000"/>
+								<Property Name="RadiusMax" Type="Real64" Value="1500"/>
 							</PropertyList>
 							<CurveUsageInfoList>
 								<VolumeDryUsage>
@@ -218,19 +218,19 @@
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>789.968666666666</XPos>
+													<XPos>592.4765</XPos>
 													<YPos>-4.5776</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>1153.60501666667</XPos>
+													<XPos>865.203762500003</XPos>
 													<YPos>-12.20726</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>2000</XPos>
+													<XPos>1500</XPos>
 													<YPos>-200</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -258,13 +258,13 @@
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>1043.88715</XPos>
+													<XPos>782.9153625</XPos>
 													<YPos>34</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>2000</XPos>
+													<XPos>1500</XPos>
 													<YPos>42</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -285,12 +285,12 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>990.595616</XPos>
+													<XPos>742.946712</XPos>
 													<YPos>20</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>2000</XPos>
+													<XPos>1500</XPos>
 													<YPos>23</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -312,12 +312,12 @@
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>793.103456</XPos>
+													<XPos>594.827592</XPos>
 													<YPos>15</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>2000</XPos>
+													<XPos>1500</XPos>
 													<YPos>15</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -338,13 +338,13 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>492.163008</XPos>
+													<XPos>369.122256</XPos>
 													<YPos>50.70423</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>2000</XPos>
+													<XPos>1500</XPos>
 													<YPos>92.95776</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -767,7 +767,7 @@
 						</Attenuation>
 						<Attenuation Name="AmnBarnATT" ID="{53999B35-31D8-4951-9515-7EBFBDFA891A}" ShortID="496138539">
 							<PropertyList>
-								<Property Name="RadiusMax" Type="Real64" Value="3000"/>
+								<Property Name="RadiusMax" Type="Real64" Value="2500"/>
 							</PropertyList>
 							<CurveUsageInfoList>
 								<VolumeDryUsage>
@@ -784,25 +784,25 @@
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>719.435766666665</XPos>
+													<XPos>599.529805555554</XPos>
 													<YPos>-2.70692</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>1951.41066666666</XPos>
+													<XPos>1626.17555555555</XPos>
 													<YPos>-14.12297</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>2619.12226666666</XPos>
+													<XPos>2182.60188888888</XPos>
 													<YPos>-200</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>3000</XPos>
+													<XPos>2500</XPos>
 													<YPos>-200</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -824,19 +824,19 @@
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>874.608166666665</XPos>
+													<XPos>728.840138888888</XPos>
 													<YPos>-6.55905</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>1810.34485</XPos>
+													<XPos>1508.62070833333</XPos>
 													<YPos>-3.24161</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>3000</XPos>
+													<XPos>2500</XPos>
 													<YPos>0</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -858,25 +858,25 @@
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>451.410666666667</XPos>
+													<XPos>376.175555555556</XPos>
 													<YPos>0</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>1758.6207</XPos>
+													<XPos>1465.51725</XPos>
 													<YPos>-9.12541</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>2539.18493333333</XPos>
+													<XPos>2115.98744444444</XPos>
 													<YPos>-200</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>3000</XPos>
+													<XPos>2500</XPos>
 													<YPos>-200</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -901,7 +901,7 @@
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>3000</XPos>
+													<XPos>2500</XPos>
 													<YPos>59</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -1353,7 +1353,7 @@
 					<ChildrenList>
 						<Attenuation Name="Spell_att" ID="{578DD8B1-7C4F-46AD-B9C0-5A876986F336}" ShortID="296117433">
 							<PropertyList>
-								<Property Name="RadiusMax" Type="Real64" Value="300"/>
+								<Property Name="RadiusMax" Type="Real64" Value="1000"/>
 							</PropertyList>
 							<CurveUsageInfoList>
 								<VolumeDryUsage>
@@ -1367,9 +1367,10 @@
 													<XPos>0</XPos>
 													<YPos>0</YPos>
 													<Flags>5</Flags>
+													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>300</XPos>
+													<XPos>1000</XPos>
 													<YPos>-200</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -1402,14 +1403,14 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>90.282132</XPos>
+													<XPos>300.94044</XPos>
 													<YPos>100</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>300</XPos>
-													<YPos>24.7541</YPos>
+													<XPos>1000</XPos>
+													<YPos>14.69823</YPos>
 													<Flags>37</Flags>
 												</Point>
 											</PointList>
