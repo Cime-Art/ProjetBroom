@@ -1318,7 +1318,7 @@
 																				</Property>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-15</Value>
+																						<Value>-28</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
@@ -12327,13 +12327,13 @@
 																				<Value>-10</Value>
 																			</ValueList>
 																			<RTPCList>
-																				<RTPC Name="" ID="{23CE78A2-4E5A-4E4F-80F7-AC4538F66D8B}" ShortID="749336622">
+																				<RTPC Name="" ID="{C0B2CE4A-9428-4BD8-AB2E-B75965827AFC}" ShortID="40960308">
 																					<ReferenceList>
 																						<Reference Name="ControlInput">
-																							<ObjectRef Name="distance_Spell" ID="{868489C7-C3CA-44AE-AA5B-E52964ED7E0A}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+																							<ObjectRef Name="spell_distance" ID="{D9568FC2-08F0-4CF8-BE44-34EEF3822A5F}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
 																						</Reference>
 																					</ReferenceList>
-																					<Curve Name="" ID="{71199B4C-2832-43F1-A6A8-C9A555829E65}">
+																					<Curve Name="" ID="{0919E64F-71F8-4956-BB3E-60D442373F96}">
 																						<PropertyList>
 																							<Property Name="Flags" Type="int32" Value="3"/>
 																						</PropertyList>
@@ -12342,13 +12342,7 @@
 																								<XPos>0</XPos>
 																								<YPos>0</YPos>
 																								<Flags>5</Flags>
-																								<SegmentShape>Exp1</SegmentShape>
-																							</Point>
-																							<Point>
-																								<XPos>100</XPos>
-																								<YPos>0</YPos>
-																								<Flags>0</Flags>
-																								<SegmentShape>Exp1</SegmentShape>
+																								<SegmentShape>Exp2</SegmentShape>
 																							</Point>
 																							<Point>
 																								<XPos>700</XPos>
@@ -12492,13 +12486,13 @@
 																				<Value>-9</Value>
 																			</ValueList>
 																			<RTPCList>
-																				<RTPC Name="" ID="{555E3F2A-D1CE-4EB4-952B-97BC5F3223F8}" ShortID="727599662">
+																				<RTPC Name="" ID="{C1C6C342-2A9D-448A-8993-E2178587D9A3}" ShortID="461608528">
 																					<ReferenceList>
 																						<Reference Name="ControlInput">
-																							<ObjectRef Name="distance_Spell" ID="{868489C7-C3CA-44AE-AA5B-E52964ED7E0A}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+																							<ObjectRef Name="spell_distance" ID="{D9568FC2-08F0-4CF8-BE44-34EEF3822A5F}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
 																						</Reference>
 																					</ReferenceList>
-																					<Curve Name="" ID="{E850CAC9-7F28-4505-B914-535DF4960FC7}">
+																					<Curve Name="" ID="{AAEB1A91-1DDF-432F-AD46-73751814999E}">
 																						<PropertyList>
 																							<Property Name="Flags" Type="int32" Value="3"/>
 																						</PropertyList>
@@ -12507,12 +12501,6 @@
 																								<XPos>0</XPos>
 																								<YPos>0</YPos>
 																								<Flags>5</Flags>
-																								<SegmentShape>Exp1</SegmentShape>
-																							</Point>
-																							<Point>
-																								<XPos>100</XPos>
-																								<YPos>0</YPos>
-																								<Flags>0</Flags>
 																								<SegmentShape>Exp1</SegmentShape>
 																							</Point>
 																							<Point>
