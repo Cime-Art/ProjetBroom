@@ -191,6 +191,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Jump" ID="{C283CB0A-F45A-40BC-9543-6909F7F3FAA7}" ShortID="484522045">
+							<ChildrenList>
+								<Event Name="Event_Land" ID="{F0D1A12A-885F-4632-AF59-27ABF26A7E59}">
+									<ChildrenList>
+										<Action Name="" ID="{D8D781BC-066D-466D-BD16-686D24EF9880}" ShortID="970428138">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Land_Switch" ID="{C97CF8B8-982A-4F0B-800E-990720D44C76}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Level" ID="{31E239D9-DA48-443A-9DB4-47AB46FB7CE7}" ShortID="325022143">
@@ -698,6 +713,10 @@
 						<Event Name="Event_Play_Musique_Tuto_Playlist" ID="{13E5C37A-0F1D-49DF-A0D5-2143A07CEFA3}">
 							<ChildrenList>
 								<Action Name="" ID="{F3D75DA2-44D7-442F-AB54-883B57D2F7C9}" ShortID="22057562">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Musique Tuto Playlist" ID="{7152B11B-C572-44D6-AA23-BC06A8BAF9DD}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
@@ -711,10 +730,22 @@
 								<Action Name="" ID="{C0B7D466-2A12-4A41-A449-4ACEFF09603C}" ShortID="3767221">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="8"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Music Menu Playlist" ID="{5E85781E-ED9E-4FEF-8696-8D5C0EF887EB}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{384E682A-FFC4-4FEA-B8AE-2778EC6110F5}" ShortID="130312825">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stop_Crash" ID="{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}" WorkUnitID="{22563B21-8DD4-4D99-8CA7-9928C730618D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -725,10 +756,22 @@
 								<Action Name="" ID="{06595CED-C772-41AF-9838-E5D7FADAC2AA}" ShortID="133709571">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="8"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.8"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Musique Tuto Playlist" ID="{7152B11B-C572-44D6-AA23-BC06A8BAF9DD}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2E996575-7E0E-4173-98B7-DD868C7AAA9A}" ShortID="164354724">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stop_Crash" ID="{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}" WorkUnitID="{22563B21-8DD4-4D99-8CA7-9928C730618D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -737,6 +780,9 @@
 						<Event Name="Event_Play_Music_Menu_Playlist" ID="{371C6439-B971-48DB-B334-F8486B76DECA}">
 							<ChildrenList>
 								<Action Name="" ID="{A5993473-4FDE-4C30-B1D7-3FE717268B9A}" ShortID="107659571">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Music Menu Playlist" ID="{5E85781E-ED9E-4FEF-8696-8D5C0EF887EB}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>

@@ -14,6 +14,7 @@
 								<Switch Name="Rock" ID="{9B9060B1-E708-451D-A47A-B7BDBAEB466B}"/>
 								<Switch Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
 								<Switch Name="Dirt" ID="{582AA115-3908-4988-A027-4CA5D944777B}"/>
+								<Switch Name="HollowWood" ID="{4C39F64F-8808-49DB-962F-DAE2302BDFB2}"/>
 							</ChildrenList>
 						</SwitchGroup>
 						<SwitchGroup Name="Hit_Materials_Switch" ID="{3A57482F-BD07-4C9B-AEE9-015021B95BB8}">
