@@ -14462,6 +14462,13 @@
 				<Folder Name="UI" ID="{7C37E2D6-8DAE-4D60-8EB8-6BE217F31211}" ShortID="923036066">
 					<ChildrenList>
 						<ActorMixer Name="UI_MEnu_Mix" ID="{FF50FE8F-8D87-4214-97D7-D1D0FF278D93}" ShortID="576610692">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -14794,6 +14801,50 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="UI_Closebook" ID="{36F8468B-00F3-42DB-964D-5CD1F3A07ABE}" ShortID="455491136">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OS_CloseBook_Bestiary_01_Dambrosio_V1" ID="{BCA5B1ED-DE29-442D-8598-F0138A9A36D6}">
+											<Language>SFX</Language>
+											<AudioFile>UI_OS_CloseBook_Bestiary_01_Dambrosio_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="650919557"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OS_CloseBook_Bestiary_01_Dambrosio_V1" ID="{BCA5B1ED-DE29-442D-8598-F0138A9A36D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI_OpenBook" ID="{2099E5DD-71B5-49B5-AC6E-88A42B8AAB2A}" ShortID="260843454">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OS_OpenBook_Bestiary_01_Dambrosio_V1" ID="{D5193BAF-46A6-448A-91B3-F297AAB3AC37}">
+											<Language>SFX</Language>
+											<AudioFile>UI_OS_OpenBook_Bestiary_01_Dambrosio_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="155230035"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OS_OpenBook_Bestiary_01_Dambrosio_V1" ID="{D5193BAF-46A6-448A-91B3-F297AAB3AC37}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
