@@ -1310,6 +1310,11 @@
 																		<BlendContainer Name="Wind_Blend" ID="{2939C4E3-68B4-4427-937A-2420FE4F76F0}" ShortID="751858465">
 																			<PropertyList>
 																				<Property Name="BlendBehavior" Type="int16" Value="1"/>
+																				<Property Name="Inclusion" Type="bool">
+																					<ValueList>
+																						<Value>False</Value>
+																					</ValueList>
+																				</Property>
 																				<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 																				<Property Name="MaxSoundPerInstance" Type="int16">
 																					<ValueList>
@@ -4464,189 +4469,6 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<Sound Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{3CB08984-AF63-4EA1-873C-996A0CB8A527}" ShortID="411868436">
-																	<PropertyList>
-																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
-																	</PropertyList>
-																	<ReferenceList>
-																		<Reference Name="Attenuation">
-																			<Custom CreatedFrom="{07920A1D-5CF8-4DA1-A56A-FA825A3276A2}">
-																				<Attenuation Name="Distance_Acid (Custom)" ID="{88B81AA2-3B38-48AB-B9D5-75FBB8F8111D}" ShortID="671943588">
-																					<PropertyList>
-																						<Property Name="ConeInnerAngle" Type="int32" Value="160"/>
-																						<Property Name="ConeOuterAngle" Type="int32" Value="250"/>
-																						<Property Name="ConeUse" Type="bool">
-																							<ValueList>
-																								<Value>True</Value>
-																							</ValueList>
-																						</Property>
-																						<Property Name="RadiusMax" Type="Real64" Value="1800"/>
-																					</PropertyList>
-																					<CurveUsageInfoList>
-																						<VolumeDryUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																								<Curve Name="VolumeDry" ID="{CDA1F66A-FFBF-4DCA-B543-8BC05D2DA941}">
-																									<PropertyList>
-																										<Property Name="Flags" Type="int32" Value="3"/>
-																									</PropertyList>
-																									<PointList>
-																										<Point>
-																											<XPos>0</XPos>
-																											<YPos>0</YPos>
-																											<Flags>5</Flags>
-																										</Point>
-																										<Point>
-																											<XPos>1800</XPos>
-																											<YPos>-50</YPos>
-																											<Flags>37</Flags>
-																										</Point>
-																									</PointList>
-																								</Curve>
-																							</CurveUsageInfo>
-																						</VolumeDryUsage>
-																						<VolumeWetGameUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																						</VolumeWetGameUsage>
-																						<VolumeWetUserUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
-																								<Curve Name="VolumeWetUser" ID="{3B79EAB5-6E06-476B-A70C-A570116A5B42}">
-																									<PropertyList>
-																										<Property Name="Flags" Type="int32" Value="3"/>
-																									</PropertyList>
-																									<PointList>
-																										<Point>
-																											<XPos>0</XPos>
-																											<YPos>0</YPos>
-																											<Flags>5</Flags>
-																										</Point>
-																										<Point>
-																											<XPos>1068.75</XPos>
-																											<YPos>-7.62551</YPos>
-																											<Flags>0</Flags>
-																										</Point>
-																										<Point>
-																											<XPos>1800</XPos>
-																											<YPos>-50</YPos>
-																											<Flags>37</Flags>
-																										</Point>
-																									</PointList>
-																								</Curve>
-																							</CurveUsageInfo>
-																						</VolumeWetUserUsage>
-																						<LowPassFilterUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																								<Curve Name="LowPassFilter" ID="{57CB4E7E-1A73-495A-A981-677470DBBF17}">
-																									<PropertyList>
-																										<Property Name="Flags" Type="int32" Value="65537"/>
-																									</PropertyList>
-																									<PointList>
-																										<Point>
-																											<XPos>0</XPos>
-																											<YPos>0</YPos>
-																											<Flags>5</Flags>
-																											<SegmentShape>Exp1</SegmentShape>
-																										</Point>
-																										<Point>
-																											<XPos>1800</XPos>
-																											<YPos>61</YPos>
-																											<Flags>37</Flags>
-																										</Point>
-																									</PointList>
-																								</Curve>
-																							</CurveUsageInfo>
-																						</LowPassFilterUsage>
-																						<HighPassFilterUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="None">
-																								<Curve Name="HighPassFilter" ID="{0041E20A-A345-426A-9998-E6C9073838FF}">
-																									<PropertyList>
-																										<Property Name="Flags" Type="int32" Value="65537"/>
-																									</PropertyList>
-																									<PointList>
-																										<Point>
-																											<XPos>0</XPos>
-																											<YPos>0</YPos>
-																											<Flags>5</Flags>
-																										</Point>
-																										<Point>
-																											<XPos>1800</XPos>
-																											<YPos>100</YPos>
-																											<Flags>37</Flags>
-																										</Point>
-																									</PointList>
-																								</Curve>
-																							</CurveUsageInfo>
-																						</HighPassFilterUsage>
-																						<SpreadUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																								<Curve Name="Spread" ID="{F0C761FA-23C9-4182-B53E-503A9E8F02C8}">
-																									<PropertyList>
-																										<Property Name="Flags" Type="int32" Value="1"/>
-																									</PropertyList>
-																									<PointList>
-																										<Point>
-																											<XPos>0</XPos>
-																											<YPos>100</YPos>
-																											<Flags>5</Flags>
-																										</Point>
-																										<Point>
-																											<XPos>1077.21394875</XPos>
-																											<YPos>90.0552</YPos>
-																											<Flags>0</Flags>
-																										</Point>
-																										<Point>
-																											<XPos>1800</XPos>
-																											<YPos>6.07729</YPos>
-																											<Flags>37</Flags>
-																										</Point>
-																									</PointList>
-																								</Curve>
-																							</CurveUsageInfo>
-																						</SpreadUsage>
-																						<FocusUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																						</FocusUsage>
-																					</CurveUsageInfoList>
-																				</Attenuation>
-																			</Custom>
-																		</Reference>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend0">
-																			<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend1">
-																			<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{61A5BF32-CAFC-4010-9705-6D61B6035B70}">
-																			<PropertyList>
-																				<Property Name="VolumeOffset" Type="Real64">
-																					<ValueList>
-																						<Value>3</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<Language>SFX</Language>
-																			<AudioFile>Amb_LP_AcidFlow_01_Anger_V2.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="243081619"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<PositioningInfo>
-																		<Panner Name="" ID="{CA388BA3-0AD6-4F04-B641-E3FCF471714C}"/>
-																	</PositioningInfo>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{61A5BF32-CAFC-4010-9705-6D61B6035B70}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
 																<RandomSequenceContainer Name="Acid_Burn_RND" ID="{6BB3A517-8199-4F0D-9680-7C51A4BEEE6F}" ShortID="980299239">
 																	<PropertyList>
 																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
@@ -4808,6 +4630,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_AcidBurn_03_Dambrosio_V1" ID="{084FBF29-B3FB-48A0-8C55-4CDF7CCF17F0}">
+																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.0410259994408722"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="2.6666899636567"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_AcidBurn_03_Dambrosio_V1.wav</AudioFile>
 																					<MediaIDList>
@@ -4830,6 +4657,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_AcidBurnShort_02_Dambrosio_V1" ID="{802DF775-B191-41C8-80DC-35A678E569AD}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0.0951669617618737"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.0951669617618737"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_AcidBurnShort_02_Dambrosio_V1.wav</AudioFile>
 																					<MediaIDList>
@@ -4852,6 +4684,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_AcidBurnShort_03_Dambrosio_V1" ID="{5C2D079F-5313-4036-B4B8-6BF3ED3903F5}">
+																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.0392061162364489"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="1.27027816606094"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_AcidBurnShort_03_Dambrosio_V1.wav</AudioFile>
 																					<MediaIDList>
@@ -4874,6 +4711,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_AcidBurn_04_Dambrosio_V1" ID="{458599B9-3B75-45AD-8520-2B93175D4284}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0.0181761563072718"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.0181761563072718"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_AcidBurn_04_Dambrosio_V1.wav</AudioFile>
 																					<MediaIDList>
@@ -4896,6 +4738,10 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_AcidBurnShort_01_Dambrosio_V1" ID="{BD4C05D3-71BD-49B5-AC59-CE99A49136EC}">
+																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.0430938402758364"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_AcidBurnShort_01_Dambrosio_V1.wav</AudioFile>
 																					<MediaIDList>
@@ -4918,6 +4764,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_AcidBurn_02_Dambrosio_V1" ID="{1CEB690D-6312-48D6-B618-7B4D61BAC252}">
+																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.0466694623054701"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="3.39131426086417"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_AcidBurn_02_Dambrosio_V1.wav</AudioFile>
 																					<MediaIDList>
@@ -4940,6 +4791,10 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_AcidBurnShort_04_Dambrosio_V1" ID="{38CB33EE-AB6E-402D-9D17-B39130590CC7}">
+																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="1.31320290901749"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_AcidBurnShort_04_Dambrosio_V1.wav</AudioFile>
 																					<MediaIDList>
@@ -4962,6 +4817,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_AcidBurn_01_Dambrosio_V1" ID="{17F700BD-6B09-4D30-AD2B-057F95E58855}">
+																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.037795988258317"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="2.65651803187028"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_AcidBurn_01_Dambrosio_V1.wav</AudioFile>
 																					<MediaIDList>
@@ -5207,6 +5067,215 @@
 																		<ActiveSource Name="Amb_LP_Acid Cascad_01 _Anger_V3" ID="{1BE66A49-6CB2-4680-86C0-63E4A9FDE90F}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
+																<Folder Name="Acid Flow" ID="{F12716F1-4AE1-431F-A166-5D33D40791CD}" ShortID="613278065">
+																	<ChildrenList>
+																		<Sound Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{3CB08984-AF63-4EA1-873C-996A0CB8A527}" ShortID="411868436">
+																			<PropertyList>
+																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																				<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																				<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Attenuation">
+																					<Custom CreatedFrom="{07920A1D-5CF8-4DA1-A56A-FA825A3276A2}">
+																						<Attenuation Name="Distance_Acid (Custom)" ID="{88B81AA2-3B38-48AB-B9D5-75FBB8F8111D}" ShortID="671943588">
+																							<PropertyList>
+																								<Property Name="ConeInnerAngle" Type="int32" Value="160"/>
+																								<Property Name="ConeOuterAngle" Type="int32" Value="250"/>
+																								<Property Name="ConeUse" Type="bool">
+																									<ValueList>
+																										<Value>True</Value>
+																									</ValueList>
+																								</Property>
+																								<Property Name="RadiusMax" Type="Real64" Value="1800"/>
+																							</PropertyList>
+																							<CurveUsageInfoList>
+																								<VolumeDryUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="VolumeDry" ID="{CDA1F66A-FFBF-4DCA-B543-8BC05D2DA941}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="3"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>0</YPos>
+																													<Flags>5</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1800</XPos>
+																													<YPos>-50</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</VolumeDryUsage>
+																								<VolumeWetGameUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																								</VolumeWetGameUsage>
+																								<VolumeWetUserUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
+																										<Curve Name="VolumeWetUser" ID="{3B79EAB5-6E06-476B-A70C-A570116A5B42}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="3"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>0</YPos>
+																													<Flags>5</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1068.75</XPos>
+																													<YPos>-7.62551</YPos>
+																													<Flags>0</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1800</XPos>
+																													<YPos>-50</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</VolumeWetUserUsage>
+																								<LowPassFilterUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="LowPassFilter" ID="{57CB4E7E-1A73-495A-A981-677470DBBF17}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="65537"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>0</YPos>
+																													<Flags>5</Flags>
+																													<SegmentShape>Exp1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>1800</XPos>
+																													<YPos>61</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</LowPassFilterUsage>
+																								<HighPassFilterUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																										<Curve Name="HighPassFilter" ID="{0041E20A-A345-426A-9998-E6C9073838FF}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="65537"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>0</YPos>
+																													<Flags>5</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1800</XPos>
+																													<YPos>100</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</HighPassFilterUsage>
+																								<SpreadUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="Spread" ID="{F0C761FA-23C9-4182-B53E-503A9E8F02C8}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="1"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>100</YPos>
+																													<Flags>5</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1077.21394875</XPos>
+																													<YPos>90.0552</YPos>
+																													<Flags>0</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1800</XPos>
+																													<YPos>6.07729</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</SpreadUsage>
+																								<FocusUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																								</FocusUsage>
+																							</CurveUsageInfoList>
+																						</Attenuation>
+																					</Custom>
+																				</Reference>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend1">
+																					<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{61A5BF32-CAFC-4010-9705-6D61B6035B70}">
+																					<PropertyList>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>3</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_LP_AcidFlow_01_Anger_V2.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="243081619"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<PositioningInfo>
+																				<Panner Name="" ID="{CA388BA3-0AD6-4F04-B641-E3FCF471714C}"/>
+																			</PositioningInfo>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{61A5BF32-CAFC-4010-9705-6D61B6035B70}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_LP_BigAcidFlow_01_Anger_V1" ID="{40A4F3C7-A930-42F0-BDCE-37510FEE0379}" ShortID="872188533">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_LP_BigAcidFlow_01_Anger_V1" ID="{FA7DB52B-AE1A-4F74-A29C-9B462E3B67DD}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_LP_BigAcidFlow_01_Anger_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="509901309"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_LP_BigAcidFlow_01_Anger_V1" ID="{FA7DB52B-AE1A-4F74-A29C-9B462E3B67DD}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</Folder>
 															</ChildrenList>
 														</ActorMixer>
 													</ChildrenList>
@@ -5573,6 +5642,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_LoudScream _01" ID="{E09CF932-F257-4851-A430-759064395567}">
+																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.0469202835648148"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="1.79150173611111"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_LoudScream _01.wav</AudioFile>
 																					<MediaIDList>
@@ -5595,6 +5669,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_LoudScream _02" ID="{475E8EED-E0E2-4870-BA42-4990D41D2378}">
+																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.0366720920138889"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="2.95210340711806"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_LoudScream _02.wav</AudioFile>
 																					<MediaIDList>
@@ -5617,6 +5696,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_LoudScream _03" ID="{84B495B7-10AD-40CB-8C15-8EE50D4F065F}">
+																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.0505385923032408"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="3.13339272280092"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_LoudScream _03.wav</AudioFile>
 																					<MediaIDList>
@@ -5639,6 +5723,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_LoudScream _04" ID="{01C8A000-9730-419E-9BEE-23BCCA351A84}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="7.8033452690972"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_LoudScream _04.wav</AudioFile>
 																					<MediaIDList>
@@ -5661,6 +5750,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_LoudScream _05" ID="{B73F42B6-A6D7-4F71-A9B5-9048805E296E}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="5.52265158420139"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_LoudScream _05.wav</AudioFile>
 																					<MediaIDList>
@@ -5683,6 +5777,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_LoudScream _06" ID="{32AFFA83-DB32-497C-936D-D894183B2049}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="2.28261140046296"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_LoudScream _06.wav</AudioFile>
 																					<MediaIDList>
@@ -5705,6 +5804,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_LoudScream _07" ID="{4B38E431-B4CF-45BA-82DC-D5B318AD3E7C}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="1.01622178819445"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_LoudScream _07.wav</AudioFile>
 																					<MediaIDList>
@@ -5727,6 +5831,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_LoudScream _08" ID="{40A0D925-A11B-4DF7-8801-A38C4ED8D20B}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="3.63013118489582"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_LoudScream _08.wav</AudioFile>
 																					<MediaIDList>
@@ -5749,6 +5858,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_LoudScream _09" ID="{1A4A5AE9-7775-4893-A7B1-D379556FCA96}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="1.23596028645833"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_LoudScream _09.wav</AudioFile>
 																					<MediaIDList>
@@ -5771,6 +5885,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_LoudScream _10" ID="{E45BAB3F-1307-4206-BC56-30EB73411866}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="2.07288519965278"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_LoudScream _10.wav</AudioFile>
 																					<MediaIDList>
@@ -5793,6 +5912,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_LoudScream _11" ID="{B040F298-9261-41ED-A304-72C23565BC8E}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="2.06390972222222"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_LoudScream _11.wav</AudioFile>
 																					<MediaIDList>
@@ -5815,6 +5939,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_LoudScream _12" ID="{CA8E1FA8-A9FC-43C0-BA67-E7EFF10E7DEB}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="1.18138541666667"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_LoudScream _12.wav</AudioFile>
 																					<MediaIDList>
@@ -5986,6 +6115,9 @@
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_SmallAnimalRunAway _02" ID="{B1D5E589-160F-4AEB-A2AA-CA541AB55346}">
 																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.173989800347222"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="1.08619346788194"/>
 																						<Property Name="VolumeOffset" Type="Real64">
 																							<ValueList>
 																								<Value>24</Value>
@@ -6298,6 +6430,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_MetalSlam _01_Anger_V2" ID="{481D55E4-048A-49E1-BBC8-F6520193A9B1}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="0.942041015625"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_MetalSlam _01_Anger_V2.wav</AudioFile>
 																					<MediaIDList>
@@ -6320,6 +6457,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_MetalSlam _02_Anger_V2" ID="{2F0A2E14-8F25-493D-B29A-EF1891960FF7}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="1.22170345052083"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_MetalSlam _02_Anger_V2.wav</AudioFile>
 																					<MediaIDList>
@@ -6342,6 +6484,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_MetalSlam _03_Anger_V2" ID="{C81AE53C-783D-45E9-B165-C5450CC8D1B9}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="2.45070113570602"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_MetalSlam _03_Anger_V2.wav</AudioFile>
 																					<MediaIDList>
@@ -6364,6 +6511,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_MetalSlam _04_Anger_V2" ID="{DFD9A49C-BF7C-4733-9A7C-2B487550A9CF}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0.09375"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.09375"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_MetalSlam _04_Anger_V2.wav</AudioFile>
 																					<MediaIDList>
@@ -6426,6 +6578,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_StoneFall(Echo) _01_Anger_V2" ID="{B7E4840E-FC86-4C4D-A4F1-9DE80A021D17}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="3.49157262731481"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_StoneFall(Echo) _01_Anger_V2.wav</AudioFile>
 																					<MediaIDList>
@@ -6448,6 +6605,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_StoneFall(Echo) _02_Anger_V2" ID="{55FD1C35-B81D-493F-B789-50FEFB6F7661}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="4.02813946759258"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_StoneFall(Echo) _02_Anger_V2.wav</AudioFile>
 																					<MediaIDList>
@@ -6470,6 +6632,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_StoneFall(Echo) _03_Anger_V2" ID="{CF9CC164-2220-4A59-919C-DC468FFE829B}">
+																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.0727236689814815"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="3.17257005931713"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_StoneFall(Echo) _03_Anger_V2.wav</AudioFile>
 																					<MediaIDList>
@@ -6514,6 +6681,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_StoneFall(Echo) _07_Anger_V2" ID="{4AE46E05-A727-4C98-9523-7916D133C22A}">
+																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="1.73097989004629"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="3.69136675347223"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_StoneFall(Echo) _07_Anger_V2.wav</AudioFile>
 																					<MediaIDList>
@@ -6536,6 +6708,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_StoneFall(Echo) _08_Anger_V2" ID="{17985DBC-DED1-47EC-92D0-4779EF44DEC8}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="2.18811935763889"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_StoneFall(Echo) _08_Anger_V2.wav</AudioFile>
 																					<MediaIDList>
@@ -6595,6 +6772,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_SmallAnimalRunInPipe _01_Anger_V2" ID="{B6CF1F5B-F21D-4961-94EB-B2BF6800A98F}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="4.04926605902778"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_SmallAnimalRunInPipe _01_Anger_V2.wav</AudioFile>
 																					<MediaIDList>
@@ -6617,6 +6799,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_SmallAnimalRunInPipe _02_Anger_V2" ID="{83A7AA23-2FF3-4D12-AD93-F63F98404486}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0.320978407118055"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.320978407118055"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_SmallAnimalRunInPipe _02_Anger_V2.wav</AudioFile>
 																					<MediaIDList>
@@ -6779,6 +6966,10 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_ChainSound _02_Anger_V1" ID="{7B3C0789-130B-4A93-877F-7554644E70B5}">
+																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.0529986279607163"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_ChainSound _02_Anger_V1.wav</AudioFile>
 																					<MediaIDList>
@@ -6801,6 +6992,9 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_ChainSound _03_Anger_V1" ID="{D22AEE84-8A59-48CA-817A-BB045B0835E7}">
+																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_ChainSound _03_Anger_V1.wav</AudioFile>
 																					<MediaIDList>
@@ -6962,6 +7156,11 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_DoorSlam _06" ID="{250798D7-6386-4AAD-A8E0-3AD664BF3F27}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="1.93962109375"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="1.93962109375"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_DoorSlam _06.wav</AudioFile>
 																					<MediaIDList>
@@ -7264,6 +7463,8 @@
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_DropOfBlood _03_Anger_V2" ID="{63E75FC0-6CA3-43E1-B56C-29A7EEEC707B}">
 																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="0.315333333333334"/>
 																						<Property Name="VolumeOffset" Type="Real64">
 																							<ValueList>
 																								<Value>2.2</Value>
@@ -7572,6 +7773,274 @@
 																			</ChildrenList>
 																			<ActiveSourceList>
 																				<ActiveSource Name="Amb_LP_MetalCrackles_06_Anger_V1" ID="{D25DEC17-A5BB-42BF-BD4A-75B18EFB86CE}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
+																<RandomSequenceContainer Name="Spider_Walk_RND" ID="{14ADCDFF-5DF6-4ADC-B378-9D6A198EECB7}" ShortID="999051585">
+																	<PropertyList>
+																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+																		<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																		<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="Amb_OS_Spider_Walk _01_Anger_V1" ID="{5EA521BE-73C1-4FEB-8F49-B1B769D35512}" ShortID="341391605">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_SpiderSoundFarAway _01_Anger_V1" ID="{3D879052-A620-4BD5-8DB8-5E353BFEC9DD}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="1.119125"/>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>12</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_SpiderSoundFarAway _01_Anger_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="1064672966"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_SpiderSoundFarAway _01_Anger_V1" ID="{3D879052-A620-4BD5-8DB8-5E353BFEC9DD}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_Spider_Walk _02_Anger_V1" ID="{3B8D7CE1-E523-4B2F-B88C-6F68E53D250D}" ShortID="183283744">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_SpiderSoundFarAway _02_Anger_V1" ID="{9DFB067F-7FB2-4C12-BC05-9EA16715CA51}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="0.300477430555556"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.300477430555556"/>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>24</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_SpiderSoundFarAway _02_Anger_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="661489012"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_SpiderSoundFarAway _02_Anger_V1" ID="{9DFB067F-7FB2-4C12-BC05-9EA16715CA51}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_Spider_Walk _03_Anger_V1" ID="{5EBF21A9-A375-4773-ACEE-AD6C7BA24C66}" ShortID="1051602363">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_SpiderSoundFarAway _03_Anger_V1" ID="{C848A3EF-AB16-4919-A5F4-9E0D6817C22A}">
+																					<PropertyList>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>24</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_SpiderSoundFarAway _03_Anger_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="569743463"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_SpiderSoundFarAway _03_Anger_V1" ID="{C848A3EF-AB16-4919-A5F4-9E0D6817C22A}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_SpiderWalkCloser_02_Sabarros_v1" ID="{00E0E223-151E-4A44-8C03-5A21185270AD}" ShortID="676696904">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_SpiderWalkCloser_02_Sabarros_v1" ID="{96CB4AD2-7C3C-4049-ABE1-D47879522CAB}">
+																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.206604817708333"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="3.76020768229167"/>
+																					</PropertyList>
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_SpiderWalkCloser_02_Sabarros_v1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="356566792"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_SpiderWalkCloser_02_Sabarros_v1" ID="{96CB4AD2-7C3C-4049-ABE1-D47879522CAB}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_SpiderWalkCloser_03_Sabarros_v1" ID="{A69C86BC-AC63-42D8-9267-FDB42320211C}" ShortID="758075235">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_SpiderWalkCloser_03_Sabarros_v1" ID="{D9290E74-9678-4A7B-84D2-64CD685D25B1}">
+																					<PropertyList>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.296827546296296"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="5.00896484375"/>
+																					</PropertyList>
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_SpiderWalkCloser_03_Sabarros_v1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="276765653"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_SpiderWalkCloser_03_Sabarros_v1" ID="{D9290E74-9678-4A7B-84D2-64CD685D25B1}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
+																<RandomSequenceContainer Name="Big_Squeaky_Chain_RND" ID="{FDC99201-2BD1-4030-90FD-1348F9B3ADEC}" ShortID="485729074">
+																	<PropertyList>
+																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+																		<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="Amb_OS_Big squeaky chain _01_Anger_V1" ID="{CF81F355-171E-47A2-9341-A4677A78018C}" ShortID="463651871">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_Big squeaky chain _01_Anger_V1" ID="{E7721EF0-B1FD-4C9D-8CFE-041A9C3D5937}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_Big squeaky chain _01_Anger_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="23799443"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_Big squeaky chain _01_Anger_V1" ID="{E7721EF0-B1FD-4C9D-8CFE-041A9C3D5937}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_Big squeaky chain _02_Anger_V1" ID="{199E1E51-AC01-47C6-952E-74FD59B6BCB9}" ShortID="105033900">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_Big squeaky chain _02_Anger_V1" ID="{BCD771DE-3AD1-4A27-AE63-5141D95C2EDC}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_Big squeaky chain _02_Anger_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="495883059"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_Big squeaky chain _02_Anger_V1" ID="{BCD771DE-3AD1-4A27-AE63-5141D95C2EDC}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_Big squeaky chain _03_Anger_V1" ID="{70D9F9C1-FF5F-40C8-B118-16E5C151DB9D}" ShortID="195999357">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_Big squeaky chain _03_Anger_V1" ID="{ECC9A01C-ED5D-4983-81A8-3084E1A4B929}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_Big squeaky chain _03_Anger_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="303204092"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_Big squeaky chain _03_Anger_V1" ID="{ECC9A01C-ED5D-4983-81A8-3084E1A4B929}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_Big squeaky chain _04_Anger_V1" ID="{1C8E2E75-1A44-406B-B4F3-003F9D72E89E}" ShortID="243674748">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_Big squeaky chain _04_Anger_V1" ID="{92D58155-2FB5-45FA-954A-08B8A5421A71}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_Big squeaky chain _04_Anger_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="52055649"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_Big squeaky chain _04_Anger_V1" ID="{92D58155-2FB5-45FA-954A-08B8A5421A71}" Platform="Linked"/>
 																			</ActiveSourceList>
 																		</Sound>
 																	</ChildrenList>
@@ -12904,6 +13373,37 @@
 														</Folder>
 													</ChildrenList>
 												</ActorMixer>
+												<Folder Name="Mana" ID="{6DD7C76D-DC19-4D24-8962-078A6DDA3097}" ShortID="783742919">
+													<ChildrenList>
+														<Sound Name="UI_OS_OutOfMana_01_Anger_V2" ID="{D222337F-485A-4CBD-8B96-5D184CF7894B}" ShortID="461676064">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="UI_OS_OutOfMana_01_Anger_V2" ID="{F0BED279-F1E0-4C79-8DDF-E96D75B0C7BE}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.422727632705479"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>UI_OS_OutOfMana_01_Anger_V2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="31095074"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="UI_OS_OutOfMana_01_Anger_V2" ID="{F0BED279-F1E0-4C79-8DDF-E96D75B0C7BE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</Folder>
 											</ChildrenList>
 											<StateInfo>
 												<StateGroupList>
