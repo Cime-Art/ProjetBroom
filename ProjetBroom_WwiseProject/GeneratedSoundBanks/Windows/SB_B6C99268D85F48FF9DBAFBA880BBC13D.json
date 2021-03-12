@@ -1,0 +1,57 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3007303085",
+    "GUID": "{B33FCDAD-CDAD-1DAD-ADAD-ADADADADADAD}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_B6C99268D85F48FF9DBAFBA880BBC13D",
+    "ShortName": "SB_B6C99268D85F48FF9DBAFBA880BBC13D",
+    "Path": "SB_B6C99268D85F48FF9DBAFBA880BBC13D.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3448375481",
+      "Name": "Event_AcidFlow",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Acid\\Event_AcidFlow",
+      "GUID": "{B6C99268-D85F-48FF-9DBA-FBA880BBC13D}",
+      "MaxAttenuation": "1800.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "243081619",
+        "Language": "SFX",
+        "ShortName": "Amb_LP_AcidFlow_01_Anger_V2.wav",
+        "Path": "SFX\\Amb_LP_AcidFlow_01_Anger_V2_D79FB2B7.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

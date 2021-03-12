@@ -1,0 +1,37 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2814948816",
+    "GUID": "{A7C8B5D0-B5D0-15D0-D0D0-D0D0D0D0D0D0}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_AF8FE4CA5C034AF69BDDA28079DCD3FA",
+    "ShortName": "SB_AF8FE4CA5C034AF69BDDA28079DCD3FA",
+    "Path": "SB_AF8FE4CA5C034AF69BDDA28079DCD3FA.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4167807849",
+      "Name": "Stop_PreCast_Poison",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Spell\\Poison\\Stop_PreCast_Poison",
+      "GUID": "{AF8FE4CA-5C03-4AF6-9BDD-A28079DCD3FA}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

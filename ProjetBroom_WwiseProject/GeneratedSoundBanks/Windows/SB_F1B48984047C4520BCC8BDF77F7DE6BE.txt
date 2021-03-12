@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1353212495	Event_Cast_Laser			\Default Work Unit\Player\Spell\Laser_Sponge\Event_Cast_Laser	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1085924974	State_Gate			\Default Work Unit\Environement\State_Gate	
+
+State	ID	Name	State Group			Notes
+	645492555	Out	State_Gate			
+	748895195	None	State_Gate			
+	2112530240	In_Barn	State_Gate			
+	2771170873	In_Kitchen	State_Gate			
+

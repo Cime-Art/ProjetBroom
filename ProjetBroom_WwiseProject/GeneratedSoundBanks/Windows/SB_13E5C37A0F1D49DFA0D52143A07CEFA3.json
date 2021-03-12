@@ -1,0 +1,124 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2565433293",
+    "GUID": "{98E967CD-67CD-17CD-CDCD-CDCDCDCDCDCD}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_13E5C37A0F1D49DFA0D52143A07CEFA3",
+    "ShortName": "SB_13E5C37A0F1D49DFA0D52143A07CEFA3",
+    "Path": "SB_13E5C37A0F1D49DFA0D52143A07CEFA3.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "258900594",
+      "Name": "Event_Play_Musique_Tuto_Playlist",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Event_Play_Musique_Tuto_Playlist",
+      "GUID": "{13E5C37A-0F1D-49DF-A0D5-2143A07CEFA3}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "38299608",
+        "Language": "SFX",
+        "ShortName": "GOICO-musique -tuto-mando 4.wav",
+        "Path": "SFX\\GOICO-musique -tuto-mando 4_D79FB2B7.wem"
+       },
+       {
+        "Id": "233706908",
+        "Language": "SFX",
+        "ShortName": "GOICO-musique -tuto-mando 3.wav",
+        "Path": "SFX\\GOICO-musique -tuto-mando 3_D79FB2B7.wem"
+       },
+       {
+        "Id": "310259696",
+        "Language": "SFX",
+        "ShortName": "calme.wav",
+        "Path": "SFX\\calme_D79FB2B7.wem"
+       },
+       {
+        "Id": "325425963",
+        "Language": "SFX",
+        "ShortName": "GOICO-musique -tuto-mando 6.wav",
+        "Path": "SFX\\GOICO-musique -tuto-mando 6_D79FB2B7.wem"
+       },
+       {
+        "Id": "405395395",
+        "Language": "SFX",
+        "ShortName": "GOICO-musique -tuto-mando 7.wav",
+        "Path": "SFX\\GOICO-musique -tuto-mando 7_D79FB2B7.wem"
+       },
+       {
+        "Id": "487460873",
+        "Language": "SFX",
+        "ShortName": "GOICO-musique -tuto-mando 5.wav",
+        "Path": "SFX\\GOICO-musique -tuto-mando 5_D79FB2B7.wem"
+       },
+       {
+        "Id": "487484988",
+        "Language": "SFX",
+        "ShortName": "MUS_OS_CrashEventStop_01_Dambrosio_V1.wav",
+        "Path": "SFX\\MUS_OS_CrashEventStop_01_Dambrosio_V1_D79FB2B7.wem"
+       },
+       {
+        "Id": "527159056",
+        "Language": "SFX",
+        "ShortName": "GOICO-musique -tuto-mando 2.wav",
+        "Path": "SFX\\GOICO-musique -tuto-mando 2_D79FB2B7.wem"
+       },
+       {
+        "Id": "733523094",
+        "Language": "SFX",
+        "ShortName": "militaire 1.wav",
+        "Path": "SFX\\militaire 1_D79FB2B7.wem"
+       },
+       {
+        "Id": "842279771",
+        "Language": "SFX",
+        "ShortName": "rythmé.wav",
+        "Path": "SFX\\rythmé_D79FB2B7.wem"
+       },
+       {
+        "Id": "1019085241",
+        "Language": "SFX",
+        "ShortName": "GOICO-musique -tuto-mando 1.wav",
+        "Path": "SFX\\GOICO-musique -tuto-mando 1_D79FB2B7.wem"
+       },
+       {
+        "Id": "1037292347",
+        "Language": "SFX",
+        "ShortName": "militaire 2.wav",
+        "Path": "SFX\\militaire 2_D79FB2B7.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2957976456",
+        "Name": "RVB_crash_stop",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music\\RVB_crash_stop",
+        "GUID": "{378C0390-8212-4574-A063-4C60DB877840}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "4003433129",
+      "Name": "Stop_Crash",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\Stop_Crash",
+      "GUID": "{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}"
+     }
+    ]
+   }
+  ]
+ }
+}

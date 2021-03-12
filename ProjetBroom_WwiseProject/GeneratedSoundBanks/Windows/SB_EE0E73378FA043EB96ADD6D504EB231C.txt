@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	929056597	Event_Insects			\Default Work Unit\Level\Tuto\Animal\Event_Insects	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1085924974	State_Gate			\Default Work Unit\Environement\State_Gate	
+
+State	ID	Name	State Group			Notes
+	645492555	Out	State_Gate			
+	748895195	None	State_Gate			
+	2112530240	In_Barn	State_Gate			
+	2771170873	In_Kitchen	State_Gate			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	63781986	In_Barn	State_Gate	\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\General_Amb_Mix\Tuto\General_Tuto_Mix\Garden\AMB_Garden_Mix\Animals\Animals_Mix		
+	386049026	In_Kitchen	State_Gate	\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\General_Amb_Mix\Tuto\General_Tuto_Mix\Garden\AMB_Garden_Mix\Animals\Animals_Mix		
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	42928060	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\General_Amb_Mix\Tuto\General_Tuto_Mix\Garden\AMB_Garden_Mix\Animals\Animals_Mix\Insects_RND\Silence\Wwise Silence	
+

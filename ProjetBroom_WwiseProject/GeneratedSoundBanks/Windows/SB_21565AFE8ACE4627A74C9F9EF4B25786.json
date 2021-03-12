@@ -1,0 +1,95 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "339492796",
+    "GUID": "{143C3FBC-3FBC-1FBC-BCBC-BCBCBCBCBCBC}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_21565AFE8ACE4627A74C9F9EF4B25786",
+    "ShortName": "SB_21565AFE8ACE4627A74C9F9EF4B25786",
+    "Path": "SB_21565AFE8ACE4627A74C9F9EF4B25786.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1437567249",
+      "Name": "Event_Boiler",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Boiler\\Event_Boiler",
+      "GUID": "{21565AFE-8ACE-4627-A74C-9F9EF4B25786}",
+      "MaxAttenuation": "1500.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.576915",
+      "DurationMax": "3.537918",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "55293155",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BoilerDoorOpen_01_Dambrosio_V2.wav",
+        "Path": "SFX\\Amb_OS_BoilerDoorOpen_01_Dambrosio_V2_10C4C929.wem"
+       },
+       {
+        "Id": "318945443",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BoilerDoorClose_02.wav",
+        "Path": "SFX\\Amb_OS_BoilerDoorClose_02_10C4C929.wem"
+       },
+       {
+        "Id": "337937105",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FireBoiler_01_THOMAS_V3.wav",
+        "Path": "SFX\\SFX_OS_FireBoiler_01_THOMAS_V3_10C4C929.wem"
+       },
+       {
+        "Id": "483392905",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BoilerDoorOpen_02_Dambrosio_V2.wav",
+        "Path": "SFX\\Amb_OS_BoilerDoorOpen_02_Dambrosio_V2_10C4C929.wem"
+       },
+       {
+        "Id": "826231763",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_KettleBoiler_01_THOMAS_V1.wav",
+        "Path": "SFX\\SFX_OS_KettleBoiler_01_THOMAS_V1_10C4C929.wem"
+       },
+       {
+        "Id": "836402590",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_ShakeBoiler_01_THOMAS_V1.wav",
+        "Path": "SFX\\SFX_OS_ShakeBoiler_01_THOMAS_V1_10C4C929.wem"
+       },
+       {
+        "Id": "1015033216",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BoilerDoorClose_01.wav",
+        "Path": "SFX\\Amb_OS_BoilerDoorClose_01_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

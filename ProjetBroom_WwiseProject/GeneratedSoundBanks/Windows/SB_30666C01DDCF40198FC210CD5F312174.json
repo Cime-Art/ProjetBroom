@@ -1,0 +1,58 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "962988073",
+    "GUID": "{39660829-0829-1829-2929-292929292929}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_30666C01DDCF40198FC210CD5F312174",
+    "ShortName": "SB_30666C01DDCF40198FC210CD5F312174",
+    "Path": "SB_30666C01DDCF40198FC210CD5F312174.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1379409583",
+      "Name": "Event_Cast_Ice",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Spell\\Ice\\Event_Cast_Ice",
+      "GUID": "{30666C01-DDCF-4019-8FC2-10CD5F312174}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.888896",
+      "DurationMax": "3.888896",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "70103478",
+        "Language": "SFX",
+        "ShortName": "OS_ImpactSpellIce_GOICO_01_v4.wav",
+        "Path": "SFX\\OS_ImpactSpellIce_GOICO_01_v4_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

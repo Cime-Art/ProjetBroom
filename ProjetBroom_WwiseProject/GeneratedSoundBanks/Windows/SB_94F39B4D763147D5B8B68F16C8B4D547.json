@@ -1,0 +1,57 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "327346047",
+    "GUID": "{1382E77F-E77F-177F-7F7F-7F7F7F7F7F7F}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_94F39B4D763147D5B8B68F16C8B4D547",
+    "ShortName": "SB_94F39B4D763147D5B8B68F16C8B4D547",
+    "Path": "SB_94F39B4D763147D5B8B68F16C8B4D547.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3444112788",
+      "Name": "Play_Ember_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Kitchen\\Play_Ember_Loop",
+      "GUID": "{94F39B4D-7631-47D5-B8B6-8F16C8B4D547}",
+      "MaxAttenuation": "1000.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "164158550",
+        "Language": "SFX",
+        "ShortName": "AMB_LP_cendres_v3.wav",
+        "Path": "SFX\\AMB_LP_cendres_v3_D79FB2B7.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "412003230",
+    "GUID": "{188EAB9E-AB9E-1B9E-9E9E-9E9E9E9E9E9E}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_965D4949D7904F75BBE99378A7C1B22F",
+    "ShortName": "SB_965D4949D7904F75BBE99378A7C1B22F",
+    "Path": "SB_965D4949D7904F75BBE99378A7C1B22F.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3614331134",
+      "Name": "Event_UI_PausePositive",
+      "ObjectPath": "\\Events\\Default Work Unit\\HUD_Menu\\Event_UI_PausePositive",
+      "GUID": "{965D4949-D790-4F75-BBE9-9378A7C1B22F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.326916",
+      "DurationMax": "0.326916",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "780457335",
+        "Language": "SFX",
+        "ShortName": "UI_OS_PausePositive_Pelloux_V1.wav",
+        "Path": "SFX\\UI_OS_PausePositive_Pelloux_V1_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "374960197",
+    "GUID": "{16597045-7045-1045-4545-454545454545}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_1CA92C673E714D1E97835E3ECDD15446",
+    "ShortName": "SB_1CA92C673E714D1E97835E3ECDD15446",
+    "Path": "SB_1CA92C673E714D1E97835E3ECDD15446.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "3246314181",
+      "Name": "WwiseMeterTrigger",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Quentin\\Barn\\Barn\\Master Bus\\WwiseMeterTrigger",
+      "GUID": "{1CA92C67-3E71-4D1E-9783-5E3ECDD15446}"
+     }
+    ]
+   }
+  ]
+ }
+}

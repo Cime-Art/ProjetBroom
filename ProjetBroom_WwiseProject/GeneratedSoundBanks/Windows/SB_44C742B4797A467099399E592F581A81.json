@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1661115242",
+    "GUID": "{63029B6A-9B6A-1B6A-6A6A-6A6A6A6A6A6A}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_44C742B4797A467099399E592F581A81",
+    "ShortName": "SB_44C742B4797A467099399E592F581A81",
+    "Path": "SB_44C742B4797A467099399E592F581A81.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "998975964",
+      "Name": "Event_UI_CancelMenu",
+      "ObjectPath": "\\Events\\Default Work Unit\\HUD_Menu\\Event_UI_CancelMenu",
+      "GUID": "{44C742B4-797A-4670-9939-9E592F581A81}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.350952",
+      "DurationMax": "0.350952",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "325909341",
+        "Language": "SFX",
+        "ShortName": "UI_OS_CancelMenu_Pelloux_V1.wav",
+        "Path": "SFX\\UI_OS_CancelMenu_Pelloux_V1_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

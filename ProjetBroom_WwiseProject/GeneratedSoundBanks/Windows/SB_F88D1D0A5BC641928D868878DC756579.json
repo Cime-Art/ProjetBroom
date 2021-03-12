@@ -1,0 +1,57 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2152526500",
+    "GUID": "{804CF2A4-F2A4-12A4-A4A4-A4A4A4A4A4A4}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_F88D1D0A5BC641928D868878DC756579",
+    "ShortName": "SB_F88D1D0A5BC641928D868878DC756579",
+    "Path": "SB_F88D1D0A5BC641928D868878DC756579.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1462063378",
+      "Name": "Event_KitchenAmb",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Kitchen\\Event_KitchenAmb",
+      "GUID": "{F88D1D0A-5BC6-4192-8D86-8878DC756579}",
+      "MaxAttenuation": "2300.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "773912262",
+        "Language": "SFX",
+        "ShortName": "AMB_LP_KitchenAmb_01_SABARROS_V1.wav",
+        "Path": "SFX\\AMB_LP_KitchenAmb_01_SABARROS_V1_D79FB2B7.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

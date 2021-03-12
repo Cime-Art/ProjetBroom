@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3644686082",
+    "GUID": "{D93D7F02-7F02-1F02-0202-020202020202}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_01D18E95CD114B8ABB66AA6A8A3354F3",
+    "ShortName": "SB_01D18E95CD114B8ABB66AA6A8A3354F3",
+    "Path": "SB_01D18E95CD114B8ABB66AA6A8A3354F3.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "673049659",
+      "Name": "Event_Play_UI_OpenBook",
+      "ObjectPath": "\\Events\\Default Work Unit\\HUD_Bestiaire\\Event_Play_UI_OpenBook",
+      "GUID": "{01D18E95-CD11-4B8A-BB66-AA6A8A3354F3}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.174649",
+      "DurationMax": "1.174649",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "155230035",
+        "Language": "SFX",
+        "ShortName": "UI_OS_OpenBook_Bestiary_01_Dambrosio_V1.wav",
+        "Path": "SFX\\UI_OS_OpenBook_Bestiary_01_Dambrosio_V1_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

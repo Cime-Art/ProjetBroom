@@ -1,0 +1,64 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2335880824",
+    "GUID": "{8B3AB678-B678-1678-7878-787878787878}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_371C6439B97148DBB334F8486B76DECA",
+    "ShortName": "SB_371C6439B97148DBB334F8486B76DECA",
+    "Path": "SB_371C6439B97148DBB334F8486B76DECA.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4228704399",
+      "Name": "Event_Play_Music_Menu_Playlist",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Event_Play_Music_Menu_Playlist",
+      "GUID": "{371C6439-B971-48DB-B334-F8486B76DECA}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "77715167",
+        "Language": "SFX",
+        "ShortName": "musique menu.wav",
+        "Path": "SFX\\musique menu_D79FB2B7.wem"
+       },
+       {
+        "Id": "487484988",
+        "Language": "SFX",
+        "ShortName": "MUS_OS_CrashEventStop_01_Dambrosio_V1.wav",
+        "Path": "SFX\\MUS_OS_CrashEventStop_01_Dambrosio_V1_D79FB2B7.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2957976456",
+        "Name": "RVB_crash_stop",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music\\RVB_crash_stop",
+        "GUID": "{378C0390-8212-4574-A063-4C60DB877840}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "4003433129",
+      "Name": "Stop_Crash",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\Stop_Crash",
+      "GUID": "{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}"
+     }
+    ]
+   }
+  ]
+ }
+}

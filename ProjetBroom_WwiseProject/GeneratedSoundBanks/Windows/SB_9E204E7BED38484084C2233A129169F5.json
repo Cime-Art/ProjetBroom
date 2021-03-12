@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1114944336",
+    "GUID": "{4274B350-B350-1350-5050-505050505050}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_9E204E7BED38484084C2233A129169F5",
+    "ShortName": "SB_9E204E7BED38484084C2233A129169F5",
+    "Path": "SB_9E204E7BED38484084C2233A129169F5.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1742313702",
+      "Name": "Event_ChainSound",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Metal\\Event_ChainSound",
+      "GUID": "{9E204E7B-ED38-4840-84C2-233A129169F5}",
+      "MaxAttenuation": "500.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "119753742",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_ChainSound _01_Anger_V1.wav",
+        "Path": "SFX\\Amb_OS_ChainSound _01_Anger_V1_10C4C929.wem"
+       },
+       {
+        "Id": "671214801",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_ChainSound _02_Anger_V1.wav",
+        "Path": "SFX\\Amb_OS_ChainSound _02_Anger_V1_10C4C929.wem"
+       },
+       {
+        "Id": "825854171",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_ChainSound _03_Anger_V1.wav",
+        "Path": "SFX\\Amb_OS_ChainSound _03_Anger_V1_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

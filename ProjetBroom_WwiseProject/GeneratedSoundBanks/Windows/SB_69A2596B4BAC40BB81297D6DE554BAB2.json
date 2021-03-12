@@ -1,0 +1,93 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1605206172",
+    "GUID": "{5FAD809C-809C-109C-9C9C-9C9C9C9C9C9C}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_69A2596B4BAC40BB81297D6DE554BAB2",
+    "ShortName": "SB_69A2596B4BAC40BB81297D6DE554BAB2",
+    "Path": "SB_69A2596B4BAC40BB81297D6DE554BAB2.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2248247681",
+      "Name": "Event_DoorSlam",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Metal\\Event_DoorSlam",
+      "GUID": "{69A2596B-4BAC-40BB-8129-7D6DE554BAB2}",
+      "MaxAttenuation": "800.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "417621774",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_DoorSlam _05.wav",
+        "Path": "SFX\\Amb_OS_DoorSlam _05_10C4C929.wem"
+       },
+       {
+        "Id": "468649343",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_DoorSlam_01.wav",
+        "Path": "SFX\\Amb_OS_DoorSlam_01_10C4C929.wem"
+       },
+       {
+        "Id": "511309158",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_DoorSlam _06.wav",
+        "Path": "SFX\\Amb_OS_DoorSlam _06_10C4C929.wem"
+       },
+       {
+        "Id": "668551653",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_DoorSlam_02.wav",
+        "Path": "SFX\\Amb_OS_DoorSlam_02_10C4C929.wem"
+       },
+       {
+        "Id": "809843274",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_DoorSlam_04.wav",
+        "Path": "SFX\\Amb_OS_DoorSlam_04_10C4C929.wem"
+       },
+       {
+        "Id": "811810964",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_DoorSlam_03.wav",
+        "Path": "SFX\\Amb_OS_DoorSlam_03_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       },
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

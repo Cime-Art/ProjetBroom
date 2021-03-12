@@ -8,13 +8,18 @@
 						<MusicPlaylistContainer Name="Music Menu Playlist" ID="{5E85781E-ED9E-4FEF-8696-8D5C0EF887EB}" ShortID="296642028">
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="130"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+									<ObjectRef Name="Music" ID="{3AAA1A5D-7D18-49B8-944D-76833FC3D4F7}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -190,7 +195,7 @@
 								<Property Name="Tempo" Type="Real64" Value="117"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-1</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -199,7 +204,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+									<ObjectRef Name="Music" ID="{3AAA1A5D-7D18-49B8-944D-76833FC3D4F7}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -822,7 +827,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+									<ObjectRef Name="Music" ID="{3AAA1A5D-7D18-49B8-944D-76833FC3D4F7}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 								</Reference>
 								<Reference Name="UserAuxSend0">
 									<ObjectRef Name="RVB_crash_stop" ID="{378C0390-8212-4574-A063-4C60DB877840}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>

@@ -1,0 +1,87 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1691854261",
+    "GUID": "{64D7A5B5-A5B5-15B5-B5B5-B5B5B5B5B5B5}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_6535C61E91A74568965B3C7D8D6BD94A",
+    "ShortName": "SB_6535C61E91A74568965B3C7D8D6BD94A",
+    "Path": "SB_6535C61E91A74568965B3C7D8D6BD94A.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2419279034",
+      "Name": "Event_Birds",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Animal\\Event_Birds",
+      "GUID": "{6535C61E-91A7-4568-965B-3C7D8D6BD94A}",
+      "MaxAttenuation": "900.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "124442025",
+        "Language": "SFX",
+        "ShortName": "Birds_Theo_OS_01.wav",
+        "Path": "SFX\\Birds_Theo_OS_01_10C4C929.wem"
+       },
+       {
+        "Id": "133365505",
+        "Language": "SFX",
+        "ShortName": "Birds_Theo_OS_05.wav",
+        "Path": "SFX\\Birds_Theo_OS_05_10C4C929.wem"
+       },
+       {
+        "Id": "168589311",
+        "Language": "SFX",
+        "ShortName": "Birds_Theo_OS_02.wav",
+        "Path": "SFX\\Birds_Theo_OS_02_10C4C929.wem"
+       },
+       {
+        "Id": "898562930",
+        "Language": "SFX",
+        "ShortName": "Birds_Theo_OS_03.wav",
+        "Path": "SFX\\Birds_Theo_OS_03_10C4C929.wem"
+       },
+       {
+        "Id": "953094840",
+        "Language": "SFX",
+        "ShortName": "Birds_Theo_OS_04.wav",
+        "Path": "SFX\\Birds_Theo_OS_04_10C4C929.wem"
+       },
+       {
+        "Id": "996869655",
+        "Language": "SFX",
+        "ShortName": "Birds_Theo_OS_06.wav",
+        "Path": "SFX\\Birds_Theo_OS_06_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

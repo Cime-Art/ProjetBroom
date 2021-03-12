@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1915760638	Event_Cast_Poisoning			\Default Work Unit\Player\Spell\Poison\Event_Cast_Poisoning	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1085924974	State_Gate			\Default Work Unit\Environement\State_Gate	
+
+State	ID	Name	State Group			Notes
+	645492555	Out	State_Gate			
+	748895195	None	State_Gate			
+	2112530240	In_Barn	State_Gate			
+	2771170873	In_Kitchen	State_Gate			
+

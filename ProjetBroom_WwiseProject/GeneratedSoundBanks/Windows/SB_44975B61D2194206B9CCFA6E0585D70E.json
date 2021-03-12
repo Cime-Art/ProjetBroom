@@ -1,0 +1,53 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1427636496",
+    "GUID": "{55180110-0110-1110-1010-101010101010}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_44975B61D2194206B9CCFA6E0585D70E",
+    "ShortName": "SB_44975B61D2194206B9CCFA6E0585D70E",
+    "Path": "SB_44975B61D2194206B9CCFA6E0585D70E.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "666298853",
+      "Name": "Event_Stop_Music_Menu_Playlist",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Event_Stop_Music_Menu_Playlist",
+      "GUID": "{44975B61-D219-4206-B9CC-FA6E0585D70E}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
+      "ActionTrigger": [
+       {
+        "Id": "4003433129",
+        "Name": "Stop_Crash",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\Stop_Crash",
+        "GUID": "{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "4003433129",
+      "Name": "Stop_Crash",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\Stop_Crash",
+      "GUID": "{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}"
+     }
+    ]
+   }
+  ]
+ }
+}

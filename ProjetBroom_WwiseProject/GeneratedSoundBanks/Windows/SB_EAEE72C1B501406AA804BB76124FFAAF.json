@@ -1,0 +1,81 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2096935598",
+    "GUID": "{7CFCB2AE-B2AE-12AE-AEAE-AEAEAEAEAEAE}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_EAEE72C1B501406AA804BB76124FFAAF",
+    "ShortName": "SB_EAEE72C1B501406AA804BB76124FFAAF",
+    "Path": "SB_EAEE72C1B501406AA804BB76124FFAAF.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1750608598",
+      "Name": "Event_Pig",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Kitchen\\Event_Pig",
+      "GUID": "{EAEE72C1-B501-406A-A804-BB76124FFAAF}",
+      "MaxAttenuation": "1600.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "164158550",
+        "Language": "SFX",
+        "ShortName": "AMB_LP_cendres_v3.wav",
+        "Path": "SFX\\AMB_LP_cendres_v3_D79FB2B7.wem"
+       },
+       {
+        "Id": "254059359",
+        "Language": "SFX",
+        "ShortName": "12 - Amb_OS_KitchenPigSpit_01_Ferreira_V3.wav",
+        "Path": "SFX\\12 - Amb_OS_KitchenPigSpit_01_Ferreira_V3_D79FB2B7.wem"
+       },
+       {
+        "Id": "767472243",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_FabInFire_01.wav",
+        "Path": "SFX\\Amb_OS_FabInFire_01_10C4C929.wem"
+       },
+       {
+        "Id": "956963035",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_FabInFire_03.wav",
+        "Path": "SFX\\Amb_OS_FabInFire_03_10C4C929.wem"
+       },
+       {
+        "Id": "994783815",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_FabInFire_02.wav",
+        "Path": "SFX\\Amb_OS_FabInFire_02_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

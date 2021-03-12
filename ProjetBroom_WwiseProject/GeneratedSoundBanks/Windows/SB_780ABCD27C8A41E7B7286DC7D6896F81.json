@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "241392049",
+    "GUID": "{0E6359B1-59B1-19B1-B1B1-B1B1B1B1B1B1}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_780ABCD27C8A41E7B7286DC7D6896F81",
+    "ShortName": "SB_780ABCD27C8A41E7B7286DC7D6896F81",
+    "Path": "SB_780ABCD27C8A41E7B7286DC7D6896F81.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "246525656",
+      "Name": "BarnRVB",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Quentin\\Barn\\Barn\\Master Bus\\BarnRVB",
+      "GUID": "{780ABCD2-7C8A-41E7-B728-6DC7D6896F81}"
+     }
+    ]
+   }
+  ]
+ }
+}

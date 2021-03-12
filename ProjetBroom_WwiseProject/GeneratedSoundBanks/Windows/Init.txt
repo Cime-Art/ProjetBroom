@@ -1,0 +1,108 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	891853681	AlambicState			\Default Work Unit\Mob\Alambic\AlambicState	
+	949138207	BlobState			\Default Work Unit\Mob\Blob\BlobState	
+	1069431850	Player			\Default Work Unit\Player\Player	
+	1085924974	State_Gate			\Default Work Unit\Environement\State_Gate	
+	1911621787	snail_stateGroup			\Default Work Unit\Mob\Snail\snail_stateGroup	
+	2394864122	FullArmorBoss_State			\Default Work Unit\Mob\Boss\FullArmorBoss_State	
+	2519955112	Bat_State			\Default Work Unit\Mob\Bat\Bat_State	
+	2804720716	Skeletons_States			\Default Work Unit\Mob\Skeletons\Skeletons_States	
+	2854175295	Attack_Player			\Default Work Unit\Player\Attack_Player	
+	3764303108	fusion_stateGroup			\Default Work Unit\Mob\Boss\fusion_stateGroup	
+
+State	ID	Name	State Group			Notes
+	110619946	GetHit	AlambicState			
+	748895195	None	AlambicState			
+	779278001	Death	AlambicState			
+	1874288895	Idle	AlambicState			
+	2141674100	JumpingFoward	AlambicState			
+	3979397271	HitPlayer	AlambicState			
+	4272909105	PoppingSmoke	AlambicState			
+	110619946	GetHit	BlobState			
+	428598047	AttackClose	BlobState			
+	748895195	None	BlobState			
+	779278001	Death	BlobState			
+	1874288895	Idle	BlobState			
+	1970639712	AttackSplash	BlobState			
+	2141674100	JumpingFoward	BlobState			
+	3979397271	HitPlayer	BlobState			
+	748895195	None	Player			
+	779278001	Death	Player			
+	1729783505	Get_Hit	Player			
+	1874288895	Idle	Player			
+	1942692385	Dash	Player			
+	3833651337	Jump	Player			
+	645492555	Out	State_Gate			
+	748895195	None	State_Gate			
+	2112530240	In_Barn	State_Gate			
+	2771170873	In_Kitchen	State_Gate			
+	748895195	None	snail_stateGroup			
+	1947432626	snail_explosion_state	snail_stateGroup			
+	2307670763	snail_idle_state	snail_stateGroup			
+	4127713688	snail_forward_state	snail_stateGroup			
+	748895195	None	FullArmorBoss_State			
+	1874288895	Idle	FullArmorBoss_State			
+	2129636626	Movement	FullArmorBoss_State			
+	110619946	GetHit	Bat_State			
+	128707321	AttackDash	Bat_State			
+	748895195	None	Bat_State			
+	779278001	Death	Bat_State			
+	2467563545	MoveForward	Bat_State			
+	3013208399	Iddle	Bat_State			
+	110619946	GetHit	Skeletons_States			
+	748895195	None	Skeletons_States			
+	779278001	Death	Skeletons_States			
+	1874288895	Idle	Skeletons_States			
+	2467563545	MoveForward	Skeletons_States			
+	2471918985	Attack_01	Skeletons_States			
+	2471918986	Attack_02	Skeletons_States			
+	3831688773	PlayerHit	Skeletons_States			
+	748895195	None	Attack_Player			
+	1763033380	Horizontal_Attack	Attack_Player			
+	2665482738	Vertical_Attack	Attack_Player			
+	552373010	fusion_attackJump_state	fusion_stateGroup			
+	671989930	fusion_attackCACHeavy_state	fusion_stateGroup			
+	748895195	None	fusion_stateGroup			
+	976244503	fusion_attackCACLight_state	fusion_stateGroup			
+	1014641640	fusion_death_state	fusion_stateGroup			
+	1168682457	fusion_forward_state	fusion_stateGroup			
+	2269325202	fusion_attackLaunchSkull_state	fusion_stateGroup			
+	2331601848	fusion_idle_state	fusion_stateGroup			
+	2488908052	fusion_attackLaunchFireball_state	fusion_stateGroup			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	110557687	In_Barn	State_Gate	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Bus_Tuto_Rev\Aux_Reverb_Out		
+	328018132	Out	State_Gate	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Bus_Tuto_Rev\Aux_Reverb_In		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1130989983	SFX_Volume_GP			\Default Work Unit\Option\SFX_Volume_GP	
+	2093986695	Music_Volume_GP			\Default Work Unit\Option\Music_Volume_GP	
+	3931204830	Master_Volume_GP			\Default Work Unit\Option\Master_Volume_GP	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1399649189	Master Bus			\Quentin\Barn\Barn\Master Bus	
+	1470635214	Bus_Jail_Rev			\Default Work Unit\Master Audio Bus\SFX\Bus_Jail_Rev	
+	3015854908	Bus_Tuto_Rev			\Default Work Unit\Master Audio Bus\SFX\Bus_Tuto_Rev	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	246525656	BarnRVB			\Quentin\Barn\Barn\Master Bus\BarnRVB	
+	335668392	Reveb_Jail			\Default Work Unit\Master Audio Bus\SFX\Bus_Jail_Rev\Reveb_Jail	
+	2957976456	RVB_crash_stop			\Default Work Unit\Master Audio Bus\Music\RVB_crash_stop	
+	3246314181	WwiseMeterTrigger			\Quentin\Barn\Barn\Master Bus\WwiseMeterTrigger	
+	3639771593	Aux_Reverb_Out			\Default Work Unit\Master Audio Bus\SFX\Bus_Tuto_Rev\Aux_Reverb_Out	
+	4017534918	Aux_Reverb_In			\Default Work Unit\Master Audio Bus\SFX\Bus_Tuto_Rev\Aux_Reverb_In	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	484890516	Church_Small_Wood	Wwise RoomVerb			
+	780838069	New_Wwise_Meter	Wwise Meter			
+	2513915904	Hall_Large	Wwise RoomVerb			
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

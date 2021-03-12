@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2453254083",
+    "GUID": "{9239AFC3-AFC3-1FC3-C3C3-C3C3C3C3C3C3}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_4FDAC8262CC2491797B6D3CFF0B74B46",
+    "ShortName": "SB_4FDAC8262CC2491797B6D3CFF0B74B46",
+    "Path": "SB_4FDAC8262CC2491797B6D3CFF0B74B46.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4049531232",
+      "Name": "Event_Cauldron",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Kitchen\\Event_Cauldron",
+      "GUID": "{4FDAC826-2CC2-4917-97B6-D3CFF0B74B46}",
+      "MaxAttenuation": "1350.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "63337297",
+        "Language": "SFX",
+        "ShortName": "Amb_LP_FirePlaceCrackles_02_THOMAS_v2.wav",
+        "Path": "SFX\\Amb_LP_FirePlaceCrackles_02_THOMAS_v2_D79FB2B7.wem"
+       },
+       {
+        "Id": "323484218",
+        "Language": "SFX",
+        "ShortName": "Amb_LP_FirePlace_Preparation_02.wav",
+        "Path": "SFX\\Amb_LP_FirePlace_Preparation_02_D79FB2B7.wem"
+       },
+       {
+        "Id": "489255026",
+        "Language": "SFX",
+        "ShortName": "Amb_LP_FirePlace_Preparation_01.wav",
+        "Path": "SFX\\Amb_LP_FirePlace_Preparation_01_D79FB2B7.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

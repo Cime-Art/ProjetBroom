@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3448802446	Event_Player_Action			\Default Work Unit\Player\Action\Event_Player_Action	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1069431850	Player			\Default Work Unit\Player\Player	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Player			
+	779278001	Death	Player			
+	1729783505	Get_Hit	Player			
+	1874288895	Idle	Player			
+	1942692385	Dash	Player			
+	3833651337	Jump	Player			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	84488110	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\General_Player_Mix\Player_State\Player_Jump\Player_Silence\Wwise Silence	
+	997890619	SoundSeed Air Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\Player\General_Player_Mix\Player_State\Player_Dash\SoundSeed Air Woosh	
+
