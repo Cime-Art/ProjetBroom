@@ -551,6 +551,13 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{620C7D49-2180-4BFE-864E-7B1989C92104}" ShortID="510947585">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="AMB_LP_Steam" ID="{438E9EB0-6010-4C84-9190-BF1FA2DFC895}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 										<Event Name="Event_Boiler" ID="{21565AFE-8ACE-4627-A74C-9F9EF4B25786}">
@@ -589,6 +596,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="BoilerDoorClose_RND" ID="{4C27D804-3CDE-4CB6-B2A2-AAE986478927}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_FireEscpae" ID="{8FC5EDCE-EC54-4CFE-8291-18022FDD23C2}">
+											<ChildrenList>
+												<Action Name="" ID="{F9AE265F-E586-4120-BDCC-CC5BD642CE38}" ShortID="532163752">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Amb_LP_FireEscape" ID="{6F64D8EA-2C40-4B7B-BB99-E22FC70D8A4D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

@@ -4416,6 +4416,82 @@
 																		<ActiveSource Name="Amb_LP_FireBoiler_01" ID="{0B94DC3F-A077-4EFC-8894-F047125B6D40}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
+																<Sound Name="AMB_LP_Steam" ID="{438E9EB0-6010-4C84-9190-BF1FA2DFC895}" ShortID="312714776">
+																	<PropertyList>
+																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-24</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="AMB_LP_Steam_01_THOMAS_V2" ID="{063D34CD-B532-4C88-B8FE-41B83164749E}">
+																			<Language>SFX</Language>
+																			<AudioFile>AMB_LP_Steam_01_THOMAS_V2.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="488326494"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="AMB_LP_Steam_01_THOMAS_V2" ID="{063D34CD-B532-4C88-B8FE-41B83164749E}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Amb_LP_FireEscape" ID="{6F64D8EA-2C40-4B7B-BB99-E22FC70D8A4D}" ShortID="346997844">
+																	<PropertyList>
+																		<Property Name="Highpass" Type="int16">
+																			<ValueList>
+																				<Value>8</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-10</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="Boiler_Att" ID="{85D9B5E7-C0D4-4020-A345-835D9B4FEB01}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Amb_LP_FireBoiler_01_THOMAS_v3" ID="{6A09BB4F-A44E-42F1-9E52-DC55CC98829B}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>5</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Amb_LP_FireBoiler_01_THOMAS_v3.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="97959033"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Amb_LP_FireBoiler_01_THOMAS_v3" ID="{6A09BB4F-A44E-42F1-9E52-DC55CC98829B}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
 															</ChildrenList>
 															<StateInfo>
 																<StateGroupList>
