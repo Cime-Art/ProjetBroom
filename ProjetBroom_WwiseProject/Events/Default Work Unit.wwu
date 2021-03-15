@@ -710,6 +710,21 @@
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Hell" ID="{246DE10D-6236-481E-B819-17F138DBE94D}" ShortID="241790163"/>
+						<Folder Name="Throne" ID="{FCC81E8B-B929-4746-85FA-ED985CCEEEF7}" ShortID="241807138">
+							<ChildrenList>
+								<Event Name="Event_Torch" ID="{3799DA11-6366-4AFF-B450-C7572AC198AC}">
+									<ChildrenList>
+										<Action Name="" ID="{93AE75F8-8CEC-494B-862F-1C35DA8D6003}" ShortID="455572894">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Torch" ID="{DE3AB0F9-C60D-44D4-ACB0-9B39CFD1D6A6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="HUD_Menu" ID="{47B1D365-9F37-4CF3-9E74-E281BAF228B1}" ShortID="354925204">

@@ -8474,6 +8474,201 @@
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Hell" ID="{F86F19DF-5605-4052-9583-015C21EF0851}" ShortID="640098025"/>
+								<Folder Name="Throne" ID="{66DD4DA5-7563-4648-AF0D-AE7C512F7DED}" ShortID="799175653">
+									<ChildrenList>
+										<ActorMixer Name="Throne_Mix" ID="{A7562BC8-CBC1-45C6-9153-3910DC2E1846}" ShortID="190006773">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Torch" ID="{DE3AB0F9-C60D-44D4-ACB0-9B39CFD1D6A6}" ShortID="908888782">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-11</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<Custom CreatedFrom="{FFC1A8A3-AFC9-453A-94EF-0B2C06393706}">
+																<Attenuation Name="Fireplace_Att (Custom)" ID="{9FA3476B-A54B-4A8C-9F32-AB26E830C130}" ShortID="574473022">
+																	<PropertyList>
+																		<Property Name="RadiusMax" Type="Real64" Value="3000"/>
+																	</PropertyList>
+																	<CurveUsageInfoList>
+																		<VolumeDryUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="VolumeDry" ID="{5D31EC29-9468-472F-997D-04B5D8BF9FB8}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="3"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>0</YPos>
+																							<Flags>5</Flags>
+																							<SegmentShape>Log1</SegmentShape>
+																						</Point>
+																						<Point>
+																							<XPos>3000</XPos>
+																							<YPos>-200</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</VolumeDryUsage>
+																		<VolumeWetGameUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																		</VolumeWetGameUsage>
+																		<VolumeWetUserUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																		</VolumeWetUserUsage>
+																		<LowPassFilterUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																				<Curve Name="LowPassFilter" ID="{95969F5B-3185-427D-9322-799B0CCB113A}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="65537"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>0</YPos>
+																							<Flags>5</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>3000</XPos>
+																							<YPos>100</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</LowPassFilterUsage>
+																		<HighPassFilterUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																				<Curve Name="HighPassFilter" ID="{909474D1-BED6-4D0F-B060-43470C568A34}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="65537"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>0</YPos>
+																							<Flags>5</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>1128.52665</XPos>
+																							<YPos>35</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>3000</XPos>
+																							<YPos>35</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</HighPassFilterUsage>
+																		<SpreadUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="Spread" ID="{65E712F9-24E9-4C3D-A7F3-99EF664B171D}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="1"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>100</YPos>
+																							<Flags>5</Flags>
+																							<SegmentShape>Log1</SegmentShape>
+																						</Point>
+																						<Point>
+																							<XPos>1125</XPos>
+																							<YPos>100</YPos>
+																							<Flags>0</Flags>
+																							<SegmentShape>Log1</SegmentShape>
+																						</Point>
+																						<Point>
+																							<XPos>1863.20755</XPos>
+																							<YPos>40</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>3000</XPos>
+																							<YPos>40</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</SpreadUsage>
+																		<FocusUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																				<Curve Name="Focus" ID="{F8570076-80C2-44DA-BF8E-0BEB8C871780}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="1"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>67.46479</YPos>
+																							<Flags>5</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>1006.26958536585</XPos>
+																							<YPos>68.16901</YPos>
+																							<Flags>0</Flags>
+																							<SegmentShape>Exp1</SegmentShape>
+																						</Point>
+																						<Point>
+																							<XPos>3000</XPos>
+																							<YPos>88.7324</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</FocusUsage>
+																	</CurveUsageInfoList>
+																</Attenuation>
+															</Custom>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LP_torch_01_GOICO_v1" ID="{1B58BC1A-6D05-4BA0-8F13-F9A4138C4328}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LP_torch_01_GOICO_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="701637149"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LP_torch_01_GOICO_v1" ID="{1B58BC1A-6D05-4BA0-8F13-F9A4138C4328}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
