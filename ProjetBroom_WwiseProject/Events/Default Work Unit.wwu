@@ -616,12 +616,23 @@
 								</Folder>
 								<Folder Name="Graden" ID="{ED1492A4-C035-4B53-B7AA-391E1A1D2D1A}" ShortID="639803857">
 									<ChildrenList>
-										<Event Name="Event_Wind" ID="{454DBA94-787F-42A5-9B79-FDC08286E3AB}">
+										<Event Name="Event_Wind" ID="{0126A8AF-C202-4653-946A-006410E9CEF3}">
 											<ChildrenList>
-												<Action Name="" ID="{08E71F3F-24B0-4ADA-9140-C79732D1A75A}" ShortID="997482996">
+												<Action Name="" ID="{ACF0D6ED-8F8D-4D3C-82DE-039AC73DCF0A}" ShortID="808867550">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Wind_Blend" ID="{2939C4E3-68B4-4427-937A-2420FE4F76F0}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+															<ObjectRef Name="Wind_Loop" ID="{09985DCF-CBD1-4421-8B75-7CB14FA3CEEA}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_Stone_Trigg" ID="{389804DD-A3A6-456D-8E34-97CC4F737B92}">
+											<ChildrenList>
+												<Action Name="" ID="{AAD40652-2766-4271-8961-63257A2FCD15}" ShortID="703559899">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Stone_Fall_RND" ID="{1FE95C46-8D20-4DF6-8BF9-E1667EB6A09C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

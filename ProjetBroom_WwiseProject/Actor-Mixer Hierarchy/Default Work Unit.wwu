@@ -1307,18 +1307,12 @@
 																</Folder>
 																<Folder Name="Wind" ID="{5A728254-F9D8-41B4-966A-19BF718D047D}" ShortID="654915680">
 																	<ChildrenList>
-																		<BlendContainer Name="Wind_Blend" ID="{2939C4E3-68B4-4427-937A-2420FE4F76F0}" ShortID="751858465">
+																		<Sound Name="Wind_Loop" ID="{09985DCF-CBD1-4421-8B75-7CB14FA3CEEA}" ShortID="90739068">
 																			<PropertyList>
-																				<Property Name="BlendBehavior" Type="int16" Value="1"/>
-																				<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-																				<Property Name="MaxSoundPerInstance" Type="int16">
-																					<ValueList>
-																						<Value>2</Value>
-																					</ValueList>
-																				</Property>
+																				<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-15</Value>
+																						<Value>-6</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
@@ -1331,451 +1325,48 @@
 																				</Reference>
 																			</ReferenceList>
 																			<ChildrenList>
-																				<Sound Name="Wind_Low" ID="{5FB16CC8-E2FB-4D2F-9659-7E1CB3F580D0}" ShortID="656469982">
-																					<PropertyList>
-																						<Property Name="Inclusion" Type="bool">
-																							<ValueList>
-																								<Value>False</Value>
-																							</ValueList>
-																						</Property>
-																						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																						<Property Name="Volume" Type="Real64">
-																							<ValueList>
-																								<Value>-4</Value>
-																							</ValueList>
-																							<ModifierList>
-																								<ModifierInfo>
-																									<Modifier Name="" ID="{E9C583B1-7CDB-4DCD-9648-736871C49C86}">
-																										<PropertyList>
-																											<Property Name="Min" Type="Real64" Value="-3"/>
-																										</PropertyList>
-																									</Modifier>
-																								</ModifierInfo>
-																							</ModifierList>
-																						</Property>
-																					</PropertyList>
-																					<ReferenceList>
-																						<Reference Name="Conversion">
-																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																						</Reference>
-																						<Reference Name="OutputBus">
-																							<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																						</Reference>
-																						<Reference Name="UserAuxSend0">
-																							<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																						</Reference>
-																						<Reference Name="UserAuxSend1">
-																							<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																						</Reference>
-																					</ReferenceList>
-																					<ChildrenList>
-																						<SourcePlugin Name="SoundSeed Air Wind" ID="{0C7F99F1-A486-4E70-98F7-E5762EFAD6DD}" ShortID="522069659" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
-																							<PropertyList>
-																								<Property Name="AverageVelocity" Type="Real32" Value="-30"/>
-																								<Property Name="AverageVelocityRandom" Type="Real32" Value="10"/>
-																								<Property Name="DirectionRandom" Type="Real32" Value="62"/>
-																								<Property Name="Duration" Type="Real64" Value="20"/>
-																								<Property Name="FrequencyScale" Type="Real32" Value="-0.59"/>
-																								<Property Name="GainOffset" Type="Real32" Value="0.7"/>
-																								<Property Name="GainOffsetAutomate" Type="bool" Value="True"/>
-																								<Property Name="GainOffsetRandom" Type="Real32" Value="14.4"/>
-																								<Property Name="Gustiness" Type="Real32" Value="0.3"/>
-																								<Property Name="MinDistance" Type="Real32" Value="0.1"/>
-																								<Property Name="QFactorScale" Type="Real32" Value="-0.08"/>
-																								<Property Name="Variability" Type="Real32" Value="0.2"/>
-																							</PropertyList>
-																							<Language>SFX</Language>
-																							<PluginData>
-	<CurveList Version="1">
-		<CurveInfo Name="AverageVelocity">
-			<Curve Name="" ID="{7D441668-33B3-490A-BADB-159B061CB99F}">
-				<PropertyList>
-					<Property Name="Flags" Type="int32" Value="1"/>
-				</PropertyList>
-				<PointList>
-					<Point>
-						<XPos>0</XPos>
-						<YPos>-830</YPos>
-						<Flags>5</Flags>
-					</Point>
-					<Point>
-						<XPos>20</XPos>
-						<YPos>-730</YPos>
-						<Flags>37</Flags>
-					</Point>
-				</PointList>
-			</Curve>
-		</CurveInfo>
-		<CurveInfo Name="GainOffset">
-			<Curve Name="" ID="{CA2985F3-7656-4A1E-A129-EBBC332F069F}">
-				<PropertyList>
-					<Property Name="Flags" Type="int32" Value="1"/>
-				</PropertyList>
-				<PointList>
-					<Point>
-						<XPos>0</XPos>
-						<YPos>0</YPos>
-						<Flags>5</Flags>
-					</Point>
-					<Point>
-						<XPos>0.63291</XPos>
-						<YPos>-2.60254</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>1.48734</XPos>
-						<YPos>-6.35637</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>2.56329</XPos>
-						<YPos>-5.42759</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>3.57595</XPos>
-						<YPos>-0.70626</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>4.33544</XPos>
-						<YPos>-2.83796</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>5.15823</XPos>
-						<YPos>-9.41683</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>5.91772</XPos>
-						<YPos>-10.60685</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>6.86709</XPos>
-						<YPos>-9.88767</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>8.00632</XPos>
-						<YPos>-3.77966</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>8.73418</XPos>
-						<YPos>-0.47084</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>10.15822</XPos>
-						<YPos>-0.23543</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>11.70887</XPos>
-						<YPos>-4.70843</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>13.70253</XPos>
-						<YPos>-7.29804</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>15.98101</XPos>
-						<YPos>-8.0043</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>17.8164556962025</XPos>
-						<YPos>-1.81932953344365</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>20</XPos>
-						<YPos>0</YPos>
-						<Flags>37</Flags>
-					</Point>
-				</PointList>
-			</Curve>
-		</CurveInfo>
-		<CurveInfo Name="Gustiness">
-			<Curve Name="" ID="{7CA6066B-615B-485A-A6DC-355FB6FDC6A3}">
-				<PropertyList>
-					<Property Name="Flags" Type="int32" Value="1"/>
-				</PropertyList>
-				<PointList>
-					<Point>
-						<XPos>0</XPos>
-						<YPos>0</YPos>
-						<Flags>5</Flags>
-					</Point>
-					<Point>
-						<XPos>20</XPos>
-						<YPos>0</YPos>
-						<Flags>37</Flags>
-					</Point>
-				</PointList>
-			</Curve>
-		</CurveInfo>
-	</CurveList>
-</PluginData>
-																							<PluginInnerObjectList>
-																								<List Name="Deflectors">
-																									<PluginInnerObject Name="" ID="{84990B77-F8BF-41BD-9220-44182A4AF3AB}" PluginName="Deflector" CompanyID="0" PluginID="121">
-																										<PropertyList>
-																											<Property Name="Frequency" Type="Real32" Value="3656"/>
-																											<Property Name="Gain" Type="Real32" Value="1"/>
-																											<Property Name="PanY" Type="Real64" Value="1.55431223447522E-15"/>
-																											<Property Name="QFactor" Type="Real32" Value="0.1"/>
-																										</PropertyList>
-																									</PluginInnerObject>
-																								</List>
-																							</PluginInnerObjectList>
-																						</SourcePlugin>
-																					</ChildrenList>
-																					<StateInfo>
-																						<StateGroupList>
-																							<StateGroupInfo>
-																								<StateGroupRef Name="State_Gate" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
-																							</StateGroupInfo>
-																						</StateGroupList>
-																						<CustomStateList>
-																							<CustomState>
-																								<StateRef Name="In_Barn" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
-																								<CustomState Name="" ID="{F0D53ECC-E130-4BDE-9B23-5FC83E2BBF61}" ShortID="662878464">
-																									<PropertyList>
-																										<Property Name="Lowpass" Type="int16" Value="46"/>
-																										<Property Name="Volume" Type="Real64" Value="-5"/>
-																									</PropertyList>
-																								</CustomState>
-																							</CustomState>
-																							<CustomState>
-																								<StateRef Name="In_Kitchen" ID="{D0B086CF-5F0F-4B67-83DB-4E500E5AD494}"/>
-																								<CustomState Name="" ID="{FF412CC5-242A-44A8-93AE-3BD80436E7A8}" ShortID="656844707">
-																									<PropertyList>
-																										<Property Name="Volume" Type="Real64" Value="-108"/>
-																									</PropertyList>
-																								</CustomState>
-																							</CustomState>
-																							<CustomState>
-																								<StateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
-																								<CustomState Name="" ID="{2CC588D3-E4BA-41CC-8552-900A3AB34890}" ShortID="782098803"/>
-																							</CustomState>
-																						</CustomStateList>
-																					</StateInfo>
-																					<ActiveSourceList>
-																						<ActiveSource Name="SoundSeed Air Wind" ID="{0C7F99F1-A486-4E70-98F7-E5762EFAD6DD}" Platform="Linked"/>
-																					</ActiveSourceList>
-																				</Sound>
-																				<Sound Name="Wind_variation" ID="{92B4103C-2FCE-4976-848E-52E58F25917C}" ShortID="166924364">
-																					<PropertyList>
-																						<Property Name="Inclusion" Type="bool">
-																							<ValueList>
-																								<Value>False</Value>
-																							</ValueList>
-																						</Property>
-																						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																						<Property Name="Volume" Type="Real64">
-																							<ValueList>
-																								<Value>-3</Value>
-																							</ValueList>
-																						</Property>
-																					</PropertyList>
-																					<ReferenceList>
-																						<Reference Name="Conversion">
-																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																						</Reference>
-																						<Reference Name="OutputBus">
-																							<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																						</Reference>
-																						<Reference Name="UserAuxSend0">
-																							<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																						</Reference>
-																						<Reference Name="UserAuxSend1">
-																							<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																						</Reference>
-																					</ReferenceList>
-																					<ChildrenList>
-																						<SourcePlugin Name="SoundSeed Air Wind" ID="{66BA22E6-4290-4080-ADEC-B61E7760A996}" ShortID="324716711" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
-																							<PropertyList>
-																								<Property Name="AverageVelocity" Type="Real32" Value="-880"/>
-																								<Property Name="AverageVelocityRandom" Type="Real32" Value="40"/>
-																								<Property Name="FrequencyScale" Type="Real32" Value="0.21"/>
-																								<Property Name="GainOffset" Type="Real32" Value="24"/>
-																								<Property Name="GainOffsetAutomate" Type="bool" Value="True"/>
-																								<Property Name="GainOffsetRandom" Type="Real32" Value="26.5"/>
-																								<Property Name="Gustiness" Type="Real32" Value="0.19"/>
-																								<Property Name="GustinessRandom" Type="Real32" Value="0.27"/>
-																								<Property Name="QFactorScale" Type="Real32" Value="-0.25"/>
-																								<Property Name="Variability" Type="Real32" Value="0.33"/>
-																								<Property Name="VariabilityRandom" Type="Real32" Value="0.36"/>
-																							</PropertyList>
-																							<Language>SFX</Language>
-																							<PluginData>
-	<CurveList Version="1">
-		<CurveInfo Name="GainOffset">
-			<Curve Name="" ID="{82EBC097-CD90-44D6-B513-5F3AD695CD53}">
-				<PropertyList>
-					<Property Name="Flags" Type="int32" Value="1"/>
-				</PropertyList>
-				<PointList>
-					<Point>
-						<XPos>0</XPos>
-						<YPos>0</YPos>
-						<Flags>5</Flags>
-					</Point>
-					<Point>
-						<XPos>0.91772</XPos>
-						<YPos>-9.42975</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>1.97784</XPos>
-						<YPos>-12.00645</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>2.84809</XPos>
-						<YPos>-9.19434</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>3.92405</XPos>
-						<YPos>-2.73671</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>4.46203</XPos>
-						<YPos>-1.1771</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>4.85759</XPos>
-						<YPos>-2.0923</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>5.28481</XPos>
-						<YPos>-5.19218</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>6.75632</XPos>
-						<YPos>-10.35851</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>8.05379</XPos>
-						<YPos>-8.01721</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>8.75</XPos>
-						<YPos>-4.95675</YPos>
-						<Flags>0</Flags>
-					</Point>
-					<Point>
-						<XPos>10</XPos>
-						<YPos>0</YPos>
-						<Flags>37</Flags>
-					</Point>
-				</PointList>
-			</Curve>
-		</CurveInfo>
-		<CurveInfo Name="Gustiness">
-			<Curve Name="" ID="{ECB82A41-DBE1-4713-B953-818C92387C2E}">
-				<PropertyList>
-					<Property Name="Flags" Type="int32" Value="1"/>
-				</PropertyList>
-				<PointList>
-					<Point>
-						<XPos>0</XPos>
-						<YPos>0</YPos>
-						<Flags>5</Flags>
-					</Point>
-					<Point>
-						<XPos>10</XPos>
-						<YPos>0</YPos>
-						<Flags>37</Flags>
-					</Point>
-				</PointList>
-			</Curve>
-		</CurveInfo>
-	</CurveList>
-</PluginData>
-																							<PluginInnerObjectList>
-																								<List Name="Deflectors">
-																									<PluginInnerObject Name="" ID="{DBBFC0EB-3631-4AA4-A7D4-6DE02E306E0D}" PluginName="Deflector" CompanyID="0" PluginID="121">
-																										<PropertyList>
-																											<Property Name="Frequency" Type="Real32" Value="476"/>
-																											<Property Name="QFactor" Type="Real32" Value="0.89"/>
-																										</PropertyList>
-																									</PluginInnerObject>
-																								</List>
-																							</PluginInnerObjectList>
-																						</SourcePlugin>
-																					</ChildrenList>
-																					<StateInfo>
-																						<StateGroupList>
-																							<StateGroupInfo>
-																								<StateGroupRef Name="State_Gate" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
-																							</StateGroupInfo>
-																						</StateGroupList>
-																						<CustomStateList>
-																							<CustomState>
-																								<StateRef Name="In_Barn" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
-																								<CustomState Name="" ID="{9532EDE5-90AA-4906-B2A8-C1193F794135}" ShortID="719272581">
-																									<PropertyList>
-																										<Property Name="Lowpass" Type="int16" Value="46"/>
-																										<Property Name="Pitch" Type="int32" Value="50"/>
-																										<Property Name="Volume" Type="Real64" Value="-5"/>
-																									</PropertyList>
-																								</CustomState>
-																							</CustomState>
-																							<CustomState>
-																								<StateRef Name="In_Kitchen" ID="{D0B086CF-5F0F-4B67-83DB-4E500E5AD494}"/>
-																								<CustomState Name="" ID="{594BC98A-5EBF-4ABD-A0B1-DA242B5950B0}" ShortID="374302119">
-																									<PropertyList>
-																										<Property Name="Volume" Type="Real64" Value="-108"/>
-																									</PropertyList>
-																								</CustomState>
-																							</CustomState>
-																							<CustomState>
-																								<StateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
-																								<CustomState Name="" ID="{8F4C4461-9A9D-41D0-8850-7FE291A1C03E}" ShortID="320610587"/>
-																							</CustomState>
-																						</CustomStateList>
-																					</StateInfo>
-																					<ActiveSourceList>
-																						<ActiveSource Name="SoundSeed Air Wind" ID="{66BA22E6-4290-4080-ADEC-B61E7760A996}" Platform="Linked"/>
-																					</ActiveSourceList>
-																				</Sound>
-																				<Sound Name="Wind_01" ID="{C0F9B457-B574-4401-8D0C-DDA946792457}" ShortID="24881890">
-																					<ReferenceList>
-																						<Reference Name="Conversion">
-																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																						</Reference>
-																						<Reference Name="OutputBus">
-																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																						</Reference>
-																					</ReferenceList>
-																					<ChildrenList>
-																						<AudioFileSource Name="Amb_LP_Garden_11_Théo_" ID="{4DB1BA90-6A45-4055-9D0C-D79BE72150F2}">
-																							<Language>SFX</Language>
-																							<AudioFile>Amb_LP_Garden_11_Théo_.wav</AudioFile>
-																							<MediaIDList>
-																								<MediaID ID="515163033"/>
-																							</MediaIDList>
-																						</AudioFileSource>
-																					</ChildrenList>
-																					<ActiveSourceList>
-																						<ActiveSource Name="Amb_LP_Garden_11_Théo_" ID="{4DB1BA90-6A45-4055-9D0C-D79BE72150F2}" Platform="Linked"/>
-																					</ActiveSourceList>
-																				</Sound>
+																				<AudioFileSource Name="Amb_LP_Garden_11_Theo_" ID="{A018267D-221E-4CC4-852A-EBEF8455439A}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_LP_Garden_11_Theo_.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="954179847"/>
+																					</MediaIDList>
+																				</AudioFileSource>
 																			</ChildrenList>
-																		</BlendContainer>
+																			<StateInfo>
+																				<StateGroupList>
+																					<StateGroupInfo>
+																						<StateGroupRef Name="State_Gate" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
+																					</StateGroupInfo>
+																				</StateGroupList>
+																				<CustomStateList>
+																					<CustomState>
+																						<StateRef Name="In_Barn" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
+																						<CustomState Name="" ID="{C4ADEC37-7C21-40DF-89F3-0979046D0083}" ShortID="847184870">
+																							<PropertyList>
+																								<Property Name="Lowpass" Type="int16" Value="51"/>
+																								<Property Name="Volume" Type="Real64" Value="-3"/>
+																							</PropertyList>
+																						</CustomState>
+																					</CustomState>
+																					<CustomState>
+																						<StateRef Name="In_Kitchen" ID="{D0B086CF-5F0F-4B67-83DB-4E500E5AD494}"/>
+																						<CustomState Name="" ID="{316B1B4D-81BB-486E-A3C6-E29288FAFACD}" ShortID="830573647">
+																							<PropertyList>
+																								<Property Name="Volume" Type="Real64" Value="-10"/>
+																							</PropertyList>
+																						</CustomState>
+																					</CustomState>
+																					<CustomState>
+																						<StateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
+																						<CustomState Name="" ID="{9EEE9B2D-0D23-4B94-9C11-88F135B62FEB}" ShortID="305230772"/>
+																					</CustomState>
+																				</CustomStateList>
+																			</StateInfo>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_LP_Garden_11_Theo_" ID="{A018267D-221E-4CC4-852A-EBEF8455439A}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
 																	</ChildrenList>
 																</Folder>
 																<Folder Name="Foliage" ID="{D2B5D83D-A611-4D0F-861A-878356DB0EDC}" ShortID="408702117">
@@ -1821,6 +1412,204 @@
 																				<ActiveSource Name="SoundSeed Air Wind" ID="{4B313091-A785-459B-9E47-7F183BEE472D}" Platform="Linked"/>
 																			</ActiveSourceList>
 																		</Sound>
+																	</ChildrenList>
+																</Folder>
+																<Folder Name="Stone" ID="{BEDB5113-B46C-4EDE-933D-A2829F441DC6}" ShortID="586954085">
+																	<ChildrenList>
+																		<ActorMixer Name="Stone_Mix" ID="{CC2109C4-A2EE-4B6A-BD64-E2AEC00DE8EA}" ShortID="439143964">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<RandomSequenceContainer Name="Stone_Fall_RND" ID="{1FE95C46-8D20-4DF6-8BF9-E1667EB6A09C}" ShortID="571953176">
+																					<PropertyList>
+																						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+																						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+																						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{0318526C-9598-4B22-BF37-62F85E3F16F7}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="10"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-20</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend0">
+																							<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend1">
+																							<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<Sound Name="Amb_OS_StoneFall(Echo) _01_Anger_V2" ID="{53E0FBF3-7EAD-4F4B-976D-2427ACD768D7}" ShortID="856706634">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Amb_OS_StoneFall(Echo) _01_Anger_V2" ID="{DF256625-5296-4207-8E20-6B268B2BF33D}">
+																									<PropertyList>
+																										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																										<Property Name="TrimEnd" Type="Real64" Value="3.49157262731481"/>
+																										<Property Name="VolumeOffset" Type="Real64">
+																											<ValueList>
+																												<Value>24</Value>
+																											</ValueList>
+																										</Property>
+																									</PropertyList>
+																									<Language>SFX</Language>
+																									<AudioFile>Amb_OS_StoneFall(Echo) _01_Anger_V2.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="753318711"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Amb_OS_StoneFall(Echo) _01_Anger_V2" ID="{DF256625-5296-4207-8E20-6B268B2BF33D}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="Amb_OS_StoneFall(Echo) _02_Anger_V2" ID="{84057B77-3133-45AF-BE35-6FDBCE6BEC4D}" ShortID="763621417">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Amb_OS_StoneFall(Echo) _02_Anger_V2" ID="{5BB83666-4B76-4D35-90DA-F1B0A2AB2B6F}">
+																									<PropertyList>
+																										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																										<Property Name="TrimEnd" Type="Real64" Value="4.02813946759258"/>
+																										<Property Name="VolumeOffset" Type="Real64">
+																											<ValueList>
+																												<Value>24</Value>
+																											</ValueList>
+																										</Property>
+																									</PropertyList>
+																									<Language>SFX</Language>
+																									<AudioFile>Amb_OS_StoneFall(Echo) _02_Anger_V2.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="625702286"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Amb_OS_StoneFall(Echo) _02_Anger_V2" ID="{5BB83666-4B76-4D35-90DA-F1B0A2AB2B6F}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="Amb_OS_StoneFall(Echo) _07_Anger_V2" ID="{D1FDFE17-A56D-44E7-93FA-80AEE130B591}" ShortID="253845206">
+																							<PropertyList>
+																								<Property Name="Volume" Type="Real64">
+																									<ValueList>
+																										<Value>-13</Value>
+																									</ValueList>
+																								</Property>
+																							</PropertyList>
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Amb_OS_StoneFall(Echo) _07_Anger_V2" ID="{A0A3F0AD-06B4-4F97-ABA4-3166473BC9E6}">
+																									<PropertyList>
+																										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																										<Property Name="TrimBegin" Type="Real64" Value="1.73097989004629"/>
+																										<Property Name="TrimEnd" Type="Real64" Value="3.69136675347223"/>
+																										<Property Name="VolumeOffset" Type="Real64">
+																											<ValueList>
+																												<Value>24</Value>
+																											</ValueList>
+																										</Property>
+																									</PropertyList>
+																									<Language>SFX</Language>
+																									<AudioFile>Amb_OS_StoneFall(Echo) _07_Anger_V2.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="680119979"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Amb_OS_StoneFall(Echo) _07_Anger_V2" ID="{A0A3F0AD-06B4-4F97-ABA4-3166473BC9E6}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="Amb_OS_StoneFall(Echo) _08_Anger_V2" ID="{0F434AA3-5E85-4033-90E4-CE37BA22F8C3}" ShortID="1024507957">
+																							<PropertyList>
+																								<Property Name="Volume" Type="Real64">
+																									<ValueList>
+																										<Value>-19</Value>
+																									</ValueList>
+																								</Property>
+																							</PropertyList>
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Amb_OS_StoneFall(Echo) _08_Anger_V2" ID="{AACA0067-2BE5-4251-8EBD-69AC94D3ABF9}">
+																									<PropertyList>
+																										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																										<Property Name="TrimEnd" Type="Real64" Value="2.18811935763889"/>
+																										<Property Name="VolumeOffset" Type="Real64">
+																											<ValueList>
+																												<Value>24</Value>
+																											</ValueList>
+																										</Property>
+																									</PropertyList>
+																									<Language>SFX</Language>
+																									<AudioFile>Amb_OS_StoneFall(Echo) _08_Anger_V2.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="302866754"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Amb_OS_StoneFall(Echo) _08_Anger_V2" ID="{AACA0067-2BE5-4251-8EBD-69AC94D3ABF9}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																					</ChildrenList>
+																				</RandomSequenceContainer>
+																			</ChildrenList>
+																		</ActorMixer>
 																	</ChildrenList>
 																</Folder>
 															</ChildrenList>
@@ -3077,7 +2866,7 @@
 																				</Property>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-12</Value>
+																						<Value>-22</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
