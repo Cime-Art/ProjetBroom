@@ -1310,11 +1310,6 @@
 																		<BlendContainer Name="Wind_Blend" ID="{2939C4E3-68B4-4427-937A-2420FE4F76F0}" ShortID="751858465">
 																			<PropertyList>
 																				<Property Name="BlendBehavior" Type="int16" Value="1"/>
-																				<Property Name="Inclusion" Type="bool">
-																					<ValueList>
-																						<Value>False</Value>
-																					</ValueList>
-																				</Property>
 																				<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 																				<Property Name="MaxSoundPerInstance" Type="int16">
 																					<ValueList>
@@ -1338,6 +1333,11 @@
 																			<ChildrenList>
 																				<Sound Name="Wind_Low" ID="{5FB16CC8-E2FB-4D2F-9659-7E1CB3F580D0}" ShortID="656469982">
 																					<PropertyList>
+																						<Property Name="Inclusion" Type="bool">
+																							<ValueList>
+																								<Value>False</Value>
+																							</ValueList>
+																						</Property>
 																						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																						<Property Name="Volume" Type="Real64">
 																							<ValueList>
@@ -1571,6 +1571,11 @@
 																				</Sound>
 																				<Sound Name="Wind_variation" ID="{92B4103C-2FCE-4976-848E-52E58F25917C}" ShortID="166924364">
 																					<PropertyList>
+																						<Property Name="Inclusion" Type="bool">
+																							<ValueList>
+																								<Value>False</Value>
+																							</ValueList>
+																						</Property>
 																						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																						<Property Name="Volume" Type="Real64">
 																							<ValueList>
@@ -1745,6 +1750,28 @@
 																					</StateInfo>
 																					<ActiveSourceList>
 																						<ActiveSource Name="SoundSeed Air Wind" ID="{66BA22E6-4290-4080-ADEC-B61E7760A996}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Wind_01" ID="{C0F9B457-B574-4401-8D0C-DDA946792457}" ShortID="24881890">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_LP_Garden_11_Théo_" ID="{4DB1BA90-6A45-4055-9D0C-D79BE72150F2}">
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_LP_Garden_11_Théo_.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="515163033"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_LP_Garden_11_Théo_" ID="{4DB1BA90-6A45-4055-9D0C-D79BE72150F2}" Platform="Linked"/>
 																					</ActiveSourceList>
 																				</Sound>
 																			</ChildrenList>
