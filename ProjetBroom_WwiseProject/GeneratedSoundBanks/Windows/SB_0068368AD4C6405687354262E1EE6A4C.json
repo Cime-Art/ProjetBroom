@@ -1,0 +1,59 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2418283614",
+    "GUID": "{9024145E-145E-145E-5E5E-5E5E5E5E5E5E}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_0068368AD4C6405687354262E1EE6A4C",
+    "ShortName": "SB_0068368AD4C6405687354262E1EE6A4C",
+    "Path": "SB_0068368AD4C6405687354262E1EE6A4C.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1508400280",
+      "Name": "Event_Cast_Spell_Water",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Spell\\Water\\Event_Cast_Spell_Water",
+      "GUID": "{0068368A-D4C6-4056-8735-4262E1EE6A4C}",
+      "MaxAttenuation": "1000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.357554",
+      "DurationMax": "2.357554",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "120478342",
+        "Language": "SFX",
+        "ShortName": "OS_ImpactSpellWater_GOICO_01_v2.wav",
+        "Path": "SFX\\OS_ImpactSpellWater_GOICO_01_v2_1F958B5D.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

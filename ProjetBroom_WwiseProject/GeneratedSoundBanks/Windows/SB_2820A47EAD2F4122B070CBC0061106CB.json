@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3808721520",
+    "GUID": "{E3047A70-7A70-1A70-7070-707070707070}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_2820A47EAD2F4122B070CBC0061106CB",
+    "ShortName": "SB_2820A47EAD2F4122B070CBC0061106CB",
+    "Path": "SB_2820A47EAD2F4122B070CBC0061106CB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "747785480",
+      "Name": "Event_UI_ConfirmMenu",
+      "ObjectPath": "\\Events\\Default Work Unit\\HUD_Menu\\Event_UI_ConfirmMenu",
+      "GUID": "{2820A47E-AD2F-4122-B070-CBC0061106CB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.350952",
+      "DurationMax": "0.350952",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "322099105",
+        "Language": "SFX",
+        "ShortName": "UI_OS_ConfirmMenu_Pelloux_V1.wav",
+        "Path": "SFX\\UI_OS_ConfirmMenu_Pelloux_V1_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

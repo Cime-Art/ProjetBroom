@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3277138891",
+    "GUID": "{C3552BCB-2BCB-1BCB-CBCB-CBCBCBCBCBCB}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_75E52A56A5744BBA968A266EA236141E",
+    "ShortName": "SB_75E52A56A5744BBA968A266EA236141E",
+    "Path": "SB_75E52A56A5744BBA968A266EA236141E.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1719333815",
+      "Name": "Event_Play_UI_Closebook",
+      "ObjectPath": "\\Events\\Default Work Unit\\HUD_Bestiaire\\Event_Play_UI_Closebook",
+      "GUID": "{75E52A56-A574-4BBA-968A-266EA236141E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.396939",
+      "DurationMax": "0.396939",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "650919557",
+        "Language": "SFX",
+        "ShortName": "UI_OS_CloseBook_Bestiary_01_Dambrosio_V1.wav",
+        "Path": "SFX\\UI_OS_CloseBook_Bestiary_01_Dambrosio_V1_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

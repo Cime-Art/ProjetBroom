@@ -1,0 +1,58 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1753411683",
+    "GUID": "{6882F063-F063-1063-6363-636363636363}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_F1B48984047C4520BCC8BDF77F7DE6BE",
+    "ShortName": "SB_F1B48984047C4520BCC8BDF77F7DE6BE",
+    "Path": "SB_F1B48984047C4520BCC8BDF77F7DE6BE.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1353212495",
+      "Name": "Event_Cast_Laser",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Spell\\Laser_Sponge\\Event_Cast_Laser",
+      "GUID": "{F1B48984-047C-4520-BCC8-BDF77F7DE6BE}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.268209",
+      "DurationMax": "2.268209",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "599884955",
+        "Language": "SFX",
+        "ShortName": "Spell_OS_BeamAttack_01_Dambrosio_v1.wav",
+        "Path": "SFX\\Spell_OS_BeamAttack_01_Dambrosio_v1_196C3D5C.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

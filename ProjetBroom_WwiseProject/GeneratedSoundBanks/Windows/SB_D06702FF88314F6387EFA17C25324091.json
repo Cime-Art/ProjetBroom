@@ -1,0 +1,106 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3944794013",
+    "GUID": "{EB20C79D-C79D-179D-9D9D-9D9D9D9D9D9D}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_D06702FF88314F6387EFA17C25324091",
+    "ShortName": "SB_D06702FF88314F6387EFA17C25324091",
+    "Path": "SB_D06702FF88314F6387EFA17C25324091.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1785597762",
+      "Name": "Event_AcidBurn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Acid\\Event_AcidBurn",
+      "GUID": "{D06702FF-8831-4F63-87EF-A17C25324091}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.143946",
+      "DurationMax": "4.542494",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "47929116",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_AcidBurn_02_Dambrosio_V1.wav",
+        "Path": "SFX\\Amb_OS_AcidBurn_02_Dambrosio_V1_10C4C929.wem"
+       },
+       {
+        "Id": "247299220",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_AcidBurn_04_Dambrosio_V1.wav",
+        "Path": "SFX\\Amb_OS_AcidBurn_04_Dambrosio_V1_10C4C929.wem"
+       },
+       {
+        "Id": "304693331",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_AcidBurnShort_02_Dambrosio_V1.wav",
+        "Path": "SFX\\Amb_OS_AcidBurnShort_02_Dambrosio_V1_10C4C929.wem"
+       },
+       {
+        "Id": "322187271",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_AcidBurnShort_03_Dambrosio_V1.wav",
+        "Path": "SFX\\Amb_OS_AcidBurnShort_03_Dambrosio_V1_10C4C929.wem"
+       },
+       {
+        "Id": "466270226",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_AcidBurn_03_Dambrosio_V1.wav",
+        "Path": "SFX\\Amb_OS_AcidBurn_03_Dambrosio_V1_10C4C929.wem"
+       },
+       {
+        "Id": "593878152",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_AcidBurnShort_01_Dambrosio_V1.wav",
+        "Path": "SFX\\Amb_OS_AcidBurnShort_01_Dambrosio_V1_10C4C929.wem"
+       },
+       {
+        "Id": "645056266",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_AcidBurn_01_Dambrosio_V1.wav",
+        "Path": "SFX\\Amb_OS_AcidBurn_01_Dambrosio_V1_10C4C929.wem"
+       },
+       {
+        "Id": "1030970303",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_AcidBurnShort_04_Dambrosio_V1.wav",
+        "Path": "SFX\\Amb_OS_AcidBurnShort_04_Dambrosio_V1_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       },
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

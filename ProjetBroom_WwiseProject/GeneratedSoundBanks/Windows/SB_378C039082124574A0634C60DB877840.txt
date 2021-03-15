@@ -1,0 +1,14 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2093986695	Music_Volume_GP			\Default Work Unit\Option\Music_Volume_GP	
+	3931204830	Master_Volume_GP			\Default Work Unit\Option\Master_Volume_GP	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2957976456	RVB_crash_stop			\Default Work Unit\Master Audio Bus\Music\RVB_crash_stop	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2513915904	Hall_Large	Wwise RoomVerb			
+

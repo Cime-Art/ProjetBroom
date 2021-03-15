@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{66CA4C1A-297F-4171-B5BB-CF6E85E5DF47}" SchemaVersion="97">
+	<SoundcasterSessions>
+		<WorkUnit Name="Yanis" ID="{66CA4C1A-297F-4171-B5BB-CF6E85E5DF47}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SoundcasterSession Name="Jail" ID="{16C4C8D4-758F-49DD-AFD2-30C129B05842}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance" ID="{C1FB3B6B-0CEC-4F98-9EE2-487C8123E3DE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{7C618440-98D7-4E0F-918D-DC80C67D7657}"/>
+						<CurrentStateRef Name="None" ID="{6A5133DE-DA2D-427B-AB5A-2F44A2287EE1}"/>
+						<CurrentStateRef Name="None" ID="{6BE8E5B3-D636-4C4D-9972-3E8D865F5B65}"/>
+						<CurrentStateRef Name="None" ID="{76DD572D-951D-4027-93F0-2C3C154AB123}"/>
+						<CurrentStateRef Name="None" ID="{57BBBC35-1BE8-459C-845B-6BCDCF5ADB4F}"/>
+						<CurrentStateRef Name="None" ID="{7A53225C-7782-4EEE-A3D4-DAF13135DCB0}"/>
+						<CurrentStateRef Name="None" ID="{680AFC01-2598-4A67-8ADD-6047F9443835}"/>
+						<CurrentStateRef Name="None" ID="{B6BEE669-9401-4B04-A8B0-DBF3EB29A0C7}"/>
+						<CurrentStateRef Name="None" ID="{2EAE5F90-F5B3-41A0-8734-6F51A4899E14}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

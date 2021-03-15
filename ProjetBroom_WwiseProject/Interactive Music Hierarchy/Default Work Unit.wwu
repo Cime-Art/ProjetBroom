@@ -1,6 +1,890 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}" SchemaVersion="97">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Musique Tuto" ID="{B4A83827-D581-4415-89CC-A3F4726C2F80}" ShortID="399245750">
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Music Menu Playlist" ID="{5E85781E-ED9E-4FEF-8696-8D5C0EF887EB}" ShortID="296642028">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="130"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="musique menu" ID="{15CDAB9A-8FA3-42FD-8EFD-2506585C12B2}" ShortID="144974194">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="65548.4126984127"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="musique menu" ID="{7A63407E-2C8E-4DC5-8B2C-D1FA57CB95E8}" ShortID="362783489">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="musique menu" ID="{625BC465-3B48-45D7-A99F-FBB0AF3A44CD}">
+													<Language>SFX</Language>
+													<AudioFile>musique menu.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="77715167"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8711A039-CA5B-4F97-BB15-4CE66CD13032}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{49C35245-E6A5-4CEB-B041-0D44D025D3AB}">
+													<ClipList>
+														<MusicClip Name="musique menu" ID="{BD07FE3E-C789-49A3-8083-75F4AEBCA66E}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="1615.38461538462"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="65548.4126984127"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="723.492413889764"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-1615.38461538462"/>
+															</PropertyList>
+															<AudioSourceRef Name="musique menu" ID="{625BC465-3B48-45D7-A99F-FBB0AF3A44CD}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{010A8E7E-5D2D-4B8D-B898-60E07D506A6D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.61538</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>65.5484126984127</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{91CA3284-EDD6-4C39-B90A-14387C8DD9E4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.61538</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>65.5484126984127</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{29A17F19-12EB-4E03-91FC-B220CDA79D25}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.61538</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>65.5484126984127</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{20C73D37-02DA-43A2-B1D2-80CA06595C73}">
+											<PropertyList>
+												<Property Name="TimeMs" Type="Real64" Value="230.769230769231"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="Exit Cue" ID="{42BFAB91-6E9D-42C5-81DD-4C3F3B3C2AA0}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="59307.6923076923"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{122808EE-6B9E-46DD-A194-D9D699B5C23D}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{7A561DDB-6E34-4311-84B4-FBF9C5563991}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<StingerList>
+								<MusicStinger Name="" ID="{B1100DA8-6310-4E27-B7CD-AD67C0FD4C0F}">
+									<TriggerRef Name="Stop_Crash" ID="{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}" WorkUnitID="{22563B21-8DD4-4D99-8CA7-9928C730618D}"/>
+									<SegmentRef Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{01D1E0D9-8CF9-424A-86E9-9A0578AAE2FF}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+								</MusicStinger>
+							</StingerList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{FDCFCD64-9291-4C2B-B362-DFF0D708A4E3}" ShortID="537763551">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{0EFB92F4-F14E-4604-A47F-34EBFC9F0D11}" ShortID="298897215">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="musique menu" ID="{15CDAB9A-8FA3-42FD-8EFD-2506585C12B2}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Musique Menu" ID="{0E037E06-5D89-48E5-95D7-B6C237B2B86E}" ShortID="671056447">
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Musique Tuto Playlist" ID="{7152B11B-C572-44D6-AA23-BC06A8BAF9DD}" ShortID="332202157">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="117"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Music Loop" ID="{14E3E6D3-C625-4D8D-A26A-5DB99786F086}" ShortID="487426334">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="39487.181231467"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="GOICO-musique -tuto-mando 1" ID="{6B183DEC-FD07-41C5-B1E1-C5B0771D1B02}" ShortID="847320620">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GOICO-musique -tuto-mando 1" ID="{76A8F899-0950-48F3-9E79-C940AFC23FB6}">
+													<Language>SFX</Language>
+													<AudioFile>GOICO-musique -tuto-mando 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1019085241"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="GOICO-musique -tuto-mando 5" ID="{BA1BC38C-13E8-4FC1-8556-CB017FD88B2D}">
+													<Language>SFX</Language>
+													<AudioFile>GOICO-musique -tuto-mando 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="487460873"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="GOICO-musique -tuto-mando 3" ID="{B1EFF182-CDEB-49C2-8988-B1AF4BF94133}">
+													<Language>SFX</Language>
+													<AudioFile>GOICO-musique -tuto-mando 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="233706908"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="GOICO-musique -tuto-mando 2" ID="{AE6E4635-4D2D-4425-B1D9-7C1C522AB715}">
+													<Language>SFX</Language>
+													<AudioFile>GOICO-musique -tuto-mando 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="527159056"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="GOICO-musique -tuto-mando 4" ID="{6A4725E0-DDA0-4C93-9DC7-8CDC1F171373}">
+													<Language>SFX</Language>
+													<AudioFile>GOICO-musique -tuto-mando 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="38299608"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="GOICO-musique -tuto-mando 6" ID="{3383F380-D2DD-4FFF-BEF3-12F0D0D6D0FF}">
+													<Language>SFX</Language>
+													<AudioFile>GOICO-musique -tuto-mando 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="325425963"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="GOICO-musique -tuto-mando 7" ID="{B4701EA1-CDD0-4A49-9CB7-03060A342EA0}">
+													<Language>SFX</Language>
+													<AudioFile>GOICO-musique -tuto-mando 7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="405395395"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{016F8453-158C-4247-AF43-076561D4F83D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{958F32FB-40E4-4BA8-BE98-8CFE5C567584}">
+													<ClipList>
+														<MusicClip Name="GOICO-musique -tuto-mando 1" ID="{848DBE04-762E-4F23-A1C7-5056D530C145}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36410.2708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GOICO-musique -tuto-mando 1" ID="{76A8F899-0950-48F3-9E79-C940AFC23FB6}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{5C440394-6214-4B22-994D-529605180B7D}">
+													<ClipList>
+														<MusicClip Name="GOICO-musique -tuto-mando 2" ID="{00AFD412-E15A-4588-AB7A-C2D8733A61B2}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36410.2708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GOICO-musique -tuto-mando 2" ID="{AE6E4635-4D2D-4425-B1D9-7C1C522AB715}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{E4A41C60-7BF1-4295-AD33-B9014D990178}">
+													<ClipList>
+														<MusicClip Name="GOICO-musique -tuto-mando 3" ID="{464CED78-2B9E-403D-91FF-0296F398840B}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36410.2708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GOICO-musique -tuto-mando 3" ID="{B1EFF182-CDEB-49C2-8988-B1AF4BF94133}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{55BC41AC-494A-4BD8-9562-D468BA659142}">
+													<ClipList>
+														<MusicClip Name="GOICO-musique -tuto-mando 4" ID="{E1A3FC04-5EDA-49EF-88AB-09530BB8929C}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36410.2708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GOICO-musique -tuto-mando 4" ID="{6A4725E0-DDA0-4C93-9DC7-8CDC1F171373}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{C1705762-4526-4792-A6D7-B22C9B8F4FB8}">
+													<ClipList>
+														<MusicClip Name="GOICO-musique -tuto-mando 5" ID="{0F0CFA89-49B7-490E-880A-8BD0E6E6D326}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36410.2708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GOICO-musique -tuto-mando 5" ID="{BA1BC38C-13E8-4FC1-8556-CB017FD88B2D}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{00A4BE84-319C-40B3-BF79-43629A73D52C}">
+													<ClipList>
+														<MusicClip Name="GOICO-musique -tuto-mando 6" ID="{03FC92A7-1301-419B-8FA7-48B86842EA28}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36410.2708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GOICO-musique -tuto-mando 6" ID="{3383F380-D2DD-4FFF-BEF3-12F0D0D6D0FF}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{D4109BA2-09A8-4916-B191-65F838FC110F}">
+													<ClipList>
+														<MusicClip Name="GOICO-musique -tuto-mando 7" ID="{7AAABA52-53D2-4A9A-9C3B-60AC06992EC7}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36410.2708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GOICO-musique -tuto-mando 7" ID="{B4701EA1-CDD0-4A49-9CB7-03060A342EA0}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="calme" ID="{EE05515D-F0BE-47BF-A06D-3CB0E898DF34}" ShortID="758197297">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="calme" ID="{41212772-74D8-4810-94A0-785465340727}">
+													<Language>SFX</Language>
+													<AudioFile>calme.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="310259696"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="rythmé" ID="{606DD5D7-9610-468F-BBE3-924BFA044B29}">
+													<Language>SFX</Language>
+													<AudioFile>rythmé.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="842279771"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="militaire 1" ID="{B3896371-B4AA-490A-8CB0-3975BC2BA390}">
+													<Language>SFX</Language>
+													<AudioFile>militaire 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="733523094"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="militaire 2" ID="{F9D00D20-E925-459C-8721-8FC371678905}">
+													<Language>SFX</Language>
+													<AudioFile>militaire 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1037292347"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{74D24AAB-8573-4C46-8BA7-2C702E73375D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{55B869DF-1C2F-4282-A243-1DB4DBF906F7}">
+													<ClipList>
+														<MusicClip Name="calme" ID="{3C4EE2D3-5269-43DC-8677-C8FF974DDD11}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="34871.8140589569"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="calme" ID="{41212772-74D8-4810-94A0-785465340727}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{777C9219-D6A0-46AB-BB20-5B5D7AC6E229}">
+													<ClipList>
+														<MusicClip Name="rythmé" ID="{4F2FD466-58E4-4A41-9501-097C72FCFF67}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="35897.4376417234"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="rythmé" ID="{606DD5D7-9610-468F-BBE3-924BFA044B29}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{34922513-1E6D-4252-877C-0074FE0AF74B}">
+													<ClipList>
+														<MusicClip Name="militaire 1" ID="{0294E1EA-D757-4D40-B8AD-F5F353F82BD2}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="8205.14739229025"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="militaire 1" ID="{B3896371-B4AA-490A-8CB0-3975BC2BA390}"/>
+														</MusicClip>
+														<MusicClip Name="militaire 1" ID="{EE7441E5-F4F0-4639-ADE0-1C06CA0CC7B1}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="8205.14739229025"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="8205.12820512821"/>
+															</PropertyList>
+															<AudioSourceRef Name="militaire 1" ID="{B3896371-B4AA-490A-8CB0-3975BC2BA390}"/>
+														</MusicClip>
+														<MusicClip Name="militaire 2" ID="{D636B99F-DABC-41FF-9BE1-24688767EEF2}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="8205.14739229025"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="16410.2564102564"/>
+															</PropertyList>
+															<AudioSourceRef Name="militaire 2" ID="{F9D00D20-E925-459C-8721-8FC371678905}"/>
+														</MusicClip>
+														<MusicClip Name="militaire 2" ID="{DB112BBD-56EA-4D4A-8049-97DAA6C3408F}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="8205.14739229025"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="24615.4038025467"/>
+															</PropertyList>
+															<AudioSourceRef Name="militaire 2" ID="{F9D00D20-E925-459C-8721-8FC371678905}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{928682C7-3554-420D-B027-EDD64BB7C818}"/>
+										<MusicCue Name="Exit Cue" ID="{CED5DCFD-9450-447A-8C49-65E48146DDD9}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="32820.5128205128"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Intro" ID="{1A9F7798-7FCA-419A-BEE7-C1E9BFCF266E}" ShortID="559509595">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="44102.578525641"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="calme" ID="{5CE70E0D-1218-4D73-A311-E3C643C5172B}" ShortID="721373839">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="calme" ID="{70516570-497C-4BB6-8A78-33BAB036CA6C}">
+													<Language>SFX</Language>
+													<AudioFile>calme.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="310259696"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6F66FEC6-6182-4858-927D-B7B7830A5517}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{2E52A378-9207-4A87-B7D9-F4724ACE72C4}">
+													<ClipList>
+														<MusicClip Name="calme" ID="{E94EA5A9-7B86-4B0A-A316-5A0D54AF4C60}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="34871.8140589569"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="calme" ID="{70516570-497C-4BB6-8A78-33BAB036CA6C}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="GOICO-musique -tuto-mando 1" ID="{243C5526-DFF0-4C75-8007-6C3C470239A7}" ShortID="628525854">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GOICO-musique -tuto-mando 1" ID="{2BB52EAE-EB44-4E02-BC4F-F1517AA90F70}">
+													<Language>SFX</Language>
+													<AudioFile>GOICO-musique -tuto-mando 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1019085241"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="GOICO-musique -tuto-mando 5" ID="{D1002BDD-E9D0-4E8F-B952-6874EF1371BC}">
+													<Language>SFX</Language>
+													<AudioFile>GOICO-musique -tuto-mando 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="487460873"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="GOICO-musique -tuto-mando 6" ID="{9E4D5A6C-C95A-4B99-823A-1509A8CB7C28}">
+													<Language>SFX</Language>
+													<AudioFile>GOICO-musique -tuto-mando 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="325425963"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="GOICO-musique -tuto-mando 7" ID="{AB05646D-A744-414F-9439-73871361CB11}">
+													<Language>SFX</Language>
+													<AudioFile>GOICO-musique -tuto-mando 7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="405395395"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="GOICO-musique -tuto-mando 2" ID="{A4337A60-1EF3-4D16-B360-012FC54B8599}">
+													<Language>SFX</Language>
+													<AudioFile>GOICO-musique -tuto-mando 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="527159056"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="GOICO-musique -tuto-mando 3" ID="{0D2CE2B0-1A92-4B0D-9245-A5A1790B637E}">
+													<Language>SFX</Language>
+													<AudioFile>GOICO-musique -tuto-mando 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="233706908"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="GOICO-musique -tuto-mando 4" ID="{39352FEC-54AE-41A3-A61E-90143F850CE7}">
+													<Language>SFX</Language>
+													<AudioFile>GOICO-musique -tuto-mando 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="38299608"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{9409D053-FDB3-4B54-9F2E-79BC89265526}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{D0AF3EB1-7991-4802-B4B0-4C59EB5F1570}">
+													<ClipList>
+														<MusicClip Name="GOICO-musique -tuto-mando 1" ID="{2ACBBD19-9F76-4A92-B0AA-E040743C4680}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36410.2708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GOICO-musique -tuto-mando 1" ID="{2BB52EAE-EB44-4E02-BC4F-F1517AA90F70}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{BC347F62-BED2-4DDA-84D1-099E9762E0DF}">
+													<ClipList>
+														<MusicClip Name="GOICO-musique -tuto-mando 2" ID="{538780E1-7A92-4055-8CB3-D0CE4F6BD4DC}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36410.2708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GOICO-musique -tuto-mando 2" ID="{A4337A60-1EF3-4D16-B360-012FC54B8599}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{3B90381F-376B-45AD-B538-4D55E45C4B08}">
+													<ClipList>
+														<MusicClip Name="GOICO-musique -tuto-mando 3" ID="{211E3301-81D2-4949-8D98-1F201C5AA6C0}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36410.2708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GOICO-musique -tuto-mando 3" ID="{0D2CE2B0-1A92-4B0D-9245-A5A1790B637E}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{0E3F9CFE-4618-472B-8F56-C7A5C94400B1}">
+													<ClipList>
+														<MusicClip Name="GOICO-musique -tuto-mando 4" ID="{AB6767DC-3A4E-4ABA-8BC2-163DB04EA0CA}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36410.2708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GOICO-musique -tuto-mando 4" ID="{39352FEC-54AE-41A3-A61E-90143F850CE7}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{A7811453-2C4A-40E4-9E8D-CE3D5A957E92}">
+													<ClipList>
+														<MusicClip Name="GOICO-musique -tuto-mando 5" ID="{C27E7C35-6DB7-447B-9A79-DCE578274972}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36410.2708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GOICO-musique -tuto-mando 5" ID="{D1002BDD-E9D0-4E8F-B952-6874EF1371BC}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{33114959-FAD0-4E8B-837B-D02C38EAF8E1}">
+													<ClipList>
+														<MusicClip Name="GOICO-musique -tuto-mando 6" ID="{EF027521-4E31-4DFA-932D-292B2AE2883C}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36410.2708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GOICO-musique -tuto-mando 6" ID="{9E4D5A6C-C95A-4B99-823A-1509A8CB7C28}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{1DCC8926-FB06-46DD-B4BE-0D67CB601CB3}">
+													<ClipList>
+														<MusicClip Name="GOICO-musique -tuto-mando 7" ID="{BC72A458-06EC-4026-8E6C-2F4D428BB11B}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36410.2708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GOICO-musique -tuto-mando 7" ID="{AB05646D-A744-414F-9439-73871361CB11}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{59619C5C-804D-4D87-8D24-98C221272E4D}"/>
+										<MusicCue Name="Exit Cue" ID="{18B8619E-7CBA-4214-8C13-A9DA7F6E8E31}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="32820.5128205128"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{36655595-9773-4067-8B7E-8AF8BC9FEC33}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{8B9CF1AE-7210-401D-85BC-5D1996510B11}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<StingerList>
+								<MusicStinger Name="" ID="{BBC6AE91-F5F2-4BF8-92CE-E7482A062649}">
+									<TriggerRef Name="Stop_Crash" ID="{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}" WorkUnitID="{22563B21-8DD4-4D99-8CA7-9928C730618D}"/>
+									<SegmentRef Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{01D1E0D9-8CF9-424A-86E9-9A0578AAE2FF}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+								</MusicStinger>
+							</StingerList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{712AB3FD-1600-4B58-A862-CF2CCFFD8783}" ShortID="205821334">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{D016F75A-9B66-41C7-921C-723E45EB2671}" ShortID="408504622">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Intro" ID="{1A9F7798-7FCA-419A-BEE7-C1E9BFCF266E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{A141DB5D-825D-4503-B509-A7259D728452}" ShortID="928319799">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{20DB4ADA-97EB-42A6-9AF3-A9EB1D43CB88}" ShortID="468801589">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="Music Loop" ID="{14E3E6D3-C625-4D8D-A26A-5DB99786F086}"/>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Stinger" ID="{B047DE97-EB2C-4FD0-86DB-5BA025A6CFFE}" ShortID="289192697">
+					<ChildrenList>
+						<MusicSegment Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{01D1E0D9-8CF9-424A-86E9-9A0578AAE2FF}" ShortID="1027996616">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>19</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7AA33A63-01D8-430B-B28C-50D5852EA33F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="38"/>
+													<Property Name="Min" Type="Real64" Value="-19"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F4A178D6-38B3-47F2-A716-81BACC8DDB93}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="22"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="OutputBusLowpass" Type="int16">
+									<ValueList>
+										<Value>36</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-39</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="RVB_crash_stop" ID="{378C0390-8212-4574-A063-4C60DB877840}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{AE599B25-A59E-472A-84A4-54769AC7A3F7}" ShortID="612474723">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{62E4A3A6-AADF-4C4B-A6C0-750AF0262FDC}">
+											<Language>SFX</Language>
+											<AudioFile>MUS_OS_CrashEventStop_01_Dambrosio_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="487484988"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6E2A3D28-7DC7-4142-94D0-FC678438FDCE}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6AB8C8A8-EDA6-48E5-B023-06CC9CD9D258}">
+											<ClipList>
+												<MusicClip Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{EAE3E391-7761-4F7D-86BE-2D48A27322B6}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="2977.95918367347"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{62E4A3A6-AADF-4C4B-A6C0-750AF0262FDC}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{FC469CC7-BC6F-4734-89DF-0A6A6F542B54}">
+									<PropertyList>
+										<Property Name="TimeMs" Type="Real64" Value="34.6507000427142"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="Exit Cue" ID="{D5549107-3491-4F64-B902-FFBB5AEAB4A4}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="34.8416214075758"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

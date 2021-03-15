@@ -1,0 +1,367 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2521514068",
+    "GUID": "{964B4054-4054-1054-5454-545454545454}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_15B37050932148B3AF32AD69C00DF836",
+    "ShortName": "SB_15B37050932148B3AF32AD69C00DF836",
+    "Path": "SB_15B37050932148B3AF32AD69C00DF836.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3199320663",
+      "Name": "Event_FTPS",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\FTPS\\Event_FTPS",
+      "GUID": "{15B37050-9321-48B3-AF32-AD69C00DF836}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.278209",
+      "DurationMax": "2.685103",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "14622240",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepGrass_02_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_FootstepGrass_02_LAURIER_v2_10C4C929.wem"
+       },
+       {
+        "Id": "24236967",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepRock_01_LeBozec_v2.wav",
+        "Path": "SFX\\Player_OS_FootstepRock_01_LeBozec_v2_65A8EA5A.wem"
+       },
+       {
+        "Id": "26123010",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepDirt_03_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_FootstepDirt_03_LAURIER_v2_24A7457A.wem"
+       },
+       {
+        "Id": "64497861",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepRock_03_LeBozec_v2.wav",
+        "Path": "SFX\\Player_OS_FootstepRock_03_LeBozec_v2_0EFB2FFB.wem"
+       },
+       {
+        "Id": "105283502",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepGrass_03_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_FootstepGrass_03_LAURIER_v2_10C4C929.wem"
+       },
+       {
+        "Id": "128046037",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepWood_01_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_FootstepWood_01_LAURIER_v2_10C4C929.wem"
+       },
+       {
+        "Id": "162623936",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepRock_02_LeBozec_v2.wav",
+        "Path": "SFX\\Player_OS_FootstepRock_02_LeBozec_v2_06FE876C.wem"
+       },
+       {
+        "Id": "292996249",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepBones_01_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_FootstepBones_01_LAURIER_v2_10C4C929.wem"
+       },
+       {
+        "Id": "297167024",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepMarble_01_LAURIER_v3.wav",
+        "Path": "SFX\\Player_OS_FootstepMarble_01_LAURIER_v3_10C4C929.wem"
+       },
+       {
+        "Id": "306433734",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepDirt_02_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_FootstepDirt_02_LAURIER_v2_025A70C3.wem"
+       },
+       {
+        "Id": "472552462",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepMarble_03_LAURIER_v3.wav",
+        "Path": "SFX\\Player_OS_FootstepMarble_03_LAURIER_v3_10C4C929.wem"
+       },
+       {
+        "Id": "480732657",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FootstepHollowWood_02.wav",
+        "Path": "SFX\\SFX_OS_FootstepHollowWood_02_10C4C929.wem"
+       },
+       {
+        "Id": "492389530",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FootstepHollowWood_03.wav",
+        "Path": "SFX\\SFX_OS_FootstepHollowWood_03_10C4C929.wem"
+       },
+       {
+        "Id": "545147057",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepWood_03_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_FootstepWood_03_LAURIER_v2_10C4C929.wem"
+       },
+       {
+        "Id": "612576183",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FootstepHollowWood_01.wav",
+        "Path": "SFX\\SFX_OS_FootstepHollowWood_01_10C4C929.wem"
+       },
+       {
+        "Id": "669996436",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FootstepHollowWood_04.wav",
+        "Path": "SFX\\SFX_OS_FootstepHollowWood_04_10C4C929.wem"
+       },
+       {
+        "Id": "738268439",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepDirt_01_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_FootstepDirt_01_LAURIER_v2_10C4C929.wem"
+       },
+       {
+        "Id": "857428011",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnCreaks_01_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnCreaks_01_Ferreira_v1_11CBB358.wem"
+       },
+       {
+        "Id": "870274469",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepGrass_01_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_FootstepGrass_01_LAURIER_v2_10C4C929.wem"
+       },
+       {
+        "Id": "875094860",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepBones_02_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_FootstepBones_02_LAURIER_v2_10C4C929.wem"
+       },
+       {
+        "Id": "875266461",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepWood_02_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_FootstepWood_02_LAURIER_v2_10C4C929.wem"
+       },
+       {
+        "Id": "906543412",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnCreaks_04_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnCreaks_04_Ferreira_v1_744E3DA8.wem"
+       },
+       {
+        "Id": "908755834",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnCreaks_02_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnCreaks_02_Ferreira_v1_6169DD8B.wem"
+       },
+       {
+        "Id": "920896114",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnCreaks_03_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnCreaks_03_Ferreira_v1_477CB12C.wem"
+       },
+       {
+        "Id": "1059082895",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FootstepMarble_02_LAURIER_v3.wav",
+        "Path": "SFX\\Player_OS_FootstepMarble_02_LAURIER_v3_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{582AA115-3908-4988-A027-4CA5D944777B}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{749251C1-B604-4A51-B0C6-BBADFECC6113}",
+        "Media": [
+         {
+          "Id": "292996249"
+         },
+         {
+          "Id": "875094860"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}",
+        "Media": [
+         {
+          "Id": "105283502"
+         },
+         {
+          "Id": "870274469"
+         },
+         {
+          "Id": "14622240"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{26008F53-70C5-4250-94E4-85ADD5226647}",
+        "Media": [
+         {
+          "Id": "297167024"
+         },
+         {
+          "Id": "1059082895"
+         },
+         {
+          "Id": "472552462"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{582AA115-3908-4988-A027-4CA5D944777B}",
+        "Media": [
+         {
+          "Id": "738268439"
+         },
+         {
+          "Id": "306433734"
+         },
+         {
+          "Id": "26123010"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{9B9060B1-E708-451D-A47A-B7BDBAEB466B}",
+        "Media": [
+         {
+          "Id": "24236967"
+         },
+         {
+          "Id": "162623936"
+         },
+         {
+          "Id": "64497861"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{C46FAED0-B41E-4EE9-9947-400381ADF4E9}",
+        "Media": [
+         {
+          "Id": "545147057"
+         },
+         {
+          "Id": "875266461"
+         },
+         {
+          "Id": "128046037"
+         },
+         {
+          "Id": "857428011"
+         },
+         {
+          "Id": "908755834"
+         },
+         {
+          "Id": "920896114"
+         },
+         {
+          "Id": "906543412"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{4C39F64F-8808-49DB-962F-DAE2302BDFB2}",
+        "Media": [
+         {
+          "Id": "612576183"
+         },
+         {
+          "Id": "480732657"
+         },
+         {
+          "Id": "492389530"
+         },
+         {
+          "Id": "669996436"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "217057930",
+      "Name": "FTPS_Ground_Texture",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture",
+      "GUID": "{114D3573-0162-443F-904A-5CBCB4D72526}",
+      "Switches": [
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Grass",
+        "GUID": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}"
+       },
+       {
+        "Id": "1127618254",
+        "Name": "Marble",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Marble",
+        "GUID": "{26008F53-70C5-4250-94E4-85ADD5226647}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Wood",
+        "GUID": "{C46FAED0-B41E-4EE9-9947-400381ADF4E9}"
+       },
+       {
+        "Id": "2144363834",
+        "Name": "Rock",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Rock",
+        "GUID": "{9B9060B1-E708-451D-A47A-B7BDBAEB466B}"
+       },
+       {
+        "Id": "2087559222",
+        "Name": "Bones",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Bones",
+        "GUID": "{749251C1-B604-4A51-B0C6-BBADFECC6113}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Dirt",
+        "GUID": "{582AA115-3908-4988-A027-4CA5D944777B}"
+       },
+       {
+        "Id": "294956043",
+        "Name": "HollowWood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\HollowWood",
+        "GUID": "{4C39F64F-8808-49DB-962F-DAE2302BDFB2}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

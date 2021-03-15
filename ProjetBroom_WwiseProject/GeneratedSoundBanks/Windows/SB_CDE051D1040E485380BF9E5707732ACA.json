@@ -1,0 +1,71 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "769195473",
+    "GUID": "{2DD8FDD1-FDD1-1DD1-D1D1-D1D1D1D1D1D1}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_CDE051D1040E485380BF9E5707732ACA",
+    "ShortName": "SB_CDE051D1040E485380BF9E5707732ACA",
+    "Path": "SB_CDE051D1040E485380BF9E5707732ACA.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1719946931",
+      "Name": "Event_PreCast_Poison",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Spell\\Poison\\Event_PreCast_Poison",
+      "GUID": "{CDE051D1-040E-4853-80BF-9E5707732ACA}",
+      "MaxAttenuation": "1000.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "26391977",
+        "Language": "SFX",
+        "ShortName": "Spell_OS_PoisonCastAttack_01_Dambrosio_v1.wav",
+        "Path": "SFX\\Spell_OS_PoisonCastAttack_01_Dambrosio_v1_10C4C929.wem"
+       },
+       {
+        "Id": "510194816",
+        "Language": "SFX",
+        "ShortName": "Spell_LP_PoisonCastLoop_01_Dambrosio_v1.wav",
+        "Path": "SFX\\Spell_LP_PoisonCastLoop_01_Dambrosio_v1_D79FB2B7.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1974803597",
+      "Name": "spell_distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\spell\\spell_distance",
+      "GUID": "{D9568FC2-08F0-4CF8-BE44-34EEF3822A5F}"
+     }
+    ]
+   }
+  ]
+ }
+}

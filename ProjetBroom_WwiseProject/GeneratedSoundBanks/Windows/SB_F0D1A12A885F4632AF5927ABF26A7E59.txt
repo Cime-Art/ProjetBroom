@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3873905693	Event_Land			\Default Work Unit\Player\Jump\Event_Land	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	217057930	FTPS_Ground_Texture			\Default Work Unit\Player\FTPS_Ground_Texture	
+
+Switch	ID	Name	Switch Group			Notes
+	294956043	HollowWood	FTPS_Ground_Texture			
+	1127618254	Marble	FTPS_Ground_Texture			
+	2058049674	Wood	FTPS_Ground_Texture			
+	2087559222	Bones	FTPS_Ground_Texture			
+	2144363834	Rock	FTPS_Ground_Texture			
+	2195636714	Dirt	FTPS_Ground_Texture			
+	4248645337	Grass	FTPS_Ground_Texture			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1069431850	Player			\Default Work Unit\Player\Player	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Player			
+	779278001	Death	Player			
+	1729783505	Get_Hit	Player			
+	1874288895	Idle	Player			
+	1942692385	Dash	Player			
+	3833651337	Jump	Player			
+

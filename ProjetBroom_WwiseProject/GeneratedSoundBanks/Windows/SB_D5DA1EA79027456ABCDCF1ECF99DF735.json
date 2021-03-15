@@ -1,0 +1,87 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4030562931",
+    "GUID": "{F03D8273-8273-1273-7373-737373737373}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_D5DA1EA79027456ABCDCF1ECF99DF735",
+    "ShortName": "SB_D5DA1EA79027456ABCDCF1ECF99DF735",
+    "Path": "SB_D5DA1EA79027456ABCDCF1ECF99DF735.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2409001496",
+      "Name": "Event_WaterDrop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Kitchen\\Event_WaterDrop",
+      "GUID": "{D5DA1EA7-9027-456A-BCDC-F1ECF99DF735}",
+      "MaxAttenuation": "1000.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "25950209",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_WaterDrop_ 04.wav",
+        "Path": "SFX\\AMB_OS_WaterDrop_ 04_10C4C929.wem"
+       },
+       {
+        "Id": "194572873",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_WaterDrop_ 05.wav",
+        "Path": "SFX\\AMB_OS_WaterDrop_ 05_10C4C929.wem"
+       },
+       {
+        "Id": "359391905",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_WaterDrop_ 02.wav",
+        "Path": "SFX\\AMB_OS_WaterDrop_ 02_10C4C929.wem"
+       },
+       {
+        "Id": "461735508",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_WaterDrop_ 01.wav",
+        "Path": "SFX\\AMB_OS_WaterDrop_ 01_10C4C929.wem"
+       },
+       {
+        "Id": "735947186",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_WaterDrop_ 06.wav",
+        "Path": "SFX\\AMB_OS_WaterDrop_ 06_10C4C929.wem"
+       },
+       {
+        "Id": "1054971941",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_WaterDrop_ 03.wav",
+        "Path": "SFX\\AMB_OS_WaterDrop_ 03_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

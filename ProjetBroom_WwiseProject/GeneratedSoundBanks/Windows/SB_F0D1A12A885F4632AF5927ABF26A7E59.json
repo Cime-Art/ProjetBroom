@@ -1,0 +1,191 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1837857965",
+    "GUID": "{6D8B7CAD-7CAD-1CAD-ADAD-ADADADADADAD}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_F0D1A12A885F4632AF5927ABF26A7E59",
+    "ShortName": "SB_F0D1A12A885F4632AF5927ABF26A7E59",
+    "Path": "SB_F0D1A12A885F4632AF5927ABF26A7E59.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3873905693",
+      "Name": "Event_Land",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Jump\\Event_Land",
+      "GUID": "{F0D1A12A-885F-4632-AF59-27ABF26A7E59}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.394240",
+      "DurationMax": "0.528844",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "242275139",
+        "Language": "SFX",
+        "ShortName": "Player_OS_LandRock_01_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_LandRock_01_LAURIER_v2_10C4C929.wem"
+       },
+       {
+        "Id": "785895037",
+        "Language": "SFX",
+        "ShortName": "Player_OS_LandBones_01_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_LandBones_01_LAURIER_v2_10C4C929.wem"
+       },
+       {
+        "Id": "799159883",
+        "Language": "SFX",
+        "ShortName": "Player_OS_LandGrass_01_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_LandGrass_01_LAURIER_v2_10C4C929.wem"
+       },
+       {
+        "Id": "946985441",
+        "Language": "SFX",
+        "ShortName": "Player_OS_Land_01_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_Land_01_LAURIER_v2_10C4C929.wem"
+       },
+       {
+        "Id": "960618887",
+        "Language": "SFX",
+        "ShortName": "Player_OS_LandWood_01_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_LandWood_01_LAURIER_v2_10C4C929.wem"
+       },
+       {
+        "Id": "1070802525",
+        "Language": "SFX",
+        "ShortName": "Player_OS_LandMarble_01_LAURIER_v2.wav",
+        "Path": "SFX\\Player_OS_LandMarble_01_LAURIER_v2_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{582AA115-3908-4988-A027-4CA5D944777B}",
+        "Media": [
+         {
+          "Id": "946985441"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{749251C1-B604-4A51-B0C6-BBADFECC6113}",
+        "Media": [
+         {
+          "Id": "785895037"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}",
+        "Media": [
+         {
+          "Id": "799159883"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{26008F53-70C5-4250-94E4-85ADD5226647}",
+        "Media": [
+         {
+          "Id": "1070802525"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{9B9060B1-E708-451D-A47A-B7BDBAEB466B}",
+        "Media": [
+         {
+          "Id": "242275139"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{C46FAED0-B41E-4EE9-9947-400381ADF4E9}",
+        "Media": [
+         {
+          "Id": "960618887"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "217057930",
+      "Name": "FTPS_Ground_Texture",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture",
+      "GUID": "{114D3573-0162-443F-904A-5CBCB4D72526}",
+      "Switches": [
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Grass",
+        "GUID": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}"
+       },
+       {
+        "Id": "1127618254",
+        "Name": "Marble",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Marble",
+        "GUID": "{26008F53-70C5-4250-94E4-85ADD5226647}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Wood",
+        "GUID": "{C46FAED0-B41E-4EE9-9947-400381ADF4E9}"
+       },
+       {
+        "Id": "2144363834",
+        "Name": "Rock",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Rock",
+        "GUID": "{9B9060B1-E708-451D-A47A-B7BDBAEB466B}"
+       },
+       {
+        "Id": "2087559222",
+        "Name": "Bones",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Bones",
+        "GUID": "{749251C1-B604-4A51-B0C6-BBADFECC6113}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Dirt",
+        "GUID": "{582AA115-3908-4988-A027-4CA5D944777B}"
+       },
+       {
+        "Id": "294956043",
+        "Name": "HollowWood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\HollowWood",
+        "GUID": "{4C39F64F-8808-49DB-962F-DAE2302BDFB2}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

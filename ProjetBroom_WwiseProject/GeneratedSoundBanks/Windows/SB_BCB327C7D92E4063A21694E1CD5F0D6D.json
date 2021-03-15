@@ -1,0 +1,125 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4255816486",
+    "GUID": "{FDAA9B26-9B26-1B26-2626-262626262626}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_BCB327C7D92E4063A21694E1CD5F0D6D",
+    "ShortName": "SB_BCB327C7D92E4063A21694E1CD5F0D6D",
+    "Path": "SB_BCB327C7D92E4063A21694E1CD5F0D6D.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2890858479",
+      "Name": "Event_CrackWood",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Barn\\Event_CrackWood",
+      "GUID": "{BCB327C7-D92E-4063-A216-94E1CD5F0D6D}",
+      "MaxAttenuation": "3000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.800000",
+      "DurationMax": "3.100000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "176245362",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnMouse_04_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnMouse_04_Ferreira_v1_98DF45EA.wem"
+       },
+       {
+        "Id": "199327894",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnTiles_01_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnTiles_01_Ferreira_v1_3177E2D2.wem"
+       },
+       {
+        "Id": "330364179",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnTiles_03_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnTiles_03_Ferreira_v1_37A270A2.wem"
+       },
+       {
+        "Id": "343125497",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnCreaks_01_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnCreaks_01_Ferreira_v1_10C4C929.wem"
+       },
+       {
+        "Id": "456578051",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnCreaks_02_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnCreaks_02_Ferreira_v1_10C4C929.wem"
+       },
+       {
+        "Id": "575856782",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnTiles_02_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnTiles_02_Ferreira_v1_BE808618.wem"
+       },
+       {
+        "Id": "920441641",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnCreaks_03_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnCreaks_03_Ferreira_v1_10C4C929.wem"
+       },
+       {
+        "Id": "928666914",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnMouse_02_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnMouse_02_Ferreira_v1_C4000411.wem"
+       },
+       {
+        "Id": "955403724",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnTiles_03_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnTiles_03_Ferreira_v1_72EED817.wem"
+       },
+       {
+        "Id": "960928492",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnMouse_03_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnMouse_03_Ferreira_v1_221A67EA.wem"
+       },
+       {
+        "Id": "1005803012",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnCreaks_04_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnCreaks_04_Ferreira_v1_10C4C929.wem"
+       },
+       {
+        "Id": "1036241396",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnMouse_01_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnMouse_01_Ferreira_v1_12437348.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

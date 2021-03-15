@@ -1,0 +1,77 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3520894460",
+    "GUID": "{D1DC95FC-95FC-15FC-FCFC-FCFCFCFCFCFC}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_195628010BA64D5AA66CA7671D1E19AA",
+    "ShortName": "SB_195628010BA64D5AA66CA7671D1E19AA",
+    "Path": "SB_195628010BA64D5AA66CA7671D1E19AA.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "723444111",
+      "Name": "Event_Mouse",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Animal\\Event_Mouse",
+      "GUID": "{19562801-0BA6-4D5A-A66C-A7671D1E19AA}",
+      "MaxAttenuation": "3000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.125714",
+      "DurationMax": "1.661224",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "176245362",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnMouse_04_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnMouse_04_Ferreira_v1_98DF45EA.wem"
+       },
+       {
+        "Id": "928666914",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnMouse_02_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnMouse_02_Ferreira_v1_C4000411.wem"
+       },
+       {
+        "Id": "960928492",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnMouse_03_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnMouse_03_Ferreira_v1_221A67EA.wem"
+       },
+       {
+        "Id": "1036241396",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_BarnMouse_01_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_BarnMouse_01_Ferreira_v1_12437348.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3366840916",
+    "GUID": "{C8ADEA54-EA54-1A54-5454-545454545454}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_378C039082124574A0634C60DB877840",
+    "ShortName": "SB_378C039082124574A0634C60DB877840",
+    "Path": "SB_378C039082124574A0634C60DB877840.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "2957976456",
+      "Name": "RVB_crash_stop",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music\\RVB_crash_stop",
+      "GUID": "{378C0390-8212-4574-A063-4C60DB877840}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2093986695",
+      "Name": "Music_Volume_GP",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Option\\Music_Volume_GP",
+      "GUID": "{8ADB53BC-CDEB-4DF8-BDBA-5421C56CD850}"
+     },
+     {
+      "Id": "3931204830",
+      "Name": "Master_Volume_GP",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Option\\Master_Volume_GP",
+      "GUID": "{C0054CA0-46BD-4911-8ADF-2435B99B7B79}"
+     }
+    ]
+   }
+  ]
+ }
+}

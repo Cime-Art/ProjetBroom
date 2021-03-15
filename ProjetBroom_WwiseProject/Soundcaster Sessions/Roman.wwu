@@ -10,34 +10,42 @@
 				<SoundcasterSession Name="Full Armor Boss" ID="{797E6095-3220-4BCA-A473-D073A1FE6F59}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_CACHeavy_RND" ID="{56AE7AF0-A453-4E3C-9EA1-5D7BD070DC2E}" WorkUnitID="{478FD5B5-F132-4D02-809B-099B52F58864}"/>
+							<ObjectRef Name="Event_Play_Music_Menu_Playlist" ID="{371C6439-B971-48DB-B334-F8486B76DECA}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_GetHit_RND" ID="{0B1ACF73-CC11-4767-B41B-00F8CB19EDD8}" WorkUnitID="{478FD5B5-F132-4D02-809B-099B52F58864}"/>
+							<ObjectRef Name="Event_Stop_Music_Menu_Playlist" ID="{44975B61-D219-4206-B9CC-FA6E0585D70E}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_CACLight_RND" ID="{5960761F-549C-4541-8F0F-9F92C1F7C534}" WorkUnitID="{478FD5B5-F132-4D02-809B-099B52F58864}"/>
+							<ObjectRef Name="Event_Play_Musique_Tuto_Playlist" ID="{13E5C37A-0F1D-49DF-A0D5-2143A07CEFA3}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Death_RND" ID="{0C56BC35-4F6E-49AA-ACC2-FF2597006A13}" WorkUnitID="{478FD5B5-F132-4D02-809B-099B52F58864}"/>
+							<ObjectRef Name="Event_Stop_Musique_Tuto_Playlist" ID="{A89C0662-10EE-4477-A981-7BA3F33AC8E4}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
 							<Position X="1" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_LunchObject_RND" ID="{8370D3F9-08D2-4092-AE28-B71205D31CF0}" WorkUnitID="{478FD5B5-F132-4D02-809B-099B52F58864}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Movement_Idle_Switch" ID="{88956795-8282-438A-ADB6-16B0C194F0EC}" WorkUnitID="{478FD5B5-F132-4D02-809B-099B52F58864}"/>
-							<Position X="2" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="SFX_Volume_GP" ID="{29C3E1C2-AF31-45DD-AAF7-8B2CEE14EBBB}"/>
+							<Value>0.5</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Master_Volume_GP" ID="{C0054CA0-46BD-4911-8ADF-2435B99B7B79}"/>
+							<Value>0.5</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>
 							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="spell_distance" ID="{D9568FC2-08F0-4CF8-BE44-34EEF3822A5F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_Volume_GP" ID="{8ADB53BC-CDEB-4DF8-BDBA-5421C56CD850}"/>
+							<Value>0.5</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Distance" ID="{C1FB3B6B-0CEC-4F98-9EE2-487C8123E3DE}"/>
@@ -45,10 +53,20 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{6D47C0C6-5A10-42E8-876A-0F1F09BE2DA8}"/>
+						<CurrentStateRef Name="None" ID="{7C618440-98D7-4E0F-918D-DC80C67D7657}"/>
+						<CurrentStateRef Name="None" ID="{6A5133DE-DA2D-427B-AB5A-2F44A2287EE1}"/>
+						<CurrentStateRef Name="None" ID="{6BE8E5B3-D636-4C4D-9972-3E8D865F5B65}"/>
 						<CurrentStateRef Name="Movement" ID="{FC3CB18A-2E56-48B6-9B59-1CA57DA9B652}"/>
+						<CurrentStateRef Name="None" ID="{57BBBC35-1BE8-459C-845B-6BCDCF5ADB4F}"/>
+						<CurrentStateRef Name="None" ID="{7A53225C-7782-4EEE-A3D4-DAF13135DCB0}"/>
+						<CurrentStateRef Name="None" ID="{680AFC01-2598-4A67-8ADD-6047F9443835}"/>
+						<CurrentStateRef Name="None" ID="{B6BEE669-9401-4B04-A8B0-DBF3EB29A0C7}"/>
+						<CurrentStateRef Name="None" ID="{2EAE5F90-F5B3-41A0-8734-6F51A4899E14}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="No" ID="{D598B921-AEB4-45D0-9757-0502A47EF998}"/>
+						<CurrentSwitchRef Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
+						<CurrentSwitchRef Name="DryWood" ID="{B7624EDB-88F7-4B4F-8B22-48863C6006CF}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

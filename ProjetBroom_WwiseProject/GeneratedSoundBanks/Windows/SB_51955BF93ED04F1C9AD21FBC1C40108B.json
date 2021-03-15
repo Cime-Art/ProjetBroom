@@ -1,0 +1,37 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "926150184",
+    "GUID": "{3733EE28-EE28-1E28-2828-282828282828}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_51955BF93ED04F1C9AD21FBC1C40108B",
+    "ShortName": "SB_51955BF93ED04F1C9AD21FBC1C40108B",
+    "Path": "SB_51955BF93ED04F1C9AD21FBC1C40108B.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2942120721",
+      "Name": "Stop_PreCast_Spell_Water",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Spell\\Water\\Stop_PreCast_Spell_Water",
+      "GUID": "{51955BF9-3ED0-4F1C-9AD2-1FBC1C40108B}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

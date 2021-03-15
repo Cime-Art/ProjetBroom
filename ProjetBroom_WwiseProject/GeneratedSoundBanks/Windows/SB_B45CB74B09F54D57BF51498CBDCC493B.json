@@ -1,0 +1,88 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "651529604",
+    "GUID": "{26D58D84-8D84-1D84-8484-848484848484}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_B45CB74B09F54D57BF51498CBDCC493B",
+    "ShortName": "SB_B45CB74B09F54D57BF51498CBDCC493B",
+    "Path": "SB_B45CB74B09F54D57BF51498CBDCC493B.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2429850886",
+      "Name": "Event_StoneFall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Event_StoneFall",
+      "GUID": "{B45CB74B-09F5-4D57-BF51-498CBDCC493B}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.866125",
+      "DurationMax": "6.006292",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "302866754",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_StoneFall(Echo) _08_Anger_V2.wav",
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _08_Anger_V2_10C4C929.wem"
+       },
+       {
+        "Id": "440670187",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_StoneFall(Echo) _04_Anger_V2.wav",
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _04_Anger_V2_10C4C929.wem"
+       },
+       {
+        "Id": "625702286",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_StoneFall(Echo) _02_Anger_V2.wav",
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _02_Anger_V2_10C4C929.wem"
+       },
+       {
+        "Id": "680119979",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_StoneFall(Echo) _07_Anger_V2.wav",
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _07_Anger_V2_10C4C929.wem"
+       },
+       {
+        "Id": "753318711",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_StoneFall(Echo) _01_Anger_V2.wav",
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _01_Anger_V2_10C4C929.wem"
+       },
+       {
+        "Id": "992567117",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_StoneFall(Echo) _03_Anger_V2.wav",
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _03_Anger_V2_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

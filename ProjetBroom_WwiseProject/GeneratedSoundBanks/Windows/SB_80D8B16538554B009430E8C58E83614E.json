@@ -1,0 +1,37 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3742744101",
+    "GUID": "{DF15BE25-BE25-1E25-2525-252525252525}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_80D8B16538554B009430E8C58E83614E",
+    "ShortName": "SB_80D8B16538554B009430E8C58E83614E",
+    "Path": "SB_80D8B16538554B009430E8C58E83614E.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "398462200",
+      "Name": "Pause_UI_SelectMenu",
+      "ObjectPath": "\\Events\\Default Work Unit\\HUD_Menu\\Pause_UI_SelectMenu",
+      "GUID": "{80D8B165-3855-4B00-9430-E8C58E83614E}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

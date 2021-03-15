@@ -1,0 +1,9 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1399649189	Master Bus			\Quentin\Barn\Barn\Master Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	246525656	BarnRVB			\Quentin\Barn\Barn\Master Bus\BarnRVB	
+
+Effect plug-ins	ID	Name	Type				Notes
+	484890516	Church_Small_Wood	Wwise RoomVerb			
+

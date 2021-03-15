@@ -1,0 +1,44 @@
+{
+ "PluginInfo": {
+  "Project": "ProjetBroom_WwiseProject",
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "Plugins": [
+   {
+    "Name": "Wwise Silence",
+    "ID": "6619138",
+    "DLL": "AkSilenceGenerator"
+   },
+   {
+    "Name": "Wwise RoomVerb",
+    "ID": "7733251",
+    "DLL": "AkRoomVerb"
+   },
+   {
+    "Name": "SoundSeed Air Wind",
+    "ID": "7798786",
+    "DLL": "AkSoundSeedAir"
+   },
+   {
+    "Name": "SoundSeed Air Woosh",
+    "ID": "7864322",
+    "DLL": "AkSoundSeedAir"
+   },
+   {
+    "Name": "Wwise Meter",
+    "ID": "8454147",
+    "DLL": "AkSoundEngineDLL"
+   },
+   {
+    "Name": "System",
+    "ID": "11403271",
+    "DLL": "DefaultSink"
+   },
+   {
+    "Name": "No Output",
+    "ID": "11862023",
+    "DLL": "DefaultSink"
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4123908065",
+    "GUID": "{F5CDD7E1-D7E1-17E1-E1E1-E1E1E1E1E1E1}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_C53C4F50AC5C4C5F8E37E2ADFAF35EBF",
+    "ShortName": "SB_C53C4F50AC5C4C5F8E37E2ADFAF35EBF",
+    "Path": "SB_C53C4F50AC5C4C5F8E37E2ADFAF35EBF.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3338624455",
+      "Name": "Event_PreCast_Spell_Water",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Spell\\Water\\Event_PreCast_Spell_Water",
+      "GUID": "{C53C4F50-AC5C-4C5F-8E37-E2ADFAF35EBF}",
+      "MaxAttenuation": "1000.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "935720108",
+        "Language": "SFX",
+        "ShortName": "LP_CastSpellWater_GOICO_01_v5.wav",
+        "Path": "SFX\\LP_CastSpellWater_GOICO_01_v5_D79FB2B7.wem"
+       },
+       {
+        "Id": "938053655",
+        "Language": "SFX",
+        "ShortName": "OS_CastSpellWater_GOICO_01_v1.wav",
+        "Path": "SFX\\OS_CastSpellWater_GOICO_01_v1_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1974803597",
+      "Name": "spell_distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\spell\\spell_distance",
+      "GUID": "{D9568FC2-08F0-4CF8-BE44-34EEF3822A5F}"
+     }
+    ]
+   }
+  ]
+ }
+}

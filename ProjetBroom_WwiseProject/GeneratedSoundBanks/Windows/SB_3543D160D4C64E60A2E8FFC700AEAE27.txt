@@ -1,0 +1,15 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1130989983	SFX_Volume_GP			\Default Work Unit\Option\SFX_Volume_GP	
+	3931204830	Master_Volume_GP			\Default Work Unit\Option\Master_Volume_GP	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1470635214	Bus_Jail_Rev			\Default Work Unit\Master Audio Bus\SFX\Bus_Jail_Rev	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	335668392	Reveb_Jail			\Default Work Unit\Master Audio Bus\SFX\Bus_Jail_Rev\Reveb_Jail	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
+

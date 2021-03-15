@@ -1,0 +1,81 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1356764550",
+    "GUID": "{50DE9586-9586-1586-8686-868686868686}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_7E302D243F914EDE848EFBDE705BFE57",
+    "ShortName": "SB_7E302D243F914EDE848EFBDE705BFE57",
+    "Path": "SB_7E302D243F914EDE848EFBDE705BFE57.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "4017534918",
+      "Name": "Aux_Reverb_In",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+      "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1130989983",
+      "Name": "SFX_Volume_GP",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Option\\SFX_Volume_GP",
+      "GUID": "{29C3E1C2-AF31-45DD-AAF7-8B2CEE14EBBB}"
+     },
+     {
+      "Id": "3931204830",
+      "Name": "Master_Volume_GP",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Option\\Master_Volume_GP",
+      "GUID": "{C0054CA0-46BD-4911-8ADF-2435B99B7B79}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1085924974",
+      "Name": "State_Gate",
+      "ObjectPath": "\\States\\Default Work Unit\\Environement\\State_Gate",
+      "GUID": "{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Environement\\State_Gate\\None",
+        "GUID": "{6D47C0C6-5A10-42E8-876A-0F1F09BE2DA8}"
+       },
+       {
+        "Id": "2112530240",
+        "Name": "In_Barn",
+        "ObjectPath": "\\States\\Default Work Unit\\Environement\\State_Gate\\In_Barn",
+        "GUID": "{052D62BB-523B-4630-8D8B-E415CA4005C5}"
+       },
+       {
+        "Id": "645492555",
+        "Name": "Out",
+        "ObjectPath": "\\States\\Default Work Unit\\Environement\\State_Gate\\Out",
+        "GUID": "{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"
+       },
+       {
+        "Id": "2771170873",
+        "Name": "In_Kitchen",
+        "ObjectPath": "\\States\\Default Work Unit\\Environement\\State_Gate\\In_Kitchen",
+        "GUID": "{D0B086CF-5F0F-4B67-83DB-4E500E5AD494}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

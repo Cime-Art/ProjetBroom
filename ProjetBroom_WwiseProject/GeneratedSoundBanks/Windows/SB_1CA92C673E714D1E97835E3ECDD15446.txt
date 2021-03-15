@@ -1,0 +1,9 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1399649189	Master Bus			\Quentin\Barn\Barn\Master Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3246314181	WwiseMeterTrigger			\Quentin\Barn\Barn\Master Bus\WwiseMeterTrigger	
+
+Effect plug-ins	ID	Name	Type				Notes
+	780838069	New_Wwise_Meter	Wwise Meter			
+
