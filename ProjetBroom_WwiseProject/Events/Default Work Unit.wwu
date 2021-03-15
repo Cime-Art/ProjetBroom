@@ -144,6 +144,21 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Mana" ID="{A9990C33-F23C-4664-AA4B-AFF26B5A69B5}" ShortID="313062279">
+									<ChildrenList>
+										<Event Name="Event_OutOfMana" ID="{A494CDF7-2E45-4AC1-AD31-E74CE19E1F8B}">
+											<ChildrenList>
+												<Action Name="" ID="{CBEBD902-45CF-46CD-B925-9EC2AA9696EA}" ShortID="139319734">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="UI_OS_OutOfMana_01_Anger_V2" ID="{D222337F-485A-4CBD-8B96-5D184CF7894B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="FTPS" ID="{FD3F6F9F-C1C8-4BC7-8E7C-62F7DE33D63B}" ShortID="981069562">
@@ -247,6 +262,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Event_BigAcidFlow" ID="{E7869906-A7F2-4EBE-A8CB-E85654DFB8C5}">
+											<ChildrenList>
+												<Action Name="" ID="{54E3CBB4-1DB7-4C13-9E24-72755E818352}" ShortID="704700100">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Amb_LP_BigAcidFlow_01_Anger_V1" ID="{40A4F3C7-A930-42F0-BDCE-37510FEE0379}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Animal" ID="{47D526AA-7169-4D66-BF75-F69FA009AC09}" ShortID="119963362">
@@ -279,6 +305,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Small_Animal_Run_In_Pipe_RND" ID="{20E701B0-DF59-4440-9E3C-AF9B827A7DF6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_SpiderWalk" ID="{98E48C8F-8A2D-4996-BCB6-CD74E8C54B60}">
+											<ChildrenList>
+												<Action Name="" ID="{4F7354F8-3111-4584-A679-92F978268F76}" ShortID="151442989">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Spider_Walk_RND" ID="{14ADCDFF-5DF6-4ADC-B378-9D6A198EECB7}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -342,6 +379,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Metal_Crakles_RND" ID="{52E59D2E-0B14-4706-9D55-1F093364D2DB}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_BigSqueakyChain" ID="{79864002-9EB6-4EDF-9A0A-1517F95C71E8}">
+											<ChildrenList>
+												<Action Name="" ID="{A15D3B30-4762-4E1E-9666-9A9B7A8984C8}" ShortID="976223940">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Big_Squeaky_Chain_RND" ID="{FDC99201-2BD1-4030-90FD-1348F9B3ADEC}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -503,6 +551,13 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{620C7D49-2180-4BFE-864E-7B1989C92104}" ShortID="510947585">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="AMB_LP_Steam" ID="{438E9EB0-6010-4C84-9190-BF1FA2DFC895}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 										<Event Name="Event_Boiler" ID="{21565AFE-8ACE-4627-A74C-9F9EF4B25786}">
@@ -541,6 +596,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="BoilerDoorClose_RND" ID="{4C27D804-3CDE-4CB6-B2A2-AAE986478927}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_FireEscpae" ID="{8FC5EDCE-EC54-4CFE-8291-18022FDD23C2}">
+											<ChildrenList>
+												<Action Name="" ID="{F9AE265F-E586-4120-BDCC-CC5BD642CE38}" ShortID="532163752">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Amb_LP_FireEscape" ID="{6F64D8EA-2C40-4B7B-BB99-E22FC70D8A4D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
