@@ -872,28 +872,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Event_Play_UI_Closebook" ID="{75E52A56-A574-4BBA-968A-266EA236141E}">
-							<ChildrenList>
-								<Action Name="" ID="{D6C161FE-1082-4CCE-8B53-D54E2925E678}" ShortID="840008518">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="UI_Closebook" ID="{36F8468B-00F3-42DB-964D-5CD1F3A07ABE}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Event_Play_UI_OpenBook" ID="{01D18E95-CD11-4B8A-BB66-AA6A8A3354F3}">
-							<ChildrenList>
-								<Action Name="" ID="{11597588-8960-45E6-94FE-0CE06B8360DD}" ShortID="273417751">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="UI_OpenBook" ID="{2099E5DD-71B5-49B5-AC6E-88A42B8AAB2A}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
