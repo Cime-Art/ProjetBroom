@@ -5374,7 +5374,6 @@
 																</RandomSequenceContainer>
 																<RandomSequenceContainer Name="PlateformDestruction_RND" ID="{84C64EB5-3F04-4F0C-8442-690C271C176A}" ShortID="211599464">
 																	<PropertyList>
-																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 																		<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 																		<Property Name="Pitch" Type="int32">
 																			<ModifierList>
@@ -5403,7 +5402,6 @@
 																				</ModifierInfo>
 																			</ModifierList>
 																		</Property>
-																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																		<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 																	</PropertyList>
 																	<ReferenceList>
