@@ -445,6 +445,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Event_PlatformDestruction" ID="{8B2A961A-3CFD-4069-BC9A-FF94630B3EEE}">
+									<ChildrenList>
+										<Action Name="" ID="{66AB8EC6-6F8E-4D04-BBC7-A507C2BE10F7}" ShortID="565578464">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PlateformDestruction_RND" ID="{84C64EB5-3F04-4F0C-8442-690C271C176A}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Tuto" ID="{C5848E0C-DB86-4041-B214-BE3A333D64A3}" ShortID="579642512">
