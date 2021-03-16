@@ -445,12 +445,23 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Event_PlatformDestruction" ID="{8B2A961A-3CFD-4069-BC9A-FF94630B3EEE}">
+								<Event Name="Event_FirstPlatformDestruction" ID="{8B2A961A-3CFD-4069-BC9A-FF94630B3EEE}">
 									<ChildrenList>
 										<Action Name="" ID="{66AB8EC6-6F8E-4D04-BBC7-A507C2BE10F7}" ShortID="565578464">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="PlateformDestruction_RND" ID="{84C64EB5-3F04-4F0C-8442-690C271C176A}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="FirstPlateformDestruction_RND" ID="{84C64EB5-3F04-4F0C-8442-690C271C176A}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_NextPlatformDestruction" ID="{FC892B0F-A6B4-43BB-838B-9919CF8C15A0}">
+									<ChildrenList>
+										<Action Name="" ID="{61472279-3814-481E-8D83-2D40A2881411}" ShortID="264718559">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="NextPlateformDestruction_RND" ID="{C79941BF-5704-4C16-A6F4-0BEE9728294B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

@@ -5372,7 +5372,7 @@
 																		</Sound>
 																	</ChildrenList>
 																</RandomSequenceContainer>
-																<RandomSequenceContainer Name="PlateformDestruction_RND" ID="{84C64EB5-3F04-4F0C-8442-690C271C176A}" ShortID="211599464">
+																<RandomSequenceContainer Name="FirstPlateformDestruction_RND" ID="{84C64EB5-3F04-4F0C-8442-690C271C176A}" ShortID="211599464">
 																	<PropertyList>
 																		<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 																		<Property Name="Pitch" Type="int32">
@@ -5413,7 +5413,7 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<Sound Name="Amb_OS_Detruction_stone_platform_ v3-001" ID="{CA529634-2C7A-4FE4-AF2E-E1EAA824BADD}" ShortID="1025268197">
+																		<Sound Name="Amb_OS_Destruction_stone_platform_ v3-001" ID="{CA529634-2C7A-4FE4-AF2E-E1EAA824BADD}" ShortID="1025268197">
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -5441,7 +5441,7 @@
 																				<ActiveSource Name="Amb_OS_Detruction_stone_platform_ v3-001" ID="{C401A2F8-CD42-4C6B-8D3D-7853629422E9}" Platform="Linked"/>
 																			</ActiveSourceList>
 																		</Sound>
-																		<Sound Name="Amb_OS_Detruction_stone_platform_ v3-003" ID="{55C05312-9445-44E8-AE38-677F82F1A82E}" ShortID="916995683">
+																		<Sound Name="Amb_OS_Destruction_stone_platform_ v3-003" ID="{55C05312-9445-44E8-AE38-677F82F1A82E}" ShortID="916995683">
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -5469,7 +5469,7 @@
 																				<ActiveSource Name="Amb_OS_Detruction_stone_platform_ v3-003" ID="{9192BC1D-D230-4AFC-A7AA-23A0ED3DCAE2}" Platform="Linked"/>
 																			</ActiveSourceList>
 																		</Sound>
-																		<Sound Name="Amb_OS_Detruction_stone_platform_ v3-002" ID="{651827B3-918A-4E0D-8EFC-4432605D78EE}" ShortID="1014849045">
+																		<Sound Name="Amb_OS_Destruction_stone_platform_ v3-002" ID="{651827B3-918A-4E0D-8EFC-4432605D78EE}" ShortID="1014849045">
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -5497,7 +5497,7 @@
 																				<ActiveSource Name="Amb_OS_Detruction_stone_platform_ v3-002" ID="{423B9042-CD75-4DA4-AB8E-84DEEC23DDC8}" Platform="Linked"/>
 																			</ActiveSourceList>
 																		</Sound>
-																		<Sound Name="Amb_OS_Detruction_stone_platform_ v3-004" ID="{23199BEE-43D3-4F11-BC7C-6D2298A6649B}" ShortID="106405691">
+																		<Sound Name="Amb_OS_Destruction_stone_platform_ v3-004" ID="{23199BEE-43D3-4F11-BC7C-6D2298A6649B}" ShortID="106405691">
 																			<PropertyList>
 																				<Property Name="Pitch" Type="int32">
 																					<ModifierList>
@@ -8077,6 +8077,121 @@
 																			</ChildrenList>
 																			<ActiveSourceList>
 																				<ActiveSource Name="Amb_OS_Big squeaky chain _04_Anger_V1" ID="{92D58155-2FB5-45FA-954A-08B8A5421A71}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
+																<RandomSequenceContainer Name="NextPlateformDestruction_RND" ID="{C79941BF-5704-4C16-A6F4-0BEE9728294B}" ShortID="464888916">
+																	<PropertyList>
+																		<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{1F5D230A-B64E-4A86-8E5B-241E620C71F0}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="733"/>
+																							<Property Name="Min" Type="Real64" Value="-707"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																		<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+																		<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{12F09045-01FA-4B57-ACCB-AA6CF52E8F00}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="25"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend1">
+																			<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="Amb_OS_Destruction_stone_platform_no_atk_ v3-001" ID="{54B25462-CD71-4320-899C-C738214F71A3}" ShortID="895462406">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_Detruction_stone_platform_no_atk_ v3-001" ID="{28CB1A67-9F6B-4A93-8C22-C0BCE3DB5A0C}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_Detruction_stone_platform_no_atk_ v3-001.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="243736293"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_Detruction_stone_platform_no_atk_ v3-001" ID="{28CB1A67-9F6B-4A93-8C22-C0BCE3DB5A0C}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_Destruction_stone_platform_no_atk_ v3-002" ID="{801A0062-5D27-43A8-B7C6-DFF4038AA04A}" ShortID="187431216">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_Detruction_stone_platform_no_atk_ v3-002" ID="{4243F91F-2F0A-43F7-AF96-23EF70E5C730}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_Detruction_stone_platform_no_atk_ v3-002.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="775351281"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_Detruction_stone_platform_no_atk_ v3-002" ID="{4243F91F-2F0A-43F7-AF96-23EF70E5C730}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_Destruction_stone_platform_no_atk_ v3-003" ID="{A574AAD1-A470-4843-B961-DE35D6C68474}" ShortID="242152651">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_Detruction_stone_platform_no_atk_ v3-003" ID="{AB91EB5B-04AC-4C14-9C21-DD52DA6110C9}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_Detruction_stone_platform_no_atk_ v3-003.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="836650568"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_Detruction_stone_platform_no_atk_ v3-003" ID="{AB91EB5B-04AC-4C14-9C21-DD52DA6110C9}" Platform="Linked"/>
 																			</ActiveSourceList>
 																		</Sound>
 																	</ChildrenList>
