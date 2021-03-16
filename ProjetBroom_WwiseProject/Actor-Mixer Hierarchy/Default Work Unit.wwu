@@ -5297,8 +5297,10 @@
 															<ChildrenList>
 																<RandomSequenceContainer Name="Groaning_Prisoner_RND" ID="{B2C747C0-357B-4DE9-B7BB-444A7FB314EA}" ShortID="123988885">
 																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 																		<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																		<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 																		<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 																		<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
@@ -6210,6 +6212,11 @@
 																						<Value>19</Value>
 																					</ValueList>
 																				</Property>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-10</Value>
+																					</ValueList>
+																				</Property>
 																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
@@ -6240,6 +6247,13 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="Amb_OS_SmallAnimalRunAway _02" ID="{11C8F059-DCE0-487B-8AB7-0608F9E32B9F}" ShortID="99637309">
+																			<PropertyList>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-10</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -6272,6 +6286,13 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="Amb_OS_SmallAnimalRunAway _03" ID="{03F4744E-8DC6-44AF-B928-B9E001FC1F2A}" ShortID="108721734">
+																			<PropertyList>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-10</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -6431,6 +6452,13 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<Sound Name="Amb_OS_SmallAnimalRunOnPipe _01" ID="{95E68A59-BCD6-491C-BA51-9AE785D97A14}" ShortID="504135921">
+																			<PropertyList>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-6</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -6460,6 +6488,13 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="Amb_OS_SmallAnimalRunOnPipe _02" ID="{491BCAD1-F5F1-45FF-BCF4-D61651ADE764}" ShortID="264378117">
+																			<PropertyList>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-6</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -7918,6 +7953,11 @@
 																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 																		<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 																		<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-9</Value>
+																			</ValueList>
+																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
@@ -7929,6 +7969,13 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<Sound Name="Amb_OS_Spider_Walk _01_Anger_V1" ID="{5EA521BE-73C1-4FEB-8F49-B1B769D35512}" ShortID="341391605">
+																			<PropertyList>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-7</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -7961,6 +8008,13 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="Amb_OS_Spider_Walk _02_Anger_V1" ID="{3B8D7CE1-E523-4B2F-B88C-6F68E53D250D}" ShortID="183283744">
+																			<PropertyList>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-7</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -7993,6 +8047,13 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="Amb_OS_Spider_Walk _03_Anger_V1" ID="{5EBF21A9-A375-4773-ACEE-AD6C7BA24C66}" ShortID="1051602363">
+																			<PropertyList>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-7</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -8022,6 +8083,13 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="Amb_OS_SpiderWalkCloser_02_Sabarros_v1" ID="{00E0E223-151E-4A44-8C03-5A21185270AD}" ShortID="676696904">
+																			<PropertyList>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-7</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -8049,6 +8117,13 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="Amb_OS_SpiderWalkCloser_03_Sabarros_v1" ID="{A69C86BC-AC63-42D8-9267-FDB42320211C}" ShortID="758075235">
+																			<PropertyList>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-7</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
