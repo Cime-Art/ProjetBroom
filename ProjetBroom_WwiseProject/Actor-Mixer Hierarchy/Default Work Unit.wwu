@@ -5173,6 +5173,106 @@
 																		</Sound>
 																	</ChildrenList>
 																</Folder>
+																<RandomSequenceContainer Name="Acid_Splash_RND" ID="{5F24A4E6-143A-4DA9-9AAF-0C5F6662A702}" ShortID="766976133">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="SplashAcid_Short_v4-001" ID="{AECC85A9-14FD-41CF-B696-E339081768A1}" ShortID="462251967">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SplashAcid_Short_v4-001" ID="{023A4B10-2D8A-4ADB-8E01-54D0954D6443}">
+																					<Language>SFX</Language>
+																					<AudioFile>SplashAcid_Short_v4-001.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="810126127"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SplashAcid_Short_v4-001" ID="{023A4B10-2D8A-4ADB-8E01-54D0954D6443}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SplashAcid_Short_v4-002" ID="{55E3E84B-77D3-4117-8F80-E1209DF44A57}" ShortID="843142075">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SplashAcid_Short_v4-002" ID="{1ECC9553-B914-4AB6-B81F-B92568EB63E4}">
+																					<Language>SFX</Language>
+																					<AudioFile>SplashAcid_Short_v4-002.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="1069018567"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SplashAcid_Short_v4-002" ID="{1ECC9553-B914-4AB6-B81F-B92568EB63E4}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SplashAcid_Short_v4-003" ID="{5A05E094-56CC-45D6-948C-EAF717188FE9}" ShortID="334120170">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SplashAcid_Short_v4-003" ID="{D67CC4C3-76BE-4AAB-93DE-E5344068E9AD}">
+																					<Language>SFX</Language>
+																					<AudioFile>SplashAcid_Short_v4-003.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="773366880"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SplashAcid_Short_v4-003" ID="{D67CC4C3-76BE-4AAB-93DE-E5344068E9AD}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SplashAcid_Short_v4-004" ID="{2F393830-EC55-4F88-801E-E5F8B44A882F}" ShortID="895511956">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SplashAcid_Short_v4-004" ID="{0D189277-5555-499F-9D5D-FD048FB4711F}">
+																					<Language>SFX</Language>
+																					<AudioFile>SplashAcid_Short_v4-004.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="743377637"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SplashAcid_Short_v4-004" ID="{0D189277-5555-499F-9D5D-FD048FB4711F}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
 															</ChildrenList>
 														</ActorMixer>
 													</ChildrenList>
