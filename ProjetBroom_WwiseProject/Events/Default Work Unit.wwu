@@ -3,7 +3,40 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{675F061C-E88F-4C92-9E74-619C166A4A10}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Mob" ID="{24D4DBCD-6495-4D0F-AABC-2C5DF3B1EC18}" ShortID="36840186"/>
+				<Folder Name="Mob" ID="{24D4DBCD-6495-4D0F-AABC-2C5DF3B1EC18}" ShortID="36840186">
+					<ChildrenList>
+						<Folder Name="SkeletonDist" ID="{BEA383B6-764A-4770-97E7-57103A29B016}" ShortID="420956865">
+							<ChildrenList>
+								<Event Name="Event_SKd_Action" ID="{E91153CF-2E22-462B-9E8D-345F6AFD018B}">
+									<ChildrenList>
+										<Action Name="" ID="{8AAEA6DA-7AEF-4108-8034-2EEA81D0C316}" ShortID="951870503">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SkDist_Switch" ID="{8C9DCA22-ACA7-46E8-8D39-9E55B2957D17}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="SkeletonCac" ID="{7AB3C91B-BB02-4147-86AF-73CCCF7D246E}" ShortID="757083389">
+							<ChildrenList>
+								<Event Name="Event_SKCac_Action" ID="{68425362-7970-4006-8DE7-F5D3D477CF5C}">
+									<ChildrenList>
+										<Action Name="" ID="{8E4B419A-7E1F-43E4-AE6E-ECCE05F7AA05}" ShortID="104835717">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SkCac_Switch" ID="{7610594D-4442-40E5-B329-143F8B697A03}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="Player" ID="{E0B7312B-EEF9-4945-A695-D1ABB792191B}" ShortID="611497882">
 					<ChildrenList>
 						<Folder Name="Spell" ID="{3D7AA9DB-A52D-4FF7-BC06-28F56D952C71}" ShortID="384035320">

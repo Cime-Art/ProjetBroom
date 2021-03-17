@@ -9151,6 +9151,15 @@
 													</ReferenceList>
 													<ChildrenList>
 														<RandomSequenceContainer Name="Idle" ID="{9F872C9D-B9C9-4D6A-9A82-5D937DA678FF}" ShortID="593332254">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{C982DFBE-2B66-4012-90D5-806A85B4D54D}"/>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -9159,6 +9168,45 @@
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Mob_LP_SkeletonDistIdle_01_Ferreira_V1" ID="{4A69ABB3-9D72-45B5-93C4-ADE1CEE33A78}" ShortID="779732642">
+																	<PropertyList>
+																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{28820D0F-4B10-452A-AC08-CA7F31FD98D4}"/>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_LP_SkeletonDistIdle_01_Ferreira_V1" ID="{FAB3C108-E80C-479A-8F5F-C7E58EDFB315}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.981232993197279"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.981232993197279"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_LP_SkeletonDistIdle_01_Ferreira_V1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="355670864"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_LP_SkeletonDistIdle_01_Ferreira_V1" ID="{FAB3C108-E80C-479A-8F5F-C7E58EDFB315}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
 														</RandomSequenceContainer>
 														<RandomSequenceContainer Name="Attack_02" ID="{80BDFFAE-E5D1-40C1-87EC-D1DA7AF6A93B}" ShortID="851585153">
 															<ReferenceList>
@@ -9179,8 +9227,51 @@
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Mob_OS_SkeletonDistAttack_01_Ferreira_V1" ID="{92F5B5CC-6C3B-44CF-B53F-36E3EFFE4212}" ShortID="424271109">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistAttack_01_Ferreira_V1" ID="{37C932DE-41C1-4D84-97B4-7B06E7A5E2AE}">
+																			<PropertyList>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.298598214285714"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.998645138888889"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonDistAttack_01_Ferreira_V1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="865223650"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonDistAttack_01_Ferreira_V1" ID="{37C932DE-41C1-4D84-97B4-7B06E7A5E2AE}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
 														</RandomSequenceContainer>
 														<RandomSequenceContainer Name="MoveForward" ID="{3460B37D-02BE-43BF-A65D-74A823594602}" ShortID="733635525">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{E30EA2B8-9D8A-4388-9482-FF7F70194F8D}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="657"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -9189,6 +9280,91 @@
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Mob_OS_SkeletonDistMoveForward_01_Ferreira_V1" ID="{F345AA8D-21A1-4751-8E47-67013C02D15A}" ShortID="679823885">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistMoveForward_01_Ferreira_V1" ID="{7896FC72-A045-4ED7-9779-9207785187DA}">
+																			<PropertyList>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0447832908163266"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="1.05358584183674"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="1.54855905612245"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonDistMoveForward_01_Ferreira_V1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1010710462"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonDistMoveForward_01_Ferreira_V1" ID="{7896FC72-A045-4ED7-9779-9207785187DA}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Mob_OS_SkeletonDistMoveForward_02_Ferreira_V1" ID="{D04870F1-DC4B-41C1-AE9C-6FF2E9776198}" ShortID="341758142">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistMoveForward_02_Ferreira_V1" ID="{5F306E4F-C616-44A8-BA24-E81A993709BD}">
+																			<PropertyList>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0970780470521544"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="1.01415576814059"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="1.46236717687075"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonDistMoveForward_02_Ferreira_V1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="65489904"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonDistMoveForward_02_Ferreira_V1" ID="{5F306E4F-C616-44A8-BA24-E81A993709BD}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Mob_OS_SkeletonDistMoveForward_03_Ferreira_V1" ID="{4A0A8EAF-9FD5-4428-9D0C-2859957B53A0}" ShortID="640688139">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistMoveForward_03_Ferreira_V1" ID="{F898C102-BAD8-4EE5-81A4-C9636F31576C}">
+																			<PropertyList>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.214514739229025"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="1.04163407029478"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonDistMoveForward_03_Ferreira_V1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="286433757"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonDistMoveForward_03_Ferreira_V1" ID="{F898C102-BAD8-4EE5-81A4-C9636F31576C}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
 														</RandomSequenceContainer>
 														<RandomSequenceContainer Name="PlayerHit" ID="{1546C391-04D4-4EE9-8D60-10B17BC510D9}" ShortID="473188722">
 															<ReferenceList>
@@ -9201,6 +9377,21 @@
 															</ReferenceList>
 														</RandomSequenceContainer>
 														<RandomSequenceContainer Name="Death" ID="{F39990C5-12BA-48BB-901E-144C8F360821}" ShortID="417639535">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{27F0DAD3-29F1-4498-B111-EBA6A2AD5FB8}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="429"/>
+																					<Property Name="Min" Type="Real64" Value="-303"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -9209,8 +9400,52 @@
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Mob_OS_SkeletonDistDeath_01_Ferreira_V1" ID="{C1749CBA-59CF-4365-A092-CA6D33B11748}" ShortID="4163427">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistDeath_01_Ferreira_V1" ID="{AF1C45FE-55C8-4F0C-98BC-0B8C087887DC}">
+																			<PropertyList>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.370601686507936"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="1.15540525793651"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonDistDeath_01_Ferreira_V1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="354894786"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonDistDeath_01_Ferreira_V1" ID="{AF1C45FE-55C8-4F0C-98BC-0B8C087887DC}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
 														</RandomSequenceContainer>
 														<RandomSequenceContainer Name="GetHit" ID="{D2582700-140D-4D2D-A4CA-3631643A91B3}" ShortID="201664121">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{73D4A987-3A91-4E84-8A21-A59A6186209C}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="480"/>
+																					<Property Name="Min" Type="Real64" Value="-303"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -9219,6 +9454,81 @@
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Mob_OS_SkeletonDistGetHit_02_Ferreira_V1" ID="{EDF0BC69-0A6E-4751-B2BD-3A53E6C78844}" ShortID="984965518">
+																	<PropertyList>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{384E120F-897D-42D7-936C-B03E058F56B1}"/>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistGetHit_02_Ferreira_V1" ID="{30B76A4B-B1C1-46F2-8E3C-1332D7BF5BD1}">
+																			<PropertyList>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.168789682539683"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.995859126984128"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonDistGetHit_02_Ferreira_V1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="909384450"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonDistGetHit_02_Ferreira_V1" ID="{30B76A4B-B1C1-46F2-8E3C-1332D7BF5BD1}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Mob_OS_SkeletonDistGetHit_01_Ferreira_V1" ID="{2836FC29-066D-4B3F-B013-CB0CAC35BA78}" ShortID="939227344">
+																	<PropertyList>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{836D311B-AC52-4685-85C9-F1DC65817248}"/>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistGetHit_01_Ferreira_V1" ID="{13248E8D-EE11-4007-BC75-B666A7A86AF1}">
+																			<PropertyList>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.281380357142857"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.998058531746032"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="1.76043095238095"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonDistGetHit_01_Ferreira_V1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="184471829"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonDistGetHit_01_Ferreira_V1" ID="{13248E8D-EE11-4007-BC75-B666A7A86AF1}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
 														</RandomSequenceContainer>
 													</ChildrenList>
 													<GroupingInfo>
