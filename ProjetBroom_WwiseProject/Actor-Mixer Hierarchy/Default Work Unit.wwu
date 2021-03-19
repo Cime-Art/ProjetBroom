@@ -9178,94 +9178,6 @@
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
-															<ChildrenList>
-																<Sound Name="Mob_LP_SkeletonDistIdle_01_Ferreira_V1" ID="{4A69ABB3-9D72-45B5-93C4-ADE1CEE33A78}" ShortID="779732642">
-																	<PropertyList>
-																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																		<Property Name="Pitch" Type="int32">
-																			<ModifierList>
-																				<ModifierInfo>
-																					<Modifier Name="" ID="{28820D0F-4B10-452A-AC08-CA7F31FD98D4}"/>
-																				</ModifierInfo>
-																			</ModifierList>
-																		</Property>
-																	</PropertyList>
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Mob_LP_SkeletonDistIdle_01_Ferreira_V1" ID="{FAB3C108-E80C-479A-8F5F-C7E58EDFB315}">
-																			<PropertyList>
-																				<Property Name="LoopBegin" Type="Real64" Value="0.981232993197279"/>
-																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="TrimBegin" Type="Real64" Value="0.981232993197279"/>
-																			</PropertyList>
-																			<Language>SFX</Language>
-																			<AudioFile>Mob_LP_SkeletonDistIdle_01_Ferreira_V1.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="355670864"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Mob_LP_SkeletonDistIdle_01_Ferreira_V1" ID="{FAB3C108-E80C-479A-8F5F-C7E58EDFB315}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-															</ChildrenList>
-														</RandomSequenceContainer>
-														<RandomSequenceContainer Name="Attack_02" ID="{80BDFFAE-E5D1-40C1-87EC-D1DA7AF6A93B}" ShortID="851585153">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-														</RandomSequenceContainer>
-														<RandomSequenceContainer Name="Attack_01" ID="{02BC2443-632A-4E24-8E1A-4516D4B564F5}" ShortID="634028088">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<Sound Name="Mob_OS_SkeletonDistAttack_01_Ferreira_V1" ID="{92F5B5CC-6C3B-44CF-B53F-36E3EFFE4212}" ShortID="424271109">
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Mob_OS_SkeletonDistAttack_01_Ferreira_V1" ID="{37C932DE-41C1-4D84-97B4-7B06E7A5E2AE}">
-																			<PropertyList>
-																				<Property Name="FadeOutDuration" Type="Real64" Value="0.298598214285714"/>
-																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="TrimBegin" Type="Real64" Value="0.998645138888889"/>
-																			</PropertyList>
-																			<Language>SFX</Language>
-																			<AudioFile>Mob_OS_SkeletonDistAttack_01_Ferreira_V1.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="865223650"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Mob_OS_SkeletonDistAttack_01_Ferreira_V1" ID="{37C932DE-41C1-4D84-97B4-7B06E7A5E2AE}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-															</ChildrenList>
 														</RandomSequenceContainer>
 														<RandomSequenceContainer Name="MoveForward" ID="{3460B37D-02BE-43BF-A65D-74A823594602}" ShortID="733635525">
 															<PropertyList>
@@ -9291,7 +9203,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<Sound Name="Mob_OS_SkeletonDistMoveForward_01_Ferreira_V1" ID="{F345AA8D-21A1-4751-8E47-67013C02D15A}" ShortID="679823885">
+																<Sound Name="Mob_OS_SkeletonDistFootstep_01" ID="{C0046A14-566E-45D7-9745-FFC589C876AA}" ShortID="88179402">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -9301,25 +9213,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Mob_OS_SkeletonDistMoveForward_01_Ferreira_V1" ID="{7896FC72-A045-4ED7-9779-9207785187DA}">
-																			<PropertyList>
-																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0447832908163266"/>
-																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="TrimBegin" Type="Real64" Value="1.05358584183674"/>
-																				<Property Name="TrimEnd" Type="Real64" Value="1.54855905612245"/>
-																			</PropertyList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistFootstep_01" ID="{920BF408-46B2-4DB9-8060-7F5FE1708F3E}">
 																			<Language>SFX</Language>
-																			<AudioFile>Mob_OS_SkeletonDistMoveForward_01_Ferreira_V1.wav</AudioFile>
+																			<AudioFile>Mob_OS_SkeletonDistFootstep_01.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="1010710462"/>
+																				<MediaID ID="300491165"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Mob_OS_SkeletonDistMoveForward_01_Ferreira_V1" ID="{7896FC72-A045-4ED7-9779-9207785187DA}" Platform="Linked"/>
+																		<ActiveSource Name="Mob_OS_SkeletonDistFootstep_01" ID="{920BF408-46B2-4DB9-8060-7F5FE1708F3E}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="Mob_OS_SkeletonDistMoveForward_02_Ferreira_V1" ID="{D04870F1-DC4B-41C1-AE9C-6FF2E9776198}" ShortID="341758142">
+																<Sound Name="Mob_OS_SkeletonDistFootstep_02" ID="{1F9B3612-3B06-47DA-83B7-8DF7BA34DB5E}" ShortID="513207808">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -9329,25 +9235,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Mob_OS_SkeletonDistMoveForward_02_Ferreira_V1" ID="{5F306E4F-C616-44A8-BA24-E81A993709BD}">
-																			<PropertyList>
-																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0970780470521544"/>
-																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="TrimBegin" Type="Real64" Value="1.01415576814059"/>
-																				<Property Name="TrimEnd" Type="Real64" Value="1.46236717687075"/>
-																			</PropertyList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistFootstep_02" ID="{BF985E53-708C-43A8-B922-3A139569AC51}">
 																			<Language>SFX</Language>
-																			<AudioFile>Mob_OS_SkeletonDistMoveForward_02_Ferreira_V1.wav</AudioFile>
+																			<AudioFile>Mob_OS_SkeletonDistFootstep_02.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="65489904"/>
+																				<MediaID ID="324245432"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Mob_OS_SkeletonDistMoveForward_02_Ferreira_V1" ID="{5F306E4F-C616-44A8-BA24-E81A993709BD}" Platform="Linked"/>
+																		<ActiveSource Name="Mob_OS_SkeletonDistFootstep_02" ID="{BF985E53-708C-43A8-B922-3A139569AC51}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="Mob_OS_SkeletonDistMoveForward_03_Ferreira_V1" ID="{4A0A8EAF-9FD5-4428-9D0C-2859957B53A0}" ShortID="640688139">
+																<Sound Name="Mob_OS_SkeletonDistFootstep_03" ID="{CB11938B-D4E5-4BD6-B003-5A0C7896A8F0}" ShortID="554828706">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -9357,21 +9257,38 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Mob_OS_SkeletonDistMoveForward_03_Ferreira_V1" ID="{F898C102-BAD8-4EE5-81A4-C9636F31576C}">
-																			<PropertyList>
-																				<Property Name="FadeOutDuration" Type="Real64" Value="0.214514739229025"/>
-																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="TrimBegin" Type="Real64" Value="1.04163407029478"/>
-																			</PropertyList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistFootstep_03" ID="{DEC0D8D0-2876-46BB-A86F-E8FC61D98C7B}">
 																			<Language>SFX</Language>
-																			<AudioFile>Mob_OS_SkeletonDistMoveForward_03_Ferreira_V1.wav</AudioFile>
+																			<AudioFile>Mob_OS_SkeletonDistFootstep_03.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="286433757"/>
+																				<MediaID ID="1050777096"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Mob_OS_SkeletonDistMoveForward_03_Ferreira_V1" ID="{F898C102-BAD8-4EE5-81A4-C9636F31576C}" Platform="Linked"/>
+																		<ActiveSource Name="Mob_OS_SkeletonDistFootstep_03" ID="{DEC0D8D0-2876-46BB-A86F-E8FC61D98C7B}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Mob_OS_SkeletonDistFootstep_04" ID="{A06E1AC9-B2C9-4958-B5F1-A0359119B14B}" ShortID="411034493">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistFootstep_04" ID="{BA16E4FD-4972-484D-9AA2-34A79133D5C7}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonDistFootstep_04.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="743591154"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonDistFootstep_04" ID="{BA16E4FD-4972-484D-9AA2-34A79133D5C7}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
@@ -9385,60 +9302,6 @@
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
-														</RandomSequenceContainer>
-														<RandomSequenceContainer Name="Death" ID="{F39990C5-12BA-48BB-901E-144C8F360821}" ShortID="417639535">
-															<PropertyList>
-																<Property Name="Pitch" Type="int32">
-																	<ModifierList>
-																		<ModifierInfo>
-																			<Modifier Name="" ID="{27F0DAD3-29F1-4498-B111-EBA6A2AD5FB8}">
-																				<PropertyList>
-																					<Property Name="Enabled" Type="bool" Value="True"/>
-																					<Property Name="Max" Type="Real64" Value="429"/>
-																					<Property Name="Min" Type="Real64" Value="-303"/>
-																				</PropertyList>
-																			</Modifier>
-																		</ModifierInfo>
-																	</ModifierList>
-																</Property>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<Sound Name="Mob_OS_SkeletonDistDeath_01_Ferreira_V1" ID="{C1749CBA-59CF-4365-A092-CA6D33B11748}" ShortID="4163427">
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Mob_OS_SkeletonDistDeath_01_Ferreira_V1" ID="{AF1C45FE-55C8-4F0C-98BC-0B8C087887DC}">
-																			<PropertyList>
-																				<Property Name="FadeOutDuration" Type="Real64" Value="0.370601686507936"/>
-																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="TrimBegin" Type="Real64" Value="1.15540525793651"/>
-																			</PropertyList>
-																			<Language>SFX</Language>
-																			<AudioFile>Mob_OS_SkeletonDistDeath_01_Ferreira_V1.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="354894786"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Mob_OS_SkeletonDistDeath_01_Ferreira_V1" ID="{AF1C45FE-55C8-4F0C-98BC-0B8C087887DC}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-															</ChildrenList>
 														</RandomSequenceContainer>
 														<RandomSequenceContainer Name="GetHit" ID="{D2582700-140D-4D2D-A4CA-3631643A91B3}" ShortID="201664121">
 															<PropertyList>
@@ -9465,16 +9328,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<Sound Name="Mob_OS_SkeletonDistGetHit_02_Ferreira_V1" ID="{EDF0BC69-0A6E-4751-B2BD-3A53E6C78844}" ShortID="984965518">
-																	<PropertyList>
-																		<Property Name="Pitch" Type="int32">
-																			<ModifierList>
-																				<ModifierInfo>
-																					<Modifier Name="" ID="{384E120F-897D-42D7-936C-B03E058F56B1}"/>
-																				</ModifierInfo>
-																			</ModifierList>
-																		</Property>
-																	</PropertyList>
+																<Sound Name="Mob_OS_SkeletonDistGetHit_01" ID="{944DD84D-2BF0-46EE-B27E-7E16A18D0CE9}" ShortID="605431557">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -9484,33 +9338,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Mob_OS_SkeletonDistGetHit_02_Ferreira_V1" ID="{30B76A4B-B1C1-46F2-8E3C-1332D7BF5BD1}">
-																			<PropertyList>
-																				<Property Name="FadeOutDuration" Type="Real64" Value="0.168789682539683"/>
-																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="TrimBegin" Type="Real64" Value="0.995859126984128"/>
-																			</PropertyList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistGetHit_01" ID="{6723C8B9-397C-4900-A275-5E865D55F2E6}">
 																			<Language>SFX</Language>
-																			<AudioFile>Mob_OS_SkeletonDistGetHit_02_Ferreira_V1.wav</AudioFile>
+																			<AudioFile>Mob_OS_SkeletonDistGetHit_01.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="909384450"/>
+																				<MediaID ID="39940552"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Mob_OS_SkeletonDistGetHit_02_Ferreira_V1" ID="{30B76A4B-B1C1-46F2-8E3C-1332D7BF5BD1}" Platform="Linked"/>
+																		<ActiveSource Name="Mob_OS_SkeletonDistGetHit_01" ID="{6723C8B9-397C-4900-A275-5E865D55F2E6}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="Mob_OS_SkeletonDistGetHit_01_Ferreira_V1" ID="{2836FC29-066D-4B3F-B013-CB0CAC35BA78}" ShortID="939227344">
-																	<PropertyList>
-																		<Property Name="Pitch" Type="int32">
-																			<ModifierList>
-																				<ModifierInfo>
-																					<Modifier Name="" ID="{836D311B-AC52-4685-85C9-F1DC65817248}"/>
-																				</ModifierInfo>
-																			</ModifierList>
-																		</Property>
-																	</PropertyList>
+																<Sound Name="Mob_OS_SkeletonDistGetHit_02" ID="{59CCCD97-ADA3-452B-98B6-B0F33B43D8BD}" ShortID="1065721256">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -9520,26 +9360,109 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Mob_OS_SkeletonDistGetHit_01_Ferreira_V1" ID="{13248E8D-EE11-4007-BC75-B666A7A86AF1}">
-																			<PropertyList>
-																				<Property Name="FadeOutDuration" Type="Real64" Value="0.281380357142857"/>
-																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="TrimBegin" Type="Real64" Value="0.998058531746032"/>
-																				<Property Name="TrimEnd" Type="Real64" Value="1.76043095238095"/>
-																			</PropertyList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistGetHit_02" ID="{5EF3B812-5822-4C4F-8848-BC8544A164DA}">
 																			<Language>SFX</Language>
-																			<AudioFile>Mob_OS_SkeletonDistGetHit_01_Ferreira_V1.wav</AudioFile>
+																			<AudioFile>Mob_OS_SkeletonDistGetHit_02.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="184471829"/>
+																				<MediaID ID="911393502"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Mob_OS_SkeletonDistGetHit_01_Ferreira_V1" ID="{13248E8D-EE11-4007-BC75-B666A7A86AF1}" Platform="Linked"/>
+																		<ActiveSource Name="Mob_OS_SkeletonDistGetHit_02" ID="{5EF3B812-5822-4C4F-8848-BC8544A164DA}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
 														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="ShotCharging" ID="{EFB3FA03-9F9F-4521-B78A-DF4FF86595F6}" ShortID="701231681">
+															<PropertyList>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Mob_OS_SkeletonDistCharging_01" ID="{3174F032-CA1B-4F0B-9EE9-A0C4A91400E0}" ShortID="278649511">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistCharging_01" ID="{B3216FEF-9FF7-4995-B968-B67C8E1772E3}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonDistCharging_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="720291"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonDistCharging_01" ID="{B3216FEF-9FF7-4995-B968-B67C8E1772E3}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Mob_Loop_SkeletonDistCharging_01" ID="{9C4B5EBB-69A0-4CFC-AA5B-DCE643BFD88A}" ShortID="862962747">
+																	<PropertyList>
+																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_Loop_SkeletonDistCharging_01" ID="{E852E073-AC8E-45CA-9001-7F5867F98CEE}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_Loop_SkeletonDistCharging_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="51750365"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_Loop_SkeletonDistCharging_01" ID="{E852E073-AC8E-45CA-9001-7F5867F98CEE}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+															<Playlist>
+																<ItemRef Name="Mob_OS_SkeletonDistCharging_01" ID="{3174F032-CA1B-4F0B-9EE9-A0C4A91400E0}"/>
+																<ItemRef Name="Mob_Loop_SkeletonDistCharging_01" ID="{9C4B5EBB-69A0-4CFC-AA5B-DCE643BFD88A}"/>
+															</Playlist>
+														</RandomSequenceContainer>
+														<Sound Name="Mob_OS_SkeletonDistShot_01" ID="{933B2E18-060B-47EE-A714-FFF0C4EB6A75}" ShortID="642898574">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Mob_OS_SkeletonDistShot_01" ID="{66B03891-AFE7-4DD2-B42F-399BC7F3BBA4}">
+																	<Language>SFX</Language>
+																	<AudioFile>Mob_OS_SkeletonDistShot_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="193670394"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Mob_OS_SkeletonDistShot_01" ID="{66B03891-AFE7-4DD2-B42F-399BC7F3BBA4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
 													<GroupingInfo>
 														<GroupingBehaviorList>
@@ -9547,7 +9470,10 @@
 																<ItemRef Name="GetHit" ID="{D2582700-140D-4D2D-A4CA-3631643A91B3}"/>
 															</GroupingBehavior>
 															<GroupingBehavior>
-																<ItemRef Name="Attack_01" ID="{02BC2443-632A-4E24-8E1A-4516D4B564F5}"/>
+																<ItemRef Name="ShotCharging" ID="{EFB3FA03-9F9F-4521-B78A-DF4FF86595F6}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="Mob_OS_SkeletonDistShot_01" ID="{933B2E18-060B-47EE-A714-FFF0C4EB6A75}"/>
 															</GroupingBehavior>
 															<GroupingBehavior>
 																<ItemRef Name="MoveForward" ID="{3460B37D-02BE-43BF-A65D-74A823594602}"/>
@@ -9558,36 +9484,25 @@
 															<GroupingBehavior>
 																<ItemRef Name="Idle" ID="{9F872C9D-B9C9-4D6A-9A82-5D937DA678FF}"/>
 															</GroupingBehavior>
-															<GroupingBehavior>
-																<ItemRef Name="Attack_02" ID="{80BDFFAE-E5D1-40C1-87EC-D1DA7AF6A93B}"/>
-															</GroupingBehavior>
-															<GroupingBehavior>
-																<ItemRef Name="Death" ID="{F39990C5-12BA-48BB-901E-144C8F360821}"/>
-															</GroupingBehavior>
 														</GroupingBehaviorList>
 														<GroupingList>
 															<Grouping>
 																<SwitchRef Name="Attack_01" ID="{6A788D11-83AF-4E57-A972-D8501EB3701E}"/>
 																<ItemList>
-																	<ItemRef Name="Attack_01" ID="{02BC2443-632A-4E24-8E1A-4516D4B564F5}"/>
+																	<ItemRef Name="ShotCharging" ID="{EFB3FA03-9F9F-4521-B78A-DF4FF86595F6}"/>
+																	<ItemRef Name="Mob_OS_SkeletonDistShot_01" ID="{933B2E18-060B-47EE-A714-FFF0C4EB6A75}"/>
 																</ItemList>
 															</Grouping>
 															<Grouping>
 																<SwitchRef Name="Death" ID="{DBDDDA37-0DA2-4A84-81FC-E3277CAEF706}"/>
 																<ItemList>
-																	<ItemRef Name="Death" ID="{F39990C5-12BA-48BB-901E-144C8F360821}"/>
+																	<ItemRef Name="Mob_OS_SkeletonDistShot_01" ID="{933B2E18-060B-47EE-A714-FFF0C4EB6A75}"/>
 																</ItemList>
 															</Grouping>
 															<Grouping>
 																<SwitchRef Name="Idle" ID="{01918E68-12E2-437F-A395-4294713382AF}"/>
 																<ItemList>
 																	<ItemRef Name="Idle" ID="{9F872C9D-B9C9-4D6A-9A82-5D937DA678FF}"/>
-																</ItemList>
-															</Grouping>
-															<Grouping>
-																<SwitchRef Name="Attack_02" ID="{0696777F-E7C6-4026-B6B4-ABCED8009654}"/>
-																<ItemList>
-																	<ItemRef Name="Attack_02" ID="{80BDFFAE-E5D1-40C1-87EC-D1DA7AF6A93B}"/>
 																</ItemList>
 															</Grouping>
 															<Grouping>
@@ -9606,6 +9521,123 @@
 																<SwitchRef Name="MoveForward" ID="{72477CFF-BC6E-418D-9BE6-C100A905113A}"/>
 																<ItemList>
 																	<ItemRef Name="MoveForward" ID="{3460B37D-02BE-43BF-A65D-74A823594602}"/>
+																</ItemList>
+															</Grouping>
+														</GroupingList>
+													</GroupingInfo>
+												</SwitchContainer>
+												<SwitchContainer Name="SkDistVoice_Switch" ID="{F8C915A2-8069-463F-A2C9-90A999CF3C38}" ShortID="883599845">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="DefaultSwitchOrState">
+															<ObjectRef Name="Idle_Walk" ID="{14062BC8-93CC-486B-9115-CA552ADFE65C}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="SwitchGroupOrStateGroup">
+															<ObjectRef Name="SkeletonsVoices_States" ID="{9BDAB86B-EC56-447E-AE75-E598A33146A5}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="TestSkeletonVoice_01" ID="{4C8F6B72-3023-45C4-8D7B-2C5594EC07CB}" ShortID="100090824">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="TestSkeletonVoice_01" ID="{6E0B37F2-E7C7-4DF2-AE08-8CA03BFEC50B}">
+																	<Language>SFX</Language>
+																	<AudioFile>TestSkeletonVoice_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="364397768"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="TestSkeletonVoice_01" ID="{6E0B37F2-E7C7-4DF2-AE08-8CA03BFEC50B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="TestSkeletonVoice_02" ID="{47679E1E-8302-4B9C-A8F8-56602A001984}" ShortID="517185151">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="TestSkeletonVoice_02" ID="{00FC5C2D-16C7-4ABE-ABE3-C2DED152B5B9}">
+																	<Language>SFX</Language>
+																	<AudioFile>TestSkeletonVoice_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="901550107"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="TestSkeletonVoice_02" ID="{00FC5C2D-16C7-4ABE-ABE3-C2DED152B5B9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="TestSkeletonVoice_04" ID="{115BE55C-D59B-461B-916A-8080A2DD6F1C}" ShortID="904053151">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="TestSkeletonVoice_04" ID="{8061FD9F-FB25-4D76-97E3-75A4407658DD}">
+																	<Language>SFX</Language>
+																	<AudioFile>TestSkeletonVoice_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="943816498"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="TestSkeletonVoice_04" ID="{8061FD9F-FB25-4D76-97E3-75A4407658DD}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<GroupingInfo>
+														<GroupingBehaviorList>
+															<GroupingBehavior>
+																<ItemRef Name="TestSkeletonVoice_02" ID="{47679E1E-8302-4B9C-A8F8-56602A001984}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="TestSkeletonVoice_04" ID="{115BE55C-D59B-461B-916A-8080A2DD6F1C}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="TestSkeletonVoice_01" ID="{4C8F6B72-3023-45C4-8D7B-2C5594EC07CB}"/>
+															</GroupingBehavior>
+														</GroupingBehaviorList>
+														<GroupingList>
+															<Grouping>
+																<SwitchRef Name="GetHit" ID="{0D0DCB2A-27BA-4B29-A49B-E1BBE25B2D62}"/>
+																<ItemList>
+																	<ItemRef Name="TestSkeletonVoice_02" ID="{47679E1E-8302-4B9C-A8F8-56602A001984}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="Death" ID="{19423F76-2BF3-4DE9-A70B-73713437BD7F}"/>
+																<ItemList>
+																	<ItemRef Name="TestSkeletonVoice_01" ID="{4C8F6B72-3023-45C4-8D7B-2C5594EC07CB}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="Attack" ID="{67A42A8A-DEE6-433D-A2E7-C5BDDA5A2187}"/>
+																<ItemList>
+																	<ItemRef Name="TestSkeletonVoice_04" ID="{115BE55C-D59B-461B-916A-8080A2DD6F1C}"/>
 																</ItemList>
 															</Grouping>
 														</GroupingList>
@@ -9656,6 +9688,52 @@
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Mob_OS_SkeletonCacAttack_01" ID="{810426A7-8D61-46E6-A2CB-C16682A55E34}" ShortID="789344520">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonCacAttack_01" ID="{FCE538CF-6983-427B-A4F7-F3D2190B1C6E}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonCacAttack_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="711495566"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonCacAttack_01" ID="{FCE538CF-6983-427B-A4F7-F3D2190B1C6E}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Mob_OS_SkeletonCacAttack_02" ID="{534F8B96-83B4-4D5C-A826-EC0FD7C5EB17}" ShortID="1037470322">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonCacAttack_02" ID="{2C73A165-9250-4957-9C48-BD93B01DA6D8}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonCacAttack_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="775682873"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonCacAttack_02" ID="{2C73A165-9250-4957-9C48-BD93B01DA6D8}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
 														</RandomSequenceContainer>
 														<RandomSequenceContainer Name="Attack_02" ID="{67D593EC-C026-45E8-9877-68D9AA7A46E3}" ShortID="306165656">
 															<ReferenceList>
@@ -9686,18 +9764,54 @@
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Mob_OS_SkeletonCacGetHit_01" ID="{DC78D342-F381-434D-A0B5-C5FD450C7288}" ShortID="9623314">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonCacGetHit_01" ID="{C675B55F-F0A8-4D09-9D23-9332235187A2}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonCacGetHit_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="256627092"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonCacGetHit_01" ID="{C675B55F-F0A8-4D09-9D23-9332235187A2}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Mob_OS_SkeletonCacGetHit_02" ID="{91C0E897-1A4A-497A-8A79-EE82E8D48AC6}" ShortID="271839106">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonCacGetHit_02" ID="{68FB26F1-9366-46ED-825C-846CB99D1A6D}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonCacGetHit_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1035464308"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonCacGetHit_02" ID="{68FB26F1-9366-46ED-825C-846CB99D1A6D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
 														</RandomSequenceContainer>
 														<RandomSequenceContainer Name="PlayerHit" ID="{00D8CE03-0D9F-4A04-9036-BC22523E4C47}" ShortID="593556075">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-														</RandomSequenceContainer>
-														<RandomSequenceContainer Name="Death" ID="{AF0FA58B-327A-43EF-8D60-683ED1485359}" ShortID="379617746">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -9716,7 +9830,134 @@
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Mob_OS_SkeletonCacFootstep_03" ID="{946025ED-0085-4502-87BF-71127BFF72C7}" ShortID="366030591">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonCacFootstep_03" ID="{78AA55C8-AFBE-4453-8822-ADAD7A7B2B2E}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonCacFootstep_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="338438380"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonCacFootstep_03" ID="{78AA55C8-AFBE-4453-8822-ADAD7A7B2B2E}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Mob_OS_SkeletonCacFootstep_01" ID="{A684BED0-6409-4351-957D-E42C80C56500}" ShortID="550386670">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonCacFootstep_01" ID="{ED20B8F5-9FFB-4194-8439-FBE8A6DF2658}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonCacFootstep_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="691242873"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonCacFootstep_01" ID="{ED20B8F5-9FFB-4194-8439-FBE8A6DF2658}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Mob_OS_SkeletonCacFootstep_02" ID="{452E20A1-4C9B-4EDC-ACE4-A207975DDE52}" ShortID="845960360">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonCacFootstep_02" ID="{9776CB8F-6AD7-4620-98B2-EF0C5824E96D}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonCacFootstep_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="600955430"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonCacFootstep_02" ID="{9776CB8F-6AD7-4620-98B2-EF0C5824E96D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Mob_OS_SkeletonCacFootstep_04" ID="{ACB99471-892A-42AF-8FF0-A62107D463B2}" ShortID="209473400">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonCacFootstep_04" ID="{87E8FE1A-8AA7-4C0F-879A-CE3F6155F29B}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonCacFootstep_04.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1058651910"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonCacFootstep_04" ID="{87E8FE1A-8AA7-4C0F-879A-CE3F6155F29B}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
 														</RandomSequenceContainer>
+														<Sound Name="Mob_OS_SkeletonCacDeath_01" ID="{5EC783DD-6D29-4381-BBA0-1498558C1649}" ShortID="127012684">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{FE191CA5-0894-41C9-A18F-EF99D9A91CAD}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="303"/>
+																					<Property Name="Min" Type="Real64" Value="-227"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Mob_OS_SkeletonCacDeath_01" ID="{02B5FA44-0CA4-4359-AF9B-44811C21DEEA}">
+																	<Language>SFX</Language>
+																	<AudioFile>Mob_OS_SkeletonCacDeath_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1068231058"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Mob_OS_SkeletonCacDeath_01" ID="{02B5FA44-0CA4-4359-AF9B-44811C21DEEA}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
 													<GroupingInfo>
 														<GroupingBehaviorList>
@@ -9733,7 +9974,7 @@
 																<ItemRef Name="Attack_01" ID="{7AA7A27C-3BE1-4815-A973-3CDB2A2357D9}"/>
 															</GroupingBehavior>
 															<GroupingBehavior>
-																<ItemRef Name="Death" ID="{AF0FA58B-327A-43EF-8D60-683ED1485359}"/>
+																<ItemRef Name="Mob_OS_SkeletonCacDeath_01" ID="{5EC783DD-6D29-4381-BBA0-1498558C1649}"/>
 															</GroupingBehavior>
 															<GroupingBehavior>
 																<ItemRef Name="Idle" ID="{FF63C5E3-CB3A-4185-80AC-0D0F6A83E996}"/>
@@ -9752,7 +9993,7 @@
 															<Grouping>
 																<SwitchRef Name="Death" ID="{DBDDDA37-0DA2-4A84-81FC-E3277CAEF706}"/>
 																<ItemList>
-																	<ItemRef Name="Death" ID="{AF0FA58B-327A-43EF-8D60-683ED1485359}"/>
+																	<ItemRef Name="Mob_OS_SkeletonCacDeath_01" ID="{5EC783DD-6D29-4381-BBA0-1498558C1649}"/>
 																</ItemList>
 															</Grouping>
 															<Grouping>
@@ -9783,6 +10024,148 @@
 																<SwitchRef Name="MoveForward" ID="{72477CFF-BC6E-418D-9BE6-C100A905113A}"/>
 																<ItemList>
 																	<ItemRef Name="MoveForward" ID="{BAD06503-E39D-4AD7-8DEC-46CF5CB08D91}"/>
+																</ItemList>
+															</Grouping>
+														</GroupingList>
+													</GroupingInfo>
+												</SwitchContainer>
+												<SwitchContainer Name="SkCacVoice_Switch" ID="{6CAA416B-B670-43EB-BB5B-D3FA6C18F719}" ShortID="600535604">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="DefaultSwitchOrState">
+															<ObjectRef Name="Idle_Walk" ID="{14062BC8-93CC-486B-9115-CA552ADFE65C}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="SwitchGroupOrStateGroup">
+															<ObjectRef Name="SkeletonsVoices_States" ID="{9BDAB86B-EC56-447E-AE75-E598A33146A5}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="TestSkeletonVoice_01" ID="{456DCB80-0E8F-47A8-8EFD-F57777B94065}" ShortID="44119134">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="TestSkeletonVoice_01" ID="{7B8522DF-96F7-4040-A269-83B137B05143}">
+																	<Language>SFX</Language>
+																	<AudioFile>TestSkeletonVoice_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="364397768"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="TestSkeletonVoice_01" ID="{7B8522DF-96F7-4040-A269-83B137B05143}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="TestSkeletonVoice_02" ID="{C75FBC6B-DC15-4827-BDFC-454E299FF03F}" ShortID="701427702">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="TestSkeletonVoice_02" ID="{79A35729-0F83-4215-9E89-0F848BA7A3E0}">
+																	<Language>SFX</Language>
+																	<AudioFile>TestSkeletonVoice_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="901550107"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="TestSkeletonVoice_02" ID="{79A35729-0F83-4215-9E89-0F848BA7A3E0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="TestSkeletonVoice_03" ID="{AC1906DE-F550-4E8F-B680-308551082F60}" ShortID="767018359">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="TestSkeletonVoice_03" ID="{54C04612-6FD3-4406-8BAD-8BF6D4542FAE}">
+																	<Language>SFX</Language>
+																	<AudioFile>TestSkeletonVoice_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="449605654"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="TestSkeletonVoice_03" ID="{54C04612-6FD3-4406-8BAD-8BF6D4542FAE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="TestSkeletonVoice_04" ID="{85ED309D-36A6-4BDD-AA94-3799625B795C}" ShortID="510791528">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="TestSkeletonVoice_04" ID="{07EBA896-150F-4E5E-A959-6B0D22D027E6}">
+																	<Language>SFX</Language>
+																	<AudioFile>TestSkeletonVoice_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="943816498"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="TestSkeletonVoice_04" ID="{07EBA896-150F-4E5E-A959-6B0D22D027E6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<GroupingInfo>
+														<GroupingBehaviorList>
+															<GroupingBehavior>
+																<ItemRef Name="TestSkeletonVoice_02" ID="{C75FBC6B-DC15-4827-BDFC-454E299FF03F}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="TestSkeletonVoice_01" ID="{456DCB80-0E8F-47A8-8EFD-F57777B94065}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="TestSkeletonVoice_04" ID="{85ED309D-36A6-4BDD-AA94-3799625B795C}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="TestSkeletonVoice_03" ID="{AC1906DE-F550-4E8F-B680-308551082F60}"/>
+															</GroupingBehavior>
+														</GroupingBehaviorList>
+														<GroupingList>
+															<Grouping>
+																<SwitchRef Name="GetHit" ID="{0D0DCB2A-27BA-4B29-A49B-E1BBE25B2D62}"/>
+																<ItemList>
+																	<ItemRef Name="TestSkeletonVoice_02" ID="{C75FBC6B-DC15-4827-BDFC-454E299FF03F}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="Death" ID="{19423F76-2BF3-4DE9-A70B-73713437BD7F}"/>
+																<ItemList>
+																	<ItemRef Name="TestSkeletonVoice_01" ID="{456DCB80-0E8F-47A8-8EFD-F57777B94065}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="Attack" ID="{67A42A8A-DEE6-433D-A2E7-C5BDDA5A2187}"/>
+																<ItemList>
+																	<ItemRef Name="TestSkeletonVoice_03" ID="{AC1906DE-F550-4E8F-B680-308551082F60}"/>
 																</ItemList>
 															</Grouping>
 														</GroupingList>
