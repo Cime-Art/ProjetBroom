@@ -363,6 +363,20 @@
 						</StateGroup>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Music" ID="{E27B5E44-30EC-4AF5-962C-3B20F0C1CB3D}" ShortID="104291780">
+					<ChildrenList>
+						<StateGroup Name="Player_State" ID="{3FF9E996-F192-4A6F-8022-DAB360D4DD64}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{ED3CB102-32F3-4ED3-A788-0C1278E25991}"/>
+								<State Name="Combat" ID="{AA86ACE6-11EF-4DD6-8631-9D60FBA16D6F}"/>
+								<State Name="Exploration" ID="{F4E8D336-C182-4523-A0EE-D4E297EBDD9E}"/>
+							</ChildrenList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

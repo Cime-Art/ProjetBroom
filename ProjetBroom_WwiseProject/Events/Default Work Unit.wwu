@@ -949,6 +949,43 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Event_Stop_Musique_Jail_Playlist" ID="{1641D33C-4BD8-4BC2-9B91-4CA0922B25FB}">
+							<ChildrenList>
+								<Action Name="" ID="{6C2C49AD-E9EF-4D6B-A7E5-4D729F833C95}" ShortID="576227862">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="8"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Musique Jail_Playlist" ID="{C382EAE6-D60D-4C2F-B31D-956E3027ACA1}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{22474311-77E0-4EF6-B7CD-CBFD8174E07A}" ShortID="201287909">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stop_Crash" ID="{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}" WorkUnitID="{22563B21-8DD4-4D99-8CA7-9928C730618D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Play_Musique_Jail_Playlist" ID="{D96F774E-2CD6-4C6A-B1F9-2E3943502D21}">
+							<ChildrenList>
+								<Action Name="" ID="{E1793302-3C6F-4FD2-BB7A-54B5B60A37E0}" ShortID="631585815">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Musique Jail_Playlist" ID="{C382EAE6-D60D-4C2F-B31D-956E3027ACA1}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="HUD_Bestiaire" ID="{A65AEFFB-17BE-4A48-8AEB-B255A4055161}" ShortID="208839244">
