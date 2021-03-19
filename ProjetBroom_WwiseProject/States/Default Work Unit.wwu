@@ -104,6 +104,15 @@
 										<State Name="PlayerHit" ID="{F53F7AEA-E95E-4F6E-BC3B-4A3F7D2B0528}"/>
 									</ChildrenList>
 								</StateGroup>
+								<StateGroup Name="SkeletonsVoices_States" ID="{9BDAB86B-EC56-447E-AE75-E598A33146A5}">
+									<ChildrenList>
+										<State Name="None" ID="{2998E685-3B52-4543-BD42-7096320FB856}"/>
+										<State Name="Idle_Walk" ID="{14062BC8-93CC-486B-9115-CA552ADFE65C}"/>
+										<State Name="Attack" ID="{67A42A8A-DEE6-433D-A2E7-C5BDDA5A2187}"/>
+										<State Name="GetHit" ID="{0D0DCB2A-27BA-4B29-A49B-E1BBE25B2D62}"/>
+										<State Name="Death" ID="{19423F76-2BF3-4DE9-A70B-73713437BD7F}"/>
+									</ChildrenList>
+								</StateGroup>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Alambic" ID="{8863D212-9448-4E9F-8EA8-1EFAE37CF593}" ShortID="1067554320">
