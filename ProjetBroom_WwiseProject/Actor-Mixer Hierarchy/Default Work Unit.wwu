@@ -5149,7 +5149,10 @@
 																				<ActiveSource Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{61A5BF32-CAFC-4010-9705-6D61B6035B70}" Platform="Linked"/>
 																			</ActiveSourceList>
 																		</Sound>
-																		<Sound Name="Amb_LP_BigAcidFlow_01_Anger_V1" ID="{40A4F3C7-A930-42F0-BDCE-37510FEE0379}" ShortID="872188533">
+																		<Sound Name="Amb_LP_BigAcidFlow_01_Anger_V1" ID="{AECD2159-23FC-4800-9EC2-6C5FB606582A}" ShortID="663783119">
+																			<PropertyList>
+																				<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -5159,7 +5162,14 @@
 																				</Reference>
 																			</ReferenceList>
 																			<ChildrenList>
-																				<AudioFileSource Name="Amb_LP_BigAcidFlow_01_Anger_V1" ID="{FA7DB52B-AE1A-4F74-A29C-9B462E3B67DD}">
+																				<AudioFileSource Name="Amb_LP_BigAcidFlow_01_Anger_V1" ID="{6962551D-7A40-49DC-97B2-72B752D8D876}">
+																					<PropertyList>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>10</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_LP_BigAcidFlow_01_Anger_V1.wav</AudioFile>
 																					<MediaIDList>
@@ -5168,7 +5178,7 @@
 																				</AudioFileSource>
 																			</ChildrenList>
 																			<ActiveSourceList>
-																				<ActiveSource Name="Amb_LP_BigAcidFlow_01_Anger_V1" ID="{FA7DB52B-AE1A-4F74-A29C-9B462E3B67DD}" Platform="Linked"/>
+																				<ActiveSource Name="Amb_LP_BigAcidFlow_01_Anger_V1" ID="{6962551D-7A40-49DC-97B2-72B752D8D876}" Platform="Linked"/>
 																			</ActiveSourceList>
 																		</Sound>
 																	</ChildrenList>
@@ -14082,6 +14092,10 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="Spell_LP_PoisonZoneLoop_01_Dambrosio_v1" ID="{19698BB8-489F-4E5B-A3A6-DDDFF417F958}">
+																			<PropertyList>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.450718930825818"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Spell_LP_PoisonZoneLoop_01_Dambrosio_v1.wav</AudioFile>
 																			<MediaIDList>
