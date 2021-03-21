@@ -4400,7 +4400,7 @@
 																		<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 																		<Property Name="UserAuxSendVolume1" Type="Real64">
 																			<ValueList>
-																				<Value>-5</Value>
+																				<Value>-2</Value>
 																			</ValueList>
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
@@ -4651,6 +4651,13 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="Amb_OS_AcidBurn_02_Dambrosio_V1" ID="{500F748B-C0D1-4C16-81DC-1C5935B877C9}" ShortID="911326579">
+																			<PropertyList>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-12</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -4764,19 +4771,19 @@
 																								<Value>-10</Value>
 																							</ValueList>
 																						</Property>
-																						<Property Name="ConeInnerAngle" Type="int32" Value="210"/>
+																						<Property Name="ConeInnerAngle" Type="int32" Value="95"/>
 																						<Property Name="ConeLowPassFilterValue" Type="int32">
 																							<ValueList>
 																								<Value>24</Value>
 																							</ValueList>
 																						</Property>
-																						<Property Name="ConeOuterAngle" Type="int32" Value="260"/>
+																						<Property Name="ConeOuterAngle" Type="int32" Value="185"/>
 																						<Property Name="ConeUse" Type="bool">
 																							<ValueList>
 																								<Value>True</Value>
 																							</ValueList>
 																						</Property>
-																						<Property Name="RadiusMax" Type="Real64" Value="2300"/>
+																						<Property Name="RadiusMax" Type="Real64" Value="3000"/>
 																					</PropertyList>
 																					<CurveUsageInfoList>
 																						<VolumeDryUsage>
@@ -4790,16 +4797,15 @@
 																											<XPos>0</XPos>
 																											<YPos>0</YPos>
 																											<Flags>5</Flags>
-																											<SegmentShape>Exp2</SegmentShape>
 																										</Point>
 																										<Point>
-																											<XPos>1214.89128</XPos>
-																											<YPos>-5.78646</YPos>
+																											<XPos>1979.62512</XPos>
+																											<YPos>-6.76343</YPos>
 																											<Flags>0</Flags>
-																											<SegmentShape>Log1</SegmentShape>
+																											<SegmentShape>Exp1</SegmentShape>
 																										</Point>
 																										<Point>
-																											<XPos>2300</XPos>
+																											<XPos>3000</XPos>
 																											<YPos>-200</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -4820,7 +4826,7 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>2300</XPos>
+																											<XPos>3000</XPos>
 																											<YPos>-200</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -4841,12 +4847,12 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>1365.625</XPos>
+																											<XPos>1781.25</XPos>
 																											<YPos>-7.62551</YPos>
 																											<Flags>0</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>2300</XPos>
+																											<XPos>3000</XPos>
 																											<YPos>-50</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -4855,7 +4861,7 @@
 																							</CurveUsageInfo>
 																						</VolumeWetUserUsage>
 																						<LowPassFilterUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 																								<Curve Name="LowPassFilter" ID="{8EA43D30-7E4A-42E3-B93F-A2D8C8F0B90C}">
 																									<PropertyList>
 																										<Property Name="Flags" Type="int32" Value="65537"/>
@@ -4868,8 +4874,8 @@
 																											<SegmentShape>Exp1</SegmentShape>
 																										</Point>
 																										<Point>
-																											<XPos>2300</XPos>
-																											<YPos>0</YPos>
+																											<XPos>3000</XPos>
+																											<YPos>37</YPos>
 																											<Flags>37</Flags>
 																										</Point>
 																									</PointList>
@@ -4889,7 +4895,7 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>2300</XPos>
+																											<XPos>3000</XPos>
 																											<YPos>100</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -4910,13 +4916,13 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>193.228833636364</XPos>
+																											<XPos>369.59247</XPos>
 																											<YPos>100</YPos>
 																											<Flags>0</Flags>
 																											<SegmentShape>Log2</SegmentShape>
 																										</Point>
 																										<Point>
-																											<XPos>2300</XPos>
+																											<XPos>3000</XPos>
 																											<YPos>6.07729</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -5064,6 +5070,150 @@
 																				<ActiveSource Name="Amb_LP_BigAcidFlow_01_Anger_V1" ID="{6962551D-7A40-49DC-97B2-72B752D8D876}" Platform="Linked"/>
 																			</ActiveSourceList>
 																		</Sound>
+																		<Sound Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{33594654-21E3-41D8-9789-E4D3FF3F22BB}" ShortID="16262303">
+																			<PropertyList>
+																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																				<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																				<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Attenuation">
+																					<Custom CreatedFrom="{A826D206-EFEA-48D9-8ED0-2D7679B0E33A}">
+																						<Attenuation Name="General_Distance (Custom)" ID="{171E62E7-6CF7-4709-AD95-2D47269175D1}" ShortID="244665450">
+																							<PropertyList>
+																								<Property Name="RadiusMax" Type="Real64" Value="2100"/>
+																							</PropertyList>
+																							<CurveUsageInfoList>
+																								<VolumeDryUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="VolumeDry" ID="{81288C41-3A32-4B3E-BBA8-26979E0FF2EF}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="3"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>0</YPos>
+																													<Flags>5</Flags>
+																													<SegmentShape>Exp2</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>1346.23824</XPos>
+																													<YPos>-3.80992</YPos>
+																													<Flags>0</Flags>
+																													<SegmentShape>Log2</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>2100</XPos>
+																													<YPos>-200</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</VolumeDryUsage>
+																								<VolumeWetGameUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																								</VolumeWetGameUsage>
+																								<VolumeWetUserUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																								</VolumeWetUserUsage>
+																								<LowPassFilterUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="LowPassFilter" ID="{B208E35C-2806-4F3E-8CC4-B18ACE0680FF}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="65537"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>0</YPos>
+																													<Flags>5</Flags>
+																													<SegmentShape>Log1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>2100</XPos>
+																													<YPos>50</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</LowPassFilterUsage>
+																								<HighPassFilterUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																										<Curve Name="HighPassFilter" ID="{C53C656E-E0DD-4EC7-86BA-A5BCBDFC1810}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="65537"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>0</YPos>
+																													<Flags>5</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>2100</XPos>
+																													<YPos>45</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</HighPassFilterUsage>
+																								<SpreadUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="Spread" ID="{796E6D79-1C18-4CAC-8871-18A82140255A}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="1"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>100</YPos>
+																													<Flags>5</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1774.13794</XPos>
+																													<YPos>100</YPos>
+																													<Flags>0</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>2100</XPos>
+																													<YPos>-0</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</SpreadUsage>
+																								<FocusUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																								</FocusUsage>
+																							</CurveUsageInfoList>
+																						</Attenuation>
+																					</Custom>
+																				</Reference>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{D6904EC2-3587-483B-9442-89318702FD91}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_LP_AcidFlow_01_Anger_V2.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="310006472"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{D6904EC2-3587-483B-9442-89318702FD91}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
 																	</ChildrenList>
 																</Folder>
 																<RandomSequenceContainer Name="Acid_Splash_RND" ID="{5F24A4E6-143A-4DA9-9AAF-0C5F6662A702}" ShortID="766976133">
@@ -5191,7 +5341,6 @@
 																<RandomSequenceContainer Name="Groaning_Prisoner_RND" ID="{B2C747C0-357B-4DE9-B7BB-444A7FB314EA}" ShortID="123988885">
 																	<PropertyList>
 																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 																		<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																		<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
@@ -5212,7 +5361,7 @@
 																		<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 																		<Property Name="UserAuxSendVolume0" Type="Real64">
 																			<ValueList>
-																				<Value>-1</Value>
+																				<Value>-11</Value>
 																			</ValueList>
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
@@ -5222,6 +5371,74 @@
 																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<Custom CreatedFrom="{A826D206-EFEA-48D9-8ED0-2D7679B0E33A}">
+																				<Attenuation Name="General_Distance (Custom)" ID="{A1CF876D-CD02-4CB7-8A00-C3A636C24E27}" ShortID="759907941">
+																					<PropertyList>
+																						<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+																					</PropertyList>
+																					<CurveUsageInfoList>
+																						<VolumeDryUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																								<Curve Name="VolumeDry" ID="{71AEB329-4B28-4C5C-B1D0-C19F3182B055}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="3"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>-6.26122</YPos>
+																											<Flags>5</Flags>
+																										</Point>
+																										<Point>
+																											<XPos>1000</XPos>
+																											<YPos>-8.10237</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</CurveUsageInfo>
+																						</VolumeDryUsage>
+																						<VolumeWetGameUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																						</VolumeWetGameUsage>
+																						<VolumeWetUserUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																						</VolumeWetUserUsage>
+																						<LowPassFilterUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																								<Curve Name="LowPassFilter" ID="{7B648CA9-012E-4244-8FFD-E926CB270121}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="65537"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>0</YPos>
+																											<Flags>5</Flags>
+																										</Point>
+																										<Point>
+																											<XPos>1000</XPos>
+																											<YPos>50</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</CurveUsageInfo>
+																						</LowPassFilterUsage>
+																						<HighPassFilterUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</HighPassFilterUsage>
+																						<SpreadUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</SpreadUsage>
+																						<FocusUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</FocusUsage>
+																					</CurveUsageInfoList>
+																				</Attenuation>
+																			</Custom>
+																		</Reference>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																		</Reference>
@@ -5562,7 +5779,7 @@
 																		<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 																		<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 																		<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-																		<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+																		<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="15">
 																			<ModifierList>
 																				<ModifierInfo>
 																					<Modifier Name="" ID="{181C6F7A-81A1-4806-A10A-28458FAE4FA5}">
@@ -5574,7 +5791,6 @@
 																				</ModifierInfo>
 																			</ModifierList>
 																		</Property>
-																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																		<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
@@ -5992,8 +6208,14 @@
 																	<PropertyList>
 																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+																		<Property Name="Lowpass" Type="int16">
+																			<ValueList>
+																				<Value>16</Value>
+																			</ValueList>
+																		</Property>
 																		<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																		<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 																		<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 																		<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 																		<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
@@ -6009,9 +6231,14 @@
 																				</ModifierInfo>
 																			</ModifierList>
 																		</Property>
+																		<Property Name="UserAuxSendVolume2" Type="Real64">
+																			<ValueList>
+																				<Value>-9</Value>
+																			</ValueList>
+																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-20</Value>
+																				<Value>-9</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -6019,9 +6246,6 @@
 																		<Reference Name="Attenuation">
 																			<Custom CreatedFrom="{A826D206-EFEA-48D9-8ED0-2D7679B0E33A}">
 																				<Attenuation Name="General_Distance (Custom)" ID="{970FECD1-FDB9-4A0B-AABF-35A39BEF2C0C}" ShortID="1034038869">
-																					<PropertyList>
-																						<Property Name="RadiusMax" Type="Real64" Value="800"/>
-																					</PropertyList>
 																					<CurveUsageInfoList>
 																						<VolumeDryUsage>
 																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -6032,12 +6256,12 @@
 																									<PointList>
 																										<Point>
 																											<XPos>0</XPos>
-																											<YPos>-6.06872</YPos>
+																											<YPos>-6.26176</YPos>
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>800</XPos>
-																											<YPos>-48</YPos>
+																											<XPos>100</XPos>
+																											<YPos>-17.6448</YPos>
 																											<Flags>37</Flags>
 																										</Point>
 																									</PointList>
@@ -6063,7 +6287,7 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>800</XPos>
+																											<XPos>100</XPos>
 																											<YPos>50</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -6096,18 +6320,34 @@
 																		<Reference Name="UserAuxSend1">
 																			<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																		</Reference>
+																		<Reference Name="UserAuxSend2">
+																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
 																		<Sound Name="Amb_OS_SmallAnimalRunAway _01" ID="{00D1AB38-CF04-4DBB-9B12-D90F253ECD67}" ShortID="771664010">
 																			<PropertyList>
 																				<Property Name="Lowpass" Type="int16">
 																					<ValueList>
-																						<Value>19</Value>
+																						<Value>31</Value>
 																					</ValueList>
+																				</Property>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{6EE026D1-AE30-43A3-87A2-FA58E72BE56E}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="100"/>
+																									<Property Name="Min" Type="Real64" Value="-100"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
 																				</Property>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-10</Value>
+																						<Value>-14</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
@@ -6141,9 +6381,22 @@
 																		</Sound>
 																		<Sound Name="Amb_OS_SmallAnimalRunAway _02" ID="{11C8F059-DCE0-487B-8AB7-0608F9E32B9F}" ShortID="99637309">
 																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{3533E4D3-F149-4014-BD3F-0DDCF645F78A}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="100"/>
+																									<Property Name="Min" Type="Real64" Value="-100"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-10</Value>
+																						<Value>-13</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
@@ -6180,6 +6433,19 @@
 																		</Sound>
 																		<Sound Name="Amb_OS_SmallAnimalRunAway _03" ID="{03F4744E-8DC6-44AF-B928-B9E001FC1F2A}" ShortID="108721734">
 																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{2B5903FE-4E00-4CDB-BD9E-C8FC687C437D}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="100"/>
+																									<Property Name="Min" Type="Real64" Value="-100"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
 																						<Value>-10</Value>
@@ -6596,6 +6862,17 @@
 																<RandomSequenceContainer Name="Stone_Fall_RND" ID="{438CF10A-94EB-416C-804A-432742B3D178}" ShortID="100316584">
 																	<PropertyList>
 																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+																		<Property Name="Lowpass" Type="int16">
+																			<ValueList>
+																				<Value>14</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																		<Property Name="Pitch" Type="int32">
+																			<ValueList>
+																				<Value>-380</Value>
+																			</ValueList>
+																		</Property>
 																		<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 																		<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 																		<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
@@ -6610,9 +6887,14 @@
 																				</ModifierInfo>
 																			</ModifierList>
 																		</Property>
+																		<Property Name="UserAuxSendVolume2" Type="Real64">
+																			<ValueList>
+																				<Value>-10</Value>
+																			</ValueList>
+																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-11</Value>
+																				<Value>-10</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -6628,6 +6910,9 @@
 																		</Reference>
 																		<Reference Name="UserAuxSend1">
 																			<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend2">
+																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
@@ -6908,9 +7193,14 @@
 																			</ModifierList>
 																		</Property>
 																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-																		<Property Name="UserAuxSendVolume0" Type="Real64">
+																		<Property Name="UserAuxSendVolume2" Type="Real64">
 																			<ValueList>
 																				<Value>7</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-10</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -6919,7 +7209,7 @@
 																			<Custom CreatedFrom="{A826D206-EFEA-48D9-8ED0-2D7679B0E33A}">
 																				<Attenuation Name="General_Distance (Custom)" ID="{2D9372AF-ED3F-4B68-9CDC-9388D224DD8D}" ShortID="591015202">
 																					<PropertyList>
-																						<Property Name="RadiusMax" Type="Real64" Value="500"/>
+																						<Property Name="RadiusMax" Type="Real64" Value="1200"/>
 																					</PropertyList>
 																					<CurveUsageInfoList>
 																						<VolumeDryUsage>
@@ -6935,7 +7225,7 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>500</XPos>
+																											<XPos>1200</XPos>
 																											<YPos>-200</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -6962,7 +7252,7 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>500</XPos>
+																											<XPos>1200</XPos>
 																											<YPos>50</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -6994,6 +7284,9 @@
 																		</Reference>
 																		<Reference Name="UserAuxSend1">
 																			<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend2">
+																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
@@ -7072,7 +7365,7 @@
 																		</Sound>
 																	</ChildrenList>
 																</RandomSequenceContainer>
-																<RandomSequenceContainer Name="Door_Slam_RND" ID="{2DBBACC3-EA9E-4041-B5BE-F7E39B9E78C0}" ShortID="924331090">
+																<RandomSequenceContainer Name="Door_Slam_RND_01" ID="{2DBBACC3-EA9E-4041-B5BE-F7E39B9E78C0}" ShortID="924331090">
 																	<PropertyList>
 																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
@@ -7094,16 +7387,15 @@
 																				</ModifierInfo>
 																			</ModifierList>
 																		</Property>
-																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																		<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 																		<Property Name="UserAuxSendVolume0" Type="Real64">
 																			<ValueList>
-																				<Value>6</Value>
+																				<Value>7</Value>
 																			</ValueList>
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-4</Value>
+																				<Value>-7</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -7112,7 +7404,7 @@
 																			<Custom CreatedFrom="{A826D206-EFEA-48D9-8ED0-2D7679B0E33A}">
 																				<Attenuation Name="General_Distance (Custom)" ID="{2D54C8D2-3D73-4363-87DA-B9417D79F22A}" ShortID="564555927">
 																					<PropertyList>
-																						<Property Name="RadiusMax" Type="Real64" Value="800"/>
+																						<Property Name="RadiusMax" Type="Real64" Value="1200"/>
 																					</PropertyList>
 																					<CurveUsageInfoList>
 																						<VolumeDryUsage>
@@ -7128,7 +7420,7 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>800</XPos>
+																											<XPos>1200</XPos>
 																											<YPos>-200</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -7155,7 +7447,7 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>800</XPos>
+																											<XPos>1200</XPos>
 																											<YPos>50</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -7366,7 +7658,7 @@
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-13</Value>
+																				<Value>-26</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -7548,42 +7840,6 @@
 																		</Sound>
 																	</ChildrenList>
 																</RandomSequenceContainer>
-																<Sound Name="Amb_LP_Generalambient_03_Anger_V1" ID="{97CE94F7-B051-42A7-B3D3-D7B87F8E3921}" ShortID="582380332">
-																	<PropertyList>
-																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																		<Property Name="Volume" Type="Real64">
-																			<ValueList>
-																				<Value>-10</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend0">
-																			<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend1">
-																			<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Amb_LP_Generalambient_03_Anger_V1" ID="{283EF41F-F65F-4965-9F1B-720DA71AC7A2}">
-																			<Language>SFX</Language>
-																			<AudioFile>Amb_LP_Generalambient_03_Anger_V1.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="630403641"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Amb_LP_Generalambient_03_Anger_V1" ID="{283EF41F-F65F-4965-9F1B-720DA71AC7A2}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
 																<RandomSequenceContainer Name="Metal_Crakles_RND" ID="{52E59D2E-0B14-4706-9D55-1F093364D2DB}" ShortID="256912421">
 																	<PropertyList>
 																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
@@ -7845,10 +8101,16 @@
 																	<PropertyList>
 																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 																		<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																		<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 																		<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+																		<Property Name="UserAuxSendVolume0" Type="Real64">
+																			<ValueList>
+																				<Value>-8</Value>
+																			</ValueList>
+																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-9</Value>
+																				<Value>-20</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -7858,6 +8120,9 @@
 																		</Reference>
 																		<Reference Name="OutputBus">
 																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
@@ -7904,7 +8169,7 @@
 																			<PropertyList>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-7</Value>
+																						<Value>-12</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
@@ -7943,7 +8208,7 @@
 																			<PropertyList>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-7</Value>
+																						<Value>-5</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
@@ -7977,9 +8242,14 @@
 																		</Sound>
 																		<Sound Name="Amb_OS_SpiderWalkCloser_02_Sabarros_v1" ID="{00E0E223-151E-4A44-8C03-5A21185270AD}" ShortID="676696904">
 																			<PropertyList>
+																				<Property Name="Lowpass" Type="int16">
+																					<ValueList>
+																						<Value>29</Value>
+																					</ValueList>
+																				</Property>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-7</Value>
+																						<Value>-9</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
@@ -8011,6 +8281,11 @@
 																		</Sound>
 																		<Sound Name="Amb_OS_SpiderWalkCloser_03_Sabarros_v1" ID="{A69C86BC-AC63-42D8-9267-FDB42320211C}" ShortID="758075235">
 																			<PropertyList>
+																				<Property Name="Lowpass" Type="int16">
+																					<ValueList>
+																						<Value>22</Value>
+																					</ValueList>
+																				</Property>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
 																						<Value>-7</Value>
@@ -8048,7 +8323,23 @@
 																<RandomSequenceContainer Name="Big_Squeaky_Chain_RND" ID="{FDC99201-2BD1-4030-90FD-1348F9B3ADEC}" ShortID="485729074">
 																	<PropertyList>
 																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+																		<Property Name="Lowpass" Type="int16">
+																			<ValueList>
+																				<Value>54</Value>
+																			</ValueList>
+																		</Property>
 																		<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																		<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																		<Property Name="UserAuxSendVolume0" Type="Real64">
+																			<ValueList>
+																				<Value>-2</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-9</Value>
+																			</ValueList>
+																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
@@ -8056,6 +8347,9 @@
 																		</Reference>
 																		<Reference Name="OutputBus">
 																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
@@ -8114,6 +8408,13 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_Big squeaky chain _03_Anger_V1" ID="{ECC9A01C-ED5D-4983-81A8-3084E1A4B929}">
+																					<PropertyList>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>-1.7</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_Big squeaky chain _03_Anger_V1.wav</AudioFile>
 																					<MediaIDList>
@@ -8136,6 +8437,13 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_Big squeaky chain _04_Anger_V1" ID="{92D58155-2FB5-45FA-954A-08B8A5421A71}">
+																					<PropertyList>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>-2.1</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_Big squeaky chain _04_Anger_V1.wav</AudioFile>
 																					<MediaIDList>
@@ -8260,6 +8568,258 @@
 																			</ChildrenList>
 																			<ActiveSourceList>
 																				<ActiveSource Name="Amb_OS_Detruction_stone_platform_no_atk_ v3-003" ID="{AB91EB5B-04AC-4C14-9C21-DD52DA6110C9}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
+																<RandomSequenceContainer Name="Door_Slam_RND_02" ID="{9B9F81BD-1DBC-44F7-B085-861AB57D26AA}" ShortID="307610779">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																		<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																		<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																		<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																		<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+																		<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{CC06624F-B4A4-466B-BB05-2DCBC03E0AD8}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="10"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+																		<Property Name="UserAuxSendVolume0" Type="Real64">
+																			<ValueList>
+																				<Value>-5</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-3</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<Custom CreatedFrom="{A826D206-EFEA-48D9-8ED0-2D7679B0E33A}">
+																				<Attenuation Name="General_Distance (Custom)" ID="{A143F9C4-E5A4-4891-ADD5-C1B9E82EB2A6}" ShortID="305835548">
+																					<PropertyList>
+																						<Property Name="RadiusMax" Type="Real64" Value="2000"/>
+																					</PropertyList>
+																					<CurveUsageInfoList>
+																						<VolumeDryUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																								<Curve Name="VolumeDry" ID="{7184A229-49A2-481F-A53C-9D5FFDDA4FD1}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="3"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>0</YPos>
+																											<Flags>5</Flags>
+																										</Point>
+																										<Point>
+																											<XPos>2000</XPos>
+																											<YPos>-200</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</CurveUsageInfo>
+																						</VolumeDryUsage>
+																						<VolumeWetGameUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																						</VolumeWetGameUsage>
+																						<VolumeWetUserUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																						</VolumeWetUserUsage>
+																						<LowPassFilterUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																								<Curve Name="LowPassFilter" ID="{15B71C91-641A-49DD-B026-9BB8138EF5B9}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="65537"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>0</YPos>
+																											<Flags>5</Flags>
+																										</Point>
+																										<Point>
+																											<XPos>2000</XPos>
+																											<YPos>50</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</CurveUsageInfo>
+																						</LowPassFilterUsage>
+																						<HighPassFilterUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</HighPassFilterUsage>
+																						<SpreadUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</SpreadUsage>
+																						<FocusUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</FocusUsage>
+																					</CurveUsageInfoList>
+																				</Attenuation>
+																			</Custom>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="Amb_OS_DoorSlam_05" ID="{C1E15009-59CA-4725-B774-586C4883498F}" ShortID="777047352">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_DoorSlam _05" ID="{9A1FB69E-FB2F-4F9F-B9F2-667FFDD42C44}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_DoorSlam _05.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="417621774"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_DoorSlam _05" ID="{9A1FB69E-FB2F-4F9F-B9F2-667FFDD42C44}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_DoorSlam_06" ID="{E7D014B1-C708-4215-A693-5C5E5B48C126}" ShortID="145275353">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_DoorSlam _06" ID="{3F23D642-41E8-4A62-BB31-947FD3CF3A38}">
+																					<PropertyList>
+																						<Property Name="LoopBegin" Type="Real64" Value="1.93962109375"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="1.93962109375"/>
+																					</PropertyList>
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_DoorSlam _06.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="511309158"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_DoorSlam _06" ID="{3F23D642-41E8-4A62-BB31-947FD3CF3A38}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_DoorSlam_01" ID="{B11AB47E-D439-47E1-8791-E09D70846291}" ShortID="1010261417">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_DoorSlam_01" ID="{24300260-28B9-4E20-A332-323B9A821615}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_DoorSlam_01.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="468649343"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_DoorSlam_01" ID="{24300260-28B9-4E20-A332-323B9A821615}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_DoorSlam_02" ID="{663FB9C8-415C-4A82-BF88-EF745BAABBC4}" ShortID="942177784">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_DoorSlam_02" ID="{A7808EE3-A961-44F4-98DC-68B8DABE7A45}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_DoorSlam_02.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="668551653"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_DoorSlam_02" ID="{A7808EE3-A961-44F4-98DC-68B8DABE7A45}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_DoorSlam_03" ID="{16D5B8A0-276D-48A6-9B44-7160F27E4AED}" ShortID="435269666">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_DoorSlam_03" ID="{2F090410-E813-4F29-86DC-F4949B03A59B}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_DoorSlam_03.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="811810964"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_DoorSlam_03" ID="{2F090410-E813-4F29-86DC-F4949B03A59B}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_DoorSlam_04" ID="{22E0310C-8C5C-457B-B23A-EA745A4E891B}" ShortID="878520782">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_DoorSlam_04" ID="{8E6693BE-8C5F-4FE8-9323-0520737DCF14}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_DoorSlam_04.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="809843274"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_DoorSlam_04" ID="{8E6693BE-8C5F-4FE8-9323-0520737DCF14}" Platform="Linked"/>
 																			</ActiveSourceList>
 																		</Sound>
 																	</ChildrenList>
@@ -8743,6 +9303,13 @@
 													</ChildrenList>
 												</Folder>
 												<SwitchContainer Name="General_Ambient_State" ID="{E98611D6-A510-43D1-AD7A-7017E869FDCF}" ShortID="629475324">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -8795,6 +9362,42 @@
 														</GroupingBehaviorList>
 													</GroupingInfo>
 												</SwitchContainer>
+												<Sound Name="Amb_LP_Generalambient_03_Anger_V1" ID="{97CE94F7-B051-42A7-B3D3-D7B87F8E3921}" ShortID="582380332">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_LP_Generalambient_03_Anger_V1" ID="{283EF41F-F65F-4965-9F1B-720DA71AC7A2}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_LP_Generalambient_03_Anger_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="630403641"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_LP_Generalambient_03_Anger_V1" ID="{283EF41F-F65F-4965-9F1B-720DA71AC7A2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</ActorMixer>
 									</ChildrenList>

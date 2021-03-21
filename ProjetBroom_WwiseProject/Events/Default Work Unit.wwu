@@ -343,7 +343,7 @@
 												<Action Name="" ID="{C51FC484-BA7E-4922-B8DA-41DF54421913}" ShortID="241711118">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{3CB08984-AF63-4EA1-873C-996A0CB8A527}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+															<ObjectRef Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{33594654-21E3-41D8-9789-E4D3FF3F22BB}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -460,12 +460,12 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Event_DoorSlam" ID="{69A2596B-4BAC-40BB-8129-7D6DE554BAB2}">
+										<Event Name="Event_DoorSlam_01" ID="{69A2596B-4BAC-40BB-8129-7D6DE554BAB2}">
 											<ChildrenList>
 												<Action Name="" ID="{1AD06DDA-C12D-4F63-9F99-73E5D393CD88}" ShortID="932263093">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Door_Slam_RND" ID="{2DBBACC3-EA9E-4041-B5BE-F7E39B9E78C0}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+															<ObjectRef Name="Door_Slam_RND_01" ID="{2DBBACC3-EA9E-4041-B5BE-F7E39B9E78C0}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -488,6 +488,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Big_Squeaky_Chain_RND" ID="{FDC99201-2BD1-4030-90FD-1348F9B3ADEC}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_DoorSlam_02" ID="{7B897238-2868-4ECA-A542-C1BCDDD16B35}">
+											<ChildrenList>
+												<Action Name="" ID="{7C8E73C1-E68B-400A-8965-4CDE9FEC5F7A}" ShortID="900387472">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Door_Slam_RND_02" ID="{9B9F81BD-1DBC-44F7-B085-861AB57D26AA}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
