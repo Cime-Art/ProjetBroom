@@ -26,56 +26,56 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Acid\\Event_AcidBurn",
       "GUID": "{D06702FF-8831-4F63-87EF-A17C25324091}",
       "DurationType": "OneShot",
-      "DurationMin": "1.143946",
-      "DurationMax": "4.542494",
+      "DurationMin": "1.100852",
+      "DurationMax": "3.344645",
       "ExcludedMemoryFiles": [
        {
         "Id": "47929116",
         "Language": "SFX",
         "ShortName": "Amb_OS_AcidBurn_02_Dambrosio_V1.wav",
-        "Path": "SFX\\Amb_OS_AcidBurn_02_Dambrosio_V1_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_AcidBurn_02_Dambrosio_V1_42E8C726.wem"
        },
        {
         "Id": "247299220",
         "Language": "SFX",
         "ShortName": "Amb_OS_AcidBurn_04_Dambrosio_V1.wav",
-        "Path": "SFX\\Amb_OS_AcidBurn_04_Dambrosio_V1_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_AcidBurn_04_Dambrosio_V1_754D249D.wem"
        },
        {
         "Id": "304693331",
         "Language": "SFX",
         "ShortName": "Amb_OS_AcidBurnShort_02_Dambrosio_V1.wav",
-        "Path": "SFX\\Amb_OS_AcidBurnShort_02_Dambrosio_V1_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_AcidBurnShort_02_Dambrosio_V1_14E240C6.wem"
        },
        {
         "Id": "322187271",
         "Language": "SFX",
         "ShortName": "Amb_OS_AcidBurnShort_03_Dambrosio_V1.wav",
-        "Path": "SFX\\Amb_OS_AcidBurnShort_03_Dambrosio_V1_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_AcidBurnShort_03_Dambrosio_V1_ED126F8C.wem"
        },
        {
         "Id": "466270226",
         "Language": "SFX",
         "ShortName": "Amb_OS_AcidBurn_03_Dambrosio_V1.wav",
-        "Path": "SFX\\Amb_OS_AcidBurn_03_Dambrosio_V1_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_AcidBurn_03_Dambrosio_V1_304D907D.wem"
        },
        {
         "Id": "593878152",
         "Language": "SFX",
         "ShortName": "Amb_OS_AcidBurnShort_01_Dambrosio_V1.wav",
-        "Path": "SFX\\Amb_OS_AcidBurnShort_01_Dambrosio_V1_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_AcidBurnShort_01_Dambrosio_V1_D3770B6D.wem"
        },
        {
         "Id": "645056266",
         "Language": "SFX",
         "ShortName": "Amb_OS_AcidBurn_01_Dambrosio_V1.wav",
-        "Path": "SFX\\Amb_OS_AcidBurn_01_Dambrosio_V1_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_AcidBurn_01_Dambrosio_V1_6B2DEAE9.wem"
        },
        {
         "Id": "1030970303",
         "Language": "SFX",
         "ShortName": "Amb_OS_AcidBurnShort_04_Dambrosio_V1.wav",
-        "Path": "SFX\\Amb_OS_AcidBurnShort_04_Dambrosio_V1_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_AcidBurnShort_04_Dambrosio_V1_CF8B85D8.wem"
        }
       ],
       "AuxBusSends": [

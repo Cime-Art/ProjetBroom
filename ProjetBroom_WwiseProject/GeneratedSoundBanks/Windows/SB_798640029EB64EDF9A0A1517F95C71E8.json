@@ -1,0 +1,76 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1542498109",
+    "GUID": "{5BF0A73D-A73D-173D-3D3D-3D3D3D3D3D3D}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_798640029EB64EDF9A0A1517F95C71E8",
+    "ShortName": "SB_798640029EB64EDF9A0A1517F95C71E8",
+    "Path": "SB_798640029EB64EDF9A0A1517F95C71E8.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1750570982",
+      "Name": "Event_BigSqueakyChain",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Metal\\Event_BigSqueakyChain",
+      "GUID": "{79864002-9EB6-4EDF-9A0A-1517F95C71E8}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.141896",
+      "DurationMax": "5.925833",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "23799443",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_Big squeaky chain _01_Anger_V1.wav",
+        "Path": "SFX\\Amb_OS_Big squeaky chain _01_Anger_V1_10C4C929.wem"
+       },
+       {
+        "Id": "52055649",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_Big squeaky chain _04_Anger_V1.wav",
+        "Path": "SFX\\Amb_OS_Big squeaky chain _04_Anger_V1_10C4C929.wem"
+       },
+       {
+        "Id": "303204092",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_Big squeaky chain _03_Anger_V1.wav",
+        "Path": "SFX\\Amb_OS_Big squeaky chain _03_Anger_V1_10C4C929.wem"
+       },
+       {
+        "Id": "495883059",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_Big squeaky chain _02_Anger_V1.wav",
+        "Path": "SFX\\Amb_OS_Big squeaky chain _02_Anger_V1_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

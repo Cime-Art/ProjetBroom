@@ -26,20 +26,20 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Animal\\Event_SmallAnimalRunInPipe",
       "GUID": "{336F1B0C-6E80-478F-B852-944C06B1D63A}",
       "DurationType": "OneShot",
-      "DurationMin": "4.740604",
-      "DurationMax": "4.740604",
+      "DurationMin": "4.049266",
+      "DurationMax": "4.419626",
       "ExcludedMemoryFiles": [
        {
         "Id": "93040921",
         "Language": "SFX",
         "ShortName": "Amb_OS_SmallAnimalRunInPipe _01_Anger_V2.wav",
-        "Path": "SFX\\Amb_OS_SmallAnimalRunInPipe _01_Anger_V2_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_SmallAnimalRunInPipe _01_Anger_V2_42DF27C0.wem"
        },
        {
         "Id": "549995496",
         "Language": "SFX",
         "ShortName": "Amb_OS_SmallAnimalRunInPipe _02_Anger_V2.wav",
-        "Path": "SFX\\Amb_OS_SmallAnimalRunInPipe _02_Anger_V2_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_SmallAnimalRunInPipe _02_Anger_V2_F0D7163E.wem"
        }
       ],
       "AuxBusSends": [

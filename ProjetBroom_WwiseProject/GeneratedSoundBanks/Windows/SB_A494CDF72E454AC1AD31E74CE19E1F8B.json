@@ -1,0 +1,58 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "371887933",
+    "GUID": "{162A8F3D-8F3D-1F3D-3D3D-3D3D3D3D3D3D}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_A494CDF72E454AC1AD31E74CE19E1F8B",
+    "ShortName": "SB_A494CDF72E454AC1AD31E74CE19E1F8B",
+    "Path": "SB_A494CDF72E454AC1AD31E74CE19E1F8B.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1741661780",
+      "Name": "Event_OutOfMana",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Spell\\Mana\\Event_OutOfMana",
+      "GUID": "{A494CDF7-2E45-4AC1-AD31-E74CE19E1F8B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.618729",
+      "DurationMax": "0.618729",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "31095074",
+        "Language": "SFX",
+        "ShortName": "UI_OS_OutOfMana_01_Anger_V2.wav",
+        "Path": "SFX\\UI_OS_OutOfMana_01_Anger_V2_9AC2AAD3.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
