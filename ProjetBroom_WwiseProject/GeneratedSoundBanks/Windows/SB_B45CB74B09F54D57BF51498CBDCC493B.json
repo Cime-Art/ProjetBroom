@@ -26,14 +26,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Event_StoneFall",
       "GUID": "{B45CB74B-09F5-4D57-BF51-498CBDCC493B}",
       "DurationType": "OneShot",
-      "DurationMin": "3.866125",
-      "DurationMax": "6.006292",
+      "DurationMin": "1.960387",
+      "DurationMax": "5.156917",
       "ExcludedMemoryFiles": [
        {
         "Id": "302866754",
         "Language": "SFX",
         "ShortName": "Amb_OS_StoneFall(Echo) _08_Anger_V2.wav",
-        "Path": "SFX\\Amb_OS_StoneFall(Echo) _08_Anger_V2_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _08_Anger_V2_2D7E2809.wem"
        },
        {
         "Id": "440670187",
@@ -45,25 +45,25 @@
         "Id": "625702286",
         "Language": "SFX",
         "ShortName": "Amb_OS_StoneFall(Echo) _02_Anger_V2.wav",
-        "Path": "SFX\\Amb_OS_StoneFall(Echo) _02_Anger_V2_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _02_Anger_V2_E937E228.wem"
        },
        {
         "Id": "680119979",
         "Language": "SFX",
         "ShortName": "Amb_OS_StoneFall(Echo) _07_Anger_V2.wav",
-        "Path": "SFX\\Amb_OS_StoneFall(Echo) _07_Anger_V2_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _07_Anger_V2_4271B736.wem"
        },
        {
         "Id": "753318711",
         "Language": "SFX",
         "ShortName": "Amb_OS_StoneFall(Echo) _01_Anger_V2.wav",
-        "Path": "SFX\\Amb_OS_StoneFall(Echo) _01_Anger_V2_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _01_Anger_V2_37E3882C.wem"
        },
        {
         "Id": "992567117",
         "Language": "SFX",
         "ShortName": "Amb_OS_StoneFall(Echo) _03_Anger_V2.wav",
-        "Path": "SFX\\Amb_OS_StoneFall(Echo) _03_Anger_V2_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _03_Anger_V2_6ADE0A81.wem"
        }
       ],
       "AuxBusSends": [

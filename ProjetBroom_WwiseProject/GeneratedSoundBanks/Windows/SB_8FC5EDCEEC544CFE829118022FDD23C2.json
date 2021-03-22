@@ -1,0 +1,57 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1908879748",
+    "GUID": "{71C73184-3184-1184-8484-848484848484}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_8FC5EDCEEC544CFE829118022FDD23C2",
+    "ShortName": "SB_8FC5EDCEEC544CFE829118022FDD23C2",
+    "Path": "SB_8FC5EDCEEC544CFE829118022FDD23C2.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2174616405",
+      "Name": "Event_FireEscpae",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Boiler\\Event_FireEscpae",
+      "GUID": "{8FC5EDCE-EC54-4CFE-8291-18022FDD23C2}",
+      "MaxAttenuation": "1500.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "97959033",
+        "Language": "SFX",
+        "ShortName": "Amb_LP_FireBoiler_01_THOMAS_v3.wav",
+        "Path": "SFX\\Amb_LP_FireBoiler_01_THOMAS_v3_D79FB2B7.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

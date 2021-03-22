@@ -1,0 +1,58 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3398137612",
+    "GUID": "{CA8B770C-770C-170C-0C0C-0C0C0C0C0C0C}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_E7869906A7F24EBEA8CBE85654DFB8C5",
+    "ShortName": "SB_E7869906A7F24EBEA8CBE85654DFB8C5",
+    "Path": "SB_E7869906A7F24EBEA8CBE85654DFB8C5.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "109596791",
+      "Name": "Event_BigAcidFlow",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Acid\\Event_BigAcidFlow",
+      "GUID": "{E7869906-A7F2-4EBE-A8CB-E85654DFB8C5}",
+      "DurationType": "OneShot",
+      "DurationMin": "30.000000",
+      "DurationMax": "30.000000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "509901309",
+        "Language": "SFX",
+        "ShortName": "Amb_LP_BigAcidFlow_01_Anger_V1.wav",
+        "Path": "SFX\\Amb_LP_BigAcidFlow_01_Anger_V1_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

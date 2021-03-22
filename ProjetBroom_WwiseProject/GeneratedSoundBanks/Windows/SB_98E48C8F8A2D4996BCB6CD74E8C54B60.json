@@ -1,0 +1,82 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4208133841",
+    "GUID": "{FAD306D1-06D1-16D1-D1D1-D1D1D1D1D1D1}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_98E48C8F8A2D4996BCB6CD74E8C54B60",
+    "ShortName": "SB_98E48C8F8A2D4996BCB6CD74E8C54B60",
+    "Path": "SB_98E48C8F8A2D4996BCB6CD74E8C54B60.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3101984078",
+      "Name": "Event_SpiderWalk",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Animal\\Event_SpiderWalk",
+      "GUID": "{98E48C8F-8A2D-4996-BCB6-CD74E8C54B60}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.119125",
+      "DurationMax": "4.857958",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "276765653",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_SpiderWalkCloser_03_Sabarros_v1.wav",
+        "Path": "SFX\\Amb_OS_SpiderWalkCloser_03_Sabarros_v1_E785F032.wem"
+       },
+       {
+        "Id": "356566792",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_SpiderWalkCloser_02_Sabarros_v1.wav",
+        "Path": "SFX\\Amb_OS_SpiderWalkCloser_02_Sabarros_v1_5F13A071.wem"
+       },
+       {
+        "Id": "569743463",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_SpiderSoundFarAway _03_Anger_V1.wav",
+        "Path": "SFX\\Amb_OS_SpiderSoundFarAway _03_Anger_V1_10C4C929.wem"
+       },
+       {
+        "Id": "661489012",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_SpiderSoundFarAway _02_Anger_V1.wav",
+        "Path": "SFX\\Amb_OS_SpiderSoundFarAway _02_Anger_V1_56253B89.wem"
+       },
+       {
+        "Id": "1064672966",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_SpiderSoundFarAway _01_Anger_V1.wav",
+        "Path": "SFX\\Amb_OS_SpiderSoundFarAway _01_Anger_V1_EB7AA995.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

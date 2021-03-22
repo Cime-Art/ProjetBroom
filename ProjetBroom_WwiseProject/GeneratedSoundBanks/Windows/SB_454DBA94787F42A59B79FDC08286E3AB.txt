@@ -1,22 +1,3 @@
 Event	ID	Name			Wwise Object Path	Notes
 	4272308500	Event_Wind			\Default Work Unit\Level\Tuto\Graden\Event_Wind	
 
-State Group	ID	Name			Wwise Object Path	Notes
-	1085924974	State_Gate			\Default Work Unit\Environement\State_Gate	
-
-State	ID	Name	State Group			Notes
-	645492555	Out	State_Gate			
-	748895195	None	State_Gate			
-	2112530240	In_Barn	State_Gate			
-	2771170873	In_Kitchen	State_Gate			
-
-Custom State	ID	Name	State Group	Owner		Notes
-	374302119	In_Kitchen	State_Gate	\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\General_Amb_Mix\Tuto\General_Tuto_Mix\Garden\AMB_Garden_Mix\Wind\Wind_Blend\Wind_variation		
-	656844707	In_Kitchen	State_Gate	\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\General_Amb_Mix\Tuto\General_Tuto_Mix\Garden\AMB_Garden_Mix\Wind\Wind_Blend\Wind_Low		
-	662878464	In_Barn	State_Gate	\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\General_Amb_Mix\Tuto\General_Tuto_Mix\Garden\AMB_Garden_Mix\Wind\Wind_Blend\Wind_Low		
-	719272581	In_Barn	State_Gate	\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\General_Amb_Mix\Tuto\General_Tuto_Mix\Garden\AMB_Garden_Mix\Wind\Wind_Blend\Wind_variation		
-
-Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	324716711	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\General_Amb_Mix\Tuto\General_Tuto_Mix\Garden\AMB_Garden_Mix\Wind\Wind_Blend\Wind_variation\SoundSeed Air Wind	
-	522069659	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\General_Amb_Mix\Tuto\General_Tuto_Mix\Garden\AMB_Garden_Mix\Wind\Wind_Blend\Wind_Low\SoundSeed Air Wind	
-

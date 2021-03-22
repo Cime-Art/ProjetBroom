@@ -26,14 +26,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Event_DropOfBlood",
       "GUID": "{C23957F2-6BF6-4C35-B8FE-EA5AF883B66C}",
       "DurationType": "OneShot",
-      "DurationMin": "0.891897",
-      "DurationMax": "1.889865",
+      "DurationMin": "0.222974",
+      "DurationMax": "0.472466",
       "ExcludedMemoryFiles": [
        {
         "Id": "51866659",
         "Language": "SFX",
         "ShortName": "Amb_OS_DropOfBlood _03_Anger_V2.wav",
-        "Path": "SFX\\Amb_OS_DropOfBlood _03_Anger_V2_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_DropOfBlood _03_Anger_V2_B19E2906.wem"
        }
       ],
       "AuxBusSends": [
