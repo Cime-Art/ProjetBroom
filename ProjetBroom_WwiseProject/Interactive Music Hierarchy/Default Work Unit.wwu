@@ -10,7 +10,7 @@
 								<Property Name="Tempo" Type="Real64" Value="130"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -887,6 +887,1369 @@
 								</MusicCue>
 							</CueList>
 						</MusicSegment>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Musique Jail" ID="{DEE39354-2405-4C77-9711-C7BC78DBE47C}" ShortID="194361765">
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Musique Jail_Playlist" ID="{C382EAE6-D60D-4C2F-B31D-956E3027ACA1}" ShortID="433152605">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+								<Property Name="Tempo" Type="Real64" Value="123"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Intro" ID="{61851EEE-0A96-4299-8565-3AA32B756F88}" ShortID="678516779">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="29268.3070626625"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Jail_Mus_Pizzicato1_123" ID="{005F354F-5CBC-4FB6-9733-59738A6414D6}" ShortID="354145574">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jail_Mus_Pizzicato1_123" ID="{44C70121-51B8-4516-822C-B9AA3434E023}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Pizzicato1_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="851017232"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C7706D9B-FDA8-4FEB-BCBA-2B78CBFABB2D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{4E42CA67-C3E9-44D8-93B4-76818289FEFF}">
+													<ClipList>
+														<MusicClip Name="Jail_Mus_Pizzicato1_123" ID="{59EE27D6-4002-4694-B68B-41AFFF152E01}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="15609.7732426304"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="5.6843418860808E-14"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Pizzicato1_123" ID="{44C70121-51B8-4516-822C-B9AA3434E023}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{39965893-5F66-45CF-B28A-CFB9DAB437A7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>15.60977</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{8F64A993-5E01-4F27-853F-6F24D56C8B18}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>15.60977</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{774BDB82-5B51-427C-9B89-B5CF306BBA23}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>15.60977</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Jail_Mus_Voice_123" ID="{DD384715-EE22-4C45-BE0D-E599768EE8C6}" ShortID="846250201">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jail_Mus_Voice_123" ID="{61E37C5D-5753-400B-B98A-688A1BA886C8}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Voice_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="870577169"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0B727B54-DBC0-4820-91E8-0B1B9B67B7FC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{E28F05BC-7891-4559-A17A-159C87821D81}">
+													<ClipList>
+														<MusicClip Name="Jail_Mus_Voice_123" ID="{B30D1118-0098-457B-9B68-C1BAF0049D05}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="3902.43902439024"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="23414.6485260771"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-3902.43902439024"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Voice_123" ID="{61E37C5D-5753-400B-B98A-688A1BA886C8}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{2C0FD75F-F493-4FED-93EE-76C42CECFEC5}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>3.90244</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>23.4146485260771</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{066F5AD8-3CBD-4305-A2FF-6454023AF82C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>3.90244</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>23.4146485260771</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{BD167556-2EE7-4AF1-8844-D5407CE09C6A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>3.90244</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>23.4146485260771</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{75545412-1C55-4E9A-9C15-ED9D76C0E72C}">
+											<PropertyList>
+												<Property Name="TimeMs" Type="Real64" Value="5.6843418860808E-14"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="Exit Cue" ID="{C46E7877-2073-4371-BBD2-D49F04C2BF9A}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="15609.7732426304"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Segment 1" ID="{C4419F8D-F1A8-4D14-AB57-B242DC9B0F36}" ShortID="79539956">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="51219.5265748576"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Jail_Mus_Pizzicato1_123" ID="{033A5BD5-9F63-4F20-B4C0-F8D2BE29AD35}" ShortID="881420255">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jail_Mus_Pizzicato1_123" ID="{6D8E6FE5-6377-4269-AD30-F7DA3DFE9D27}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Pizzicato1_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="851017232"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Jail_Mus_Pizzicato2_123" ID="{D380879C-DB1E-4DB4-ABB8-EC06B2B1C698}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Pizzicato2_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="121934503"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{EDC226EB-FB52-432E-94AA-9F31318EE627}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{B0F09187-CB90-4B17-B6ED-1DCB0010A1F6}">
+													<ClipList>
+														<MusicClip Name="Jail_Mus_Pizzicato1_123" ID="{FA18D7E4-1D91-4D9F-BB30-00904C9E5C44}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="15609.7732426304"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="3902.43902439024"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Pizzicato1_123" ID="{6D8E6FE5-6377-4269-AD30-F7DA3DFE9D27}"/>
+														</MusicClip>
+														<MusicClip Name="Jail_Mus_Pizzicato1_123" ID="{CABDDA73-6E8E-4691-9F8A-FD58F8BB7A76}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="15609.7732426304"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="19512.2122670206"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Pizzicato1_123" ID="{6D8E6FE5-6377-4269-AD30-F7DA3DFE9D27}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{0E830E33-B961-43EB-B508-E21EA1734BE2}">
+													<ClipList>
+														<MusicClip Name="Jail_Mus_Pizzicato2_123" ID="{C0EFAB91-C3DE-4AB9-8F78-BC8ABEA073F1}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="1876.97922889141"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="17486.7353264524"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="2025.45979549884"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Pizzicato2_123" ID="{D380879C-DB1E-4DB4-ABB8-EC06B2B1C698}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{D9A06B99-36CF-4DA5-B573-9E224B94CA05}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.87698</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>17.48674</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{9D8A0731-D877-4161-892E-EF185336C0A0}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.87698</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>17.48674</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{12B65528-2CD9-4FB5-B1B9-F2489A7E8C74}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.87698</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>17.48674</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Jail_Mus_Pizzicato2_123" ID="{F6FE972C-D431-4A4B-97BB-5F2A87A216C0}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="1876.97922889141"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="17486.7353264524"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="17635.2158930598"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Pizzicato2_123" ID="{D380879C-DB1E-4DB4-ABB8-EC06B2B1C698}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{F744B799-A066-46C9-9362-91AAF90A3749}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.87698</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>17.48674</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{8CB30137-15AF-4FC5-A26B-589DC41943F8}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.87698</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>17.48674</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{FEAB7EB1-0D55-4023-9873-22C9A0B42912}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.87698</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>17.48674</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Jail_Mus_Violon1_123" ID="{6AB73134-4079-4724-9FEF-0C0550C853F6}" ShortID="79993693">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jail_Mus_Violon1_123" ID="{B0DCBB01-FF0E-49B0-B06A-05B534312346}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Violon1_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="962046727"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Jail_Mus_Violon2_123" ID="{585B2A96-F9B2-475A-8BE1-9C524AA92216}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Violon2_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="210697804"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6247D366-B8C9-481C-A744-D9EC30C0E7C2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{EFE0BAC3-233B-4911-8A2B-F078110DFD9D}">
+													<ClipList>
+														<MusicClip Name="Jail_Mus_Violon1_123" ID="{BD75EAD8-34BE-48EC-9BC7-94C355E0F1F9}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="1951.21951219512"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="35121.9727891156"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="1204.44598257271"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Violon1_123" ID="{B0DCBB01-FF0E-49B0-B06A-05B534312346}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{0CF0A6E7-67E0-47EA-AC25-BE97E763479E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.95122</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>35.1219727891156</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{DF3984CF-3C60-4DDC-9170-7B16894564BB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.95122</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>35.1219727891156</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{A1A4D999-4B7E-40BC-AA11-9CB5135BD657}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.95122</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>35.1219727891156</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{499ED339-F50E-4BF1-A423-788C772F3E1F}">
+													<ClipList>
+														<MusicClip Name="Jail_Mus_Violon2_123" ID="{2E8F650E-2ED9-40B5-8C94-51E10A261512}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="33170.731707317"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2181.16618553989"/>
+																<Property Name="PlayAt" Type="Real64" Value="3902.43902439024"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Violon2_123" ID="{585B2A96-F9B2-475A-8BE1-9C524AA92216}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{51B6F4D7-28BD-43EA-B093-09856E1C25E9}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>33.17073</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{C9D563C2-C8F2-40D0-BD83-2DB14D4DDB98}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>33.17073</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{6BD163D6-CBBB-4067-A7CA-FA30BE4D6BD5}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>33.17073</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Jail_Mus_Voice2_123" ID="{0D3A4B44-06EB-46E3-B38E-FD545269E974}" ShortID="16872142">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jail_Mus_Voice2_123" ID="{4D8EF230-D8F1-416C-9FEF-6E0D2223F14D}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Voice2_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="526060657"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Jail_Mus_Voice_123" ID="{E8423E6B-7EC5-4587-89F5-A27679406662}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Voice_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="870577169"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0ED1B94A-B53D-4CA1-BE50-4A498CE2CE20}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{6776A815-B2AD-4A66-929C-9DC5DC77DAB9}">
+													<ClipList>
+														<MusicClip Name="Jail_Mus_Voice2_123" ID="{709D6171-995F-4577-90B1-AEFC605AD13B}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="17560.9756097561"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="1951.21951219512"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Voice2_123" ID="{4D8EF230-D8F1-416C-9FEF-6E0D2223F14D}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{4DD3D0BC-9B4A-459D-9932-57C7EE72EF2D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>17.56098</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{C981D700-5A4F-42F0-9C7F-65EDFE1B80A0}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>17.56098</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{769B3197-73DC-4787-8820-5735F3F64549}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>17.56098</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Jail_Mus_Voice2_123" ID="{7BBFB035-7BF0-45DE-8500-AC63ACD1FF75}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="1951.2195121951"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="17560.9756097561"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="17560.9756097561"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Voice2_123" ID="{4D8EF230-D8F1-416C-9FEF-6E0D2223F14D}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{FA3D9215-F545-44C4-AF8D-7AB2B580338C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.95122</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>17.56098</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{E62673B3-2740-49B8-BDA0-144186B94F0F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.95122</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>17.56098</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{2EDBC4BA-CDF4-44A2-A207-98C5DD0C2E17}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.95122</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>17.56098</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{5BF523AD-5103-4B6A-9A57-6851039FD59E}">
+													<ClipList>
+														<MusicClip Name="Jail_Mus_Voice_123" ID="{202404AC-73A4-4782-A39A-741988B68532}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="19512.1951219512"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="4.44089209850063E-13"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Voice_123" ID="{E8423E6B-7EC5-4587-89F5-A27679406662}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{69B916F6-00C7-44AA-9C85-6F40687B8747}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>19.5122</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{D4C382DF-1E48-4333-A470-EFC3BEF39CE7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>19.5122</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{0610F678-6B4B-4D16-87FD-47A9931787BA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>19.5122</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="Jail_Mus_Voice_123" ID="{6AA1866C-3A07-4BD4-8717-AB507CD688CC}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="3902.43902439024"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="19512.1951219512"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="15609.756097561"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Voice_123" ID="{E8423E6B-7EC5-4587-89F5-A27679406662}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{CAA1CF6D-1D61-43BE-9013-7AD07D981D54}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>3.90244</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>19.5122</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{0377EAD3-B7D7-4C4D-82F1-9042FDF8FFC7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>3.90244</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>19.5122</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{62D91D29-8A87-4884-A036-83FE5FA4750E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>3.90244</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>19.5122</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{0330EEEF-5DA7-41DC-973C-4F600BB52714}"/>
+												<MusicTrackSequence Name="" ID="{1C1BED77-0BE7-4105-A457-A55857F6E7AD}"/>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Jail_Mus_Harp1_123" ID="{912F2C9C-518B-4216-8299-4077CDC3950F}" ShortID="335756989">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jail_Mus_Harp1_123" ID="{70BEDBEC-03E5-4F4F-9E97-E345E98AD881}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Harp1_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="978039448"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Jail_Mus_Harp2_123" ID="{347BF7C1-F8E9-43E2-902A-ACA417074451}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Harp2_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="536040696"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Jail_Mus_Harp2_01" ID="{2404F0D8-FB63-448A-886A-0A8EC285644B}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Harp2_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="536040696"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DAA0CFD6-1133-4879-AA97-D82DB2069ADC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{E5D0AE41-42A8-4EBA-98FA-D92CB110E357}">
+													<ClipList>
+														<MusicClip Name="Jail_Mus_Harp1_123" ID="{2F0BE474-68D9-45E2-8462-FA6D537D8CF0}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="15609.7732426304"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="3902.43902439024"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Harp1_123" ID="{70BEDBEC-03E5-4F4F-9E97-E345E98AD881}"/>
+														</MusicClip>
+														<MusicClip Name="Jail_Mus_Harp1_123" ID="{E510562F-CE4C-469D-945B-660AF320069D}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="15609.7732426304"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="19512.2122670206"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Harp1_123" ID="{70BEDBEC-03E5-4F4F-9E97-E345E98AD881}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{14713FAC-46A6-4CE1-9129-BCC69DCF64F2}">
+													<ClipList>
+														<MusicClip Name="Jail_Mus_Harp2_123" ID="{B0D6218A-8D31-4921-BAB0-0B07B2EE7DFE}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="15609.7732426304"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="3902.43902439024"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Harp2_123" ID="{347BF7C1-F8E9-43E2-902A-ACA417074451}"/>
+														</MusicClip>
+														<MusicClip Name="Jail_Mus_Harp2_01" ID="{09EFF43D-136D-4433-B214-E5E5F1819C0E}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="15609.7732426304"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="19512.2122670206"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Harp2_01" ID="{2404F0D8-FB63-448A-886A-0A8EC285644B}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{8A03A4D4-3B50-4AAE-B40F-6B3308B538E8}"/>
+												<MusicTrackSequence Name="" ID="{EDD518B2-A27C-4A6B-8335-795767FA0DCF}"/>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Jail_Mus_Choir1_123" ID="{279E236E-9883-4DDC-8D57-0C29D00F56C4}" ShortID="991484027">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jail_Mus_Choir1_123" ID="{3FF7538A-0F98-43A5-B0A6-D6B48805E0DD}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Choir1_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="753394351"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Jail_Mus_Choir2_123" ID="{B7DCB74F-F512-4EA7-973F-6A6DDC6772A2}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Choir2_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="604014892"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4212A572-EF14-4006-959D-8064B182AA81}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{C543E169-364E-42E4-A826-2ECBB51A06A5}">
+													<ClipList>
+														<MusicClip Name="Jail_Mus_Choir1_123" ID="{548CDD27-DA3B-44E2-B15D-561CDAD52778}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="31219.5238095238"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="3902.43902439024"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Choir1_123" ID="{3FF7538A-0F98-43A5-B0A6-D6B48805E0DD}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{BE00CF43-C54E-4F56-9BCA-F5CFB69B9CFA}">
+													<ClipList>
+														<MusicClip Name="Jail_Mus_Choir2_123" ID="{535778E4-CCFC-4370-A187-CD82653F98F8}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="42926.8480725624"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="3902.43902439024"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Choir2_123" ID="{B7DCB74F-F512-4EA7-973F-6A6DDC6772A2}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{D604C2E7-9941-4779-98C0-3773BCFCBB21}"/>
+												<MusicTrackSequence Name="" ID="{09C16891-6E09-420B-8258-6F7E86F677C6}"/>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Jail_Mus_Flute_123" ID="{91A752BF-7AA0-4508-8E6C-078C01B85394}" ShortID="912620264">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jail_Mus_Flute_123" ID="{FB80E2A7-FD77-45B0-8EDC-30963064470E}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Flute_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="111799051"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2007C332-F510-4E98-B80B-6AC5EBF923AA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{31FEAA0C-A8C7-40DD-8858-8514E56CE994}">
+													<ClipList>
+														<MusicClip Name="Jail_Mus_Flute_123" ID="{4ABC6D41-F4DA-42A4-AFEC-40A45DBCD816}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="35121.9727891156"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="1951.21951219512"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Flute_123" ID="{FB80E2A7-FD77-45B0-8EDC-30963064470E}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{00661E1E-C23B-467C-853C-7929A56D4BD9}"/>
+												<MusicTrackSequence Name="" ID="{4CFEAF4B-B86F-4FA5-A54C-5C8B3AF3C2F6}"/>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Jail_Mus_Brass_123" ID="{0BADB0F1-CC17-413A-A2D9-450BFA5ABADD}" ShortID="814047515">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jail_Mus_Brass_123" ID="{820E5DF9-9ACA-4EC8-BAF7-3D1D47973FE4}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Brass_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="731376236"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6CED1457-E2CF-4EB5-A785-6FBF437BC4DD}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{189210FA-2C00-4A4E-8D93-9815FB9D8A49}">
+													<ClipList>
+														<MusicClip Name="Jail_Mus_Brass_123" ID="{32D0318E-58C2-4244-86F1-69153A39DB68}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="40975.6235827664"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="1951.21951219512"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Brass_123" ID="{820E5DF9-9ACA-4EC8-BAF7-3D1D47973FE4}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{60274E58-7181-4261-B5B9-41451B5801C0}"/>
+												<MusicTrackSequence Name="" ID="{18A3CBC1-20E5-4764-B94B-4FDFB98973C5}"/>
+												<MusicTrackSequence Name="" ID="{39D72A29-20E4-4D15-9B85-D776AF88B67D}"/>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Jail_Mus_Percu_123" ID="{4050EF63-CDD5-4312-8214-B598D1DD169F}" ShortID="404538225">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jail_Mus_Percu_123" ID="{8B561308-A7D9-4868-8F60-55EC49AC80F0}">
+													<Language>SFX</Language>
+													<AudioFile>Jail_Mus_Percu_123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="528401735"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="3">
+														<StateGroupRef Name="Player_State" ID="{3FF9E996-F192-4A6F-8022-DAB360D4DD64}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Exploration" ID="{F4E8D336-C182-4523-A0EE-D4E297EBDD9E}"/>
+														<CustomState Name="" ID="{F1CA3157-E0C2-42E0-B574-AC030C6B7B91}" ShortID="24648649">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Combat" ID="{AA86ACE6-11EF-4DD6-8631-9D60FBA16D6F}"/>
+														<CustomState Name="" ID="{97F3BD2F-6A90-4A59-93E9-A9C34B6E9E96}" ShortID="385283611"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4763C3DF-A5BA-49BC-AFBA-260409BFFFAE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{48E48872-4875-4B7D-9E03-9406777EBF91}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{AD019F70-701D-4E23-B66C-1891C211431C}">
+													<ClipList>
+														<MusicClip Name="Jail_Mus_Percu_123" ID="{952C98D4-40E0-41A7-A599-8D37530D8B88}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="40975.6235827664"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="1951.21951219512"/>
+															</PropertyList>
+															<AudioSourceRef Name="Jail_Mus_Percu_123" ID="{8B561308-A7D9-4868-8F60-55EC49AC80F0}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{F780DA6C-0815-4E1A-8057-4538DDE35ED2}">
+											<PropertyList>
+												<Property Name="TimeMs" Type="Real64" Value="3902.43902439024"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="Exit Cue" ID="{62B62C60-51DA-4C51-AD80-C0881EE1B800}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="35121.9512195122"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{FA458B6F-54C7-4585-9285-3B1463E9BF1A}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{68D90097-4B09-466D-8D41-80F2F93A9737}">
+											<TransitionInfo/>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{4DEC12BB-C60A-4653-97EA-E090405A3275}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Segment 1" ID="{C4419F8D-F1A8-4D14-AB57-B242DC9B0F36}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Intro" ID="{61851EEE-0A96-4299-8565-3AA32B756F88}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{405F124C-A903-44E0-A3E2-2918298D4460}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+															<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{9068D818-CD7E-4C39-A75D-ED25DCA383FD}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+															<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<StingerList>
+								<MusicStinger Name="" ID="{F557C241-1214-4955-AC0D-A86D4CF15942}">
+									<TriggerRef Name="Stop_Crash" ID="{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}" WorkUnitID="{22563B21-8DD4-4D99-8CA7-9928C730618D}"/>
+									<SegmentRef Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{01D1E0D9-8CF9-424A-86E9-9A0578AAE2FF}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+								</MusicStinger>
+							</StingerList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{29F75C2A-71DB-4912-84F3-CD7DA7AEECB0}" ShortID="355267454">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{19800142-098E-4142-995B-029444937734}" ShortID="656436353">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Intro" ID="{61851EEE-0A96-4299-8565-3AA32B756F88}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{4CD62099-695C-46A8-B9E2-8C57C82C315B}" ShortID="181388205">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{8C3DE075-ED73-4FA2-A2B1-B10F6C1BAF58}" ShortID="1021357384">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="Segment 1" ID="{C4419F8D-F1A8-4D14-AB57-B242DC9B0F36}"/>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

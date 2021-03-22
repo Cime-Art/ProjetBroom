@@ -104,6 +104,15 @@
 										<State Name="PlayerHit" ID="{F53F7AEA-E95E-4F6E-BC3B-4A3F7D2B0528}"/>
 									</ChildrenList>
 								</StateGroup>
+								<StateGroup Name="SkeletonsVoices_States" ID="{9BDAB86B-EC56-447E-AE75-E598A33146A5}">
+									<ChildrenList>
+										<State Name="None" ID="{2998E685-3B52-4543-BD42-7096320FB856}"/>
+										<State Name="Idle_Walk" ID="{14062BC8-93CC-486B-9115-CA552ADFE65C}"/>
+										<State Name="Attack" ID="{67A42A8A-DEE6-433D-A2E7-C5BDDA5A2187}"/>
+										<State Name="GetHit" ID="{0D0DCB2A-27BA-4B29-A49B-E1BBE25B2D62}"/>
+										<State Name="Death" ID="{19423F76-2BF3-4DE9-A70B-73713437BD7F}"/>
+									</ChildrenList>
+								</StateGroup>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Alambic" ID="{8863D212-9448-4E9F-8EA8-1EFAE37CF593}" ShortID="1067554320">
@@ -359,6 +368,20 @@
 								<State Name="None" ID="{6BE8E5B3-D636-4C4D-9972-3E8D865F5B65}"/>
 								<State Name="Horizontal_Attack" ID="{29119539-FA27-4A7E-9AC4-1E234705F8DA}"/>
 								<State Name="Vertical_Attack" ID="{A5508C83-70A7-41D9-A58C-963227B6004B}"/>
+							</ChildrenList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{E27B5E44-30EC-4AF5-962C-3B20F0C1CB3D}" ShortID="104291780">
+					<ChildrenList>
+						<StateGroup Name="Player_State" ID="{3FF9E996-F192-4A6F-8022-DAB360D4DD64}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{ED3CB102-32F3-4ED3-A788-0C1278E25991}"/>
+								<State Name="Combat" ID="{AA86ACE6-11EF-4DD6-8631-9D60FBA16D6F}"/>
+								<State Name="Exploration" ID="{F4E8D336-C182-4523-A0EE-D4E297EBDD9E}"/>
 							</ChildrenList>
 						</StateGroup>
 					</ChildrenList>
