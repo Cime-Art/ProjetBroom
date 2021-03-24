@@ -7,20 +7,9 @@
 					<ChildrenList>
 						<Folder Name="SkeletonDist" ID="{BEA383B6-764A-4770-97E7-57103A29B016}" ShortID="420956865">
 							<ChildrenList>
-								<Event Name="Event_SKd_Action" ID="{E91153CF-2E22-462B-9E8D-345F6AFD018B}">
+								<Event Name="Event_SKDist_Attack_LoadBow" ID="{37D17F8D-226F-4851-9B30-7DF26BB58E63}">
 									<ChildrenList>
-										<Action Name="" ID="{8AAEA6DA-7AEF-4108-8034-2EEA81D0C316}" ShortID="951870503">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="SkDist_Switch" ID="{8C9DCA22-ACA7-46E8-8D39-9E55B2957D17}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Event_SKd_ChargingShot" ID="{9107D795-ACDA-463B-81E9-180DE6AA1D02}">
-									<ChildrenList>
-										<Action Name="" ID="{A28C2DC7-73AD-4915-B65F-CF3F29622412}" ShortID="740918546">
+										<Action Name="" ID="{9C3C8E53-BF5C-4B81-9838-DEB8D23EC134}" ShortID="212862323">
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="ShotCharging" ID="{EFB3FA03-9F9F-4521-B78A-DF4FF86595F6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
@@ -29,9 +18,16 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Event_SKd_Shot" ID="{902913A6-8A5D-41D4-902A-B00CCA956DAB}">
+								<Event Name="Event_SKDist_Attack_Launch" ID="{1E64311C-F694-4C03-8DB9-5C0353F9DFDF}">
 									<ChildrenList>
-										<Action Name="" ID="{64A38D65-EAC3-4965-BEB8-EA353AEC03FA}" ShortID="121335007">
+										<Action Name="" ID="{20FFA90B-3B76-4CCF-9FAC-B05C4AC01427}" ShortID="968994733">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Mob_OS_SkeletonDistShot_01" ID="{933B2E18-060B-47EE-A714-FFF0C4EB6A75}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F017F9C4-8E2C-4C4C-A477-37B73EA7C7B8}" ShortID="1034168747">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
 											</PropertyList>
@@ -41,21 +37,36 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
-										<Action Name="" ID="{AC7E1B5A-5EEA-4230-9444-435FA473216C}" ShortID="1062717488">
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SkDist_Hit" ID="{30ECF606-86AA-4C16-B61B-812D2B2C8101}">
+									<ChildrenList>
+										<Action Name="" ID="{06325C99-445F-42D1-AE3A-531F35A05977}" ShortID="544652329">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Mob_OS_SkeletonDistShot_01" ID="{933B2E18-060B-47EE-A714-FFF0C4EB6A75}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="SKDist_GetHit_RND" ID="{D2582700-140D-4D2D-A4CA-3631643A91B3}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Event_SKd_Voices" ID="{E4AF498E-D23F-4D7D-B27C-DE06F48B36C4}">
+								<Event Name="Event_SkDist_Idle" ID="{25B7C5AE-533D-4A01-8B93-551220360F8F}">
 									<ChildrenList>
-										<Action Name="" ID="{E4B1C299-AD37-4499-A86D-D5AB88F08A94}" ShortID="1073674301">
+										<Action Name="" ID="{45EE2C64-D4AF-4982-A6FC-EA586DE2538C}" ShortID="195653538">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="SkDistVoice_Switch" ID="{F8C915A2-8069-463F-A2C9-90A999CF3C38}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="SkDist_Idle_SEQ" ID="{DC90AB3B-72F1-4D8C-BEFB-5D3CB6ADA0AA}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_MoveForward" ID="{B0CDBA14-B52B-4BD3-9D4F-A8E5B87FE199}">
+									<ChildrenList>
+										<Action Name="" ID="{7EB92581-5932-4FEC-93B2-A39E573A820E}" ShortID="1063197235">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MoveForward" ID="{3460B37D-02BE-43BF-A65D-74A823594602}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
