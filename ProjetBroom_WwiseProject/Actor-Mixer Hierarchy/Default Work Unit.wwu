@@ -9633,7 +9633,6 @@
 										<ActorMixer Name="SkDist_Mixer" ID="{4B9AE236-64B0-4C65-982D-F11B5BB6370F}" ShortID="230097302">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -9650,6 +9649,13 @@
 												<RandomSequenceContainer Name="PlayerHit" ID="{1546C391-04D4-4EE9-8D60-10B17BC510D9}" ShortID="473188722">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{8AD15387-1903-4E12-81E3-0EDBEA222DEA}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
 														<Property Name="UserAuxSendVolume0" Type="Real64">
 															<ValueList>
 																<Value>-8</Value>
@@ -9709,6 +9715,13 @@
 																					<Property Name="Min" Type="Real64" Value="-303"/>
 																				</PropertyList>
 																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{84C86612-D134-49F0-A406-669A1B50434E}"/>
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
@@ -9793,6 +9806,7 @@
 													<ChildrenList>
 														<RandomSequenceContainer Name="SkDist_Idle_SEQ" ID="{DC90AB3B-72F1-4D8C-BEFB-5D3CB6ADA0AA}" ShortID="766038027">
 															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 																<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 																<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
@@ -9803,19 +9817,20 @@
 																	</ValueList>
 																</Property>
 																<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+																<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																<Property Name="OverridePriority" Type="bool" Value="True"/>
 																<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="6">
 																	<ModifierList>
 																		<ModifierInfo>
 																			<Modifier Name="" ID="{5BE5D8AA-B20E-4224-9242-82ABD6ECFC58}">
 																				<PropertyList>
 																					<Property Name="Enabled" Type="bool" Value="True"/>
-																					<Property Name="Max" Type="Real64" Value="1"/>
-																					<Property Name="Min" Type="Real64" Value="-1"/>
+																					<Property Name="Max" Type="Real64" Value="3"/>
+																					<Property Name="Min" Type="Real64" Value="-3"/>
 																				</PropertyList>
 																			</Modifier>
 																		</ModifierInfo>
@@ -9836,6 +9851,76 @@
 																</Property>
 															</PropertyList>
 															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<Custom CreatedFrom="{6933FD4D-AC59-4865-9000-C18AFCA1D526}">
+																		<Attenuation Name="SKDist_Att (Custom)" ID="{874B6170-D960-43B0-A2FF-EDE304676B76}" ShortID="822258699">
+																			<PropertyList>
+																				<Property Name="RadiusMax" Type="Real64" Value="1500"/>
+																			</PropertyList>
+																			<CurveUsageInfoList>
+																				<VolumeDryUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																						<Curve Name="VolumeDry" ID="{CB00C13A-35F9-42FC-869F-E5AAF868C29A}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="3"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>0</YPos>
+																									<Flags>5</Flags>
+																									<SegmentShape>Exp1</SegmentShape>
+																								</Point>
+																								<Point>
+																									<XPos>1500</XPos>
+																									<YPos>-200</YPos>
+																									<Flags>37</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</CurveUsageInfo>
+																				</VolumeDryUsage>
+																				<VolumeWetGameUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																				</VolumeWetGameUsage>
+																				<VolumeWetUserUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																				</VolumeWetUserUsage>
+																				<LowPassFilterUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</LowPassFilterUsage>
+																				<HighPassFilterUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</HighPassFilterUsage>
+																				<SpreadUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																						<Curve Name="Spread" ID="{98A7CCAF-B49B-4082-9B0C-BA811AC0676D}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="1"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>70</YPos>
+																									<Flags>5</Flags>
+																									<SegmentShape>Log1</SegmentShape>
+																								</Point>
+																								<Point>
+																									<XPos>1500</XPos>
+																									<YPos>10</YPos>
+																									<Flags>37</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</CurveUsageInfo>
+																				</SpreadUsage>
+																				<FocusUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</FocusUsage>
+																			</CurveUsageInfoList>
+																		</Attenuation>
+																	</Custom>
+																</Reference>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																</Reference>
@@ -9851,6 +9936,13 @@
 																			<ModifierList>
 																				<ModifierInfo>
 																					<Modifier Name="" ID="{C982DFBE-2B66-4012-90D5-806A85B4D54D}"/>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{E21AD825-07A7-4FAC-814C-B03E8F83A32A}"/>
 																				</ModifierInfo>
 																			</ModifierList>
 																		</Property>
@@ -10012,7 +10104,81 @@
 													</ChildrenList>
 												</ActorMixer>
 												<ActorMixer Name="SkDist_Footsteps" ID="{D9D35066-5471-4FA4-982F-3DFED67D5CDD}" ShortID="621939124">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<Custom CreatedFrom="{6933FD4D-AC59-4865-9000-C18AFCA1D526}">
+																<Attenuation Name="SKDist_Att (Custom)" ID="{1B12BAF4-D827-478C-A947-FF92CFC664DE}" ShortID="491668500">
+																	<PropertyList>
+																		<Property Name="RadiusMax" Type="Real64" Value="700"/>
+																	</PropertyList>
+																	<CurveUsageInfoList>
+																		<VolumeDryUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="VolumeDry" ID="{0A616D7C-25A3-4100-BF08-ACCFB91940B2}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="3"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>0</YPos>
+																							<Flags>5</Flags>
+																							<SegmentShape>Exp1</SegmentShape>
+																						</Point>
+																						<Point>
+																							<XPos>700</XPos>
+																							<YPos>-200</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</VolumeDryUsage>
+																		<VolumeWetGameUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																		</VolumeWetGameUsage>
+																		<VolumeWetUserUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																		</VolumeWetUserUsage>
+																		<LowPassFilterUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																		</LowPassFilterUsage>
+																		<HighPassFilterUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																		</HighPassFilterUsage>
+																		<SpreadUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="Spread" ID="{67A6353E-40AE-4AA2-B077-A25007F0475A}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="1"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>70</YPos>
+																							<Flags>5</Flags>
+																							<SegmentShape>Log1</SegmentShape>
+																						</Point>
+																						<Point>
+																							<XPos>700</XPos>
+																							<YPos>10</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</SpreadUsage>
+																		<FocusUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																		</FocusUsage>
+																	</CurveUsageInfoList>
+																</Attenuation>
+															</Custom>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 														</Reference>
@@ -10042,6 +10208,13 @@
 																					<Property Name="Max" Type="Real64" Value="657"/>
 																				</PropertyList>
 																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{68DAFD17-11EB-4831-B39A-9E4FD155260C}"/>
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
@@ -10170,7 +10343,81 @@
 													</ChildrenList>
 												</ActorMixer>
 												<ActorMixer Name="Attack Bow" ID="{04FC1DDD-93C3-438C-A567-3297E6565B9D}" ShortID="162009797">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<Custom CreatedFrom="{6933FD4D-AC59-4865-9000-C18AFCA1D526}">
+																<Attenuation Name="SKDist_Att (Custom)" ID="{7DAE7C47-BFBF-4257-8970-1A53A62D67A2}" ShortID="948209921">
+																	<PropertyList>
+																		<Property Name="RadiusMax" Type="Real64" Value="1500"/>
+																	</PropertyList>
+																	<CurveUsageInfoList>
+																		<VolumeDryUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="VolumeDry" ID="{F9E69662-6046-4092-AC5A-803C8E6A1AE3}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="3"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>0</YPos>
+																							<Flags>5</Flags>
+																							<SegmentShape>Exp1</SegmentShape>
+																						</Point>
+																						<Point>
+																							<XPos>1500</XPos>
+																							<YPos>-200</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</VolumeDryUsage>
+																		<VolumeWetGameUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																		</VolumeWetGameUsage>
+																		<VolumeWetUserUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																		</VolumeWetUserUsage>
+																		<LowPassFilterUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																		</LowPassFilterUsage>
+																		<HighPassFilterUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																		</HighPassFilterUsage>
+																		<SpreadUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="Spread" ID="{332B1FA6-B97F-4AA8-B494-B1C221E86D17}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="1"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>70</YPos>
+																							<Flags>5</Flags>
+																							<SegmentShape>Log1</SegmentShape>
+																						</Point>
+																						<Point>
+																							<XPos>1500</XPos>
+																							<YPos>10</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</SpreadUsage>
+																		<FocusUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																		</FocusUsage>
+																	</CurveUsageInfoList>
+																</Attenuation>
+															</Custom>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 														</Reference>
@@ -10188,6 +10435,13 @@
 																	<ValueList>
 																		<Value>4</Value>
 																	</ValueList>
+																</Property>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{FF37A9CF-2A1F-4D9F-8D2A-465B5965E42F}"/>
+																		</ModifierInfo>
+																	</ModifierList>
 																</Property>
 																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																<Property Name="RandomOrSequence" Type="int16" Value="0"/>
