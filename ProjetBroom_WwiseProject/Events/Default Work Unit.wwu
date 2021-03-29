@@ -72,6 +72,20 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Event_stop" ID="{9A320865-BED2-4D1F-85C7-274764D7F61A}">
+									<ChildrenList>
+										<Action Name="" ID="{DD97D164-3A7C-4A3F-9040-012169629BC3}" ShortID="1073183">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Idle" ID="{7F69FBBA-F21E-462C-81DE-F73865DD8F3D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="SkeletonCac" ID="{7AB3C91B-BB02-4147-86AF-73CCCF7D246E}" ShortID="757083389">
