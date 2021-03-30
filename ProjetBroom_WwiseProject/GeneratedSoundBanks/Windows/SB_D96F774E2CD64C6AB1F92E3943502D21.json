@@ -1,0 +1,136 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "187337302",
+    "GUID": "{0B2A8A56-8A56-1A56-5656-565656565656}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_D96F774E2CD64C6AB1F92E3943502D21",
+    "ShortName": "SB_D96F774E2CD64C6AB1F92E3943502D21",
+    "Path": "SB_D96F774E2CD64C6AB1F92E3943502D21.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3506253012",
+      "Name": "Event_Play_Musique_Jail_Playlist",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Event_Play_Musique_Jail_Playlist",
+      "GUID": "{D96F774E-2CD6-4C6A-B1F9-2E3943502D21}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "111799051",
+        "Language": "SFX",
+        "ShortName": "Jail_Mus_Flute_123.wav",
+        "Path": "SFX\\Jail_Mus_Flute_123_70232134.wem"
+       },
+       {
+        "Id": "121934503",
+        "Language": "SFX",
+        "ShortName": "Jail_Mus_Pizzicato2_123.wav",
+        "Path": "SFX\\Jail_Mus_Pizzicato2_123_70232134.wem"
+       },
+       {
+        "Id": "210697804",
+        "Language": "SFX",
+        "ShortName": "Jail_Mus_Violon2_123.wav",
+        "Path": "SFX\\Jail_Mus_Violon2_123_70232134.wem"
+       },
+       {
+        "Id": "487484988",
+        "Language": "SFX",
+        "ShortName": "MUS_OS_CrashEventStop_01_Dambrosio_V1.wav",
+        "Path": "SFX\\MUS_OS_CrashEventStop_01_Dambrosio_V1_70232134.wem"
+       },
+       {
+        "Id": "526060657",
+        "Language": "SFX",
+        "ShortName": "Jail_Mus_Voice2_123.wav",
+        "Path": "SFX\\Jail_Mus_Voice2_123_70232134.wem"
+       },
+       {
+        "Id": "528401735",
+        "Language": "SFX",
+        "ShortName": "Jail_Mus_Percu_123.wav",
+        "Path": "SFX\\Jail_Mus_Percu_123_70232134.wem"
+       },
+       {
+        "Id": "536040696",
+        "Language": "SFX",
+        "ShortName": "Jail_Mus_Harp2_123.wav",
+        "Path": "SFX\\Jail_Mus_Harp2_123_70232134.wem"
+       },
+       {
+        "Id": "604014892",
+        "Language": "SFX",
+        "ShortName": "Jail_Mus_Choir2_123.wav",
+        "Path": "SFX\\Jail_Mus_Choir2_123_70232134.wem"
+       },
+       {
+        "Id": "731376236",
+        "Language": "SFX",
+        "ShortName": "Jail_Mus_Brass_123.wav",
+        "Path": "SFX\\Jail_Mus_Brass_123_70232134.wem"
+       },
+       {
+        "Id": "753394351",
+        "Language": "SFX",
+        "ShortName": "Jail_Mus_Choir1_123.wav",
+        "Path": "SFX\\Jail_Mus_Choir1_123_70232134.wem"
+       },
+       {
+        "Id": "851017232",
+        "Language": "SFX",
+        "ShortName": "Jail_Mus_Pizzicato1_123.wav",
+        "Path": "SFX\\Jail_Mus_Pizzicato1_123_70232134.wem"
+       },
+       {
+        "Id": "870577169",
+        "Language": "SFX",
+        "ShortName": "Jail_Mus_Voice_123.wav",
+        "Path": "SFX\\Jail_Mus_Voice_123_70232134.wem"
+       },
+       {
+        "Id": "962046727",
+        "Language": "SFX",
+        "ShortName": "Jail_Mus_Violon1_123.wav",
+        "Path": "SFX\\Jail_Mus_Violon1_123_70232134.wem"
+       },
+       {
+        "Id": "978039448",
+        "Language": "SFX",
+        "ShortName": "Jail_Mus_Harp1_123.wav",
+        "Path": "SFX\\Jail_Mus_Harp1_123_70232134.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2957976456",
+        "Name": "RVB_crash_stop",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music\\RVB_crash_stop",
+        "GUID": "{378C0390-8212-4574-A063-4C60DB877840}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "4003433129",
+      "Name": "Stop_Crash",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\Stop_Crash",
+      "GUID": "{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}"
+     }
+    ]
+   }
+  ]
+ }
+}

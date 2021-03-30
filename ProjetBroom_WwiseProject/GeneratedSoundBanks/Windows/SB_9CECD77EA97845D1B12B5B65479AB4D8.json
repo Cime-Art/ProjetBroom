@@ -25,14 +25,14 @@
       "Name": "Event_AcidCascad",
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Acid\\Event_AcidCascad",
       "GUID": "{9CECD77E-A978-45D1-B12B-5B65479AB4D8}",
-      "MaxAttenuation": "2300.000000",
+      "MaxAttenuation": "3000.000000",
       "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {
         "Id": "130340080",
         "Language": "SFX",
         "ShortName": "Amb_LP_Acid Cascad_01 _Anger_V3.wav",
-        "Path": "SFX\\Amb_LP_Acid Cascad_01 _Anger_V3_D79FB2B7.wem"
+        "Path": "SFX\\Amb_LP_Acid Cascad_01 _Anger_V3_70232134.wem"
        }
       ],
       "AuxBusSends": [

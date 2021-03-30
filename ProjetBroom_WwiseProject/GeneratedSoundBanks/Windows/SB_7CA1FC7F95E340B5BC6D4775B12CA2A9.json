@@ -25,31 +25,37 @@
       "Name": "Event_SmallAnimalRunAway",
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Animal\\Event_SmallAnimalRunAway",
       "GUID": "{7CA1FC7F-95E3-40B5-BC6D-4775B12CA2A9}",
-      "MaxAttenuation": "800.000000",
+      "MaxAttenuation": "100.000000",
       "DurationType": "OneShot",
-      "DurationMin": "0.912204",
-      "DurationMax": "1.291021",
+      "DurationMin": "0.861006",
+      "DurationMax": "1.367789",
       "ExcludedMemoryFiles": [
        {
         "Id": "270351147",
         "Language": "SFX",
         "ShortName": "Amb_OS_SmallAnimalRunAway _02.wav",
-        "Path": "SFX\\Amb_OS_SmallAnimalRunAway _02_C7BFF528.wem"
+        "Path": "SFX\\Amb_OS_SmallAnimalRunAway _02_F52E694F.wem"
        },
        {
         "Id": "321878523",
         "Language": "SFX",
         "ShortName": "Amb_OS_SmallAnimalRunAway _03.wav",
-        "Path": "SFX\\Amb_OS_SmallAnimalRunAway _03_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_SmallAnimalRunAway _03_4A67AB6A.wem"
        },
        {
         "Id": "848181594",
         "Language": "SFX",
         "ShortName": "Amb_OS_SmallAnimalRunAway _01.wav",
-        "Path": "SFX\\Amb_OS_SmallAnimalRunAway _01_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_SmallAnimalRunAway _01_4A67AB6A.wem"
        }
       ],
       "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       },
        {
         "Id": "3639771593",
         "Name": "Aux_Reverb_Out",

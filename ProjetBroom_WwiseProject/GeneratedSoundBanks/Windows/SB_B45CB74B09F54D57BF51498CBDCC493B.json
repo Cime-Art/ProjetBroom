@@ -26,47 +26,53 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Event_StoneFall",
       "GUID": "{B45CB74B-09F5-4D57-BF51-498CBDCC493B}",
       "DurationType": "OneShot",
-      "DurationMin": "1.960387",
-      "DurationMax": "5.156917",
+      "DurationMin": "2.441563",
+      "DurationMax": "6.422679",
       "ExcludedMemoryFiles": [
        {
         "Id": "302866754",
         "Language": "SFX",
         "ShortName": "Amb_OS_StoneFall(Echo) _08_Anger_V2.wav",
-        "Path": "SFX\\Amb_OS_StoneFall(Echo) _08_Anger_V2_2D7E2809.wem"
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _08_Anger_V2_431AD12E.wem"
        },
        {
         "Id": "440670187",
         "Language": "SFX",
         "ShortName": "Amb_OS_StoneFall(Echo) _04_Anger_V2.wav",
-        "Path": "SFX\\Amb_OS_StoneFall(Echo) _04_Anger_V2_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _04_Anger_V2_4A67AB6A.wem"
        },
        {
         "Id": "625702286",
         "Language": "SFX",
         "ShortName": "Amb_OS_StoneFall(Echo) _02_Anger_V2.wav",
-        "Path": "SFX\\Amb_OS_StoneFall(Echo) _02_Anger_V2_E937E228.wem"
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _02_Anger_V2_2CAC01F7.wem"
        },
        {
         "Id": "680119979",
         "Language": "SFX",
         "ShortName": "Amb_OS_StoneFall(Echo) _07_Anger_V2.wav",
-        "Path": "SFX\\Amb_OS_StoneFall(Echo) _07_Anger_V2_4271B736.wem"
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _07_Anger_V2_486A5F89.wem"
        },
        {
         "Id": "753318711",
         "Language": "SFX",
         "ShortName": "Amb_OS_StoneFall(Echo) _01_Anger_V2.wav",
-        "Path": "SFX\\Amb_OS_StoneFall(Echo) _01_Anger_V2_37E3882C.wem"
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _01_Anger_V2_C7079B27.wem"
        },
        {
         "Id": "992567117",
         "Language": "SFX",
         "ShortName": "Amb_OS_StoneFall(Echo) _03_Anger_V2.wav",
-        "Path": "SFX\\Amb_OS_StoneFall(Echo) _03_Anger_V2_6ADE0A81.wem"
+        "Path": "SFX\\Amb_OS_StoneFall(Echo) _03_Anger_V2_C3B0C60A.wem"
        }
       ],
       "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       },
        {
         "Id": "3639771593",
         "Name": "Aux_Reverb_Out",

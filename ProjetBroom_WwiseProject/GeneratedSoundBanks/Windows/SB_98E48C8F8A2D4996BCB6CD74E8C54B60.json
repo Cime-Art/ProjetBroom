@@ -33,34 +33,40 @@
         "Id": "276765653",
         "Language": "SFX",
         "ShortName": "Amb_OS_SpiderWalkCloser_03_Sabarros_v1.wav",
-        "Path": "SFX\\Amb_OS_SpiderWalkCloser_03_Sabarros_v1_E785F032.wem"
+        "Path": "SFX\\Amb_OS_SpiderWalkCloser_03_Sabarros_v1_F7FE55C5.wem"
        },
        {
         "Id": "356566792",
         "Language": "SFX",
         "ShortName": "Amb_OS_SpiderWalkCloser_02_Sabarros_v1.wav",
-        "Path": "SFX\\Amb_OS_SpiderWalkCloser_02_Sabarros_v1_5F13A071.wem"
+        "Path": "SFX\\Amb_OS_SpiderWalkCloser_02_Sabarros_v1_B8475256.wem"
        },
        {
         "Id": "569743463",
         "Language": "SFX",
         "ShortName": "Amb_OS_SpiderSoundFarAway _03_Anger_V1.wav",
-        "Path": "SFX\\Amb_OS_SpiderSoundFarAway _03_Anger_V1_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_SpiderSoundFarAway _03_Anger_V1_4A67AB6A.wem"
        },
        {
         "Id": "661489012",
         "Language": "SFX",
         "ShortName": "Amb_OS_SpiderSoundFarAway _02_Anger_V1.wav",
-        "Path": "SFX\\Amb_OS_SpiderSoundFarAway _02_Anger_V1_56253B89.wem"
+        "Path": "SFX\\Amb_OS_SpiderSoundFarAway _02_Anger_V1_F06CCFDA.wem"
        },
        {
         "Id": "1064672966",
         "Language": "SFX",
         "ShortName": "Amb_OS_SpiderSoundFarAway _01_Anger_V1.wav",
-        "Path": "SFX\\Amb_OS_SpiderSoundFarAway _01_Anger_V1_EB7AA995.wem"
+        "Path": "SFX\\Amb_OS_SpiderSoundFarAway _01_Anger_V1_43D2D452.wem"
        }
       ],
       "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       },
        {
         "Id": "3639771593",
         "Name": "Aux_Reverb_Out",

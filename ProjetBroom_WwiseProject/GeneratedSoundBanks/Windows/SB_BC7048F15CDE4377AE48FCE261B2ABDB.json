@@ -25,79 +25,81 @@
       "Name": "Event_LoudScream",
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Voices\\Event_LoudScream",
       "GUID": "{BC7048F1-5CDE-4377-AE48-FCE261B2ABDB}",
-      "DurationType": "Infinite",
+      "DurationType": "OneShot",
+      "DurationMin": "6.016222",
+      "DurationMax": "37.803345",
       "ExcludedMemoryFiles": [
        {
         "Id": "141710724",
         "Language": "SFX",
         "ShortName": "Amb_OS_LoudScream _02.wav",
-        "Path": "SFX\\Amb_OS_LoudScream _02_13C265E4.wem"
+        "Path": "SFX\\Amb_OS_LoudScream _02_AA27FEB3.wem"
        },
        {
         "Id": "209811560",
         "Language": "SFX",
         "ShortName": "Amb_OS_LoudScream _12.wav",
-        "Path": "SFX\\Amb_OS_LoudScream _12_ECEF7631.wem"
+        "Path": "SFX\\Amb_OS_LoudScream _12_83F74C2E.wem"
        },
        {
         "Id": "258094410",
         "Language": "SFX",
         "ShortName": "Amb_OS_LoudScream _08.wav",
-        "Path": "SFX\\Amb_OS_LoudScream _08_8B5C1E7C.wem"
+        "Path": "SFX\\Amb_OS_LoudScream _08_6FE7C0F7.wem"
        },
        {
         "Id": "268300467",
         "Language": "SFX",
         "ShortName": "Amb_OS_LoudScream _06.wav",
-        "Path": "SFX\\Amb_OS_LoudScream _06_8FD7B581.wem"
+        "Path": "SFX\\Amb_OS_LoudScream _06_7E54C2EA.wem"
        },
        {
         "Id": "315379876",
         "Language": "SFX",
         "ShortName": "Amb_OS_LoudScream _05.wav",
-        "Path": "SFX\\Amb_OS_LoudScream _05_B738C59E.wem"
+        "Path": "SFX\\Amb_OS_LoudScream _05_2BBC9635.wem"
        },
        {
         "Id": "382280386",
         "Language": "SFX",
         "ShortName": "Amb_OS_LoudScream _09.wav",
-        "Path": "SFX\\Amb_OS_LoudScream _09_5B71EBE1.wem"
+        "Path": "SFX\\Amb_OS_LoudScream _09_72B46CFA.wem"
        },
        {
         "Id": "415960007",
         "Language": "SFX",
         "ShortName": "Amb_OS_LoudScream _11.wav",
-        "Path": "SFX\\Amb_OS_LoudScream _11_7022AF4C.wem"
+        "Path": "SFX\\Amb_OS_LoudScream _11_7C652D8B.wem"
        },
        {
         "Id": "468856394",
         "Language": "SFX",
         "ShortName": "Amb_OS_LoudScream _03.wav",
-        "Path": "SFX\\Amb_OS_LoudScream _03_55700D1C.wem"
+        "Path": "SFX\\Amb_OS_LoudScream _03_E6057FDF.wem"
        },
        {
         "Id": "526806339",
         "Language": "SFX",
         "ShortName": "Amb_OS_LoudScream _07.wav",
-        "Path": "SFX\\Amb_OS_LoudScream _07_DFF5199B.wem"
+        "Path": "SFX\\Amb_OS_LoudScream _07_61930440.wem"
        },
        {
         "Id": "695790342",
         "Language": "SFX",
         "ShortName": "Amb_OS_LoudScream _10.wav",
-        "Path": "SFX\\Amb_OS_LoudScream _10_0DF5386F.wem"
+        "Path": "SFX\\Amb_OS_LoudScream _10_B9DC7C7C.wem"
        },
        {
         "Id": "840104516",
         "Language": "SFX",
         "ShortName": "Amb_OS_LoudScream _01.wav",
-        "Path": "SFX\\Amb_OS_LoudScream _01_8E91EBB6.wem"
+        "Path": "SFX\\Amb_OS_LoudScream _01_9B0EA36D.wem"
        },
        {
         "Id": "1031445948",
         "Language": "SFX",
         "ShortName": "Amb_OS_LoudScream _04.wav",
-        "Path": "SFX\\Amb_OS_LoudScream _04_C1CBA210.wem"
+        "Path": "SFX\\Amb_OS_LoudScream _04_7EDE1107.wem"
        }
       ],
       "AuxBusSends": [

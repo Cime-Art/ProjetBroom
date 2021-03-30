@@ -25,14 +25,14 @@
       "Name": "Event_AcidFlow",
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Acid\\Event_AcidFlow",
       "GUID": "{B6C99268-D85F-48FF-9DBA-FBA880BBC13D}",
-      "MaxAttenuation": "1800.000000",
+      "MaxAttenuation": "2100.000000",
       "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {
-        "Id": "243081619",
+        "Id": "310006472",
         "Language": "SFX",
         "ShortName": "Amb_LP_AcidFlow_01_Anger_V2.wav",
-        "Path": "SFX\\Amb_LP_AcidFlow_01_Anger_V2_D79FB2B7.wem"
+        "Path": "SFX\\Amb_LP_AcidFlow_01_Anger_V2_70232134.wem"
        }
       ],
       "AuxBusSends": [

@@ -1,0 +1,37 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1163567457",
+    "GUID": "{455AA161-A161-1161-6161-616161616161}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_9A320865BED24D1F85C7274764D7F61A",
+    "ShortName": "SB_9A320865BED24D1F85C7274764D7F61A",
+    "Path": "SB_9A320865BED24D1F85C7274764D7F61A.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2565966792",
+      "Name": "Event_SkDist_Idle_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\SkeletonDist\\Event_SkDist_Idle_Stop",
+      "GUID": "{9A320865-BED2-4D1F-85C7-274764D7F61A}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

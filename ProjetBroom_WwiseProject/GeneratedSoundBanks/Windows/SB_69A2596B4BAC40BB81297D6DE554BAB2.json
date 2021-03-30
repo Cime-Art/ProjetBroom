@@ -21,48 +21,50 @@
     "Path": "SB_69A2596B4BAC40BB81297D6DE554BAB2.bnk",
     "IncludedEvents": [
      {
-      "Id": "2248247681",
-      "Name": "Event_DoorSlam",
-      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Metal\\Event_DoorSlam",
+      "Id": "2215355341",
+      "Name": "Event_DoorSlam_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Metal\\Event_DoorSlam_01",
       "GUID": "{69A2596B-4BAC-40BB-8129-7D6DE554BAB2}",
-      "MaxAttenuation": "800.000000",
-      "DurationType": "Infinite",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.899629",
+      "DurationMax": "4.165458",
       "ExcludedMemoryFiles": [
        {
         "Id": "417621774",
         "Language": "SFX",
         "ShortName": "Amb_OS_DoorSlam _05.wav",
-        "Path": "SFX\\Amb_OS_DoorSlam _05_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_DoorSlam _05_4A67AB6A.wem"
        },
        {
         "Id": "468649343",
         "Language": "SFX",
         "ShortName": "Amb_OS_DoorSlam_01.wav",
-        "Path": "SFX\\Amb_OS_DoorSlam_01_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_DoorSlam_01_4A67AB6A.wem"
        },
        {
         "Id": "511309158",
         "Language": "SFX",
         "ShortName": "Amb_OS_DoorSlam _06.wav",
-        "Path": "SFX\\Amb_OS_DoorSlam _06_7F3E4BE8.wem"
+        "Path": "SFX\\Amb_OS_DoorSlam _06_D96561EB.wem"
        },
        {
         "Id": "668551653",
         "Language": "SFX",
         "ShortName": "Amb_OS_DoorSlam_02.wav",
-        "Path": "SFX\\Amb_OS_DoorSlam_02_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_DoorSlam_02_4A67AB6A.wem"
        },
        {
         "Id": "809843274",
         "Language": "SFX",
         "ShortName": "Amb_OS_DoorSlam_04.wav",
-        "Path": "SFX\\Amb_OS_DoorSlam_04_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_DoorSlam_04_4A67AB6A.wem"
        },
        {
         "Id": "811810964",
         "Language": "SFX",
         "ShortName": "Amb_OS_DoorSlam_03.wav",
-        "Path": "SFX\\Amb_OS_DoorSlam_03_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_DoorSlam_03_4A67AB6A.wem"
        }
       ],
       "AuxBusSends": [

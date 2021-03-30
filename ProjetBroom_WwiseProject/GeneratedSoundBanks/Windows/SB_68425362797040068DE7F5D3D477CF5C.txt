@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	109095004	Event_SKCac_Action			\Default Work Unit\Mob\SkeletonCac\Event_SKCac_Action	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2804720716	Skeletons_States			\Default Work Unit\Mob\Skeletons\Skeletons_States	
+
+State	ID	Name	State Group			Notes
+	110619946	GetHit	Skeletons_States			
+	748895195	None	Skeletons_States			
+	779278001	Death	Skeletons_States			
+	1874288895	Idle	Skeletons_States			
+	2467563545	MoveForward	Skeletons_States			
+	2471918985	Attack_01	Skeletons_States			
+	2471918986	Attack_02	Skeletons_States			
+	3831688773	PlayerHit	Skeletons_States			
+

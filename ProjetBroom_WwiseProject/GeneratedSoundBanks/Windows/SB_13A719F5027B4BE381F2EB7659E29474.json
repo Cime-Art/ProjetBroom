@@ -1,0 +1,76 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3893470897",
+    "GUID": "{E811A6B1-A6B1-16B1-B1B1-B1B1B1B1B1B1}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_13A719F5027B4BE381F2EB7659E29474",
+    "ShortName": "SB_13A719F5027B4BE381F2EB7659E29474",
+    "Path": "SB_13A719F5027B4BE381F2EB7659E29474.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3150032120",
+      "Name": "Event_AcidSplash",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Acid\\Event_AcidSplash",
+      "GUID": "{13A719F5-027B-4BE3-81F2-EB7659E29474}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.845329",
+      "DurationMax": "3.923583",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "743377637",
+        "Language": "SFX",
+        "ShortName": "SplashAcid_Short_v4-004.wav",
+        "Path": "SFX\\SplashAcid_Short_v4-004_4A67AB6A.wem"
+       },
+       {
+        "Id": "773366880",
+        "Language": "SFX",
+        "ShortName": "SplashAcid_Short_v4-003.wav",
+        "Path": "SFX\\SplashAcid_Short_v4-003_4A67AB6A.wem"
+       },
+       {
+        "Id": "810126127",
+        "Language": "SFX",
+        "ShortName": "SplashAcid_Short_v4-001.wav",
+        "Path": "SFX\\SplashAcid_Short_v4-001_4A67AB6A.wem"
+       },
+       {
+        "Id": "1069018567",
+        "Language": "SFX",
+        "ShortName": "SplashAcid_Short_v4-002.wav",
+        "Path": "SFX\\SplashAcid_Short_v4-002_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3666496677",
+    "GUID": "{DA8A4CA5-4CA5-1CA5-A5A5-A5A5A5A5A5A5}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_8B2A961A3CFD4069BC9AFF94630B3EEE",
+    "ShortName": "SB_8B2A961A3CFD4069BC9AFF94630B3EEE",
+    "Path": "SB_8B2A961A3CFD4069BC9AFF94630B3EEE.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2451653295",
+      "Name": "Event_FirstPlatformDestruction",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Event_FirstPlatformDestruction",
+      "GUID": "{8B2A961A-3CFD-4069-BC9A-FF94630B3EEE}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.328301",
+      "DurationMax": "3.051635",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "165186289",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_Detruction_stone_platform_ v3-001.wav",
+        "Path": "SFX\\Amb_OS_Detruction_stone_platform_ v3-001_4A67AB6A.wem"
+       },
+       {
+        "Id": "220615903",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_Detruction_stone_platform_ v3-002.wav",
+        "Path": "SFX\\Amb_OS_Detruction_stone_platform_ v3-002_4A67AB6A.wem"
+       },
+       {
+        "Id": "740260109",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_Detruction_stone_platform_ v3-004.wav",
+        "Path": "SFX\\Amb_OS_Detruction_stone_platform_ v3-004_4A67AB6A.wem"
+       },
+       {
+        "Id": "853288706",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_Detruction_stone_platform_ v3-003.wav",
+        "Path": "SFX\\Amb_OS_Detruction_stone_platform_ v3-003_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

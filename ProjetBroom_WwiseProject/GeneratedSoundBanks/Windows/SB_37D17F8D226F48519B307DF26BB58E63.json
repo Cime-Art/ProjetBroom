@@ -1,0 +1,57 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2480527261",
+    "GUID": "{93D9D79D-D79D-179D-9D9D-9D9D9D9D9D9D}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_37D17F8D226F48519B307DF26BB58E63",
+    "ShortName": "SB_37D17F8D226F48519B307DF26BB58E63",
+    "Path": "SB_37D17F8D226F48519B307DF26BB58E63.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4012442538",
+      "Name": "Event_SKDist_Attack_LoadBow",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\SkeletonDist\\Event_SKDist_Attack_LoadBow",
+      "GUID": "{37D17F8D-226F-4851-9B30-7DF26BB58E63}",
+      "MaxAttenuation": "1500.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "720291",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonDistCharging_01.wav",
+        "Path": "SFX\\Mob_OS_SkeletonDistCharging_01_4A67AB6A.wem"
+       },
+       {
+        "Id": "51750365",
+        "Language": "SFX",
+        "ShortName": "Mob_Loop_SkeletonDistCharging_01.wav",
+        "Path": "SFX\\Mob_Loop_SkeletonDistCharging_01_70232134.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

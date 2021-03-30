@@ -1,0 +1,53 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "159046394",
+    "GUID": "{097ADAFA-DAFA-1AFA-FAFA-FAFAFAFAFAFA}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_1641D33C4BD84BC29B914CA0922B25FB",
+    "ShortName": "SB_1641D33C4BD84BC29B914CA0922B25FB",
+    "Path": "SB_1641D33C4BD84BC29B914CA0922B25FB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2140516782",
+      "Name": "Event_Stop_Musique_Jail_Playlist",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Event_Stop_Musique_Jail_Playlist",
+      "GUID": "{1641D33C-4BD8-4BC2-9B91-4CA0922B25FB}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
+      "ActionTrigger": [
+       {
+        "Id": "4003433129",
+        "Name": "Stop_Crash",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\Stop_Crash",
+        "GUID": "{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "4003433129",
+      "Name": "Stop_Crash",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\Stop_Crash",
+      "GUID": "{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}"
+     }
+    ]
+   }
+  ]
+ }
+}

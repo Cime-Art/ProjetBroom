@@ -1,0 +1,208 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2040401823",
+    "GUID": "{799E0F9F-0F9F-1F9F-9F9F-9F9F9F9F9F9F}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_68425362797040068DE7F5D3D477CF5C",
+    "ShortName": "SB_68425362797040068DE7F5D3D477CF5C",
+    "Path": "SB_68425362797040068DE7F5D3D477CF5C.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "109095004",
+      "Name": "Event_SKCac_Action",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\SkeletonCac\\Event_SKCac_Action",
+      "GUID": "{68425362-7970-4006-8DE7-F5D3D477CF5C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "1.285313",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "256627092",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonCacGetHit_01.wav",
+        "Path": "SFX\\Mob_OS_SkeletonCacGetHit_01_4A67AB6A.wem"
+       },
+       {
+        "Id": "338438380",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonCacFootstep_03.wav",
+        "Path": "SFX\\Mob_OS_SkeletonCacFootstep_03_4A67AB6A.wem"
+       },
+       {
+        "Id": "600955430",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonCacFootstep_02.wav",
+        "Path": "SFX\\Mob_OS_SkeletonCacFootstep_02_4A67AB6A.wem"
+       },
+       {
+        "Id": "691242873",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonCacFootstep_01.wav",
+        "Path": "SFX\\Mob_OS_SkeletonCacFootstep_01_4A67AB6A.wem"
+       },
+       {
+        "Id": "711495566",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonCacAttack_01.wav",
+        "Path": "SFX\\Mob_OS_SkeletonCacAttack_01_4A67AB6A.wem"
+       },
+       {
+        "Id": "775682873",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonCacAttack_02.wav",
+        "Path": "SFX\\Mob_OS_SkeletonCacAttack_02_4A67AB6A.wem"
+       },
+       {
+        "Id": "1035464308",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonCacGetHit_02.wav",
+        "Path": "SFX\\Mob_OS_SkeletonCacGetHit_02_4A67AB6A.wem"
+       },
+       {
+        "Id": "1058651910",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonCacFootstep_04.wav",
+        "Path": "SFX\\Mob_OS_SkeletonCacFootstep_04_4A67AB6A.wem"
+       },
+       {
+        "Id": "1068231058",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonCacDeath_01.wav",
+        "Path": "SFX\\Mob_OS_SkeletonCacDeath_01_4A67AB6A.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{01918E68-12E2-437F-A395-4294713382AF}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{6A788D11-83AF-4E57-A972-D8501EB3701E}",
+        "Media": [
+         {
+          "Id": "711495566"
+         },
+         {
+          "Id": "775682873"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{15D9E8D3-2DC8-494B-B268-2563327B3EE0}",
+        "Media": [
+         {
+          "Id": "256627092"
+         },
+         {
+          "Id": "1035464308"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{72477CFF-BC6E-418D-9BE6-C100A905113A}",
+        "Media": [
+         {
+          "Id": "338438380"
+         },
+         {
+          "Id": "691242873"
+         },
+         {
+          "Id": "600955430"
+         },
+         {
+          "Id": "1058651910"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{DBDDDA37-0DA2-4A84-81FC-E3277CAEF706}",
+        "Media": [
+         {
+          "Id": "1068231058"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2804720716",
+      "Name": "Skeletons_States",
+      "ObjectPath": "\\States\\Default Work Unit\\Mob\\Skeletons\\Skeletons_States",
+      "GUID": "{8E0B59CC-EF76-4DF4-A2FD-E6F5497E7EDE}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Mob\\Skeletons\\Skeletons_States\\None",
+        "GUID": "{2EAE5F90-F5B3-41A0-8734-6F51A4899E14}"
+       },
+       {
+        "Id": "1874288895",
+        "Name": "Idle",
+        "ObjectPath": "\\States\\Default Work Unit\\Mob\\Skeletons\\Skeletons_States\\Idle",
+        "GUID": "{01918E68-12E2-437F-A395-4294713382AF}"
+       },
+       {
+        "Id": "2471918985",
+        "Name": "Attack_01",
+        "ObjectPath": "\\States\\Default Work Unit\\Mob\\Skeletons\\Skeletons_States\\Attack_01",
+        "GUID": "{6A788D11-83AF-4E57-A972-D8501EB3701E}"
+       },
+       {
+        "Id": "2471918986",
+        "Name": "Attack_02",
+        "ObjectPath": "\\States\\Default Work Unit\\Mob\\Skeletons\\Skeletons_States\\Attack_02",
+        "GUID": "{0696777F-E7C6-4026-B6B4-ABCED8009654}"
+       },
+       {
+        "Id": "2467563545",
+        "Name": "MoveForward",
+        "ObjectPath": "\\States\\Default Work Unit\\Mob\\Skeletons\\Skeletons_States\\MoveForward",
+        "GUID": "{72477CFF-BC6E-418D-9BE6-C100A905113A}"
+       },
+       {
+        "Id": "110619946",
+        "Name": "GetHit",
+        "ObjectPath": "\\States\\Default Work Unit\\Mob\\Skeletons\\Skeletons_States\\GetHit",
+        "GUID": "{15D9E8D3-2DC8-494B-B268-2563327B3EE0}"
+       },
+       {
+        "Id": "779278001",
+        "Name": "Death",
+        "ObjectPath": "\\States\\Default Work Unit\\Mob\\Skeletons\\Skeletons_States\\Death",
+        "GUID": "{DBDDDA37-0DA2-4A84-81FC-E3277CAEF706}"
+       },
+       {
+        "Id": "3831688773",
+        "Name": "PlayerHit",
+        "ObjectPath": "\\States\\Default Work Unit\\Mob\\Skeletons\\Skeletons_States\\PlayerHit",
+        "GUID": "{F53F7AEA-E95E-4F6E-BC3B-4A3F7D2B0528}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

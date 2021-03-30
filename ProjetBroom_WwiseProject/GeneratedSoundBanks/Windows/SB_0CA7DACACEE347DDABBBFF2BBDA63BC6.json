@@ -33,49 +33,79 @@
         "Id": "56183595",
         "Language": "SFX",
         "ShortName": "24 - SFX_OS_HollowMetalHit_02_Ferreira_v1.wav",
-        "Path": "SFX\\24 - SFX_OS_HollowMetalHit_02_Ferreira_v1_10C4C929.wem"
+        "Path": "SFX\\24 - SFX_OS_HollowMetalHit_02_Ferreira_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "129640620",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_WindowHit_01_Ferreira_v1.wav",
+        "Path": "SFX\\SFX_OS_WindowHit_01_Ferreira_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "144975964",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_PortalHit_01.wav",
+        "Path": "SFX\\SFX_OS_PortalHit_01_4A67AB6A.wem"
        },
        {
         "Id": "199213318",
         "Language": "SFX",
         "ShortName": "30 - SFX_OS_DryWoodHit_02_Ferreira_v1.wav",
-        "Path": "SFX\\30 - SFX_OS_DryWoodHit_02_Ferreira_v1_10C4C929.wem"
+        "Path": "SFX\\30 - SFX_OS_DryWoodHit_02_Ferreira_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "209459353",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FleshHit_01_Ferreira_v1.wav",
+        "Path": "SFX\\SFX_OS_FleshHit_01_Ferreira_v1_4A67AB6A.wem"
        },
        {
         "Id": "405699160",
         "Language": "SFX",
         "ShortName": "25 - SFX_OS_StoneHit_01_Ferreira_v1.wav",
-        "Path": "SFX\\25 - SFX_OS_StoneHit_01_Ferreira_v1_10C4C929.wem"
+        "Path": "SFX\\25 - SFX_OS_StoneHit_01_Ferreira_v1_4A67AB6A.wem"
        },
        {
         "Id": "636609700",
         "Language": "SFX",
         "ShortName": "29 - SFX_OS_DryWoodHit_01_Ferreira_v1.wav",
-        "Path": "SFX\\29 - SFX_OS_DryWoodHit_01_Ferreira_v1_10C4C929.wem"
+        "Path": "SFX\\29 - SFX_OS_DryWoodHit_01_Ferreira_v1_4A67AB6A.wem"
        },
        {
         "Id": "697610052",
         "Language": "SFX",
         "ShortName": "26 - SFX_OS_StoneHit_02_Ferreira_v1.wav",
-        "Path": "SFX\\26 - SFX_OS_StoneHit_02_Ferreira_v1_10C4C929.wem"
+        "Path": "SFX\\26 - SFX_OS_StoneHit_02_Ferreira_v1_4A67AB6A.wem"
        },
        {
         "Id": "743849027",
         "Language": "SFX",
         "ShortName": "27 - SFX_OS_HollowWoodHit_01_Ferreira_v1.wav",
-        "Path": "SFX\\27 - SFX_OS_HollowWoodHit_01_Ferreira_v1_10C4C929.wem"
+        "Path": "SFX\\27 - SFX_OS_HollowWoodHit_01_Ferreira_v1_4A67AB6A.wem"
        },
        {
         "Id": "776926126",
         "Language": "SFX",
         "ShortName": "28 - SFX_OS_HollowWoodHit_02_Ferreira_v1.wav",
-        "Path": "SFX\\28 - SFX_OS_HollowWoodHit_02_Ferreira_v1_10C4C929.wem"
+        "Path": "SFX\\28 - SFX_OS_HollowWoodHit_02_Ferreira_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "792192075",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FleshHit_02_Ferreira_v1.wav",
+        "Path": "SFX\\SFX_OS_FleshHit_02_Ferreira_v1_4A67AB6A.wem"
        },
        {
         "Id": "837685776",
         "Language": "SFX",
         "ShortName": "23 - SFX_OS_HollowMetalHit_01_Ferreira_v1.wav",
-        "Path": "SFX\\23 - SFX_OS_HollowMetalHit_01_Ferreira_v1_10C4C929.wem"
+        "Path": "SFX\\23 - SFX_OS_HollowMetalHit_01_Ferreira_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "980663529",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_WindowHit_02_Ferreira_v1.wav",
+        "Path": "SFX\\SFX_OS_WindowHit_02_Ferreira_v1_4A67AB6A.wem"
        }
       ],
       "SwitchContainers": [
@@ -120,6 +150,36 @@
          },
          {
           "Id": "199213318"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{B4E479E7-1A9E-400D-8950-8DF06A9F01D3}",
+        "Media": [
+         {
+          "Id": "209459353"
+         },
+         {
+          "Id": "792192075"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{3F517729-CB5C-4D21-9317-029768EAD8A6}",
+        "Media": [
+         {
+          "Id": "129640620"
+         },
+         {
+          "Id": "980663529"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{198FAA6F-0EA4-4F9E-9C29-BE14EE2E6ED7}",
+        "Media": [
+         {
+          "Id": "144975964"
          }
         ]
        }
@@ -182,6 +242,12 @@
         "Name": "Glass",
         "ObjectPath": "\\Switches\\Default Work Unit\\Player\\Hit_Materials_Switch\\Glass",
         "GUID": "{3F517729-CB5C-4D21-9317-029768EAD8A6}"
+       },
+       {
+        "Id": "3118032615",
+        "Name": "Portal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\Hit_Materials_Switch\\Portal",
+        "GUID": "{198FAA6F-0EA4-4F9E-9C29-BE14EE2E6ED7}"
        }
       ]
      }

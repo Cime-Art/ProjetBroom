@@ -1,0 +1,71 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3216311957",
+    "GUID": "{BFB50695-0695-1695-9595-959595959595}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_B0CDBA14B52B4BD39D4FA8E5B87FE199",
+    "ShortName": "SB_B0CDBA14B52B4BD39D4FA8E5B87FE199",
+    "Path": "SB_B0CDBA14B52B4BD39D4FA8E5B87FE199.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4051415208",
+      "Name": "Event_MoveForward",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\SkeletonDist\\Event_MoveForward",
+      "GUID": "{B0CDBA14-B52B-4BD3-9D4F-A8E5B87FE199}",
+      "MaxAttenuation": "700.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.237091",
+      "DurationMax": "0.541667",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "300491165",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonDistFootstep_01.wav",
+        "Path": "SFX\\Mob_OS_SkeletonDistFootstep_01_4A67AB6A.wem"
+       },
+       {
+        "Id": "324245432",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonDistFootstep_02.wav",
+        "Path": "SFX\\Mob_OS_SkeletonDistFootstep_02_4A67AB6A.wem"
+       },
+       {
+        "Id": "743591154",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonDistFootstep_04.wav",
+        "Path": "SFX\\Mob_OS_SkeletonDistFootstep_04_4A67AB6A.wem"
+       },
+       {
+        "Id": "1050777096",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonDistFootstep_03.wav",
+        "Path": "SFX\\Mob_OS_SkeletonDistFootstep_03_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1289527731",
+    "GUID": "{4CDCA1B3-A1B3-11B3-B3B3-B3B3B3B3B3B3}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_30ECF60686AA4C16B61B812D2B2C8101",
+    "ShortName": "SB_30ECF60686AA4C16B61B812D2B2C8101",
+    "Path": "SB_30ECF60686AA4C16B61B812D2B2C8101.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1955165274",
+      "Name": "Event_SkDist_Hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\SkeletonDist\\Event_SkDist_Hit",
+      "GUID": "{30ECF606-86AA-4C16-B61B-812D2B2C8101}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.381771",
+      "DurationMax": "0.779959",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "39940552",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonDistGetHit_01.wav",
+        "Path": "SFX\\Mob_OS_SkeletonDistGetHit_01_4A67AB6A.wem"
+       },
+       {
+        "Id": "911393502",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonDistGetHit_02.wav",
+        "Path": "SFX\\Mob_OS_SkeletonDistGetHit_02_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "452257956",
+    "GUID": "{1AF4E8A4-E8A4-18A4-A4A4-A4A4A4A4A4A4}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_25B7C5AE533D4A018B93551220360F8F",
+    "ShortName": "SB_25B7C5AE533D4A018B93551220360F8F",
+    "Path": "SB_25B7C5AE533D4A018B93551220360F8F.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1165248069",
+      "Name": "Event_SkDist_Idle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\SkeletonDist\\Event_SkDist_Idle",
+      "GUID": "{25B7C5AE-533D-4A01-8B93-551220360F8F}",
+      "MaxAttenuation": "1500.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "364397768",
+        "Language": "SFX",
+        "ShortName": "TestSkeletonVoice_01.wav",
+        "Path": "SFX\\TestSkeletonVoice_01_4A67AB6A.wem"
+       },
+       {
+        "Id": "901550107",
+        "Language": "SFX",
+        "ShortName": "TestSkeletonVoice_02.wav",
+        "Path": "SFX\\TestSkeletonVoice_02_4A67AB6A.wem"
+       },
+       {
+        "Id": "943816498",
+        "Language": "SFX",
+        "ShortName": "TestSkeletonVoice_04.wav",
+        "Path": "SFX\\TestSkeletonVoice_04_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

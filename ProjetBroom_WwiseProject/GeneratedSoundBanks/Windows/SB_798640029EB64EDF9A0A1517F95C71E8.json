@@ -33,28 +33,34 @@
         "Id": "23799443",
         "Language": "SFX",
         "ShortName": "Amb_OS_Big squeaky chain _01_Anger_V1.wav",
-        "Path": "SFX\\Amb_OS_Big squeaky chain _01_Anger_V1_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_Big squeaky chain _01_Anger_V1_4A67AB6A.wem"
        },
        {
         "Id": "52055649",
         "Language": "SFX",
         "ShortName": "Amb_OS_Big squeaky chain _04_Anger_V1.wav",
-        "Path": "SFX\\Amb_OS_Big squeaky chain _04_Anger_V1_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_Big squeaky chain _04_Anger_V1_4A67AB6A.wem"
        },
        {
         "Id": "303204092",
         "Language": "SFX",
         "ShortName": "Amb_OS_Big squeaky chain _03_Anger_V1.wav",
-        "Path": "SFX\\Amb_OS_Big squeaky chain _03_Anger_V1_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_Big squeaky chain _03_Anger_V1_4A67AB6A.wem"
        },
        {
         "Id": "495883059",
         "Language": "SFX",
         "ShortName": "Amb_OS_Big squeaky chain _02_Anger_V1.wav",
-        "Path": "SFX\\Amb_OS_Big squeaky chain _02_Anger_V1_10C4C929.wem"
+        "Path": "SFX\\Amb_OS_Big squeaky chain _02_Anger_V1_4A67AB6A.wem"
        }
       ],
       "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       },
        {
         "Id": "3639771593",
         "Name": "Aux_Reverb_Out",

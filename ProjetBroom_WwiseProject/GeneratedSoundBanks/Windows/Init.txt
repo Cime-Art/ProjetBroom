@@ -3,12 +3,14 @@ State Group	ID	Name			Wwise Object Path	Notes
 	949138207	BlobState			\Default Work Unit\Mob\Blob\BlobState	
 	1069431850	Player			\Default Work Unit\Player\Player	
 	1085924974	State_Gate			\Default Work Unit\Environement\State_Gate	
+	1435919515	SkeletonsVoices_States			\Default Work Unit\Mob\Skeletons\SkeletonsVoices_States	
 	1911621787	snail_stateGroup			\Default Work Unit\Mob\Snail\snail_stateGroup	
 	2394864122	FullArmorBoss_State			\Default Work Unit\Mob\Boss\FullArmorBoss_State	
 	2519955112	Bat_State			\Default Work Unit\Mob\Bat\Bat_State	
 	2804720716	Skeletons_States			\Default Work Unit\Mob\Skeletons\Skeletons_States	
 	2854175295	Attack_Player			\Default Work Unit\Player\Attack_Player	
 	3764303108	fusion_stateGroup			\Default Work Unit\Mob\Boss\fusion_stateGroup	
+	4071417932	Player_State			\Default Work Unit\Music\Player_State	
 
 State	ID	Name	State Group			Notes
 	110619946	GetHit	AlambicState			
@@ -36,6 +38,11 @@ State	ID	Name	State Group			Notes
 	748895195	None	State_Gate			
 	2112530240	In_Barn	State_Gate			
 	2771170873	In_Kitchen	State_Gate			
+	110619946	GetHit	SkeletonsVoices_States			
+	180661997	Attack	SkeletonsVoices_States			
+	748895195	None	SkeletonsVoices_States			
+	779278001	Death	SkeletonsVoices_States			
+	1817458629	Idle_Walk	SkeletonsVoices_States			
 	748895195	None	snail_stateGroup			
 	1947432626	snail_explosion_state	snail_stateGroup			
 	2307670763	snail_idle_state	snail_stateGroup			
@@ -69,6 +76,9 @@ State	ID	Name	State Group			Notes
 	2269325202	fusion_attackLaunchSkull_state	fusion_stateGroup			
 	2331601848	fusion_idle_state	fusion_stateGroup			
 	2488908052	fusion_attackLaunchFireball_state	fusion_stateGroup			
+	748895195	None	Player_State			
+	2582085496	Exploration	Player_State			
+	2764240573	Combat	Player_State			
 
 Custom State	ID	Name	State Group	Owner		Notes
 	110557687	In_Barn	State_Gate	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Bus_Tuto_Rev\Aux_Reverb_Out		
