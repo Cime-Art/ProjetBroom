@@ -875,7 +875,21 @@
 								</Folder>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Hell" ID="{246DE10D-6236-481E-B819-17F138DBE94D}" ShortID="241790163"/>
+						<Folder Name="Hell" ID="{246DE10D-6236-481E-B819-17F138DBE94D}" ShortID="241790163">
+							<ChildrenList>
+								<Event Name="Event_BubbleLava" ID="{DFCA4BE5-75DA-4CD7-9030-5C9F9BD08E4A}">
+									<ChildrenList>
+										<Action Name="" ID="{6191871E-1679-495C-88E8-A399A44A8C86}" ShortID="889423993">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BubbleLava_RND" ID="{F541F1E9-D2B9-40E5-808C-936DB0B56FB0}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 						<Folder Name="Throne" ID="{FCC81E8B-B929-4746-85FA-ED985CCEEEF7}" ShortID="241807138">
 							<ChildrenList>
 								<Event Name="Event_Torch" ID="{3799DA11-6366-4AFF-B450-C7572AC198AC}">
