@@ -10336,6 +10336,38 @@
 										</ActorMixer>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="All" ID="{D56A6D41-EBCC-49F6-8BD3-2D1229019D41}" ShortID="976159097">
+									<ChildrenList>
+										<Sound Name="AMB_LP_IddlePortal_01_Anger_V1" ID="{CBF83ABC-BB42-4B1F-B752-B4FB3D8369F0}" ShortID="508760251">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_LP_IddlePortal_01_Anger_V1" ID="{01BE240F-9EBD-4CD8-AAA8-8119E8020041}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_LP_IddlePortal_01_Anger_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="495144943"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_LP_IddlePortal_01_Anger_V1" ID="{01BE240F-9EBD-4CD8-AAA8-8119E8020041}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
