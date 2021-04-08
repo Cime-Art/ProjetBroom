@@ -10498,37 +10498,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<RandomSequenceContainer Name="PlayerHit" ID="{1546C391-04D4-4EE9-8D60-10B17BC510D9}" ShortID="473188722">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{8AD15387-1903-4E12-81E3-0EDBEA222DEA}"/>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="UserAuxSendVolume0" Type="Real64">
-															<ValueList>
-																<Value>-8</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="SKDist_Att" ID="{6933FD4D-AC59-4865-9000-C18AFCA1D526}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-														<Reference Name="UserAuxSend0">
-															<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-												</RandomSequenceContainer>
 												<ActorMixer Name="GetHit" ID="{767CB068-8648-41AE-AD3D-A7ACAF8D4E12}" ShortID="798874877">
 													<PropertyList>
 														<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
@@ -11507,26 +11476,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<RandomSequenceContainer Name="PlayerHit" ID="{00D8CE03-0D9F-4A04-9036-BC22523E4C47}" ShortID="593556075">
-													<PropertyList>
-														<Property Name="UserAuxSendVolume0" Type="Real64">
-															<ValueList>
-																<Value>-8</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-														<Reference Name="UserAuxSend0">
-															<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-												</RandomSequenceContainer>
 												<ActorMixer Name="Attacks Cac" ID="{8281A4C9-8C40-4981-833A-4D53A53D34A8}" ShortID="1038350420">
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -18372,6 +18321,246 @@
 												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="GetHit" ID="{0F1F6E7D-FC4A-465E-A771-81110C982E99}" ShortID="604995396">
+									<ChildrenList>
+										<ActorMixer Name="SkeletonCac_GetHit_Mixer" ID="{5F482982-3ECE-4E34-BEC0-637B563B589D}" ShortID="1049690804">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="PlayerHit" ID="{00D8CE03-0D9F-4A04-9036-BC22523E4C47}" ShortID="593556075">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{8D1A9E6E-E6D2-478D-9323-FC19A1D9F7EC}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="354"/>
+																			<Property Name="Min" Type="Real64" Value="-505"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Player_OS_SkeletonCac_Hit_01" ID="{3B7D6284-F3DD-4BAC-A7A7-A30AD179D95F}" ShortID="972381616">
+															<PropertyList>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_SkeletonDist_Hit_01" ID="{52F6EFAB-648A-4830-83A9-13B0DBEBA4D3}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_SkeletonDist_Hit_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="419725204"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_SkeletonDist_Hit_01" ID="{52F6EFAB-648A-4830-83A9-13B0DBEBA4D3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Player_OS_SkeletonCac_Hit_02" ID="{3AFFAA80-C720-478C-AC4B-B62F3562C769}" ShortID="713804429">
+															<PropertyList>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_SkeletonDist_Hit_02" ID="{032A762C-78DE-40AA-B089-C3C278427FFC}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_SkeletonDist_Hit_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="642120523"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_SkeletonDist_Hit_02" ID="{032A762C-78DE-40AA-B089-C3C278427FFC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</ActorMixer>
+										<ActorMixer Name="SkeletonDist_GetHit_Mixer" ID="{980C27C4-C539-4616-92AD-FA593722B246}" ShortID="767799373">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="PlayerHit" ID="{1546C391-04D4-4EE9-8D60-10B17BC510D9}" ShortID="473188722">
+													<PropertyList>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{8AD15387-1903-4E12-81E3-0EDBEA222DEA}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Player_OS_SkeletonDist_Hit_01" ID="{EB14E918-37C9-4773-BE22-0F28B55E3E2F}" ShortID="818203327">
+															<PropertyList>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_SkeletonCac_Hit_01" ID="{2FC4112F-A2FB-4686-93DF-C06164197CAB}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_SkeletonCac_Hit_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="840807032"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_SkeletonCac_Hit_01" ID="{2FC4112F-A2FB-4686-93DF-C06164197CAB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Player_OS_SkeletonDist_Hit_02" ID="{2A7B0ED6-8626-498B-9E65-DDD54343CFBE}" ShortID="589416097">
+															<PropertyList>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_SkeletonCac_Hit_02" ID="{3C618076-0266-471E-9003-08B6AD8817E4}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_SkeletonCac_Hit_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="677710420"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_SkeletonCac_Hit_02" ID="{3C618076-0266-471E-9003-08B6AD8817E4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</ActorMixer>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>

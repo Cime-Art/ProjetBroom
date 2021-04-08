@@ -107,6 +107,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Event_SkDist_PlayerHit" ID="{0633DD9B-7E3B-493C-89A5-2A7F432F1A94}">
+									<ChildrenList>
+										<Action Name="" ID="{9B3AB14B-B6BC-4E28-906D-5B97C2342E2C}" ShortID="476414357">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PlayerHit" ID="{1546C391-04D4-4EE9-8D60-10B17BC510D9}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="SkeletonCac" ID="{7AB3C91B-BB02-4147-86AF-73CCCF7D246E}" ShortID="757083389">
@@ -175,6 +186,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="SkCac_Idle_SEQ" ID="{47AB74AA-DEAD-4475-BC89-871DFFB13731}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SkCac_PlayerHit" ID="{D9EE9632-528C-444C-8435-4A8E8A8A2287}">
+									<ChildrenList>
+										<Action Name="" ID="{D0FCFC6D-AE98-48E1-85D2-AB04D35DEE01}" ShortID="58400346">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PlayerHit" ID="{00D8CE03-0D9F-4A04-9036-BC22523E4C47}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
