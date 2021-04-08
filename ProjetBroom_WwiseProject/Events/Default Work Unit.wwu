@@ -96,6 +96,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Event_SkDist_Death" ID="{B840968C-3893-4AD1-8540-2CB9D4BFD2B2}">
+									<ChildrenList>
+										<Action Name="" ID="{E094F4F7-4D1F-4A15-ACE6-74BF51A2A5C3}" ShortID="449673997">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Death_RND" ID="{B83E90C2-B7DF-41BC-9F20-9583851A4191}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="SkeletonCac" ID="{7AB3C91B-BB02-4147-86AF-73CCCF7D246E}" ShortID="757083389">
@@ -117,6 +128,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="SkCacVoice_Switch" ID="{6CAA416B-B670-43EB-BB5B-D3FA6C18F719}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SkCac_Death" ID="{43342A4F-F47F-496A-AC5E-554E0E9FD119}">
+									<ChildrenList>
+										<Action Name="" ID="{30A1F48A-9FF6-4321-9A7D-167A65031CDD}" ShortID="467081701">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Mob_OS_SkeletonCacDeath_01" ID="{5EC783DD-6D29-4381-BBA0-1498558C1649}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
