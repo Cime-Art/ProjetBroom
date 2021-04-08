@@ -957,6 +957,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Event_WalllDestructible" ID="{3239AAE1-88CF-48A1-B531-FEC48055CF71}">
+									<ChildrenList>
+										<Action Name="" ID="{EA0003D6-5A43-405E-BE5E-720ACDC9A339}" ShortID="1041889773">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WalllDestructible_RND" ID="{DAC5B697-DB1F-4E12-B510-21B7161C608B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Throne" ID="{FCC81E8B-B929-4746-85FA-ED985CCEEEF7}" ShortID="241807138">
