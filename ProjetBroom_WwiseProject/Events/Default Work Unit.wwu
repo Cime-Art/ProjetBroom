@@ -111,17 +111,6 @@
 						</Folder>
 						<Folder Name="SkeletonCac" ID="{7AB3C91B-BB02-4147-86AF-73CCCF7D246E}" ShortID="757083389">
 							<ChildrenList>
-								<Event Name="Event_SKCac_Action" ID="{68425362-7970-4006-8DE7-F5D3D477CF5C}">
-									<ChildrenList>
-										<Action Name="" ID="{8E4B419A-7E1F-43E4-AE6E-ECCE05F7AA05}" ShortID="104835717">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="SkCac_Switch" ID="{7610594D-4442-40E5-B329-143F8B697A03}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
 								<Event Name="Event_SKCac_Voices" ID="{3CAD960A-20CF-4F6D-BD72-944D9584A2C3}">
 									<ChildrenList>
 										<Action Name="" ID="{788CA733-BFDC-4D25-A861-038ADFE1766E}" ShortID="108433945">
@@ -139,6 +128,53 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Mob_OS_SkeletonCacDeath_01" ID="{5EC783DD-6D29-4381-BBA0-1498558C1649}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SkCac_MoveForward" ID="{DCEDE91C-D77B-4A15-A01D-28F1C9ED42E9}">
+									<ChildrenList>
+										<Action Name="" ID="{C6B1AB8F-24B9-46F8-AD1F-830E2F7E91FC}" ShortID="833474853">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MoveForward" ID="{BAD06503-E39D-4AD7-8DEC-46CF5CB08D91}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SkCac_GetHit" ID="{20851009-BED1-4B27-9246-42F17C048439}">
+									<ChildrenList>
+										<Action Name="" ID="{46D67A23-BD10-40B5-8B83-51E652BA6302}" ShortID="198810991">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="GetHit" ID="{7D49F734-386F-41CC-B8FB-D96EDD39D78C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SkCac_Idle" ID="{CF5BA95F-C2A9-4634-8668-52D32DBA6300}">
+									<ChildrenList>
+										<Action Name="" ID="{D4A11632-80BB-45CB-9216-5D3E5274CFCC}" ShortID="434744531">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SkCac_Idle_SEQ" ID="{47AB74AA-DEAD-4475-BC89-871DFFB13731}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SkCac_Idle_Stop" ID="{3325B1D3-0BB9-4871-8DB6-D1389BC11F7E}">
+									<ChildrenList>
+										<Action Name="" ID="{3763F5AE-B7D0-4A60-82DC-8D6688949F39}" ShortID="49756105">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SkCac_Idle_SEQ" ID="{47AB74AA-DEAD-4475-BC89-871DFFB13731}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

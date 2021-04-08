@@ -11393,29 +11393,53 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<SwitchContainer Name="SkCac_Switch" ID="{7610594D-4442-40E5-B329-143F8B697A03}" ShortID="1027264215">
+												<RandomSequenceContainer Name="PlayerHit" ID="{00D8CE03-0D9F-4A04-9036-BC22523E4C47}" ShortID="593556075">
+													<PropertyList>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 														</Reference>
-														<Reference Name="DefaultSwitchOrState">
-															<ObjectRef Name="Idle" ID="{01918E68-12E2-437F-A395-4294713382AF}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+												</RandomSequenceContainer>
+												<ActorMixer Name="Attacks Cac" ID="{8281A4C9-8C40-4981-833A-4D53A53D34A8}" ShortID="1038350420">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
-														<Reference Name="SwitchGroupOrStateGroup">
-															<ObjectRef Name="Skeletons_States" ID="{8E0B59CC-EF76-4DF4-A2FD-E6F5497E7EDE}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
-														</Reference>
 													</ReferenceList>
 													<ChildrenList>
 														<RandomSequenceContainer Name="Attack_01" ID="{7AA7A27C-3BE1-4815-A973-3CDB2A2357D9}" ShortID="420617914">
+															<PropertyList>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
@@ -11466,32 +11490,54 @@
 															</ChildrenList>
 														</RandomSequenceContainer>
 														<RandomSequenceContainer Name="Attack_02" ID="{67D593EC-C026-45E8-9877-68D9AA7A46E3}" ShortID="306165656">
+															<PropertyList>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
 														</RandomSequenceContainer>
-														<RandomSequenceContainer Name="Idle" ID="{FF63C5E3-CB3A-4185-80AC-0D0F6A83E996}" ShortID="71995959">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-														</RandomSequenceContainer>
+													</ChildrenList>
+												</ActorMixer>
+												<ActorMixer Name="GetHit" ID="{2D5DAD98-5DF5-4BBD-B2CF-C4673732792B}" ShortID="897155396">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
 														<RandomSequenceContainer Name="GetHit" ID="{7D49F734-386F-41CC-B8FB-D96EDD39D78C}" ShortID="588154104">
+															<PropertyList>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
@@ -11541,23 +11587,370 @@
 																</Sound>
 															</ChildrenList>
 														</RandomSequenceContainer>
-														<RandomSequenceContainer Name="PlayerHit" ID="{00D8CE03-0D9F-4A04-9036-BC22523E4C47}" ShortID="593556075">
+													</ChildrenList>
+												</ActorMixer>
+												<ActorMixer Name="Idle" ID="{86C17369-7EDB-47DD-B169-D5365B484061}" ShortID="47738265">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="SkCac_Idle_SEQ" ID="{47AB74AA-DEAD-4475-BC89-871DFFB13731}" ShortID="238675108">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+																<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+																<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+																<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+																<Property Name="MaxSoundPerInstance" Type="int16">
+																	<ValueList>
+																		<Value>4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+																<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																<Property Name="OverridePriority" Type="bool" Value="True"/>
+																<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="6">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{ADD05E6D-438E-45B0-A1DC-2F3E3FE588FA}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="3"/>
+																					<Property Name="Min" Type="Real64" Value="-3"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+																<Property Name="PriorityDistanceOffset" Type="int16">
+																	<ValueList>
+																		<Value>-20</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+																<Property Name="UseMaxSoundPerInstance" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<Custom CreatedFrom="{6933FD4D-AC59-4865-9000-C18AFCA1D526}">
+																		<Attenuation Name="SKDist_Att (Custom)" ID="{75C90C0E-8954-4468-B5F0-A0FEEEF97EA2}" ShortID="632157615">
+																			<PropertyList>
+																				<Property Name="RadiusMax" Type="Real64" Value="1500"/>
+																			</PropertyList>
+																			<CurveUsageInfoList>
+																				<VolumeDryUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																						<Curve Name="VolumeDry" ID="{38F2D004-60DC-4129-B32D-938AF47F64A1}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="3"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>0</YPos>
+																									<Flags>5</Flags>
+																									<SegmentShape>Exp1</SegmentShape>
+																								</Point>
+																								<Point>
+																									<XPos>1500</XPos>
+																									<YPos>-200</YPos>
+																									<Flags>37</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</CurveUsageInfo>
+																				</VolumeDryUsage>
+																				<VolumeWetGameUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																				</VolumeWetGameUsage>
+																				<VolumeWetUserUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																				</VolumeWetUserUsage>
+																				<LowPassFilterUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</LowPassFilterUsage>
+																				<HighPassFilterUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</HighPassFilterUsage>
+																				<SpreadUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																						<Curve Name="Spread" ID="{3D06469A-0226-493E-B4D4-FB639DE3A7DC}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="1"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>70</YPos>
+																									<Flags>5</Flags>
+																									<SegmentShape>Log1</SegmentShape>
+																								</Point>
+																								<Point>
+																									<XPos>1500</XPos>
+																									<YPos>10</YPos>
+																									<Flags>37</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</CurveUsageInfo>
+																				</SpreadUsage>
+																				<FocusUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</FocusUsage>
+																			</CurveUsageInfoList>
+																		</Attenuation>
+																	</Custom>
+																</Reference>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
+															<ChildrenList>
+																<RandomSequenceContainer Name="SKdist_Idle_RND" ID="{CF2927CC-F9B0-42A7-96B3-A1A472EDE395}" ShortID="911155827">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="UserAuxSendVolume0" Type="Real64">
+																			<ValueList>
+																				<Value>-8</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="SKDist_Att" ID="{6933FD4D-AC59-4865-9000-C18AFCA1D526}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="TestSkeletonVoice_04" ID="{DEDF179C-CBEA-46A7-8869-0211E3F43E1E}" ShortID="807786982">
+																			<PropertyList>
+																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																				<Property Name="UserAuxSendVolume0" Type="Real64">
+																					<ValueList>
+																						<Value>-8</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Attenuation">
+																					<ObjectRef Name="SKDist_Att" ID="{6933FD4D-AC59-4865-9000-C18AFCA1D526}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																				</Reference>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="TestSkeletonVoice_04" ID="{505ABC03-7E5D-460B-9315-606E4BF7226A}">
+																					<Language>SFX</Language>
+																					<AudioFile>TestSkeletonVoice_04.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="943816498"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="TestSkeletonVoice_04" ID="{505ABC03-7E5D-460B-9315-606E4BF7226A}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="TestSkeletonVoice_01" ID="{E98E45AF-3408-4F8D-9F51-2F6DCB63A6E3}" ShortID="707825987">
+																			<PropertyList>
+																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																				<Property Name="UserAuxSendVolume0" Type="Real64">
+																					<ValueList>
+																						<Value>-8</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Attenuation">
+																					<ObjectRef Name="SKDist_Att" ID="{6933FD4D-AC59-4865-9000-C18AFCA1D526}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																				</Reference>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="TestSkeletonVoice_01" ID="{EE51260D-5FC2-4F19-92B6-636CCE1FA56F}">
+																					<Language>SFX</Language>
+																					<AudioFile>TestSkeletonVoice_01.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="364397768"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="TestSkeletonVoice_01" ID="{EE51260D-5FC2-4F19-92B6-636CCE1FA56F}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="TestSkeletonVoice_02" ID="{A3F28361-C358-499D-9C3C-E9FD0AAB527B}" ShortID="201024112">
+																			<PropertyList>
+																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																				<Property Name="UserAuxSendVolume0" Type="Real64">
+																					<ValueList>
+																						<Value>-8</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Attenuation">
+																					<ObjectRef Name="SKDist_Att" ID="{6933FD4D-AC59-4865-9000-C18AFCA1D526}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																				</Reference>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="TestSkeletonVoice_02" ID="{2CBDE8B8-9A4A-4033-8C02-603DFFA19CD6}">
+																					<Language>SFX</Language>
+																					<AudioFile>TestSkeletonVoice_02.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="901550107"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="TestSkeletonVoice_02" ID="{2CBDE8B8-9A4A-4033-8C02-603DFFA19CD6}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="TestSkeletonVoice_03" ID="{AC1906DE-F550-4E8F-B680-308551082F60}" ShortID="767018359">
+																			<PropertyList>
+																				<Property Name="UserAuxSendVolume0" Type="Real64">
+																					<ValueList>
+																						<Value>-8</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="TestSkeletonVoice_03" ID="{54C04612-6FD3-4406-8BAD-8BF6D4542FAE}">
+																					<Language>SFX</Language>
+																					<AudioFile>TestSkeletonVoice_03.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="449605654"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="TestSkeletonVoice_03" ID="{54C04612-6FD3-4406-8BAD-8BF6D4542FAE}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
+																<Sound Name="Silence" ID="{6AD8A955-E5E5-4D96-96CC-A57F50190FA6}" ShortID="814766495">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<SourcePlugin Name="Wwise Silence" ID="{A537442E-3167-423A-9B78-27AEC3FCD4B9}" ShortID="647037680" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																			<Language>SFX</Language>
+																		</SourcePlugin>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Wwise Silence" ID="{A537442E-3167-423A-9B78-27AEC3FCD4B9}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+															<Playlist>
+																<ItemRef Name="SKdist_Idle_RND" ID="{CF2927CC-F9B0-42A7-96B3-A1A472EDE395}"/>
+																<ItemRef Name="Silence" ID="{6AD8A955-E5E5-4D96-96CC-A57F50190FA6}"/>
+															</Playlist>
 														</RandomSequenceContainer>
+													</ChildrenList>
+												</ActorMixer>
+												<ActorMixer Name="SkCacFootsteps" ID="{CC2FA22C-B45F-4A82-8F06-A2A5794FFE28}" ShortID="48244564">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
 														<RandomSequenceContainer Name="MoveForward" ID="{BAD06503-E39D-4AD7-8DEC-46CF5CB08D91}" ShortID="552833475">
+															<PropertyList>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
@@ -11651,6 +12044,18 @@
 																</Sound>
 															</ChildrenList>
 														</RandomSequenceContainer>
+													</ChildrenList>
+												</ActorMixer>
+												<ActorMixer Name="Death" ID="{E6647AA1-E90E-45CF-A84E-56E12D58991C}" ShortID="136055898">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
 														<Sound Name="Mob_OS_SkeletonCacDeath_01" ID="{5EC783DD-6D29-4381-BBA0-1498558C1649}" ShortID="127012684">
 															<PropertyList>
 																<Property Name="Pitch" Type="int32">
@@ -11666,13 +12071,21 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
@@ -11689,218 +12102,7 @@
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
-													<GroupingInfo>
-														<GroupingBehaviorList>
-															<GroupingBehavior>
-																<ItemRef Name="MoveForward" ID="{BAD06503-E39D-4AD7-8DEC-46CF5CB08D91}"/>
-															</GroupingBehavior>
-															<GroupingBehavior>
-																<ItemRef Name="PlayerHit" ID="{00D8CE03-0D9F-4A04-9036-BC22523E4C47}"/>
-															</GroupingBehavior>
-															<GroupingBehavior>
-																<ItemRef Name="GetHit" ID="{7D49F734-386F-41CC-B8FB-D96EDD39D78C}"/>
-															</GroupingBehavior>
-															<GroupingBehavior>
-																<ItemRef Name="Attack_01" ID="{7AA7A27C-3BE1-4815-A973-3CDB2A2357D9}"/>
-															</GroupingBehavior>
-															<GroupingBehavior>
-																<ItemRef Name="Mob_OS_SkeletonCacDeath_01" ID="{5EC783DD-6D29-4381-BBA0-1498558C1649}"/>
-															</GroupingBehavior>
-															<GroupingBehavior>
-																<ItemRef Name="Idle" ID="{FF63C5E3-CB3A-4185-80AC-0D0F6A83E996}"/>
-															</GroupingBehavior>
-															<GroupingBehavior>
-																<ItemRef Name="Attack_02" ID="{67D593EC-C026-45E8-9877-68D9AA7A46E3}"/>
-															</GroupingBehavior>
-														</GroupingBehaviorList>
-														<GroupingList>
-															<Grouping>
-																<SwitchRef Name="Attack_01" ID="{6A788D11-83AF-4E57-A972-D8501EB3701E}"/>
-																<ItemList>
-																	<ItemRef Name="Attack_01" ID="{7AA7A27C-3BE1-4815-A973-3CDB2A2357D9}"/>
-																</ItemList>
-															</Grouping>
-															<Grouping>
-																<SwitchRef Name="Death" ID="{DBDDDA37-0DA2-4A84-81FC-E3277CAEF706}"/>
-																<ItemList>
-																	<ItemRef Name="Mob_OS_SkeletonCacDeath_01" ID="{5EC783DD-6D29-4381-BBA0-1498558C1649}"/>
-																</ItemList>
-															</Grouping>
-															<Grouping>
-																<SwitchRef Name="Idle" ID="{01918E68-12E2-437F-A395-4294713382AF}"/>
-																<ItemList>
-																	<ItemRef Name="Idle" ID="{FF63C5E3-CB3A-4185-80AC-0D0F6A83E996}"/>
-																</ItemList>
-															</Grouping>
-															<Grouping>
-																<SwitchRef Name="Attack_02" ID="{0696777F-E7C6-4026-B6B4-ABCED8009654}"/>
-																<ItemList>
-																	<ItemRef Name="Attack_02" ID="{67D593EC-C026-45E8-9877-68D9AA7A46E3}"/>
-																</ItemList>
-															</Grouping>
-															<Grouping>
-																<SwitchRef Name="GetHit" ID="{15D9E8D3-2DC8-494B-B268-2563327B3EE0}"/>
-																<ItemList>
-																	<ItemRef Name="GetHit" ID="{7D49F734-386F-41CC-B8FB-D96EDD39D78C}"/>
-																</ItemList>
-															</Grouping>
-															<Grouping>
-																<SwitchRef Name="PlayerHit" ID="{F53F7AEA-E95E-4F6E-BC3B-4A3F7D2B0528}"/>
-																<ItemList>
-																	<ItemRef Name="PlayerHit" ID="{00D8CE03-0D9F-4A04-9036-BC22523E4C47}"/>
-																</ItemList>
-															</Grouping>
-															<Grouping>
-																<SwitchRef Name="MoveForward" ID="{72477CFF-BC6E-418D-9BE6-C100A905113A}"/>
-																<ItemList>
-																	<ItemRef Name="MoveForward" ID="{BAD06503-E39D-4AD7-8DEC-46CF5CB08D91}"/>
-																</ItemList>
-															</Grouping>
-														</GroupingList>
-													</GroupingInfo>
-												</SwitchContainer>
-												<SwitchContainer Name="SkCacVoice_Switch" ID="{6CAA416B-B670-43EB-BB5B-D3FA6C18F719}" ShortID="600535604">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="DefaultSwitchOrState">
-															<ObjectRef Name="Idle_Walk" ID="{14062BC8-93CC-486B-9115-CA552ADFE65C}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-														<Reference Name="SwitchGroupOrStateGroup">
-															<ObjectRef Name="SkeletonsVoices_States" ID="{9BDAB86B-EC56-447E-AE75-E598A33146A5}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="TestSkeletonVoice_01" ID="{456DCB80-0E8F-47A8-8EFD-F57777B94065}" ShortID="44119134">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="TestSkeletonVoice_01" ID="{7B8522DF-96F7-4040-A269-83B137B05143}">
-																	<Language>SFX</Language>
-																	<AudioFile>TestSkeletonVoice_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="364397768"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="TestSkeletonVoice_01" ID="{7B8522DF-96F7-4040-A269-83B137B05143}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="TestSkeletonVoice_02" ID="{C75FBC6B-DC15-4827-BDFC-454E299FF03F}" ShortID="701427702">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="TestSkeletonVoice_02" ID="{79A35729-0F83-4215-9E89-0F848BA7A3E0}">
-																	<Language>SFX</Language>
-																	<AudioFile>TestSkeletonVoice_02.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="901550107"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="TestSkeletonVoice_02" ID="{79A35729-0F83-4215-9E89-0F848BA7A3E0}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="TestSkeletonVoice_03" ID="{AC1906DE-F550-4E8F-B680-308551082F60}" ShortID="767018359">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="TestSkeletonVoice_03" ID="{54C04612-6FD3-4406-8BAD-8BF6D4542FAE}">
-																	<Language>SFX</Language>
-																	<AudioFile>TestSkeletonVoice_03.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="449605654"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="TestSkeletonVoice_03" ID="{54C04612-6FD3-4406-8BAD-8BF6D4542FAE}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="TestSkeletonVoice_04" ID="{85ED309D-36A6-4BDD-AA94-3799625B795C}" ShortID="510791528">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="TestSkeletonVoice_04" ID="{07EBA896-150F-4E5E-A959-6B0D22D027E6}">
-																	<Language>SFX</Language>
-																	<AudioFile>TestSkeletonVoice_04.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="943816498"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="TestSkeletonVoice_04" ID="{07EBA896-150F-4E5E-A959-6B0D22D027E6}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-													<GroupingInfo>
-														<GroupingBehaviorList>
-															<GroupingBehavior>
-																<ItemRef Name="TestSkeletonVoice_02" ID="{C75FBC6B-DC15-4827-BDFC-454E299FF03F}"/>
-															</GroupingBehavior>
-															<GroupingBehavior>
-																<ItemRef Name="TestSkeletonVoice_01" ID="{456DCB80-0E8F-47A8-8EFD-F57777B94065}"/>
-															</GroupingBehavior>
-															<GroupingBehavior>
-																<ItemRef Name="TestSkeletonVoice_04" ID="{85ED309D-36A6-4BDD-AA94-3799625B795C}"/>
-															</GroupingBehavior>
-															<GroupingBehavior>
-																<ItemRef Name="TestSkeletonVoice_03" ID="{AC1906DE-F550-4E8F-B680-308551082F60}"/>
-															</GroupingBehavior>
-														</GroupingBehaviorList>
-														<GroupingList>
-															<Grouping>
-																<SwitchRef Name="GetHit" ID="{0D0DCB2A-27BA-4B29-A49B-E1BBE25B2D62}"/>
-																<ItemList>
-																	<ItemRef Name="TestSkeletonVoice_02" ID="{C75FBC6B-DC15-4827-BDFC-454E299FF03F}"/>
-																</ItemList>
-															</Grouping>
-															<Grouping>
-																<SwitchRef Name="Death" ID="{19423F76-2BF3-4DE9-A70B-73713437BD7F}"/>
-																<ItemList>
-																	<ItemRef Name="TestSkeletonVoice_01" ID="{456DCB80-0E8F-47A8-8EFD-F57777B94065}"/>
-																</ItemList>
-															</Grouping>
-															<Grouping>
-																<SwitchRef Name="Attack" ID="{67A42A8A-DEE6-433D-A2E7-C5BDDA5A2187}"/>
-																<ItemList>
-																	<ItemRef Name="TestSkeletonVoice_03" ID="{AC1906DE-F550-4E8F-B680-308551082F60}"/>
-																</ItemList>
-															</Grouping>
-														</GroupingList>
-													</GroupingInfo>
-												</SwitchContainer>
+												</ActorMixer>
 											</ChildrenList>
 										</ActorMixer>
 									</ChildrenList>
