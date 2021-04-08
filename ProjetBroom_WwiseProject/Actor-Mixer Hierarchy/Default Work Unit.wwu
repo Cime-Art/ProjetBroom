@@ -10214,6 +10214,77 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<ActorMixer Name="SpikeTrap_Mixer" ID="{2F115820-6CE4-46D6-BDA3-931A8DF325C2}" ShortID="222305813">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="SpikeTrap_RND" ID="{321BD6AE-199D-4060-A7E0-9457659CB14A}" ShortID="18269864">
+													<PropertyList>
+														<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="AMB_OS_SpikeTrap_01_Anger_V1" ID="{4C87AB83-B9C6-47AF-AAFA-205290E12A05}" ShortID="800925347">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_OS_SpikeTrap_01_Anger_V1" ID="{32D16AC6-D79E-4DAF-B157-B20C07C09548}">
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_OS_SpikeTrap_01_Anger_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="992647519"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_OS_SpikeTrap_01_Anger_V1" ID="{32D16AC6-D79E-4DAF-B157-B20C07C09548}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AMB_OS_SpikeTrap_02_Anger_V1" ID="{A2499DC4-2BCB-4046-BE41-A6D2939BAD30}" ShortID="856650287">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_OS_SpikeTrap_02_Anger_V1" ID="{D1630A31-852B-48B3-A240-66C50F8ADDE5}">
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_OS_SpikeTrap_02_Anger_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="240816553"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_OS_SpikeTrap_02_Anger_V1" ID="{D1630A31-852B-48B3-A240-66C50F8ADDE5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</ActorMixer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Throne" ID="{66DD4DA5-7563-4648-AF0D-AE7C512F7DED}" ShortID="799175653">
