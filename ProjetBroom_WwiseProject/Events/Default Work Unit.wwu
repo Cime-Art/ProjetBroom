@@ -1234,6 +1234,28 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Event_Play_Vertical_Attack" ID="{7CCC998F-F984-4946-B165-CC6EFA45D359}">
+					<ChildrenList>
+						<Action Name="" ID="{E7E12BFB-6CFB-4B09-8A4D-3545C9E106C6}" ShortID="347293761">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vertical_Attack_RND" ID="{FB3A1F31-3E07-44D1-ACBB-AD944DE5592B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Play_Horizontal_Attack" ID="{8F581304-F579-418E-A1AF-D59AADB17331}">
+					<ChildrenList>
+						<Action Name="" ID="{E1F9A572-4489-4F00-B587-332D74B28A36}" ShortID="203348959">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Horizontal_Attack_RND" ID="{1AE310C8-BDC4-47CD-97D7-606F0CFD2717}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

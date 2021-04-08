@@ -10304,11 +10304,16 @@
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="OutputBusHighpass" Type="int16">
+															<ValueList>
+																<Value>24</Value>
+															</ValueList>
+														</Property>
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-19</Value>
+																<Value>-8</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -10317,6 +10322,11 @@
 															<Custom CreatedFrom="{FFC1A8A3-AFC9-453A-94EF-0B2C06393706}">
 																<Attenuation Name="Fireplace_Att (Custom)" ID="{9FA3476B-A54B-4A8C-9F32-AB26E830C130}" ShortID="574473022">
 																	<PropertyList>
+																		<Property Name="ConeUse" Type="bool">
+																			<ValueList>
+																				<Value>True</Value>
+																			</ValueList>
+																		</Property>
 																		<Property Name="RadiusMax" Type="Real64" Value="3000"/>
 																	</PropertyList>
 																	<CurveUsageInfoList>
@@ -16110,16 +16120,28 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="Horizontal_Attack_RND" ID="{1AE310C8-BDC4-47CD-97D7-606F0CFD2717}" ShortID="899643946">
+											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise_Gain_(Custom)" ID="{64B55DC4-047F-4EA0-B0DD-4CBE88CF806C}" ShortID="512400424" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+															<PropertyList>
+																<Property Name="FullBandGain" Type="Real32" Value="8"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="PLAYER_LP_HORIZONTALATTACK_01_LAURIER_V1" ID="{56FDD724-47D4-4320-BE91-53E69D603E98}" ShortID="669541671">
+												<Sound Name="OS_Whoosh_Player_Eliot_01" ID="{D8BD60CF-1121-4E5C-A84C-33A8CA7F577D}" ShortID="1027720467">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -16129,19 +16151,26 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="PLAYER_LP_HORIZONTALATTACK_01_LAURIER_V1" ID="{A226473B-69ED-4F1C-AEA2-B11841C44C01}">
+														<AudioFileSource Name="OS_Whoosh_Player_Eliot_01" ID="{BB10F8FE-DE75-4F58-A69D-A3B67CA1899C}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.175016479894528"/>
+																<Property Name="LoopEnd" Type="Real64" Value="0.92722602739726"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.253131179960448"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.0273566249176"/>
+															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>PLAYER_LP_HORIZONTALATTACK_01_LAURIER_V1.wav</AudioFile>
+															<AudioFile>OS_Whoosh_Player_Eliot_01.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="189821313"/>
+																<MediaID ID="624141303"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="PLAYER_LP_HORIZONTALATTACK_01_LAURIER_V1" ID="{A226473B-69ED-4F1C-AEA2-B11841C44C01}" Platform="Linked"/>
+														<ActiveSource Name="OS_Whoosh_Player_Eliot_01" ID="{BB10F8FE-DE75-4F58-A69D-A3B67CA1899C}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="PLAYER_LP_HORIZONTALATTACK_02_LAURIER_V1" ID="{0DE09662-0C84-4B8D-B0AD-98B6EDC35728}" ShortID="977074132">
+												<Sound Name="OS_Whoosh_Player_Eliot_02" ID="{A9797157-81CB-48D1-9469-60E55820EBEF}" ShortID="633070190">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -16151,31 +16180,104 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="PLAYER_LP_HORIZONTALATTACK_02_LAURIER_V1" ID="{D9D47933-7FB8-476C-8247-6BFDDC86DEBC}">
+														<AudioFileSource Name="OS_Whoosh_Player_Eliot_02" ID="{9C183408-3EEF-4568-8145-7E2290D892FB}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.259063941990771"/>
+															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>PLAYER_LP_HORIZONTALATTACK_02_LAURIER_V1.wav</AudioFile>
+															<AudioFile>OS_Whoosh_Player_Eliot_02.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="295176418"/>
+																<MediaID ID="792418200"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="PLAYER_LP_HORIZONTALATTACK_02_LAURIER_V1" ID="{D9D47933-7FB8-476C-8247-6BFDDC86DEBC}" Platform="Linked"/>
+														<ActiveSource Name="OS_Whoosh_Player_Eliot_02" ID="{9C183408-3EEF-4568-8145-7E2290D892FB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_Whoosh_Player_Eliot_03" ID="{1AE20A91-E466-4F06-B375-43AA6701E98D}" ShortID="723381473">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_Whoosh_Player_Eliot_03" ID="{8C4E41BA-9180-466B-911A-424FBB2D1D65}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0692155570204351"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.319380355965722"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.14700065919578"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>OS_Whoosh_Player_Eliot_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="974919051"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_Whoosh_Player_Eliot_03" ID="{8C4E41BA-9180-466B-911A-424FBB2D1D65}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_Whoosh_Player_Eliot_04" ID="{07BC8D07-DBD2-431B-A960-E1926EADB305}" ShortID="190567314">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_Whoosh_Player_Eliot_04" ID="{75EFAFC4-DCA7-4328-8AEE-BDB265E908A4}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.133487145682268"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0.228411338167436"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.185893210283454"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.997692814765985"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>OS_Whoosh_Player_Eliot_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="646798727"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_Whoosh_Player_Eliot_04" ID="{75EFAFC4-DCA7-4328-8AEE-BDB265E908A4}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Vertical_Attack_RND" ID="{FB3A1F31-3E07-44D1-ACBB-AD944DE5592B}" ShortID="836175656">
+											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise_Gain_(Custom)" ID="{53872707-49B0-438E-8B5D-DBB983EC2BE5}" ShortID="379413521" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+															<PropertyList>
+																<Property Name="FullBandGain" Type="Real32" Value="8"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="PLAYER_LP_VERTICALATTACK_01_LAURIER_V1" ID="{1E1B0A6F-0E5A-4730-9647-417DA9D6AABE}" ShortID="920845346">
+												<Sound Name="OS_Whoosh_Player_Eliot_01" ID="{45D69850-2509-4D80-BFBF-4F70EEBDCB48}" ShortID="919438524">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -16185,19 +16287,25 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="PLAYER_LP_VERTICALATTACK_01_LAURIER_V1" ID="{D73369E6-BE47-4DD9-95A1-5626DF20A7E8}">
+														<AudioFileSource Name="OS_Whoosh_Player_Eliot_01" ID="{50100533-18FC-4576-BBC2-24BAEA0B6502}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.144363876071193"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.247848537005164"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.11535926170073"/>
+															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>PLAYER_LP_VERTICALATTACK_01_LAURIER_V1.wav</AudioFile>
+															<AudioFile>OS_Whoosh_Player_Eliot_01.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="322381556"/>
+																<MediaID ID="397135382"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="PLAYER_LP_VERTICALATTACK_01_LAURIER_V1" ID="{D73369E6-BE47-4DD9-95A1-5626DF20A7E8}" Platform="Linked"/>
+														<ActiveSource Name="OS_Whoosh_Player_Eliot_01" ID="{50100533-18FC-4576-BBC2-24BAEA0B6502}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="PLAYER_LP_VERTICALATTACK_02_LAURIER_V1" ID="{A145F9B6-1721-4994-BFC2-62A572C88C12}" ShortID="894750426">
+												<Sound Name="OS_Whoosh_Player_Eliot_02" ID="{24DEC417-F837-40C3-BAC1-F014983953A0}" ShortID="328542205">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -16207,16 +16315,78 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="PLAYER_LP_VERTICALATTACK_02_LAURIER_V1" ID="{94EA0B69-B44D-4917-8495-BF83E1B0B320}">
+														<AudioFileSource Name="OS_Whoosh_Player_Eliot_02" ID="{3F6BCB18-958D-47CE-8FD1-BB30B6737A8D}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0731707317073171"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.237521514629948"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.04218852999341"/>
+															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>PLAYER_LP_VERTICALATTACK_02_LAURIER_V1.wav</AudioFile>
+															<AudioFile>OS_Whoosh_Player_Eliot_02.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="943523919"/>
+																<MediaID ID="1023073267"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="PLAYER_LP_VERTICALATTACK_02_LAURIER_V1" ID="{94EA0B69-B44D-4917-8495-BF83E1B0B320}" Platform="Linked"/>
+														<ActiveSource Name="OS_Whoosh_Player_Eliot_02" ID="{3F6BCB18-958D-47CE-8FD1-BB30B6737A8D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_Whoosh_Player_Eliot_03" ID="{0FBC67C2-2A6B-441F-9DDD-AAEE19D7BB6C}" ShortID="597747385">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_Whoosh_Player_Eliot_03" ID="{59F6C2C2-6AB9-4905-807E-6EA1EAEA092C}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.136453526697429"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.250430292598967"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.17567567567568"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>OS_Whoosh_Player_Eliot_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="59752760"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_Whoosh_Player_Eliot_03" ID="{59F6C2C2-6AB9-4905-807E-6EA1EAEA092C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_Whoosh_Player_Eliot_04" ID="{AFFB1ECD-382A-4B99-91FE-D6B0EB7F83F6}" ShortID="762840300">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_Whoosh_Player_Eliot_04" ID="{B8FA9551-1FB4-4433-9083-BB8312EE86FC}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.273666092943201"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.247848537005163"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.06884681583477"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>OS_Whoosh_Player_Eliot_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="937324050"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_Whoosh_Player_Eliot_04" ID="{B8FA9551-1FB4-4433-9083-BB8312EE86FC}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -18645,13 +18815,22 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>4</Value>
+										<Value>12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise_Gain_(Custom)" ID="{AA282A18-B56B-4F21-8BDA-FD49807D5F5E}" ShortID="667421935" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+											<PropertyList>
+												<Property Name="FullBandGain" Type="Real32" Value="8.5"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
