@@ -9614,10 +9614,101 @@
 									<ChildrenList>
 										<ActorMixer Name="BubbleLava_Mixer" ID="{0FBAF37E-2512-42ED-9F45-D4C842B130ED}" ShortID="468399106">
 											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{1E79B5BC-0AC4-4C0C-ABAC-D695139434B8}" ShortID="76293512">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="HeightPlayer" ID="{250B3ED9-C1E8-4668-B835-6A391E9395FA}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{C5EED563-DBED-4B24-B2DB-121F5FBE948D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-2400</XPos>
+																		<YPos>15</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-834.37908</XPos>
+																		<YPos>15</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-450</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>185.35947</XPos>
+																		<YPos>15</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>500</XPos>
+																		<YPos>15</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-8</Value>
 													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{FC7EEE24-9BEE-4C00-8E28-760AD5C07C47}" ShortID="352311797">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="HeightPlayer" ID="{250B3ED9-C1E8-4668-B835-6A391E9395FA}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{95F32E61-D4C5-4E74-9148-8B88FA0E1350}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-2400</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-713.0719</XPos>
+																		<YPos>-12.49545</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-420</XPos>
+																		<YPos>0.09814</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>200.52287</XPos>
+																		<YPos>-11.97061</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>500</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -9633,7 +9724,7 @@
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16">
 															<ValueList>
-																<Value>48</Value>
+																<Value>49</Value>
 															</ValueList>
 														</Property>
 														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
