@@ -13,6 +13,5 @@ State	ID	Name	State Group			Notes
 	3833651337	Jump	Player			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	84488110	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\General_Player_Mix\Player_State\Player_Jump\Player_Silence\Wwise Silence	
-	997890619	SoundSeed Air Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\Player\General_Player_Mix\Player_State\Player_Dash\SoundSeed Air Woosh	
+	84488110	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\General_Player_Mix\Player_State\PlayeVoicer_Jump\Player_Silence\Wwise Silence	
 

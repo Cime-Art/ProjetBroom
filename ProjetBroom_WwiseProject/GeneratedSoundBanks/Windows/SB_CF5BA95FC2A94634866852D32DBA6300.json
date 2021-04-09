@@ -1,0 +1,51 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "338118212",
+    "GUID": "{14274644-4644-1644-4444-444444444444}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_CF5BA95FC2A94634866852D32DBA6300",
+    "ShortName": "SB_CF5BA95FC2A94634866852D32DBA6300",
+    "Path": "SB_CF5BA95FC2A94634866852D32DBA6300.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3004687448",
+      "Name": "Event_SkCac_Idle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\SkeletonCac\\Event_SkCac_Idle",
+      "GUID": "{CF5BA95F-C2A9-4634-8668-52D32DBA6300}",
+      "MaxAttenuation": "1500.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "943816498",
+        "Language": "SFX",
+        "ShortName": "TestSkeletonVoice_04.wav",
+        "Path": "SFX\\TestSkeletonVoice_04_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

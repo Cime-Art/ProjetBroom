@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
-   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -26,7 +26,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Action\\Event_Player_Action",
       "GUID": "{867F8C69-6DE8-4547-946B-D7B10521DC25}",
       "DurationType": "OneShot",
-      "DurationMin": "0.200000",
+      "DurationMin": "0.270833",
       "DurationMax": "1.855760",
       "ExcludedMemoryFiles": [
        {
@@ -40,6 +40,12 @@
         "Language": "SFX",
         "ShortName": "PLAYER_OS_DEATH_03_LAURIER_V1.wav",
         "Path": "SFX\\PLAYER_OS_DEATH_03_LAURIER_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "288079192",
+        "Language": "SFX",
+        "ShortName": "Player_OS_Dash_02_Hezon_V1.wav",
+        "Path": "SFX\\Player_OS_Dash_02_Hezon_V1_4A67AB6A.wem"
        },
        {
         "Id": "361458916",
@@ -72,6 +78,12 @@
         "Path": "SFX\\PLAYER_OS_DEATH_01_LAURIER_V1_4A67AB6A.wem"
        },
        {
+        "Id": "730505517",
+        "Language": "SFX",
+        "ShortName": "Player_OS_Dash_01_Hezon_V1.wav",
+        "Path": "SFX\\Player_OS_Dash_01_Hezon_V1_4A67AB6A.wem"
+       },
+       {
         "Id": "797792194",
         "Language": "SFX",
         "ShortName": "PLAYER_OS_JUMP_01_LAURIER_V1.wav",
@@ -84,7 +96,7 @@
         "Path": "SFX\\PLAYER_OS_DEATH_02_LAURIER_V1_4A67AB6A.wem"
        }
       ],
-      "DefaultSwitchValue": "{67ECEA7E-FD7F-46CE-AB6E-68E9C4CAE5D9}",
+      "DefaultSwitchValue": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}",
       "SwitchContainers": [
        {
         "SwitchValue": "{67ECEA7E-FD7F-46CE-AB6E-68E9C4CAE5D9}",
@@ -126,18 +138,18 @@
         ]
        },
        {
-        "SwitchValue": "{582AA115-3908-4988-A027-4CA5D944777B}",
+        "SwitchValue": "{749251C1-B604-4A51-B0C6-BBADFECC6113}",
         "Media": [
          {
-          "Id": "946985441"
+          "Id": "705531483"
          }
         ]
        },
        {
-        "SwitchValue": "{749251C1-B604-4A51-B0C6-BBADFECC6113}",
+        "SwitchValue": "{582AA115-3908-4988-A027-4CA5D944777B}",
         "Media": [
          {
-          "Id": "785895037"
+          "Id": "232066212"
          }
         ]
        },
@@ -145,7 +157,7 @@
         "SwitchValue": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}",
         "Media": [
          {
-          "Id": "799159883"
+          "Id": "701497178"
          }
         ]
        },
@@ -153,7 +165,7 @@
         "SwitchValue": "{26008F53-70C5-4250-94E4-85ADD5226647}",
         "Media": [
          {
-          "Id": "1070802525"
+          "Id": "222004766"
          }
         ]
        },
@@ -161,7 +173,15 @@
         "SwitchValue": "{9B9060B1-E708-451D-A47A-B7BDBAEB466B}",
         "Media": [
          {
-          "Id": "242275139"
+          "Id": "446005177"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{BAC1CACC-E3A0-46E9-A406-125228A7A757}",
+        "Media": [
+         {
+          "Id": "519586556"
          }
         ]
        },
@@ -169,7 +189,15 @@
         "SwitchValue": "{C46FAED0-B41E-4EE9-9947-400381ADF4E9}",
         "Media": [
          {
-          "Id": "960618887"
+          "Id": "703188090"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{4C39F64F-8808-49DB-962F-DAE2302BDFB2}",
+        "Media": [
+         {
+          "Id": "535599306"
          }
         ]
        },
@@ -178,6 +206,73 @@
         "Media": [
          {
           "Id": "797792194"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{76359FD8-18FA-4D9C-B17F-EAFD751C4275}",
+        "Media": [
+         {
+          "Id": "730505517"
+         },
+         {
+          "Id": "288079192"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{749251C1-B604-4A51-B0C6-BBADFECC6113}",
+        "Media": [
+         {
+          "Id": "235545300"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{582AA115-3908-4988-A027-4CA5D944777B}",
+        "Media": [
+         {
+          "Id": "43230357"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}",
+        "Media": [
+         {
+          "Id": "265675621"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{26008F53-70C5-4250-94E4-85ADD5226647}",
+        "Media": [
+         {
+          "Id": "584267432"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{9B9060B1-E708-451D-A47A-B7BDBAEB466B}",
+        "Media": [
+         {
+          "Id": "574786028"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{BAC1CACC-E3A0-46E9-A406-125228A7A757}",
+        "Media": [
+         {
+          "Id": "1047376910"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{C46FAED0-B41E-4EE9-9947-400381ADF4E9}",
+        "Media": [
+         {
+          "Id": "218005042"
          }
         ]
        }
@@ -292,6 +387,12 @@
         "Name": "HollowWood",
         "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\HollowWood",
         "GUID": "{4C39F64F-8808-49DB-962F-DAE2302BDFB2}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Water",
+        "GUID": "{BAC1CACC-E3A0-46E9-A406-125228A7A757}"
        }
       ]
      }

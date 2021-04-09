@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
-   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -26,74 +26,74 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\FTPS\\Event_FTPS",
       "GUID": "{15B37050-9321-48B3-AF32-AD69C00DF836}",
       "DurationType": "OneShot",
-      "DurationMin": "0.278209",
+      "DurationMin": "0.225000",
       "DurationMax": "2.685103",
       "ExcludedMemoryFiles": [
        {
-        "Id": "14622240",
+        "Id": "62256714",
         "Language": "SFX",
-        "ShortName": "Player_OS_FootstepGrass_02_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_FootstepGrass_02_LAURIER_v2_4A67AB6A.wem"
+        "ShortName": "SFX_OS_FTPSDirt_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSDirt_GOICO_01_v1_4A67AB6A.wem"
        },
        {
-        "Id": "24236967",
+        "Id": "77810719",
         "Language": "SFX",
-        "ShortName": "Player_OS_FootstepRock_01_LeBozec_v2.wav",
-        "Path": "SFX\\Player_OS_FootstepRock_01_LeBozec_v2_6839B4C9.wem"
+        "ShortName": "SFX_OS_FTPSGrass_GOICO_07_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSGrass_GOICO_07_v1_4A67AB6A.wem"
        },
        {
-        "Id": "26123010",
+        "Id": "122166065",
         "Language": "SFX",
-        "ShortName": "Player_OS_FootstepDirt_03_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_FootstepDirt_03_LAURIER_v2_E331B04D.wem"
+        "ShortName": "SFX_OS_FTPSGrass_GOICO_08_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSGrass_GOICO_08_v1_4A67AB6A.wem"
        },
        {
-        "Id": "64497861",
+        "Id": "144054608",
         "Language": "SFX",
-        "ShortName": "Player_OS_FootstepRock_03_LeBozec_v2.wav",
-        "Path": "SFX\\Player_OS_FootstepRock_03_LeBozec_v2_2F3ECEC8.wem"
+        "ShortName": "SFX_OS_FTPSWood_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSWood_GOICO_01_v1_4A67AB6A.wem"
        },
        {
-        "Id": "105283502",
+        "Id": "168373177",
         "Language": "SFX",
-        "ShortName": "Player_OS_FootstepGrass_03_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_FootstepGrass_03_LAURIER_v2_4A67AB6A.wem"
+        "ShortName": "SFX_OS_FTPSBones_GOICO_03_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSBones_GOICO_03_v1_4A67AB6A.wem"
        },
        {
-        "Id": "128046037",
+        "Id": "170413653",
         "Language": "SFX",
-        "ShortName": "Player_OS_FootstepWood_01_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_FootstepWood_01_LAURIER_v2_4A67AB6A.wem"
+        "ShortName": "SFX_OS_FTPSMarble_GOICO_04_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSMarble_GOICO_04_v1_4A67AB6A.wem"
        },
        {
-        "Id": "162623936",
+        "Id": "175298349",
         "Language": "SFX",
-        "ShortName": "Player_OS_FootstepRock_02_LeBozec_v2.wav",
-        "Path": "SFX\\Player_OS_FootstepRock_02_LeBozec_v2_B3D9F87B.wem"
+        "ShortName": "SFX_OS_FTPSRock_GOICO_04_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSRock_GOICO_04_v1_4A67AB6A.wem"
        },
        {
-        "Id": "292996249",
+        "Id": "281005484",
         "Language": "SFX",
-        "ShortName": "Player_OS_FootstepBones_01_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_FootstepBones_01_LAURIER_v2_4A67AB6A.wem"
+        "ShortName": "SFX_OS_FTPSWood_GOICO_03_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSWood_GOICO_03_v1_4A67AB6A.wem"
        },
        {
-        "Id": "297167024",
+        "Id": "305408799",
         "Language": "SFX",
-        "ShortName": "Player_OS_FootstepMarble_01_LAURIER_v3.wav",
-        "Path": "SFX\\Player_OS_FootstepMarble_01_LAURIER_v3_4A67AB6A.wem"
+        "ShortName": "SFX_OS_FTPSWood_GOICO_04_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSWood_GOICO_04_v1_4A67AB6A.wem"
        },
        {
-        "Id": "306433734",
+        "Id": "369875260",
         "Language": "SFX",
-        "ShortName": "Player_OS_FootstepDirt_02_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_FootstepDirt_02_LAURIER_v2_663E6E80.wem"
+        "ShortName": "SFX_OS_FTPSMarble_GOICO_05_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSMarble_GOICO_05_v1_4A67AB6A.wem"
        },
        {
-        "Id": "472552462",
+        "Id": "459831173",
         "Language": "SFX",
-        "ShortName": "Player_OS_FootstepMarble_03_LAURIER_v3.wav",
-        "Path": "SFX\\Player_OS_FootstepMarble_03_LAURIER_v3_4A67AB6A.wem"
+        "ShortName": "SFX_OS_FTPSRock_GOICO_05_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSRock_GOICO_05_v1_4A67AB6A.wem"
        },
        {
         "Id": "480732657",
@@ -108,10 +108,34 @@
         "Path": "SFX\\SFX_OS_FootstepHollowWood_03_4A67AB6A.wem"
        },
        {
-        "Id": "545147057",
+        "Id": "493386454",
         "Language": "SFX",
-        "ShortName": "Player_OS_FootstepWood_03_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_FootstepWood_03_LAURIER_v2_4A67AB6A.wem"
+        "ShortName": "SFX_OS_FTPSBones_GOICO_02_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSBones_GOICO_02_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "503998708",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FTPSDirt_GOICO_03_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSDirt_GOICO_03_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "546562762",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FTPSDirt_GOICO_02_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSDirt_GOICO_02_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "565501567",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FTPSGrass_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSGrass_GOICO_01_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "595875859",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FTPSWood_GOICO_02_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSWood_GOICO_02_v1_4A67AB6A.wem"
        },
        {
         "Id": "612576183",
@@ -126,34 +150,34 @@
         "Path": "SFX\\SFX_OS_FootstepHollowWood_04_4A67AB6A.wem"
        },
        {
-        "Id": "738268439",
+        "Id": "679617177",
         "Language": "SFX",
-        "ShortName": "Player_OS_FootstepDirt_01_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_FootstepDirt_01_LAURIER_v2_4A67AB6A.wem"
+        "ShortName": "SFX_OS_FTPSGrass_GOICO_05_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSGrass_GOICO_05_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "704901649",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FTPSBones_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSBones_GOICO_01_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "706916459",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FTPSRock_GOICO_03_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSRock_GOICO_03_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "765252156",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FTPSMarble_GOICO_03_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSMarble_GOICO_03_v1_4A67AB6A.wem"
        },
        {
         "Id": "857428011",
         "Language": "SFX",
         "ShortName": "Amb_OS_BarnCreaks_01_Ferreira_v1.wav",
         "Path": "SFX\\Amb_OS_BarnCreaks_01_Ferreira_v1_3BADF8BF.wem"
-       },
-       {
-        "Id": "870274469",
-        "Language": "SFX",
-        "ShortName": "Player_OS_FootstepGrass_01_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_FootstepGrass_01_LAURIER_v2_4A67AB6A.wem"
-       },
-       {
-        "Id": "875094860",
-        "Language": "SFX",
-        "ShortName": "Player_OS_FootstepBones_02_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_FootstepBones_02_LAURIER_v2_4A67AB6A.wem"
-       },
-       {
-        "Id": "875266461",
-        "Language": "SFX",
-        "ShortName": "Player_OS_FootstepWood_02_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_FootstepWood_02_LAURIER_v2_4A67AB6A.wem"
        },
        {
         "Id": "906543412",
@@ -174,10 +198,22 @@
         "Path": "SFX\\Amb_OS_BarnCreaks_03_Ferreira_v1_5A5DB95F.wem"
        },
        {
-        "Id": "1059082895",
+        "Id": "960491579",
         "Language": "SFX",
-        "ShortName": "Player_OS_FootstepMarble_02_LAURIER_v3.wav",
-        "Path": "SFX\\Player_OS_FootstepMarble_02_LAURIER_v3_4A67AB6A.wem"
+        "ShortName": "SFX_OS_FTPSBones_GOICO_05_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSBones_GOICO_05_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "971885062",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FTPSRock_GOICO_02_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSRock_GOICO_02_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "994382458",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_FTPSMarble_GOICO_02_v1.wav",
+        "Path": "SFX\\SFX_OS_FTPSMarble_GOICO_02_v1_4A67AB6A.wem"
        }
       ],
       "DefaultSwitchValue": "{582AA115-3908-4988-A027-4CA5D944777B}",
@@ -186,10 +222,16 @@
         "SwitchValue": "{749251C1-B604-4A51-B0C6-BBADFECC6113}",
         "Media": [
          {
-          "Id": "292996249"
+          "Id": "704901649"
          },
          {
-          "Id": "875094860"
+          "Id": "493386454"
+         },
+         {
+          "Id": "168373177"
+         },
+         {
+          "Id": "960491579"
          }
         ]
        },
@@ -197,13 +239,16 @@
         "SwitchValue": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}",
         "Media": [
          {
-          "Id": "105283502"
+          "Id": "565501567"
          },
          {
-          "Id": "870274469"
+          "Id": "679617177"
          },
          {
-          "Id": "14622240"
+          "Id": "77810719"
+         },
+         {
+          "Id": "122166065"
          }
         ]
        },
@@ -211,13 +256,16 @@
         "SwitchValue": "{26008F53-70C5-4250-94E4-85ADD5226647}",
         "Media": [
          {
-          "Id": "297167024"
+          "Id": "994382458"
          },
          {
-          "Id": "1059082895"
+          "Id": "765252156"
          },
          {
-          "Id": "472552462"
+          "Id": "170413653"
+         },
+         {
+          "Id": "369875260"
          }
         ]
        },
@@ -225,13 +273,13 @@
         "SwitchValue": "{582AA115-3908-4988-A027-4CA5D944777B}",
         "Media": [
          {
-          "Id": "738268439"
+          "Id": "62256714"
          },
          {
-          "Id": "306433734"
+          "Id": "546562762"
          },
          {
-          "Id": "26123010"
+          "Id": "503998708"
          }
         ]
        },
@@ -239,13 +287,16 @@
         "SwitchValue": "{9B9060B1-E708-451D-A47A-B7BDBAEB466B}",
         "Media": [
          {
-          "Id": "24236967"
+          "Id": "971885062"
          },
          {
-          "Id": "162623936"
+          "Id": "706916459"
          },
          {
-          "Id": "64497861"
+          "Id": "175298349"
+         },
+         {
+          "Id": "459831173"
          }
         ]
        },
@@ -253,13 +304,16 @@
         "SwitchValue": "{C46FAED0-B41E-4EE9-9947-400381ADF4E9}",
         "Media": [
          {
-          "Id": "545147057"
+          "Id": "144054608"
          },
          {
-          "Id": "875266461"
+          "Id": "595875859"
          },
          {
-          "Id": "128046037"
+          "Id": "281005484"
+         },
+         {
+          "Id": "305408799"
          },
          {
           "Id": "857428011"
@@ -357,6 +411,12 @@
         "Name": "HollowWood",
         "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\HollowWood",
         "GUID": "{4C39F64F-8808-49DB-962F-DAE2302BDFB2}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Water",
+        "GUID": "{BAC1CACC-E3A0-46E9-A406-125228A7A757}"
        }
       ]
      }

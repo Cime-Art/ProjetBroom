@@ -1,0 +1,70 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "11341682",
+    "GUID": "{00AD0F72-0F72-1F72-7272-727272727272}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_C6F8E43812DC43918767FC763A0CBF6B",
+    "ShortName": "SB_C6F8E43812DC43918767FC763A0CBF6B",
+    "Path": "SB_C6F8E43812DC43918767FC763A0CBF6B.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "993529638",
+      "Name": "Event_SubmergingLavaPlatform",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Hell\\Event_SubmergingLavaPlatform",
+      "GUID": "{C6F8E438-12DC-4391-8767-FC763A0CBF6B}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.499474",
+      "DurationMax": "4.763540",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "166249243",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_SubmergeLava_03_v1.wav",
+        "Path": "SFX\\AMB_OS_SubmergeLava_03_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "861214564",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_SubmergeLava_01_v1.wav",
+        "Path": "SFX\\AMB_OS_SubmergeLava_01_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "889338379",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_SubmergeLava_02_v1.wav",
+        "Path": "SFX\\AMB_OS_SubmergeLava_02_v1_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

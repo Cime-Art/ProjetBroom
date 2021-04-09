@@ -1,0 +1,58 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4197697040",
+    "GUID": "{FA33C610-C610-1610-1010-101010101010}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_6D48654EE7C542E7868725D0B429B29C",
+    "ShortName": "SB_6D48654EE7C542E7868725D0B429B29C",
+    "Path": "SB_6D48654EE7C542E7868725D0B429B29C.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2214477553",
+      "Name": "Event_Play_MovingWall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Hell\\Event_Play_MovingWall",
+      "GUID": "{6D48654E-E7C5-42E7-8687-25D0B429B29C}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.500000",
+      "DurationMax": "3.500000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "159745595",
+        "Language": "SFX",
+        "ShortName": "MovingWall_Theo_OS_07.wave.wav",
+        "Path": "SFX\\MovingWall_Theo_OS_07.wave_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

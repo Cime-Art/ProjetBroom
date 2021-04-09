@@ -1,13 +1,3 @@
 Event	ID	Name			Wwise Object Path	Notes
 	605128707	Event_SKCac_Voices			\Default Work Unit\Mob\SkeletonCac\Event_SKCac_Voices	
 
-State Group	ID	Name			Wwise Object Path	Notes
-	1435919515	SkeletonsVoices_States			\Default Work Unit\Mob\Skeletons\SkeletonsVoices_States	
-
-State	ID	Name	State Group			Notes
-	110619946	GetHit	SkeletonsVoices_States			
-	180661997	Attack	SkeletonsVoices_States			
-	748895195	None	SkeletonsVoices_States			
-	779278001	Death	SkeletonsVoices_States			
-	1817458629	Idle_Walk	SkeletonsVoices_States			
-

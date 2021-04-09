@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
-   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -26,61 +26,73 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Jump\\Event_Land",
       "GUID": "{F0D1A12A-885F-4632-AF59-27ABF26A7E59}",
       "DurationType": "OneShot",
-      "DurationMin": "0.394240",
-      "DurationMax": "0.528844",
+      "DurationMin": "0.745000",
+      "DurationMax": "1.350000",
       "ExcludedMemoryFiles": [
        {
-        "Id": "242275139",
+        "Id": "222004766",
         "Language": "SFX",
-        "ShortName": "Player_OS_LandRock_01_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_LandRock_01_LAURIER_v2_4A67AB6A.wem"
+        "ShortName": "SFX_OS_LandMarble_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_LandMarble_GOICO_01_v1_4A67AB6A.wem"
        },
        {
-        "Id": "785895037",
+        "Id": "232066212",
         "Language": "SFX",
-        "ShortName": "Player_OS_LandBones_01_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_LandBones_01_LAURIER_v2_4A67AB6A.wem"
+        "ShortName": "SFX_OS_LandDirt_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_LandDirt_GOICO_01_v1_4A67AB6A.wem"
        },
        {
-        "Id": "799159883",
+        "Id": "446005177",
         "Language": "SFX",
-        "ShortName": "Player_OS_LandGrass_01_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_LandGrass_01_LAURIER_v2_4A67AB6A.wem"
+        "ShortName": "SFX_OS_LandRock_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_LandRock_GOICO_01_v1_4A67AB6A.wem"
        },
        {
-        "Id": "946985441",
+        "Id": "519586556",
         "Language": "SFX",
-        "ShortName": "Player_OS_Land_01_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_Land_01_LAURIER_v2_4A67AB6A.wem"
+        "ShortName": "SFX_OS_LandWater_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_LandWater_GOICO_01_v1_4A67AB6A.wem"
        },
        {
-        "Id": "960618887",
+        "Id": "535599306",
         "Language": "SFX",
-        "ShortName": "Player_OS_LandWood_01_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_LandWood_01_LAURIER_v2_4A67AB6A.wem"
+        "ShortName": "SFX_OS_LandWoodCrate_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_LandWoodCrate_GOICO_01_v1_4A67AB6A.wem"
        },
        {
-        "Id": "1070802525",
+        "Id": "701497178",
         "Language": "SFX",
-        "ShortName": "Player_OS_LandMarble_01_LAURIER_v2.wav",
-        "Path": "SFX\\Player_OS_LandMarble_01_LAURIER_v2_4A67AB6A.wem"
+        "ShortName": "SFX_OS_LandGrass_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_LandGrass_GOICO_01_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "703188090",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_LandWood_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_LandWood_GOICO_01_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "705531483",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_LandBones_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_LandBones_GOICO_01_v1_4A67AB6A.wem"
        }
       ],
       "DefaultSwitchValue": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}",
       "SwitchContainers": [
        {
-        "SwitchValue": "{582AA115-3908-4988-A027-4CA5D944777B}",
+        "SwitchValue": "{749251C1-B604-4A51-B0C6-BBADFECC6113}",
         "Media": [
          {
-          "Id": "946985441"
+          "Id": "705531483"
          }
         ]
        },
        {
-        "SwitchValue": "{749251C1-B604-4A51-B0C6-BBADFECC6113}",
+        "SwitchValue": "{582AA115-3908-4988-A027-4CA5D944777B}",
         "Media": [
          {
-          "Id": "785895037"
+          "Id": "232066212"
          }
         ]
        },
@@ -88,7 +100,7 @@
         "SwitchValue": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}",
         "Media": [
          {
-          "Id": "799159883"
+          "Id": "701497178"
          }
         ]
        },
@@ -96,7 +108,7 @@
         "SwitchValue": "{26008F53-70C5-4250-94E4-85ADD5226647}",
         "Media": [
          {
-          "Id": "1070802525"
+          "Id": "222004766"
          }
         ]
        },
@@ -104,7 +116,15 @@
         "SwitchValue": "{9B9060B1-E708-451D-A47A-B7BDBAEB466B}",
         "Media": [
          {
-          "Id": "242275139"
+          "Id": "446005177"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{BAC1CACC-E3A0-46E9-A406-125228A7A757}",
+        "Media": [
+         {
+          "Id": "519586556"
          }
         ]
        },
@@ -112,7 +132,15 @@
         "SwitchValue": "{C46FAED0-B41E-4EE9-9947-400381ADF4E9}",
         "Media": [
          {
-          "Id": "960618887"
+          "Id": "703188090"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{4C39F64F-8808-49DB-962F-DAE2302BDFB2}",
+        "Media": [
+         {
+          "Id": "535599306"
          }
         ]
        }
@@ -181,6 +209,12 @@
         "Name": "HollowWood",
         "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\HollowWood",
         "GUID": "{4C39F64F-8808-49DB-962F-DAE2302BDFB2}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Water",
+        "GUID": "{BAC1CACC-E3A0-46E9-A406-125228A7A757}"
        }
       ]
      }
