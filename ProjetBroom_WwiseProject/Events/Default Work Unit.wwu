@@ -859,6 +859,39 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Event_PigChain_GetHit" ID="{82283B9A-2D83-434D-B906-672BEB24E691}">
+											<ChildrenList>
+												<Action Name="" ID="{59C4F061-FE90-408E-8EFC-DC1E590588D9}" ShortID="22430787">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GetHit_RND" ID="{EEF59CB1-1A8A-4202-ABB8-EB1E0F487D46}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_PigChain_GetHitLight" ID="{ADCE461A-7DDF-4726-852D-0C72F5BFC70A}">
+											<ChildrenList>
+												<Action Name="" ID="{C86182C1-473B-4172-9835-FCC7B924310E}" ShortID="522586063">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GetHitLight" ID="{D306329C-75D0-42AB-BE4C-4DD4EEF180B2}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_PigChainSwing" ID="{D0B32994-02A0-47D0-AE3F-7987F5853371}">
+											<ChildrenList>
+												<Action Name="" ID="{9175E12A-52EF-4CEF-AF74-DBFC38E20133}" ShortID="657698920">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="PigChainSwing_RND" ID="{7A832747-D689-44D1-9C27-7D31D1C43581}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Boiler" ID="{E3693FC2-1B70-4FD8-A1E2-1B3E6707E479}" ShortID="756491329">
@@ -1118,6 +1151,28 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="AMB_LP_HellAmbiance_01_Albouys_V3" ID="{50BF73DB-EF67-465A-B20F-F42A9254EA43}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_FallingRocks_Small" ID="{F51A02F6-1306-4FCE-B680-1B9337688502}">
+									<ChildrenList>
+										<Action Name="" ID="{F05ED8C7-D348-45EF-98F6-834D78BAD676}" ShortID="804283295">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FallingRocks_Small_RND" ID="{C50FA5B0-EA26-4D4F-A396-4D4AC0DB4F04}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_FallingRocks_Big" ID="{A017735B-7D1E-4491-AF5B-89FA90946200}">
+									<ChildrenList>
+										<Action Name="" ID="{739C2C74-86DA-45EB-8DF0-FBBF2671BACD}" ShortID="595202907">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FallingRocks_Big_RND" ID="{6165BF37-8758-41AF-AAD4-5FBD44C36320}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

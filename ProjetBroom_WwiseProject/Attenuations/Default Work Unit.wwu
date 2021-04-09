@@ -1496,6 +1496,86 @@
 						</Attenuation>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Hell" ID="{30829179-0984-487E-AFBF-4D5CAC4C7F82}" ShortID="376496849">
+					<ChildrenList>
+						<Attenuation Name="FallingRocks_Att" ID="{AEED7D75-1E00-443A-AC48-670FB37C1778}" ShortID="394022916">
+							<PropertyList>
+								<Property Name="RadiusMax" Type="Real64" Value="2300"/>
+							</PropertyList>
+							<CurveUsageInfoList>
+								<VolumeDryUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+										<Curve Name="VolumeDry" ID="{3BF86C8F-1803-4616-A27E-38DFF7CBA8DF}">
+											<PropertyList>
+												<Property Name="Flags" Type="int32" Value="3"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>0</YPos>
+													<Flags>5</Flags>
+												</Point>
+												<Point>
+													<XPos>1900</XPos>
+													<YPos>0</YPos>
+													<Flags>0</Flags>
+													<SegmentShape>Log1</SegmentShape>
+												</Point>
+												<Point>
+													<XPos>2300</XPos>
+													<YPos>-200</YPos>
+													<Flags>37</Flags>
+												</Point>
+											</PointList>
+										</Curve>
+									</CurveUsageInfo>
+								</VolumeDryUsage>
+								<VolumeWetGameUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+								</VolumeWetGameUsage>
+								<VolumeWetUserUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+								</VolumeWetUserUsage>
+								<LowPassFilterUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+								</LowPassFilterUsage>
+								<HighPassFilterUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+								</HighPassFilterUsage>
+								<SpreadUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+										<Curve Name="Spread" ID="{8AA29C1E-6BBB-4EAD-9F87-D83CA41AC962}">
+											<PropertyList>
+												<Property Name="Flags" Type="int32" Value="1"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>100</YPos>
+													<Flags>5</Flags>
+												</Point>
+												<Point>
+													<XPos>1900</XPos>
+													<YPos>100</YPos>
+													<Flags>0</Flags>
+													<SegmentShape>Log1</SegmentShape>
+												</Point>
+												<Point>
+													<XPos>2300</XPos>
+													<YPos>30</YPos>
+													<Flags>37</Flags>
+												</Point>
+											</PointList>
+										</Curve>
+									</CurveUsageInfo>
+								</SpreadUsage>
+								<FocusUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+								</FocusUsage>
+							</CurveUsageInfoList>
+						</Attenuation>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Attenuations>
