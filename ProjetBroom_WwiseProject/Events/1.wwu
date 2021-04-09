@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9A0D153D-15C1-47E6-98D6-D5E3B81345A3}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="1" ID="{9A0D153D-15C1-47E6-98D6-D5E3B81345A3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Event_SubmergingLavaPlatform" ID="{C6F8E438-12DC-4391-8767-FC763A0CBF6B}">
+					<ChildrenList>
+						<Action Name="" ID="{B7DE4FFF-7059-4995-AFE1-7827F4CC4AE5}" ShortID="868625959">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Platform_Submerging" ID="{90FE981B-2461-4549-973B-61183CB22A54}" WorkUnitID="{0887D0C6-0724-4CBD-8BAB-1BBF255C26A2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_EmergingLavaPlatform" ID="{63C1FE5C-FB0D-4816-B876-25981EA4F6AE}">
+					<ChildrenList>
+						<Action Name="" ID="{62D551E0-8A0C-425B-85DE-570E088DA474}" ShortID="194836527">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Platform_Emerging" ID="{6339EC72-289C-4A22-B890-04E67BBB158F}" WorkUnitID="{0887D0C6-0724-4CBD-8BAB-1BBF255C26A2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
