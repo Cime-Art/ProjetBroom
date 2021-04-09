@@ -9614,10 +9614,113 @@
 									<ChildrenList>
 										<ActorMixer Name="BubbleLava_Mixer" ID="{0FBAF37E-2512-42ED-9F45-D4C842B130ED}" ShortID="468399106">
 											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{1E79B5BC-0AC4-4C0C-ABAC-D695139434B8}" ShortID="76293512">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="HeightPlayer" ID="{250B3ED9-C1E8-4668-B835-6A391E9395FA}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{C5EED563-DBED-4B24-B2DB-121F5FBE948D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-2400</XPos>
+																		<YPos>25</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-600</XPos>
+																		<YPos>25</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-490.48223</XPos>
+																		<YPos>3</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-328.88325</XPos>
+																		<YPos>25</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>500</XPos>
+																		<YPos>25</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-8</Value>
 													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{FC7EEE24-9BEE-4C00-8E28-760AD5C07C47}" ShortID="352311797">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="HeightPlayer" ID="{250B3ED9-C1E8-4668-B835-6A391E9395FA}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{95F32E61-D4C5-4E74-9148-8B88FA0E1350}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-2400</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-574.61929</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-500</XPos>
+																		<YPos>-12</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-420</XPos>
+																		<YPos>0.09814</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-250</XPos>
+																		<YPos>-8</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-129.31472</XPos>
+																		<YPos>-38.1697</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>500</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -9631,12 +9734,15 @@
 											<ChildrenList>
 												<RandomSequenceContainer Name="BubbleLava_RND" ID="{F541F1E9-D2B9-40E5-808C-936DB0B56FB0}" ShortID="46569741">
 													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="1"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="Lowpass" Type="int16">
 															<ValueList>
-																<Value>48</Value>
+																<Value>49</Value>
 															</ValueList>
 														</Property>
 														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="Pitch" Type="int32">
 															<ValueList>
 																<Value>-700</Value>
@@ -9658,6 +9764,7 @@
 															</ModifierList>
 														</Property>
 														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -10159,6 +10266,31 @@
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{A8F00F96-B156-45AA-862C-FB29EDA0624A}"/>
+														<Position Name="" ID="{150FB91E-DB4C-4B0E-85E2-AAF20D32FADB}">
+															<PropertyList>
+																<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="BubbleLava_RND_Path" ID="{FC31A39D-E84D-4AC9-A1A4-8AB78DA20A53}">
+																	<PropertyList>
+																		<Property Name="LinearTime" Type="bool" Value="False"/>
+																		<Property Name="RandomX" Type="Real64" Value="5"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</ActorMixer>
@@ -10516,6 +10648,114 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
+										</ActorMixer>
+										<ActorMixer Name="Moving_Wall_Mixer" ID="{FAE92C1B-4FD0-444E-9FEC-64947D30282A}" ShortID="1020769098">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="MovingWall_Theo_OS_07_wave" ID="{99ABAAC2-52ED-4618-B638-3B8F91D12BE1}" ShortID="604109304">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MovingWall_Theo_OS_07_wave" ID="{3719D444-331E-4946-AE35-A84D63AB9085}">
+															<Language>SFX</Language>
+															<AudioFile>MovingWall_Theo_OS_07.wave.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="159745595"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MovingWall_Theo_OS_07_wave" ID="{3719D444-331E-4946-AE35-A84D63AB9085}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
+										<ActorMixer Name="GeneralAmb_Mixer" ID="{82D45391-3B9A-4921-AF99-A6B8F5C8E904}" ShortID="627279780">
+											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise_Gain_(Custom)" ID="{A8A048C0-EEE2-4259-AF40-E4F87F85AD78}" ShortID="848025326" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+															<PropertyList>
+																<Property Name="FullBandGain" Type="Real32" Value="15"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="AMB_LP_HellAmbiance_01_Albouys_V3" ID="{50BF73DB-EF67-465A-B20F-F42A9254EA43}" ShortID="593430147">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="OverrideEffect" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise_Gain_(Custom)" ID="{E101998F-BA3C-4B9F-9BD2-D731292EDEB4}" ShortID="662072233" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+																	<PropertyList>
+																		<Property Name="FullBandGain" Type="Real32" Value="10"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AMB_LP_HellAmbiance_01_Albouys_V3" ID="{BA7A36F3-C607-4A81-97E9-F3C88C9D6A7B}">
+															<Language>SFX</Language>
+															<AudioFile>AMB_LP_HellAmbiance_01_Albouys_V3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="162158598"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AMB_LP_HellAmbiance_01_Albouys_V3" ID="{BA7A36F3-C607-4A81-97E9-F3C88C9D6A7B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
+										<ActorMixer Name="Magma_Mixer" ID="{A09E523C-A7DE-4DE5-B4E6-1111ED7C8ED0}" ShortID="5372415">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
 										</ActorMixer>
 									</ChildrenList>
 								</Folder>
@@ -11069,7 +11309,12 @@
 																		<Property Name="Pitch" Type="int32">
 																			<ModifierList>
 																				<ModifierInfo>
-																					<Modifier Name="" ID="{C982DFBE-2B66-4012-90D5-806A85B4D54D}"/>
+																					<Modifier Name="" ID="{C982DFBE-2B66-4012-90D5-806A85B4D54D}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="202"/>
+																						</PropertyList>
+																					</Modifier>
 																				</ModifierInfo>
 																			</ModifierList>
 																		</Property>
@@ -11104,6 +11349,11 @@
 																		<Sound Name="TestSkeletonVoice_04" ID="{115BE55C-D59B-461B-916A-8080A2DD6F1C}" ShortID="904053151">
 																			<PropertyList>
 																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																				<Property Name="Pitch" Type="int32">
+																					<ValueList>
+																						<Value>280</Value>
+																					</ValueList>
+																				</Property>
 																				<Property Name="UserAuxSendVolume0" Type="Real64">
 																					<ValueList>
 																						<Value>-8</Value>
@@ -11135,78 +11385,6 @@
 																			</ChildrenList>
 																			<ActiveSourceList>
 																				<ActiveSource Name="TestSkeletonVoice_04" ID="{8061FD9F-FB25-4D76-97E3-75A4407658DD}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="TestSkeletonVoice_01" ID="{4C8F6B72-3023-45C4-8D7B-2C5594EC07CB}" ShortID="100090824">
-																			<PropertyList>
-																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																				<Property Name="UserAuxSendVolume0" Type="Real64">
-																					<ValueList>
-																						<Value>-8</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Attenuation">
-																					<ObjectRef Name="SKDist_Att" ID="{6933FD4D-AC59-4865-9000-C18AFCA1D526}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
-																				</Reference>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																				<Reference Name="UserAuxSend0">
-																					<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="TestSkeletonVoice_01" ID="{6E0B37F2-E7C7-4DF2-AE08-8CA03BFEC50B}">
-																					<Language>SFX</Language>
-																					<AudioFile>TestSkeletonVoice_01.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="364397768"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="TestSkeletonVoice_01" ID="{6E0B37F2-E7C7-4DF2-AE08-8CA03BFEC50B}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="TestSkeletonVoice_02" ID="{47679E1E-8302-4B9C-A8F8-56602A001984}" ShortID="517185151">
-																			<PropertyList>
-																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																				<Property Name="UserAuxSendVolume0" Type="Real64">
-																					<ValueList>
-																						<Value>-8</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Attenuation">
-																					<ObjectRef Name="SKDist_Att" ID="{6933FD4D-AC59-4865-9000-C18AFCA1D526}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
-																				</Reference>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																				<Reference Name="UserAuxSend0">
-																					<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="TestSkeletonVoice_02" ID="{00FC5C2D-16C7-4ABE-ABE3-C2DED152B5B9}">
-																					<Language>SFX</Language>
-																					<AudioFile>TestSkeletonVoice_02.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="901550107"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="TestSkeletonVoice_02" ID="{00FC5C2D-16C7-4ABE-ABE3-C2DED152B5B9}" Platform="Linked"/>
 																			</ActiveSourceList>
 																		</Sound>
 																	</ChildrenList>
@@ -11718,21 +11896,9 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<RandomSequenceContainer Name="Death_RND" ID="{B83E90C2-B7DF-41BC-9F20-9583851A4191}" ShortID="84962322">
+														<RandomSequenceContainer Name="Death_SEQ" ID="{794A67C7-0292-4C32-92C1-80D8DE8587CE}" ShortID="616516368">
 															<PropertyList>
-																<Property Name="Pitch" Type="int32">
-																	<ModifierList>
-																		<ModifierInfo>
-																			<Modifier Name="" ID="{58EAB7D9-DDDC-40C3-A4D5-BFD10F4F822E}">
-																				<PropertyList>
-																					<Property Name="Enabled" Type="bool" Value="True"/>
-																					<Property Name="Max" Type="Real64" Value="909"/>
-																					<Property Name="Min" Type="Real64" Value="-379"/>
-																				</PropertyList>
-																			</Modifier>
-																		</ModifierInfo>
-																	</ModifierList>
-																</Property>
+																<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -11744,12 +11910,22 @@
 															</ReferenceList>
 															<ChildrenList>
 																<Sound Name="Mob_OS_SkeletonDistDeath_01" ID="{F621C9FE-D46B-4F45-A738-B40A73EA8815}" ShortID="910464614">
+																	<PropertyList>
+																		<Property Name="UserAuxSendVolume0" Type="Real64">
+																			<ValueList>
+																				<Value>-8</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																		</Reference>
 																		<Reference Name="OutputBus">
-																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																			<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
@@ -11765,7 +11941,137 @@
 																		<ActiveSource Name="Mob_OS_SkeletonDistDeath_01" ID="{45D92849-E25D-4F63-870E-508A0F0579DE}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
+																<Sound Name="TestSkeletonVoice_01" ID="{4C8F6B72-3023-45C4-8D7B-2C5594EC07CB}" ShortID="100090824">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+																		<Property Name="Pitch" Type="int32">
+																			<ValueList>
+																				<Value>230</Value>
+																			</ValueList>
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{09064C66-7A40-4A6A-8A90-FE113DA73DF4}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="100"/>
+																							<Property Name="Min" Type="Real64" Value="-50"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+																		<Property Name="PriorityDistanceOffset" Type="int16">
+																			<ValueList>
+																				<Value>-20</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="UserAuxSendVolume0" Type="Real64">
+																			<ValueList>
+																				<Value>-8</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<Custom CreatedFrom="{6933FD4D-AC59-4865-9000-C18AFCA1D526}">
+																				<Attenuation Name="SKDist_Att (Custom)" ID="{D7A0BA23-FCC2-4D10-9ACA-9DF4F03B91B6}" ShortID="562706017">
+																					<PropertyList>
+																						<Property Name="RadiusMax" Type="Real64" Value="1500"/>
+																					</PropertyList>
+																					<CurveUsageInfoList>
+																						<VolumeDryUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																								<Curve Name="VolumeDry" ID="{CC42DF48-4833-4537-B266-CD2652198309}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="3"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>0</YPos>
+																											<Flags>5</Flags>
+																											<SegmentShape>Exp1</SegmentShape>
+																										</Point>
+																										<Point>
+																											<XPos>1500</XPos>
+																											<YPos>-200</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</CurveUsageInfo>
+																						</VolumeDryUsage>
+																						<VolumeWetGameUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																						</VolumeWetGameUsage>
+																						<VolumeWetUserUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																						</VolumeWetUserUsage>
+																						<LowPassFilterUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</LowPassFilterUsage>
+																						<HighPassFilterUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</HighPassFilterUsage>
+																						<SpreadUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																								<Curve Name="Spread" ID="{726022B3-738E-48E3-B12F-97B2F1110266}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="1"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>70</YPos>
+																											<Flags>5</Flags>
+																											<SegmentShape>Log1</SegmentShape>
+																										</Point>
+																										<Point>
+																											<XPos>1500</XPos>
+																											<YPos>10</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</CurveUsageInfo>
+																						</SpreadUsage>
+																						<FocusUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</FocusUsage>
+																					</CurveUsageInfoList>
+																				</Attenuation>
+																			</Custom>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="TestSkeletonVoice_01" ID="{6E0B37F2-E7C7-4DF2-AE08-8CA03BFEC50B}">
+																			<Language>SFX</Language>
+																			<AudioFile>TestSkeletonVoice_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="364397768"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="TestSkeletonVoice_01" ID="{6E0B37F2-E7C7-4DF2-AE08-8CA03BFEC50B}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
 															</ChildrenList>
+															<Playlist>
+																<ItemRef Name="TestSkeletonVoice_01" ID="{4C8F6B72-3023-45C4-8D7B-2C5594EC07CB}"/>
+																<ItemRef Name="Mob_OS_SkeletonDistDeath_01" ID="{F621C9FE-D46B-4F45-A738-B40A73EA8815}"/>
+															</Playlist>
 														</RandomSequenceContainer>
 													</ChildrenList>
 												</ActorMixer>
@@ -12111,6 +12417,19 @@
 																<RandomSequenceContainer Name="SKdist_Idle_RND" ID="{CF2927CC-F9B0-42A7-96B3-A1A472EDE395}" ShortID="911155827">
 																	<PropertyList>
 																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{24CCCFF4-1A0E-4607-A895-3B7893E199B7}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="278"/>
+																							<Property Name="Min" Type="Real64" Value="-126"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
 																		<Property Name="UserAuxSendVolume0" Type="Real64">
 																			<ValueList>
 																				<Value>-8</Value>
@@ -12135,6 +12454,11 @@
 																		<Sound Name="TestSkeletonVoice_04" ID="{DEDF179C-CBEA-46A7-8869-0211E3F43E1E}" ShortID="807786982">
 																			<PropertyList>
 																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																				<Property Name="Pitch" Type="int32">
+																					<ValueList>
+																						<Value>-300</Value>
+																					</ValueList>
+																				</Property>
 																				<Property Name="UserAuxSendVolume0" Type="Real64">
 																					<ValueList>
 																						<Value>-8</Value>
@@ -12166,110 +12490,6 @@
 																			</ChildrenList>
 																			<ActiveSourceList>
 																				<ActiveSource Name="TestSkeletonVoice_04" ID="{505ABC03-7E5D-460B-9315-606E4BF7226A}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="TestSkeletonVoice_01" ID="{E98E45AF-3408-4F8D-9F51-2F6DCB63A6E3}" ShortID="707825987">
-																			<PropertyList>
-																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																				<Property Name="UserAuxSendVolume0" Type="Real64">
-																					<ValueList>
-																						<Value>-8</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Attenuation">
-																					<ObjectRef Name="SKDist_Att" ID="{6933FD4D-AC59-4865-9000-C18AFCA1D526}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
-																				</Reference>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																				<Reference Name="UserAuxSend0">
-																					<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="TestSkeletonVoice_01" ID="{EE51260D-5FC2-4F19-92B6-636CCE1FA56F}">
-																					<Language>SFX</Language>
-																					<AudioFile>TestSkeletonVoice_01.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="364397768"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="TestSkeletonVoice_01" ID="{EE51260D-5FC2-4F19-92B6-636CCE1FA56F}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="TestSkeletonVoice_02" ID="{A3F28361-C358-499D-9C3C-E9FD0AAB527B}" ShortID="201024112">
-																			<PropertyList>
-																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																				<Property Name="UserAuxSendVolume0" Type="Real64">
-																					<ValueList>
-																						<Value>-8</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Attenuation">
-																					<ObjectRef Name="SKDist_Att" ID="{6933FD4D-AC59-4865-9000-C18AFCA1D526}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
-																				</Reference>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																				<Reference Name="UserAuxSend0">
-																					<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="TestSkeletonVoice_02" ID="{2CBDE8B8-9A4A-4033-8C02-603DFFA19CD6}">
-																					<Language>SFX</Language>
-																					<AudioFile>TestSkeletonVoice_02.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="901550107"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="TestSkeletonVoice_02" ID="{2CBDE8B8-9A4A-4033-8C02-603DFFA19CD6}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
-																		<Sound Name="TestSkeletonVoice_03" ID="{AC1906DE-F550-4E8F-B680-308551082F60}" ShortID="767018359">
-																			<PropertyList>
-																				<Property Name="UserAuxSendVolume0" Type="Real64">
-																					<ValueList>
-																						<Value>-8</Value>
-																					</ValueList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																				<Reference Name="UserAuxSend0">
-																					<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="TestSkeletonVoice_03" ID="{54C04612-6FD3-4406-8BAD-8BF6D4542FAE}">
-																					<Language>SFX</Language>
-																					<AudioFile>TestSkeletonVoice_03.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="449605654"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="TestSkeletonVoice_03" ID="{54C04612-6FD3-4406-8BAD-8BF6D4542FAE}" Platform="Linked"/>
 																			</ActiveSourceList>
 																		</Sound>
 																	</ChildrenList>
@@ -12432,51 +12652,196 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Mob_OS_SkeletonCacDeath_01" ID="{5EC783DD-6D29-4381-BBA0-1498558C1649}" ShortID="127012684">
+														<RandomSequenceContainer Name="Death_SEQ" ID="{B9F27187-5F4E-4811-9B76-ADBB5A355ED2}" ShortID="656582000">
 															<PropertyList>
-																<Property Name="Pitch" Type="int32">
-																	<ModifierList>
-																		<ModifierInfo>
-																			<Modifier Name="" ID="{FE191CA5-0894-41C9-A18F-EF99D9A91CAD}">
-																				<PropertyList>
-																					<Property Name="Enabled" Type="bool" Value="True"/>
-																					<Property Name="Max" Type="Real64" Value="303"/>
-																					<Property Name="Min" Type="Real64" Value="-227"/>
-																				</PropertyList>
-																			</Modifier>
-																		</ModifierInfo>
-																	</ModifierList>
-																</Property>
-																<Property Name="UserAuxSendVolume0" Type="Real64">
-																	<ValueList>
-																		<Value>-8</Value>
-																	</ValueList>
-																</Property>
+																<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-																<Reference Name="UserAuxSend0">
-																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Mob_OS_SkeletonCacDeath_01" ID="{02B5FA44-0CA4-4359-AF9B-44811C21DEEA}">
-																	<Language>SFX</Language>
-																	<AudioFile>Mob_OS_SkeletonCacDeath_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="1068231058"/>
-																	</MediaIDList>
-																</AudioFileSource>
+																<Sound Name="Mob_OS_SkeletonCacDeath_01" ID="{5EC783DD-6D29-4381-BBA0-1498558C1649}" ShortID="127012684">
+																	<PropertyList>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{FE191CA5-0894-41C9-A18F-EF99D9A91CAD}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="303"/>
+																							<Property Name="Min" Type="Real64" Value="-227"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="UserAuxSendVolume0" Type="Real64">
+																			<ValueList>
+																				<Value>-8</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonCacDeath_01" ID="{02B5FA44-0CA4-4359-AF9B-44811C21DEEA}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonCacDeath_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1068231058"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonCacDeath_01" ID="{02B5FA44-0CA4-4359-AF9B-44811C21DEEA}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="TestSkeletonVoice_01" ID="{E98E45AF-3408-4F8D-9F51-2F6DCB63A6E3}" ShortID="707825987">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+																		<Property Name="Pitch" Type="int32">
+																			<ValueList>
+																				<Value>-130</Value>
+																			</ValueList>
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{123509BC-F76D-4339-96F8-8EB1F6DFFD61}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="25"/>
+																							<Property Name="Min" Type="Real64" Value="-200"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+																		<Property Name="PriorityDistanceOffset" Type="int16">
+																			<ValueList>
+																				<Value>-20</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="UserAuxSendVolume0" Type="Real64">
+																			<ValueList>
+																				<Value>-8</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<Custom CreatedFrom="{6933FD4D-AC59-4865-9000-C18AFCA1D526}">
+																				<Attenuation Name="SKDist_Att (Custom)" ID="{F0B311EF-B47A-4142-A671-77065F30373C}" ShortID="525741586">
+																					<PropertyList>
+																						<Property Name="RadiusMax" Type="Real64" Value="1500"/>
+																					</PropertyList>
+																					<CurveUsageInfoList>
+																						<VolumeDryUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																								<Curve Name="VolumeDry" ID="{411FADCD-5D2C-48E6-942C-56641059D9C2}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="3"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>0</YPos>
+																											<Flags>5</Flags>
+																											<SegmentShape>Exp1</SegmentShape>
+																										</Point>
+																										<Point>
+																											<XPos>1500</XPos>
+																											<YPos>-200</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</CurveUsageInfo>
+																						</VolumeDryUsage>
+																						<VolumeWetGameUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																						</VolumeWetGameUsage>
+																						<VolumeWetUserUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																						</VolumeWetUserUsage>
+																						<LowPassFilterUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</LowPassFilterUsage>
+																						<HighPassFilterUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</HighPassFilterUsage>
+																						<SpreadUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																								<Curve Name="Spread" ID="{037763D5-CDF3-4387-B6AB-1F2DC158E969}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="1"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>70</YPos>
+																											<Flags>5</Flags>
+																											<SegmentShape>Log1</SegmentShape>
+																										</Point>
+																										<Point>
+																											<XPos>1500</XPos>
+																											<YPos>10</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</CurveUsageInfo>
+																						</SpreadUsage>
+																						<FocusUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</FocusUsage>
+																					</CurveUsageInfoList>
+																				</Attenuation>
+																			</Custom>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="TestSkeletonVoice_01" ID="{EE51260D-5FC2-4F19-92B6-636CCE1FA56F}">
+																			<Language>SFX</Language>
+																			<AudioFile>TestSkeletonVoice_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="364397768"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="TestSkeletonVoice_01" ID="{EE51260D-5FC2-4F19-92B6-636CCE1FA56F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
 															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Mob_OS_SkeletonCacDeath_01" ID="{02B5FA44-0CA4-4359-AF9B-44811C21DEEA}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
+															<Playlist>
+																<ItemRef Name="TestSkeletonVoice_01" ID="{E98E45AF-3408-4F8D-9F51-2F6DCB63A6E3}"/>
+																<ItemRef Name="Mob_OS_SkeletonCacDeath_01" ID="{5EC783DD-6D29-4381-BBA0-1498558C1649}"/>
+															</Playlist>
+														</RandomSequenceContainer>
 													</ChildrenList>
 												</ActorMixer>
 											</ChildrenList>
@@ -15842,7 +16207,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Player_OS_LandDirt" ID="{02B1881F-8E92-4497-8B12-80196C608BDF}" ShortID="1070955241">
+												<Sound Name="SFX_OS_LandBones_GOICO_01_v1" ID="{0D2EA8C9-E8D1-431E-8EBD-E9B48C260FA2}" ShortID="521481305">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -15852,19 +16217,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Player_OS_Land_01_LAURIER_v2" ID="{ED842AD2-4375-4395-BA5F-016610836A0F}">
+														<AudioFileSource Name="SFX_OS_LandBones_GOICO_01_v1" ID="{608869C0-0778-481D-8F75-492E085D0F03}">
 															<Language>SFX</Language>
-															<AudioFile>Player_OS_Land_01_LAURIER_v2.wav</AudioFile>
+															<AudioFile>SFX_OS_LandBones_GOICO_01_v1.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="946985441"/>
+																<MediaID ID="705531483"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_Land_01_LAURIER_v2" ID="{ED842AD2-4375-4395-BA5F-016610836A0F}" Platform="Linked"/>
+														<ActiveSource Name="SFX_OS_LandBones_GOICO_01_v1" ID="{608869C0-0778-481D-8F75-492E085D0F03}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_OS_LandBones_01" ID="{1E09A2C5-8DE2-4DB3-A622-D22135A7F70E}" ShortID="1034206070">
+												<Sound Name="SFX_OS_LandDirt_GOICO_01_v1" ID="{CF48A4D3-0EEB-44F6-97C1-FAA3D17B95F6}" ShortID="454830831">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -15874,19 +16239,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Player_OS_LandBones_01_LAURIER_v2" ID="{6D825698-08E5-440A-BA95-736231613C5A}">
+														<AudioFileSource Name="SFX_OS_LandDirt_GOICO_01_v1" ID="{72D8FE63-5C86-4310-8CEC-EEDF140C9D04}">
 															<Language>SFX</Language>
-															<AudioFile>Player_OS_LandBones_01_LAURIER_v2.wav</AudioFile>
+															<AudioFile>SFX_OS_LandDirt_GOICO_01_v1.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="785895037"/>
+																<MediaID ID="232066212"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_LandBones_01_LAURIER_v2" ID="{6D825698-08E5-440A-BA95-736231613C5A}" Platform="Linked"/>
+														<ActiveSource Name="SFX_OS_LandDirt_GOICO_01_v1" ID="{72D8FE63-5C86-4310-8CEC-EEDF140C9D04}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_OS_LandGrass_01" ID="{34114D2C-A119-45D5-A4D5-97677952E015}" ShortID="455400846">
+												<Sound Name="SFX_OS_LandGrass_GOICO_01_v1" ID="{4356324E-A011-4DBA-87F2-F48C18A29288}" ShortID="620366991">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -15896,19 +16261,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Player_OS_LandGrass_01_LAURIER_v2" ID="{3FD9D143-FADF-4DE4-9D74-DE8FC57246DF}">
+														<AudioFileSource Name="SFX_OS_LandGrass_GOICO_01_v1" ID="{8A7333FA-ADD6-431D-B5A4-1B479BFDBC22}">
 															<Language>SFX</Language>
-															<AudioFile>Player_OS_LandGrass_01_LAURIER_v2.wav</AudioFile>
+															<AudioFile>SFX_OS_LandGrass_GOICO_01_v1.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="799159883"/>
+																<MediaID ID="701497178"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_LandGrass_01_LAURIER_v2" ID="{3FD9D143-FADF-4DE4-9D74-DE8FC57246DF}" Platform="Linked"/>
+														<ActiveSource Name="SFX_OS_LandGrass_GOICO_01_v1" ID="{8A7333FA-ADD6-431D-B5A4-1B479BFDBC22}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_OS_LandMarble_01" ID="{77D665AF-E418-42EA-A9C5-5A5CF5CBFE06}" ShortID="937677961">
+												<Sound Name="SFX_OS_LandMarble_GOICO_01_v1" ID="{E220CAB8-94B5-4D4A-B3C6-CB633A0752E6}" ShortID="262152406">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -15918,19 +16283,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Player_OS_LandMarble_01_LAURIER_v2" ID="{A09F3432-F997-454A-B430-6C23C840DDE5}">
+														<AudioFileSource Name="SFX_OS_LandMarble_GOICO_01_v1" ID="{81541CA1-B9E5-4A13-8B00-AD8C5EC35E29}">
 															<Language>SFX</Language>
-															<AudioFile>Player_OS_LandMarble_01_LAURIER_v2.wav</AudioFile>
+															<AudioFile>SFX_OS_LandMarble_GOICO_01_v1.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="1070802525"/>
+																<MediaID ID="222004766"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_LandMarble_01_LAURIER_v2" ID="{A09F3432-F997-454A-B430-6C23C840DDE5}" Platform="Linked"/>
+														<ActiveSource Name="SFX_OS_LandMarble_GOICO_01_v1" ID="{81541CA1-B9E5-4A13-8B00-AD8C5EC35E29}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_OS_LandRock_01" ID="{14A4E048-8159-401E-AEDF-3DBF110DB400}" ShortID="355005087">
+												<Sound Name="SFX_OS_LandRock_GOICO_01_v1" ID="{A62E975D-E418-40F9-B93D-29AF13D71F27}" ShortID="883986183">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -15940,19 +16305,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Player_OS_LandRock_01_LAURIER_v2" ID="{7FC4FF89-D2CF-4FC4-B2EF-9ADAF8C0E01E}">
+														<AudioFileSource Name="SFX_OS_LandRock_GOICO_01_v1" ID="{C7A95EDD-36F8-4A26-B2B2-0220B0E19B99}">
 															<Language>SFX</Language>
-															<AudioFile>Player_OS_LandRock_01_LAURIER_v2.wav</AudioFile>
+															<AudioFile>SFX_OS_LandRock_GOICO_01_v1.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="242275139"/>
+																<MediaID ID="446005177"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_LandRock_01_LAURIER_v2" ID="{7FC4FF89-D2CF-4FC4-B2EF-9ADAF8C0E01E}" Platform="Linked"/>
+														<ActiveSource Name="SFX_OS_LandRock_GOICO_01_v1" ID="{C7A95EDD-36F8-4A26-B2B2-0220B0E19B99}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_OS_LandWood_01" ID="{F5FF4C02-11CE-45F4-A551-91EC05922EAA}" ShortID="165602279">
+												<Sound Name="SFX_OS_LandWater_GOICO_01_v1" ID="{1EC7765D-C59D-4E03-B95C-D4BB024BF958}" ShortID="401973350">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -15962,97 +16327,142 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Player_OS_LandWood_01_LAURIER_v2" ID="{775A10FB-E77C-45E7-9A29-17FB83898E96}">
+														<AudioFileSource Name="SFX_OS_LandWater_GOICO_01_v1" ID="{10371422-19EF-46A7-BF3D-E7D0EFD648ED}">
 															<Language>SFX</Language>
-															<AudioFile>Player_OS_LandWood_01_LAURIER_v2.wav</AudioFile>
+															<AudioFile>SFX_OS_LandWater_GOICO_01_v1.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="960618887"/>
+																<MediaID ID="519586556"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Player_OS_LandWood_01_LAURIER_v2" ID="{775A10FB-E77C-45E7-9A29-17FB83898E96}" Platform="Linked"/>
+														<ActiveSource Name="SFX_OS_LandWater_GOICO_01_v1" ID="{10371422-19EF-46A7-BF3D-E7D0EFD648ED}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_OS_LandWood_GOICO_01_v1" ID="{D907EEA6-AFA3-4120-BECF-5C8CA8540D5F}" ShortID="411195790">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_OS_LandWood_GOICO_01_v1" ID="{80145FD0-BF63-42A3-853A-F0C152983308}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_OS_LandWood_GOICO_01_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="703188090"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_OS_LandWood_GOICO_01_v1" ID="{80145FD0-BF63-42A3-853A-F0C152983308}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_OS_LandWoodCrate_GOICO_01_v1" ID="{7892CDBA-DD96-4BDE-9F6A-01CDAA14947D}" ShortID="855168899">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_OS_LandWoodCrate_GOICO_01_v1" ID="{F0C6ECFB-0E1B-4A33-8FA3-18060B33683B}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_OS_LandWoodCrate_GOICO_01_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="535599306"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_OS_LandWoodCrate_GOICO_01_v1" ID="{F0C6ECFB-0E1B-4A33-8FA3-18060B33683B}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="Player_OS_LandWood_01" ID="{F5FF4C02-11CE-45F4-A551-91EC05922EAA}"/>
+														<ItemRef Name="SFX_OS_LandGrass_GOICO_01_v1" ID="{4356324E-A011-4DBA-87F2-F48C18A29288}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Player_OS_LandDirt" ID="{02B1881F-8E92-4497-8B12-80196C608BDF}"/>
+														<ItemRef Name="SFX_OS_LandWater_GOICO_01_v1" ID="{1EC7765D-C59D-4E03-B95C-D4BB024BF958}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Player_OS_LandGrass_01" ID="{34114D2C-A119-45D5-A4D5-97677952E015}"/>
+														<ItemRef Name="SFX_OS_LandRock_GOICO_01_v1" ID="{A62E975D-E418-40F9-B93D-29AF13D71F27}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Player_OS_LandRock_01" ID="{14A4E048-8159-401E-AEDF-3DBF110DB400}"/>
+														<ItemRef Name="SFX_OS_LandWood_GOICO_01_v1" ID="{D907EEA6-AFA3-4120-BECF-5C8CA8540D5F}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Player_OS_LandMarble_01" ID="{77D665AF-E418-42EA-A9C5-5A5CF5CBFE06}"/>
+														<ItemRef Name="SFX_OS_LandMarble_GOICO_01_v1" ID="{E220CAB8-94B5-4D4A-B3C6-CB633A0752E6}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Player_OS_LandBones_01" ID="{1E09A2C5-8DE2-4DB3-A622-D22135A7F70E}"/>
+														<ItemRef Name="SFX_OS_LandWoodCrate_GOICO_01_v1" ID="{7892CDBA-DD96-4BDE-9F6A-01CDAA14947D}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="SFX_OS_LandBones_GOICO_01_v1" ID="{0D2EA8C9-E8D1-431E-8EBD-E9B48C260FA2}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="SFX_OS_LandDirt_GOICO_01_v1" ID="{CF48A4D3-0EEB-44F6-97C1-FAA3D17B95F6}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>
 													<Grouping>
 														<SwitchRef Name="Dirt" ID="{582AA115-3908-4988-A027-4CA5D944777B}"/>
 														<ItemList>
-															<ItemRef Name="Player_OS_LandDirt" ID="{02B1881F-8E92-4497-8B12-80196C608BDF}"/>
+															<ItemRef Name="SFX_OS_LandDirt_GOICO_01_v1" ID="{CF48A4D3-0EEB-44F6-97C1-FAA3D17B95F6}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="HollowWood" ID="{4C39F64F-8808-49DB-962F-DAE2302BDFB2}"/>
+														<ItemList>
+															<ItemRef Name="SFX_OS_LandWoodCrate_GOICO_01_v1" ID="{7892CDBA-DD96-4BDE-9F6A-01CDAA14947D}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
 														<SwitchRef Name="Marble" ID="{26008F53-70C5-4250-94E4-85ADD5226647}"/>
 														<ItemList>
-															<ItemRef Name="Player_OS_LandMarble_01" ID="{77D665AF-E418-42EA-A9C5-5A5CF5CBFE06}"/>
+															<ItemRef Name="SFX_OS_LandMarble_GOICO_01_v1" ID="{E220CAB8-94B5-4D4A-B3C6-CB633A0752E6}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
 														<SwitchRef Name="Rock" ID="{9B9060B1-E708-451D-A47A-B7BDBAEB466B}"/>
 														<ItemList>
-															<ItemRef Name="Player_OS_LandRock_01" ID="{14A4E048-8159-401E-AEDF-3DBF110DB400}"/>
+															<ItemRef Name="SFX_OS_LandRock_GOICO_01_v1" ID="{A62E975D-E418-40F9-B93D-29AF13D71F27}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
 														<SwitchRef Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
 														<ItemList>
-															<ItemRef Name="Player_OS_LandBones_01" ID="{1E09A2C5-8DE2-4DB3-A622-D22135A7F70E}"/>
+															<ItemRef Name="SFX_OS_LandBones_GOICO_01_v1" ID="{0D2EA8C9-E8D1-431E-8EBD-E9B48C260FA2}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
 														<SwitchRef Name="Grass" ID="{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}"/>
 														<ItemList>
-															<ItemRef Name="Player_OS_LandGrass_01" ID="{34114D2C-A119-45D5-A4D5-97677952E015}"/>
+															<ItemRef Name="SFX_OS_LandGrass_GOICO_01_v1" ID="{4356324E-A011-4DBA-87F2-F48C18A29288}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Water" ID="{BAC1CACC-E3A0-46E9-A406-125228A7A757}"/>
+														<ItemList>
+															<ItemRef Name="SFX_OS_LandWater_GOICO_01_v1" ID="{1EC7765D-C59D-4E03-B95C-D4BB024BF958}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
 														<SwitchRef Name="Wood" ID="{C46FAED0-B41E-4EE9-9947-400381ADF4E9}"/>
 														<ItemList>
-															<ItemRef Name="Player_OS_LandWood_01" ID="{F5FF4C02-11CE-45F4-A551-91EC05922EAA}"/>
+															<ItemRef Name="SFX_OS_LandWood_GOICO_01_v1" ID="{D907EEA6-AFA3-4120-BECF-5C8CA8540D5F}"/>
 														</ItemList>
 													</Grouping>
 												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
-										<RandomSequenceContainer Name="Jump_RND" ID="{82E11807-4D09-4997-93D1-8247BBD5467E}" ShortID="943034069">
-											<PropertyList>
-												<Property Name="UserAuxSendVolume0" Type="Real64">
-													<ValueList>
-														<Value>-5</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-										</RandomSequenceContainer>
 										<Sound Name="Player_Dash" ID="{0F7C158D-1222-462A-A2BE-0DBD5D0C84D1}" ShortID="95040543">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
@@ -16135,7 +16545,7 @@
 												<ActiveSource Name="SoundSeed Air Woosh" ID="{EF4D882A-3077-4C1A-B37D-2B97B5240686}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<RandomSequenceContainer Name="Player_Jump" ID="{AF5EACF2-B4E8-4DC8-A465-7819B48F5818}" ShortID="455400466">
+										<RandomSequenceContainer Name="PlayeVoicer_Jump" ID="{AF5EACF2-B4E8-4DC8-A465-7819B48F5818}" ShortID="455400466">
 											<PropertyList>
 												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 											</PropertyList>
@@ -16265,12 +16675,250 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<SwitchContainer Name="Jump_Switch" ID="{A37200C9-7E07-4E3B-8D55-0148298C2657}" ShortID="922004954">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="Grass" ID="{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="FTPS_Ground_Texture" ID="{114D3573-0162-443F-904A-5CBCB4D72526}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_OS_JumpBones_GOICO_01_v1" ID="{6F454BD2-A82E-446E-B4B6-B1F6F653BF38}" ShortID="1008110046">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_OS_JumpBones_GOICO_01_v1" ID="{C818FB8D-7679-402D-87D1-A3AD4EBCB826}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_OS_JumpBones_GOICO_01_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="235545300"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_OS_JumpBones_GOICO_01_v1" ID="{C818FB8D-7679-402D-87D1-A3AD4EBCB826}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_OS_JumpDirt_GOICO_01_v1" ID="{4A6C2D9D-9227-4C2F-92F7-DFC84ABA141A}" ShortID="545198159">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_OS_JumpDirt_GOICO_01_v1" ID="{C0C96327-9A3C-4630-B79C-957DD12E1420}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_OS_JumpDirt_GOICO_01_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="43230357"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_OS_JumpDirt_GOICO_01_v1" ID="{C0C96327-9A3C-4630-B79C-957DD12E1420}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_OS_JumpGrass_GOICO_01_v1" ID="{2D6CC95F-62F0-4EFF-B16E-8F0F0E2C88B6}" ShortID="773191020">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_OS_JumpGrass_GOICO_01_v1" ID="{634B4E78-8936-4EA5-9D9B-260F19A3716C}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_OS_JumpGrass_GOICO_01_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="265675621"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_OS_JumpGrass_GOICO_01_v1" ID="{634B4E78-8936-4EA5-9D9B-260F19A3716C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_OS_JumpMarble_GOICO_01_v1" ID="{91381F8C-A44B-44C6-9D9A-CAE20CCDAA68}" ShortID="392387137">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_OS_JumpMarble_GOICO_01_v1" ID="{7A88B4AD-E0A5-400F-850E-11788A448D1B}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_OS_JumpMarble_GOICO_01_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="584267432"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_OS_JumpMarble_GOICO_01_v1" ID="{7A88B4AD-E0A5-400F-850E-11788A448D1B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_OS_JumpRock_GOICO_01_v1" ID="{CB06581B-52C6-43BD-A04B-406756960C79}" ShortID="377806936">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_OS_JumpRock_GOICO_01_v1" ID="{DC674A1E-8186-4187-9F32-220B5E260DB3}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_OS_JumpRock_GOICO_01_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="574786028"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_OS_JumpRock_GOICO_01_v1" ID="{DC674A1E-8186-4187-9F32-220B5E260DB3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_OS_JumpWater_GOICO_01_v1" ID="{9ECFF0BC-EF93-446A-A8AD-4BF0D1AF5115}" ShortID="66110859">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_OS_JumpWater_GOICO_01_v1" ID="{0CEC62B9-353D-4889-BA22-6122D783EE70}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_OS_JumpWater_GOICO_01_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1047376910"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_OS_JumpWater_GOICO_01_v1" ID="{0CEC62B9-353D-4889-BA22-6122D783EE70}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_OS_JumpWood_GOICO_01_v1" ID="{847B73E7-7BA5-465F-BA23-BE407173746E}" ShortID="420003736">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_OS_JumpWood_GOICO_01_v1" ID="{E09741F5-09AD-44D1-AC77-DA075DFD397D}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_OS_JumpWood_GOICO_01_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="218005042"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_OS_JumpWood_GOICO_01_v1" ID="{E09741F5-09AD-44D1-AC77-DA075DFD397D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="SFX_OS_JumpRock_GOICO_01_v1" ID="{CB06581B-52C6-43BD-A04B-406756960C79}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="SFX_OS_JumpGrass_GOICO_01_v1" ID="{2D6CC95F-62F0-4EFF-B16E-8F0F0E2C88B6}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="SFX_OS_JumpMarble_GOICO_01_v1" ID="{91381F8C-A44B-44C6-9D9A-CAE20CCDAA68}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="SFX_OS_JumpDirt_GOICO_01_v1" ID="{4A6C2D9D-9227-4C2F-92F7-DFC84ABA141A}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="SFX_OS_JumpWater_GOICO_01_v1" ID="{9ECFF0BC-EF93-446A-A8AD-4BF0D1AF5115}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="SFX_OS_JumpBones_GOICO_01_v1" ID="{6F454BD2-A82E-446E-B4B6-B1F6F653BF38}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="SFX_OS_JumpWood_GOICO_01_v1" ID="{847B73E7-7BA5-465F-BA23-BE407173746E}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Dirt" ID="{582AA115-3908-4988-A027-4CA5D944777B}"/>
+														<ItemList>
+															<ItemRef Name="SFX_OS_JumpDirt_GOICO_01_v1" ID="{4A6C2D9D-9227-4C2F-92F7-DFC84ABA141A}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Marble" ID="{26008F53-70C5-4250-94E4-85ADD5226647}"/>
+														<ItemList>
+															<ItemRef Name="SFX_OS_JumpMarble_GOICO_01_v1" ID="{91381F8C-A44B-44C6-9D9A-CAE20CCDAA68}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Rock" ID="{9B9060B1-E708-451D-A47A-B7BDBAEB466B}"/>
+														<ItemList>
+															<ItemRef Name="SFX_OS_JumpRock_GOICO_01_v1" ID="{CB06581B-52C6-43BD-A04B-406756960C79}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
+														<ItemList>
+															<ItemRef Name="SFX_OS_JumpBones_GOICO_01_v1" ID="{6F454BD2-A82E-446E-B4B6-B1F6F653BF38}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Grass" ID="{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}"/>
+														<ItemList>
+															<ItemRef Name="SFX_OS_JumpGrass_GOICO_01_v1" ID="{2D6CC95F-62F0-4EFF-B16E-8F0F0E2C88B6}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Water" ID="{BAC1CACC-E3A0-46E9-A406-125228A7A757}"/>
+														<ItemList>
+															<ItemRef Name="SFX_OS_JumpWater_GOICO_01_v1" ID="{9ECFF0BC-EF93-446A-A8AD-4BF0D1AF5115}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Wood" ID="{C46FAED0-B41E-4EE9-9947-400381ADF4E9}"/>
+														<ItemList>
+															<ItemRef Name="SFX_OS_JumpWood_GOICO_01_v1" ID="{847B73E7-7BA5-465F-BA23-BE407173746E}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="Jump_RND" ID="{82E11807-4D09-4997-93D1-8247BBD5467E}"/>
-											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Idle" ID="{C50F110B-9788-42D2-80FA-A68BF506F8E8}"/>
 											</GroupingBehavior>
@@ -16287,10 +16935,13 @@
 												<ItemRef Name="Land_Switch" ID="{C97CF8B8-982A-4F0B-800E-990720D44C76}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
+												<ItemRef Name="Jump_Switch" ID="{A37200C9-7E07-4E3B-8D55-0148298C2657}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
 												<ItemRef Name="Get_Hit_RND" ID="{442605CD-F126-493B-9440-9263FCE358BA}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="Player_Jump" ID="{AF5EACF2-B4E8-4DC8-A465-7819B48F5818}"/>
+												<ItemRef Name="PlayeVoicer_Jump" ID="{AF5EACF2-B4E8-4DC8-A465-7819B48F5818}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
@@ -16309,7 +16960,7 @@
 											<Grouping>
 												<SwitchRef Name="Jump" ID="{48A01FA1-801A-4377-B165-AF9E9E1694BE}"/>
 												<ItemList>
-													<ItemRef Name="Player_Jump" ID="{AF5EACF2-B4E8-4DC8-A465-7819B48F5818}"/>
+													<ItemRef Name="PlayeVoicer_Jump" ID="{AF5EACF2-B4E8-4DC8-A465-7819B48F5818}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
@@ -17223,7 +17874,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Player_OS_FootstepBones_01_LAURIER_v2" ID="{FEF3AFB2-E571-4835-9943-DA855A1E6EB1}" ShortID="61674429">
+														<Sound Name="SFX_OS_FTPSBones_GOICO_01_v1" ID="{6F54B6FB-C06C-42C3-9E27-51FB2792D45D}" ShortID="509330176">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17233,19 +17884,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Player_OS_FootstepBones_01_LAURIER_v2" ID="{4F3D98EC-6DC3-4444-B366-9CDB0F8E206B}">
+																<AudioFileSource Name="SFX_OS_FTPSBones_GOICO_01_v1" ID="{0B881AD3-A912-45BA-8541-F703D77EB8BC}">
 																	<Language>SFX</Language>
-																	<AudioFile>Player_OS_FootstepBones_01_LAURIER_v2.wav</AudioFile>
+																	<AudioFile>SFX_OS_FTPSBones_GOICO_01_v1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="292996249"/>
+																		<MediaID ID="704901649"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Player_OS_FootstepBones_01_LAURIER_v2" ID="{4F3D98EC-6DC3-4444-B366-9CDB0F8E206B}" Platform="Linked"/>
+																<ActiveSource Name="SFX_OS_FTPSBones_GOICO_01_v1" ID="{0B881AD3-A912-45BA-8541-F703D77EB8BC}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Player_OS_FootstepBones_02_LAURIER_v2" ID="{F9250897-C6D2-4A14-8641-DCC45E19891C}" ShortID="262902522">
+														<Sound Name="SFX_OS_FTPSBones_GOICO_02_v1" ID="{EAA3E04F-050E-4639-95CB-7A0464FAD28F}" ShortID="463572785">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17255,16 +17906,60 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Player_OS_FootstepBones_02_LAURIER_v2" ID="{C200FD92-59FE-4B31-A13C-A0F5906A8618}">
+																<AudioFileSource Name="SFX_OS_FTPSBones_GOICO_02_v1" ID="{668025C4-7CDC-4E9C-AE9A-715F136DC5F3}">
 																	<Language>SFX</Language>
-																	<AudioFile>Player_OS_FootstepBones_02_LAURIER_v2.wav</AudioFile>
+																	<AudioFile>SFX_OS_FTPSBones_GOICO_02_v1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="875094860"/>
+																		<MediaID ID="493386454"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Player_OS_FootstepBones_02_LAURIER_v2" ID="{C200FD92-59FE-4B31-A13C-A0F5906A8618}" Platform="Linked"/>
+																<ActiveSource Name="SFX_OS_FTPSBones_GOICO_02_v1" ID="{668025C4-7CDC-4E9C-AE9A-715F136DC5F3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_OS_FTPSBones_GOICO_03_v1" ID="{8B9F1B80-1608-409B-BB4E-C4D2E3FACBF9}" ShortID="210325278">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_OS_FTPSBones_GOICO_03_v1" ID="{D6DDC247-94B5-450F-AF0D-60DF2157292C}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_OS_FTPSBones_GOICO_03_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="168373177"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_OS_FTPSBones_GOICO_03_v1" ID="{D6DDC247-94B5-450F-AF0D-60DF2157292C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_OS_FTPSBones_GOICO_05_v1" ID="{70691A33-5726-4E66-98AF-6C2D10C691CB}" ShortID="566223892">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_OS_FTPSBones_GOICO_05_v1" ID="{CCE8DBE3-E606-4462-9075-B19C6D5284BD}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_OS_FTPSBones_GOICO_05_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="960491579"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_OS_FTPSBones_GOICO_05_v1" ID="{CCE8DBE3-E606-4462-9075-B19C6D5284BD}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -17279,7 +17974,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Player_OS_FootstepGrass_03_LAURIER_v2" ID="{0F24AF96-59B6-4225-865C-05E9C5B47E39}" ShortID="643158604">
+														<Sound Name="SFX_OS_FTPSGrass_GOICO_01_v1" ID="{92D9B53E-23F8-4DB9-BE46-C95CC2870AEA}" ShortID="267681208">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17289,19 +17984,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Player_OS_FootstepGrass_03_LAURIER_v2" ID="{555EA7A0-04BA-455E-9DFD-0EBDEDC5DBAA}">
+																<AudioFileSource Name="SFX_OS_FTPSGrass_GOICO_01_v1" ID="{F0B5250E-F141-4D67-BB67-196D93C9257A}">
 																	<Language>SFX</Language>
-																	<AudioFile>Player_OS_FootstepGrass_03_LAURIER_v2.wav</AudioFile>
+																	<AudioFile>SFX_OS_FTPSGrass_GOICO_01_v1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="105283502"/>
+																		<MediaID ID="565501567"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Player_OS_FootstepGrass_03_LAURIER_v2" ID="{555EA7A0-04BA-455E-9DFD-0EBDEDC5DBAA}" Platform="Linked"/>
+																<ActiveSource Name="SFX_OS_FTPSGrass_GOICO_01_v1" ID="{F0B5250E-F141-4D67-BB67-196D93C9257A}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Player_OS_FootstepGrass_01_LAURIER_v2" ID="{2A25F706-2B40-457F-A222-77BE8AD1CC17}" ShortID="256832302">
+														<Sound Name="SFX_OS_FTPSGrass_GOICO_05_v1" ID="{D72B6C6E-90F3-42DD-85F8-490DEF16F545}" ShortID="190026594">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17311,19 +18006,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Player_OS_FootstepGrass_01_LAURIER_v2" ID="{1123D649-238C-4F21-83FD-B10B0064C164}">
+																<AudioFileSource Name="SFX_OS_FTPSGrass_GOICO_05_v1" ID="{724A6F66-B274-4694-B1C1-0A35BF2DF118}">
 																	<Language>SFX</Language>
-																	<AudioFile>Player_OS_FootstepGrass_01_LAURIER_v2.wav</AudioFile>
+																	<AudioFile>SFX_OS_FTPSGrass_GOICO_05_v1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="870274469"/>
+																		<MediaID ID="679617177"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Player_OS_FootstepGrass_01_LAURIER_v2" ID="{1123D649-238C-4F21-83FD-B10B0064C164}" Platform="Linked"/>
+																<ActiveSource Name="SFX_OS_FTPSGrass_GOICO_05_v1" ID="{724A6F66-B274-4694-B1C1-0A35BF2DF118}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Player_OS_FootstepGrass_02_LAURIER_v2" ID="{113D5214-496C-4CE0-BE62-86E1BAD18AA6}" ShortID="142131956">
+														<Sound Name="SFX_OS_FTPSGrass_GOICO_07_v1" ID="{EF510F48-A959-4EFF-8EA0-5709993776FF}" ShortID="304915686">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17333,16 +18028,38 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Player_OS_FootstepGrass_02_LAURIER_v2" ID="{CF32817B-6E6B-4A89-9B99-3B2FB98B79A1}">
+																<AudioFileSource Name="SFX_OS_FTPSGrass_GOICO_07_v1" ID="{19A8E269-7E5A-4500-A459-4F7F5ABD6531}">
 																	<Language>SFX</Language>
-																	<AudioFile>Player_OS_FootstepGrass_02_LAURIER_v2.wav</AudioFile>
+																	<AudioFile>SFX_OS_FTPSGrass_GOICO_07_v1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="14622240"/>
+																		<MediaID ID="77810719"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Player_OS_FootstepGrass_02_LAURIER_v2" ID="{CF32817B-6E6B-4A89-9B99-3B2FB98B79A1}" Platform="Linked"/>
+																<ActiveSource Name="SFX_OS_FTPSGrass_GOICO_07_v1" ID="{19A8E269-7E5A-4500-A459-4F7F5ABD6531}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_OS_FTPSGrass_GOICO_08_v1" ID="{E84EE360-337A-489A-8B63-EAB669045C99}" ShortID="114208165">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_OS_FTPSGrass_GOICO_08_v1" ID="{B84DE206-1F1F-4D5D-AC2B-8E373CB12F00}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_OS_FTPSGrass_GOICO_08_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="122166065"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_OS_FTPSGrass_GOICO_08_v1" ID="{B84DE206-1F1F-4D5D-AC2B-8E373CB12F00}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -17364,7 +18081,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Player_OS_FootstepMarble_01_LAURIER_v3" ID="{F7E83F5E-EF74-419E-8A38-592F485CCEB9}" ShortID="757856480">
+														<Sound Name="SFX_OS_FTPSMarble_GOICO_02_v1" ID="{CE984CB6-A26B-4A3F-9154-2BF7475BA2BC}" ShortID="1009191735">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17374,19 +18091,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Player_OS_FootstepMarble_01_LAURIER_v3" ID="{3905AE7E-05EA-44F2-9753-4FE7DE3AFFC3}">
+																<AudioFileSource Name="SFX_OS_FTPSMarble_GOICO_02_v1" ID="{A45F359D-595B-4A69-835C-2F62020DF984}">
 																	<Language>SFX</Language>
-																	<AudioFile>Player_OS_FootstepMarble_01_LAURIER_v3.wav</AudioFile>
+																	<AudioFile>SFX_OS_FTPSMarble_GOICO_02_v1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="297167024"/>
+																		<MediaID ID="994382458"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Player_OS_FootstepMarble_01_LAURIER_v3" ID="{3905AE7E-05EA-44F2-9753-4FE7DE3AFFC3}" Platform="Linked"/>
+																<ActiveSource Name="SFX_OS_FTPSMarble_GOICO_02_v1" ID="{A45F359D-595B-4A69-835C-2F62020DF984}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Player_OS_FootstepMarble_02_LAURIER_v3" ID="{2BFB5462-97C3-4BEC-8D56-38BC9711B697}" ShortID="834593716">
+														<Sound Name="SFX_OS_FTPSMarble_GOICO_03_v1" ID="{773B4BF1-B9AE-4C19-A12D-07530B81AE8A}" ShortID="287026685">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17396,19 +18113,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Player_OS_FootstepMarble_02_LAURIER_v3" ID="{9BC60E62-586D-4A52-84AF-A3A66C703B69}">
+																<AudioFileSource Name="SFX_OS_FTPSMarble_GOICO_03_v1" ID="{E43EF0FF-DCB6-4578-9736-8875A9EAA1D2}">
 																	<Language>SFX</Language>
-																	<AudioFile>Player_OS_FootstepMarble_02_LAURIER_v3.wav</AudioFile>
+																	<AudioFile>SFX_OS_FTPSMarble_GOICO_03_v1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="1059082895"/>
+																		<MediaID ID="765252156"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Player_OS_FootstepMarble_02_LAURIER_v3" ID="{9BC60E62-586D-4A52-84AF-A3A66C703B69}" Platform="Linked"/>
+																<ActiveSource Name="SFX_OS_FTPSMarble_GOICO_03_v1" ID="{E43EF0FF-DCB6-4578-9736-8875A9EAA1D2}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Player_OS_FootstepMarble_03_LAURIER_v3" ID="{238947C2-339D-4043-877D-F2754086E861}" ShortID="164444879">
+														<Sound Name="SFX_OS_FTPSMarble_GOICO_04_v1" ID="{8847DC32-A898-4AAE-AC6B-29D748C2F749}" ShortID="351583812">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17418,16 +18135,38 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Player_OS_FootstepMarble_03_LAURIER_v3" ID="{357089CB-5A65-4C5F-970D-EDD649D25604}">
+																<AudioFileSource Name="SFX_OS_FTPSMarble_GOICO_04_v1" ID="{73CE90E9-6689-4436-BFB7-B46A91744844}">
 																	<Language>SFX</Language>
-																	<AudioFile>Player_OS_FootstepMarble_03_LAURIER_v3.wav</AudioFile>
+																	<AudioFile>SFX_OS_FTPSMarble_GOICO_04_v1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="472552462"/>
+																		<MediaID ID="170413653"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Player_OS_FootstepMarble_03_LAURIER_v3" ID="{357089CB-5A65-4C5F-970D-EDD649D25604}" Platform="Linked"/>
+																<ActiveSource Name="SFX_OS_FTPSMarble_GOICO_04_v1" ID="{73CE90E9-6689-4436-BFB7-B46A91744844}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_OS_FTPSMarble_GOICO_05_v1" ID="{8B15DF9D-824C-4506-9F65-E5EE39667299}" ShortID="682997514">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_OS_FTPSMarble_GOICO_05_v1" ID="{49502898-2DA2-4171-B54D-9355E4EAB177}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_OS_FTPSMarble_GOICO_05_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="369875260"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_OS_FTPSMarble_GOICO_05_v1" ID="{49502898-2DA2-4171-B54D-9355E4EAB177}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -17449,7 +18188,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Player_OS_FootstepDirt_01_LAURIER_v2" ID="{35924279-9D55-48B3-9924-3172269C690C}" ShortID="870686086">
+														<Sound Name="SFX_OS_FTPSDirt_GOICO_01_v1" ID="{21C0F6FA-737F-4503-8360-92147F380980}" ShortID="608621610">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17459,19 +18198,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Player_OS_FootstepDirt_01_LAURIER_v2" ID="{05AB2B61-E1EA-4457-A88C-1AC42E132E58}">
+																<AudioFileSource Name="SFX_OS_FTPSDirt_GOICO_01_v1" ID="{1853D613-727D-4752-94FC-B3C777852E67}">
 																	<Language>SFX</Language>
-																	<AudioFile>Player_OS_FootstepDirt_01_LAURIER_v2.wav</AudioFile>
+																	<AudioFile>SFX_OS_FTPSDirt_GOICO_01_v1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="738268439"/>
+																		<MediaID ID="62256714"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Player_OS_FootstepDirt_01_LAURIER_v2" ID="{05AB2B61-E1EA-4457-A88C-1AC42E132E58}" Platform="Linked"/>
+																<ActiveSource Name="SFX_OS_FTPSDirt_GOICO_01_v1" ID="{1853D613-727D-4752-94FC-B3C777852E67}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Player_OS_FootstepDirt_02_LAURIER_v2" ID="{74E0EA9A-AA3C-4FF8-8B66-7BE2E00C5B10}" ShortID="792799108">
+														<Sound Name="SFX_OS_FTPSDirt_GOICO_02_v1" ID="{A992846C-99FA-4627-959A-979EB7CB5F92}" ShortID="529704617">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17481,24 +18220,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Player_OS_FootstepDirt_02_LAURIER_v2" ID="{6D0139DB-B6B3-484E-98E4-39CDE6337729}">
-																	<PropertyList>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="0.142630385487528"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimEnd" Type="Real64" Value="0.354538386783285"/>
-																	</PropertyList>
+																<AudioFileSource Name="SFX_OS_FTPSDirt_GOICO_02_v1" ID="{D8E01569-F82F-49B7-8BED-1F298965EC80}">
 																	<Language>SFX</Language>
-																	<AudioFile>Player_OS_FootstepDirt_02_LAURIER_v2.wav</AudioFile>
+																	<AudioFile>SFX_OS_FTPSDirt_GOICO_02_v1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="306433734"/>
+																		<MediaID ID="546562762"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Player_OS_FootstepDirt_02_LAURIER_v2" ID="{6D0139DB-B6B3-484E-98E4-39CDE6337729}" Platform="Linked"/>
+																<ActiveSource Name="SFX_OS_FTPSDirt_GOICO_02_v1" ID="{D8E01569-F82F-49B7-8BED-1F298965EC80}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Player_OS_FootstepDirt_03_LAURIER_v2" ID="{E8C01C10-D507-46D1-A776-3E02E1BAC112}" ShortID="890337730">
+														<Sound Name="SFX_OS_FTPSDirt_GOICO_03_v1" ID="{19EBB507-27FF-4BDF-B73D-2F30374F780F}" ShortID="832986693">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17508,21 +18242,16 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Player_OS_FootstepDirt_03_LAURIER_v2" ID="{2DABF6DD-E9D1-4E9D-8C2C-B45409889A67}">
-																	<PropertyList>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0708017955481512"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimEnd" Type="Real64" Value="0.348828358554306"/>
-																	</PropertyList>
+																<AudioFileSource Name="SFX_OS_FTPSDirt_GOICO_03_v1" ID="{5AC3FF4B-1BCF-4487-A9B2-7AA979061DFA}">
 																	<Language>SFX</Language>
-																	<AudioFile>Player_OS_FootstepDirt_03_LAURIER_v2.wav</AudioFile>
+																	<AudioFile>SFX_OS_FTPSDirt_GOICO_03_v1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="26123010"/>
+																		<MediaID ID="503998708"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Player_OS_FootstepDirt_03_LAURIER_v2" ID="{2DABF6DD-E9D1-4E9D-8C2C-B45409889A67}" Platform="Linked"/>
+																<ActiveSource Name="SFX_OS_FTPSDirt_GOICO_03_v1" ID="{5AC3FF4B-1BCF-4487-A9B2-7AA979061DFA}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -17557,7 +18286,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Player_OS_FootstepRock_01_LeBozec_v2" ID="{F510E64F-1B15-4652-9016-A8FA12E3C7FE}" ShortID="327077945">
+														<Sound Name="SFX_OS_FTPSRock_GOICO_02_v1" ID="{3BA7ACBE-D7CA-4B9D-80BB-78BA6617364D}" ShortID="713992809">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17567,30 +18296,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Player_OS_FootstepRock_01_LeBozec_v2" ID="{D4DC3A13-5D8F-4E98-859D-DFD9CC4491A4}">
-																	<PropertyList>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="0.180186848072562"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="0.648301133786849"/>
-																		<Property Name="TrimEnd" Type="Real64" Value="1.08112108843537"/>
-																		<Property Name="VolumeOffset" Type="Real64">
-																			<ValueList>
-																				<Value>6</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
+																<AudioFileSource Name="SFX_OS_FTPSRock_GOICO_02_v1" ID="{4994DE51-E811-432E-83B8-68EF40099C05}">
 																	<Language>SFX</Language>
-																	<AudioFile>Player_OS_FootstepRock_01_LeBozec_v2.wav</AudioFile>
+																	<AudioFile>SFX_OS_FTPSRock_GOICO_02_v1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="24236967"/>
+																		<MediaID ID="971885062"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Player_OS_FootstepRock_01_LeBozec_v2" ID="{D4DC3A13-5D8F-4E98-859D-DFD9CC4491A4}" Platform="Linked"/>
+																<ActiveSource Name="SFX_OS_FTPSRock_GOICO_02_v1" ID="{4994DE51-E811-432E-83B8-68EF40099C05}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Player_OS_FootstepRock_02_LeBozec_v2" ID="{40D66326-C486-4369-AA48-4A2C72CFC3CE}" ShortID="61549798">
+														<Sound Name="SFX_OS_FTPSRock_GOICO_03_v1" ID="{1DB716C9-2389-438F-BAFD-34C8188C5ECA}" ShortID="908774975">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17600,30 +18318,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Player_OS_FootstepRock_02_LeBozec_v2" ID="{EC87882C-8937-406F-984E-9B1033BDE003}">
-																	<PropertyList>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="0.173830385487528"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="0.521491156462585"/>
-																		<Property Name="TrimEnd" Type="Real64" Value="0.83377052154195"/>
-																		<Property Name="VolumeOffset" Type="Real64">
-																			<ValueList>
-																				<Value>6</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
+																<AudioFileSource Name="SFX_OS_FTPSRock_GOICO_03_v1" ID="{85A8989C-6E01-4D19-BD7C-47959E6F28F4}">
 																	<Language>SFX</Language>
-																	<AudioFile>Player_OS_FootstepRock_02_LeBozec_v2.wav</AudioFile>
+																	<AudioFile>SFX_OS_FTPSRock_GOICO_03_v1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="162623936"/>
+																		<MediaID ID="706916459"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Player_OS_FootstepRock_02_LeBozec_v2" ID="{EC87882C-8937-406F-984E-9B1033BDE003}" Platform="Linked"/>
+																<ActiveSource Name="SFX_OS_FTPSRock_GOICO_03_v1" ID="{85A8989C-6E01-4D19-BD7C-47959E6F28F4}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Player_OS_FootstepRock_03_LeBozec_v2" ID="{E32A5AB8-D734-4680-BA56-15FC53F26B86}" ShortID="460830893">
+														<Sound Name="SFX_OS_FTPSRock_GOICO_04_v1" ID="{8927B38D-B72A-4F4A-8F85-4C786847BA4D}" ShortID="399771573">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17633,27 +18340,38 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Player_OS_FootstepRock_03_LeBozec_v2" ID="{59106D8C-CFEA-43B9-B51A-6A507486C879}">
-																	<PropertyList>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0579047619047619"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="0.456620408163265"/>
-																		<Property Name="TrimEnd" Type="Real64" Value="0.770960544217687"/>
-																		<Property Name="VolumeOffset" Type="Real64">
-																			<ValueList>
-																				<Value>6</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
+																<AudioFileSource Name="SFX_OS_FTPSRock_GOICO_04_v1" ID="{D5299777-08DA-4D60-952E-C7B8D2AE6981}">
 																	<Language>SFX</Language>
-																	<AudioFile>Player_OS_FootstepRock_03_LeBozec_v2.wav</AudioFile>
+																	<AudioFile>SFX_OS_FTPSRock_GOICO_04_v1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="64497861"/>
+																		<MediaID ID="175298349"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Player_OS_FootstepRock_03_LeBozec_v2" ID="{59106D8C-CFEA-43B9-B51A-6A507486C879}" Platform="Linked"/>
+																<ActiveSource Name="SFX_OS_FTPSRock_GOICO_04_v1" ID="{D5299777-08DA-4D60-952E-C7B8D2AE6981}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_OS_FTPSRock_GOICO_05_v1" ID="{87CB71A2-A732-485D-B396-72C8294FD110}" ShortID="1055797760">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_OS_FTPSRock_GOICO_05_v1" ID="{E376F293-7705-4625-8F71-D6112179572E}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_OS_FTPSRock_GOICO_05_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="459831173"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_OS_FTPSRock_GOICO_05_v1" ID="{E376F293-7705-4625-8F71-D6112179572E}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -17705,7 +18423,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<Sound Name="Player_OS_FootstepWood_03_LAURIER_v2" ID="{316A97BE-BF08-4BCF-BAD8-4A670F206F6C}" ShortID="787236865">
+																<Sound Name="SFX_OS_FTPSWood_GOICO_01_v1" ID="{5CA62B21-C04A-43BD-8915-EB8B5500F00E}" ShortID="396432545">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17715,19 +18433,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Player_OS_FootstepWood_03_LAURIER_v2" ID="{BC97377F-7DF5-456E-918F-8D1152BE6B64}">
+																		<AudioFileSource Name="SFX_OS_FTPSWood_GOICO_01_v1" ID="{13330786-617A-4A0C-9F3F-62E3E7EB4EF5}">
 																			<Language>SFX</Language>
-																			<AudioFile>Player_OS_FootstepWood_03_LAURIER_v2.wav</AudioFile>
+																			<AudioFile>SFX_OS_FTPSWood_GOICO_01_v1.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="545147057"/>
+																				<MediaID ID="144054608"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Player_OS_FootstepWood_03_LAURIER_v2" ID="{BC97377F-7DF5-456E-918F-8D1152BE6B64}" Platform="Linked"/>
+																		<ActiveSource Name="SFX_OS_FTPSWood_GOICO_01_v1" ID="{13330786-617A-4A0C-9F3F-62E3E7EB4EF5}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="Player_OS_FootstepWood_02_LAURIER_v2" ID="{3F607F3C-CD6C-497B-B125-46341CDF2957}" ShortID="604513063">
+																<Sound Name="SFX_OS_FTPSWood_GOICO_02_v1" ID="{E335C954-2A94-4952-82C3-A6D00042B9A4}" ShortID="280968066">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17737,19 +18455,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Player_OS_FootstepWood_02_LAURIER_v2" ID="{9ECCA313-2323-4AB9-A13F-5D831D611D17}">
+																		<AudioFileSource Name="SFX_OS_FTPSWood_GOICO_02_v1" ID="{0DBAF849-1C85-4598-A574-BA1BD25C37C3}">
 																			<Language>SFX</Language>
-																			<AudioFile>Player_OS_FootstepWood_02_LAURIER_v2.wav</AudioFile>
+																			<AudioFile>SFX_OS_FTPSWood_GOICO_02_v1.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="875266461"/>
+																				<MediaID ID="595875859"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Player_OS_FootstepWood_02_LAURIER_v2" ID="{9ECCA313-2323-4AB9-A13F-5D831D611D17}" Platform="Linked"/>
+																		<ActiveSource Name="SFX_OS_FTPSWood_GOICO_02_v1" ID="{0DBAF849-1C85-4598-A574-BA1BD25C37C3}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="Player_OS_FootstepWood_01_LAURIER_v2" ID="{4B967D80-020F-4FB4-B407-3D8F233FA0A3}" ShortID="1059464704">
+																<Sound Name="SFX_OS_FTPSWood_GOICO_03_v1" ID="{2ED9212A-C96E-4AAF-9472-338A620688B4}" ShortID="81676230">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -17759,16 +18477,38 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Player_OS_FootstepWood_01_LAURIER_v2" ID="{0ECFBADC-D0D0-4E03-8FE5-B785D21CADA2}">
+																		<AudioFileSource Name="SFX_OS_FTPSWood_GOICO_03_v1" ID="{2ACBAF51-5ED4-411E-8BB2-B954A75B737A}">
 																			<Language>SFX</Language>
-																			<AudioFile>Player_OS_FootstepWood_01_LAURIER_v2.wav</AudioFile>
+																			<AudioFile>SFX_OS_FTPSWood_GOICO_03_v1.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="128046037"/>
+																				<MediaID ID="281005484"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Player_OS_FootstepWood_01_LAURIER_v2" ID="{0ECFBADC-D0D0-4E03-8FE5-B785D21CADA2}" Platform="Linked"/>
+																		<ActiveSource Name="SFX_OS_FTPSWood_GOICO_03_v1" ID="{2ACBAF51-5ED4-411E-8BB2-B954A75B737A}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_OS_FTPSWood_GOICO_04_v1" ID="{BA5E87ED-4345-462F-8E01-2CE93A28F486}" ShortID="465373461">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_OS_FTPSWood_GOICO_04_v1" ID="{0275FF1E-9E42-4DDA-8AC7-11CEAF81E12F}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_OS_FTPSWood_GOICO_04_v1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="305408799"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_OS_FTPSWood_GOICO_04_v1" ID="{0275FF1E-9E42-4DDA-8AC7-11CEAF81E12F}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
@@ -18087,6 +18827,84 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="FTPS_Water" ID="{11561E7B-4F1D-4984-B8B8-1F3D459ADC28}" ShortID="552521337">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_OS_FTPSWater_GOICO_01_v1" ID="{2351DA93-A317-48ED-A1E1-9E1F230664F3}" ShortID="815441127">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_OS_FTPSWater_GOICO_01_v1" ID="{99BA7074-0671-4415-8681-1374CD41748D}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_OS_FTPSWater_GOICO_01_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="373726746"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_OS_FTPSWater_GOICO_01_v1" ID="{99BA7074-0671-4415-8681-1374CD41748D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_OS_FTPSWater_GOICO_02_v1" ID="{C03690B4-86EC-49DF-AC8C-560D4F74069F}" ShortID="863114949">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_OS_FTPSWater_GOICO_02_v1" ID="{9CC15544-2224-48BE-89FB-C3C67F19FCA2}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_OS_FTPSWater_GOICO_02_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="42472096"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_OS_FTPSWater_GOICO_02_v1" ID="{9CC15544-2224-48BE-89FB-C3C67F19FCA2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_OS_FTPSWater_GOICO_03_v1" ID="{D6500F07-C992-45B0-951E-12EBCB26280D}" ShortID="722932229">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_OS_FTPSWater_GOICO_03_v1" ID="{9AA199B8-BBD7-4C75-BBA3-4DCD36C56C1F}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_OS_FTPSWater_GOICO_03_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="41185755"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_OS_FTPSWater_GOICO_03_v1" ID="{9AA199B8-BBD7-4C75-BBA3-4DCD36C56C1F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
@@ -18098,6 +18916,9 @@
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="FTPS_Grass_RND" ID="{1F91A52C-1C21-4E32-B8F6-A6BC1EF7215F}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="FTPS_Water" ID="{11561E7B-4F1D-4984-B8B8-1F3D459ADC28}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="FTPS_Wood" ID="{A4669991-30D0-4987-86AD-DCDB346E303C}"/>
@@ -19392,6 +20213,50 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="Close_Book" ID="{E3C05195-81DF-477B-881C-757E161A8B39}" ShortID="52588631">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OS_CloseBook_Bestiary_01_Dambrosio_V1" ID="{86CEEE3E-ED72-4A42-93D5-025D0E8F910C}">
+											<Language>SFX</Language>
+											<AudioFile>UI_OS_CloseBook_Bestiary_01_Dambrosio_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="369427435"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OS_CloseBook_Bestiary_01_Dambrosio_V1" ID="{86CEEE3E-ED72-4A42-93D5-025D0E8F910C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Open_Book" ID="{875E7597-3E31-462E-AC3A-F1597DA79A69}" ShortID="152755426">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OS_OpenBook_Bestiary_01_Dambrosio_V2" ID="{D9169082-2297-4804-A743-28992F5A7410}">
+											<Language>SFX</Language>
+											<AudioFile>UI_OS_OpenBook_Bestiary_01_Dambrosio_V2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="732325034"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OS_OpenBook_Bestiary_01_Dambrosio_V2" ID="{D9169082-2297-4804-A743-28992F5A7410}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

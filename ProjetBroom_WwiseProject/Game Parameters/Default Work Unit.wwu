@@ -40,6 +40,8 @@
 						<GameParameter Name="HeightPlayer" ID="{250B3ED9-C1E8-4668-B835-6A391E9395FA}">
 							<PropertyList>
 								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="500"/>
+								<Property Name="Min" Type="Real64" Value="-2400"/>
 							</PropertyList>
 						</GameParameter>
 					</ChildrenList>
