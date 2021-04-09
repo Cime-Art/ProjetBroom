@@ -10227,6 +10227,26 @@
 											<ChildrenList>
 												<RandomSequenceContainer Name="SpikeTrap_RND" ID="{321BD6AE-199D-4060-A7E0-9457659CB14A}" ShortID="18269864">
 													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{0512E670-2C8A-4CC2-A2F6-18D63D378A8D}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{E82AC490-28A7-4604-B27D-4EE80A82FBC2}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="200"/>
+																			<Property Name="Min" Type="Real64" Value="-200"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
 														<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 													</PropertyList>
 													<ReferenceList>
