@@ -9379,6 +9379,144 @@
 																		</Sound>
 																	</ChildrenList>
 																</RandomSequenceContainer>
+																<RandomSequenceContainer Name="PlatformDestructionVoid_RND" ID="{8F0843D4-FBA3-40CF-BA7D-249E9D3D6602}" ShortID="713117537">
+																	<PropertyList>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{4622F9D2-9715-43F7-9C89-823B64FBAB62}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="200"/>
+																							<Property Name="Min" Type="Real64" Value="-200"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="Amb_OS_Destruction_stone_platform_v8-001" ID="{FDD6B8F0-5A00-4459-9190-B5BC7ABBF63E}" ShortID="1021912086">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_Destruction_stone_platform_v8-001" ID="{C18C4726-AC76-403E-8CF0-32277003E6A4}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_Destruction_stone_platform_v8-001.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="158159135"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_Destruction_stone_platform_v8-001" ID="{C18C4726-AC76-403E-8CF0-32277003E6A4}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_Destruction_stone_platform_v8-002" ID="{C44832C8-8725-4E8E-8EB8-9384B7A2BD8A}" ShortID="306732657">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_Destruction_stone_platform_v8-002" ID="{FF42889D-22E7-48DB-A76F-7A06AAC64559}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_Destruction_stone_platform_v8-002.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="368032753"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_Destruction_stone_platform_v8-002" ID="{FF42889D-22E7-48DB-A76F-7A06AAC64559}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_Destruction_stone_platform_v8-003" ID="{A00CAA95-7208-4F26-8DD3-62736450E258}" ShortID="296436880">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_Destruction_stone_platform_v8-003" ID="{5676B84A-FB0E-4D85-9D08-8993B25121FC}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_Destruction_stone_platform_v8-003.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="557707415"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_Destruction_stone_platform_v8-003" ID="{5676B84A-FB0E-4D85-9D08-8993B25121FC}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_Destruction_stone_platform_v8-004" ID="{5D64B978-9C83-4E15-92A4-B8CBEE993088}" ShortID="830942870">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_Destruction_stone_platform_v8-004" ID="{D9E37A19-F876-49B1-ABEA-0F215DDF6965}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_Destruction_stone_platform_v8-004.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="417540857"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_Destruction_stone_platform_v8-004" ID="{D9E37A19-F876-49B1-ABEA-0F215DDF6965}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_OS_Destruction_stone_platform_v8-005" ID="{82C4CDDE-9AEB-4BDB-9F6D-E58513BFFF5C}" ShortID="867283907">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_OS_Destruction_stone_platform_v8-005" ID="{80B7BA02-91D7-45D2-B540-73922469F80B}">
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_OS_Destruction_stone_platform_v8-005.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="86395023"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_OS_Destruction_stone_platform_v8-005" ID="{80B7BA02-91D7-45D2-B540-73922469F80B}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
 															</ChildrenList>
 														</ActorMixer>
 													</ChildrenList>
