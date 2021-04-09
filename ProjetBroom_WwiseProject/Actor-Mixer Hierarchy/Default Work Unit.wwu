@@ -9629,30 +9629,30 @@
 																<PointList>
 																	<Point>
 																		<XPos>-2400</XPos>
-																		<YPos>15</YPos>
+																		<YPos>25</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-834.37908</XPos>
-																		<YPos>15</YPos>
+																		<XPos>-600</XPos>
+																		<YPos>25</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-450</XPos>
-																		<YPos>0</YPos>
+																		<XPos>-490.48223</XPos>
+																		<YPos>3</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>185.35947</XPos>
-																		<YPos>15</YPos>
+																		<XPos>-328.88325</XPos>
+																		<YPos>25</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>500</XPos>
-																		<YPos>15</YPos>
+																		<YPos>25</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -9683,8 +9683,14 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-713.0719</XPos>
-																		<YPos>-12.49545</YPos>
+																		<XPos>-574.61929</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-500</XPos>
+																		<YPos>-12</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
@@ -9695,10 +9701,16 @@
 																		<SegmentShape>Log1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>200.52287</XPos>
-																		<YPos>-11.97061</YPos>
+																		<XPos>-250</XPos>
+																		<YPos>-8</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-129.31472</XPos>
+																		<YPos>-38.1697</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log1</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>500</XPos>
