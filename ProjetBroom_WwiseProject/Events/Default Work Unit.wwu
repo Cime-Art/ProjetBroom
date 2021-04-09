@@ -1389,6 +1389,31 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Event_Play_Checkpoint_torch" ID="{E8568C28-BF16-4F8B-809B-7EB4E331917D}">
+					<ChildrenList>
+						<Action Name="" ID="{3C4D48C0-BCA5-4232-992E-14D73D5D8D5A}" ShortID="526460820">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Checkpoint + torch" ID="{F5EFBADD-0CE9-45D4-9056-34F2CCA56D6C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Stop_Checkpoint_torch" ID="{1A1A6E86-709B-4E41-910B-9015A5219DC7}">
+					<ChildrenList>
+						<Action Name="" ID="{E501A4EF-496A-4302-9968-044B51984B2B}" ShortID="1017094148">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Checkpoint + torch" ID="{F5EFBADD-0CE9-45D4-9056-34F2CCA56D6C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
