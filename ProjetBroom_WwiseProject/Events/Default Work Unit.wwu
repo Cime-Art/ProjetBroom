@@ -1331,6 +1331,42 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Event_Play_AMB_LP_HellAmbiance" ID="{9AC67D59-21A7-43F6-AA86-362DB6435C6C}">
+					<ChildrenList>
+						<Action Name="" ID="{43CBC798-07BC-442B-8D7D-A89D30DDF738}" ShortID="960192581">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_LP_HellAmbiance_01_Albouys_V3" ID="{50BF73DB-EF67-465A-B20F-F42A9254EA43}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Stop_AMB_LP_HellAmbiance" ID="{10B02C18-E7C3-43D7-9CF4-9F86527D0443}">
+					<ChildrenList>
+						<Action Name="" ID="{39C95E28-C999-4AB5-8801-5186145C2323}" ShortID="832133089">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_LP_HellAmbiance_01_Albouys_V3" ID="{50BF73DB-EF67-465A-B20F-F42A9254EA43}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Play_MovingWall" ID="{6D48654E-E7C5-42E7-8687-25D0B429B29C}">
+					<ChildrenList>
+						<Action Name="" ID="{F66E9F4B-CE03-4C0E-A0F5-A46C99378121}" ShortID="1025270356">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MovingWall_Theo_OS_07_wave" ID="{99ABAAC2-52ED-4618-B638-3B8F91D12BE1}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

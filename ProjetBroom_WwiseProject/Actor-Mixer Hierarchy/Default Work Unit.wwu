@@ -10517,6 +10517,97 @@
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</ActorMixer>
+										<ActorMixer Name="Moving_Wall_Mixer" ID="{FAE92C1B-4FD0-444E-9FEC-64947D30282A}" ShortID="1020769098">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="MovingWall_Theo_OS_07_wave" ID="{99ABAAC2-52ED-4618-B638-3B8F91D12BE1}" ShortID="604109304">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MovingWall_Theo_OS_07_wave" ID="{3719D444-331E-4946-AE35-A84D63AB9085}">
+															<Language>SFX</Language>
+															<AudioFile>MovingWall_Theo_OS_07.wave.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="159745595"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MovingWall_Theo_OS_07_wave" ID="{3719D444-331E-4946-AE35-A84D63AB9085}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
+										<ActorMixer Name="GeneralAmb_Mixer" ID="{82D45391-3B9A-4921-AF99-A6B8F5C8E904}" ShortID="627279780">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="AMB_LP_HellAmbiance_01_Albouys_V3" ID="{50BF73DB-EF67-465A-B20F-F42A9254EA43}" ShortID="593430147">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="OverrideEffect" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise_Gain_(Custom)" ID="{E101998F-BA3C-4B9F-9BD2-D731292EDEB4}" ShortID="662072233" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+																	<PropertyList>
+																		<Property Name="FullBandGain" Type="Real32" Value="10"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AMB_LP_HellAmbiance_01_Albouys_V3" ID="{BA7A36F3-C607-4A81-97E9-F3C88C9D6A7B}">
+															<Language>SFX</Language>
+															<AudioFile>AMB_LP_HellAmbiance_01_Albouys_V3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="162158598"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AMB_LP_HellAmbiance_01_Albouys_V3" ID="{BA7A36F3-C607-4A81-97E9-F3C88C9D6A7B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
+										<ActorMixer Name="Magma_Mixer" ID="{A09E523C-A7DE-4DE5-B4E6-1111ED7C8ED0}" ShortID="5372415">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+										</ActorMixer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Throne" ID="{66DD4DA5-7563-4648-AF0D-AE7C512F7DED}" ShortID="799175653">
