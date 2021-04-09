@@ -76,7 +76,7 @@
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>-1</Value>
+												<Value>-96</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
@@ -176,6 +176,13 @@
 									</ChildrenList>
 								</Bus>
 								<Bus Name="Bus_Jail_Rev" ID="{1C5BA646-3D3D-4FC8-8C47-5D5A2DF6D450}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-28</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ChildrenList>
 										<AuxBus Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}">
 											<ReferenceList>
