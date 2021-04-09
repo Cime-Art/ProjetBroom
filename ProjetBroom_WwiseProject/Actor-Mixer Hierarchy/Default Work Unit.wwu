@@ -20172,6 +20172,50 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="Close_Book" ID="{E3C05195-81DF-477B-881C-757E161A8B39}" ShortID="52588631">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OS_CloseBook_Bestiary_01_Dambrosio_V1" ID="{86CEEE3E-ED72-4A42-93D5-025D0E8F910C}">
+											<Language>SFX</Language>
+											<AudioFile>UI_OS_CloseBook_Bestiary_01_Dambrosio_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="369427435"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OS_CloseBook_Bestiary_01_Dambrosio_V1" ID="{86CEEE3E-ED72-4A42-93D5-025D0E8F910C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Open_Book" ID="{875E7597-3E31-462E-AC3A-F1597DA79A69}" ShortID="152755426">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OS_OpenBook_Bestiary_01_Dambrosio_V2" ID="{D9169082-2297-4804-A743-28992F5A7410}">
+											<Language>SFX</Language>
+											<AudioFile>UI_OS_OpenBook_Bestiary_01_Dambrosio_V2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="732325034"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OS_OpenBook_Bestiary_01_Dambrosio_V2" ID="{D9169082-2297-4804-A743-28992F5A7410}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
