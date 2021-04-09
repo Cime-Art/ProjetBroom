@@ -284,6 +284,13 @@
 														<MediaID ID="978542216"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="guitare1_Bis" ID="{41D69E93-9F38-47D4-ABDF-F245E729BB5F}">
+													<Language>SFX</Language>
+													<AudioFile>guitare1_Bis.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="366474628"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{11A40594-18E1-4AD1-A295-275D6D4BAB8F}">
@@ -304,6 +311,18 @@
 																<Property Name="PlayAt" Type="Real64" Value="1.38777878078145E-14"/>
 															</PropertyList>
 															<AudioSourceRef Name="Guitare1" ID="{B7BB5EE6-A6F8-4EA4-9C6C-728375A31D07}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{B29249C1-4C88-41EE-ADEF-51A1C9D582B0}">
+													<ClipList>
+														<MusicClip Name="guitare1_Bis" ID="{05741214-750D-4958-BA2D-585D2924F30B}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="23730.8163265306"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="guitare1_Bis" ID="{41D69E93-9F38-47D4-ABDF-F245E729BB5F}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -408,6 +427,13 @@
 														<MediaID ID="488532642"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="Perc1_Bis" ID="{439CB0C1-C098-4E49-ACA7-E196C10556F1}">
+													<Language>SFX</Language>
+													<AudioFile>Perc1_Bis.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="483620546"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{61FB1A20-B828-4996-A589-89F07A15E405}">
@@ -430,7 +456,19 @@
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{A84C60ED-0A36-425D-AC75-BB8ED4472538}"/>
+												<MusicTrackSequence Name="" ID="{A84C60ED-0A36-425D-AC75-BB8ED4472538}">
+													<ClipList>
+														<MusicClip Name="Perc1_Bis" ID="{5C03ACEF-41B3-4D3D-928A-2EE9B829C702}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="23730.8163265306"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Perc1_Bis" ID="{439CB0C1-C098-4E49-ACA7-E196C10556F1}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{518E7530-CAB1-4C6A-832C-74332008B938}"/>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Percu_02" ID="{888361FA-6B6C-4795-82C6-8C90D0FF7B9D}" ShortID="654743374">
@@ -448,6 +486,13 @@
 													<AudioFile>Perc2.wav</AudioFile>
 													<MediaIDList>
 														<MediaID ID="546135090"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Perc2_Bis" ID="{44A5CDA5-26DB-4FF0-88C4-539249E4E097}">
+													<Language>SFX</Language>
+													<AudioFile>Perc2_Bis.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="133394327"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -472,6 +517,18 @@
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{C2D7EF30-BE01-458D-907D-45EE72684D92}">
+													<ClipList>
+														<MusicClip Name="Perc2_Bis" ID="{A71FA044-F894-4C18-A3D4-BF764E12F5FF}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="23730.8163265306"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Perc2_Bis" ID="{44A5CDA5-26DB-4FF0-88C4-539249E4E097}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Percu_03" ID="{0CEEE1FA-20C3-4171-9869-98E63190AF7D}" ShortID="778734262">
@@ -489,6 +546,13 @@
 													<AudioFile>Perc3.wav</AudioFile>
 													<MediaIDList>
 														<MediaID ID="729475976"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Perc3_Bis" ID="{22D660B7-5100-474E-BC84-81BC73FEE8B6}">
+													<Language>SFX</Language>
+													<AudioFile>Perc3_Bis.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1064060144"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -510,6 +574,18 @@
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="Perc3" ID="{E010FC03-F8FC-436D-A52C-B0BC8FEAB365}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{11F277A1-2C5A-4C58-8910-5C9C16EDCF56}">
+													<ClipList>
+														<MusicClip Name="Perc3_Bis" ID="{00198E5F-202F-47E2-A777-A9509DB3DAF3}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="23730.8163265306"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Perc3_Bis" ID="{22D660B7-5100-474E-BC84-81BC73FEE8B6}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -573,6 +649,13 @@
 														<MediaID ID="99644371"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="skaker1_Bis" ID="{D4CF218E-C247-410D-9DDF-49A21C6B1B21}">
+													<Language>SFX</Language>
+													<AudioFile>skaker1_Bis.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="857260884"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{86AD5015-F44A-4C38-93B1-D8F64E71CB0D}">
@@ -595,6 +678,18 @@
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{AE101779-C102-442B-85B4-BB4348566C03}">
+													<ClipList>
+														<MusicClip Name="skaker1_Bis" ID="{91729C89-F3C6-45C1-B16A-A5607006312C}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="23730.8163265306"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="skaker1_Bis" ID="{D4CF218E-C247-410D-9DDF-49A21C6B1B21}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Shaker_02" ID="{25124506-DDBF-45A1-91D7-2231495C7358}" ShortID="689692456">
@@ -612,6 +707,13 @@
 													<AudioFile>shaker2.wav</AudioFile>
 													<MediaIDList>
 														<MediaID ID="558781366"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="skaker2_Bis" ID="{EAE23EAF-8730-45EC-930A-85888348178F}">
+													<Language>SFX</Language>
+													<AudioFile>skaker2_Bis.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="127103536"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -633,6 +735,18 @@
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="shaker2" ID="{AC13B7D4-73EF-43F6-B99D-2D7BB259E00C}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{EC5B3011-3D1B-4084-A1AA-7593AD0DF510}">
+													<ClipList>
+														<MusicClip Name="skaker2_Bis" ID="{60DF1A65-B6C7-49B7-8FD3-9BE2CA839FC0}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="23730.8163265306"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="skaker2_Bis" ID="{EAE23EAF-8730-45EC-930A-85888348178F}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -674,6 +788,66 @@
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="violon" ID="{950B1583-CA92-49E5-8CA6-126F7BB2A2D9}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Bass" ID="{B3CFC81D-7C6B-4EF1-804D-096A8EA0131B}" ShortID="656821079">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bass" ID="{49DAB374-7558-4046-AC82-B4CD25F0AE6E}">
+													<Language>SFX</Language>
+													<AudioFile>Bass.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1066559232"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Bass1_Bis" ID="{C6E3423A-05BB-4F4C-83C7-1413D2EA2A51}">
+													<Language>SFX</Language>
+													<AudioFile>Bass1_Bis.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="604960752"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{165D27F2-A560-45C5-8BE3-EC2F85A5CE62}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{2FD9A0E9-D971-42AB-80D5-2C1EEB8948B7}">
+													<ClipList>
+														<MusicClip Name="Bass" ID="{0E10C48D-1E96-4312-AE78-F9E67918C9D7}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="23730.8163265306"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Bass" ID="{49DAB374-7558-4046-AC82-B4CD25F0AE6E}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{00E5C6CA-997B-4F06-B640-50C5EAEF6160}">
+													<ClipList>
+														<MusicClip Name="Bass1_Bis" ID="{974AE281-8D43-4E7D-8A50-72810BA017F5}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="23730.8163265306"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Bass1_Bis" ID="{C6E3423A-05BB-4F4C-83C7-1413D2EA2A51}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
