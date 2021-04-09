@@ -112,23 +112,23 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="flute_Lead_01" ID="{BA9F1968-CB5E-49F5-B910-7E3B65BA9607}">
+												<AudioFileSource Name="flute_lead_01" ID="{A5E7E0D2-2955-4AB9-A74D-945CC998161C}">
 													<Language>SFX</Language>
-													<AudioFile>flute_Lead_01.wav</AudioFile>
+													<AudioFile>flute_lead_01.wav</AudioFile>
 													<MediaIDList>
 														<MediaID ID="905456018"/>
 													</MediaIDList>
 												</AudioFileSource>
-												<AudioFileSource Name="flute_Lead_02" ID="{04FD8B09-47D5-4B79-AEBC-62BFB0B5013E}">
+												<AudioFileSource Name="flute_lead_02" ID="{B8BA4951-821F-42D0-8F38-E7762114CE96}">
 													<Language>SFX</Language>
-													<AudioFile>flute_Lead_02.wav</AudioFile>
+													<AudioFile>flute_lead_02.wav</AudioFile>
 													<MediaIDList>
 														<MediaID ID="99512072"/>
 													</MediaIDList>
 												</AudioFileSource>
-												<AudioFileSource Name="flute_Lead_03" ID="{0DBEA964-D935-42DA-8BB4-79C3C8A2A489}">
+												<AudioFileSource Name="flute_lead_03" ID="{ACDCF8A4-9F03-4269-8AD9-119D532938A2}">
 													<Language>SFX</Language>
-													<AudioFile>flute_Lead_03.wav</AudioFile>
+													<AudioFile>flute_lead_03.wav</AudioFile>
 													<MediaIDList>
 														<MediaID ID="180035637"/>
 													</MediaIDList>
@@ -145,37 +145,38 @@
 											<SequenceList>
 												<MusicTrackSequence Name="" ID="{9F2683A0-767E-4106-95F3-93979A8CF226}">
 													<ClipList>
-														<MusicClip Name="flute_Lead_01" ID="{A06F2440-523F-4094-8AB8-57306A018EA3}">
+														<MusicClip Name="flute_lead_01" ID="{A77844E0-5575-41A7-993C-7751396C0D3B}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="23769.9546485261"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="27834.9433106576"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="flute_Lead_01" ID="{BA9F1968-CB5E-49F5-B910-7E3B65BA9607}"/>
+															<AudioSourceRef Name="flute_lead_01" ID="{A5E7E0D2-2955-4AB9-A74D-945CC998161C}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 												<MusicTrackSequence Name="" ID="{1E5FF4B6-C4FC-44BB-8DE5-CD8885658702}">
 													<ClipList>
-														<MusicClip Name="flute_Lead_02" ID="{E38A5AD0-AEEC-4CAE-AD79-0E34D003E44B}">
+														<MusicClip Name="flute_lead_02" ID="{06464334-79B7-4ABF-8EA9-FE297286BC55}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="23730.8163265306"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="26575.2607709751"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="1.11022302462516E-13"/>
 															</PropertyList>
-															<AudioSourceRef Name="flute_Lead_02" ID="{04FD8B09-47D5-4B79-AEBC-62BFB0B5013E}"/>
+															<AudioSourceRef Name="flute_lead_02" ID="{B8BA4951-821F-42D0-8F38-E7762114CE96}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 												<MusicTrackSequence Name="" ID="{B42D2B2E-FA6D-4ECB-91CB-5C22CBC606BE}">
 													<ClipList>
-														<MusicClip Name="flute_Lead_03" ID="{2AF8575A-514C-4341-A705-699E0310406A}">
+														<MusicClip Name="flute_lead_03" ID="{D8C638F9-1A06-4DBA-8E93-D3776A711AB3}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="23730.8163265306"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="26430.1133786848"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="flute_Lead_03" ID="{0DBEA964-D935-42DA-8BB4-79C3C8A2A489}"/>
+															<AudioSourceRef Name="flute_lead_03" ID="{ACDCF8A4-9F03-4269-8AD9-119D532938A2}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>

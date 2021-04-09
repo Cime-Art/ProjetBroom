@@ -142,6 +142,22 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{E52AE964-DEAE-45A5-906F-40AEC1BAA900}" ShortID="892247638">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Attack Bow" ID="{04FC1DDD-93C3-438C-A567-3297E6565B9D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{CDC73BFF-6819-4C4F-A7D7-3D9E152F609A}" ShortID="952556874">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList/>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Event_SkCac_MoveForward" ID="{DCEDE91C-D77B-4A15-A01D-28F1C9ED42E9}">
@@ -183,11 +199,7 @@
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
 											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="SkCac_Idle_SEQ" ID="{47AB74AA-DEAD-4475-BC89-871DFFB13731}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
+											<ReferenceList/>
 										</Action>
 									</ChildrenList>
 								</Event>
