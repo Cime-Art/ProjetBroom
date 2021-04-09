@@ -9584,6 +9584,66 @@
 								<Folder Name="Hell" ID="{F86F19DF-5605-4052-9583-015C21EF0851}" ShortID="640098025">
 									<ChildrenList>
 										<ActorMixer Name="BubbleLava_Mixer" ID="{0FBAF37E-2512-42ED-9F45-D4C842B130ED}" ShortID="468399106">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{F56C472F-1B1D-45DF-BCDF-2158A75AE31F}" ShortID="37383818">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="HeightPlayer" ID="{250B3ED9-C1E8-4668-B835-6A391E9395FA}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{70D53534-944F-49D1-99F1-D1138D940834}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-70</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{F308897B-74AD-44E0-8073-642C40D6EB57}" ShortID="608904855">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="HeightPlayer" ID="{250B3ED9-C1E8-4668-B835-6A391E9395FA}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{BFA2DC1A-F09E-4577-A2F8-F26CCE1D1C6B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
