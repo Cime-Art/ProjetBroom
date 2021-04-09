@@ -2764,6 +2764,353 @@
 																		</RandomSequenceContainer>
 																	</ChildrenList>
 																</ActorMixer>
+																<ActorMixer Name="PigChain_Mixer" ID="{300C22C5-2EFB-40E9-99D2-83AE044665D8}" ShortID="230598388">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+																		<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+																		<Property Name="MaxSoundPerInstance" Type="int16">
+																			<ValueList>
+																				<Value>5</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																		<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+																		<Property Name="UseMaxSoundPerInstance" Type="bool">
+																			<ValueList>
+																				<Value>True</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="KitchenAmb_Att" ID="{018F9B76-9394-43A4-A4B2-9EA3A1CBE3D9}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<RandomSequenceContainer Name="GetHit_RND" ID="{EEF59CB1-1A8A-4202-ABB8-EB1E0F487D46}" ShortID="219973817">
+																			<PropertyList>
+																				<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{FAD7898D-E4C5-442D-BCAD-9EA48752C119}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="200"/>
+																									<Property Name="Min" Type="Real64" Value="-150"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																				<Property Name="Volume" Type="Real64">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{5F8FB429-B7B3-4E24-BFBA-D526667E6580}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Min" Type="Real64" Value="-2"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<Sound Name="Kitchen_OS_PigChainHit_01_Sabarros_v1" ID="{25A90594-E3A5-4B7F-8495-84A6197DE976}" ShortID="494203206">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Kitchen_OS_PigChainHit_01_Sabarros_v1" ID="{D047E3A6-0AE9-42E4-9418-8C611E846572}">
+																							<Language>SFX</Language>
+																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHit_01_Sabarros_v1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="37272919"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Kitchen_OS_PigChainHit_01_Sabarros_v1" ID="{D047E3A6-0AE9-42E4-9418-8C611E846572}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Kitchen_OS_PigChainHit_02_Sabarros_v1" ID="{E8BDF344-E73E-46F2-BB70-F3C09E846DE7}" ShortID="896078619">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Kitchen_OS_PigChainHit_02_Sabarros_v1" ID="{7CA1417D-4EB2-4FA6-8E78-F2F2148DA83E}">
+																							<Language>SFX</Language>
+																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHit_02_Sabarros_v1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="34656901"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Kitchen_OS_PigChainHit_02_Sabarros_v1" ID="{7CA1417D-4EB2-4FA6-8E78-F2F2148DA83E}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Kitchen_OS_PigChainHit_03_Sabarros_v1" ID="{40DF24DC-2954-4B67-83E7-E6C36D038217}" ShortID="593862074">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Kitchen_OS_PigChainHit_03_Sabarros_v1" ID="{5B4EA5F4-4AE7-46C7-884D-41108716137A}">
+																							<Language>SFX</Language>
+																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHit_03_Sabarros_v1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="969078221"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Kitchen_OS_PigChainHit_03_Sabarros_v1" ID="{5B4EA5F4-4AE7-46C7-884D-41108716137A}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																			</ChildrenList>
+																		</RandomSequenceContainer>
+																		<Sound Name="GetHitLight" ID="{D306329C-75D0-42AB-BE4C-4DD4EEF180B2}" ShortID="240777227">
+																			<PropertyList>
+																				<Property Name="Highpass" Type="int16">
+																					<ValueList>
+																						<Value>30</Value>
+																					</ValueList>
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{B64ED2C9-2FE8-417E-88CB-7B1FD166D75A}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="24"/>
+																									<Property Name="Min" Type="Real64" Value="-26"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{B8466DD0-0586-41BE-AFA4-357140F17D71}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="300"/>
+																									<Property Name="Min" Type="Real64" Value="-250"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-8</Value>
+																					</ValueList>
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{D4E05717-E773-449C-AEB3-C9A0E957F0D7}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Min" Type="Real64" Value="-3"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Kitchen_OS_PigChainHitLight_01_Sabarros_v1" ID="{E7A87F77-8860-47E1-86DA-C9B6FA5DF5ED}">
+																					<Language>SFX</Language>
+																					<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHitLight_01_Sabarros_v1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="552579144"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Kitchen_OS_PigChainHitLight_01_Sabarros_v1" ID="{E7A87F77-8860-47E1-86DA-C9B6FA5DF5ED}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<RandomSequenceContainer Name="PigChainSwing_RND" ID="{7A832747-D689-44D1-9C27-7D31D1C43581}" ShortID="291670670">
+																			<PropertyList>
+																				<Property Name="Highpass" Type="int16">
+																					<ValueList>
+																						<Value>40</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{241AC00D-38C9-4019-9252-92AF7DA3C09D}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="300"/>
+																									<Property Name="Min" Type="Real64" Value="-150"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																				<Property Name="Volume" Type="Real64">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{D15089D1-3657-4EAF-88AB-95B666D3B10B}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Min" Type="Real64" Value="-2"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend1">
+																					<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<Sound Name="Kitchen_OS_PigChainSwing_01_Sabarros_v1" ID="{80F394F8-1FCD-49DF-B13C-CA84803E3BC0}" ShortID="966356285">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Kitchen_OS_PigChainSwing_01_Sabarros_v1" ID="{732238AD-BA19-482E-AA54-93F62543318C}">
+																							<Language>SFX</Language>
+																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSwing_01_Sabarros_v1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="978607640"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Kitchen_OS_PigChainSwing_01_Sabarros_v1" ID="{732238AD-BA19-482E-AA54-93F62543318C}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Kitchen_OS_PigChainSwing_02_Sabarros_v1" ID="{0E6C3CC3-1F52-4161-97BE-F03E36C3BFB7}" ShortID="6759693">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Kitchen_OS_PigChainSwing_02_Sabarros_v1" ID="{F023B97A-A32F-4A9F-8986-8E6591CEE2F8}">
+																							<Language>SFX</Language>
+																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSwing_02_Sabarros_v1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="743539481"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Kitchen_OS_PigChainSwing_02_Sabarros_v1" ID="{F023B97A-A32F-4A9F-8986-8E6591CEE2F8}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Kitchen_OS_PigChainSwing_03_Sabarros_v1" ID="{E20B5877-08F2-4745-8852-614F970CA99B}" ShortID="136866704">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Kitchen_OS_PigChainSwing_03_Sabarros_v1" ID="{1068E20E-129C-4BA7-98F4-2D6349B4D6CE}">
+																							<Language>SFX</Language>
+																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSwing_03_Sabarros_v1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="895694429"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Kitchen_OS_PigChainSwing_03_Sabarros_v1" ID="{1068E20E-129C-4BA7-98F4-2D6349B4D6CE}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Kitchen_OS_PigChainSwing_04_Sabarros_v1" ID="{0336BC7C-629E-4635-820E-F5C43227BB3B}" ShortID="949313724">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Kitchen_OS_PigChainSwing_04_Sabarros_v1" ID="{0898CD4A-A20F-4BC8-99FE-7CF3B8073891}">
+																							<Language>SFX</Language>
+																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSwing_04_Sabarros_v1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="558562849"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Kitchen_OS_PigChainSwing_04_Sabarros_v1" ID="{0898CD4A-A20F-4BC8-99FE-7CF3B8073891}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																			</ChildrenList>
+																		</RandomSequenceContainer>
+																	</ChildrenList>
+																</ActorMixer>
 															</ChildrenList>
 														</ActorMixer>
 													</ChildrenList>
@@ -10756,6 +11103,273 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 												</Reference>
 											</ReferenceList>
+										</ActorMixer>
+										<ActorMixer Name="FallingRocks_Mixer" ID="{32281EEE-42E0-489D-A992-4B0327D90231}" ShortID="792797787">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="FallingRocks_Att" ID="{AEED7D75-1E00-443A-AC48-670FB37C1778}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="FallingRocks_Big_RND" ID="{6165BF37-8758-41AF-AAD4-5FBD44C36320}" ShortID="887281375">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{9A5D6D40-E124-462B-800C-79B3B652104E}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Min" Type="Real64" Value="-30"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{B90DBC57-5999-434B-9CD8-2F6290326F97}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="300"/>
+																			<Property Name="Min" Type="Real64" Value="-150"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{C1523EFC-41CE-4EC2-95C4-802B65D2B114}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Min" Type="Real64" Value="-3"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Hell_OS_FallingRocks_05_Sabarros_v1" ID="{15FB80E3-A699-440B-9BC0-94E4FD31B1EA}" ShortID="920384106">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Hell_OS_FallingRocks_05_Sabarros_v1" ID="{C6651949-A380-4037-A48F-6AD1B358BB82}">
+																	<Language>SFX</Language>
+																	<AudioFile>HellFallingRocks\Hell_OS_FallingRocks_05_Sabarros_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="257170934"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Hell_OS_FallingRocks_05_Sabarros_v1" ID="{C6651949-A380-4037-A48F-6AD1B358BB82}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Hell_OS_FallingRocks_04_Sabarros_v1" ID="{9E51A6B0-5E6F-43A4-BEC0-F4680502231C}" ShortID="805354336">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Hell_OS_FallingRocks_04_Sabarros_v1" ID="{E33EB57F-1823-4CD8-A81D-F9F294C7CBEF}">
+																	<Language>SFX</Language>
+																	<AudioFile>HellFallingRocks\Hell_OS_FallingRocks_04_Sabarros_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="546987488"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Hell_OS_FallingRocks_04_Sabarros_v1" ID="{E33EB57F-1823-4CD8-A81D-F9F294C7CBEF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="FallingRocks_Small_RND" ID="{C50FA5B0-EA26-4D4F-A396-4D4AC0DB4F04}" ShortID="1010051336">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{FA7BEB20-4FEA-4CB7-B2A2-1F3ADEE5440D}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Min" Type="Real64" Value="-30"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{B03205BC-F531-45FC-841F-1B915787352D}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="300"/>
+																			<Property Name="Min" Type="Real64" Value="-150"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{DA072E6A-B6EA-488F-88F2-7731AF4C9916}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Min" Type="Real64" Value="-3"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Hell_OS_FallingRocks_07_Sabarros_v1" ID="{61B1FD6F-DAAF-4866-A298-B4F21F48C779}" ShortID="348876730">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Hell_OS_FallingRocks_07_Sabarros_v1" ID="{E9E4C1B2-94AD-43B9-A721-C1F79AD58C8E}">
+																	<Language>SFX</Language>
+																	<AudioFile>HellFallingRocks\Hell_OS_FallingRocks_07_Sabarros_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="901592627"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Hell_OS_FallingRocks_07_Sabarros_v1" ID="{E9E4C1B2-94AD-43B9-A721-C1F79AD58C8E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Hell_OS_FallingRocks_01_Sabarros_v1" ID="{B026AF42-D229-4460-B9EA-1DDCD8DB5298}" ShortID="817251435">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Hell_OS_FallingRocks_01_Sabarros_v1" ID="{7C1469BB-693E-4E2A-9726-4CD56CC74E0A}">
+																	<Language>SFX</Language>
+																	<AudioFile>HellFallingRocks\Hell_OS_FallingRocks_01_Sabarros_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="896956746"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Hell_OS_FallingRocks_01_Sabarros_v1" ID="{7C1469BB-693E-4E2A-9726-4CD56CC74E0A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Hell_OS_FallingRocks_06_Sabarros_v1" ID="{A3219CBF-2CBC-4CDC-8E27-BC540E27CAC5}" ShortID="410110457">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="FallingRocks_Att" ID="{AEED7D75-1E00-443A-AC48-670FB37C1778}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend1">
+																	<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Hell_OS_FallingRocks_06_Sabarros_v1" ID="{3472D6F4-E097-4E98-8E32-02DF1E4D7EEE}">
+																	<Language>SFX</Language>
+																	<AudioFile>HellFallingRocks\Hell_OS_FallingRocks_06_Sabarros_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="856381693"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Hell_OS_FallingRocks_06_Sabarros_v1" ID="{3472D6F4-E097-4E98-8E32-02DF1E4D7EEE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
 										</ActorMixer>
 									</ChildrenList>
 								</Folder>
