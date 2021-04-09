@@ -10643,9 +10643,26 @@
 											</ChildrenList>
 										</ActorMixer>
 										<ActorMixer Name="GeneralAmb_Mixer" ID="{82D45391-3B9A-4921-AF99-A6B8F5C8E904}" ShortID="627279780">
+											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise_Gain_(Custom)" ID="{A8A048C0-EEE2-4259-AF40-E4F87F85AD78}" ShortID="848025326" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+															<PropertyList>
+																<Property Name="FullBandGain" Type="Real32" Value="15"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
