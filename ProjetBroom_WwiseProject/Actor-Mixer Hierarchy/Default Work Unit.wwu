@@ -9722,12 +9722,15 @@
 											<ChildrenList>
 												<RandomSequenceContainer Name="BubbleLava_RND" ID="{F541F1E9-D2B9-40E5-808C-936DB0B56FB0}" ShortID="46569741">
 													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="1"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="Lowpass" Type="int16">
 															<ValueList>
 																<Value>49</Value>
 															</ValueList>
 														</Property>
 														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="Pitch" Type="int32">
 															<ValueList>
 																<Value>-700</Value>
@@ -9749,6 +9752,7 @@
 															</ModifierList>
 														</Property>
 														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -10250,6 +10254,31 @@
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{A8F00F96-B156-45AA-862C-FB29EDA0624A}"/>
+														<Position Name="" ID="{150FB91E-DB4C-4B0E-85E2-AAF20D32FADB}">
+															<PropertyList>
+																<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="BubbleLava_RND_Path" ID="{FC31A39D-E84D-4AC9-A1A4-8AB78DA20A53}">
+																	<PropertyList>
+																		<Property Name="LinearTime" Type="bool" Value="False"/>
+																		<Property Name="RandomX" Type="Real64" Value="5"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</ActorMixer>
