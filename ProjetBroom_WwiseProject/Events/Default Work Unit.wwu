@@ -897,7 +897,7 @@
 												<Action Name="" ID="{C86182C1-473B-4172-9835-FCC7B924310E}" ShortID="522586063">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="GetHitLight" ID="{D306329C-75D0-42AB-BE4C-4DD4EEF180B2}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+															<ObjectRef Name="GetHitLight_RND" ID="{EDACBF77-EA46-409D-A8AF-A5A48F0E125E}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1499,6 +1499,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="OpenChest_RND" ID="{903866F4-0F1C-4D42-898A-9B6EFF8226E5}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_LifeRefill" ID="{8F2661A2-682E-4994-A853-EE23A3519636}">
+							<ChildrenList>
+								<Action Name="" ID="{32459356-ECFF-4708-9767-EAEDC3CCD6E3}" ShortID="1014653510">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LifeRefill_SFX" ID="{3F66298C-4843-4293-97AF-92D319DE004B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_ManaRefill" ID="{01F19171-0875-4465-A155-9B6F5786669F}">
+							<ChildrenList>
+								<Action Name="" ID="{CFAD4AA0-45E8-41CA-8342-4ED3D144B76F}" ShortID="711272978">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ManaRefill_SFX" ID="{C4B1E852-AB80-4ED8-846E-DDEC2F235735}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

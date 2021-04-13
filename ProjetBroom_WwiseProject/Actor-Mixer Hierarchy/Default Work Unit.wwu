@@ -2798,6 +2798,12 @@
 																	<ChildrenList>
 																		<RandomSequenceContainer Name="GetHit_RND" ID="{EEF59CB1-1A8A-4202-ABB8-EB1E0F487D46}" ShortID="219973817">
 																			<PropertyList>
+																				<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+																				<Property Name="MaxSoundPerInstance" Type="int16">
+																					<ValueList>
+																						<Value>3</Value>
+																					</ValueList>
+																				</Property>
 																				<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 																				<Property Name="Pitch" Type="int32">
 																					<ModifierList>
@@ -2813,6 +2819,9 @@
 																					</ModifierList>
 																				</Property>
 																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-6</Value>
+																					</ValueList>
 																					<ModifierList>
 																						<ModifierInfo>
 																							<Modifier Name="" ID="{5F8FB429-B7B3-4E24-BFBA-D526667E6580}">
@@ -2902,82 +2911,23 @@
 																				</Sound>
 																			</ChildrenList>
 																		</RandomSequenceContainer>
-																		<Sound Name="GetHitLight" ID="{D306329C-75D0-42AB-BE4C-4DD4EEF180B2}" ShortID="240777227">
-																			<PropertyList>
-																				<Property Name="Highpass" Type="int16">
-																					<ValueList>
-																						<Value>30</Value>
-																					</ValueList>
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{B64ED2C9-2FE8-417E-88CB-7B1FD166D75A}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="24"/>
-																									<Property Name="Min" Type="Real64" Value="-26"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Pitch" Type="int32">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{B8466DD0-0586-41BE-AFA4-357140F17D71}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="300"/>
-																									<Property Name="Min" Type="Real64" Value="-250"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="Volume" Type="Real64">
-																					<ValueList>
-																						<Value>-8</Value>
-																					</ValueList>
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{D4E05717-E773-449C-AEB3-C9A0E957F0D7}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Min" Type="Real64" Value="-3"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<AudioFileSource Name="Kitchen_OS_PigChainHitLight_01_Sabarros_v1" ID="{E7A87F77-8860-47E1-86DA-C9B6FA5DF5ED}">
-																					<Language>SFX</Language>
-																					<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHitLight_01_Sabarros_v1.wav</AudioFile>
-																					<MediaIDList>
-																						<MediaID ID="552579144"/>
-																					</MediaIDList>
-																				</AudioFileSource>
-																			</ChildrenList>
-																			<ActiveSourceList>
-																				<ActiveSource Name="Kitchen_OS_PigChainHitLight_01_Sabarros_v1" ID="{E7A87F77-8860-47E1-86DA-C9B6FA5DF5ED}" Platform="Linked"/>
-																			</ActiveSourceList>
-																		</Sound>
 																		<RandomSequenceContainer Name="PigChainSwing_RND" ID="{7A832747-D689-44D1-9C27-7D31D1C43581}" ShortID="291670670">
 																			<PropertyList>
+																				<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 																				<Property Name="Highpass" Type="int16">
 																					<ValueList>
 																						<Value>40</Value>
 																					</ValueList>
 																				</Property>
+																				<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+																				<Property Name="MaxSoundPerInstance" Type="int16">
+																					<ValueList>
+																						<Value>3</Value>
+																					</ValueList>
+																				</Property>
 																				<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																				<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+																				<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 																				<Property Name="Pitch" Type="int32">
 																					<ModifierList>
 																						<ModifierInfo>
@@ -2991,7 +2941,16 @@
 																						</ModifierInfo>
 																					</ModifierList>
 																				</Property>
+																				<Property Name="UseMaxSoundPerInstance" Type="bool">
+																					<ValueList>
+																						<Value>True</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
 																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-12</Value>
+																					</ValueList>
 																					<ModifierList>
 																						<ModifierInfo>
 																							<Modifier Name="" ID="{D15089D1-3657-4EAF-88AB-95B666D3B10B}">
@@ -3105,6 +3064,149 @@
 																					</ChildrenList>
 																					<ActiveSourceList>
 																						<ActiveSource Name="Kitchen_OS_PigChainSwing_04_Sabarros_v1" ID="{0898CD4A-A20F-4BC8-99FE-7CF3B8073891}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																			</ChildrenList>
+																		</RandomSequenceContainer>
+																		<RandomSequenceContainer Name="GetHitLight_RND" ID="{EDACBF77-EA46-409D-A8AF-A5A48F0E125E}" ShortID="523448174">
+																			<PropertyList>
+																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																				<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+																				<Property Name="Highpass" Type="int16">
+																					<ValueList>
+																						<Value>18</Value>
+																					</ValueList>
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{C59260C8-706C-4F60-910A-0D790C94181A}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="25"/>
+																									<Property Name="Min" Type="Real64" Value="-25"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																				<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+																				<Property Name="MaxSoundPerInstance" Type="int16">
+																					<ValueList>
+																						<Value>3</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{39F6A51E-5FF1-445B-9C61-5676634480AD}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="200"/>
+																									<Property Name="Min" Type="Real64" Value="-150"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																				<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-8</Value>
+																					</ValueList>
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{34E7CB74-A27A-4A62-9FCB-20BF34E202FC}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Min" Type="Real64" Value="-2"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Attenuation">
+																					<ObjectRef Name="KitchenAmb_Att" ID="{018F9B76-9394-43A4-A4B2-9EA3A1CBE3D9}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																				</Reference>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend1">
+																					<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<Sound Name="Kitchen_OS_PigChainHitLight_01_Sabarros_v2" ID="{5CC928CA-DBF3-4688-ADBE-284379502879}" ShortID="434847457">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Kitchen_OS_PigChainHitLight_01_Sabarros_v2" ID="{A621D559-3514-4126-8E1B-6B7045B8E3AB}">
+																							<Language>SFX</Language>
+																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHitLight_01_Sabarros_v2.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="618444821"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Kitchen_OS_PigChainHitLight_01_Sabarros_v2" ID="{A621D559-3514-4126-8E1B-6B7045B8E3AB}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Kitchen_OS_PigChainHitLight_02_Sabarros_v2" ID="{907BBDDC-609C-41CC-9672-B0BAD211D326}" ShortID="184472245">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Kitchen_OS_PigChainHitLight_02_Sabarros_v2" ID="{1504F575-E156-4F30-AB8E-833373D12C98}">
+																							<Language>SFX</Language>
+																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHitLight_02_Sabarros_v2.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="931133469"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Kitchen_OS_PigChainHitLight_02_Sabarros_v2" ID="{1504F575-E156-4F30-AB8E-833373D12C98}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Kitchen_OS_PigChainHitLight_03_Sabarros_v2" ID="{41BCBEEA-9534-4BC1-AB5D-DB8D2908E6F2}" ShortID="372104142">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Kitchen_OS_PigChainHitLight_03_Sabarros_v2" ID="{8E2FE3AF-E5EB-401D-8711-41868A8CCA8D}">
+																							<Language>SFX</Language>
+																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHitLight_03_Sabarros_v2.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="660296776"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Kitchen_OS_PigChainHitLight_03_Sabarros_v2" ID="{8E2FE3AF-E5EB-401D-8711-41868A8CCA8D}" Platform="Linked"/>
 																					</ActiveSourceList>
 																				</Sound>
 																			</ChildrenList>
@@ -21397,6 +21499,96 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="ManaRefill_SFX" ID="{C4B1E852-AB80-4ED8-846E-DDEC2F235735}" ShortID="340312885">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0E4A5AF6-8DC0-4115-8DA5-7238805F559E}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Props_OS_ManaRefill_02_Sabarros_v1" ID="{0D60CFB5-7BC2-4BE3-80F9-CE9749CF4F0A}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.44805691669808"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Refills\Props_OS_ManaRefill_02_Sabarros_v1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1040351313"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Props_OS_ManaRefill_02_Sabarros_v1" ID="{0D60CFB5-7BC2-4BE3-80F9-CE9749CF4F0A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LifeRefill_SFX" ID="{3F66298C-4843-4293-97AF-92D319DE004B}" ShortID="845518276">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8A10DFD3-E5E1-4315-8C96-425AF523AFCC}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Props_OS_LifeRefill_01_Sabarros_v3" ID="{D5F83ABD-82FE-4AA0-9E85-FA8E6F6B7343}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.09160366521279"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Refills\Props_OS_LifeRefill_01_Sabarros_v3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="438531335"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Props_OS_LifeRefill_01_Sabarros_v3" ID="{D5F83ABD-82FE-4AA0-9E85-FA8E6F6B7343}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
