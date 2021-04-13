@@ -16926,6 +16926,50 @@
 										</ActorMixer>
 									</ChildrenList>
 								</Folder>
+								<Sound Name="SFX_OS_Spawn_Eliot" ID="{4BBF16A0-B0C6-44A5-9045-E2EAAAE64D76}" ShortID="256699768">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{064282FE-F08D-4F98-BF0D-3E9E58C923DC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_OS_Spawn_Eliot" ID="{F031E8B3-A52A-4157-83A1-E9900CD3A299}">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_OS_Spawn_Eliot.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="603100389"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_OS_Spawn_Eliot" ID="{F031E8B3-A52A-4157-83A1-E9900CD3A299}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
@@ -21256,6 +21300,103 @@
 										<ActiveSource Name="UI_OS_OpenBook_Bestiary_01_Dambrosio_V2" ID="{D9169082-2297-4804-A743-28992F5A7410}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Props" ID="{CD252EF5-C431-4F65-8CED-3CA2BE153D68}" ShortID="2655759">
+					<ChildrenList>
+						<ActorMixer Name="Props_Mixer" ID="{31E76189-3F5C-4163-B699-C8AF4A67B4EB}" ShortID="685867818">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="OpenChest_RND" ID="{903866F4-0F1C-4D42-898A-9B6EFF8226E5}" ShortID="736147438">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="props_OS_openchest_Eliot_v6" ID="{C771DF57-1C2B-4515-9E17-142D9A3A3725}" ShortID="754664965">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="props_OS_openchest_Eliot_v6" ID="{A6DA69B1-8456-4F1E-BE6F-617876EFD42A}">
+													<Language>SFX</Language>
+													<AudioFile>props_OS_openchest_Eliot_v6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="726920212"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="props_OS_openchest_Eliot_v6" ID="{A6DA69B1-8456-4F1E-BE6F-617876EFD42A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="props_OS_openchest_Eliot_v4" ID="{471285CA-C0B2-4A14-8D97-FB7387AE89CF}" ShortID="667736841">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="props_OS_openchest_Eliot_v4" ID="{F760C992-25AE-4209-B1E6-38ABE372AC25}">
+													<Language>SFX</Language>
+													<AudioFile>props_OS_openchest_Eliot_v4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="988629763"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="props_OS_openchest_Eliot_v4" ID="{F760C992-25AE-4209-B1E6-38ABE372AC25}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="props_OS_openchest_Eliot_v5" ID="{BBBCDB94-F888-476B-9F05-93D74C0B0B70}" ShortID="587544060">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="props_OS_openchest_Eliot_v5" ID="{ED7AE215-FA6A-4BBB-A984-92048AF7D8B1}">
+													<Language>SFX</Language>
+													<AudioFile>props_OS_openchest_Eliot_v5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="962126283"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="props_OS_openchest_Eliot_v5" ID="{ED7AE215-FA6A-4BBB-A984-92048AF7D8B1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
