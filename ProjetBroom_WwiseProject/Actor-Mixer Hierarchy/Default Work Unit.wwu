@@ -12997,183 +12997,54 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<RandomSequenceContainer Name="Death_SEQ" ID="{794A67C7-0292-4C32-92C1-80D8DE8587CE}" ShortID="616516368">
+														<Sound Name="TestSkeletonVoice_01" ID="{4C8F6B72-3023-45C4-8D7B-2C5594EC07CB}" ShortID="100090824">
 															<PropertyList>
-																<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>230</Value>
+																	</ValueList>
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{09064C66-7A40-4A6A-8A90-FE113DA73DF4}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="100"/>
+																					<Property Name="Min" Type="Real64" Value="-50"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<Sound Name="Mob_OS_SkeletonDistDeath_01" ID="{F621C9FE-D46B-4F45-A738-B40A73EA8815}" ShortID="910464614">
-																	<PropertyList>
-																		<Property Name="UserAuxSendVolume0" Type="Real64">
-																			<ValueList>
-																				<Value>-8</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend0">
-																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Mob_OS_SkeletonDistDeath_01" ID="{45D92849-E25D-4F63-870E-508A0F0579DE}">
-																			<Language>SFX</Language>
-																			<AudioFile>Mob_OS_SkeletonDistDeath_01.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="473539186"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Mob_OS_SkeletonDistDeath_01" ID="{45D92849-E25D-4F63-870E-508A0F0579DE}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-																<Sound Name="TestSkeletonVoice_01" ID="{4C8F6B72-3023-45C4-8D7B-2C5594EC07CB}" ShortID="100090824">
-																	<PropertyList>
-																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																		<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
-																		<Property Name="Pitch" Type="int32">
-																			<ValueList>
-																				<Value>230</Value>
-																			</ValueList>
-																			<ModifierList>
-																				<ModifierInfo>
-																					<Modifier Name="" ID="{09064C66-7A40-4A6A-8A90-FE113DA73DF4}">
-																						<PropertyList>
-																							<Property Name="Enabled" Type="bool" Value="True"/>
-																							<Property Name="Max" Type="Real64" Value="100"/>
-																							<Property Name="Min" Type="Real64" Value="-50"/>
-																						</PropertyList>
-																					</Modifier>
-																				</ModifierInfo>
-																			</ModifierList>
-																		</Property>
-																		<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
-																		<Property Name="PriorityDistanceOffset" Type="int16">
-																			<ValueList>
-																				<Value>-20</Value>
-																			</ValueList>
-																		</Property>
-																		<Property Name="UserAuxSendVolume0" Type="Real64">
-																			<ValueList>
-																				<Value>-8</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
-																	<ReferenceList>
-																		<Reference Name="Attenuation">
-																			<Custom CreatedFrom="{6933FD4D-AC59-4865-9000-C18AFCA1D526}">
-																				<Attenuation Name="SKDist_Att (Custom)" ID="{D7A0BA23-FCC2-4D10-9ACA-9DF4F03B91B6}" ShortID="562706017">
-																					<PropertyList>
-																						<Property Name="RadiusMax" Type="Real64" Value="1500"/>
-																					</PropertyList>
-																					<CurveUsageInfoList>
-																						<VolumeDryUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																								<Curve Name="VolumeDry" ID="{CC42DF48-4833-4537-B266-CD2652198309}">
-																									<PropertyList>
-																										<Property Name="Flags" Type="int32" Value="3"/>
-																									</PropertyList>
-																									<PointList>
-																										<Point>
-																											<XPos>0</XPos>
-																											<YPos>0</YPos>
-																											<Flags>5</Flags>
-																											<SegmentShape>Exp1</SegmentShape>
-																										</Point>
-																										<Point>
-																											<XPos>1500</XPos>
-																											<YPos>-200</YPos>
-																											<Flags>37</Flags>
-																										</Point>
-																									</PointList>
-																								</Curve>
-																							</CurveUsageInfo>
-																						</VolumeDryUsage>
-																						<VolumeWetGameUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																						</VolumeWetGameUsage>
-																						<VolumeWetUserUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																						</VolumeWetUserUsage>
-																						<LowPassFilterUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																						</LowPassFilterUsage>
-																						<HighPassFilterUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																						</HighPassFilterUsage>
-																						<SpreadUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																								<Curve Name="Spread" ID="{726022B3-738E-48E3-B12F-97B2F1110266}">
-																									<PropertyList>
-																										<Property Name="Flags" Type="int32" Value="1"/>
-																									</PropertyList>
-																									<PointList>
-																										<Point>
-																											<XPos>0</XPos>
-																											<YPos>70</YPos>
-																											<Flags>5</Flags>
-																											<SegmentShape>Log1</SegmentShape>
-																										</Point>
-																										<Point>
-																											<XPos>1500</XPos>
-																											<YPos>10</YPos>
-																											<Flags>37</Flags>
-																										</Point>
-																									</PointList>
-																								</Curve>
-																							</CurveUsageInfo>
-																						</SpreadUsage>
-																						<FocusUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																						</FocusUsage>
-																					</CurveUsageInfoList>
-																				</Attenuation>
-																			</Custom>
-																		</Reference>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend0">
-																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="TestSkeletonVoice_01" ID="{6E0B37F2-E7C7-4DF2-AE08-8CA03BFEC50B}">
-																			<Language>SFX</Language>
-																			<AudioFile>TestSkeletonVoice_01.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="364397768"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="TestSkeletonVoice_01" ID="{6E0B37F2-E7C7-4DF2-AE08-8CA03BFEC50B}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
+																<AudioFileSource Name="TestSkeletonVoice_01" ID="{6E0B37F2-E7C7-4DF2-AE08-8CA03BFEC50B}">
+																	<Language>SFX</Language>
+																	<AudioFile>TestSkeletonVoice_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="364397768"/>
+																	</MediaIDList>
+																</AudioFileSource>
 															</ChildrenList>
-															<Playlist>
-																<ItemRef Name="TestSkeletonVoice_01" ID="{4C8F6B72-3023-45C4-8D7B-2C5594EC07CB}"/>
-																<ItemRef Name="Mob_OS_SkeletonDistDeath_01" ID="{F621C9FE-D46B-4F45-A738-B40A73EA8815}"/>
-															</Playlist>
-														</RandomSequenceContainer>
+															<ActiveSourceList>
+																<ActiveSource Name="TestSkeletonVoice_01" ID="{6E0B37F2-E7C7-4DF2-AE08-8CA03BFEC50B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
 												</ActorMixer>
 											</ChildrenList>
@@ -13753,196 +13624,54 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<RandomSequenceContainer Name="Death_SEQ" ID="{B9F27187-5F4E-4811-9B76-ADBB5A355ED2}" ShortID="656582000">
+														<Sound Name="TestSkeletonVoice_01" ID="{E98E45AF-3408-4F8D-9F51-2F6DCB63A6E3}" ShortID="707825987">
 															<PropertyList>
-																<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>-130</Value>
+																	</ValueList>
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{123509BC-F76D-4339-96F8-8EB1F6DFFD61}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="25"/>
+																					<Property Name="Min" Type="Real64" Value="-200"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<Sound Name="Mob_OS_SkeletonCacDeath_01" ID="{5EC783DD-6D29-4381-BBA0-1498558C1649}" ShortID="127012684">
-																	<PropertyList>
-																		<Property Name="Pitch" Type="int32">
-																			<ModifierList>
-																				<ModifierInfo>
-																					<Modifier Name="" ID="{FE191CA5-0894-41C9-A18F-EF99D9A91CAD}">
-																						<PropertyList>
-																							<Property Name="Enabled" Type="bool" Value="True"/>
-																							<Property Name="Max" Type="Real64" Value="303"/>
-																							<Property Name="Min" Type="Real64" Value="-227"/>
-																						</PropertyList>
-																					</Modifier>
-																				</ModifierInfo>
-																			</ModifierList>
-																		</Property>
-																		<Property Name="UserAuxSendVolume0" Type="Real64">
-																			<ValueList>
-																				<Value>-8</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend0">
-																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Mob_OS_SkeletonCacDeath_01" ID="{02B5FA44-0CA4-4359-AF9B-44811C21DEEA}">
-																			<Language>SFX</Language>
-																			<AudioFile>Mob_OS_SkeletonCacDeath_01.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="1068231058"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Mob_OS_SkeletonCacDeath_01" ID="{02B5FA44-0CA4-4359-AF9B-44811C21DEEA}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-																<Sound Name="TestSkeletonVoice_01" ID="{E98E45AF-3408-4F8D-9F51-2F6DCB63A6E3}" ShortID="707825987">
-																	<PropertyList>
-																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																		<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
-																		<Property Name="Pitch" Type="int32">
-																			<ValueList>
-																				<Value>-130</Value>
-																			</ValueList>
-																			<ModifierList>
-																				<ModifierInfo>
-																					<Modifier Name="" ID="{123509BC-F76D-4339-96F8-8EB1F6DFFD61}">
-																						<PropertyList>
-																							<Property Name="Enabled" Type="bool" Value="True"/>
-																							<Property Name="Max" Type="Real64" Value="25"/>
-																							<Property Name="Min" Type="Real64" Value="-200"/>
-																						</PropertyList>
-																					</Modifier>
-																				</ModifierInfo>
-																			</ModifierList>
-																		</Property>
-																		<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
-																		<Property Name="PriorityDistanceOffset" Type="int16">
-																			<ValueList>
-																				<Value>-20</Value>
-																			</ValueList>
-																		</Property>
-																		<Property Name="UserAuxSendVolume0" Type="Real64">
-																			<ValueList>
-																				<Value>-8</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
-																	<ReferenceList>
-																		<Reference Name="Attenuation">
-																			<Custom CreatedFrom="{6933FD4D-AC59-4865-9000-C18AFCA1D526}">
-																				<Attenuation Name="SKDist_Att (Custom)" ID="{F0B311EF-B47A-4142-A671-77065F30373C}" ShortID="525741586">
-																					<PropertyList>
-																						<Property Name="RadiusMax" Type="Real64" Value="1500"/>
-																					</PropertyList>
-																					<CurveUsageInfoList>
-																						<VolumeDryUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																								<Curve Name="VolumeDry" ID="{411FADCD-5D2C-48E6-942C-56641059D9C2}">
-																									<PropertyList>
-																										<Property Name="Flags" Type="int32" Value="3"/>
-																									</PropertyList>
-																									<PointList>
-																										<Point>
-																											<XPos>0</XPos>
-																											<YPos>0</YPos>
-																											<Flags>5</Flags>
-																											<SegmentShape>Exp1</SegmentShape>
-																										</Point>
-																										<Point>
-																											<XPos>1500</XPos>
-																											<YPos>-200</YPos>
-																											<Flags>37</Flags>
-																										</Point>
-																									</PointList>
-																								</Curve>
-																							</CurveUsageInfo>
-																						</VolumeDryUsage>
-																						<VolumeWetGameUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																						</VolumeWetGameUsage>
-																						<VolumeWetUserUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																						</VolumeWetUserUsage>
-																						<LowPassFilterUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																						</LowPassFilterUsage>
-																						<HighPassFilterUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																						</HighPassFilterUsage>
-																						<SpreadUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																								<Curve Name="Spread" ID="{037763D5-CDF3-4387-B6AB-1F2DC158E969}">
-																									<PropertyList>
-																										<Property Name="Flags" Type="int32" Value="1"/>
-																									</PropertyList>
-																									<PointList>
-																										<Point>
-																											<XPos>0</XPos>
-																											<YPos>70</YPos>
-																											<Flags>5</Flags>
-																											<SegmentShape>Log1</SegmentShape>
-																										</Point>
-																										<Point>
-																											<XPos>1500</XPos>
-																											<YPos>10</YPos>
-																											<Flags>37</Flags>
-																										</Point>
-																									</PointList>
-																								</Curve>
-																							</CurveUsageInfo>
-																						</SpreadUsage>
-																						<FocusUsage>
-																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																						</FocusUsage>
-																					</CurveUsageInfoList>
-																				</Attenuation>
-																			</Custom>
-																		</Reference>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend0">
-																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="TestSkeletonVoice_01" ID="{EE51260D-5FC2-4F19-92B6-636CCE1FA56F}">
-																			<Language>SFX</Language>
-																			<AudioFile>TestSkeletonVoice_01.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="364397768"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="TestSkeletonVoice_01" ID="{EE51260D-5FC2-4F19-92B6-636CCE1FA56F}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
+																<AudioFileSource Name="TestSkeletonVoice_01" ID="{EE51260D-5FC2-4F19-92B6-636CCE1FA56F}">
+																	<Language>SFX</Language>
+																	<AudioFile>TestSkeletonVoice_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="364397768"/>
+																	</MediaIDList>
+																</AudioFileSource>
 															</ChildrenList>
-															<Playlist>
-																<ItemRef Name="TestSkeletonVoice_01" ID="{E98E45AF-3408-4F8D-9F51-2F6DCB63A6E3}"/>
-																<ItemRef Name="Mob_OS_SkeletonCacDeath_01" ID="{5EC783DD-6D29-4381-BBA0-1498558C1649}"/>
-															</Playlist>
-														</RandomSequenceContainer>
+															<ActiveSourceList>
+																<ActiveSource Name="TestSkeletonVoice_01" ID="{EE51260D-5FC2-4F19-92B6-636CCE1FA56F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
 												</ActorMixer>
 											</ChildrenList>

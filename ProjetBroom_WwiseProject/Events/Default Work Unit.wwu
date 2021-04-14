@@ -48,6 +48,16 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{D375CFA4-00BF-4038-B165-A6DCB7C378FC}" ShortID="589447718">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ShotCharging" ID="{EFB3FA03-9F9F-4521-B78A-DF4FF86595F6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Event_SkDist_Idle" ID="{25B7C5AE-533D-4A01-8B93-551220360F8F}">
@@ -77,7 +87,7 @@
 										<Action Name="" ID="{E094F4F7-4D1F-4A15-ACE6-74BF51A2A5C3}" ShortID="449673997">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Death_SEQ" ID="{794A67C7-0292-4C32-92C1-80D8DE8587CE}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="TestSkeletonVoice_01" ID="{4C8F6B72-3023-45C4-8D7B-2C5594EC07CB}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -154,7 +164,7 @@
 										<Action Name="" ID="{30A1F48A-9FF6-4321-9A7D-167A65031CDD}" ShortID="467081701">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Death_SEQ" ID="{B9F27187-5F4E-4811-9B76-ADBB5A355ED2}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="TestSkeletonVoice_01" ID="{E98E45AF-3408-4F8D-9F51-2F6DCB63A6E3}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
