@@ -1,0 +1,71 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1176600346",
+    "GUID": "{46217F1A-7F1A-1F1A-1A1A-1A1A1A1A1A1A}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_82283B9A2D83434DB906672BEB24E691",
+    "ShortName": "SB_82283B9A2D83434DB906672BEB24E691",
+    "Path": "SB_82283B9A2D83434DB906672BEB24E691.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2929043899",
+      "Name": "Event_PigChain_GetHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Kitchen\\Event_PigChain_GetHit",
+      "GUID": "{82283B9A-2D83-434D-B906-672BEB24E691}",
+      "MaxAttenuation": "2300.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.959645",
+      "DurationMax": "1.912691",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "34656901",
+        "Language": "SFX",
+        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainHit_02_Sabarros_v1.wav",
+        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainHit_02_Sabarros_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "37272919",
+        "Language": "SFX",
+        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainHit_01_Sabarros_v1.wav",
+        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainHit_01_Sabarros_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "969078221",
+        "Language": "SFX",
+        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainHit_03_Sabarros_v1.wav",
+        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainHit_03_Sabarros_v1_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "558252080",
+    "GUID": "{21464030-4030-1030-3030-303030303030}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_F51A02F613064FCEB6801B9337688502",
+    "ShortName": "SB_F51A02F613064FCEB6801B9337688502",
+    "Path": "SB_F51A02F613064FCEB6801B9337688502.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "871960671",
+      "Name": "Event_FallingRocks_Small",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Hell\\Event_FallingRocks_Small",
+      "GUID": "{F51A02F6-1306-4FCE-B680-1B9337688502}",
+      "MaxAttenuation": "2300.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.869041",
+      "DurationMax": "2.908095",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "856381693",
+        "Language": "SFX",
+        "ShortName": "HellFallingRocks\\Hell_OS_FallingRocks_06_Sabarros_v1.wav",
+        "Path": "SFX\\HellFallingRocks\\Hell_OS_FallingRocks_06_Sabarros_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "896956746",
+        "Language": "SFX",
+        "ShortName": "HellFallingRocks\\Hell_OS_FallingRocks_01_Sabarros_v1.wav",
+        "Path": "SFX\\HellFallingRocks\\Hell_OS_FallingRocks_01_Sabarros_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "901592627",
+        "Language": "SFX",
+        "ShortName": "HellFallingRocks\\Hell_OS_FallingRocks_07_Sabarros_v1.wav",
+        "Path": "SFX\\HellFallingRocks\\Hell_OS_FallingRocks_07_Sabarros_v1_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

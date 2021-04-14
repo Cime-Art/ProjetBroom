@@ -1,0 +1,37 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2931980777",
+    "GUID": "{AEC279E9-79E9-19E9-E9E9-E9E9E9E9E9E9}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_1A1A6E86709B4E41910B9015A5219DC7",
+    "ShortName": "SB_1A1A6E86709B4E41910B9015A5219DC7",
+    "Path": "SB_1A1A6E86709B4E41910B9015A5219DC7.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2591916548",
+      "Name": "Event_Stop_Checkpoint_torch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Event_Stop_Checkpoint_torch",
+      "GUID": "{1A1A6E86-709B-4E41-910B-9015A5219DC7}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

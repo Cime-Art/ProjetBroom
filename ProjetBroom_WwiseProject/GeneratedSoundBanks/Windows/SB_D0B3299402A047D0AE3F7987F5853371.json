@@ -1,0 +1,77 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "16694632",
+    "GUID": "{00FEBD68-BD68-1D68-6868-686868686868}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_D0B3299402A047D0AE3F7987F5853371",
+    "ShortName": "SB_D0B3299402A047D0AE3F7987F5853371",
+    "Path": "SB_D0B3299402A047D0AE3F7987F5853371.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "777709645",
+      "Name": "Event_PigChainSwing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Kitchen\\Event_PigChainSwing",
+      "GUID": "{D0B32994-02A0-47D0-AE3F-7987F5853371}",
+      "MaxAttenuation": "2300.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.297822",
+      "DurationMax": "2.653594",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "558562849",
+        "Language": "SFX",
+        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainSwing_04_Sabarros_v1.wav",
+        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainSwing_04_Sabarros_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "743539481",
+        "Language": "SFX",
+        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainSwing_02_Sabarros_v1.wav",
+        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainSwing_02_Sabarros_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "895694429",
+        "Language": "SFX",
+        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainSwing_03_Sabarros_v1.wav",
+        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainSwing_03_Sabarros_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "978607640",
+        "Language": "SFX",
+        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainSwing_01_Sabarros_v1.wav",
+        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainSwing_01_Sabarros_v1_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

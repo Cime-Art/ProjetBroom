@@ -1,0 +1,52 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1190736458",
+    "GUID": "{46F9324A-324A-124A-4A4A-4A4A4A4A4A4A}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_504FF54A42AE483FA1CBD95DFFEB17BC",
+    "ShortName": "SB_504FF54A42AE483FA1CBD95DFFEB17BC",
+    "Path": "SB_504FF54A42AE483FA1CBD95DFFEB17BC.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "396325735",
+      "Name": "Event_Spawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\Event_Spawn",
+      "GUID": "{504FF54A-42AE-483F-A1CB-D95DFFEB17BC}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.681017",
+      "DurationMax": "1.886878",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "603100389",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_Spawn_Eliot.wav",
+        "Path": "SFX\\SFX_OS_Spawn_Eliot_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

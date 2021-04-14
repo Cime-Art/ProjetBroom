@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2678108410",
+    "GUID": "{9FA0B0FA-B0FA-10FA-FAFA-FAFAFAFAFAFA}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_8F2661A2682E4994A853EE23A3519636",
+    "ShortName": "SB_8F2661A2682E4994A853EE23A3519636",
+    "Path": "SB_8F2661A2682E4994A853EE23A3519636.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2304879224",
+      "Name": "Event_LifeRefill",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Event_LifeRefill",
+      "GUID": "{8F2661A2-682E-4994-A853-EE23A3519636}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.529456",
+      "DurationMax": "1.529456",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "438531335",
+        "Language": "SFX",
+        "ShortName": "Refills\\Props_OS_LifeRefill_01_Sabarros_v3.wav",
+        "Path": "SFX\\Refills\\Props_OS_LifeRefill_01_Sabarros_v3_C2C9417F.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

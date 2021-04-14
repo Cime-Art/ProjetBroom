@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1119469993",
+    "GUID": "{42B9C1A9-C1A9-11A9-A9A9-A9A9A9A9A9A9}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_AA4D1158B58D4C6A97BB9C122D0912C6",
+    "ShortName": "SB_AA4D1158B58D4C6A97BB9C122D0912C6",
+    "Path": "SB_AA4D1158B58D4C6A97BB9C122D0912C6.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "761460301",
+      "Name": "Event_OpenChest",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Event_OpenChest",
+      "GUID": "{AA4D1158-B58D-4C6A-97BB-9C122D0912C6}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.537846",
+      "DurationMax": "1.537846",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "726920212",
+        "Language": "SFX",
+        "ShortName": "props_OS_openchest_Eliot_v6.wav",
+        "Path": "SFX\\props_OS_openchest_Eliot_v6_4A67AB6A.wem"
+       },
+       {
+        "Id": "962126283",
+        "Language": "SFX",
+        "ShortName": "props_OS_openchest_Eliot_v5.wav",
+        "Path": "SFX\\props_OS_openchest_Eliot_v5_4A67AB6A.wem"
+       },
+       {
+        "Id": "988629763",
+        "Language": "SFX",
+        "ShortName": "props_OS_openchest_Eliot_v4.wav",
+        "Path": "SFX\\props_OS_openchest_Eliot_v4_4A67AB6A.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
