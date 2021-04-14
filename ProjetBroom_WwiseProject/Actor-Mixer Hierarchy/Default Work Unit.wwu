@@ -18027,6 +18027,11 @@
 												<Value>-5</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -20049,15 +20054,13 @@
 																<Value>True</Value>
 															</ValueList>
 														</Property>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-11</Value>
-															</ValueList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="DefaultSwitchOrState">
+															<ObjectRef Name="Nothing" ID="{E45C10B8-578B-4F27-8EE7-AAA5239AAE21}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
@@ -20751,6 +20754,24 @@
 																</Sound>
 															</ChildrenList>
 														</RandomSequenceContainer>
+														<Sound Name="silence" ID="{3A8397F5-F1A0-4CA0-94A2-3C48A2604538}" ShortID="377599738">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Wwise Silence" ID="{16359648-A038-4A1D-A8C3-3154A1C5338B}" ShortID="342520546" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wwise Silence" ID="{16359648-A038-4A1D-A8C3-3154A1C5338B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
 													<StateInfo>
 														<StateGroupList>
@@ -20802,6 +20823,9 @@
 															<GroupingBehavior>
 																<ItemRef Name="Hollow Wood" ID="{AC4A92BC-B651-439F-87FD-734042B88285}"/>
 															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="silence" ID="{3A8397F5-F1A0-4CA0-94A2-3C48A2604538}"/>
+															</GroupingBehavior>
 														</GroupingBehaviorList>
 														<GroupingList>
 															<Grouping>
@@ -20838,6 +20862,12 @@
 																<SwitchRef Name="HollowMetal" ID="{4B4D5094-77C8-4732-B3E0-436D3DB45EE8}"/>
 																<ItemList>
 																	<ItemRef Name="Hollow Metal" ID="{524D4D36-B129-4733-B042-A35946E54C0C}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="Nothing" ID="{E45C10B8-578B-4F27-8EE7-AAA5239AAE21}"/>
+																<ItemList>
+																	<ItemRef Name="silence" ID="{3A8397F5-F1A0-4CA0-94A2-3C48A2604538}"/>
 																</ItemList>
 															</Grouping>
 															<Grouping>
