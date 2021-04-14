@@ -26,20 +26,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Mob\\SkeletonCac\\Event_SkCac_Death",
       "GUID": "{43342A4F-F47F-496A-AC5E-554E0E9FD119}",
       "DurationType": "OneShot",
-      "DurationMin": "0.768578",
-      "DurationMax": "1.043861",
+      "DurationMin": "0.862662",
+      "DurationMax": "0.982389",
       "ExcludedMemoryFiles": [
        {
         "Id": "364397768",
         "Language": "SFX",
         "ShortName": "TestSkeletonVoice_01.wav",
         "Path": "SFX\\TestSkeletonVoice_01_4A67AB6A.wem"
-       },
-       {
-        "Id": "1068231058",
-        "Language": "SFX",
-        "ShortName": "Mob_OS_SkeletonCacDeath_01.wav",
-        "Path": "SFX\\Mob_OS_SkeletonCacDeath_01_4A67AB6A.wem"
        }
       ],
       "AuxBusSends": [

@@ -25,21 +25,16 @@
       "Name": "Event_SkDist_Death",
       "ObjectPath": "\\Events\\Default Work Unit\\Mob\\SkeletonDist\\Event_SkDist_Death",
       "GUID": "{B840968C-3893-4AD1-8540-2CB9D4BFD2B2}",
+      "MaxAttenuation": "1500.000000",
       "DurationType": "OneShot",
       "DurationMin": "0.670992",
-      "DurationMax": "0.916667",
+      "DurationMax": "0.731722",
       "ExcludedMemoryFiles": [
        {
         "Id": "364397768",
         "Language": "SFX",
         "ShortName": "TestSkeletonVoice_01.wav",
         "Path": "SFX\\TestSkeletonVoice_01_4A67AB6A.wem"
-       },
-       {
-        "Id": "473539186",
-        "Language": "SFX",
-        "ShortName": "Mob_OS_SkeletonDistDeath_01.wav",
-        "Path": "SFX\\Mob_OS_SkeletonDistDeath_01_4A67AB6A.wem"
        }
       ],
       "AuxBusSends": [

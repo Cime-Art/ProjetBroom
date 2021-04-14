@@ -5,12 +5,15 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 	3240598342	Hit_Materials_Switch			\Default Work Unit\Player\Hit_Materials_Switch	
 
 Switch	ID	Name	Switch Group			Notes
+	18737890	SkCac	Hit_Materials_Switch			
 	294956043	HollowWood	Hit_Materials_Switch			
 	1153642577	Flesh	Hit_Materials_Switch			
 	2144363834	Rock	Hit_Materials_Switch			
 	2449969375	Glass	Hit_Materials_Switch			
+	2639854891	SKDist	Hit_Materials_Switch			
 	3118032615	Portal	Hit_Materials_Switch			
 	3762184421	HollowMetal	Hit_Materials_Switch			
+	4248742144	Nothing	Hit_Materials_Switch			
 	4258509895	DryWood	Hit_Materials_Switch			
 
 State Group	ID	Name			Wwise Object Path	Notes
@@ -21,4 +24,7 @@ State	ID	Name	State Group			Notes
 	748895195	None	State_Gate			
 	2112530240	In_Barn	State_Gate			
 	2771170873	In_Kitchen	State_Gate			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	342520546	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\General_Player_Mix\MaterialHits\HIT_Mixer\HitMaterials_Switch\silence\Wwise Silence	
 

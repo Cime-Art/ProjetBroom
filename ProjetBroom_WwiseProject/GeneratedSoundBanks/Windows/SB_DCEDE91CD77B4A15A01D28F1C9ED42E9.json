@@ -25,6 +25,7 @@
       "Name": "Event_SkCac_MoveForward",
       "ObjectPath": "\\Events\\Default Work Unit\\Mob\\SkeletonCac\\Event_SkCac_MoveForward",
       "GUID": "{DCEDE91C-D77B-4A15-A01D-28F1C9ED42E9}",
+      "MaxAttenuation": "700.000000",
       "DurationType": "OneShot",
       "DurationMin": "0.395646",
       "DurationMax": "0.500000",

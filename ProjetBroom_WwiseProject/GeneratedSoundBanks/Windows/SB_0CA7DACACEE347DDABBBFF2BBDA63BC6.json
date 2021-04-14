@@ -30,6 +30,12 @@
       "DurationMax": "1.417139",
       "ExcludedMemoryFiles": [
        {
+        "Id": "39940552",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonDistGetHit_01.wav",
+        "Path": "SFX\\Mob_OS_SkeletonDistGetHit_01_4A67AB6A.wem"
+       },
+       {
         "Id": "56183595",
         "Language": "SFX",
         "ShortName": "24 - SFX_OS_HollowMetalHit_02_Ferreira_v1.wav",
@@ -58,6 +64,12 @@
         "Language": "SFX",
         "ShortName": "SFX_OS_FleshHit_01_Ferreira_v1.wav",
         "Path": "SFX\\SFX_OS_FleshHit_01_Ferreira_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "256627092",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonCacGetHit_01.wav",
+        "Path": "SFX\\Mob_OS_SkeletonCacGetHit_01_4A67AB6A.wem"
        },
        {
         "Id": "405699160",
@@ -102,12 +114,25 @@
         "Path": "SFX\\23 - SFX_OS_HollowMetalHit_01_Ferreira_v1_4A67AB6A.wem"
        },
        {
+        "Id": "911393502",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonDistGetHit_02.wav",
+        "Path": "SFX\\Mob_OS_SkeletonDistGetHit_02_4A67AB6A.wem"
+       },
+       {
         "Id": "980663529",
         "Language": "SFX",
         "ShortName": "SFX_OS_WindowHit_02_Ferreira_v1.wav",
         "Path": "SFX\\SFX_OS_WindowHit_02_Ferreira_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "1035464308",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonCacGetHit_02.wav",
+        "Path": "SFX\\Mob_OS_SkeletonCacGetHit_02_4A67AB6A.wem"
        }
       ],
+      "DefaultSwitchValue": "{E45C10B8-578B-4F27-8EE7-AAA5239AAE21}",
       "SwitchContainers": [
        {
         "SwitchValue": "{1F2AC1FA-3447-485A-9D88-E2F9F8A1CDFA}",
@@ -182,9 +207,37 @@
           "Id": "144975964"
          }
         ]
+       },
+       {
+        "SwitchValue": "{961DCA05-9E7E-453C-965A-1CD2A17A16AC}",
+        "Media": [
+         {
+          "Id": "39940552"
+         },
+         {
+          "Id": "911393502"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{E88AB430-4F64-4BF1-9E83-EB31A7510725}",
+        "Media": [
+         {
+          "Id": "256627092"
+         },
+         {
+          "Id": "1035464308"
+         }
+        ]
        }
       ],
       "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       },
        {
         "Id": "3639771593",
         "Name": "Aux_Reverb_Out",
@@ -248,6 +301,24 @@
         "Name": "Portal",
         "ObjectPath": "\\Switches\\Default Work Unit\\Player\\Hit_Materials_Switch\\Portal",
         "GUID": "{198FAA6F-0EA4-4F9E-9C29-BE14EE2E6ED7}"
+       },
+       {
+        "Id": "2639854891",
+        "Name": "SKDist",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\Hit_Materials_Switch\\SKDist",
+        "GUID": "{961DCA05-9E7E-453C-965A-1CD2A17A16AC}"
+       },
+       {
+        "Id": "18737890",
+        "Name": "SkCac",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\Hit_Materials_Switch\\SkCac",
+        "GUID": "{E88AB430-4F64-4BF1-9E83-EB31A7510725}"
+       },
+       {
+        "Id": "4248742144",
+        "Name": "Nothing",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\Hit_Materials_Switch\\Nothing",
+        "GUID": "{E45C10B8-578B-4F27-8EE7-AAA5239AAE21}"
        }
       ]
      }
