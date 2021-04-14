@@ -12152,124 +12152,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<ActorMixer Name="GetHit" ID="{767CB068-8648-41AE-AD3D-A7ACAF8D4E12}" ShortID="798874877">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-														<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
-														<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-														<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
-														<Property Name="MaxSoundPerInstance" Type="int16">
-															<ValueList>
-																<Value>1</Value>
-															</ValueList>
-														</Property>
-														<Property Name="UseMaxSoundPerInstance" Type="bool">
-															<ValueList>
-																<Value>True</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<RandomSequenceContainer Name="SKDist_GetHit_RND" ID="{D2582700-140D-4D2D-A4CA-3631643A91B3}" ShortID="201664121">
-															<PropertyList>
-																<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																<Property Name="Pitch" Type="int32">
-																	<ModifierList>
-																		<ModifierInfo>
-																			<Modifier Name="" ID="{73D4A987-3A91-4E84-8A21-A59A6186209C}">
-																				<PropertyList>
-																					<Property Name="Enabled" Type="bool" Value="True"/>
-																					<Property Name="Max" Type="Real64" Value="480"/>
-																					<Property Name="Min" Type="Real64" Value="-303"/>
-																				</PropertyList>
-																			</Modifier>
-																		</ModifierInfo>
-																	</ModifierList>
-																</Property>
-																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
-																	<ModifierList>
-																		<ModifierInfo>
-																			<Modifier Name="" ID="{84C86612-D134-49F0-A406-669A1B50434E}"/>
-																		</ModifierInfo>
-																	</ModifierList>
-																</Property>
-																<Property Name="UserAuxSendVolume0" Type="Real64">
-																	<ValueList>
-																		<Value>-8</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Attenuation">
-																	<ObjectRef Name="SKDist_Att" ID="{6933FD4D-AC59-4865-9000-C18AFCA1D526}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
-																</Reference>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-																<Reference Name="UserAuxSend0">
-																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<Sound Name="Mob_OS_SkeletonDistGetHit_01" ID="{944DD84D-2BF0-46EE-B27E-7E16A18D0CE9}" ShortID="605431557">
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Mob_OS_SkeletonDistGetHit_01" ID="{6723C8B9-397C-4900-A275-5E865D55F2E6}">
-																			<Language>SFX</Language>
-																			<AudioFile>Mob_OS_SkeletonDistGetHit_01.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="39940552"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Mob_OS_SkeletonDistGetHit_01" ID="{6723C8B9-397C-4900-A275-5E865D55F2E6}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-																<Sound Name="Mob_OS_SkeletonDistGetHit_02" ID="{59CCCD97-ADA3-452B-98B6-B0F33B43D8BD}" ShortID="1065721256">
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Mob_OS_SkeletonDistGetHit_02" ID="{5EF3B812-5822-4C4F-8848-BC8544A164DA}">
-																			<Language>SFX</Language>
-																			<AudioFile>Mob_OS_SkeletonDistGetHit_02.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="911393502"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Mob_OS_SkeletonDistGetHit_02" ID="{5EF3B812-5822-4C4F-8848-BC8544A164DA}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-															</ChildrenList>
-														</RandomSequenceContainer>
-													</ChildrenList>
-												</ActorMixer>
 												<ActorMixer Name="Idle" ID="{7F69FBBA-F21E-462C-81DE-F73865DD8F3D}" ShortID="54731573">
 													<PropertyList>
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -13340,98 +13222,6 @@
 																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
-														</RandomSequenceContainer>
-													</ChildrenList>
-												</ActorMixer>
-												<ActorMixer Name="GetHit" ID="{2D5DAD98-5DF5-4BBD-B2CF-C4673732792B}" ShortID="897155396">
-													<PropertyList>
-														<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
-														<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-														<Property Name="MaxSoundPerInstance" Type="int16">
-															<ValueList>
-																<Value>4</Value>
-															</ValueList>
-														</Property>
-														<Property Name="UseMaxSoundPerInstance" Type="bool">
-															<ValueList>
-																<Value>True</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<RandomSequenceContainer Name="GetHit" ID="{7D49F734-386F-41CC-B8FB-D96EDD39D78C}" ShortID="588154104">
-															<PropertyList>
-																<Property Name="UserAuxSendVolume0" Type="Real64">
-																	<ValueList>
-																		<Value>-8</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-																<Reference Name="UserAuxSend0">
-																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<Sound Name="Mob_OS_SkeletonCacGetHit_01" ID="{DC78D342-F381-434D-A0B5-C5FD450C7288}" ShortID="9623314">
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Mob_OS_SkeletonCacGetHit_01" ID="{C675B55F-F0A8-4D09-9D23-9332235187A2}">
-																			<Language>SFX</Language>
-																			<AudioFile>Mob_OS_SkeletonCacGetHit_01.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="256627092"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Mob_OS_SkeletonCacGetHit_01" ID="{C675B55F-F0A8-4D09-9D23-9332235187A2}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-																<Sound Name="Mob_OS_SkeletonCacGetHit_02" ID="{91C0E897-1A4A-497A-8A79-EE82E8D48AC6}" ShortID="271839106">
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Mob_OS_SkeletonCacGetHit_02" ID="{68FB26F1-9366-46ED-825C-846CB99D1A6D}">
-																			<Language>SFX</Language>
-																			<AudioFile>Mob_OS_SkeletonCacGetHit_02.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="1035464308"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Mob_OS_SkeletonCacGetHit_02" ID="{68FB26F1-9366-46ED-825C-846CB99D1A6D}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-															</ChildrenList>
 														</RandomSequenceContainer>
 													</ChildrenList>
 												</ActorMixer>
@@ -20235,14 +20025,7 @@
 								</Folder>
 								<Folder Name="MaterialHits" ID="{A7429467-B82E-47B7-A74F-EE1FF1A7604A}" ShortID="974598076">
 									<ChildrenList>
-										<SwitchContainer Name="HitMaterials_Switch" ID="{60A4AE27-18ED-49E5-B94E-D119E46C3555}" ShortID="791492322">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-11</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
+										<ActorMixer Name="HIT_Mixer" ID="{2944C8AE-A1F3-4BCC-82DC-1B760EA62F77}" ShortID="681622782">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -20250,100 +20033,25 @@
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 												</Reference>
-												<Reference Name="SwitchGroupOrStateGroup">
-													<ObjectRef Name="Hit_Materials_Switch" ID="{3A57482F-BD07-4C9B-AEE9-015021B95BB8}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
-												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<RandomSequenceContainer Name="Hollow_WoodHit_RND" ID="{AC4A92BC-B651-439F-87FD-734042B88285}" ShortID="552128879">
+												<SwitchContainer Name="HitMaterials_Switch" ID="{60A4AE27-18ED-49E5-B94E-D119E46C3555}" ShortID="791492322">
 													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{FAB675DD-2AA8-4013-94D8-C54A8C940867}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="733"/>
-																			<Property Name="Min" Type="Real64" Value="-300"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
+														<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+														<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
 														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="27 - SFX_OS_HollowWoodHit_01_Ferreira_v1" ID="{3CC74FA1-2914-4731-AD48-D212AD6C3385}" ShortID="1063977404">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="27 - SFX_OS_HollowWoodHit_01_Ferreira_v1" ID="{F5E6C102-2F9C-4F76-9528-751D2907985B}">
-																	<Language>SFX</Language>
-																	<AudioFile>27 - SFX_OS_HollowWoodHit_01_Ferreira_v1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="743849027"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="27 - SFX_OS_HollowWoodHit_01_Ferreira_v1" ID="{F5E6C102-2F9C-4F76-9528-751D2907985B}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="28 - SFX_OS_HollowWoodHit_02_Ferreira_v1" ID="{7F4C9631-DBE7-4EEA-A37F-FA9E0BCE2537}" ShortID="954129171">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="28 - SFX_OS_HollowWoodHit_02_Ferreira_v1" ID="{59DD5AD5-CC7E-49A6-BDA7-81DFFA3DE8C1}">
-																	<Language>SFX</Language>
-																	<AudioFile>28 - SFX_OS_HollowWoodHit_02_Ferreira_v1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="776926126"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="28 - SFX_OS_HollowWoodHit_02_Ferreira_v1" ID="{59DD5AD5-CC7E-49A6-BDA7-81DFFA3DE8C1}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="Metal_HollowHit_RND" ID="{524D4D36-B129-4733-B042-A35946E54C0C}" ShortID="377978273">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{A0C5D9E7-F066-461E-8D8D-2C4831DB884D}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="429"/>
-																			<Property Name="Min" Type="Real64" Value="-177"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
 														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-5</Value>
+																<Value>-11</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -20352,388 +20060,100 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+															<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="SwitchGroupOrStateGroup">
+															<ObjectRef Name="Hit_Materials_Switch" ID="{3A57482F-BD07-4C9B-AEE9-015021B95BB8}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="23 - SFX_OS_HollowMetalHit_01_Ferreira_v1" ID="{E1EA6B7A-3676-4172-9BBF-82498FFE514D}" ShortID="1049667722">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="23 - SFX_OS_HollowMetalHit_01_Ferreira_v1" ID="{FCC55A0F-B9E8-42B7-8350-945B9DCCE441}">
-																	<Language>SFX</Language>
-																	<AudioFile>23 - SFX_OS_HollowMetalHit_01_Ferreira_v1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="837685776"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="23 - SFX_OS_HollowMetalHit_01_Ferreira_v1" ID="{FCC55A0F-B9E8-42B7-8350-945B9DCCE441}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="24 - SFX_OS_HollowMetalHit_02_Ferreira_v1" ID="{EDF84491-3CE1-4B40-B94E-858E527F6E71}" ShortID="259088617">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="24 - SFX_OS_HollowMetalHit_02_Ferreira_v1" ID="{F1B29C6E-B346-4917-8D33-FD9B706280D1}">
-																	<Language>SFX</Language>
-																	<AudioFile>24 - SFX_OS_HollowMetalHit_02_Ferreira_v1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="56183595"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="24 - SFX_OS_HollowMetalHit_02_Ferreira_v1" ID="{F1B29C6E-B346-4917-8D33-FD9B706280D1}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="RockHit_RND" ID="{B9C0624B-E06B-4DE7-8311-2B24AE45F440}" ShortID="847284783">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{2EE40D51-E6AD-44CE-84B8-60152620CDE6}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="500"/>
-																			<Property Name="Min" Type="Real64" Value="-278"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="25 - SFX_OS_StoneHit_01_Ferreira_v1" ID="{31889283-FD45-40AC-A933-A8691D3AA961}" ShortID="830169837">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="25 - SFX_OS_StoneHit_01_Ferreira_v1" ID="{A7A096E4-B6DD-4968-9CC3-C97BD6483457}">
-																	<Language>SFX</Language>
-																	<AudioFile>25 - SFX_OS_StoneHit_01_Ferreira_v1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="405699160"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="25 - SFX_OS_StoneHit_01_Ferreira_v1" ID="{A7A096E4-B6DD-4968-9CC3-C97BD6483457}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="26 - SFX_OS_StoneHit_02_Ferreira_v1" ID="{FB40E265-D053-4ACA-97BA-31192C3F9011}" ShortID="641244907">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="26 - SFX_OS_StoneHit_02_Ferreira_v1" ID="{5C6DB467-6864-4D7E-B4B8-D434F64B2F4F}">
-																	<Language>SFX</Language>
-																	<AudioFile>26 - SFX_OS_StoneHit_02_Ferreira_v1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="697610052"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="26 - SFX_OS_StoneHit_02_Ferreira_v1" ID="{5C6DB467-6864-4D7E-B4B8-D434F64B2F4F}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="Dry_WoodHit_RND" ID="{2FF0601A-6F45-4134-B4D1-A01715F37009}" ShortID="187086416">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{C1915017-3372-47A0-9F81-465404E45682}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="1061"/>
-																			<Property Name="Min" Type="Real64" Value="-303"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="29 - SFX_OS_DryWoodHit_01_Ferreira_v1" ID="{47E8D9DE-AF3A-4413-957D-BE5EBBF3CD05}" ShortID="1701600">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="29 - SFX_OS_DryWoodHit_01_Ferreira_v1" ID="{48ED38D3-984C-46BD-ACFB-205A8C0AA42E}">
-																	<Language>SFX</Language>
-																	<AudioFile>29 - SFX_OS_DryWoodHit_01_Ferreira_v1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="636609700"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="29 - SFX_OS_DryWoodHit_01_Ferreira_v1" ID="{48ED38D3-984C-46BD-ACFB-205A8C0AA42E}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="30 - SFX_OS_DryWoodHit_02_Ferreira_v1" ID="{C88FC0B9-D92D-4C11-B0C5-62486D5DC92E}" ShortID="388038017">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="30 - SFX_OS_DryWoodHit_02_Ferreira_v1" ID="{BFB7259F-FCB7-402B-AECE-FE1FC9A30D6F}">
-																	<Language>SFX</Language>
-																	<AudioFile>30 - SFX_OS_DryWoodHit_02_Ferreira_v1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="199213318"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="30 - SFX_OS_DryWoodHit_02_Ferreira_v1" ID="{BFB7259F-FCB7-402B-AECE-FE1FC9A30D6F}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="FleshHit_RND" ID="{EDC92B69-9A3D-46C9-AEF2-472C27E5F385}" ShortID="823686184">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{204AEEA4-10CF-442A-9B2E-F890CCE8F5C4}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="350"/>
-																			<Property Name="Min" Type="Real64" Value="-350"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="SFX_OS_FleshHit_01_Ferreira_v1" ID="{84971E6E-1C5F-4AD7-AD99-52A6F8DF1123}" ShortID="360568919">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="SFX_OS_FleshHit_01_Ferreira_v1" ID="{382F976B-EF5D-4B57-9525-96F9F39FAA5B}">
-																	<PropertyList>
-																		<Property Name="VolumeOffset" Type="Real64">
-																			<ValueList>
-																				<Value>6</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>SFX_OS_FleshHit_01_Ferreira_v1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="209459353"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="SFX_OS_FleshHit_01_Ferreira_v1" ID="{382F976B-EF5D-4B57-9525-96F9F39FAA5B}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="SFX_OS_FleshHit_02_Ferreira_v1" ID="{78EF4CC4-BA25-40E6-9EC2-5066DCB80BCA}" ShortID="900455255">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="SFX_OS_FleshHit_02_Ferreira_v1" ID="{EF1D28E2-5A26-4EC8-94C6-4AEB3A9A75A3}">
-																	<PropertyList>
-																		<Property Name="VolumeOffset" Type="Real64">
-																			<ValueList>
-																				<Value>6</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>SFX_OS_FleshHit_02_Ferreira_v1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="792192075"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="SFX_OS_FleshHit_02_Ferreira_v1" ID="{EF1D28E2-5A26-4EC8-94C6-4AEB3A9A75A3}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="GlassHit_RND" ID="{A534A115-764D-4BF2-A712-E3F30FC5A0E8}" ShortID="1031554412">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{D393BC1E-800D-4169-A76A-83BB508C1CC9}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="455"/>
-																			<Property Name="Min" Type="Real64" Value="-101"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="SFX_OS_WindowHit_01_Ferreira_v1" ID="{57BDAFE6-8CCB-4620-974A-2F1FB715A913}" ShortID="663399038">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="SFX_OS_WindowHit_01_Ferreira_v1" ID="{B703BEE5-6227-4443-B847-ECD1D9F792BB}">
-																	<PropertyList>
-																		<Property Name="VolumeOffset" Type="Real64">
-																			<ValueList>
-																				<Value>6</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>SFX_OS_WindowHit_01_Ferreira_v1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="129640620"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="SFX_OS_WindowHit_01_Ferreira_v1" ID="{B703BEE5-6227-4443-B847-ECD1D9F792BB}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="SFX_OS_WindowHit_02_Ferreira_v1" ID="{BE92B0B8-389D-4A8B-9470-20DA7DB6F769}" ShortID="398681665">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="SFX_OS_WindowHit_02_Ferreira_v1" ID="{652D838E-E863-40A2-95BE-D150C9679309}">
-																	<PropertyList>
-																		<Property Name="VolumeOffset" Type="Real64">
-																			<ValueList>
-																				<Value>6</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>SFX_OS_WindowHit_02_Ferreira_v1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="980663529"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="SFX_OS_WindowHit_02_Ferreira_v1" ID="{652D838E-E863-40A2-95BE-D150C9679309}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="Portal_Hit" ID="{128C6F91-B800-47F9-94EE-830526E42692}" ShortID="296261253">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="SFX_OS_PortalHit_01" ID="{681A449D-16E7-4099-80C8-5943CF9EC762}" ShortID="185132764">
+														<RandomSequenceContainer Name="Hollow Wood" ID="{AC4A92BC-B651-439F-87FD-734042B88285}" ShortID="552128879">
 															<PropertyList>
 																<Property Name="Pitch" Type="int32">
 																	<ModifierList>
 																		<ModifierInfo>
-																			<Modifier Name="" ID="{CC6171F2-2106-4947-BB2C-416D35696F48}">
+																			<Modifier Name="" ID="{FAB675DD-2AA8-4013-94D8-C54A8C940867}">
 																				<PropertyList>
 																					<Property Name="Enabled" Type="bool" Value="True"/>
-																					<Property Name="Max" Type="Real64" Value="100"/>
-																					<Property Name="Min" Type="Real64" Value="-100"/>
+																					<Property Name="Max" Type="Real64" Value="733"/>
+																					<Property Name="Min" Type="Real64" Value="-300"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="27 - SFX_OS_HollowWoodHit_01_Ferreira_v1" ID="{3CC74FA1-2914-4731-AD48-D212AD6C3385}" ShortID="1063977404">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="27 - SFX_OS_HollowWoodHit_01_Ferreira_v1" ID="{F5E6C102-2F9C-4F76-9528-751D2907985B}">
+																			<Language>SFX</Language>
+																			<AudioFile>27 - SFX_OS_HollowWoodHit_01_Ferreira_v1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="743849027"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="27 - SFX_OS_HollowWoodHit_01_Ferreira_v1" ID="{F5E6C102-2F9C-4F76-9528-751D2907985B}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="28 - SFX_OS_HollowWoodHit_02_Ferreira_v1" ID="{7F4C9631-DBE7-4EEA-A37F-FA9E0BCE2537}" ShortID="954129171">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="28 - SFX_OS_HollowWoodHit_02_Ferreira_v1" ID="{59DD5AD5-CC7E-49A6-BDA7-81DFFA3DE8C1}">
+																			<Language>SFX</Language>
+																			<AudioFile>28 - SFX_OS_HollowWoodHit_02_Ferreira_v1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="776926126"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="28 - SFX_OS_HollowWoodHit_02_Ferreira_v1" ID="{59DD5AD5-CC7E-49A6-BDA7-81DFFA3DE8C1}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Hollow Metal" ID="{524D4D36-B129-4733-B042-A35946E54C0C}" ShortID="377978273">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{A0C5D9E7-F066-461E-8D8D-2C4831DB884D}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="429"/>
+																					<Property Name="Min" Type="Real64" Value="-177"/>
 																				</PropertyList>
 																			</Modifier>
 																		</ModifierInfo>
@@ -20741,7 +20161,7 @@
 																</Property>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
-																		<Value>-11</Value>
+																		<Value>-5</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -20754,119 +20174,695 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_OS_PortalHit_01" ID="{512D8803-7F05-4516-83B6-23AA52F3EBD5}">
+																<Sound Name="23 - SFX_OS_HollowMetalHit_01_Ferreira_v1" ID="{E1EA6B7A-3676-4172-9BBF-82498FFE514D}" ShortID="1049667722">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="23 - SFX_OS_HollowMetalHit_01_Ferreira_v1" ID="{FCC55A0F-B9E8-42B7-8350-945B9DCCE441}">
+																			<Language>SFX</Language>
+																			<AudioFile>23 - SFX_OS_HollowMetalHit_01_Ferreira_v1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="837685776"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="23 - SFX_OS_HollowMetalHit_01_Ferreira_v1" ID="{FCC55A0F-B9E8-42B7-8350-945B9DCCE441}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="24 - SFX_OS_HollowMetalHit_02_Ferreira_v1" ID="{EDF84491-3CE1-4B40-B94E-858E527F6E71}" ShortID="259088617">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="24 - SFX_OS_HollowMetalHit_02_Ferreira_v1" ID="{F1B29C6E-B346-4917-8D33-FD9B706280D1}">
+																			<Language>SFX</Language>
+																			<AudioFile>24 - SFX_OS_HollowMetalHit_02_Ferreira_v1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="56183595"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="24 - SFX_OS_HollowMetalHit_02_Ferreira_v1" ID="{F1B29C6E-B346-4917-8D33-FD9B706280D1}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Rock" ID="{B9C0624B-E06B-4DE7-8311-2B24AE45F440}" ShortID="847284783">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{2EE40D51-E6AD-44CE-84B8-60152620CDE6}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="500"/>
+																					<Property Name="Min" Type="Real64" Value="-278"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="25 - SFX_OS_StoneHit_01_Ferreira_v1" ID="{31889283-FD45-40AC-A933-A8691D3AA961}" ShortID="830169837">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="25 - SFX_OS_StoneHit_01_Ferreira_v1" ID="{A7A096E4-B6DD-4968-9CC3-C97BD6483457}">
+																			<Language>SFX</Language>
+																			<AudioFile>25 - SFX_OS_StoneHit_01_Ferreira_v1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="405699160"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="25 - SFX_OS_StoneHit_01_Ferreira_v1" ID="{A7A096E4-B6DD-4968-9CC3-C97BD6483457}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="26 - SFX_OS_StoneHit_02_Ferreira_v1" ID="{FB40E265-D053-4ACA-97BA-31192C3F9011}" ShortID="641244907">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="26 - SFX_OS_StoneHit_02_Ferreira_v1" ID="{5C6DB467-6864-4D7E-B4B8-D434F64B2F4F}">
+																			<Language>SFX</Language>
+																			<AudioFile>26 - SFX_OS_StoneHit_02_Ferreira_v1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="697610052"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="26 - SFX_OS_StoneHit_02_Ferreira_v1" ID="{5C6DB467-6864-4D7E-B4B8-D434F64B2F4F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Wood" ID="{2FF0601A-6F45-4134-B4D1-A01715F37009}" ShortID="187086416">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{C1915017-3372-47A0-9F81-465404E45682}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="1061"/>
+																					<Property Name="Min" Type="Real64" Value="-303"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="29 - SFX_OS_DryWoodHit_01_Ferreira_v1" ID="{47E8D9DE-AF3A-4413-957D-BE5EBBF3CD05}" ShortID="1701600">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="29 - SFX_OS_DryWoodHit_01_Ferreira_v1" ID="{48ED38D3-984C-46BD-ACFB-205A8C0AA42E}">
+																			<Language>SFX</Language>
+																			<AudioFile>29 - SFX_OS_DryWoodHit_01_Ferreira_v1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="636609700"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="29 - SFX_OS_DryWoodHit_01_Ferreira_v1" ID="{48ED38D3-984C-46BD-ACFB-205A8C0AA42E}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="30 - SFX_OS_DryWoodHit_02_Ferreira_v1" ID="{C88FC0B9-D92D-4C11-B0C5-62486D5DC92E}" ShortID="388038017">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="30 - SFX_OS_DryWoodHit_02_Ferreira_v1" ID="{BFB7259F-FCB7-402B-AECE-FE1FC9A30D6F}">
+																			<Language>SFX</Language>
+																			<AudioFile>30 - SFX_OS_DryWoodHit_02_Ferreira_v1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="199213318"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="30 - SFX_OS_DryWoodHit_02_Ferreira_v1" ID="{BFB7259F-FCB7-402B-AECE-FE1FC9A30D6F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Flesh" ID="{EDC92B69-9A3D-46C9-AEF2-472C27E5F385}" ShortID="823686184">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{204AEEA4-10CF-442A-9B2E-F890CCE8F5C4}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="350"/>
+																					<Property Name="Min" Type="Real64" Value="-350"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_OS_FleshHit_01_Ferreira_v1" ID="{84971E6E-1C5F-4AD7-AD99-52A6F8DF1123}" ShortID="360568919">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_OS_FleshHit_01_Ferreira_v1" ID="{382F976B-EF5D-4B57-9525-96F9F39FAA5B}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>6</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_OS_FleshHit_01_Ferreira_v1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="209459353"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_OS_FleshHit_01_Ferreira_v1" ID="{382F976B-EF5D-4B57-9525-96F9F39FAA5B}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_OS_FleshHit_02_Ferreira_v1" ID="{78EF4CC4-BA25-40E6-9EC2-5066DCB80BCA}" ShortID="900455255">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_OS_FleshHit_02_Ferreira_v1" ID="{EF1D28E2-5A26-4EC8-94C6-4AEB3A9A75A3}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>6</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_OS_FleshHit_02_Ferreira_v1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="792192075"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_OS_FleshHit_02_Ferreira_v1" ID="{EF1D28E2-5A26-4EC8-94C6-4AEB3A9A75A3}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Glass" ID="{A534A115-764D-4BF2-A712-E3F30FC5A0E8}" ShortID="1031554412">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{D393BC1E-800D-4169-A76A-83BB508C1CC9}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="455"/>
+																					<Property Name="Min" Type="Real64" Value="-101"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_OS_WindowHit_01_Ferreira_v1" ID="{57BDAFE6-8CCB-4620-974A-2F1FB715A913}" ShortID="663399038">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_OS_WindowHit_01_Ferreira_v1" ID="{B703BEE5-6227-4443-B847-ECD1D9F792BB}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>6</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_OS_WindowHit_01_Ferreira_v1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="129640620"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_OS_WindowHit_01_Ferreira_v1" ID="{B703BEE5-6227-4443-B847-ECD1D9F792BB}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_OS_WindowHit_02_Ferreira_v1" ID="{BE92B0B8-389D-4A8B-9470-20DA7DB6F769}" ShortID="398681665">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_OS_WindowHit_02_Ferreira_v1" ID="{652D838E-E863-40A2-95BE-D150C9679309}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>6</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_OS_WindowHit_02_Ferreira_v1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="980663529"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_OS_WindowHit_02_Ferreira_v1" ID="{652D838E-E863-40A2-95BE-D150C9679309}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Portal Arena" ID="{128C6F91-B800-47F9-94EE-830526E42692}" ShortID="296261253">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_OS_PortalHit_01" ID="{681A449D-16E7-4099-80C8-5943CF9EC762}" ShortID="185132764">
 																	<PropertyList>
-																		<Property Name="VolumeOffset" Type="Real64">
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{CC6171F2-2106-4947-BB2C-416D35696F48}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="100"/>
+																							<Property Name="Min" Type="Real64" Value="-100"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>24</Value>
+																				<Value>-11</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>SFX_OS_PortalHit_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="144975964"/>
-																	</MediaIDList>
-																</AudioFileSource>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_OS_PortalHit_01" ID="{512D8803-7F05-4516-83B6-23AA52F3EBD5}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>24</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_OS_PortalHit_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="144975964"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_OS_PortalHit_01" ID="{512D8803-7F05-4516-83B6-23AA52F3EBD5}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
 															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="SFX_OS_PortalHit_01" ID="{512D8803-7F05-4516-83B6-23AA52F3EBD5}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="SKDist" ID="{D2582700-140D-4D2D-A4CA-3631643A91B3}" ShortID="201664121">
+															<PropertyList>
+																<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+																<Property Name="MaxSoundPerInstance" Type="int16">
+																	<ValueList>
+																		<Value>1</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{73D4A987-3A91-4E84-8A21-A59A6186209C}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="480"/>
+																					<Property Name="Min" Type="Real64" Value="-303"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{84C86612-D134-49F0-A406-669A1B50434E}"/>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Mob_OS_SkeletonDistGetHit_01" ID="{944DD84D-2BF0-46EE-B27E-7E16A18D0CE9}" ShortID="605431557">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistGetHit_01" ID="{6723C8B9-397C-4900-A275-5E865D55F2E6}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonDistGetHit_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="39940552"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonDistGetHit_01" ID="{6723C8B9-397C-4900-A275-5E865D55F2E6}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Mob_OS_SkeletonDistGetHit_02" ID="{59CCCD97-ADA3-452B-98B6-B0F33B43D8BD}" ShortID="1065721256">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonDistGetHit_02" ID="{5EF3B812-5822-4C4F-8848-BC8544A164DA}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonDistGetHit_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="911393502"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonDistGetHit_02" ID="{5EF3B812-5822-4C4F-8848-BC8544A164DA}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="SKCac" ID="{7D49F734-386F-41CC-B8FB-D96EDD39D78C}" ShortID="588154104">
+															<PropertyList>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Mob_OS_SkeletonCacGetHit_01" ID="{DC78D342-F381-434D-A0B5-C5FD450C7288}" ShortID="9623314">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonCacGetHit_01" ID="{C675B55F-F0A8-4D09-9D23-9332235187A2}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonCacGetHit_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="256627092"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonCacGetHit_01" ID="{C675B55F-F0A8-4D09-9D23-9332235187A2}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Mob_OS_SkeletonCacGetHit_02" ID="{91C0E897-1A4A-497A-8A79-EE82E8D48AC6}" ShortID="271839106">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Mob_OS_SkeletonCacGetHit_02" ID="{68FB26F1-9366-46ED-825C-846CB99D1A6D}">
+																			<Language>SFX</Language>
+																			<AudioFile>Mob_OS_SkeletonCacGetHit_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1035464308"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Mob_OS_SkeletonCacGetHit_02" ID="{68FB26F1-9366-46ED-825C-846CB99D1A6D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
 													</ChildrenList>
-												</RandomSequenceContainer>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="State_Gate" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="In_Barn" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
+																<CustomState Name="" ID="{7DD27706-73CE-4A59-9452-53EFB1C2BD08}" ShortID="841865276"/>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="In_Kitchen" ID="{D0B086CF-5F0F-4B67-83DB-4E500E5AD494}"/>
+																<CustomState Name="" ID="{16845E60-83E8-4AD6-B4A3-3C69A5898A75}" ShortID="590256709"/>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
+																<CustomState Name="" ID="{20C572F0-4A80-4C7C-A24E-4EB082CB1D40}" ShortID="479719750"/>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
+													<GroupingInfo>
+														<GroupingBehaviorList>
+															<GroupingBehavior>
+																<ItemRef Name="SKDist" ID="{D2582700-140D-4D2D-A4CA-3631643A91B3}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="Glass" ID="{A534A115-764D-4BF2-A712-E3F30FC5A0E8}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="Wood" ID="{2FF0601A-6F45-4134-B4D1-A01715F37009}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="SKCac" ID="{7D49F734-386F-41CC-B8FB-D96EDD39D78C}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="Hollow Metal" ID="{524D4D36-B129-4733-B042-A35946E54C0C}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="Rock" ID="{B9C0624B-E06B-4DE7-8311-2B24AE45F440}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="Flesh" ID="{EDC92B69-9A3D-46C9-AEF2-472C27E5F385}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="Portal Arena" ID="{128C6F91-B800-47F9-94EE-830526E42692}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="Hollow Wood" ID="{AC4A92BC-B651-439F-87FD-734042B88285}"/>
+															</GroupingBehavior>
+														</GroupingBehaviorList>
+														<GroupingList>
+															<Grouping>
+																<SwitchRef Name="SKDist" ID="{961DCA05-9E7E-453C-965A-1CD2A17A16AC}"/>
+																<ItemList>
+																	<ItemRef Name="SKDist" ID="{D2582700-140D-4D2D-A4CA-3631643A91B3}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="Glass" ID="{3F517729-CB5C-4D21-9317-029768EAD8A6}"/>
+																<ItemList>
+																	<ItemRef Name="Glass" ID="{A534A115-764D-4BF2-A712-E3F30FC5A0E8}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="SkCac" ID="{E88AB430-4F64-4BF1-9E83-EB31A7510725}"/>
+																<ItemList>
+																	<ItemRef Name="SKCac" ID="{7D49F734-386F-41CC-B8FB-D96EDD39D78C}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="Rock" ID="{3164F961-5C9D-41BA-A8F0-B7B2181634E3}"/>
+																<ItemList>
+																	<ItemRef Name="Rock" ID="{B9C0624B-E06B-4DE7-8311-2B24AE45F440}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="Portal" ID="{198FAA6F-0EA4-4F9E-9C29-BE14EE2E6ED7}"/>
+																<ItemList>
+																	<ItemRef Name="Portal Arena" ID="{128C6F91-B800-47F9-94EE-830526E42692}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="HollowMetal" ID="{4B4D5094-77C8-4732-B3E0-436D3DB45EE8}"/>
+																<ItemList>
+																	<ItemRef Name="Hollow Metal" ID="{524D4D36-B129-4733-B042-A35946E54C0C}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="DryWood" ID="{B7624EDB-88F7-4B4F-8B22-48863C6006CF}"/>
+																<ItemList>
+																	<ItemRef Name="Wood" ID="{2FF0601A-6F45-4134-B4D1-A01715F37009}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="Flesh" ID="{B4E479E7-1A9E-400D-8950-8DF06A9F01D3}"/>
+																<ItemList>
+																	<ItemRef Name="Flesh" ID="{EDC92B69-9A3D-46C9-AEF2-472C27E5F385}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="HollowWood" ID="{1F2AC1FA-3447-485A-9D88-E2F9F8A1CDFA}"/>
+																<ItemList>
+																	<ItemRef Name="Hollow Wood" ID="{AC4A92BC-B651-439F-87FD-734042B88285}"/>
+																</ItemList>
+															</Grouping>
+														</GroupingList>
+													</GroupingInfo>
+												</SwitchContainer>
 											</ChildrenList>
-											<StateInfo>
-												<StateGroupList>
-													<StateGroupInfo>
-														<StateGroupRef Name="State_Gate" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}"/>
-													</StateGroupInfo>
-												</StateGroupList>
-												<CustomStateList>
-													<CustomState>
-														<StateRef Name="In_Barn" ID="{052D62BB-523B-4630-8D8B-E415CA4005C5}"/>
-														<CustomState Name="" ID="{7DD27706-73CE-4A59-9452-53EFB1C2BD08}" ShortID="841865276"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="In_Kitchen" ID="{D0B086CF-5F0F-4B67-83DB-4E500E5AD494}"/>
-														<CustomState Name="" ID="{16845E60-83E8-4AD6-B4A3-3C69A5898A75}" ShortID="590256709"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
-														<CustomState Name="" ID="{20C572F0-4A80-4C7C-A24E-4EB082CB1D40}" ShortID="479719750"/>
-													</CustomState>
-												</CustomStateList>
-											</StateInfo>
-											<GroupingInfo>
-												<GroupingBehaviorList>
-													<GroupingBehavior>
-														<ItemRef Name="GlassHit_RND" ID="{A534A115-764D-4BF2-A712-E3F30FC5A0E8}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="Dry_WoodHit_RND" ID="{2FF0601A-6F45-4134-B4D1-A01715F37009}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="Metal_HollowHit_RND" ID="{524D4D36-B129-4733-B042-A35946E54C0C}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="RockHit_RND" ID="{B9C0624B-E06B-4DE7-8311-2B24AE45F440}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="FleshHit_RND" ID="{EDC92B69-9A3D-46C9-AEF2-472C27E5F385}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="Portal_Hit" ID="{128C6F91-B800-47F9-94EE-830526E42692}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="Hollow_WoodHit_RND" ID="{AC4A92BC-B651-439F-87FD-734042B88285}"/>
-													</GroupingBehavior>
-												</GroupingBehaviorList>
-												<GroupingList>
-													<Grouping>
-														<SwitchRef Name="Glass" ID="{3F517729-CB5C-4D21-9317-029768EAD8A6}"/>
-														<ItemList>
-															<ItemRef Name="GlassHit_RND" ID="{A534A115-764D-4BF2-A712-E3F30FC5A0E8}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="Rock" ID="{3164F961-5C9D-41BA-A8F0-B7B2181634E3}"/>
-														<ItemList>
-															<ItemRef Name="RockHit_RND" ID="{B9C0624B-E06B-4DE7-8311-2B24AE45F440}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="Portal" ID="{198FAA6F-0EA4-4F9E-9C29-BE14EE2E6ED7}"/>
-														<ItemList>
-															<ItemRef Name="Portal_Hit" ID="{128C6F91-B800-47F9-94EE-830526E42692}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="HollowMetal" ID="{4B4D5094-77C8-4732-B3E0-436D3DB45EE8}"/>
-														<ItemList>
-															<ItemRef Name="Metal_HollowHit_RND" ID="{524D4D36-B129-4733-B042-A35946E54C0C}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="DryWood" ID="{B7624EDB-88F7-4B4F-8B22-48863C6006CF}"/>
-														<ItemList>
-															<ItemRef Name="Dry_WoodHit_RND" ID="{2FF0601A-6F45-4134-B4D1-A01715F37009}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="Flesh" ID="{B4E479E7-1A9E-400D-8950-8DF06A9F01D3}"/>
-														<ItemList>
-															<ItemRef Name="FleshHit_RND" ID="{EDC92B69-9A3D-46C9-AEF2-472C27E5F385}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="HollowWood" ID="{1F2AC1FA-3447-485A-9D88-E2F9F8A1CDFA}"/>
-														<ItemList>
-															<ItemRef Name="Hollow_WoodHit_RND" ID="{AC4A92BC-B651-439F-87FD-734042B88285}"/>
-														</ItemList>
-													</Grouping>
-												</GroupingList>
-											</GroupingInfo>
-										</SwitchContainer>
+										</ActorMixer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="GetHit" ID="{0F1F6E7D-FC4A-465E-A771-81110C982E99}" ShortID="604995396">

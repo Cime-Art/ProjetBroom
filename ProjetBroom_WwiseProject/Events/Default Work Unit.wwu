@@ -41,13 +41,6 @@
 								</Event>
 								<Event Name="Event_SkDist_Hit" ID="{30ECF606-86AA-4C16-B61B-812D2B2C8101}">
 									<ChildrenList>
-										<Action Name="" ID="{06325C99-445F-42D1-AE3A-531F35A05977}" ShortID="544652329">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="SKDist_GetHit_RND" ID="{D2582700-140D-4D2D-A4CA-3631643A91B3}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
 										<Action Name="" ID="{D375CFA4-00BF-4038-B165-A6DCB7C378FC}" ShortID="589447718">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
@@ -216,17 +209,6 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="MoveForward" ID="{BAD06503-E39D-4AD7-8DEC-46CF5CB08D91}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Event_SkCac_GetHit" ID="{20851009-BED1-4B27-9246-42F17C048439}">
-									<ChildrenList>
-										<Action Name="" ID="{46D67A23-BD10-40B5-8B83-51E652BA6302}" ShortID="198810991">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="GetHit" ID="{7D49F734-386F-41CC-B8FB-D96EDD39D78C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
