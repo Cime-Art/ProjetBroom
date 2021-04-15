@@ -917,6 +917,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Event_PigChainSqueak" ID="{BC529EE4-8725-448C-B3A1-1392111DEFAF}">
+											<ChildrenList>
+												<Action Name="" ID="{BD1FF8CD-7CB1-40DB-B140-64F12C5CC019}" ShortID="239069564">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="ChainSqueak_RND" ID="{4FD2C0D0-16ED-4E44-BA48-87CC31B75509}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Boiler" ID="{E3693FC2-1B70-4FD8-A1E2-1B3E6707E479}" ShortID="756491329">
