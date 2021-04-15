@@ -2820,7 +2820,7 @@
 																				</Property>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-4</Value>
+																						<Value>-3</Value>
 																					</ValueList>
 																					<ModifierList>
 																						<ModifierInfo>
@@ -2934,7 +2934,7 @@
 																							<Modifier Name="" ID="{241AC00D-38C9-4019-9252-92AF7DA3C09D}">
 																								<PropertyList>
 																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="300"/>
+																									<Property Name="Max" Type="Real64" Value="200"/>
 																									<Property Name="Min" Type="Real64" Value="-150"/>
 																								</PropertyList>
 																							</Modifier>
@@ -2949,7 +2949,7 @@
 																				<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-13</Value>
+																						<Value>-15</Value>
 																					</ValueList>
 																					<ModifierList>
 																						<ModifierInfo>
@@ -3244,7 +3244,7 @@
 																				</Property>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-20</Value>
+																						<Value>-22</Value>
 																					</ValueList>
 																					<ModifierList>
 																						<ModifierInfo>
