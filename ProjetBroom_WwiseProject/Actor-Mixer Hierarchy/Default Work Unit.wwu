@@ -21540,6 +21540,644 @@
 										</ActorMixer>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Voices" ID="{FDE8AE38-6BDA-4ACB-A55B-CAF8D21DA7ED}" ShortID="638074167">
+									<ChildrenList>
+										<ActorMixer Name="Voice_Mixer" ID="{8E4EE52B-4C29-4D91-ADB5-93B2D403379C}" ShortID="659866478">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="VoiceDead_RND" ID="{26890386-0ABE-4313-8D00-A2990D4988F3}" ShortID="378990007">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="OS_PLAYER_VoiceDead_01_Raph_V1" ID="{74340996-4A61-4D00-80D4-52705497BCDB}" ShortID="967072389">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceDead_01_Raph_V1" ID="{97D0F1F0-2136-4B35-9D67-874E03689052}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceDead_01_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="542100541"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceDead_01_Raph_V1" ID="{97D0F1F0-2136-4B35-9D67-874E03689052}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceDead_02_Raph_V1" ID="{A79FDAEE-4DC7-4885-B546-8B3911AE98C7}" ShortID="956858366">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceDead_02_Raph_V1" ID="{97427791-C232-4AEC-942C-35FE527D99F9}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceDead_02_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="42023635"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceDead_02_Raph_V1" ID="{97427791-C232-4AEC-942C-35FE527D99F9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceDead_03_Raph_V1" ID="{8D3968A0-EEEE-4263-9E1B-F392B0915057}" ShortID="521399324">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceDead_03_Raph_V1" ID="{3A65C782-1A83-4C07-BC85-A6032DDF6290}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceDead_03_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1021308722"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceDead_03_Raph_V1" ID="{3A65C782-1A83-4C07-BC85-A6032DDF6290}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceDead_04_Raph_V1" ID="{1C1ECAC4-5995-44DE-803B-4EA94694A4C8}" ShortID="183220078">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceDead_04_Raph_V1" ID="{720706D0-2583-459A-8389-921A9B77175B}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceDead_04_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="137814462"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceDead_04_Raph_V1" ID="{720706D0-2583-459A-8389-921A9B77175B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceDead_05_Raph_V1" ID="{89AD867B-1778-4F4B-9363-8A9948960ADC}" ShortID="1023182392">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceDead_05_Raph_V1" ID="{F585C885-C51E-4A46-A4D5-4EAF134C2343}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceDead_05_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="713267408"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceDead_05_Raph_V1" ID="{F585C885-C51E-4A46-A4D5-4EAF134C2343}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="VoiceAttack_RND" ID="{689ABA43-50F4-4032-BC85-1823AC6C1DE5}" ShortID="592098715">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="OS_PLAYER_VoiceAttack_01_Raph_V1" ID="{1ED9C1F7-D28E-4700-96CA-3C7BFA989335}" ShortID="17178064">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceAttack_01_Raph_V1" ID="{04CDC4F3-EE48-4821-8FBF-E624CAC86BB9}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceAttack_01_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="441284196"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceAttack_01_Raph_V1" ID="{04CDC4F3-EE48-4821-8FBF-E624CAC86BB9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceAttack_02_Raph_V1" ID="{54B13D44-43CD-4477-8930-282F2D7DCD9C}" ShortID="181960244">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceAttack_02_Raph_V1" ID="{81278278-C6C4-414C-8747-28D85B1E0582}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceAttack_02_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="738237027"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceAttack_02_Raph_V1" ID="{81278278-C6C4-414C-8747-28D85B1E0582}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceAttack_03_Raph_V1" ID="{5228E013-DB88-4747-8BF7-41942AA35DD4}" ShortID="977531331">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceAttack_03_Raph_V1" ID="{94C0DF24-A5D5-4D43-A883-176D4A352AE6}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceAttack_03_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="24949192"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceAttack_03_Raph_V1" ID="{94C0DF24-A5D5-4D43-A883-176D4A352AE6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceAttack_04_Raph_V1" ID="{FADF0555-B5FA-4F2D-92AC-96A6508C11A1}" ShortID="474481342">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceAttack_04_Raph_V1" ID="{B34C0A75-6514-45BC-844A-6DB80F6D8472}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceAttack_04_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="750078486"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceAttack_04_Raph_V1" ID="{B34C0A75-6514-45BC-844A-6DB80F6D8472}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceAttack_05_Raph_V1" ID="{1CFBF650-5251-4E79-9134-04C717731716}" ShortID="992177403">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceAttack_05_Raph_V1" ID="{1B9F638E-12F8-47FC-9C3A-383E5BE74D26}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceAttack_05_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="534149977"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceAttack_05_Raph_V1" ID="{1B9F638E-12F8-47FC-9C3A-383E5BE74D26}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="VoiceFalling_RND" ID="{3F264338-5344-4454-B23C-F311348430E0}" ShortID="654552571">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="OS_PLAYER_VoiceFalling_01_Raph_V1" ID="{9B58A098-9C12-4596-BAA0-E176C8B9121A}" ShortID="164951768">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceFalling_01_Raph_V1" ID="{230E8384-90F6-404D-BFC7-DA81A2BD76B7}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceFalling_01_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="86999303"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceFalling_01_Raph_V1" ID="{230E8384-90F6-404D-BFC7-DA81A2BD76B7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceFalling_02_Raph_V1" ID="{D1D9C426-7D27-4EF6-A511-68E7AF56C3EF}" ShortID="174579320">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceFalling_02_Raph_V1" ID="{4D538242-0110-42C8-9FEC-42F8D9DEC7BE}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceFalling_02_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="935000885"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceFalling_02_Raph_V1" ID="{4D538242-0110-42C8-9FEC-42F8D9DEC7BE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceFalling_03_Raph_V1" ID="{665BEE3B-03A4-40D4-A048-58C0FEB709D0}" ShortID="842021052">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceFalling_03_Raph_V1" ID="{133F4DF3-695F-4400-BA3A-2A7C821DEBE1}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceFalling_03_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="391279565"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceFalling_03_Raph_V1" ID="{133F4DF3-695F-4400-BA3A-2A7C821DEBE1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="VoiceGetHit_RND" ID="{2DCEE9FB-A122-4FD5-AA65-5694DE0BE65F}" ShortID="736867175">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="OS_PLAYER_VoiceGetHit_01_Raph_V1" ID="{74228DC8-6D60-4A64-ABB6-9E515B8634A6}" ShortID="246760922">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceGetHit_01_Raph_V1" ID="{75A5E9D3-1714-48E9-B791-99D3EAD258E1}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceGetHit_01_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="542812944"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceGetHit_01_Raph_V1" ID="{75A5E9D3-1714-48E9-B791-99D3EAD258E1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceGetHit_02_Raph_V1" ID="{0C0BCF97-5FAC-4A3C-8E42-4CEEF161D322}" ShortID="81675221">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceGetHit_02_Raph_V1" ID="{E5B5A623-0219-483F-A637-8DB5349C211F}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceGetHit_02_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="319565079"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceGetHit_02_Raph_V1" ID="{E5B5A623-0219-483F-A637-8DB5349C211F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceGetHit_03_Raph_V1" ID="{45A12F24-3BF4-4F4A-BFD0-36275184FF53}" ShortID="169015602">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceGetHit_03_Raph_V1" ID="{3F4334F9-95F7-4058-A076-BF6240CA6A40}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceGetHit_03_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="633218594"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceGetHit_03_Raph_V1" ID="{3F4334F9-95F7-4058-A076-BF6240CA6A40}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceGetHit_04_Raph_V1" ID="{A24588B8-3638-46B0-B5EF-1DBDF129A5EB}" ShortID="651400821">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceGetHit_04_Raph_V1" ID="{CA62AD3A-4478-42A2-878F-15322CC4F8A7}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceGetHit_04_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="81334722"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceGetHit_04_Raph_V1" ID="{CA62AD3A-4478-42A2-878F-15322CC4F8A7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceGetHit_05_Raph_V1" ID="{D0178AA7-4287-4BF5-A70A-D28849479229}" ShortID="678850025">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceGetHit_05_Raph_V1" ID="{0BDDC6CC-92A1-4497-A4B4-DD892CC81F2E}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceGetHit_05_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="114231119"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceGetHit_05_Raph_V1" ID="{0BDDC6CC-92A1-4497-A4B4-DD892CC81F2E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceGetHit_06_Raph_V1" ID="{0F271DEA-2370-45F0-A4DD-878C95FD6E8F}" ShortID="525548069">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceGetHit_06_Raph_V1" ID="{72115DB1-C1B3-4E46-B321-CCFD780239F7}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceGetHit_06_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="379164777"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceGetHit_06_Raph_V1" ID="{72115DB1-C1B3-4E46-B321-CCFD780239F7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceGetHit_07_Raph_V1" ID="{6D00AC0D-AB56-4D2B-990D-AD598133AE93}" ShortID="760353040">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceGetHit_07_Raph_V1" ID="{FF45B175-631C-4389-AF08-6B8B84436D37}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceGetHit_07_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="408326643"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceGetHit_07_Raph_V1" ID="{FF45B175-631C-4389-AF08-6B8B84436D37}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="VoiceJump_RND" ID="{4D375AEA-98C7-43D8-8331-6DE377B6046A}" ShortID="796316944">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="OS_PLAYER_VoiceJump_01_Raph_V1" ID="{0389C28D-2B03-4C9F-8F13-8BA3E2E6E059}" ShortID="268122157">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceJump_01_Raph_V1" ID="{8EA53CF4-DDFE-4265-9C75-7205366A4B21}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceJump_01_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="441699223"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceJump_01_Raph_V1" ID="{8EA53CF4-DDFE-4265-9C75-7205366A4B21}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceJump_02_Raph_V1" ID="{DB59D4AC-CBB3-4191-9596-A7BE908D518D}" ShortID="613327298">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceJump_02_Raph_V1" ID="{0A51E72E-BBBE-4D3A-9A04-84E3D127F58F}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceJump_02_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="320615983"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceJump_02_Raph_V1" ID="{0A51E72E-BBBE-4D3A-9A04-84E3D127F58F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceJump_03_Raph_V1" ID="{C24B6A48-FC96-4F13-93D8-2202C091CF76}" ShortID="298597781">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceJump_03_Raph_V1" ID="{E1266E7A-B4CF-4E7B-ACBD-B2C7464CBD8E}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceJump_03_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="734804503"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceJump_03_Raph_V1" ID="{E1266E7A-B4CF-4E7B-ACBD-B2C7464CBD8E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceJump_04_Raph_V1" ID="{45163BC6-A39B-41C3-99A7-977B62C96C85}" ShortID="64834303">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceJump_04_Raph_V1" ID="{B047CBF0-E36F-43D9-969B-1BED153CEED0}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceJump_04_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="146258670"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceJump_04_Raph_V1" ID="{B047CBF0-E36F-43D9-969B-1BED153CEED0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_PLAYER_VoiceJump_05_Raph_V1" ID="{D2C13F5F-30AE-4AB4-A0D8-EAC8F5EBAB81}" ShortID="231885440">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_PLAYER_VoiceJump_05_Raph_V1" ID="{E1D1CA9C-9420-4DF9-ABD5-3307ECAC8926}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_PLAYER_VoiceJump_05_Raph_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="211789318"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_PLAYER_VoiceJump_05_Raph_V1" ID="{E1D1CA9C-9420-4DF9-ABD5-3307ECAC8926}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</ActorMixer>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
