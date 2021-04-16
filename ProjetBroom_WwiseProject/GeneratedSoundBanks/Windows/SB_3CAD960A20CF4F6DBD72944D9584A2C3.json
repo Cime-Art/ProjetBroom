@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
-   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -25,104 +25,10 @@
       "Name": "Event_SKCac_Voices",
       "ObjectPath": "\\Events\\Default Work Unit\\Mob\\SkeletonCac\\Event_SKCac_Voices",
       "GUID": "{3CAD960A-20CF-4F6D-BD72-944D9584A2C3}",
+      "MaxAttenuation": "0.000000",
       "DurationType": "OneShot",
-      "DurationMin": "0.395625",
-      "DurationMax": "0.811896",
-      "ExcludedMemoryFiles": [
-       {
-        "Id": "364397768",
-        "Language": "SFX",
-        "ShortName": "TestSkeletonVoice_01.wav",
-        "Path": "SFX\\TestSkeletonVoice_01_4A67AB6A.wem"
-       },
-       {
-        "Id": "449605654",
-        "Language": "SFX",
-        "ShortName": "TestSkeletonVoice_03.wav",
-        "Path": "SFX\\TestSkeletonVoice_03_4A67AB6A.wem"
-       },
-       {
-        "Id": "901550107",
-        "Language": "SFX",
-        "ShortName": "TestSkeletonVoice_02.wav",
-        "Path": "SFX\\TestSkeletonVoice_02_4A67AB6A.wem"
-       }
-      ],
-      "DefaultSwitchValue": "{14062BC8-93CC-486B-9115-CA552ADFE65C}",
-      "SwitchContainers": [
-       {
-        "SwitchValue": "{19423F76-2BF3-4DE9-A70B-73713437BD7F}",
-        "Media": [
-         {
-          "Id": "364397768"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{0D0DCB2A-27BA-4B29-A49B-E1BBE25B2D62}",
-        "Media": [
-         {
-          "Id": "901550107"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{67A42A8A-DEE6-433D-A2E7-C5BDDA5A2187}",
-        "Media": [
-         {
-          "Id": "449605654"
-         }
-        ]
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "335668392",
-        "Name": "Reveb_Jail",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
-        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
-       }
-      ]
-     }
-    ],
-    "StateGroups": [
-     {
-      "Id": "1435919515",
-      "Name": "SkeletonsVoices_States",
-      "ObjectPath": "\\States\\Default Work Unit\\Mob\\Skeletons\\SkeletonsVoices_States",
-      "GUID": "{9BDAB86B-EC56-447E-AE75-E598A33146A5}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Mob\\Skeletons\\SkeletonsVoices_States\\None",
-        "GUID": "{2998E685-3B52-4543-BD42-7096320FB856}"
-       },
-       {
-        "Id": "1817458629",
-        "Name": "Idle_Walk",
-        "ObjectPath": "\\States\\Default Work Unit\\Mob\\Skeletons\\SkeletonsVoices_States\\Idle_Walk",
-        "GUID": "{14062BC8-93CC-486B-9115-CA552ADFE65C}"
-       },
-       {
-        "Id": "180661997",
-        "Name": "Attack",
-        "ObjectPath": "\\States\\Default Work Unit\\Mob\\Skeletons\\SkeletonsVoices_States\\Attack",
-        "GUID": "{67A42A8A-DEE6-433D-A2E7-C5BDDA5A2187}"
-       },
-       {
-        "Id": "110619946",
-        "Name": "GetHit",
-        "ObjectPath": "\\States\\Default Work Unit\\Mob\\Skeletons\\SkeletonsVoices_States\\GetHit",
-        "GUID": "{0D0DCB2A-27BA-4B29-A49B-E1BBE25B2D62}"
-       },
-       {
-        "Id": "779278001",
-        "Name": "Death",
-        "ObjectPath": "\\States\\Default Work Unit\\Mob\\Skeletons\\SkeletonsVoices_States\\Death",
-        "GUID": "{19423F76-2BF3-4DE9-A70B-73713437BD7F}"
-       }
-      ]
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      }
     ]
    }

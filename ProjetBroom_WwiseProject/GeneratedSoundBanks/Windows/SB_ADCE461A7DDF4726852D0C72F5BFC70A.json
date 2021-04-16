@@ -1,0 +1,71 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2814270729",
+    "GUID": "{A7BE5D09-5D09-1D09-0909-090909090909}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_ADCE461A7DDF4726852D0C72F5BFC70A",
+    "ShortName": "SB_ADCE461A7DDF4726852D0C72F5BFC70A",
+    "Path": "SB_ADCE461A7DDF4726852D0C72F5BFC70A.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "112021993",
+      "Name": "Event_PigChain_GetHitLight",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Kitchen\\Event_PigChain_GetHitLight",
+      "GUID": "{ADCE461A-7DDF-4726-852D-0C72F5BFC70A}",
+      "MaxAttenuation": "2300.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.615932",
+      "DurationMax": "1.357620",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "618444821",
+        "Language": "SFX",
+        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainHitLight_01_Sabarros_v2.wav",
+        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainHitLight_01_Sabarros_v2_4A67AB6A.wem"
+       },
+       {
+        "Id": "660296776",
+        "Language": "SFX",
+        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainHitLight_03_Sabarros_v2.wav",
+        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainHitLight_03_Sabarros_v2_4A67AB6A.wem"
+       },
+       {
+        "Id": "931133469",
+        "Language": "SFX",
+        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainHitLight_02_Sabarros_v2.wav",
+        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainHitLight_02_Sabarros_v2_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

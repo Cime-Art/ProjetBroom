@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
-   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -25,9 +25,7 @@
       "Name": "Event_LoudScream",
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Voices\\Event_LoudScream",
       "GUID": "{BC7048F1-5CDE-4377-AE48-FCE261B2ABDB}",
-      "DurationType": "OneShot",
-      "DurationMin": "6.016222",
-      "DurationMax": "37.803345",
+      "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {
         "Id": "141710724",
@@ -99,7 +97,7 @@
         "Id": "1031445948",
         "Language": "SFX",
         "ShortName": "Amb_OS_LoudScream _04.wav",
-        "Path": "SFX\\Amb_OS_LoudScream _04_7EDE1107.wem"
+        "Path": "SFX\\Amb_OS_LoudScream _04_FD5B24C2.wem"
        }
       ],
       "AuxBusSends": [

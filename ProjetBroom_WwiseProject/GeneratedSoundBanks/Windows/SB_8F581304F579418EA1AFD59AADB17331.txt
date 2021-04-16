@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2824954714	Event_Play_Horizontal_Attack			\Default Work Unit\Player\Event_Play_Horizontal_Attack	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2854175295	Attack_Player			\Default Work Unit\Player\Attack_Player	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Attack_Player			
+	1763033380	Horizontal_Attack	Attack_Player			
+	2665482738	Vertical_Attack	Attack_Player			
+
+Effect plug-ins	ID	Name	Type				Notes
+	512400424	Wwise_Gain_(Custom)	Wwise Gain			
+

@@ -1,0 +1,70 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1808165557",
+    "GUID": "{6BC66AB5-6AB5-1AB5-B5B5-B5B5B5B5B5B5}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_0633DD9B7E3B493C89A52A7F432F1A94",
+    "ShortName": "SB_0633DD9B7E3B493C89A52A7F432F1A94",
+    "Path": "SB_0633DD9B7E3B493C89A52A7F432F1A94.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2506150003",
+      "Name": "Event_SkDist_PlayerHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\SkeletonDist\\Event_SkDist_PlayerHit",
+      "GUID": "{0633DD9B-7E3B-493C-89A5-2A7F432F1A94}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.467604",
+      "DurationMax": "0.786833",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "677710420",
+        "Language": "SFX",
+        "ShortName": "Player_OS_SkeletonCac_Hit_02.wav",
+        "Path": "SFX\\Player_OS_SkeletonCac_Hit_02_4A67AB6A.wem"
+       },
+       {
+        "Id": "840807032",
+        "Language": "SFX",
+        "ShortName": "Player_OS_SkeletonCac_Hit_01.wav",
+        "Path": "SFX\\Player_OS_SkeletonCac_Hit_01_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       },
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

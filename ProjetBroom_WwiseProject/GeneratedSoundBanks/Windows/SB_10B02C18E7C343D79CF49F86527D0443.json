@@ -1,0 +1,37 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1331246234",
+    "GUID": "{4F59349A-349A-149A-9A9A-9A9A9A9A9A9A}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_10B02C18E7C343D79CF49F86527D0443",
+    "ShortName": "SB_10B02C18E7C343D79CF49F86527D0443",
+    "Path": "SB_10B02C18E7C343D79CF49F86527D0443.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1996971944",
+      "Name": "Event_Stop_AMB_LP_HellAmbiance",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Hell\\Event_Stop_AMB_LP_HellAmbiance",
+      "GUID": "{10B02C18-E7C3-43D7-9CF4-9F86527D0443}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

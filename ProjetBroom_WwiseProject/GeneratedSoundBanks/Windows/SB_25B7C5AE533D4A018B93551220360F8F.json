@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
-   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -28,18 +28,6 @@
       "MaxAttenuation": "1500.000000",
       "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
-       {
-        "Id": "364397768",
-        "Language": "SFX",
-        "ShortName": "TestSkeletonVoice_01.wav",
-        "Path": "SFX\\TestSkeletonVoice_01_4A67AB6A.wem"
-       },
-       {
-        "Id": "901550107",
-        "Language": "SFX",
-        "ShortName": "TestSkeletonVoice_02.wav",
-        "Path": "SFX\\TestSkeletonVoice_02_4A67AB6A.wem"
-       },
        {
         "Id": "943816498",
         "Language": "SFX",

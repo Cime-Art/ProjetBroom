@@ -1,0 +1,144 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1188235408",
+    "GUID": "{46D30890-0890-1890-9090-909090909090}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_DFCA4BE575DA4CD790305C9F9BD08E4A",
+    "ShortName": "SB_DFCA4BE575DA4CD790305C9F9BD08E4A",
+    "Path": "SB_DFCA4BE575DA4CD790305C9F9BD08E4A.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2864268762",
+      "Name": "Event_BubbleLava",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Hell\\Event_BubbleLava",
+      "GUID": "{DFCA4BE5-75DA-4CD7-9030-5C9F9BD08E4A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.559618",
+      "DurationMax": "3.995486",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "4438269",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_BubbleLava_B04_THOMAS_V1.wav",
+        "Path": "SFX\\AMB_OS_BubbleLava_B04_THOMAS_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "41103298",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_BubbleLava_B02_THOMAS_V1.wav",
+        "Path": "SFX\\AMB_OS_BubbleLava_B02_THOMAS_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "222655373",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_BubbleLava_A03_THOMAS_V1.wav",
+        "Path": "SFX\\AMB_OS_BubbleLava_A03_THOMAS_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "286252176",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_BubbleLava_C03_THOMAS_V1.wav",
+        "Path": "SFX\\AMB_OS_BubbleLava_C03_THOMAS_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "499973347",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_BubbleLava_A04_THOMAS_V1.wav",
+        "Path": "SFX\\AMB_OS_BubbleLava_A04_THOMAS_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "829736200",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_BubbleLava_C01_THOMAS_V1.wav",
+        "Path": "SFX\\AMB_OS_BubbleLava_C01_THOMAS_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "871076934",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_BubbleLava_B05_THOMAS_V1.wav",
+        "Path": "SFX\\AMB_OS_BubbleLava_B05_THOMAS_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "871266021",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_BubbleLava_B03_THOMAS_V1.wav",
+        "Path": "SFX\\AMB_OS_BubbleLava_B03_THOMAS_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "879902293",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_BubbleLava_A02_THOMAS_V1.wav",
+        "Path": "SFX\\AMB_OS_BubbleLava_A02_THOMAS_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "916441520",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_BubbleLava_C04_THOMAS_V1.wav",
+        "Path": "SFX\\AMB_OS_BubbleLava_C04_THOMAS_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "969198656",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_BubbleLava_A01_THOMAS_V1.wav",
+        "Path": "SFX\\AMB_OS_BubbleLava_A01_THOMAS_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "980760619",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_BubbleLava_B06_THOMAS_V1.wav",
+        "Path": "SFX\\AMB_OS_BubbleLava_B06_THOMAS_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "1034673874",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_BubbleLava_C02_THOMAS_V1.wav",
+        "Path": "SFX\\AMB_OS_BubbleLava_C02_THOMAS_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "1061899257",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_BubbleLava_B01_THOMAS_V1.wav",
+        "Path": "SFX\\AMB_OS_BubbleLava_B01_THOMAS_V1_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2895187543",
+      "Name": "HeightPlayer",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Player\\HeightPlayer",
+      "GUID": "{250B3ED9-C1E8-4668-B835-6A391E9395FA}"
+     }
+    ]
+   }
+  ]
+ }
+}

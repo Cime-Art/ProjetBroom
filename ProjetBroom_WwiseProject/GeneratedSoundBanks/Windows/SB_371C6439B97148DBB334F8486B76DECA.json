@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
-   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -28,16 +28,154 @@
       "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {
-        "Id": "77715167",
+        "Id": "99512072",
         "Language": "SFX",
-        "ShortName": "musique menu.wav",
-        "Path": "SFX\\musique menu_70232134.wem"
+        "ShortName": "flute_lead_02.wav",
+        "Path": "SFX\\flute_lead_02_70232134.wem"
+       },
+       {
+        "Id": "99644371",
+        "Language": "SFX",
+        "ShortName": "shaker.wav",
+        "Path": "SFX\\shaker_70232134.wem"
+       },
+       {
+        "Id": "127103536",
+        "Language": "SFX",
+        "ShortName": "skaker2_Bis.wav",
+        "Path": "SFX\\skaker2_Bis_70232134.wem"
+       },
+       {
+        "Id": "133394327",
+        "Language": "SFX",
+        "ShortName": "Perc2_Bis.wav",
+        "Path": "SFX\\Perc2_Bis_70232134.wem"
+       },
+       {
+        "Id": "180035637",
+        "Language": "SFX",
+        "ShortName": "flute_lead_03.wav",
+        "Path": "SFX\\flute_lead_03_70232134.wem"
+       },
+       {
+        "Id": "235981976",
+        "Language": "SFX",
+        "ShortName": "violon.wav",
+        "Path": "SFX\\violon_70232134.wem"
+       },
+       {
+        "Id": "366474628",
+        "Language": "SFX",
+        "ShortName": "guitare1_Bis.wav",
+        "Path": "SFX\\guitare1_Bis_70232134.wem"
+       },
+       {
+        "Id": "444262037",
+        "Language": "SFX",
+        "ShortName": "flute_Aigu.wav",
+        "Path": "SFX\\flute_Aigu_70232134.wem"
+       },
+       {
+        "Id": "483620546",
+        "Language": "SFX",
+        "ShortName": "Perc1_Bis.wav",
+        "Path": "SFX\\Perc1_Bis_70232134.wem"
        },
        {
         "Id": "487484988",
         "Language": "SFX",
         "ShortName": "MUS_OS_CrashEventStop_01_Dambrosio_V1.wav",
         "Path": "SFX\\MUS_OS_CrashEventStop_01_Dambrosio_V1_70232134.wem"
+       },
+       {
+        "Id": "488532642",
+        "Language": "SFX",
+        "ShortName": "Perc1.wav",
+        "Path": "SFX\\Perc1_70232134.wem"
+       },
+       {
+        "Id": "546135090",
+        "Language": "SFX",
+        "ShortName": "Perc2.wav",
+        "Path": "SFX\\Perc2_70232134.wem"
+       },
+       {
+        "Id": "558781366",
+        "Language": "SFX",
+        "ShortName": "shaker2.wav",
+        "Path": "SFX\\shaker2_70232134.wem"
+       },
+       {
+        "Id": "604960752",
+        "Language": "SFX",
+        "ShortName": "Bass1_Bis.wav",
+        "Path": "SFX\\Bass1_Bis_70232134.wem"
+       },
+       {
+        "Id": "660810632",
+        "Language": "SFX",
+        "ShortName": "flute_Grave.wav",
+        "Path": "SFX\\flute_Grave_70232134.wem"
+       },
+       {
+        "Id": "681930164",
+        "Language": "SFX",
+        "ShortName": "Guitare3.wav",
+        "Path": "SFX\\Guitare3_70232134.wem"
+       },
+       {
+        "Id": "708178904",
+        "Language": "SFX",
+        "ShortName": "musique menu intro.wav",
+        "Path": "SFX\\musique menu intro_70232134.wem"
+       },
+       {
+        "Id": "729475976",
+        "Language": "SFX",
+        "ShortName": "Perc3.wav",
+        "Path": "SFX\\Perc3_70232134.wem"
+       },
+       {
+        "Id": "799327184",
+        "Language": "SFX",
+        "ShortName": "perc4.wav",
+        "Path": "SFX\\perc4_70232134.wem"
+       },
+       {
+        "Id": "857260884",
+        "Language": "SFX",
+        "ShortName": "skaker1_Bis.wav",
+        "Path": "SFX\\skaker1_Bis_70232134.wem"
+       },
+       {
+        "Id": "883500794",
+        "Language": "SFX",
+        "ShortName": "Guitare2.wav",
+        "Path": "SFX\\Guitare2_70232134.wem"
+       },
+       {
+        "Id": "905456018",
+        "Language": "SFX",
+        "ShortName": "flute_lead_01.wav",
+        "Path": "SFX\\flute_lead_01_70232134.wem"
+       },
+       {
+        "Id": "978542216",
+        "Language": "SFX",
+        "ShortName": "Guitare1.wav",
+        "Path": "SFX\\Guitare1_70232134.wem"
+       },
+       {
+        "Id": "1064060144",
+        "Language": "SFX",
+        "ShortName": "Perc3_Bis.wav",
+        "Path": "SFX\\Perc3_Bis_70232134.wem"
+       },
+       {
+        "Id": "1066559232",
+        "Language": "SFX",
+        "ShortName": "Bass.wav",
+        "Path": "SFX\\Bass_70232134.wem"
        }
       ],
       "AuxBusSends": [

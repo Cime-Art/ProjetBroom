@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
-   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -30,22 +30,34 @@
       "DurationMax": "3.051635",
       "ExcludedMemoryFiles": [
        {
-        "Id": "243736293",
+        "Id": "76857092",
         "Language": "SFX",
-        "ShortName": "Amb_OS_Detruction_stone_platform_no_atk_ v3-001.wav",
-        "Path": "SFX\\Amb_OS_Detruction_stone_platform_no_atk_ v3-001_4A67AB6A.wem"
+        "ShortName": "Amb_OS_Detruction_stone_platform_ v4-003_no_atk.wav",
+        "Path": "SFX\\Amb_OS_Detruction_stone_platform_ v4-003_no_atk_4A67AB6A.wem"
        },
        {
-        "Id": "775351281",
+        "Id": "517277445",
         "Language": "SFX",
-        "ShortName": "Amb_OS_Detruction_stone_platform_no_atk_ v3-002.wav",
-        "Path": "SFX\\Amb_OS_Detruction_stone_platform_no_atk_ v3-002_4A67AB6A.wem"
+        "ShortName": "Amb_OS_Detruction_stone_platform_ v4-002_no_atk.wav",
+        "Path": "SFX\\Amb_OS_Detruction_stone_platform_ v4-002_no_atk_4A67AB6A.wem"
        },
        {
-        "Id": "836650568",
+        "Id": "898102564",
         "Language": "SFX",
-        "ShortName": "Amb_OS_Detruction_stone_platform_no_atk_ v3-003.wav",
-        "Path": "SFX\\Amb_OS_Detruction_stone_platform_no_atk_ v3-003_4A67AB6A.wem"
+        "ShortName": "Amb_OS_Detruction_stone_platform_ v4-005_no_atk.wav",
+        "Path": "SFX\\Amb_OS_Detruction_stone_platform_ v4-005_no_atk_4A67AB6A.wem"
+       },
+       {
+        "Id": "1003004560",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_Detruction_stone_platform_ v4-001_no_atk.wav",
+        "Path": "SFX\\Amb_OS_Detruction_stone_platform_ v4-001_no_atk_4A67AB6A.wem"
+       },
+       {
+        "Id": "1062038328",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_Detruction_stone_platform_ v4-004_no_atk.wav",
+        "Path": "SFX\\Amb_OS_Detruction_stone_platform_ v4-004_no_atk_4A67AB6A.wem"
        }
       ],
       "AuxBusSends": [

@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4035591964",
+    "GUID": "{F08A3F1C-3F1C-1F1C-1C1C-1C1C1C1C1C1C}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_01F1917108754465A1559B6F5786669F",
+    "ShortName": "SB_01F1917108754465A1559B6F5786669F",
+    "Path": "SB_01F1917108754465A1559B6F5786669F.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "802087343",
+      "Name": "Event_ManaRefill",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Event_ManaRefill",
+      "GUID": "{01F19171-0875-4465-A155-9B6F5786669F}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.558571",
+      "DurationMax": "2.558571",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "1040351313",
+        "Language": "SFX",
+        "ShortName": "Refills\\Props_OS_ManaRefill_02_Sabarros_v1.wav",
+        "Path": "SFX\\Refills\\Props_OS_ManaRefill_02_Sabarros_v1_68CBF6C1.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

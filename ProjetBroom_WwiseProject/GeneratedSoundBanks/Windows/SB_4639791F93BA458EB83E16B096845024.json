@@ -1,0 +1,58 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "28566592",
+    "GUID": "{01B3E440-E440-1440-4040-404040404040}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_4639791F93BA458EB83E16B096845024",
+    "ShortName": "SB_4639791F93BA458EB83E16B096845024",
+    "Path": "SB_4639791F93BA458EB83E16B096845024.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1355104013",
+      "Name": "Event_SkCac_AttackSword",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\SkeletonCac\\Event_SkCac_AttackSword",
+      "GUID": "{4639791F-93BA-458E-B83E-16B096845024}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.583333",
+      "DurationMax": "0.899521",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "711495566",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonCacAttack_01.wav",
+        "Path": "SFX\\Mob_OS_SkeletonCacAttack_01_4A67AB6A.wem"
+       },
+       {
+        "Id": "775682873",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonCacAttack_02.wav",
+        "Path": "SFX\\Mob_OS_SkeletonCacAttack_02_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

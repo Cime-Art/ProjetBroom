@@ -25,6 +25,11 @@
     "DLL": "AkSoundEngineDLL"
    },
    {
+    "Name": "Wwise Gain",
+    "ID": "9109507",
+    "DLL": "AkGain"
+   },
+   {
     "Name": "System",
     "ID": "11403271",
     "DLL": "DefaultSink"

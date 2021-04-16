@@ -27,6 +27,9 @@
 								<Switch Name="Flesh" ID="{B4E479E7-1A9E-400D-8950-8DF06A9F01D3}"/>
 								<Switch Name="Glass" ID="{3F517729-CB5C-4D21-9317-029768EAD8A6}"/>
 								<Switch Name="Portal" ID="{198FAA6F-0EA4-4F9E-9C29-BE14EE2E6ED7}"/>
+								<Switch Name="SKDist" ID="{961DCA05-9E7E-453C-965A-1CD2A17A16AC}"/>
+								<Switch Name="SkCac" ID="{E88AB430-4F64-4BF1-9E83-EB31A7510725}"/>
+								<Switch Name="Nothing" ID="{E45C10B8-578B-4F27-8EE7-AAA5239AAE21}"/>
 							</ChildrenList>
 						</SwitchGroup>
 					</ChildrenList>

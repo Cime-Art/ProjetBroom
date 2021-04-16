@@ -1,0 +1,76 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4009395985",
+    "GUID": "{EEFA8711-8711-1711-1111-111111111111}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_8F581304F579418EA1AFD59AADB17331",
+    "ShortName": "SB_8F581304F579418EA1AFD59AADB17331",
+    "Path": "SB_8F581304F579418EA1AFD59AADB17331.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2824954714",
+      "Name": "Event_Play_Horizontal_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Event_Play_Horizontal_Attack",
+      "GUID": "{8F581304-F579-418E-A1AF-D59AADB17331}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.774225",
+      "DurationMax": "1.240936",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "624141303",
+        "Language": "SFX",
+        "ShortName": "OS_Whoosh_Player_Eliot_01.wav",
+        "Path": "SFX\\OS_Whoosh_Player_Eliot_01_E253F51F.wem"
+       },
+       {
+        "Id": "646798727",
+        "Language": "SFX",
+        "ShortName": "OS_Whoosh_Player_Eliot_04.wav",
+        "Path": "SFX\\OS_Whoosh_Player_Eliot_04_FE5B035E.wem"
+       },
+       {
+        "Id": "792418200",
+        "Language": "SFX",
+        "ShortName": "OS_Whoosh_Player_Eliot_02.wav",
+        "Path": "SFX\\OS_Whoosh_Player_Eliot_02_057A21DE.wem"
+       },
+       {
+        "Id": "974919051",
+        "Language": "SFX",
+        "ShortName": "OS_Whoosh_Player_Eliot_03.wav",
+        "Path": "SFX\\OS_Whoosh_Player_Eliot_03_65E21D3B.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
