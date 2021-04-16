@@ -11463,8 +11463,11 @@
 										</ActorMixer>
 										<ActorMixer Name="FallingRocks_Mixer" ID="{32281EEE-42E0-489D-A992-4B0327D90231}" ShortID="792797787">
 											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+												<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 												<Property Name="MaxSoundPerInstance" Type="int16">
 													<ValueList>
@@ -11493,20 +11496,38 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<RandomSequenceContainer Name="FallingRocks_Big_RND" ID="{6165BF37-8758-41AF-AAD4-5FBD44C36320}" ShortID="887281375">
+												<RandomSequenceContainer Name="FallingRocks_RND" ID="{6165BF37-8758-41AF-AAD4-5FBD44C36320}" ShortID="887281375">
 													<PropertyList>
-														<Property Name="Lowpass" Type="int16">
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
 															<ModifierList>
 																<ModifierInfo>
-																	<Modifier Name="" ID="{9A5D6D40-E124-462B-800C-79B3B652104E}">
+																	<Modifier Name="" ID="{6EF14DFD-8C94-4147-AD6B-A0C7BBBFD236}">
 																		<PropertyList>
 																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Min" Type="Real64" Value="-30"/>
+																			<Property Name="Max" Type="Real64" Value="3"/>
 																		</PropertyList>
 																	</Modifier>
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>27</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{9A5D6D40-E124-462B-800C-79B3B652104E}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="25"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 														<Property Name="Pitch" Type="int32">
 															<ModifierList>
 																<ModifierInfo>
@@ -11520,13 +11541,30 @@
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="9">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{E90BA7D9-A05D-40D5-A9F2-089E834CB3DA}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="5"/>
+																			<Property Name="Min" Type="Real64" Value="-3"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 														<Property Name="Volume" Type="Real64">
 															<ModifierList>
 																<ModifierInfo>
 																	<Modifier Name="" ID="{C1523EFC-41CE-4EC2-95C4-802B65D2B114}">
 																		<PropertyList>
 																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Min" Type="Real64" Value="-3"/>
+																			<Property Name="Min" Type="Real64" Value="-5"/>
 																		</PropertyList>
 																	</Modifier>
 																</ModifierInfo>
@@ -11586,93 +11624,28 @@
 																<ActiveSource Name="Hell_OS_FallingRocks_04_Sabarros_v1" ID="{E33EB57F-1823-4CD8-A81D-F9F294C7CBEF}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="FallingRocks_Small_RND" ID="{C50FA5B0-EA26-4D4F-A396-4D4AC0DB4F04}" ShortID="1010051336">
-													<PropertyList>
-														<Property Name="Lowpass" Type="int16">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{FA7BEB20-4FEA-4CB7-B2A2-1F3ADEE5440D}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Min" Type="Real64" Value="-30"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{B03205BC-F531-45FC-841F-1B915787352D}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="300"/>
-																			<Property Name="Min" Type="Real64" Value="-150"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="Volume" Type="Real64">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{DA072E6A-B6EA-488F-88F2-7731AF4C9916}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Min" Type="Real64" Value="-3"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-														<Reference Name="UserAuxSend0">
-															<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-														<Reference Name="UserAuxSend1">
-															<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="Hell_OS_FallingRocks_07_Sabarros_v1" ID="{61B1FD6F-DAAF-4866-A298-B4F21F48C779}" ShortID="348876730">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Hell_OS_FallingRocks_07_Sabarros_v1" ID="{E9E4C1B2-94AD-43B9-A721-C1F79AD58C8E}">
-																	<Language>SFX</Language>
-																	<AudioFile>HellFallingRocks\Hell_OS_FallingRocks_07_Sabarros_v1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="901592627"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Hell_OS_FallingRocks_07_Sabarros_v1" ID="{E9E4C1B2-94AD-43B9-A721-C1F79AD58C8E}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
 														<Sound Name="Hell_OS_FallingRocks_01_Sabarros_v1" ID="{B026AF42-D229-4460-B9EA-1DDCD8DB5298}" ShortID="817251435">
+															<PropertyList>
+																<Property Name="3DPosition" Type="int16" Value="2"/>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+															</PropertyList>
 															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="FallingRocks_Att" ID="{AEED7D75-1E00-443A-AC48-670FB37C1778}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																</Reference>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																	<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend1">
+																	<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
@@ -11684,12 +11657,112 @@
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
+															<PositioningInfo>
+																<Position Name="" ID="{CDBF338E-FE16-4673-A818-D5488463E338}">
+																	<ChildrenList>
+																		<Path2D Name="FallingRocks_Mixer_Path" ID="{9B763843-95D7-42D7-AD72-2618BAEFEBED}">
+																			<PropertyList>
+																				<Property Name="Duration" Type="Uint32" Value="30000"/>
+																				<Property Name="RandomX" Type="Real64" Value="40"/>
+																				<Property Name="RandomY" Type="Real64" Value="38"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>98.59335</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-96.7741935483871</XPos>
+																					<YPos>38.1074168797954</YPos>
+																					<Flags>0</Flags>
+																					<Time>2307</Time>
+																				</Point>
+																				<Point>
+																					<XPos>48.3870967741935</XPos>
+																					<YPos>-51.9181585677749</YPos>
+																					<Flags>0</Flags>
+																					<Time>4615</Time>
+																				</Point>
+																				<Point>
+																					<XPos>93.5483870967742</XPos>
+																					<YPos>80.5626598465473</YPos>
+																					<Flags>0</Flags>
+																					<Time>6923</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-20.96774</XPos>
+																					<YPos>-78.51663</YPos>
+																					<Flags>0</Flags>
+																					<Time>9230</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-84.94624</XPos>
+																					<YPos>-54.98721</YPos>
+																					<Flags>0</Flags>
+																					<Time>11538</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-52.15054</XPos>
+																					<YPos>86.70077</YPos>
+																					<Flags>0</Flags>
+																					<Time>13846</Time>
+																				</Point>
+																				<Point>
+																					<XPos>60.75269</XPos>
+																					<YPos>88.7468</YPos>
+																					<Flags>0</Flags>
+																					<Time>16153</Time>
+																				</Point>
+																				<Point>
+																					<XPos>73.1182795698925</XPos>
+																					<YPos>-93.3503836317136</YPos>
+																					<Flags>0</Flags>
+																					<Time>18461</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-49.4623655913979</XPos>
+																					<YPos>-95.3964194373401</YPos>
+																					<Flags>0</Flags>
+																					<Time>20769</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-89.247311827957</XPos>
+																					<YPos>86.7007672634271</YPos>
+																					<Flags>0</Flags>
+																					<Time>23076</Time>
+																				</Point>
+																				<Point>
+																					<XPos>95.6989247311828</XPos>
+																					<YPos>6.90537084398977</YPos>
+																					<Flags>0</Flags>
+																					<Time>25384</Time>
+																				</Point>
+																				<Point>
+																					<XPos>90.8602150537634</XPos>
+																					<YPos>-78.005115089514</YPos>
+																					<Flags>0</Flags>
+																					<Time>27692</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-97.3118279569892</XPos>
+																					<YPos>4.85933503836317</YPos>
+																					<Flags>0</Flags>
+																					<Time>30000</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																	</ChildrenList>
+																</Position>
+															</PositioningInfo>
 															<ActiveSourceList>
 																<ActiveSource Name="Hell_OS_FallingRocks_01_Sabarros_v1" ID="{7C1469BB-693E-4E2A-9726-4CD56CC74E0A}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Hell_OS_FallingRocks_06_Sabarros_v1" ID="{A3219CBF-2CBC-4CDC-8E27-BC540E27CAC5}" ShortID="410110457">
 															<PropertyList>
+																<Property Name="3DPosition" Type="int16" Value="2"/>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
@@ -11720,6 +11793,105 @@
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
+															<PositioningInfo>
+																<Position Name="" ID="{4A358FFF-36D7-4FB5-A4CC-BF80E1F463E8}">
+																	<ChildrenList>
+																		<Path2D Name="FallingRocks_Mixer_Path" ID="{A1119DEA-776C-463D-92E9-A61481B925EA}">
+																			<PropertyList>
+																				<Property Name="Duration" Type="Uint32" Value="30000"/>
+																				<Property Name="RandomX" Type="Real64" Value="40"/>
+																				<Property Name="RandomY" Type="Real64" Value="38"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>98.59335</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-96.7741935483871</XPos>
+																					<YPos>38.1074168797954</YPos>
+																					<Flags>0</Flags>
+																					<Time>2307</Time>
+																				</Point>
+																				<Point>
+																					<XPos>48.3870967741935</XPos>
+																					<YPos>-51.9181585677749</YPos>
+																					<Flags>0</Flags>
+																					<Time>4615</Time>
+																				</Point>
+																				<Point>
+																					<XPos>93.5483870967742</XPos>
+																					<YPos>80.5626598465473</YPos>
+																					<Flags>0</Flags>
+																					<Time>6923</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-20.96774</XPos>
+																					<YPos>-78.51663</YPos>
+																					<Flags>0</Flags>
+																					<Time>9230</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-84.94624</XPos>
+																					<YPos>-54.98721</YPos>
+																					<Flags>0</Flags>
+																					<Time>11538</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-52.15054</XPos>
+																					<YPos>86.70077</YPos>
+																					<Flags>0</Flags>
+																					<Time>13846</Time>
+																				</Point>
+																				<Point>
+																					<XPos>60.75269</XPos>
+																					<YPos>88.7468</YPos>
+																					<Flags>0</Flags>
+																					<Time>16153</Time>
+																				</Point>
+																				<Point>
+																					<XPos>73.1182795698925</XPos>
+																					<YPos>-93.3503836317136</YPos>
+																					<Flags>0</Flags>
+																					<Time>18461</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-49.4623655913979</XPos>
+																					<YPos>-95.3964194373401</YPos>
+																					<Flags>0</Flags>
+																					<Time>20769</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-89.247311827957</XPos>
+																					<YPos>86.7007672634271</YPos>
+																					<Flags>0</Flags>
+																					<Time>23076</Time>
+																				</Point>
+																				<Point>
+																					<XPos>95.6989247311828</XPos>
+																					<YPos>6.90537084398977</YPos>
+																					<Flags>0</Flags>
+																					<Time>25384</Time>
+																				</Point>
+																				<Point>
+																					<XPos>90.8602150537634</XPos>
+																					<YPos>-78.005115089514</YPos>
+																					<Flags>0</Flags>
+																					<Time>27692</Time>
+																				</Point>
+																				<Point>
+																					<XPos>-97.3118279569892</XPos>
+																					<YPos>4.85933503836317</YPos>
+																					<Flags>0</Flags>
+																					<Time>30000</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																	</ChildrenList>
+																</Position>
+															</PositioningInfo>
 															<ActiveSourceList>
 																<ActiveSource Name="Hell_OS_FallingRocks_06_Sabarros_v1" ID="{3472D6F4-E097-4E98-8E32-02DF1E4D7EEE}" Platform="Linked"/>
 															</ActiveSourceList>
@@ -11727,6 +11899,115 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{C52853D1-D7C4-4F95-A96C-747221F3064C}">
+													<PropertyList>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="FallingRocks_Mixer_Path" ID="{3EA68619-CD21-4EB0-ABEA-CDEB2DB3B695}">
+															<PropertyList>
+																<Property Name="AppendOffset" Type="Uint32" Value="1"/>
+																<Property Name="Duration" Type="Uint32" Value="30000"/>
+																<Property Name="RandomX" Type="Real64" Value="18"/>
+																<Property Name="RandomY" Type="Real64" Value="15"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>98.59335</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>-96.7741935483871</XPos>
+																	<YPos>38.1074168797954</YPos>
+																	<Flags>0</Flags>
+																	<Time>2142</Time>
+																</Point>
+																<Point>
+																	<XPos>48.3870967741935</XPos>
+																	<YPos>-51.9181585677749</YPos>
+																	<Flags>0</Flags>
+																	<Time>4285</Time>
+																</Point>
+																<Point>
+																	<XPos>93.5483870967742</XPos>
+																	<YPos>80.5626598465473</YPos>
+																	<Flags>0</Flags>
+																	<Time>6428</Time>
+																</Point>
+																<Point>
+																	<XPos>-20.96774</XPos>
+																	<YPos>-78.51663</YPos>
+																	<Flags>0</Flags>
+																	<Time>8571</Time>
+																</Point>
+																<Point>
+																	<XPos>-84.94624</XPos>
+																	<YPos>-54.98721</YPos>
+																	<Flags>0</Flags>
+																	<Time>10714</Time>
+																</Point>
+																<Point>
+																	<XPos>-52.15054</XPos>
+																	<YPos>86.70077</YPos>
+																	<Flags>0</Flags>
+																	<Time>12857</Time>
+																</Point>
+																<Point>
+																	<XPos>60.75269</XPos>
+																	<YPos>88.7468</YPos>
+																	<Flags>0</Flags>
+																	<Time>15000</Time>
+																</Point>
+																<Point>
+																	<XPos>73.1182795698925</XPos>
+																	<YPos>-93.3503836317136</YPos>
+																	<Flags>0</Flags>
+																	<Time>17142</Time>
+																</Point>
+																<Point>
+																	<XPos>-49.4623655913979</XPos>
+																	<YPos>-95.3964194373401</YPos>
+																	<Flags>0</Flags>
+																	<Time>19285</Time>
+																</Point>
+																<Point>
+																	<XPos>-89.247311827957</XPos>
+																	<YPos>86.7007672634271</YPos>
+																	<Flags>0</Flags>
+																	<Time>21428</Time>
+																</Point>
+																<Point>
+																	<XPos>95.6989247311828</XPos>
+																	<YPos>6.90537084398977</YPos>
+																	<Flags>0</Flags>
+																	<Time>23571</Time>
+																</Point>
+																<Point>
+																	<XPos>90.8602150537634</XPos>
+																	<YPos>-78.005115089514</YPos>
+																	<Flags>0</Flags>
+																	<Time>25714</Time>
+																</Point>
+																<Point>
+																	<XPos>-97.3118279569892</XPos>
+																	<YPos>4.85933503836317</YPos>
+																	<Flags>0</Flags>
+																	<Time>27857</Time>
+																</Point>
+																<Point>
+																	<XPos>44.08602</XPos>
+																	<YPos>56.01023</YPos>
+																	<Flags>0</Flags>
+																	<Time>30000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
 										</ActorMixer>
 									</ChildrenList>
 								</Folder>
