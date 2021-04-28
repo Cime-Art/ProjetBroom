@@ -1588,6 +1588,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Event_BreakMugBowl" ID="{3B982215-0AB3-4E3B-A214-E66B100E5D80}">
+							<ChildrenList>
+								<Action Name="" ID="{E1133AE0-0C0B-4955-A61B-A5C6CAFD7C97}" ShortID="494455222">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakMugBowl_RND" ID="{E595D2D6-E79E-4F64-8B60-F0FDEA8B9E58}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
