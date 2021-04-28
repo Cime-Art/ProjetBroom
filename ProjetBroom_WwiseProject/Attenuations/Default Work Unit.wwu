@@ -1585,7 +1585,7 @@
 					<ChildrenList>
 						<Attenuation Name="FallingRocks_Att" ID="{AEED7D75-1E00-443A-AC48-670FB37C1778}" ShortID="394022916">
 							<PropertyList>
-								<Property Name="RadiusMax" Type="Real64" Value="2300"/>
+								<Property Name="RadiusMax" Type="Real64" Value="30000"/>
 							</PropertyList>
 							<CurveUsageInfoList>
 								<VolumeDryUsage>
@@ -1601,14 +1601,14 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>1900</XPos>
+													<XPos>0.0130434782608696</XPos>
 													<YPos>0</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>2300</XPos>
-													<YPos>-200</YPos>
+													<XPos>30000</XPos>
+													<YPos>-0</YPos>
 													<Flags>37</Flags>
 												</Point>
 											</PointList>
@@ -1622,7 +1622,30 @@
 									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 								</VolumeWetUserUsage>
 								<LowPassFilterUsage>
-									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+										<Curve Name="LowPassFilter" ID="{A37A77A3-D8A3-4ACD-86F0-16948062A698}">
+											<PropertyList>
+												<Property Name="Flags" Type="int32" Value="65537"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>0</YPos>
+													<Flags>5</Flags>
+												</Point>
+												<Point>
+													<XPos>0.0130434782608696</XPos>
+													<YPos>30</YPos>
+													<Flags>0</Flags>
+												</Point>
+												<Point>
+													<XPos>30000</XPos>
+													<YPos>59</YPos>
+													<Flags>37</Flags>
+												</Point>
+											</PointList>
+										</Curve>
+									</CurveUsageInfo>
 								</LowPassFilterUsage>
 								<HighPassFilterUsage>
 									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -1640,14 +1663,14 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>1900</XPos>
-													<YPos>100</YPos>
+													<XPos>0.0130434782608696</XPos>
+													<YPos>43.15352</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>2300</XPos>
-													<YPos>30</YPos>
+													<XPos>30000</XPos>
+													<YPos>-0</YPos>
 													<Flags>37</Flags>
 												</Point>
 											</PointList>

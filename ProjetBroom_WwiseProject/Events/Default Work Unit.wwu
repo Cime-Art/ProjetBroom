@@ -1251,23 +1251,12 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Event_FallingRocks_Small" ID="{F51A02F6-1306-4FCE-B680-1B9337688502}">
+								<Event Name="Event_FallingRocks" ID="{A4AAAA6C-6DF0-4BBB-B327-3D094762BBA7}">
 									<ChildrenList>
-										<Action Name="" ID="{F05ED8C7-D348-45EF-98F6-834D78BAD676}" ShortID="804283295">
+										<Action Name="" ID="{F0244DD9-8683-4F6A-806A-9D2D73EB26DB}" ShortID="206383837">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="FallingRocks_Small_RND" ID="{C50FA5B0-EA26-4D4F-A396-4D4AC0DB4F04}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Event_FallingRocks_Big" ID="{A017735B-7D1E-4491-AF5B-89FA90946200}">
-									<ChildrenList>
-										<Action Name="" ID="{739C2C74-86DA-45EB-8DF0-FBBF2671BACD}" ShortID="595202907">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="FallingRocks_Big_RND" ID="{6165BF37-8758-41AF-AAD4-5FBD44C36320}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="FallingRocks_RND" ID="{6165BF37-8758-41AF-AAD4-5FBD44C36320}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

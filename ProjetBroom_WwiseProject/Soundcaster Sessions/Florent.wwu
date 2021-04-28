@@ -7,11 +7,41 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<SoundcasterSession Name="snail_soundcaster" ID="{7EB06539-2EF8-433F-BAD2-BE13D30DC3E9}">
+				<SoundcasterSession Name="Flosoundcaster" ID="{7EB06539-2EF8-433F-BAD2-BE13D30DC3E9}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Event_Play_AMB_LP_HellAmbiance" ID="{9AC67D59-21A7-43F6-AA86-362DB6435C6C}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Event_FallingRocks" ID="{A4AAAA6C-6DF0-4BBB-B327-3D094762BBA7}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+					</ModuleList>
 					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="SFX_Volume_GP" ID="{29C3E1C2-AF31-45DD-AAF7-8B2CEE14EBBB}"/>
+							<Value>0.5</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="HeightPlayer" ID="{250B3ED9-C1E8-4668-B835-6A391E9395FA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Master_Volume_GP" ID="{C0054CA0-46BD-4911-8ADF-2435B99B7B79}"/>
+							<Value>0.5</Value>
+						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>
 							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="spell_distance" ID="{D9568FC2-08F0-4CF8-BE44-34EEF3822A5F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_Volume_GP" ID="{8ADB53BC-CDEB-4DF8-BDBA-5421C56CD850}"/>
+							<Value>0.5</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Distance" ID="{C1FB3B6B-0CEC-4F98-9EE2-487C8123E3DE}"/>
@@ -19,10 +49,15 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
 						<CurrentStateRef Name="None" ID="{76DD572D-951D-4027-93F0-2C3C154AB123}"/>
+						<CurrentStateRef Name="Jump" ID="{48A01FA1-801A-4377-B165-AF9E9E1694BE}"/>
 						<CurrentStateRef Name="snail_explosion_state" ID="{EAE40543-B022-4A55-A67E-4A6512A247C4}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
+						<CurrentSwitchRef Name="DryWood" ID="{B7624EDB-88F7-4B4F-8B22-48863C6006CF}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
