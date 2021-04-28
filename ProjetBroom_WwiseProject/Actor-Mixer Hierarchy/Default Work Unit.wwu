@@ -22773,7 +22773,7 @@
 												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="Highpass" Type="int16">
 													<ValueList>
-														<Value>28</Value>
+														<Value>35</Value>
 													</ValueList>
 												</Property>
 												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
@@ -22823,7 +22823,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Props_OS_BreakMugBowl_01_Florent_v1" ID="{656A7BE2-12B2-4C4F-B70F-DC6A2F92BE2F}" ShortID="972261656">
+												<Sound Name="Props_OS_BreakMugBowl_01_Florent_v2" ID="{C99F1774-8A5A-4F7B-B6B3-2DB8CD32DEC6}" ShortID="975726912">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -22833,19 +22833,24 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Props_OS_BreakMugBowl_01_Florent_v1" ID="{4519870A-BF32-4E7E-9109-0198CE04C2FA}">
+														<AudioFileSource Name="Props_OS_BreakMugBowl_01_Florent_v2" ID="{C81244CD-CC5F-4842-A985-2B75C75EA592}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.381714729044414"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Destructible\Props_OS_BreakMugBowl_01_Florent_v1.wav</AudioFile>
+															<AudioFile>Destructible\Props_OS_BreakMugBowl_01_Florent_v2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="490586808"/>
+																<MediaID ID="525213878"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Props_OS_BreakMugBowl_01_Florent_v1" ID="{4519870A-BF32-4E7E-9109-0198CE04C2FA}" Platform="Linked"/>
+														<ActiveSource Name="Props_OS_BreakMugBowl_01_Florent_v2" ID="{C81244CD-CC5F-4842-A985-2B75C75EA592}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Props_OS_BreakMugBowl_02_Florent_v1" ID="{52CF91B8-442A-4242-A671-EC79A1D61A4B}" ShortID="386889775">
+												<Sound Name="Props_OS_BreakMugBowl_02_Florent_v2" ID="{24584C4C-9F76-49C4-A2B3-5C9072CF429A}" ShortID="794594641">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -22855,19 +22860,24 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Props_OS_BreakMugBowl_02_Florent_v1" ID="{A4587520-6BF8-4D12-A10E-12FB9FDBCA45}">
+														<AudioFileSource Name="Props_OS_BreakMugBowl_02_Florent_v2" ID="{677FB463-097D-4571-A38D-ECE724AB2630}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.392445474887445"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Destructible\Props_OS_BreakMugBowl_02_Florent_v1.wav</AudioFile>
+															<AudioFile>Destructible\Props_OS_BreakMugBowl_02_Florent_v2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="959198090"/>
+																<MediaID ID="532594395"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Props_OS_BreakMugBowl_02_Florent_v1" ID="{A4587520-6BF8-4D12-A10E-12FB9FDBCA45}" Platform="Linked"/>
+														<ActiveSource Name="Props_OS_BreakMugBowl_02_Florent_v2" ID="{677FB463-097D-4571-A38D-ECE724AB2630}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Props_OS_BreakMugBowl_03_Florent_v1" ID="{DCA1B7AA-0AD2-4A7A-8384-3F8FD1EBB618}" ShortID="70170274">
+												<Sound Name="Props_OS_BreakMugBowl_03_Florent_v2" ID="{127EC56F-ACCE-4DEC-A0FF-CA78A37AE234}" ShortID="90819256">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -22877,16 +22887,21 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Props_OS_BreakMugBowl_03_Florent_v1" ID="{3102A6D1-FA44-4762-AFFE-DFDED6E0CAE2}">
+														<AudioFileSource Name="Props_OS_BreakMugBowl_03_Florent_v2" ID="{96159FCB-5619-42C8-8CC6-D4A07C2BBB71}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.474531702597375"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Destructible\Props_OS_BreakMugBowl_03_Florent_v1.wav</AudioFile>
+															<AudioFile>Destructible\Props_OS_BreakMugBowl_03_Florent_v2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="384443361"/>
+																<MediaID ID="530727809"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Props_OS_BreakMugBowl_03_Florent_v1" ID="{3102A6D1-FA44-4762-AFFE-DFDED6E0CAE2}" Platform="Linked"/>
+														<ActiveSource Name="Props_OS_BreakMugBowl_03_Florent_v2" ID="{96159FCB-5619-42C8-8CC6-D4A07C2BBB71}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
