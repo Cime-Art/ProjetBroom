@@ -1489,6 +1489,31 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Event_Play_Music_Hell" ID="{13B15C5F-5D80-43F5-A90E-9483DE83070F}">
+							<ChildrenList>
+								<Action Name="" ID="{4D516784-3041-4627-BBA1-F19BC7EEEF23}" ShortID="753192770">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music Hell" ID="{9B9FC1EC-F8E7-4B7D-9A8C-588B09482E94}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Stop_Music_Hell" ID="{ED712264-57E3-46CC-8AC0-01C42BB685B4}">
+							<ChildrenList>
+								<Action Name="" ID="{E97DBD69-BE5D-4A85-9623-4B20C0A06D8F}" ShortID="838872209">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music Hell" ID="{9B9FC1EC-F8E7-4B7D-9A8C-588B09482E94}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="HUD_Bestiaire" ID="{A65AEFFB-17BE-4A48-8AEB-B255A4055161}" ShortID="208839244">
@@ -1528,31 +1553,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Event_Play_Checkpoint_torch" ID="{E8568C28-BF16-4F8B-809B-7EB4E331917D}">
-					<ChildrenList>
-						<Action Name="" ID="{3C4D48C0-BCA5-4232-992E-14D73D5D8D5A}" ShortID="526460820">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Checkpoint + torch" ID="{F5EFBADD-0CE9-45D4-9056-34F2CCA56D6C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Event_Stop_Checkpoint_torch" ID="{1A1A6E86-709B-4E41-910B-9015A5219DC7}">
-					<ChildrenList>
-						<Action Name="" ID="{E501A4EF-496A-4302-9968-044B51984B2B}" ShortID="1017094148">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Checkpoint + torch" ID="{F5EFBADD-0CE9-45D4-9056-34F2CCA56D6C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Props" ID="{87A9C958-81C0-451B-A4A7-4D0F7C566D4B}" ShortID="228762220">
 					<ChildrenList>
 						<Event Name="Event_OpenChest" ID="{AA4D1158-B58D-4C6A-97BB-9C122D0912C6}">
@@ -1594,6 +1594,31 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="BreakMugBowl_RND" ID="{E595D2D6-E79E-4F64-8B60-F0FDEA8B9E58}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Play_Checkpoint_torch" ID="{E8568C28-BF16-4F8B-809B-7EB4E331917D}">
+							<ChildrenList>
+								<Action Name="" ID="{3C4D48C0-BCA5-4232-992E-14D73D5D8D5A}" ShortID="526460820">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Checkpoint + torch" ID="{F5EFBADD-0CE9-45D4-9056-34F2CCA56D6C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Stop_Checkpoint_torch" ID="{1A1A6E86-709B-4E41-910B-9015A5219DC7}">
+							<ChildrenList>
+								<Action Name="" ID="{E501A4EF-496A-4302-9968-044B51984B2B}" ShortID="1017094148">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Checkpoint + torch" ID="{F5EFBADD-0CE9-45D4-9056-34F2CCA56D6C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
