@@ -1599,28 +1599,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Event_Jailtool" ID="{6E05F124-5668-41F3-83A4-442B4DBF06F0}">
-							<ChildrenList>
-								<Action Name="" ID="{14918211-F27D-4D8E-A1A3-1F2DC0ADD349}" ShortID="1054299701">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Jailtool_RND" ID="{7FB040B7-379D-4795-B0B8-332463D52C04}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Event_Torturetool" ID="{4C7BD0B4-F2D9-494A-952E-FEABACAC0F49}">
-							<ChildrenList>
-								<Action Name="" ID="{2F530300-7F33-4D4C-85CC-6F6BC7A99DFB}" ShortID="11044943">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Torturetool_RND" ID="{78542B03-467C-4874-B519-7B9153398E08}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -18427,9 +18427,10 @@
 								</SwitchContainer>
 								<SwitchContainer Name="Attack_Player_State" ID="{4A4828A0-6CDC-4B88-A2C2-32852A145804}" ShortID="701461120">
 									<PropertyList>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="UserAuxSendVolume0" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>3</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
@@ -18456,6 +18457,19 @@
 										<RandomSequenceContainer Name="Horizontal_Attack_RND" ID="{1AE310C8-BDC4-47CD-97D7-606F0CFD2717}" ShortID="899643946">
 											<PropertyList>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D36EF257-05D5-4C00-8642-489EEC288B78}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="101"/>
+																	<Property Name="Min" Type="Real64" Value="-101"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -18475,7 +18489,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="OS_Whoosh_Player_Eliot_01" ID="{D8BD60CF-1121-4E5C-A84C-33A8CA7F577D}" ShortID="1027720467">
+												<Sound Name="Perso_OS_Attack_Horizontal_01_Dambrosio_V1" ID="{561E41BC-7F3D-4A40-AC00-3759BB61EBAD}" ShortID="659566071">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -18485,26 +18499,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="OS_Whoosh_Player_Eliot_01" ID="{BB10F8FE-DE75-4F58-A69D-A3B67CA1899C}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.175016479894528"/>
-																<Property Name="LoopEnd" Type="Real64" Value="0.92722602739726"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.253131179960448"/>
-																<Property Name="TrimEnd" Type="Real64" Value="1.0273566249176"/>
-															</PropertyList>
+														<AudioFileSource Name="Perso_OS_Attack_Horizontal_01_Dambrosio_V1 [2021-05-02 174347]" ID="{6D98DB06-14F2-4B7A-A54B-7C710D16CB4C}">
 															<Language>SFX</Language>
-															<AudioFile>OS_Whoosh_Player_Eliot_01.wav</AudioFile>
+															<AudioFile>Perso_OS_Attack_Horizontal_01_Dambrosio_V1 [2021-05-02 174347].wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="624141303"/>
+																<MediaID ID="96729159"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="OS_Whoosh_Player_Eliot_01" ID="{BB10F8FE-DE75-4F58-A69D-A3B67CA1899C}" Platform="Linked"/>
+														<ActiveSource Name="Perso_OS_Attack_Horizontal_01_Dambrosio_V1 [2021-05-02 174347]" ID="{6D98DB06-14F2-4B7A-A54B-7C710D16CB4C}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="OS_Whoosh_Player_Eliot_02" ID="{A9797157-81CB-48D1-9469-60E55820EBEF}" ShortID="633070190">
+												<Sound Name="Perso_OS_Attack_Horizontal_02_Dambrosio_V1" ID="{C5DB6F7A-F606-436C-9E25-1615887E92B4}" ShortID="690517515">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -18514,23 +18521,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="OS_Whoosh_Player_Eliot_02" ID="{9C183408-3EEF-4568-8145-7E2290D892FB}">
-															<PropertyList>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.259063941990771"/>
-															</PropertyList>
+														<AudioFileSource Name="Perso_OS_Attack_Horizontal_02_Dambrosio_V1 [2021-05-02 174348]" ID="{AA2772D1-C197-4BAF-9750-C9034AA5E818}">
 															<Language>SFX</Language>
-															<AudioFile>OS_Whoosh_Player_Eliot_02.wav</AudioFile>
+															<AudioFile>Perso_OS_Attack_Horizontal_02_Dambrosio_V1 [2021-05-02 174348].wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="792418200"/>
+																<MediaID ID="137820513"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="OS_Whoosh_Player_Eliot_02" ID="{9C183408-3EEF-4568-8145-7E2290D892FB}" Platform="Linked"/>
+														<ActiveSource Name="Perso_OS_Attack_Horizontal_02_Dambrosio_V1 [2021-05-02 174348]" ID="{AA2772D1-C197-4BAF-9750-C9034AA5E818}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="OS_Whoosh_Player_Eliot_03" ID="{1AE20A91-E466-4F06-B375-43AA6701E98D}" ShortID="723381473">
+												<Sound Name="Perso_OS_Attack_Horizontal_03_Dambrosio_V1" ID="{EC9AEFAD-BF1B-415A-BA8E-CCD4E27D146F}" ShortID="447349069">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -18540,25 +18543,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="OS_Whoosh_Player_Eliot_03" ID="{8C4E41BA-9180-466B-911A-424FBB2D1D65}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0692155570204351"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.319380355965722"/>
-																<Property Name="TrimEnd" Type="Real64" Value="1.14700065919578"/>
-															</PropertyList>
+														<AudioFileSource Name="Perso_OS_Attack_Horizontal_03_Dambrosio_V1 [2021-05-02 174348]" ID="{02BEAFF5-779D-4E3B-ACBA-8BCF70FBA301}">
 															<Language>SFX</Language>
-															<AudioFile>OS_Whoosh_Player_Eliot_03.wav</AudioFile>
+															<AudioFile>Perso_OS_Attack_Horizontal_03_Dambrosio_V1 [2021-05-02 174348].wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="974919051"/>
+																<MediaID ID="133503991"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="OS_Whoosh_Player_Eliot_03" ID="{8C4E41BA-9180-466B-911A-424FBB2D1D65}" Platform="Linked"/>
+														<ActiveSource Name="Perso_OS_Attack_Horizontal_03_Dambrosio_V1 [2021-05-02 174348]" ID="{02BEAFF5-779D-4E3B-ACBA-8BCF70FBA301}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="OS_Whoosh_Player_Eliot_04" ID="{07BC8D07-DBD2-431B-A960-E1926EADB305}" ShortID="190567314">
+												<Sound Name="Perso_OS_Attack_Horizontal_04_Dambrosio_V1" ID="{01596979-2D94-4FA4-8066-C73DBD479850}" ShortID="894579384">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -18568,23 +18565,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="OS_Whoosh_Player_Eliot_04" ID="{75EFAFC4-DCA7-4328-8AEE-BDB265E908A4}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.133487145682268"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0.228411338167436"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.185893210283454"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.997692814765985"/>
-															</PropertyList>
+														<AudioFileSource Name="Perso_OS_Attack_Horizontal_04_Dambrosio_V1 [2021-05-02 174349]" ID="{A1D67D69-9F40-486B-A3B9-7E2AD0AE1285}">
 															<Language>SFX</Language>
-															<AudioFile>OS_Whoosh_Player_Eliot_04.wav</AudioFile>
+															<AudioFile>Perso_OS_Attack_Horizontal_04_Dambrosio_V1 [2021-05-02 174349].wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="646798727"/>
+																<MediaID ID="661413129"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="OS_Whoosh_Player_Eliot_04" ID="{75EFAFC4-DCA7-4328-8AEE-BDB265E908A4}" Platform="Linked"/>
+														<ActiveSource Name="Perso_OS_Attack_Horizontal_04_Dambrosio_V1 [2021-05-02 174349]" ID="{A1D67D69-9F40-486B-A3B9-7E2AD0AE1285}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
