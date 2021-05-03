@@ -1,0 +1,37 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2872370227",
+    "GUID": "{AB34E433-E433-1433-3333-333333333333}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_ED71226457E346CC8AC001C42BB685B4",
+    "ShortName": "SB_ED71226457E346CC8AC001C42BB685B4",
+    "Path": "SB_ED71226457E346CC8AC001C42BB685B4.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3754015404",
+      "Name": "Event_Stop_Music_Hell",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Event_Stop_Music_Hell",
+      "GUID": "{ED712264-57E3-46CC-8AC0-01C42BB685B4}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

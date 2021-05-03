@@ -26,32 +26,32 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Event_Play_Horizontal_Attack",
       "GUID": "{8F581304-F579-418E-A1AF-D59AADB17331}",
       "DurationType": "OneShot",
-      "DurationMin": "0.774225",
-      "DurationMax": "1.240936",
+      "DurationMin": "0.582319",
+      "DurationMax": "0.654386",
       "ExcludedMemoryFiles": [
        {
-        "Id": "624141303",
+        "Id": "96729159",
         "Language": "SFX",
-        "ShortName": "OS_Whoosh_Player_Eliot_01.wav",
-        "Path": "SFX\\OS_Whoosh_Player_Eliot_01_E253F51F.wem"
+        "ShortName": "Perso_OS_Attack_Horizontal_01_Dambrosio_V1 [2021-05-02 174347].wav",
+        "Path": "SFX\\Perso_OS_Attack_Horizontal_01_Dambrosio_V1 [2021-05-02 174347]_4A67AB6A.wem"
        },
        {
-        "Id": "646798727",
+        "Id": "133503991",
         "Language": "SFX",
-        "ShortName": "OS_Whoosh_Player_Eliot_04.wav",
-        "Path": "SFX\\OS_Whoosh_Player_Eliot_04_FE5B035E.wem"
+        "ShortName": "Perso_OS_Attack_Horizontal_03_Dambrosio_V1 [2021-05-02 174348].wav",
+        "Path": "SFX\\Perso_OS_Attack_Horizontal_03_Dambrosio_V1 [2021-05-02 174348]_4A67AB6A.wem"
        },
        {
-        "Id": "792418200",
+        "Id": "137820513",
         "Language": "SFX",
-        "ShortName": "OS_Whoosh_Player_Eliot_02.wav",
-        "Path": "SFX\\OS_Whoosh_Player_Eliot_02_057A21DE.wem"
+        "ShortName": "Perso_OS_Attack_Horizontal_02_Dambrosio_V1 [2021-05-02 174348].wav",
+        "Path": "SFX\\Perso_OS_Attack_Horizontal_02_Dambrosio_V1 [2021-05-02 174348]_4A67AB6A.wem"
        },
        {
-        "Id": "974919051",
+        "Id": "661413129",
         "Language": "SFX",
-        "ShortName": "OS_Whoosh_Player_Eliot_03.wav",
-        "Path": "SFX\\OS_Whoosh_Player_Eliot_03_65E21D3B.wem"
+        "ShortName": "Perso_OS_Attack_Horizontal_04_Dambrosio_V1 [2021-05-02 174349].wav",
+        "Path": "SFX\\Perso_OS_Attack_Horizontal_04_Dambrosio_V1 [2021-05-02 174349]_4A67AB6A.wem"
        }
       ],
       "AuxBusSends": [

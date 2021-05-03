@@ -1,0 +1,82 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "729128999",
+    "GUID": "{2B75A027-A027-1027-2727-272727272727}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_6DA9DD950E94471FA3C0E9E21BB078E3",
+    "ShortName": "SB_6DA9DD950E94471FA3C0E9E21BB078E3",
+    "Path": "SB_6DA9DD950E94471FA3C0E9E21BB078E3.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2591008604",
+      "Name": "Event_VoiceJump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Voice\\Event_VoiceJump",
+      "GUID": "{6DA9DD95-0E94-471F-A3C0-E9E21BB078E3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.186667",
+      "DurationMax": "0.240000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "146258670",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_VoiceJump_04_Raph_V1.wav",
+        "Path": "SFX\\OS_PLAYER_VoiceJump_04_Raph_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "211789318",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_VoiceJump_05_Raph_V1.wav",
+        "Path": "SFX\\OS_PLAYER_VoiceJump_05_Raph_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "320615983",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_VoiceJump_02_Raph_V1.wav",
+        "Path": "SFX\\OS_PLAYER_VoiceJump_02_Raph_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "441699223",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_VoiceJump_01_Raph_V1.wav",
+        "Path": "SFX\\OS_PLAYER_VoiceJump_01_Raph_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "734804503",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_VoiceJump_03_Raph_V1.wav",
+        "Path": "SFX\\OS_PLAYER_VoiceJump_03_Raph_V1_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

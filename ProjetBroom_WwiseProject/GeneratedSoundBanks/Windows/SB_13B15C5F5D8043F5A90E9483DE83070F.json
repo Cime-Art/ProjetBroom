@@ -1,0 +1,96 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "857959960",
+    "GUID": "{33236E18-6E18-1E18-1818-181818181818}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_13B15C5F5D8043F5A90E9483DE83070F",
+    "ShortName": "SB_13B15C5F5D8043F5A90E9483DE83070F",
+    "Path": "SB_13B15C5F5D8043F5A90E9483DE83070F.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4105230830",
+      "Name": "Event_Play_Music_Hell",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Event_Play_Music_Hell",
+      "GUID": "{13B15C5F-5D80-43F5-A90E-9483DE83070F}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "100477668",
+        "Language": "SFX",
+        "ShortName": " it4 partie 2 wav.wav",
+        "Path": "SFX\\ it4 partie 2 wav_70232134.wem"
+       },
+       {
+        "Id": "196792195",
+        "Language": "SFX",
+        "ShortName": " it3 partie 2 .wav",
+        "Path": "SFX\\ it3 partie 2 _70232134.wem"
+       },
+       {
+        "Id": "307042055",
+        "Language": "SFX",
+        "ShortName": " ti 6 partie 2 .wav",
+        "Path": "SFX\\ ti 6 partie 2 _70232134.wem"
+       },
+       {
+        "Id": "475124010",
+        "Language": "SFX",
+        "ShortName": "partie 1 enfer.wav",
+        "Path": "SFX\\partie 1 enfer_70232134.wem"
+       },
+       {
+        "Id": "572132429",
+        "Language": "SFX",
+        "ShortName": "intro enfer.wav",
+        "Path": "SFX\\intro enfer_70232134.wem"
+       },
+       {
+        "Id": "606939304",
+        "Language": "SFX",
+        "ShortName": "partie 3 enfer.wav",
+        "Path": "SFX\\partie 3 enfer_70232134.wem"
+       },
+       {
+        "Id": "744600156",
+        "Language": "SFX",
+        "ShortName": "partie 2 lead  enfer.wav",
+        "Path": "SFX\\partie 2 lead  enfer_70232134.wem"
+       },
+       {
+        "Id": "760775647",
+        "Language": "SFX",
+        "ShortName": " it 1 partie 2 .wav",
+        "Path": "SFX\\ it 1 partie 2 _70232134.wem"
+       },
+       {
+        "Id": "841212243",
+        "Language": "SFX",
+        "ShortName": " it5 partie 2 .wav",
+        "Path": "SFX\\ it5 partie 2 _70232134.wem"
+       },
+       {
+        "Id": "986913194",
+        "Language": "SFX",
+        "ShortName": " it2 partie 2 .wav",
+        "Path": "SFX\\ it2 partie 2 _70232134.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
