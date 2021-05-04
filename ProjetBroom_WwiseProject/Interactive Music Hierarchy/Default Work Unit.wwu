@@ -918,6 +918,11 @@
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="122"/>
 								<Property Name="TimeSignatureLower" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-19</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2838,7 +2843,7 @@
 								<Property Name="Tempo" Type="Real64" Value="123"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-22</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
