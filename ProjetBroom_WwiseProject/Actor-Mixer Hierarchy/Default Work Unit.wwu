@@ -13787,6 +13787,13 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Mob_OS_SkeletonDistGetHit_01" ID="{98397D1D-02F9-46F3-B69A-3B16C1146CA2}">
+																					<PropertyList>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>6</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Mob_OS_SkeletonDistGetHit_01.wav</AudioFile>
 																					<MediaIDList>
@@ -13809,6 +13816,13 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Mob_OS_SkeletonDistGetHit_02" ID="{9F1015F3-594F-4521-85C2-2C0616F46684}">
+																					<PropertyList>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>6</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Mob_OS_SkeletonDistGetHit_02.wav</AudioFile>
 																					<MediaIDList>
@@ -13848,7 +13862,7 @@
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-1</Value>
+																				<Value>-6</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -14900,7 +14914,7 @@
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-1</Value>
+																				<Value>-6</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
