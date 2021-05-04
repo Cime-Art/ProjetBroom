@@ -13611,54 +13611,332 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="TestSkeletonVoice_01" ID="{4C8F6B72-3023-45C4-8D7B-2C5594EC07CB}" ShortID="100090824">
-															<PropertyList>
-																<Property Name="Pitch" Type="int32">
-																	<ValueList>
-																		<Value>230</Value>
-																	</ValueList>
-																	<ModifierList>
-																		<ModifierInfo>
-																			<Modifier Name="" ID="{09064C66-7A40-4A6A-8A90-FE113DA73DF4}">
-																				<PropertyList>
-																					<Property Name="Enabled" Type="bool" Value="True"/>
-																					<Property Name="Max" Type="Real64" Value="100"/>
-																					<Property Name="Min" Type="Real64" Value="-50"/>
-																				</PropertyList>
-																			</Modifier>
-																		</ModifierInfo>
-																	</ModifierList>
-																</Property>
-																<Property Name="UserAuxSendVolume0" Type="Real64">
-																	<ValueList>
-																		<Value>-8</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
+														<RandomSequenceContainer Name="DeathScream_RND" ID="{FB38755A-7F4C-4A64-94CE-14A1D1C74D50}" ShortID="550975729">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-																<Reference Name="UserAuxSend0">
-																	<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="TestSkeletonVoice_01" ID="{6E0B37F2-E7C7-4DF2-AE08-8CA03BFEC50B}">
-																	<Language>SFX</Language>
-																	<AudioFile>TestSkeletonVoice_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="364397768"/>
-																	</MediaIDList>
-																</AudioFileSource>
+																<Sound Name="OS_MOB_VoiceSkeletonDead_02_Raph_V2" ID="{F4D4630F-EFD7-4185-B0A6-20FA92EAEC82}" ShortID="325136997">
+																	<PropertyList>
+																		<Property Name="Pitch" Type="int32">
+																			<ValueList>
+																				<Value>-400</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="OS_MOB_VoiceSkeletonDead_02_Raph_V2" ID="{62073AFC-07F2-4821-A5B9-10690990BDCC}">
+																			<Language>SFX</Language>
+																			<AudioFile>OS_MOB_VoiceSkeletonDead_02_Raph_V2.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="773821822"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="OS_MOB_VoiceSkeletonDead_02_Raph_V2" ID="{62073AFC-07F2-4821-A5B9-10690990BDCC}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="OS_MOB_VoiceSkeletonDead_04_Raph_V2" ID="{8C86E8B0-AA25-4502-9CCE-F2447A2AA710}" ShortID="186590456">
+																	<PropertyList>
+																		<Property Name="Pitch" Type="int32">
+																			<ValueList>
+																				<Value>-150</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="OS_MOB_VoiceSkeletonDead_04_Raph_V2" ID="{1D0338FC-726A-46C0-AA5F-3EB82DEBCBB4}">
+																			<PropertyList>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.930643874643875"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="1.98819373219373"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>OS_MOB_VoiceSkeletonDead_04_Raph_V2.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="7346127"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="OS_MOB_VoiceSkeletonDead_04_Raph_V2" ID="{1D0338FC-726A-46C0-AA5F-3EB82DEBCBB4}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="OS_MOB_VoiceSkeletonDead_05_Raph_V2" ID="{D3EC49FC-F481-4A71-8D01-1E14DBF9F3AE}" ShortID="40467332">
+																	<PropertyList>
+																		<Property Name="Pitch" Type="int32">
+																			<ValueList>
+																				<Value>-130</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="OS_MOB_VoiceSkeletonDead_05_Raph_V2" ID="{1646D1E8-91FA-472C-A1B6-7F011036FFBB}">
+																			<PropertyList>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.576"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="1.32627692307692"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>OS_MOB_VoiceSkeletonDead_05_Raph_V2.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="408586906"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="OS_MOB_VoiceSkeletonDead_05_Raph_V2" ID="{1646D1E8-91FA-472C-A1B6-7F011036FFBB}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
 															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="TestSkeletonVoice_01" ID="{6E0B37F2-E7C7-4DF2-AE08-8CA03BFEC50B}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
+														</RandomSequenceContainer>
+													</ChildrenList>
+												</ActorMixer>
+												<ActorMixer Name="GetHit" ID="{CDE63B87-0911-4463-BD6E-9AE2724D33DA}" ShortID="165711669">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<BlendContainer Name="Grunt+GetHit_Blend" ID="{2F33FA03-067D-4366-9F81-325B1AAA3E11}" ShortID="196724068">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<RandomSequenceContainer Name="GetHit_RND" ID="{A1D64D36-C975-4EC2-80B6-1A78AADFE165}" ShortID="748761449">
+																	<PropertyList>
+																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{FDB70F5E-5CA2-4A8E-BE84-94C7D99F4D88}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="250"/>
+																							<Property Name="Min" Type="Real64" Value="-250"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="UserAuxSendVolume0" Type="Real64">
+																			<ValueList>
+																				<Value>-8</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="Mob_OS_SkeletonDistGetHit_01" ID="{183D92F9-61F2-413A-8ADA-66ADE5ECBCA0}" ShortID="115641668">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Mob_OS_SkeletonDistGetHit_01" ID="{98397D1D-02F9-46F3-B69A-3B16C1146CA2}">
+																					<Language>SFX</Language>
+																					<AudioFile>Mob_OS_SkeletonDistGetHit_01.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="39940552"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Mob_OS_SkeletonDistGetHit_01" ID="{98397D1D-02F9-46F3-B69A-3B16C1146CA2}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Mob_OS_SkeletonDistGetHit_02" ID="{BD12FBEE-BE4A-4115-B2FA-6E8693192702}" ShortID="276360814">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Mob_OS_SkeletonDistGetHit_02" ID="{9F1015F3-594F-4521-85C2-2C0616F46684}">
+																					<Language>SFX</Language>
+																					<AudioFile>Mob_OS_SkeletonDistGetHit_02.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="911393502"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Mob_OS_SkeletonDistGetHit_02" ID="{9F1015F3-594F-4521-85C2-2C0616F46684}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
+																<RandomSequenceContainer Name="Grunts_RND" ID="{2D64D79E-F106-4AE5-B5F4-B46BB9FAB641}" ShortID="570880636">
+																	<PropertyList>
+																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+																		<Property Name="InitialDelay" Type="Real64">
+																			<ValueList>
+																				<Value>0.05</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="Pitch" Type="int32">
+																			<ValueList>
+																				<Value>50</Value>
+																			</ValueList>
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{4C119961-726B-46AC-A205-523091AA1015}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="220"/>
+																							<Property Name="Min" Type="Real64" Value="-15"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-1</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="OS_MOB_VoiceSkeletonGetHit_01_Raph_V2" ID="{F8F62B16-85A5-4308-BD00-BCF2891CC9FE}" ShortID="730710180">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_MOB_VoiceSkeletonGetHit_01_Raph_V2" ID="{79D59BD2-55C1-4B59-9826-7A039501FD9B}">
+																					<Language>SFX</Language>
+																					<AudioFile>OS_MOB_VoiceSkeletonGetHit_01_Raph_V2.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="141712550"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_MOB_VoiceSkeletonGetHit_01_Raph_V2" ID="{79D59BD2-55C1-4B59-9826-7A039501FD9B}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="OS_MOB_VoiceSkeletonGetHit_02_Raph_V2" ID="{F98CD363-8FE5-4893-8D0C-7FE894CC218F}" ShortID="23341959">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_MOB_VoiceSkeletonGetHit_02_Raph_V2" ID="{8EE7CB30-A41C-498F-957C-DC71EA351A07}">
+																					<PropertyList>
+																						<Property Name="FadeInDuration" Type="Real64" Value="0.00606267806267806"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="0.0796809116809117"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.124717948717949"/>
+																					</PropertyList>
+																					<Language>SFX</Language>
+																					<AudioFile>OS_MOB_VoiceSkeletonGetHit_02_Raph_V2.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="398627800"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_MOB_VoiceSkeletonGetHit_02_Raph_V2" ID="{8EE7CB30-A41C-498F-957C-DC71EA351A07}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="OS_MOB_VoiceSkeletonGetHit_03_Raph_V2" ID="{1150DBE2-9E08-4CF9-A787-9DFE85F2F863}" ShortID="414761319">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_MOB_VoiceSkeletonGetHit_03_Raph_V2" ID="{11D24529-8B7D-4A71-8211-9CC1D34338D9}">
+																					<Language>SFX</Language>
+																					<AudioFile>OS_MOB_VoiceSkeletonGetHit_03_Raph_V2.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="645583938"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_MOB_VoiceSkeletonGetHit_03_Raph_V2" ID="{11D24529-8B7D-4A71-8211-9CC1D34338D9}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
+															</ChildrenList>
+														</BlendContainer>
 													</ChildrenList>
 												</ActorMixer>
 											</ChildrenList>
@@ -14359,24 +14637,139 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="TestSkeletonVoice_01" ID="{E98E45AF-3408-4F8D-9F51-2F6DCB63A6E3}" ShortID="707825987">
+														<RandomSequenceContainer Name="DeathScream_RND" ID="{FD613117-4927-4D2F-9FE5-C2C934DAA36E}" ShortID="643002021">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="TestSkeletonVoice_01" ID="{E98E45AF-3408-4F8D-9F51-2F6DCB63A6E3}" ShortID="707825987">
+																	<PropertyList>
+																		<Property Name="Pitch" Type="int32">
+																			<ValueList>
+																				<Value>-130</Value>
+																			</ValueList>
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{123509BC-F76D-4339-96F8-8EB1F6DFFD61}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="25"/>
+																							<Property Name="Min" Type="Real64" Value="-200"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="UserAuxSendVolume0" Type="Real64">
+																			<ValueList>
+																				<Value>-8</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="TestSkeletonVoice_01" ID="{EE51260D-5FC2-4F19-92B6-636CCE1FA56F}">
+																			<Language>SFX</Language>
+																			<AudioFile>TestSkeletonVoice_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="364397768"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="TestSkeletonVoice_01" ID="{EE51260D-5FC2-4F19-92B6-636CCE1FA56F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="OS_MOB_VoiceSkeletonDead_01_Raph_V2" ID="{D0C5C112-D6B9-4FBF-9AE0-A1F50F72DAEF}" ShortID="966646713">
+																	<PropertyList>
+																		<Property Name="Pitch" Type="int32">
+																			<ValueList>
+																				<Value>-230</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="UserAuxSendVolume0" Type="Real64">
+																			<ValueList>
+																				<Value>-8</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="OS_MOB_VoiceSkeletonDead_01_Raph_V2" ID="{39FE1AB3-4280-4F5A-8FEA-D36902CA1D0E}">
+																			<Language>SFX</Language>
+																			<AudioFile>OS_MOB_VoiceSkeletonDead_01_Raph_V2.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="79247711"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="OS_MOB_VoiceSkeletonDead_01_Raph_V2" ID="{39FE1AB3-4280-4F5A-8FEA-D36902CA1D0E}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="OS_MOB_VoiceSkeletonDead_03_Raph_V2" ID="{E85413D7-E671-45C5-B524-B3248B638FEF}" ShortID="189063026">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="OS_MOB_VoiceSkeletonDead_03_Raph_V2" ID="{1AE38961-A7A7-4015-9637-468AE9DFC094}">
+																			<Language>SFX</Language>
+																			<AudioFile>OS_MOB_VoiceSkeletonDead_03_Raph_V2.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="618274109"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="OS_MOB_VoiceSkeletonDead_03_Raph_V2" ID="{1AE38961-A7A7-4015-9637-468AE9DFC094}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+												</ActorMixer>
+												<ActorMixer Name="GetHit" ID="{FE793F7A-B23A-43FC-8DBD-1D9E92F43F37}" ShortID="370288149">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<BlendContainer Name="Hit+Grunt_Blend" ID="{4AAAB949-9DE6-4137-893D-B21A3B2913A6}" ShortID="768078050">
 															<PropertyList>
-																<Property Name="Pitch" Type="int32">
-																	<ValueList>
-																		<Value>-130</Value>
-																	</ValueList>
-																	<ModifierList>
-																		<ModifierInfo>
-																			<Modifier Name="" ID="{123509BC-F76D-4339-96F8-8EB1F6DFFD61}">
-																				<PropertyList>
-																					<Property Name="Enabled" Type="bool" Value="True"/>
-																					<Property Name="Max" Type="Real64" Value="25"/>
-																					<Property Name="Min" Type="Real64" Value="-200"/>
-																				</PropertyList>
-																			</Modifier>
-																		</ModifierInfo>
-																	</ModifierList>
-																</Property>
 																<Property Name="UserAuxSendVolume0" Type="Real64">
 																	<ValueList>
 																		<Value>-8</Value>
@@ -14395,18 +14788,222 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="TestSkeletonVoice_01" ID="{EE51260D-5FC2-4F19-92B6-636CCE1FA56F}">
-																	<Language>SFX</Language>
-																	<AudioFile>TestSkeletonVoice_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="364397768"/>
-																	</MediaIDList>
-																</AudioFileSource>
+																<RandomSequenceContainer Name="GetHit_RND" ID="{704CEE04-43AC-4AF3-89A4-9B48D90A9A22}" ShortID="293067602">
+																	<PropertyList>
+																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="Mob_OS_SkeletonCacGetHit_01" ID="{7E27945C-3C4E-4F5F-8178-3E4C5CDDF439}" ShortID="60253643">
+																			<PropertyList>
+																				<Property Name="UserAuxSendVolume0" Type="Real64">
+																					<ValueList>
+																						<Value>-8</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Mob_OS_SkeletonCacGetHit_01" ID="{9A31E000-DBE6-4688-83D6-F2B4B4479CCA}">
+																					<PropertyList>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="0.25889212962963"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="0.917890277777778"/>
+																					</PropertyList>
+																					<Language>SFX</Language>
+																					<AudioFile>Mob_OS_SkeletonCacGetHit_01.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="827218155"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Mob_OS_SkeletonCacGetHit_01" ID="{9A31E000-DBE6-4688-83D6-F2B4B4479CCA}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Mob_OS_SkeletonCacGetHit_02" ID="{0FCAA680-7EA5-404E-AAAC-259A9EAF13E8}" ShortID="511861175">
+																			<PropertyList>
+																				<Property Name="UserAuxSendVolume0" Type="Real64">
+																					<ValueList>
+																						<Value>-8</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Mob_OS_SkeletonCacGetHit_02" ID="{D844035B-8D2B-43DD-87D0-EE75B8E24B67}">
+																					<PropertyList>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="0.329567307692308"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="1.08317788461538"/>
+																					</PropertyList>
+																					<Language>SFX</Language>
+																					<AudioFile>Mob_OS_SkeletonCacGetHit_02.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="573342689"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Mob_OS_SkeletonCacGetHit_02" ID="{D844035B-8D2B-43DD-87D0-EE75B8E24B67}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
+																<RandomSequenceContainer Name="Grunt_RND" ID="{72EAB76E-701A-49C4-99CA-81E631A6193E}" ShortID="735309454">
+																	<PropertyList>
+																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+																		<Property Name="InitialDelay" Type="Real64">
+																			<ValueList>
+																				<Value>0.05</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{17894EEF-9B7A-45D5-AD70-96D837D86FCA}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="75"/>
+																							<Property Name="Min" Type="Real64" Value="-30"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-1</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="OS_MOB_VoiceSkeletonGetHit_05_Raph_V2" ID="{B64ECE93-B857-47AA-8271-4E3F1071EF9F}" ShortID="466923735">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ValueList>
+																						<Value>-250</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_MOB_VoiceSkeletonGetHit_05_Raph_V2" ID="{CAB7015F-3CA4-4807-8C6E-3D21DC876A5D}">
+																					<Language>SFX</Language>
+																					<AudioFile>OS_MOB_VoiceSkeletonGetHit_05_Raph_V2.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="491080463"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_MOB_VoiceSkeletonGetHit_05_Raph_V2" ID="{CAB7015F-3CA4-4807-8C6E-3D21DC876A5D}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="OS_MOB_VoiceSkeletonGetHit_06_Raph_V2" ID="{E29FFC12-11C4-485A-9C2C-F373AAD15D68}" ShortID="884420355">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ValueList>
+																						<Value>-300</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_MOB_VoiceSkeletonGetHit_06_Raph_V2" ID="{2F9365A4-0649-4A5B-981F-DEE8C30C1488}">
+																					<Language>SFX</Language>
+																					<AudioFile>OS_MOB_VoiceSkeletonGetHit_06_Raph_V2.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="959840996"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_MOB_VoiceSkeletonGetHit_06_Raph_V2" ID="{2F9365A4-0649-4A5B-981F-DEE8C30C1488}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="OS_MOB_VoiceSkeletonGetHit_04_Raph_V2" ID="{C6280DBF-0CD4-437E-8ED9-26967882624C}" ShortID="989127242">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ValueList>
+																						<Value>-250</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_MOB_VoiceSkeletonGetHit_04_Raph_V2" ID="{0E6CA63A-4433-4120-8990-AA984EEA4168}">
+																					<Language>SFX</Language>
+																					<AudioFile>OS_MOB_VoiceSkeletonGetHit_04_Raph_V2.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="984861483"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_MOB_VoiceSkeletonGetHit_04_Raph_V2" ID="{0E6CA63A-4433-4120-8990-AA984EEA4168}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
 															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="TestSkeletonVoice_01" ID="{EE51260D-5FC2-4F19-92B6-636CCE1FA56F}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
+														</BlendContainer>
 													</ChildrenList>
 												</ActorMixer>
 											</ChildrenList>

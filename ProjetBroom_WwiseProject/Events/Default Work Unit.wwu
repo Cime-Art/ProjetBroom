@@ -80,7 +80,7 @@
 										<Action Name="" ID="{E094F4F7-4D1F-4A15-ACE6-74BF51A2A5C3}" ShortID="449673997">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="TestSkeletonVoice_01" ID="{4C8F6B72-3023-45C4-8D7B-2C5594EC07CB}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="DeathScream_RND" ID="{FB38755A-7F4C-4A64-94CE-14A1D1C74D50}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -132,6 +132,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="PlayerHit" ID="{1546C391-04D4-4EE9-8D60-10B17BC510D9}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SkDist_GetHit" ID="{DBE1F067-E172-4623-88A0-EC313DF3DE08}">
+									<ChildrenList>
+										<Action Name="" ID="{2EFC7AEF-0CEC-4ADF-A3E9-BF1C23279DB9}" ShortID="804109960">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grunt+GetHit_Blend" ID="{2F33FA03-067D-4366-9F81-325B1AAA3E11}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -242,6 +253,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Attack_01" ID="{7AA7A27C-3BE1-4815-A973-3CDB2A2357D9}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SkCac_GetHit" ID="{CE765A6F-953A-4F7B-96C2-58B574B8B90A}">
+									<ChildrenList>
+										<Action Name="" ID="{47917C13-E981-4899-9CF0-F2E19DF8D3BF}" ShortID="95708185">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Hit+Grunt_Blend" ID="{4AAAB949-9DE6-4137-893D-B21A3B2913A6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
