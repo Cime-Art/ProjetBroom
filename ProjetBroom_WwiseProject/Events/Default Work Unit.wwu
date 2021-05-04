@@ -100,7 +100,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="GetHit" ID="{CDE63B87-0911-4463-BD6E-9AE2724D33DA}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="GetHit" ID="{767CB068-8648-41AE-AD3D-A7ACAF8D4E12}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -148,17 +148,6 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Event_SkDist_RagFall" ID="{CE8DC8ED-51A5-4FA7-87DA-C3D8DA0D8040}">
-									<ChildrenList>
-										<Action Name="" ID="{322B016D-7314-4EBD-BE3F-7C81ABBFDFCE}" ShortID="99872852">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="DeathFall_RND" ID="{F00A58AD-CD9A-4532-9E41-F738FEB75248}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="SkeletonCac" ID="{7AB3C91B-BB02-4147-86AF-73CCCF7D246E}" ShortID="757083389">
@@ -199,7 +188,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="GetHit" ID="{FE793F7A-B23A-43FC-8DBD-1D9E92F43F37}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="GetHit" ID="{2D5DAD98-5DF5-4BBD-B2CF-C4673732792B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -275,17 +264,6 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Hit+Grunt_Blend" ID="{4AAAB949-9DE6-4137-893D-B21A3B2913A6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Event_SkCac_RagFall" ID="{E3D906C1-0656-4C66-BF37-FF0E15CCE9EE}">
-									<ChildrenList>
-										<Action Name="" ID="{4BB42213-A4F7-40AA-8642-E5EFC7057491}" ShortID="882275320">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="DeathFall_RND" ID="{DCA8B80B-DBE8-450E-BB40-0D0510708ADD}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
