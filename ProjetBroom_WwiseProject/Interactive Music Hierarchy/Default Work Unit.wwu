@@ -2838,7 +2838,7 @@
 								<Property Name="Tempo" Type="Real64" Value="123"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-20</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -4419,7 +4419,7 @@
 											<SequenceList>
 												<MusicTrackSequence Name="" ID="{5FF0B52C-16DC-4ACD-AEEA-09D0FAB25CD5}">
 													<ClipList>
-														<MusicClip Name=" it2 partie 2 " ID="{82ABA813-E486-4CE1-80E4-1A5D3D654CC9}">
+														<MusicClip Name="it2 partie 2" ID="{82ABA813-E486-4CE1-80E4-1A5D3D654CC9}">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="35300"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -4431,7 +4431,7 @@
 												</MusicTrackSequence>
 												<MusicTrackSequence Name="" ID="{E9DBB269-03F4-43ED-AEE9-6D8E2D43622C}">
 													<ClipList>
-														<MusicClip Name=" it3 partie 2 " ID="{2B728AC0-267E-476B-A565-C5623C71C584}">
+														<MusicClip Name="it3 partie 2" ID="{2B728AC0-267E-476B-A565-C5623C71C584}">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="35300"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -4443,7 +4443,7 @@
 												</MusicTrackSequence>
 												<MusicTrackSequence Name="" ID="{3C5DE1F0-01AD-435F-9D2A-7158074959AB}">
 													<ClipList>
-														<MusicClip Name=" it4 partie 2 wav" ID="{5A40161F-27E5-465A-9116-5B5926FCF4CD}">
+														<MusicClip Name="it4 partie 2 wav" ID="{5A40161F-27E5-465A-9116-5B5926FCF4CD}">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="35300"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -4455,7 +4455,7 @@
 												</MusicTrackSequence>
 												<MusicTrackSequence Name="" ID="{286045FC-C1AE-4951-AD2A-6DC30969FE39}">
 													<ClipList>
-														<MusicClip Name=" it5 partie 2 " ID="{2BAD94AD-8683-4652-810A-D01BA59B2D2E}">
+														<MusicClip Name="it5 partie 2" ID="{2BAD94AD-8683-4652-810A-D01BA59B2D2E}">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="35300"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -4467,7 +4467,7 @@
 												</MusicTrackSequence>
 												<MusicTrackSequence Name="" ID="{76AF239E-03FB-4A85-B7BC-F85CECDA2D26}">
 													<ClipList>
-														<MusicClip Name=" it 1 partie 2 " ID="{D588FE1F-C3C3-4D3E-9A80-E66A1E776C0C}">
+														<MusicClip Name="it 1 partie 2" ID="{D588FE1F-C3C3-4D3E-9A80-E66A1E776C0C}">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="35300"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -4479,7 +4479,7 @@
 												</MusicTrackSequence>
 												<MusicTrackSequence Name="" ID="{C4323A05-ACEA-4330-90CB-B7D4AC2AFB12}">
 													<ClipList>
-														<MusicClip Name=" ti 6 partie 2 " ID="{07AFDAEA-F594-4A28-BB14-6FC3DE7AF40B}">
+														<MusicClip Name="ti 6 partie 2" ID="{07AFDAEA-F594-4A28-BB14-6FC3DE7AF40B}">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="35300"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>

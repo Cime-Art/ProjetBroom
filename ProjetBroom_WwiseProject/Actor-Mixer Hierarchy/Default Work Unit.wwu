@@ -4978,7 +4978,7 @@
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-17</Value>
+																				<Value>-13</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -5330,7 +5330,7 @@
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-18</Value>
+																				<Value>-14</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -5489,7 +5489,7 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>369.59247</XPos>
+																											<XPos>435.42319</XPos>
 																											<YPos>100</YPos>
 																											<Flags>0</Flags>
 																											<SegmentShape>Log2</SegmentShape>
@@ -5648,13 +5648,24 @@
 																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																				<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																				<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																				<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																				<Property Name="UserAuxSendVolume0" Type="Real64">
+																					<ValueList>
+																						<Value>-6</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-8</Value>
+																					</ValueList>
+																				</Property>
 																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Attenuation">
 																					<Custom CreatedFrom="{A826D206-EFEA-48D9-8ED0-2D7679B0E33A}">
 																						<Attenuation Name="General_Distance (Custom)" ID="{171E62E7-6CF7-4709-AD95-2D47269175D1}" ShortID="244665450">
 																							<PropertyList>
-																								<Property Name="RadiusMax" Type="Real64" Value="2100"/>
+																								<Property Name="RadiusMax" Type="Real64" Value="2550"/>
 																							</PropertyList>
 																							<CurveUsageInfoList>
 																								<VolumeDryUsage>
@@ -5666,18 +5677,18 @@
 																											<PointList>
 																												<Point>
 																													<XPos>0</XPos>
-																													<YPos>0</YPos>
+																													<YPos>-0.96327</YPos>
 																													<Flags>5</Flags>
 																													<SegmentShape>Exp2</SegmentShape>
 																												</Point>
 																												<Point>
-																													<XPos>1346.23824</XPos>
-																													<YPos>-3.80992</YPos>
+																													<XPos>1946.47334777778</XPos>
+																													<YPos>-3.73583</YPos>
 																													<Flags>0</Flags>
-																													<SegmentShape>Log2</SegmentShape>
+																													<SegmentShape>Log1</SegmentShape>
 																												</Point>
 																												<Point>
-																													<XPos>2100</XPos>
+																													<XPos>2550</XPos>
 																													<YPos>-200</YPos>
 																													<Flags>37</Flags>
 																												</Point>
@@ -5686,10 +5697,35 @@
 																									</CurveUsageInfo>
 																								</VolumeDryUsage>
 																								<VolumeWetGameUsage>
-																									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 																								</VolumeWetGameUsage>
 																								<VolumeWetUserUsage>
-																									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
+																										<Curve Name="VolumeWetUser" ID="{7A47A923-43BE-4EFE-B9F9-A8C4D9374F95}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="3"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>-0.96327</YPos>
+																													<Flags>5</Flags>
+																													<SegmentShape>Exp2</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>1946.47334777778</XPos>
+																													<YPos>-3.73583</YPos>
+																													<Flags>0</Flags>
+																													<SegmentShape>Exp1</SegmentShape>
+																												</Point>
+																												<Point>
+																													<XPos>2550</XPos>
+																													<YPos>-200</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
 																								</VolumeWetUserUsage>
 																								<LowPassFilterUsage>
 																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -5705,8 +5741,8 @@
 																													<SegmentShape>Log1</SegmentShape>
 																												</Point>
 																												<Point>
-																													<XPos>2100</XPos>
-																													<YPos>50</YPos>
+																													<XPos>2550</XPos>
+																													<YPos>39</YPos>
 																													<Flags>37</Flags>
 																												</Point>
 																											</PointList>
@@ -5726,7 +5762,7 @@
 																													<Flags>5</Flags>
 																												</Point>
 																												<Point>
-																													<XPos>2100</XPos>
+																													<XPos>2550</XPos>
 																													<YPos>45</YPos>
 																													<Flags>37</Flags>
 																												</Point>
@@ -5747,12 +5783,17 @@
 																													<Flags>5</Flags>
 																												</Point>
 																												<Point>
-																													<XPos>1774.13794</XPos>
+																													<XPos>2302.19436222222</XPos>
 																													<YPos>100</YPos>
 																													<Flags>0</Flags>
 																												</Point>
 																												<Point>
-																													<XPos>2100</XPos>
+																													<XPos>2414.10658</XPos>
+																													<YPos>0</YPos>
+																													<Flags>0</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>2550</XPos>
 																													<YPos>0</YPos>
 																													<Flags>37</Flags>
 																												</Point>
@@ -5773,9 +5814,19 @@
 																				<Reference Name="OutputBus">
 																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_LP_AcidFlow_01_Anger_V2" ID="{D6904EC2-3587-483B-9442-89318702FD91}">
+																					<PropertyList>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>24</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_LP_AcidFlow_01_Anger_V2.wav</AudioFile>
 																					<MediaIDList>
@@ -6105,7 +6156,7 @@
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-15</Value>
+																				<Value>-10</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -6126,12 +6177,12 @@
 																									<PointList>
 																										<Point>
 																											<XPos>0</XPos>
-																											<YPos>-6.26122</YPos>
+																											<YPos>-4</YPos>
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
 																											<XPos>1000</XPos>
-																											<YPos>-8.10237</YPos>
+																											<YPos>-6.76343</YPos>
 																											<Flags>37</Flags>
 																										</Point>
 																									</PointList>
@@ -6530,7 +6581,7 @@
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-14</Value>
+																				<Value>-18</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -6975,7 +7026,7 @@
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-9</Value>
+																				<Value>-6</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -6983,6 +7034,9 @@
 																		<Reference Name="Attenuation">
 																			<Custom CreatedFrom="{A826D206-EFEA-48D9-8ED0-2D7679B0E33A}">
 																				<Attenuation Name="General_Distance (Custom)" ID="{970FECD1-FDB9-4A0B-AABF-35A39BEF2C0C}" ShortID="1034038869">
+																					<PropertyList>
+																						<Property Name="RadiusMax" Type="Real64" Value="200"/>
+																					</PropertyList>
 																					<CurveUsageInfoList>
 																						<VolumeDryUsage>
 																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -6993,12 +7047,12 @@
 																									<PointList>
 																										<Point>
 																											<XPos>0</XPos>
-																											<YPos>-6.26176</YPos>
+																											<YPos>-5</YPos>
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>100</XPos>
-																											<YPos>-17.6448</YPos>
+																											<XPos>200</XPos>
+																											<YPos>-15</YPos>
 																											<Flags>37</Flags>
 																										</Point>
 																									</PointList>
@@ -7024,7 +7078,7 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>100</XPos>
+																											<XPos>200</XPos>
 																											<YPos>50</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -7260,7 +7314,7 @@
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-20</Value>
+																				<Value>-15</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -7269,7 +7323,7 @@
 																			<Custom CreatedFrom="{A826D206-EFEA-48D9-8ED0-2D7679B0E33A}">
 																				<Attenuation Name="General_Distance (Custom)" ID="{3413DD71-4525-466E-88AD-64E91FB50925}" ShortID="691933027">
 																					<PropertyList>
-																						<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+																						<Property Name="RadiusMax" Type="Real64" Value="2000"/>
 																					</PropertyList>
 																					<CurveUsageInfoList>
 																						<VolumeDryUsage>
@@ -7281,11 +7335,11 @@
 																									<PointList>
 																										<Point>
 																											<XPos>0</XPos>
-																											<YPos>0</YPos>
+																											<YPos>-2</YPos>
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>1000</XPos>
+																											<XPos>2000</XPos>
 																											<YPos>-45</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -7312,7 +7366,7 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>1000</XPos>
+																											<XPos>2000</XPos>
 																											<YPos>50</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -7598,12 +7652,14 @@
 																</RandomSequenceContainer>
 																<RandomSequenceContainer Name="Stone_Fall_RND" ID="{438CF10A-94EB-416C-804A-432742B3D178}" ShortID="100316584">
 																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 																		<Property Name="Lowpass" Type="int16">
 																			<ValueList>
 																				<Value>14</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																		<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 																		<Property Name="Pitch" Type="int32">
 																			<ValueList>
@@ -7636,6 +7692,74 @@
 																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<Custom CreatedFrom="{A826D206-EFEA-48D9-8ED0-2D7679B0E33A}">
+																				<Attenuation Name="General_Distance (Custom)" ID="{DBC6F812-5111-4E8E-B8A0-46A9391EDFA4}" ShortID="268721672">
+																					<PropertyList>
+																						<Property Name="RadiusMax" Type="Real64" Value="900"/>
+																					</PropertyList>
+																					<CurveUsageInfoList>
+																						<VolumeDryUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																								<Curve Name="VolumeDry" ID="{E4AD1A04-F2A4-4481-A40D-340A4719012E}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="3"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>-4</YPos>
+																											<Flags>5</Flags>
+																										</Point>
+																										<Point>
+																											<XPos>900</XPos>
+																											<YPos>-10</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</CurveUsageInfo>
+																						</VolumeDryUsage>
+																						<VolumeWetGameUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																						</VolumeWetGameUsage>
+																						<VolumeWetUserUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																						</VolumeWetUserUsage>
+																						<LowPassFilterUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																								<Curve Name="LowPassFilter" ID="{4C0E7BE2-CFFA-48D3-8CBF-0DF9BE1DC65B}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="65537"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>0</YPos>
+																											<Flags>5</Flags>
+																										</Point>
+																										<Point>
+																											<XPos>900</XPos>
+																											<YPos>50</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</CurveUsageInfo>
+																						</LowPassFilterUsage>
+																						<HighPassFilterUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</HighPassFilterUsage>
+																						<SpreadUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</SpreadUsage>
+																						<FocusUsage>
+																							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																						</FocusUsage>
+																					</CurveUsageInfoList>
+																				</Attenuation>
+																			</Custom>
+																		</Reference>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																		</Reference>
@@ -7668,6 +7792,11 @@
 																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
 																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																						<Property Name="TrimEnd" Type="Real64" Value="3.49157262731481"/>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>9</Value>
+																							</ValueList>
+																						</Property>
 																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_StoneFall(Echo) _01_Anger_V2.wav</AudioFile>
@@ -7695,6 +7824,11 @@
 																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
 																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																						<Property Name="TrimEnd" Type="Real64" Value="4.02813946759258"/>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>9</Value>
+																							</ValueList>
+																						</Property>
 																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_StoneFall(Echo) _02_Anger_V2.wav</AudioFile>
@@ -7722,6 +7856,11 @@
 																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																						<Property Name="TrimBegin" Type="Real64" Value="0.0727236689814815"/>
 																						<Property Name="TrimEnd" Type="Real64" Value="3.17257005931713"/>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>9</Value>
+																							</ValueList>
+																						</Property>
 																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_StoneFall(Echo) _03_Anger_V2.wav</AudioFile>
@@ -7745,6 +7884,13 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="Amb_OS_StoneFall(Echo) _04_Anger_V2" ID="{7687358B-F859-497F-AB6F-07BB2C0C9F9B}">
+																					<PropertyList>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>9</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_StoneFall(Echo) _04_Anger_V2.wav</AudioFile>
 																					<MediaIDList>
@@ -7771,6 +7917,11 @@
 																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																						<Property Name="TrimBegin" Type="Real64" Value="1.73097989004629"/>
 																						<Property Name="TrimEnd" Type="Real64" Value="3.69136675347223"/>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>9</Value>
+																							</ValueList>
+																						</Property>
 																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_StoneFall(Echo) _07_Anger_V2.wav</AudioFile>
@@ -7798,6 +7949,11 @@
 																						<Property Name="LoopBegin" Type="Real64" Value="0"/>
 																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																						<Property Name="TrimEnd" Type="Real64" Value="2.18811935763889"/>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>9</Value>
+																							</ValueList>
+																						</Property>
 																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Amb_OS_StoneFall(Echo) _08_Anger_V2.wav</AudioFile>
@@ -7815,6 +7971,7 @@
 																<RandomSequenceContainer Name="Small_Animal_Run_In_Pipe_RND" ID="{20E701B0-DF59-4440-9E3C-AF9B827A7DF6}" ShortID="998992274">
 																	<PropertyList>
 																		<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																		<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 																		<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 																		<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
@@ -7831,6 +7988,11 @@
 																			</ModifierList>
 																		</Property>
 																		<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-5</Value>
+																			</ValueList>
+																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
@@ -8390,12 +8552,12 @@
 																		</Property>
 																		<Property Name="UserAuxSendVolume1" Type="Real64">
 																			<ValueList>
-																				<Value>-14</Value>
+																				<Value>-10</Value>
 																			</ValueList>
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-26</Value>
+																				<Value>-10</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -8842,12 +9004,12 @@
 																		<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 																		<Property Name="UserAuxSendVolume0" Type="Real64">
 																			<ValueList>
-																				<Value>-8</Value>
+																				<Value>-3</Value>
 																			</ValueList>
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-20</Value>
+																				<Value>-11</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
