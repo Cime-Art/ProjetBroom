@@ -532,6 +532,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{16066F7E-95E5-4D7F-BD48-54B566B37E25}" ShortID="795179717">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VoiceAttack_RND" ID="{689ABA43-50F4-4032-BC85-1823AC6C1DE5}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Event_Play_Vertical_Attack" ID="{7CCC998F-F984-4946-B165-CC6EFA45D359}">

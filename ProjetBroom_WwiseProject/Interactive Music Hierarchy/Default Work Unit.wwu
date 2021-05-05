@@ -2,13 +2,6 @@
 <WwiseDocument Type="WorkUnit" ID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}" SchemaVersion="97">
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}" PersistMode="Standalone">
-			<PropertyList>
-				<Property Name="Inclusion" Type="bool">
-					<ValueList>
-						<Value>False</Value>
-					</ValueList>
-				</Property>
-			</PropertyList>
 			<ChildrenList>
 				<Folder Name="Musique Menu" ID="{B4A83827-D581-4415-89CC-A3F4726C2F80}" ShortID="399245750">
 					<ChildrenList>
@@ -927,7 +920,7 @@
 								<Property Name="TimeSignatureLower" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-19</Value>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -943,6 +936,11 @@
 								<MusicSegment Name="Main segment" ID="{B91165FF-8447-477E-A79C-07ABD2FA5B02}" ShortID="687603193">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="42855.388891229"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2092,6 +2090,11 @@
 								<MusicSegment Name="Transi Militaire" ID="{6BED97E7-83A1-4927-B0DF-144B0A192E1C}" ShortID="162728471">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="27691.4712333718"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
