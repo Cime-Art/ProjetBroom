@@ -2,6 +2,13 @@
 <WwiseDocument Type="WorkUnit" ID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}" SchemaVersion="97">
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Inclusion" Type="bool">
+					<ValueList>
+						<Value>False</Value>
+					</ValueList>
+				</Property>
+			</PropertyList>
 			<ChildrenList>
 				<Folder Name="Musique Menu" ID="{B4A83827-D581-4415-89CC-A3F4726C2F80}" ShortID="399245750">
 					<ChildrenList>

@@ -2798,10 +2798,9 @@
 																	<ChildrenList>
 																		<RandomSequenceContainer Name="GetHit_RND" ID="{EEF59CB1-1A8A-4202-ABB8-EB1E0F487D46}" ShortID="219973817">
 																			<PropertyList>
-																				<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 																				<Property Name="MaxSoundPerInstance" Type="int16">
 																					<ValueList>
-																						<Value>3</Value>
+																						<Value>1</Value>
 																					</ValueList>
 																				</Property>
 																				<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -2818,10 +2817,12 @@
 																						</ModifierInfo>
 																					</ModifierList>
 																				</Property>
-																				<Property Name="Volume" Type="Real64">
+																				<Property Name="UseMaxSoundPerInstance" Type="bool">
 																					<ValueList>
-																						<Value>-3</Value>
+																						<Value>True</Value>
 																					</ValueList>
+																				</Property>
+																				<Property Name="Volume" Type="Real64">
 																					<ModifierList>
 																						<ModifierInfo>
 																							<Modifier Name="" ID="{5F8FB429-B7B3-4E24-BFBA-D526667E6580}">
@@ -2949,7 +2950,7 @@
 																				<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-15</Value>
+																						<Value>-8</Value>
 																					</ValueList>
 																					<ModifierList>
 																						<ModifierInfo>
@@ -3088,10 +3089,9 @@
 																						</ModifierInfo>
 																					</ModifierList>
 																				</Property>
-																				<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 																				<Property Name="MaxSoundPerInstance" Type="int16">
 																					<ValueList>
-																						<Value>3</Value>
+																						<Value>1</Value>
 																					</ValueList>
 																				</Property>
 																				<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -3108,11 +3108,13 @@
 																						</ModifierInfo>
 																					</ModifierList>
 																				</Property>
+																				<Property Name="UseMaxSoundPerInstance" Type="bool">
+																					<ValueList>
+																						<Value>True</Value>
+																					</ValueList>
+																				</Property>
 																				<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
 																				<Property Name="Volume" Type="Real64">
-																					<ValueList>
-																						<Value>-10</Value>
-																					</ValueList>
 																					<ModifierList>
 																						<ModifierInfo>
 																							<Modifier Name="" ID="{34E7CB74-A27A-4A62-9FCB-20BF34E202FC}">
@@ -3228,6 +3230,11 @@
 																						</ModifierInfo>
 																					</ModifierList>
 																				</Property>
+																				<Property Name="MaxSoundPerInstance" Type="int16">
+																					<ValueList>
+																						<Value>1</Value>
+																					</ValueList>
+																				</Property>
 																				<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 																				<Property Name="Pitch" Type="int32">
 																					<ModifierList>
@@ -3242,9 +3249,14 @@
 																						</ModifierInfo>
 																					</ModifierList>
 																				</Property>
+																				<Property Name="UseMaxSoundPerInstance" Type="bool">
+																					<ValueList>
+																						<Value>True</Value>
+																					</ValueList>
+																				</Property>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-22</Value>
+																						<Value>-6</Value>
 																					</ValueList>
 																					<ModifierList>
 																						<ModifierInfo>
@@ -23646,7 +23658,7 @@
 												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="Highpass" Type="int16">
 													<ValueList>
-														<Value>35</Value>
+														<Value>17</Value>
 													</ValueList>
 												</Property>
 												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
@@ -23678,11 +23690,6 @@
 													</ValueList>
 												</Property>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-9</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
