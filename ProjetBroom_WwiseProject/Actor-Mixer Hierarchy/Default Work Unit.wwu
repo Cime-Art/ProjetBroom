@@ -24025,6 +24025,287 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="BreakBench_RND" ID="{392162F3-3A48-4123-9F87-C00ECFF10003}" ShortID="385308903">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>9</Value>
+													</ValueList>
+												</Property>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{27A5FBE4-02DF-4897-B172-056A9DAD85B3}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Props_OS_BreakBench_v1_001" ID="{816894A1-2F3D-4998-9BEA-F74AF24F2FB7}" ShortID="329982299">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Props_OS_BreakBench_v1_001" ID="{B37D1CC8-3EB5-41E6-A34D-778DB272320A}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.078238747553816"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Props_OS_BreakBench_v1_001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1068100395"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Props_OS_BreakBench_v1_001" ID="{B37D1CC8-3EB5-41E6-A34D-778DB272320A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Props_OS_BreakBench_v1_002" ID="{E0CF9569-909D-4E00-BC51-C6052ACD3B26}" ShortID="910047295">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Props_OS_BreakBench_v1_002" ID="{6BE86B18-266E-42B9-A36E-E463CEFEF477}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.0450773460068959"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0450773460068959"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Props_OS_BreakBench_v1_002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="358712693"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Props_OS_BreakBench_v1_002" ID="{6BE86B18-266E-42B9-A36E-E463CEFEF477}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Props_OS_BreakBench_v1_003" ID="{9C923D7D-4FEA-42B4-88BE-ABF06246DC87}" ShortID="817246420">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Props_OS_BreakBench_v1_003" ID="{F54F5BE9-1617-41D0-8DF3-20B7E37490C0}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.101284207747026"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.101284207747026"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Props_OS_BreakBench_v1_003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="94034422"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Props_OS_BreakBench_v1_003" ID="{F54F5BE9-1617-41D0-8DF3-20B7E37490C0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Props_OS_BreakBench_v1_004" ID="{E69DD9C3-F562-4D73-BF9D-B6D1D8C55498}" ShortID="330073291">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Props_OS_BreakBench_v1_004" ID="{CF6CE621-32F7-4CD8-A460-FCA0EFB7419B}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.076552938527009"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.076552938527009"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Props_OS_BreakBench_v1_004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="529746572"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Props_OS_BreakBench_v1_004" ID="{CF6CE621-32F7-4CD8-A460-FCA0EFB7419B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="BreakBucket_RND" ID="{CF738FBF-F540-45A8-BABA-ABBE4959801A}" ShortID="546081983">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>21</Value>
+													</ValueList>
+												</Property>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{BE0CEA6F-F337-4EA5-9B31-0E8C5529F5B7}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Props_OS_BreakBucket_v1_001" ID="{40DECEFC-522F-4CA7-8808-B836BEF43827}" ShortID="361882507">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Props_OS_BreakBucket_v1_001" ID="{20311634-B516-4DC7-AEAA-7DE5B0A83F4B}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.0749787997390737"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0749787997390737"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Props_OS_BreakBucket_v1_001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="888014988"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Props_OS_BreakBucket_v1_001" ID="{20311634-B516-4DC7-AEAA-7DE5B0A83F4B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Props_OS_BreakBucket_v1_002" ID="{94A419FC-5258-42CA-B1A5-BD28665BC0EF}" ShortID="832696010">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Props_OS_BreakBucket_v1_002" ID="{DEF5B91E-80B0-4290-A8E6-AA0DC5A916A5}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.0871495356133321"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0871495356133321"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Props_OS_BreakBucket_v1_002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="753314943"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Props_OS_BreakBucket_v1_002" ID="{DEF5B91E-80B0-4290-A8E6-AA0DC5A916A5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Props_OS_BreakBucket_v1_003" ID="{0331F640-BD7E-4A50-B636-33B84BCFBE99}" ShortID="248677566">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Props_OS_BreakBucket_v1_003" ID="{07FBC799-97F8-4682-9468-0545CB825004}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.0884069518218246"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0884069518218246"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Props_OS_BreakBucket_v1_003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="412028961"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Props_OS_BreakBucket_v1_003" ID="{07FBC799-97F8-4682-9468-0545CB825004}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Props_OS_BreakBucket_v1_004" ID="{09B3714D-9C8A-4E98-86A1-90E48854648C}" ShortID="286680998">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Props_OS_BreakBucket_v1_004" ID="{871F23EF-FEBA-480A-85CA-6374A6DBEF21}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.0489938806572857"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0489938806572857"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Props_OS_BreakBucket_v1_004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="170420544"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Props_OS_BreakBucket_v1_004" ID="{871F23EF-FEBA-480A-85CA-6374A6DBEF21}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>

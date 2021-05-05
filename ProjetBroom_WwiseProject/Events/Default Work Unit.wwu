@@ -1679,6 +1679,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_BreakBench" ID="{2EF0C062-5508-4DED-A79F-5F8F627199C4}">
+							<ChildrenList>
+								<Action Name="" ID="{080EE42F-FDA5-4165-9DE9-BFA4F998D0CE}" ShortID="137363060">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakBench_RND" ID="{392162F3-3A48-4123-9F87-C00ECFF10003}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_BreakBucket" ID="{27950019-CB86-45F4-8E8D-AFDDE040638C}">
+							<ChildrenList>
+								<Action Name="" ID="{06C993DD-51EC-4839-B1A5-AA1B8D02E3C6}" ShortID="21611268">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakBucket_RND" ID="{CF738FBF-F540-45A8-BABA-ABBE4959801A}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
