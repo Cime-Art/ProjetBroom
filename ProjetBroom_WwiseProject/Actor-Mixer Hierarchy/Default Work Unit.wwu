@@ -12205,7 +12205,7 @@
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-9</Value>
+																<Value>-13</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -18210,6 +18210,8 @@
 								</Folder>
 								<Sound Name="SFX_OS_Spawn_Eliot" ID="{4BBF16A0-B0C6-44A5-9045-E2EAAAE64D76}" ShortID="256699768">
 									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -18223,33 +18225,43 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 										</Reference>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise_Gain_(Custom)" ID="{4DB6BD5C-E7E5-46DB-B9E3-0164815E44CA}" ShortID="105467925" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+													<PropertyList>
+														<Property Name="FullBandGain" Type="Real32" Value="6"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SFX_OS_Spawn_Eliot" ID="{F031E8B3-A52A-4157-83A1-E9900CD3A299}">
-											<PropertyList>
-												<Property Name="VolumeOffset" Type="Real64">
-													<ValueList>
-														<Value>3</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
+										<AudioFileSource Name="Spown_OS_Mob" ID="{090A5A3A-A873-43CC-A6D9-C9C44C2C2067}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_OS_Spawn_Eliot.wav</AudioFile>
+											<AudioFile>Spown_OS_Mob.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="603100389"/>
+												<MediaID ID="715721278"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="SFX_OS_Spawn_Eliot" ID="{F031E8B3-A52A-4157-83A1-E9900CD3A299}" Platform="Linked"/>
+										<ActiveSource Name="Spown_OS_Mob" ID="{090A5A3A-A873-43CC-A6D9-C9C44C2C2067}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

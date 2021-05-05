@@ -293,17 +293,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Event Name="Event_Spawn" ID="{504FF54A-42AE-483F-A1CB-D95DFFEB17BC}">
+						<Folder Name="General" ID="{54547F30-BDC9-4D04-B649-244DFE55012D}" ShortID="389188801">
 							<ChildrenList>
-								<Action Name="" ID="{46F2AFD6-967F-4609-BED8-C4F52D54EE70}" ShortID="612654119">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SFX_OS_Spawn_Eliot" ID="{4BBF16A0-B0C6-44A5-9045-E2EAAAE64D76}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Event_Spawn" ID="{504FF54A-42AE-483F-A1CB-D95DFFEB17BC}">
+									<ChildrenList>
+										<Action Name="" ID="{46F2AFD6-967F-4609-BED8-C4F52D54EE70}" ShortID="612654119">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_OS_Spawn_Eliot" ID="{4BBF16A0-B0C6-44A5-9045-E2EAAAE64D76}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{E0B7312B-EEF9-4945-A695-D1ABB792191B}" ShortID="611497882">

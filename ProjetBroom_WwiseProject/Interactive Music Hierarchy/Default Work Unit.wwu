@@ -22,6 +22,11 @@
 										</Effect>
 									</Custom>
 								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise Peak Limiter (Custom)" ID="{E9582334-21EC-4ECD-8DF5-BAC0FBFB651C}" ShortID="49498512" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3"/>
+									</Custom>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Music" ID="{3AAA1A5D-7D18-49B8-944D-76833FC3D4F7}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 								</Reference>
