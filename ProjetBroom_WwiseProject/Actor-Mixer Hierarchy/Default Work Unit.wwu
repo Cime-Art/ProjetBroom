@@ -1310,11 +1310,6 @@
 																		<Sound Name="Wind_Loop" ID="{09985DCF-CBD1-4421-8B75-7CB14FA3CEEA}" ShortID="90739068">
 																			<PropertyList>
 																				<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																				<Property Name="Volume" Type="Real64">
-																					<ValueList>
-																						<Value>-6</Value>
-																					</ValueList>
-																				</Property>
 																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
@@ -2823,6 +2818,9 @@
 																					</ValueList>
 																				</Property>
 																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>10</Value>
+																					</ValueList>
 																					<ModifierList>
 																						<ModifierInfo>
 																							<Modifier Name="" ID="{5F8FB429-B7B3-4E24-BFBA-D526667E6580}">
@@ -3115,6 +3113,9 @@
 																				</Property>
 																				<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
 																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>3</Value>
+																					</ValueList>
 																					<ModifierList>
 																						<ModifierInfo>
 																							<Modifier Name="" ID="{34E7CB74-A27A-4A62-9FCB-20BF34E202FC}">
@@ -4527,6 +4528,7 @@
 																				</ModifierInfo>
 																			</ModifierList>
 																		</Property>
+																		<Property Name="OverrideEffect" Type="bool" Value="True"/>
 																		<Property Name="Pitch" Type="int32">
 																			<ModifierList>
 																				<ModifierInfo>
@@ -4541,9 +4543,6 @@
 																			</ModifierList>
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
-																			<ValueList>
-																				<Value>3</Value>
-																			</ValueList>
 																			<ModifierList>
 																				<ModifierInfo>
 																					<Modifier Name="" ID="{242C6ADA-2FE8-4F6A-AA7A-593FB3667BCD}">
@@ -4559,6 +4558,15 @@
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="Effect0">
+																			<Custom>
+																				<Effect Name="Wwise_Gain_(Custom)" ID="{4CB4BE87-0C0F-4098-8400-568B2FD4BC50}" ShortID="315515219" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+																					<PropertyList>
+																						<Property Name="FullBandGain" Type="Real32" Value="10.5"/>
+																					</PropertyList>
+																				</Effect>
+																			</Custom>
 																		</Reference>
 																		<Reference Name="OutputBus">
 																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
@@ -4610,7 +4618,7 @@
 																		<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-7</Value>
+																				<Value>-2</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -4689,7 +4697,7 @@
 																		<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-7</Value>
+																				<Value>-2</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -18671,6 +18679,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<RandomSequenceContainer Name="Dash_RND" ID="{F56616AB-2126-48AE-A373-26FBDC73254F}" ShortID="490896590">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -19003,7 +19018,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-9</Value>
+												<Value>-12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -19380,6 +19395,13 @@
 												<Folder Name="Laser" ID="{8E7D4179-7F93-465B-BFCD-C4A277FC33B7}" ShortID="408523643">
 													<ChildrenList>
 														<Sound Name="Laser Beam" ID="{132B3411-B726-460A-A588-447DCEE88BEB}" ShortID="233300535">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>2</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -19411,7 +19433,7 @@
 																<Property Name="BlendBehavior" Type="int16" Value="1"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
-																		<Value>-2</Value>
+																		<Value>-7</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -19630,6 +19652,13 @@
 																	</ChildrenList>
 																</BlendContainer>
 																<Sound Name="Cast_Spell_Water" ID="{FA13B5AE-EA3D-4860-998B-78521A5EC132}" ShortID="496996022">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>2</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -19666,6 +19695,13 @@
 														<Folder Name="Poisoning" ID="{6E428375-3C0C-4C3E-B497-EEB5943EB346}" ShortID="349418682">
 															<ChildrenList>
 																<Sound Name="Cast_Spell_Poison" ID="{EE89BDD5-89E0-4CD3-8FAE-290B425A168B}" ShortID="526236570">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>2</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -22131,6 +22167,13 @@
 								<Folder Name="Voices" ID="{FDE8AE38-6BDA-4ACB-A55B-CAF8D21DA7ED}" ShortID="638074167">
 									<ChildrenList>
 										<ActorMixer Name="Voice_Mixer" ID="{8E4EE52B-4C29-4D91-ADB5-93B2D403379C}" ShortID="659866478">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>

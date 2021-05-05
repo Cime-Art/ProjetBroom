@@ -17,7 +17,7 @@
 									<Custom>
 										<Effect Name="Wwise_Gain_(Custom)" ID="{0C156A79-518F-491B-BFDE-D113123AA207}" ShortID="450676036" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
 											<PropertyList>
-												<Property Name="FullBandGain" Type="Real32" Value="4"/>
+												<Property Name="FullBandGain" Type="Real32" Value="2"/>
 											</PropertyList>
 										</Effect>
 									</Custom>
@@ -925,7 +925,7 @@
 								<Property Name="TimeSignatureLower" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
