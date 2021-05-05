@@ -20440,7 +20440,7 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="FTPS_Wood" ID="{A4669991-30D0-4987-86AD-DCDB346E303C}" ShortID="938943868">
+												<RandomSequenceContainer Name="FTPS_Wood_RND" ID="{A4669991-30D0-4987-86AD-DCDB346E303C}" ShortID="938943868">
 													<PropertyList>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
@@ -20896,7 +20896,7 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="FTPS_Water" ID="{11561E7B-4F1D-4984-B8B8-1F3D459ADC28}" ShortID="552521337">
+												<RandomSequenceContainer Name="FTPS_Water_RND" ID="{11561E7B-4F1D-4984-B8B8-1F3D459ADC28}" ShortID="552521337">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -20974,6 +20974,162 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="FTPS_Metal_RND" ID="{741D8E43-D5B4-4F5F-ADA2-E3183A6A74BB}" ShortID="810483899">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{3F3E1A9B-0A2A-4769-84C7-7874073554DE}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="200"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Player_OS_FTPS_Metal_01" ID="{A6F00F86-3EB4-4056-89A3-C0C2A7AC636C}" ShortID="495497187">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_FTPS_Metal_01" ID="{AFB8AF9C-D7FC-4CEF-9B3E-B009C8D63AC6}">
+																	<PropertyList>
+																		<Property Name="VolumeOffset" Type="Real64">
+																			<ValueList>
+																				<Value>4</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FTPS_Metal_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="119649774"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_FTPS_Metal_01" ID="{AFB8AF9C-D7FC-4CEF-9B3E-B009C8D63AC6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Player_OS_FTPS_Metal_02" ID="{E2088111-4528-4F3E-90AD-F5C8C32B7302}" ShortID="2420359">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_FTPS_Metal_02" ID="{18EB2026-56B2-4358-A9A1-FF0820C8EBB3}">
+																	<PropertyList>
+																		<Property Name="VolumeOffset" Type="Real64">
+																			<ValueList>
+																				<Value>4</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FTPS_Metal_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="837276798"/>
+																	</MediaIDList>
+																</AudioFileSource>
+																<AudioFileSource Name="Player_OS_FTPS_Metal_03" ID="{FD7E102E-750B-47FE-A5B2-3D22C384CBB0}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FTPS_Metal_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="176901859"/>
+																	</MediaIDList>
+																</AudioFileSource>
+																<AudioFileSource Name="Player_OS_FTPS_Metal_04" ID="{7E1975FA-AE2A-44CC-AEEA-2CEF971EB9F0}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FTPS_Metal_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="343784066"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_FTPS_Metal_02" ID="{18EB2026-56B2-4358-A9A1-FF0820C8EBB3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Player_OS_FTPS_Metal_03" ID="{BA68B1CB-C65B-41B0-AEE8-DDFAEF61FDCA}" ShortID="325453415">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_FTPS_Metal_03" ID="{DD8242EB-7A22-4F1A-BEB5-D7D3FE65C920}">
+																	<PropertyList>
+																		<Property Name="VolumeOffset" Type="Real64">
+																			<ValueList>
+																				<Value>4</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FTPS_Metal_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="176901859"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_FTPS_Metal_03" ID="{DD8242EB-7A22-4F1A-BEB5-D7D3FE65C920}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Player_OS_FTPS_Metal_04" ID="{2A1F7AB9-EC05-4E00-9BE3-6B727013998D}" ShortID="243303346">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_OS_FTPS_Metal_04" ID="{1F792835-D438-4F4F-A4D3-5B4E88DF5AAC}">
+																	<PropertyList>
+																		<Property Name="VolumeOffset" Type="Real64">
+																			<ValueList>
+																				<Value>4</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Player_OS_FTPS_Metal_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="343784066"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_OS_FTPS_Metal_04" ID="{1F792835-D438-4F4F-A4D3-5B4E88DF5AAC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
@@ -20987,10 +21143,13 @@
 														<ItemRef Name="FTPS_Grass_RND" ID="{1F91A52C-1C21-4E32-B8F6-A6BC1EF7215F}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="FTPS_Water" ID="{11561E7B-4F1D-4984-B8B8-1F3D459ADC28}"/>
+														<ItemRef Name="FTPS_Metal_RND" ID="{741D8E43-D5B4-4F5F-ADA2-E3183A6A74BB}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="FTPS_Wood" ID="{A4669991-30D0-4987-86AD-DCDB346E303C}"/>
+														<ItemRef Name="FTPS_Water_RND" ID="{11561E7B-4F1D-4984-B8B8-1F3D459ADC28}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="FTPS_Wood_RND" ID="{A4669991-30D0-4987-86AD-DCDB346E303C}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="FTPS_Dirt_RND" ID="{EB664AA9-DFE5-4BD6-8CFF-8F241548E633}"/>
@@ -21022,6 +21181,12 @@
 														</ItemList>
 													</Grouping>
 													<Grouping>
+														<SwitchRef Name="Metal" ID="{F3EDFA9D-FC6F-4185-B4CE-37A2EF72FF77}"/>
+														<ItemList>
+															<ItemRef Name="FTPS_Metal_RND" ID="{741D8E43-D5B4-4F5F-ADA2-E3183A6A74BB}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
 														<SwitchRef Name="Rock" ID="{9B9060B1-E708-451D-A47A-B7BDBAEB466B}"/>
 														<ItemList>
 															<ItemRef Name="FTPS_Rock_RND" ID="{6B29EFEA-0041-4299-AE0D-D13007B95F72}"/>
@@ -21042,7 +21207,7 @@
 													<Grouping>
 														<SwitchRef Name="Wood" ID="{C46FAED0-B41E-4EE9-9947-400381ADF4E9}"/>
 														<ItemList>
-															<ItemRef Name="FTPS_Wood" ID="{A4669991-30D0-4987-86AD-DCDB346E303C}"/>
+															<ItemRef Name="FTPS_Wood_RND" ID="{A4669991-30D0-4987-86AD-DCDB346E303C}"/>
 														</ItemList>
 													</Grouping>
 												</GroupingList>
