@@ -361,6 +361,7 @@
 								<State Name="Idle" ID="{67ECEA7E-FD7F-46CE-AB6E-68E9C4CAE5D9}"/>
 								<State Name="Death" ID="{9BA5A500-913D-4768-9D2F-5188A4C59867}"/>
 								<State Name="Get_Hit" ID="{313417D2-528F-4AE5-BEC8-7103D6B8B063}"/>
+								<State Name="Land" ID="{2DB6787A-13D8-4CF7-8833-6B2D16532EB5}"/>
 							</ChildrenList>
 						</StateGroup>
 						<StateGroup Name="Attack_Player" ID="{F4C1C98C-5C3C-4633-B807-4A2A8D392089}">
