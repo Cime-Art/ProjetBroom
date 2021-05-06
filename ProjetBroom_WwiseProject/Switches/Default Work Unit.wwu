@@ -16,6 +16,7 @@
 								<Switch Name="Dirt" ID="{582AA115-3908-4988-A027-4CA5D944777B}"/>
 								<Switch Name="HollowWood" ID="{4C39F64F-8808-49DB-962F-DAE2302BDFB2}"/>
 								<Switch Name="Water" ID="{BAC1CACC-E3A0-46E9-A406-125228A7A757}"/>
+								<Switch Name="Metal" ID="{F3EDFA9D-FC6F-4185-B4CE-37A2EF72FF77}"/>
 							</ChildrenList>
 						</SwitchGroup>
 						<SwitchGroup Name="Hit_Materials_Switch" ID="{3A57482F-BD07-4C9B-AEE9-015021B95BB8}">

@@ -38,6 +38,11 @@
 										<AuxBus Name="BarnRVB" ID="{780ABCD2-7C8A-41E7-B728-6DC7D6896F81}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-14</Value>
+													</ValueList>
+												</Property>
 												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>

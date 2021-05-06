@@ -6,7 +6,13 @@
 				<MixingSession Name="Music" ID="{0D1CABE9-E981-474F-8B44-F4D22EBE33B0}">
 					<ObjectList>
 						<ObjectRef Name="Music Menu Playlist" ID="{5E85781E-ED9E-4FEF-8696-8D5C0EF887EB}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
-						<ObjectRef Name="Musique Tuto Playlist" ID="{7152B11B-C572-44D6-AA23-BC06A8BAF9DD}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="Mix General" ID="{86B82BE6-084C-46C3-8872-F0B338F2D977}">
+					<ObjectList>
+						<ObjectRef Name="General_Player_Mix" ID="{D433BA15-3442-4C49-86C8-D39206349476}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+						<ObjectRef Name="General_Mob_Mix" ID="{97073300-B5B0-4B9A-8230-8C245B74062A}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+						<ObjectRef Name="General_Amb_Mix" ID="{60DB5E8A-9853-4B14-81E7-1F55BA32786E}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 					</ObjectList>
 				</MixingSession>
 			</ChildrenList>

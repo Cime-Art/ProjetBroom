@@ -28,94 +28,108 @@
       "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {
-        "Id": "38299608",
+        "Id": "1079732",
         "Language": "SFX",
-        "ShortName": "GOICO-musique -tuto-mando 4.wav",
-        "Path": "SFX\\GOICO-musique -tuto-mando 4_70232134.wem"
+        "ShortName": "Percu rythmée fill 2.wav",
+        "Path": "SFX\\Percu rythmée fill 2_70232134.wem"
        },
        {
-        "Id": "233706908",
+        "Id": "34270120",
         "Language": "SFX",
-        "ShortName": "GOICO-musique -tuto-mando 3.wav",
-        "Path": "SFX\\GOICO-musique -tuto-mando 3_70232134.wem"
+        "ShortName": "Percu calme transition 1.wav",
+        "Path": "SFX\\Percu calme transition 1_70232134.wem"
        },
        {
-        "Id": "310259696",
+        "Id": "124986747",
         "Language": "SFX",
-        "ShortName": "calme.wav",
-        "Path": "SFX\\calme_70232134.wem"
+        "ShortName": "flutio 3.wav",
+        "Path": "SFX\\flutio 3_70232134.wem"
        },
        {
-        "Id": "325425963",
+        "Id": "187668819",
         "Language": "SFX",
-        "ShortName": "GOICO-musique -tuto-mando 6.wav",
-        "Path": "SFX\\GOICO-musique -tuto-mando 6_70232134.wem"
+        "ShortName": "Percu rythmée transition 2.wav",
+        "Path": "SFX\\Percu rythmée transition 2_70232134.wem"
        },
        {
-        "Id": "405395395",
+        "Id": "221811831",
         "Language": "SFX",
-        "ShortName": "GOICO-musique -tuto-mando 7.wav",
-        "Path": "SFX\\GOICO-musique -tuto-mando 7_70232134.wem"
+        "ShortName": "flutio fill.wav",
+        "Path": "SFX\\flutio fill_70232134.wem"
        },
        {
-        "Id": "487460873",
+        "Id": "232468241",
         "Language": "SFX",
-        "ShortName": "GOICO-musique -tuto-mando 5.wav",
-        "Path": "SFX\\GOICO-musique -tuto-mando 5_70232134.wem"
+        "ShortName": "flutio 2.wav",
+        "Path": "SFX\\flutio 2_70232134.wem"
        },
        {
-        "Id": "487484988",
+        "Id": "287604787",
         "Language": "SFX",
-        "ShortName": "MUS_OS_CrashEventStop_01_Dambrosio_V1.wav",
-        "Path": "SFX\\MUS_OS_CrashEventStop_01_Dambrosio_V1_70232134.wem"
+        "ShortName": "flutio 4.wav",
+        "Path": "SFX\\flutio 4_70232134.wem"
        },
        {
-        "Id": "527159056",
+        "Id": "331866552",
         "Language": "SFX",
-        "ShortName": "GOICO-musique -tuto-mando 2.wav",
-        "Path": "SFX\\GOICO-musique -tuto-mando 2_70232134.wem"
+        "ShortName": "Percu rythmée fill 1.wav",
+        "Path": "SFX\\Percu rythmée fill 1_70232134.wem"
        },
        {
-        "Id": "733523094",
+        "Id": "434914290",
         "Language": "SFX",
-        "ShortName": "militaire 1.wav",
-        "Path": "SFX\\militaire 1_70232134.wem"
+        "ShortName": "Percu rythmée.wav",
+        "Path": "SFX\\Percu rythmée_70232134.wem"
        },
        {
-        "Id": "842279771",
+        "Id": "466656813",
         "Language": "SFX",
-        "ShortName": "rythmé.wav",
-        "Path": "SFX\\rythmé_70232134.wem"
+        "ShortName": "flutio 1.wav",
+        "Path": "SFX\\flutio 1_70232134.wem"
        },
        {
-        "Id": "1019085241",
+        "Id": "534682983",
         "Language": "SFX",
-        "ShortName": "GOICO-musique -tuto-mando 1.wav",
-        "Path": "SFX\\GOICO-musique -tuto-mando 1_70232134.wem"
+        "ShortName": "Instru Rythmée.wav",
+        "Path": "SFX\\Instru Rythmée_70232134.wem"
        },
        {
-        "Id": "1037292347",
+        "Id": "697562573",
         "Language": "SFX",
-        "ShortName": "militaire 2.wav",
-        "Path": "SFX\\militaire 2_70232134.wem"
-       }
-      ],
-      "AuxBusSends": [
+        "ShortName": "flutio 5.wav",
+        "Path": "SFX\\flutio 5_70232134.wem"
+       },
        {
-        "Id": "2957976456",
-        "Name": "RVB_crash_stop",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music\\RVB_crash_stop",
-        "GUID": "{378C0390-8212-4574-A063-4C60DB877840}"
+        "Id": "863627702",
+        "Language": "SFX",
+        "ShortName": "Percu milit.wav",
+        "Path": "SFX\\Percu milit_70232134.wem"
+       },
+       {
+        "Id": "882973908",
+        "Language": "SFX",
+        "ShortName": "Percu rythmée transition 1.wav",
+        "Path": "SFX\\Percu rythmée transition 1_70232134.wem"
+       },
+       {
+        "Id": "929368613",
+        "Language": "SFX",
+        "ShortName": "Percu milit transition 1.wav",
+        "Path": "SFX\\Percu milit transition 1_70232134.wem"
+       },
+       {
+        "Id": "976241216",
+        "Language": "SFX",
+        "ShortName": "Instru calme.wav",
+        "Path": "SFX\\Instru calme_70232134.wem"
+       },
+       {
+        "Id": "998878137",
+        "Language": "SFX",
+        "ShortName": "Instru milit.wav",
+        "Path": "SFX\\Instru milit_70232134.wem"
        }
       ]
-     }
-    ],
-    "Triggers": [
-     {
-      "Id": "4003433129",
-      "Name": "Stop_Crash",
-      "ObjectPath": "\\Triggers\\Default Work Unit\\Stop_Crash",
-      "GUID": "{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}"
      }
     ]
    }

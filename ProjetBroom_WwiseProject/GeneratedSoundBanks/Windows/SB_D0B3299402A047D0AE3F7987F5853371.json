@@ -25,34 +25,34 @@
       "Name": "Event_PigChainSwing",
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Kitchen\\Event_PigChainSwing",
       "GUID": "{D0B32994-02A0-47D0-AE3F-7987F5853371}",
-      "MaxAttenuation": "2300.000000",
+      "MaxAttenuation": "2200.000000",
       "DurationType": "OneShot",
-      "DurationMin": "1.297822",
-      "DurationMax": "2.653594",
+      "DurationMin": "1.014311",
+      "DurationMax": "1.426785",
       "ExcludedMemoryFiles": [
        {
-        "Id": "558562849",
+        "Id": "69683149",
         "Language": "SFX",
-        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainSwing_04_Sabarros_v1.wav",
-        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainSwing_04_Sabarros_v1_4A67AB6A.wem"
+        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainSwing_08_Sabarros_v1.wav",
+        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainSwing_08_Sabarros_v1_4A67AB6A.wem"
        },
        {
-        "Id": "743539481",
+        "Id": "692372655",
         "Language": "SFX",
-        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainSwing_02_Sabarros_v1.wav",
-        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainSwing_02_Sabarros_v1_4A67AB6A.wem"
+        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainSwing_06_Sabarros_v1.wav",
+        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainSwing_06_Sabarros_v1_4A67AB6A.wem"
        },
        {
-        "Id": "895694429",
+        "Id": "830490783",
         "Language": "SFX",
-        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainSwing_03_Sabarros_v1.wav",
-        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainSwing_03_Sabarros_v1_4A67AB6A.wem"
+        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainSwing_09_Sabarros_v1.wav",
+        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainSwing_09_Sabarros_v1_4A67AB6A.wem"
        },
        {
-        "Id": "978607640",
+        "Id": "1073009624",
         "Language": "SFX",
-        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainSwing_01_Sabarros_v1.wav",
-        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainSwing_01_Sabarros_v1_4A67AB6A.wem"
+        "ShortName": "KitchenPigChain\\Kitchen_OS_PigChainSwing_07_Sabarros_v1.wav",
+        "Path": "SFX\\KitchenPigChain\\Kitchen_OS_PigChainSwing_07_Sabarros_v1_4A67AB6A.wem"
        }
       ],
       "AuxBusSends": [
