@@ -308,6 +308,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Banana" ID="{CD2A7502-E151-4C15-8800-DE5209210607}" ShortID="910695610">
+							<ChildrenList>
+								<Event Name="Event_Banana_GetHit" ID="{19D505B2-A9F4-4248-A5E7-DC73E30C0F8E}">
+									<ChildrenList>
+										<Action Name="" ID="{78E42137-ACE8-4660-BB61-6006A73B5969}" ShortID="772272185">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="GetHit_Banana" ID="{04B67B50-95A0-4ED9-83C2-BD2CE236E6E6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{E0B7312B-EEF9-4945-A695-D1ABB792191B}" ShortID="611497882">
