@@ -1679,7 +1679,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_BreakBench" ID="{2EF0C062-5508-4DED-A79F-5F8F627199C4}">
+						<Event Name="Event_BreakBench" ID="{2EF0C062-5508-4DED-A79F-5F8F627199C4}">
 							<ChildrenList>
 								<Action Name="" ID="{080EE42F-FDA5-4165-9DE9-BFA4F998D0CE}" ShortID="137363060">
 									<ReferenceList>
@@ -1690,12 +1690,56 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_BreakBucket" ID="{27950019-CB86-45F4-8E8D-AFDDE040638C}">
+						<Event Name="Event_BreakBucket" ID="{27950019-CB86-45F4-8E8D-AFDDE040638C}">
 							<ChildrenList>
 								<Action Name="" ID="{06C993DD-51EC-4839-B1A5-AA1B8D02E3C6}" ShortID="21611268">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="BreakBucket_RND" ID="{CF738FBF-F540-45A8-BABA-ABBE4959801A}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_BreakGlass_RND" ID="{65CFE698-0786-4462-BA52-734DCC70CDA6}">
+							<ChildrenList>
+								<Action Name="" ID="{F903DB74-F6BE-4F6C-8F87-BCC7930961D8}" ShortID="400943416">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakGlass_RND" ID="{E201A79E-C390-410E-91A2-6BCC7BFA6558}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_BreakFood_RND" ID="{2BEC14C9-9116-41BB-AAB1-E4ED2E77E597}">
+							<ChildrenList>
+								<Action Name="" ID="{685B5D12-0455-47C2-BCAC-83624AF88427}" ShortID="495292224">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakFood_RND" ID="{CDE549FE-2D40-46A5-9A0D-C04D6E8E467D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_BreakTable_RND" ID="{13DA3C57-CF94-43BC-975E-D898954321DF}">
+							<ChildrenList>
+								<Action Name="" ID="{0AF5C8AC-A302-4AA5-B087-EC9DD93D7AF7}" ShortID="547417025">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakTable_RND" ID="{5332E3DD-10A7-4229-BCC5-8540480F1056}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_BreakChair_RND" ID="{16178A33-176F-4C2B-8997-1C26F4364CA0}">
+							<ChildrenList>
+								<Action Name="" ID="{D2B8B59F-8735-4E0D-B333-B55E26FE3C10}" ShortID="546283244">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakChair_RND" ID="{0C6B3667-4624-434A-A60D-1A5801849D59}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
