@@ -370,6 +370,14 @@
 								<State Name="Vertical_Attack" ID="{A5508C83-70A7-41D9-A58C-963227B6004B}"/>
 							</ChildrenList>
 						</StateGroup>
+						<StateGroup Name="GetHit_Armor_Texture" ID="{638CD667-E878-4B6D-A7A1-C44EA71CF349}">
+							<ChildrenList>
+								<State Name="None" ID="{89DDE0CA-D4D2-4ACD-81EB-50CCF17B5F83}"/>
+								<State Name="Metal" ID="{0ABC5705-4078-4363-87FD-93EDCA7AA609}"/>
+								<State Name="Wood" ID="{87D119C9-CD54-4701-999D-C6F27907575E}"/>
+								<State Name="Magic" ID="{02525265-B4FE-4064-86C7-909E7FA615F2}"/>
+							</ChildrenList>
+						</StateGroup>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{E27B5E44-30EC-4AF5-962C-3B20F0C1CB3D}" ShortID="104291780">

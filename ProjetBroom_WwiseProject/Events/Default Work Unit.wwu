@@ -1762,6 +1762,24 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_General_GetHit_BLD" ID="{5B1A207E-1CE9-48D7-AB3C-492CBF6AEAB4}">
+					<ChildrenList>
+						<Action Name="" ID="{E51BCD8F-8996-4FBE-8BDE-0D97719A5FED}" ShortID="907779856">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="General_GetHit_BLD" ID="{27FC3E49-AF21-478F-B472-4E97C3A30341}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1CD6FDAB-FBDA-4E93-A6AA-8E539827C8F5}" ShortID="231738249">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VoiceGetHit_RND" ID="{2DCEE9FB-A122-4FD5-AA65-5694DE0BE65F}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
