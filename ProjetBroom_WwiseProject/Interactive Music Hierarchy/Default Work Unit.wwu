@@ -2685,6 +2685,12 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
+							<StingerList>
+								<MusicStinger Name="" ID="{55C1CB2B-AFC7-4B52-B389-68484A1B9E05}">
+									<TriggerRef Name="Stop_Crash" ID="{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}" WorkUnitID="{22563B21-8DD4-4D99-8CA7-9928C730618D}"/>
+									<SegmentRef Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{01D1E0D9-8CF9-424A-86E9-9A0578AAE2FF}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+								</MusicStinger>
+							</StingerList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{353EEC0E-EAC9-45F8-9D8E-7BF5312F56E1}" ShortID="39568947">
 									<ChildrenList>
@@ -2858,7 +2864,7 @@
 								<Property Name="Tempo" Type="Real64" Value="123"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-18</Value>
+										<Value>-17</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -4636,6 +4642,12 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
+							<StingerList>
+								<MusicStinger Name="" ID="{8DEF36BB-6D6C-4C90-9392-4C3403DC68A1}">
+									<TriggerRef Name="Stop_Crash" ID="{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}" WorkUnitID="{22563B21-8DD4-4D99-8CA7-9928C730618D}"/>
+									<SegmentRef Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{01D1E0D9-8CF9-424A-86E9-9A0578AAE2FF}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+								</MusicStinger>
+							</StingerList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{1D412045-CA02-47FE-BEBD-E2069A129A7E}" ShortID="164804825">
 									<ChildrenList>
