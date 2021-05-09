@@ -392,6 +392,16 @@
 								<State Name="Exploration" ID="{F4E8D336-C182-4523-A0EE-D4E297EBDD9E}"/>
 							</ChildrenList>
 						</StateGroup>
+						<StateGroup Name="Menu_Pause_State" ID="{D0FF239A-E94A-4831-AB09-1081E5CE7D54}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{84F7C088-EADC-42A7-9FC3-4384FBFC1D96}"/>
+								<State Name="On" ID="{21593DA0-FC4D-4578-BF81-BB34683C678C}"/>
+								<State Name="Off" ID="{0DADE348-17F7-45E7-9CF4-D3DCB9D317C3}"/>
+							</ChildrenList>
+						</StateGroup>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
