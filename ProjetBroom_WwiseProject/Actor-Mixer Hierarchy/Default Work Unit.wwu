@@ -18379,7 +18379,10 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<RandomSequenceContainer Name="BlobJumpingfoward" ID="{52A4C153-11BE-4FF3-B2B8-92326D0B4156}" ShortID="824833219">
+												<RandomSequenceContainer Name="BlobJump" ID="{52A4C153-11BE-4FF3-B2B8-92326D0B4156}" ShortID="824833219">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -18388,8 +18391,123 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="MOB_OS_BlobJump_01_DELIVERT_V4" ID="{C3E9D8B4-CE3C-497A-9447-EC833EFCB725}" ShortID="873040969">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MOB_OS_BlobJump_01_DELIVERT_V4" ID="{A76713A5-EF70-4B0D-9506-E24CAC4BD841}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_OS_BlobJump_01_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="980957349"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_OS_BlobJump_01_DELIVERT_V4" ID="{A76713A5-EF70-4B0D-9506-E24CAC4BD841}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MOB_OS_BlobJump_02_DELIVERT_V4" ID="{80A01FEF-5D2C-4048-BA3C-F1ED86ECAA5A}" ShortID="905911138">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MOB_OS_BlobJump_02_DELIVERT_V4" ID="{0705F5C8-190D-4DD8-8201-249808D2A829}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_OS_BlobJump_02_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="520602045"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_OS_BlobJump_02_DELIVERT_V4" ID="{0705F5C8-190D-4DD8-8201-249808D2A829}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MOB_OS_BlobJump_03_DELIVERT_V4" ID="{1A63ED69-C4BC-4795-B7BA-816B109262A4}" ShortID="971109192">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MOB_OS_BlobJump_03_DELIVERT_V4" ID="{E72FFAC2-5E75-4835-BADF-F91B3B83EFB7}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_OS_BlobJump_03_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="664061846"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_OS_BlobJump_03_DELIVERT_V4" ID="{E72FFAC2-5E75-4835-BADF-F91B3B83EFB7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MOB_OS_BlobJump_04_DELIVERT_V4" ID="{269EE305-6D1D-4075-8D18-B6122076EF76}" ShortID="358255451">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MOB_OS_BlobJump_04_DELIVERT_V4" ID="{006AFFD4-E2A6-4530-A34E-2F90B4C8E3FA}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_OS_BlobJump_04_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="580778480"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_OS_BlobJump_04_DELIVERT_V4" ID="{006AFFD4-E2A6-4530-A34E-2F90B4C8E3FA}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MOB_OS_BlobJump_05_DELIVERT_V4" ID="{77736EAA-BF08-4F5E-A6F9-6FB01B97D692}" ShortID="327402335">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MOB_OS_BlobJump_05_DELIVERT_V4" ID="{B87C0C60-C4FB-44E4-80ED-FDD1C4349D97}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_OS_BlobJump_05_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="983790726"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_OS_BlobJump_05_DELIVERT_V4" ID="{B87C0C60-C4FB-44E4-80ED-FDD1C4349D97}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="BlobGethit" ID="{214BF364-E76A-45BF-88A3-C492D479C887}" ShortID="738545301">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -18398,8 +18516,101 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="MOB_OS_BlobGetHit_01_DELIVERT_V4" ID="{3D3E0067-E67F-4BEA-851A-CBF264474BA9}" ShortID="688163598">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MOB_OS_BlobGetHit_01_DELIVERT_V4" ID="{AE8D8778-E1B9-447A-BBB1-1F4985E1704E}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_OS_BlobGetHit_01_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="239868612"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_OS_BlobGetHit_01_DELIVERT_V4" ID="{AE8D8778-E1B9-447A-BBB1-1F4985E1704E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MOB_OS_BlobGetHit_02_DELIVERT_V4" ID="{D6C5C004-B685-4BF0-A479-34C32E619983}" ShortID="397183221">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MOB_OS_BlobGetHit_02_DELIVERT_V4" ID="{D9873045-5CB3-42BA-8873-4F056759A293}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_OS_BlobGetHit_02_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="589557359"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_OS_BlobGetHit_02_DELIVERT_V4" ID="{D9873045-5CB3-42BA-8873-4F056759A293}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MOB_OS_BlobGetHit_03_DELIVERT_V4" ID="{464EEFDB-E6D7-4B7C-8921-903295DC8551}" ShortID="701199583">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MOB_OS_BlobGetHit_03_DELIVERT_V4" ID="{A13D0DA7-2D55-4E3A-A387-6E2ADB947582}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_OS_BlobGetHit_03_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="551291787"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_OS_BlobGetHit_03_DELIVERT_V4" ID="{A13D0DA7-2D55-4E3A-A387-6E2ADB947582}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MOB_OS_BlobGetHit_04_DELIVERT_V4" ID="{B4283FFA-15EE-4792-B6D7-749E847F0D17}" ShortID="753911412">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MOB_OS_BlobGetHit_04_DELIVERT_V4" ID="{EF9B7D40-CE5C-451F-A00F-BF3ABEF9D707}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_OS_BlobGetHit_04_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="527789389"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_OS_BlobGetHit_04_DELIVERT_V4" ID="{EF9B7D40-CE5C-451F-A00F-BF3ABEF9D707}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="BlobAttackClose" ID="{6C4169CB-AC51-404C-89C6-FC2AD3E37D44}" ShortID="38583912">
+												<RandomSequenceContainer Name="BlobAttack" ID="{6C4169CB-AC51-404C-89C6-FC2AD3E37D44}" ShortID="38583912">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -18408,6 +18619,96 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="MOB_OS_BlobAttack_01_DELIVERT_V4" ID="{4DF737F8-1919-4601-A9EC-085CC096A6A2}" ShortID="51544933">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MOB_OS_BlobAttack_01_DELIVERT_V4" ID="{FA219457-7D53-45BA-8CB3-52B601C1AC40}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_OS_BlobAttack_01_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="136620447"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_OS_BlobAttack_01_DELIVERT_V4" ID="{FA219457-7D53-45BA-8CB3-52B601C1AC40}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MOB_OS_BlobAttack_02_DELIVERT_V4" ID="{F8A67CDF-6344-43B6-ACA3-D8E29BCC4305}" ShortID="254581369">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MOB_OS_BlobAttack_02_DELIVERT_V4" ID="{3D83D8FE-55D7-4300-B719-4DF91E3F3A6D}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_OS_BlobAttack_02_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="341851253"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_OS_BlobAttack_02_DELIVERT_V4" ID="{3D83D8FE-55D7-4300-B719-4DF91E3F3A6D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MOB_OS_BlobAttack_03_DELIVERT_V4" ID="{3651F977-E892-49D9-85C1-0188C9DCE1B5}" ShortID="975456330">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MOB_OS_BlobAttack_03_DELIVERT_V4" ID="{857AFAB0-0247-414A-9DB8-6EFE5B8575D4}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_OS_BlobAttack_03_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="653151712"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_OS_BlobAttack_03_DELIVERT_V4" ID="{857AFAB0-0247-414A-9DB8-6EFE5B8575D4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MOB_OS_BlobAttack_04_DELIVERT_V4" ID="{2DE6D263-1842-4EC0-93F6-BB84F9BDBE46}" ShortID="959038550">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MOB_OS_BlobAttack_04_DELIVERT_V4" ID="{B913A88E-48B4-4FD0-BA50-490AE111C462}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_OS_BlobAttack_04_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="289353067"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_OS_BlobAttack_04_DELIVERT_V4" ID="{B913A88E-48B4-4FD0-BA50-490AE111C462}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 													<StateInfo>
 														<StateGroupList>
 															<StateGroupInfo>
@@ -18447,36 +18748,9 @@
 													</StateInfo>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="BlobDeath" ID="{BD7F2FE8-24FC-4B09-A202-BDEAD32F0B04}" ShortID="283084480">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="BlobAttackSplash" ID="{2D36D365-E13E-45FB-B636-53B4064ADCAC}" ShortID="427906852">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="BlobHitplayer" ID="{2313EB94-E23E-4BC4-AA80-0ECCD13039ED}" ShortID="864580204">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-												</RandomSequenceContainer>
-												<BlendContainer Name="BlobIdle" ID="{F216383B-3A84-4C90-A3F1-DF1C0E76817C}" ShortID="370744625">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -18486,7 +18760,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<RandomSequenceContainer Name="BlobBubble" ID="{FE9925C8-8DAC-4EC6-A720-1FB218EC3BF9}" ShortID="92568945">
+														<Sound Name="MOB_OS_BlobDeath_01_DELIVERT_V4" ID="{A3797278-7A75-4222-BEDF-54BD495A7BCD}" ShortID="1036951477">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -18495,8 +18769,20 @@
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
-														</RandomSequenceContainer>
-														<RandomSequenceContainer Name="BlobVoice" ID="{4384DFFD-1330-43B1-823A-4F01D816B6BC}" ShortID="551485160">
+															<ChildrenList>
+																<AudioFileSource Name="MOB_OS_BlobDeath_01_DELIVERT_V4" ID="{AD6FB8AB-7CD7-4E25-8881-E5CFE2D98014}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_OS_BlobDeath_01_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="950154128"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_OS_BlobDeath_01_DELIVERT_V4" ID="{AD6FB8AB-7CD7-4E25-8881-E5CFE2D98014}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MOB_OS_BlobDeath_02_DELIVERT_V4" ID="{B509DA00-77F9-4728-8D52-D9A6CEBB403F}" ShortID="540902134">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -18505,19 +18791,59 @@
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
-														</RandomSequenceContainer>
-														<Sound Name="BlobStand" ID="{09F61817-01D1-4E91-B9A6-1F519CC67BD9}" ShortID="619236311">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MOB_OS_BlobDeath_02_DELIVERT_V4" ID="{CF051554-2EBA-41EC-A956-7D3098E9891F}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_OS_BlobDeath_02_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="58886455"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_OS_BlobDeath_02_DELIVERT_V4" ID="{CF051554-2EBA-41EC-A956-7D3098E9891F}" Platform="Linked"/>
+															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
-												</BlendContainer>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="BlobIdle" ID="{DE68D036-DF9F-44D3-8C71-41EA26AF78F8}" ShortID="96069189">
+													<PropertyList>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="MOB_LP_BlobIdle_01_DELIVERT_V4" ID="{B1F9C1D3-5EB0-4803-BC4D-E71A5BDD7596}" ShortID="970500806">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MOB_LP_BlobIdle_01_DELIVERT_V4" ID="{3AAA3FD6-152B-479F-A4A9-15E478F736F4}">
+																	<Language>SFX</Language>
+																	<AudioFile>MOB_LP_BlobIdle_01_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="73011469"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MOB_LP_BlobIdle_01_DELIVERT_V4" ID="{3AAA3FD6-152B-479F-A4A9-15E478F736F4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 											<StateInfo>
 												<StateGroupList>

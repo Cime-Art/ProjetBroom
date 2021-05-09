@@ -309,6 +309,65 @@
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Banana" ID="{CD2A7502-E151-4C15-8800-DE5209210607}" ShortID="910695610"/>
+						<Folder Name="Blob" ID="{EB10F56A-7A64-49EE-A27E-B0E1FE1416FB}" ShortID="654289949">
+							<ChildrenList>
+								<Event Name="BlobAttack" ID="{2DC88B82-D31C-4441-9CD9-BCD5C2D9E843}">
+									<ChildrenList>
+										<Action Name="" ID="{7279A9B7-0977-4AC1-8D13-ABF4F6DDF1CC}" ShortID="845950236">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BlobAttack" ID="{6C4169CB-AC51-404C-89C6-FC2AD3E37D44}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="BlobIdle" ID="{F72CB2E7-1060-482E-AA15-839A29C191B3}">
+									<ChildrenList>
+										<Action Name="" ID="{EE1A5B1D-9888-4B38-8A96-DB06869A2941}" ShortID="505169371">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BlobIdle" ID="{DE68D036-DF9F-44D3-8C71-41EA26AF78F8}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="BlobDeath" ID="{49000E9E-BA17-4F00-962B-50687F76AF5E}">
+									<ChildrenList>
+										<Action Name="" ID="{BF885FB9-7E1E-4BD9-8E84-9732F623566B}" ShortID="964872285">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BlobDeath" ID="{BD7F2FE8-24FC-4B09-A202-BDEAD32F0B04}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="BlobGetHit" ID="{00692E2B-F08E-4969-B476-DB68CC7F48D3}">
+									<ChildrenList>
+										<Action Name="" ID="{806AF6C2-C7D9-4676-8CC1-D8FBE5531C6E}" ShortID="719466827">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BlobGethit" ID="{214BF364-E76A-45BF-88A3-C492D479C887}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="BlobJump" ID="{252E0F92-7917-4B27-9C4F-3AADECD02781}">
+									<ChildrenList>
+										<Action Name="" ID="{3776BB4D-0458-429B-A201-516535EAB788}" ShortID="584568318">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BlobJump" ID="{52A4C153-11BE-4FF3-B2B8-92326D0B4156}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{E0B7312B-EEF9-4945-A695-D1ABB792191B}" ShortID="611497882">
