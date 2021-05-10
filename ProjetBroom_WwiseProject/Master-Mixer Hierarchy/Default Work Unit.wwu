@@ -68,6 +68,30 @@
 												</PointList>
 											</Curve>
 										</RTPC>
+										<RTPC Name="" ID="{BE61C979-A368-40CD-82DB-940D0CFE7492}" ShortID="1022943839">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Master_Volume_GP" ID="{C0054CA0-46BD-4911-8ADF-2435B99B7B79}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7C8A88CE-8B91-43E3-A2AC-0B739D188DBB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 									</RTPCList>
 								</Property>
 							</PropertyList>
@@ -216,6 +240,30 @@
 												</PointList>
 											</Curve>
 										</RTPC>
+										<RTPC Name="" ID="{FBDB0FCE-891D-4EE2-83EC-7504BA1EB8FA}" ShortID="8565286">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Master_Volume_GP" ID="{C0054CA0-46BD-4911-8ADF-2435B99B7B79}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6E9DC519-6A5C-4A45-95BA-DAC4D38F73FC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 									</RTPCList>
 								</Property>
 							</PropertyList>
@@ -246,6 +294,16 @@
 										<StateGroupRef Name="Menu_Pause_State" ID="{D0FF239A-E94A-4831-AB09-1081E5CE7D54}"/>
 									</StateGroupInfo>
 								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="On" ID="{21593DA0-FC4D-4578-BF81-BB34683C678C}"/>
+										<CustomState Name="" ID="{25518F9C-3803-46C6-94E6-7184536C6AE7}" ShortID="57589538"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Off" ID="{0DADE348-17F7-45E7-9CF4-D3DCB9D317C3}"/>
+										<CustomState Name="" ID="{9B9D9670-D694-40C2-8FDA-4C179C80437E}" ShortID="647992675"/>
+									</CustomState>
+								</CustomStateList>
 							</StateInfo>
 						</Bus>
 					</ChildrenList>
