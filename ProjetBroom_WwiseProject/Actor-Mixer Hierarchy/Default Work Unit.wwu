@@ -717,7 +717,7 @@
 																						</Property>
 																						<Property Name="Volume" Type="Real64">
 																							<ValueList>
-																								<Value>-10</Value>
+																								<Value>-14</Value>
 																							</ValueList>
 																						</Property>
 																					</PropertyList>
@@ -2165,7 +2165,7 @@
 																				<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-15</Value>
+																						<Value>-8</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
@@ -4616,11 +4616,6 @@
 																		<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 																		<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 																		<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
-																		<Property Name="Volume" Type="Real64">
-																			<ValueList>
-																				<Value>-2</Value>
-																			</ValueList>
-																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
@@ -4695,11 +4690,6 @@
 																		</Property>
 																		<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 																		<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-																		<Property Name="Volume" Type="Real64">
-																			<ValueList>
-																				<Value>-2</Value>
-																			</ValueList>
-																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
@@ -4795,7 +4785,7 @@
 																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-13</Value>
+																				<Value>-12</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -4825,7 +4815,7 @@
 																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-24</Value>
+																				<Value>-18</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -4861,7 +4851,7 @@
 																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-10</Value>
+																				<Value>-13</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -18653,7 +18643,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="MOB_OS_BlobAttack_01_DELIVERT_V4" ID="{4DF737F8-1919-4601-A9EC-085CC096A6A2}" ShortID="51544933">
+														<Sound Name="MOB_OS_Attack_01_DELIVERT_V4" ID="{8DA17015-2488-4630-8ED7-09EBC0168F67}" ShortID="295823956">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -18663,19 +18653,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="MOB_OS_BlobAttack_01_DELIVERT_V4" ID="{FA219457-7D53-45BA-8CB3-52B601C1AC40}">
+																<AudioFileSource Name="MOB_OS_Attack_01_DELIVERT_V4" ID="{67683B3E-6019-49BA-A449-E9F7EBE8F19E}">
 																	<Language>SFX</Language>
-																	<AudioFile>MOB_OS_BlobAttack_01_DELIVERT_V4.wav</AudioFile>
+																	<AudioFile>MOB_OS_Attack_01_DELIVERT_V4.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="136620447"/>
+																		<MediaID ID="843738437"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="MOB_OS_BlobAttack_01_DELIVERT_V4" ID="{FA219457-7D53-45BA-8CB3-52B601C1AC40}" Platform="Linked"/>
+																<ActiveSource Name="MOB_OS_Attack_01_DELIVERT_V4" ID="{67683B3E-6019-49BA-A449-E9F7EBE8F19E}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="MOB_OS_BlobAttack_02_DELIVERT_V4" ID="{F8A67CDF-6344-43B6-ACA3-D8E29BCC4305}" ShortID="254581369">
+														<Sound Name="MOB_OS_Attack_02_DELIVERT_V4" ID="{68327B7F-3873-43A2-BFBA-1A1F1FBE53CA}" ShortID="248453222">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -18685,19 +18675,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="MOB_OS_BlobAttack_02_DELIVERT_V4" ID="{3D83D8FE-55D7-4300-B719-4DF91E3F3A6D}">
+																<AudioFileSource Name="MOB_OS_Attack_02_DELIVERT_V4" ID="{B5C9F7FA-B86A-433C-AD1F-2E44575B855D}">
 																	<Language>SFX</Language>
-																	<AudioFile>MOB_OS_BlobAttack_02_DELIVERT_V4.wav</AudioFile>
+																	<AudioFile>MOB_OS_Attack_02_DELIVERT_V4.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="341851253"/>
+																		<MediaID ID="534036362"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="MOB_OS_BlobAttack_02_DELIVERT_V4" ID="{3D83D8FE-55D7-4300-B719-4DF91E3F3A6D}" Platform="Linked"/>
+																<ActiveSource Name="MOB_OS_Attack_02_DELIVERT_V4" ID="{B5C9F7FA-B86A-433C-AD1F-2E44575B855D}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="MOB_OS_BlobAttack_03_DELIVERT_V4" ID="{3651F977-E892-49D9-85C1-0188C9DCE1B5}" ShortID="975456330">
+														<Sound Name="MOB_OS_Attack_03_DELIVERT_V4" ID="{2453F214-46A5-48DD-9A1B-F9F29E037E96}" ShortID="529140616">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -18707,19 +18697,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="MOB_OS_BlobAttack_03_DELIVERT_V4" ID="{857AFAB0-0247-414A-9DB8-6EFE5B8575D4}">
+																<AudioFileSource Name="MOB_OS_Attack_03_DELIVERT_V4" ID="{2DAF68E5-CA32-4930-B8E1-2A9CF3D6A3D6}">
 																	<Language>SFX</Language>
-																	<AudioFile>MOB_OS_BlobAttack_03_DELIVERT_V4.wav</AudioFile>
+																	<AudioFile>MOB_OS_Attack_03_DELIVERT_V4.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="653151712"/>
+																		<MediaID ID="358692736"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="MOB_OS_BlobAttack_03_DELIVERT_V4" ID="{857AFAB0-0247-414A-9DB8-6EFE5B8575D4}" Platform="Linked"/>
+																<ActiveSource Name="MOB_OS_Attack_03_DELIVERT_V4" ID="{2DAF68E5-CA32-4930-B8E1-2A9CF3D6A3D6}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="MOB_OS_BlobAttack_04_DELIVERT_V4" ID="{2DE6D263-1842-4EC0-93F6-BB84F9BDBE46}" ShortID="959038550">
+														<Sound Name="MOB_OS_Attack_04_DELIVERT_V4" ID="{4A033B41-63AC-4F05-9F4F-FA173E883266}" ShortID="987585959">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -18729,16 +18719,16 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="MOB_OS_BlobAttack_04_DELIVERT_V4" ID="{B913A88E-48B4-4FD0-BA50-490AE111C462}">
+																<AudioFileSource Name="MOB_OS_Attack_04_DELIVERT_V4" ID="{E0166774-7F2D-486D-95F0-B8753C246734}">
 																	<Language>SFX</Language>
-																	<AudioFile>MOB_OS_BlobAttack_04_DELIVERT_V4.wav</AudioFile>
+																	<AudioFile>MOB_OS_Attack_04_DELIVERT_V4.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="289353067"/>
+																		<MediaID ID="333234273"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="MOB_OS_BlobAttack_04_DELIVERT_V4" ID="{B913A88E-48B4-4FD0-BA50-490AE111C462}" Platform="Linked"/>
+																<ActiveSource Name="MOB_OS_Attack_04_DELIVERT_V4" ID="{E0166774-7F2D-486D-95F0-B8753C246734}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>

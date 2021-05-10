@@ -15,6 +15,15 @@
 						<ObjectRef Name="General_Amb_Mix" ID="{60DB5E8A-9853-4B14-81E7-1F55BA32786E}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 					</ObjectList>
 				</MixingSession>
+				<MixingSession Name="Tuto Mix" ID="{D2D37E8B-3095-4C79-88C3-746E75D3E168}">
+					<ObjectList>
+						<ObjectRef Name="General_Tuto_Mix" ID="{B418F7F8-EB92-41BA-959B-BD28B429F673}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+						<ObjectRef Name="Barn_Mixer" ID="{0D958B3A-85C4-4EE4-A5E8-E108CB7EF4E2}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+						<ObjectRef Name="BoilerAction_Mixer" ID="{D2425880-5315-45B3-B440-EC6DDC059E74}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+						<ObjectRef Name="AMB_Garden_Mix" ID="{F9C74AAE-2D94-4E6F-BAA1-F427BC485397}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+						<ObjectRef Name="AMB_Kitchen_Mix" ID="{3C23CC74-97FB-4ED1-B850-527C6674AC08}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+					</ObjectList>
+				</MixingSession>
 			</ChildrenList>
 		</WorkUnit>
 	</MixingSessions>
