@@ -812,6 +812,39 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Event_DropOfBlood" ID="{C23957F2-6BF6-4C35-B8FE-EA5AF883B66C}">
+											<ChildrenList>
+												<Action Name="" ID="{FB7EB6DB-BCF9-46D0-8A8B-B41D65D70E1C}" ShortID="399392774">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Drop_Of_Blood_RND" ID="{AFA0E82C-586A-479A-9627-ED5F40706FC9}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_StoneFall" ID="{B45CB74B-09F5-4D57-BF51-498CBDCC493B}">
+											<ChildrenList>
+												<Action Name="" ID="{5BE5BEFA-44DF-42D0-8C24-78BEA04590F8}" ShortID="865481954">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Stone_Fall_RND" ID="{438CF10A-94EB-416C-804A-432742B3D178}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_Water" ID="{DE832C27-3472-4051-90FB-88A16E55440B}">
+											<ChildrenList>
+												<Action Name="" ID="{56A4F7D2-F25F-4451-AE26-17745DDCB5DD}" ShortID="43796306">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Amb_LP_Water_01_Anger_V1" ID="{73CDF9B8-4195-4E7C-A11E-15246786146A}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Metal" ID="{45F9050E-FBCB-4589-8ADB-C7A2D91CAE71}" ShortID="178376947">
@@ -921,28 +954,6 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
-								<Event Name="Event_DropOfBlood" ID="{C23957F2-6BF6-4C35-B8FE-EA5AF883B66C}">
-									<ChildrenList>
-										<Action Name="" ID="{FB7EB6DB-BCF9-46D0-8A8B-B41D65D70E1C}" ShortID="399392774">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Drop_Of_Blood_RND" ID="{AFA0E82C-586A-479A-9627-ED5F40706FC9}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Event_StoneFall" ID="{B45CB74B-09F5-4D57-BF51-498CBDCC493B}">
-									<ChildrenList>
-										<Action Name="" ID="{5BE5BEFA-44DF-42D0-8C24-78BEA04590F8}" ShortID="865481954">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Stone_Fall_RND" ID="{438CF10A-94EB-416C-804A-432742B3D178}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
 								<Event Name="Event_FirstPlatformDestruction" ID="{8B2A961A-3CFD-4069-BC9A-FF94630B3EEE}">
 									<ChildrenList>
 										<Action Name="" ID="{66AB8EC6-6F8E-4D04-BBC7-A507C2BE10F7}" ShortID="565578464">
@@ -1823,24 +1834,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_General_GetHit_BLD" ID="{7407C9C4-075B-4FD4-A299-5F561903025D}">
-					<ChildrenList>
-						<Action Name="" ID="{3C33E877-A8F6-48BC-8128-2C4AA152C350}" ShortID="602467144">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="General_GetHit_BLD" ID="{27FC3E49-AF21-478F-B472-4E97C3A30341}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{4ACE6400-D128-47F6-B5BF-BEEABB6F11F2}" ShortID="889668260">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="VoiceGetHit_RND" ID="{2DCEE9FB-A122-4FD5-AA65-5694DE0BE65F}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
