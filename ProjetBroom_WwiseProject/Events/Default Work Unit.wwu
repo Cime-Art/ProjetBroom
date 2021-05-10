@@ -1417,7 +1417,7 @@
 												<Action Name="" ID="{23A17AEC-4515-4EF5-B35A-6E07A8104DF2}" ShortID="654831844">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="AMB_OS_LavaPlatform_End_RomainH_V1" ID="{C6A8C7A1-D40A-464A-875A-DA0454FC90BD}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+															<ObjectRef Name="AMB_OS_LavaPlatform_End_RomainH_V2" ID="{3D7085E7-B6F6-4E08-BE62-51E689CEF3BF}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1451,6 +1451,16 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="AMB_LP_LavaPlatform_Moving_RomainH_V1" ID="{7F7350F0-BA52-411D-AF75-996564DC4C34}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{C11D7284-020A-43AD-8F81-3E5D372DBD3D}" ShortID="193703250">
+													<PropertyList>
+														<Property Name="Delay" Type="Real64" Value="3"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Burn_RND" ID="{49965C85-540C-47A0-B284-F01F8242F40A}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
