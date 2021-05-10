@@ -295,9 +295,9 @@
 						</Folder>
 						<Folder Name="General" ID="{54547F30-BDC9-4D04-B649-244DFE55012D}" ShortID="389188801">
 							<ChildrenList>
-								<Event Name="Event_Spawn" ID="{504FF54A-42AE-483F-A1CB-D95DFFEB17BC}">
+								<Event Name="Event_Play_Spawn" ID="{95B69655-2C49-435D-8BDF-E80B5167942C}">
 									<ChildrenList>
-										<Action Name="" ID="{46F2AFD6-967F-4609-BED8-C4F52D54EE70}" ShortID="612654119">
+										<Action Name="" ID="{09D396D2-624D-4CEC-B61B-C1165328D384}" ShortID="256870791">
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="SFX_OS_Spawn_Eliot" ID="{4BBF16A0-B0C6-44A5-9045-E2EAAAE64D76}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
@@ -1925,6 +1925,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Event_Banana_Gethit" ID="{C8BC68E6-2327-480A-A5C4-5513D9123C72}">
+					<ChildrenList>
+						<Action Name="" ID="{659DC6A8-CD14-4E32-9E5A-2D0AAC54712B}" ShortID="290702602">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GetHit_Banana" ID="{04B67B50-95A0-4ED9-83C2-BD2CE236E6E6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
