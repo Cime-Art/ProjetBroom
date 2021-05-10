@@ -208,6 +208,17 @@
 												</Reference>
 											</ReferenceList>
 										</AuxBus>
+										<AuxBus Name="Reverb_HellPit" ID="{31732CDE-06F1-4F2D-89B9-946CBA075F3F}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
 									</ChildrenList>
 								</Bus>
 							</ChildrenList>

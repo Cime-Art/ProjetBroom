@@ -10487,13 +10487,6 @@
 													</ChildrenList>
 												</Folder>
 												<SwitchContainer Name="General_Ambient_State" ID="{E98611D6-A510-43D1-AD7A-7017E869FDCF}" ShortID="629475324">
-													<PropertyList>
-														<Property Name="Inclusion" Type="bool">
-															<ValueList>
-																<Value>False</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -10582,6 +10575,1228 @@
 														<ActiveSource Name="Amb_LP_Generalambient_03_Anger_V1" ID="{283EF41F-F65F-4965-9F1B-720DA71AC7A2}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Folder Name="Hell_Pit" ID="{1C5DA90B-5F25-4D7B-91CF-DCF98760F6CF}" ShortID="31818431">
+													<ChildrenList>
+														<ActorMixer Name="Hellpit_Mixer" ID="{37483282-7A8D-4D09-BEAF-447CC6EA8247}" ShortID="197631428">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>12</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="Hellpit_Att" ID="{6CB2D2FC-F1DB-494C-942A-91B54D09BBD7}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Reverb_HellPit" ID="{31732CDE-06F1-4F2D-89B9-946CBA075F3F}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<BlendContainer Name="LP_Hellpit_Texture" ID="{99309FB4-6223-42D5-9B72-B3E633BFF78E}" ShortID="684330767">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend1">
+																			<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="LP_Amb_Jail_HellPitCavernTone_01_Dambrosio_V1" ID="{B22A6319-4CB2-495C-B762-670D96BE420B}" ShortID="40332139">
+																			<PropertyList>
+																				<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="LP_Amb_Jail_HellPitCavernTone_01_Dambrosio_V1" ID="{DEBEC28B-E4D8-42E6-BD2A-9D6E6DB07F33}">
+																					<Language>SFX</Language>
+																					<AudioFile>LP_Amb_Jail_HellPitCavernTone_01_Dambrosio_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="571871723"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="LP_Amb_Jail_HellPitCavernTone_01_Dambrosio_V1" ID="{DEBEC28B-E4D8-42E6-BD2A-9D6E6DB07F33}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="LP_Amb_Jail_HellPitSoulMoan_01_Dambrosio_V1" ID="{36DD1B62-A163-49BB-BA52-0AE50C7387AA}" ShortID="1005406435">
+																			<PropertyList>
+																				<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																				<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																				<Property Name="UserAuxSendVolume0" Type="Real64">
+																					<ValueList>
+																						<Value>12</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-28</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Reverb_HellPit" ID="{31732CDE-06F1-4F2D-89B9-946CBA075F3F}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="LP_Amb_Jail_HellPitSoulMoan_01_Dambrosio_V1" ID="{D7028675-16B1-4762-844B-9112B04A6658}">
+																					<Language>SFX</Language>
+																					<AudioFile>LP_Amb_Jail_HellPitSoulMoan_01_Dambrosio_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="565625661"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="LP_Amb_Jail_HellPitSoulMoan_01_Dambrosio_V1" ID="{D7028675-16B1-4762-844B-9112B04A6658}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<RandomSequenceContainer Name="Anvil_SEQ" ID="{BF89FF72-685F-402C-AAAF-28676D506A8E}" ShortID="6053521">
+																			<PropertyList>
+																				<Property Name="InitialDelay" Type="Real64">
+																					<ValueList>
+																						<Value>11</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="Lowpass" Type="int16">
+																					<ValueList>
+																						<Value>35</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																				<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																				<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																				<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																				<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+																				<Property Name="UserAuxSendVolume0" Type="Real64">
+																					<ValueList>
+																						<Value>9</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-23</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Reverb_HellPit" ID="{31732CDE-06F1-4F2D-89B9-946CBA075F3F}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<RandomSequenceContainer Name="Anvil_RND" ID="{771929A0-DCD1-41DB-99A5-35668429D711}" ShortID="256199625">
+																					<PropertyList>
+																						<Property Name="Pitch" Type="int32">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{7D5DCFEC-0055-4A8D-9FAC-61737EACA76D}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="556"/>
+																											<Property Name="Min" Type="Real64" Value="-581"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+																						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+																						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<Sound Name="OS_Amb_Jail_HellPitAnvil_01_Dambrosio_V1" ID="{6783171B-F061-4E3D-820D-C8E86CA59AD5}" ShortID="475035586">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitAnvil_01_Dambrosio_V1" ID="{4D4FB6D2-D3AA-47CB-91AD-98D63B7DB029}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitAnvil_01_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="322290649"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitAnvil_01_Dambrosio_V1" ID="{4D4FB6D2-D3AA-47CB-91AD-98D63B7DB029}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitAnvil_02_Dambrosio_V1" ID="{36745975-6329-4588-A4BC-C3916114003A}" ShortID="170551912">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitAnvil_02_Dambrosio_V1" ID="{F14209C2-EFC2-4F91-ADC8-D8D963440A67}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitAnvil_02_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="717107617"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitAnvil_02_Dambrosio_V1" ID="{F14209C2-EFC2-4F91-ADC8-D8D963440A67}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitAnvil_03_Dambrosio_V1" ID="{6AC8F93F-E68A-40C0-8AE3-B5D86396A1B4}" ShortID="701272305">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitAnvil_03_Dambrosio_V1" ID="{1EF5EA73-3847-408E-BDFE-571B1BEA50DA}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitAnvil_03_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="473210859"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitAnvil_03_Dambrosio_V1" ID="{1EF5EA73-3847-408E-BDFE-571B1BEA50DA}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																					</ChildrenList>
+																				</RandomSequenceContainer>
+																			</ChildrenList>
+																			<Playlist>
+																				<ItemRef Name="Anvil_RND" ID="{771929A0-DCD1-41DB-99A5-35668429D711}"/>
+																			</Playlist>
+																		</RandomSequenceContainer>
+																	</ChildrenList>
+																	<BlendTrackList>
+																		<BlendTrack Name="Hellpit_LP" ID="{44BC089C-E7CD-444E-B9B2-B290B26F0F9A}" ShortID="533833575">
+																			<BlendTrackAssocList>
+																				<BlendTrackAssoc>
+																					<ItemRef Name="LP_Amb_Jail_HellPitSoulMoan_01_Dambrosio_V1" ID="{36DD1B62-A163-49BB-BA52-0AE50C7387AA}"/>
+																				</BlendTrackAssoc>
+																				<BlendTrackAssoc>
+																					<ItemRef Name="LP_Amb_Jail_HellPitCavernTone_01_Dambrosio_V1" ID="{B22A6319-4CB2-495C-B762-670D96BE420B}"/>
+																				</BlendTrackAssoc>
+																			</BlendTrackAssocList>
+																		</BlendTrack>
+																	</BlendTrackList>
+																</BlendContainer>
+																<RandomSequenceContainer Name="Torture_SEQ" ID="{41391378-4D17-41E8-BF18-8CFAEC7D45A0}" ShortID="624088390">
+																	<PropertyList>
+																		<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																		<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																		<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																		<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+																		<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10"/>
+																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																		<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+																		<Property Name="UserAuxSendVolume0" Type="Real64">
+																			<ValueList>
+																				<Value>2</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-13</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Reverb_HellPit" ID="{31732CDE-06F1-4F2D-89B9-946CBA075F3F}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<BlendContainer Name="MonsterTorture_BLD" ID="{2BB8C08B-D673-4608-A75C-471F80618B51}" ShortID="157706904">
+																			<PropertyList>
+																				<Property Name="BlendBehavior" Type="int16" Value="1"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<RandomSequenceContainer Name="EvilLaugh_RND" ID="{9F87DF9B-3F00-43B7-9435-6E175B61C87E}" ShortID="860976318">
+																					<PropertyList>
+																						<Property Name="InitialDelay" Type="Real64">
+																							<ValueList>
+																								<Value>1</Value>
+																							</ValueList>
+																						</Property>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>6</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend0">
+																							<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend1">
+																							<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<Sound Name="OS_Amb_Jail_HellPitEvilLaugh_01_Dambrosio_V1" ID="{94E4BC0A-7943-46B7-AB39-49BAD8CE0BDD}" ShortID="747680646">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitEvilLaugh_01_Dambrosio_V1" ID="{B7F30C6C-044E-4086-95F6-4027B2AA6C83}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitEvilLaugh_01_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="352882649"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitEvilLaugh_01_Dambrosio_V1" ID="{B7F30C6C-044E-4086-95F6-4027B2AA6C83}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitEvilLaugh_02_Dambrosio_V1" ID="{EB0B1845-4744-4EA5-9241-53645F02F9AC}" ShortID="252564888">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitEvilLaugh_02_Dambrosio_V1" ID="{2334C658-F613-4AEC-BA61-D648B1182D22}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitEvilLaugh_02_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="74530308"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitEvilLaugh_02_Dambrosio_V1" ID="{2334C658-F613-4AEC-BA61-D648B1182D22}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitEvilLaugh_03_Dambrosio_V1" ID="{C21C45B3-F3DA-4254-B0B2-1AD82A915C8E}" ShortID="895480443">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitEvilLaugh_03_Dambrosio_V1" ID="{9CD3025B-9A6B-4F49-A4DF-142FD92C60D4}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitEvilLaugh_03_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="308772252"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitEvilLaugh_03_Dambrosio_V1" ID="{9CD3025B-9A6B-4F49-A4DF-142FD92C60D4}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitEvilLaugh_04_Dambrosio_V1" ID="{BC41D261-2749-4A42-91FF-1E4CB4A9C71C}" ShortID="530247297">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitEvilLaugh_04_Dambrosio_V1" ID="{7519A3FA-9DAB-47F9-8FA3-B28D6F528620}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitEvilLaugh_04_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="862003615"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitEvilLaugh_04_Dambrosio_V1" ID="{7519A3FA-9DAB-47F9-8FA3-B28D6F528620}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																					</ChildrenList>
+																				</RandomSequenceContainer>
+																				<RandomSequenceContainer Name="Scream_RND" ID="{98BD3185-DB07-4B4B-B4E8-858F5EE687AC}" ShortID="666011720">
+																					<PropertyList>
+																						<Property Name="InitialDelay" Type="Real64">
+																							<ValueList>
+																								<Value>1</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend0">
+																							<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend1">
+																							<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<Sound Name="OS_Amb_Jail_HellPitScream_01_Dambrosio_V1" ID="{90DFA12E-4068-49D8-94D1-C543C35FD035}" ShortID="324621230">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitScream_01_Dambrosio_V1" ID="{606B9A3B-1F86-4B70-B238-DD0D27837B12}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitScream_01_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="669641347"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitScream_01_Dambrosio_V1" ID="{606B9A3B-1F86-4B70-B238-DD0D27837B12}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitScream_02_Dambrosio_V1" ID="{16719A6E-14C0-41A6-9F97-362AF8AE348C}" ShortID="671628296">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitScream_02_Dambrosio_V1" ID="{52CB2248-9D8C-46CE-A0B0-E23F88DC0148}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitScream_02_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="1072452710"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitScream_02_Dambrosio_V1" ID="{52CB2248-9D8C-46CE-A0B0-E23F88DC0148}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitScream_03_Dambrosio_V1" ID="{2E935C4E-F239-4886-AE92-6D9BBC28F403}" ShortID="610693288">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitScream_03_Dambrosio_V1" ID="{D289B4E7-3DF2-4DE1-9924-AFBDEDD5C485}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitScream_03_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="815960942"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitScream_03_Dambrosio_V1" ID="{D289B4E7-3DF2-4DE1-9924-AFBDEDD5C485}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitScream_04_Dambrosio_V1" ID="{E517C19F-D782-4A51-9DBC-9CA5C31D7D4B}" ShortID="632001047">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitScream_04_Dambrosio_V1" ID="{EBFC5C5D-C45E-4AF3-9B6B-EF5FF745D279}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitScream_04_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="912143159"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitScream_04_Dambrosio_V1" ID="{EBFC5C5D-C45E-4AF3-9B6B-EF5FF745D279}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitScream_05_Dambrosio_V1" ID="{11E9B0E4-51C8-4001-A641-3F3E7F2C0BE7}" ShortID="849831581">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitScream_05_Dambrosio_V1" ID="{97702C17-1B82-42D6-ABC6-65E48020100D}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitScream_05_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="488331700"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitScream_05_Dambrosio_V1" ID="{97702C17-1B82-42D6-ABC6-65E48020100D}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitScream_06_Dambrosio_V1" ID="{F504E372-04EC-404B-9945-03C040EACE95}" ShortID="18195167">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitScream_06_Dambrosio_V1" ID="{0C58EDC2-D994-4B55-A15B-A1DBD3A0A9FB}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitScream_06_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="729215305"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitScream_06_Dambrosio_V1" ID="{0C58EDC2-D994-4B55-A15B-A1DBD3A0A9FB}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																					</ChildrenList>
+																				</RandomSequenceContainer>
+																				<BlendContainer Name="MonsterTorture_BLD" ID="{6C3F1DDC-B432-46D4-B01F-5A95CEA6D086}" ShortID="612001792">
+																					<PropertyList>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>8</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<RandomSequenceContainer Name="OpenGate_RND" ID="{0EF44166-1098-42B2-B32A-A3255CC031D4}" ShortID="600128734">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<Sound Name="OS_Amb_Jail_HellPitGateOpen_01_Dambrosio_V1" ID="{A677DA07-644E-4257-810E-732A02C73AA5}" ShortID="23147108">
+																									<ReferenceList>
+																										<Reference Name="Conversion">
+																											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																										</Reference>
+																										<Reference Name="OutputBus">
+																											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																										</Reference>
+																									</ReferenceList>
+																									<ChildrenList>
+																										<AudioFileSource Name="OS_Amb_Jail_HellPitGateOpen_01_Dambrosio_V1" ID="{3485C560-5729-4108-8036-073F10D2B9E6}">
+																											<Language>SFX</Language>
+																											<AudioFile>OS_Amb_Jail_HellPitGateOpen_01_Dambrosio_V1.wav</AudioFile>
+																											<MediaIDList>
+																												<MediaID ID="394650327"/>
+																											</MediaIDList>
+																										</AudioFileSource>
+																									</ChildrenList>
+																									<ActiveSourceList>
+																										<ActiveSource Name="OS_Amb_Jail_HellPitGateOpen_01_Dambrosio_V1" ID="{3485C560-5729-4108-8036-073F10D2B9E6}" Platform="Linked"/>
+																									</ActiveSourceList>
+																								</Sound>
+																								<Sound Name="OS_Amb_Jail_HellPitGateOpen_02_Dambrosio_V1" ID="{CF1974D8-A2AC-4B97-9583-47419886397A}" ShortID="878835151">
+																									<ReferenceList>
+																										<Reference Name="Conversion">
+																											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																										</Reference>
+																										<Reference Name="OutputBus">
+																											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																										</Reference>
+																									</ReferenceList>
+																									<ChildrenList>
+																										<AudioFileSource Name="OS_Amb_Jail_HellPitGateOpen_02_Dambrosio_V1" ID="{CBD69B09-4830-49F7-B037-F31EAA789716}">
+																											<Language>SFX</Language>
+																											<AudioFile>OS_Amb_Jail_HellPitGateOpen_02_Dambrosio_V1.wav</AudioFile>
+																											<MediaIDList>
+																												<MediaID ID="1035147855"/>
+																											</MediaIDList>
+																										</AudioFileSource>
+																									</ChildrenList>
+																									<ActiveSourceList>
+																										<ActiveSource Name="OS_Amb_Jail_HellPitGateOpen_02_Dambrosio_V1" ID="{CBD69B09-4830-49F7-B037-F31EAA789716}" Platform="Linked"/>
+																									</ActiveSourceList>
+																								</Sound>
+																							</ChildrenList>
+																						</RandomSequenceContainer>
+																						<RandomSequenceContainer Name="EvilMonster_RND" ID="{ACF434D6-F36B-45D7-96FB-90EBF150F63B}" ShortID="240638180">
+																							<PropertyList>
+																								<Property Name="InitialDelay" Type="Real64">
+																									<ValueList>
+																										<Value>0.5</Value>
+																									</ValueList>
+																								</Property>
+																							</PropertyList>
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<Sound Name="OS_Amb_Jail_HellPitMonster_01_Dambrosio_V1" ID="{91CFAA99-A9FC-4F7D-9C9C-841624EE6E5B}" ShortID="75900729">
+																									<ReferenceList>
+																										<Reference Name="Conversion">
+																											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																										</Reference>
+																										<Reference Name="OutputBus">
+																											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																										</Reference>
+																									</ReferenceList>
+																									<ChildrenList>
+																										<AudioFileSource Name="OS_Amb_Jail_HellPitMonster_01_Dambrosio_V1" ID="{B2A55D67-C581-4A78-BA40-69088F01B25E}">
+																											<Language>SFX</Language>
+																											<AudioFile>OS_Amb_Jail_HellPitMonster_01_Dambrosio_V1.wav</AudioFile>
+																											<MediaIDList>
+																												<MediaID ID="27847264"/>
+																											</MediaIDList>
+																										</AudioFileSource>
+																									</ChildrenList>
+																									<ActiveSourceList>
+																										<ActiveSource Name="OS_Amb_Jail_HellPitMonster_01_Dambrosio_V1" ID="{B2A55D67-C581-4A78-BA40-69088F01B25E}" Platform="Linked"/>
+																									</ActiveSourceList>
+																								</Sound>
+																								<Sound Name="OS_Amb_Jail_HellPitMonster_02_Dambrosio_V1" ID="{2D04FC94-B5FB-4765-B799-CCE19D7D7FB1}" ShortID="749256255">
+																									<ReferenceList>
+																										<Reference Name="Conversion">
+																											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																										</Reference>
+																										<Reference Name="OutputBus">
+																											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																										</Reference>
+																									</ReferenceList>
+																									<ChildrenList>
+																										<AudioFileSource Name="OS_Amb_Jail_HellPitMonster_02_Dambrosio_V1" ID="{75C5CD0E-18E8-41A5-82DA-C7B080F98EB8}">
+																											<Language>SFX</Language>
+																											<AudioFile>OS_Amb_Jail_HellPitMonster_02_Dambrosio_V1.wav</AudioFile>
+																											<MediaIDList>
+																												<MediaID ID="206311130"/>
+																											</MediaIDList>
+																										</AudioFileSource>
+																									</ChildrenList>
+																									<ActiveSourceList>
+																										<ActiveSource Name="OS_Amb_Jail_HellPitMonster_02_Dambrosio_V1" ID="{75C5CD0E-18E8-41A5-82DA-C7B080F98EB8}" Platform="Linked"/>
+																									</ActiveSourceList>
+																								</Sound>
+																								<Sound Name="OS_Amb_Jail_HellPitMonster_03_Dambrosio_V1" ID="{F227BA96-DDF7-46A0-B4BC-7BC43B3E0341}" ShortID="949751707">
+																									<ReferenceList>
+																										<Reference Name="Conversion">
+																											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																										</Reference>
+																										<Reference Name="OutputBus">
+																											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																										</Reference>
+																									</ReferenceList>
+																									<ChildrenList>
+																										<AudioFileSource Name="OS_Amb_Jail_HellPitMonster_03_Dambrosio_V1" ID="{A1CE278C-E329-492F-93CC-FE3E8269733B}">
+																											<Language>SFX</Language>
+																											<AudioFile>OS_Amb_Jail_HellPitMonster_03_Dambrosio_V1.wav</AudioFile>
+																											<MediaIDList>
+																												<MediaID ID="968550973"/>
+																											</MediaIDList>
+																										</AudioFileSource>
+																									</ChildrenList>
+																									<ActiveSourceList>
+																										<ActiveSource Name="OS_Amb_Jail_HellPitMonster_03_Dambrosio_V1" ID="{A1CE278C-E329-492F-93CC-FE3E8269733B}" Platform="Linked"/>
+																									</ActiveSourceList>
+																								</Sound>
+																								<Sound Name="OS_Amb_Jail_HellPitMonster_04_Dambrosio_V1" ID="{923B1DD0-780E-4828-929D-7C06525E3E5A}" ShortID="938659864">
+																									<ReferenceList>
+																										<Reference Name="Conversion">
+																											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																										</Reference>
+																										<Reference Name="OutputBus">
+																											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																										</Reference>
+																									</ReferenceList>
+																									<ChildrenList>
+																										<AudioFileSource Name="OS_Amb_Jail_HellPitMonster_04_Dambrosio_V1" ID="{63B72607-8DAD-47B7-985D-9FE1E99FB96F}">
+																											<Language>SFX</Language>
+																											<AudioFile>OS_Amb_Jail_HellPitMonster_04_Dambrosio_V1.wav</AudioFile>
+																											<MediaIDList>
+																												<MediaID ID="462887200"/>
+																											</MediaIDList>
+																										</AudioFileSource>
+																									</ChildrenList>
+																									<ActiveSourceList>
+																										<ActiveSource Name="OS_Amb_Jail_HellPitMonster_04_Dambrosio_V1" ID="{63B72607-8DAD-47B7-985D-9FE1E99FB96F}" Platform="Linked"/>
+																									</ActiveSourceList>
+																								</Sound>
+																							</ChildrenList>
+																						</RandomSequenceContainer>
+																					</ChildrenList>
+																				</BlendContainer>
+																			</ChildrenList>
+																		</BlendContainer>
+																		<BlendContainer Name="FireTorture_All_BLD" ID="{34AD3BE3-03E2-4636-A4A0-916266FEEFAC}" ShortID="461912135">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<BlendContainer Name="FireTorture_BLD" ID="{6B481158-31D6-49E7-BF11-9E04C484D649}" ShortID="761843623">
+																					<PropertyList>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>6</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend0">
+																							<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend1">
+																							<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<RandomSequenceContainer Name="FireTortureAttack_RND" ID="{5701434C-E841-41A5-B9A8-FA7D637F45F6}" ShortID="9872473">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<Sound Name="OS_Amb_Jail_HellPitFireAttack_01_Dambrosio_V1" ID="{00E631A6-DEE1-46F7-81C9-72170B8DD6D2}" ShortID="780966819">
+																									<ReferenceList>
+																										<Reference Name="Conversion">
+																											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																										</Reference>
+																										<Reference Name="OutputBus">
+																											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																										</Reference>
+																									</ReferenceList>
+																									<ChildrenList>
+																										<AudioFileSource Name="OS_Amb_Jail_HellPitFireAttack_01_Dambrosio_V1" ID="{5DB2DBE5-241E-4675-9AA9-C6A6AE3C0B8E}">
+																											<Language>SFX</Language>
+																											<AudioFile>OS_Amb_Jail_HellPitFireAttack_01_Dambrosio_V1.wav</AudioFile>
+																											<MediaIDList>
+																												<MediaID ID="1006835962"/>
+																											</MediaIDList>
+																										</AudioFileSource>
+																									</ChildrenList>
+																									<ActiveSourceList>
+																										<ActiveSource Name="OS_Amb_Jail_HellPitFireAttack_01_Dambrosio_V1" ID="{5DB2DBE5-241E-4675-9AA9-C6A6AE3C0B8E}" Platform="Linked"/>
+																									</ActiveSourceList>
+																								</Sound>
+																								<Sound Name="OS_Amb_Jail_HellPitFireAttack_02_Dambrosio_V1" ID="{247AE5A4-44A1-4B87-B6F7-DC66AA4DEE2B}" ShortID="584302389">
+																									<ReferenceList>
+																										<Reference Name="Conversion">
+																											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																										</Reference>
+																										<Reference Name="OutputBus">
+																											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																										</Reference>
+																									</ReferenceList>
+																									<ChildrenList>
+																										<AudioFileSource Name="OS_Amb_Jail_HellPitFireAttack_02_Dambrosio_V1" ID="{931D4039-1CC7-4DE7-9AB1-2849344EAEBE}">
+																											<Language>SFX</Language>
+																											<AudioFile>OS_Amb_Jail_HellPitFireAttack_02_Dambrosio_V1.wav</AudioFile>
+																											<MediaIDList>
+																												<MediaID ID="163935640"/>
+																											</MediaIDList>
+																										</AudioFileSource>
+																									</ChildrenList>
+																									<ActiveSourceList>
+																										<ActiveSource Name="OS_Amb_Jail_HellPitFireAttack_02_Dambrosio_V1" ID="{931D4039-1CC7-4DE7-9AB1-2849344EAEBE}" Platform="Linked"/>
+																									</ActiveSourceList>
+																								</Sound>
+																								<Sound Name="OS_Amb_Jail_HellPitFireAttack_03_Dambrosio_V1" ID="{4D015CD0-CB8F-45D9-9C44-5B3ACEF02ECE}" ShortID="327128209">
+																									<ReferenceList>
+																										<Reference Name="Conversion">
+																											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																										</Reference>
+																										<Reference Name="OutputBus">
+																											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																										</Reference>
+																									</ReferenceList>
+																									<ChildrenList>
+																										<AudioFileSource Name="OS_Amb_Jail_HellPitFireAttack_03_Dambrosio_V1" ID="{A69FBCD9-B6CC-44DF-9813-CF00F8F71C0A}">
+																											<Language>SFX</Language>
+																											<AudioFile>OS_Amb_Jail_HellPitFireAttack_03_Dambrosio_V1.wav</AudioFile>
+																											<MediaIDList>
+																												<MediaID ID="669818178"/>
+																											</MediaIDList>
+																										</AudioFileSource>
+																									</ChildrenList>
+																									<ActiveSourceList>
+																										<ActiveSource Name="OS_Amb_Jail_HellPitFireAttack_03_Dambrosio_V1" ID="{A69FBCD9-B6CC-44DF-9813-CF00F8F71C0A}" Platform="Linked"/>
+																									</ActiveSourceList>
+																								</Sound>
+																							</ChildrenList>
+																						</RandomSequenceContainer>
+																						<RandomSequenceContainer Name="FireTortueDecay_RND" ID="{35C48D85-4AE3-44B4-A3A3-4E2CFFD7959D}" ShortID="812758932">
+																							<PropertyList>
+																								<Property Name="Volume" Type="Real64">
+																									<ValueList>
+																										<Value>-4</Value>
+																									</ValueList>
+																								</Property>
+																							</PropertyList>
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<Sound Name="OS_Amb_Jail_HellPitFireDecay_01_Dambrosio_V1" ID="{4FAA032F-3F54-42F6-81D7-6458964E08DB}" ShortID="1030719623">
+																									<ReferenceList>
+																										<Reference Name="Conversion">
+																											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																										</Reference>
+																										<Reference Name="OutputBus">
+																											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																										</Reference>
+																									</ReferenceList>
+																									<ChildrenList>
+																										<AudioFileSource Name="OS_Amb_Jail_HellPitFireDecay_01_Dambrosio_V1" ID="{CFF65581-9D8B-4FB3-A7A1-46045256988B}">
+																											<Language>SFX</Language>
+																											<AudioFile>OS_Amb_Jail_HellPitFireDecay_01_Dambrosio_V1.wav</AudioFile>
+																											<MediaIDList>
+																												<MediaID ID="757319143"/>
+																											</MediaIDList>
+																										</AudioFileSource>
+																									</ChildrenList>
+																									<ActiveSourceList>
+																										<ActiveSource Name="OS_Amb_Jail_HellPitFireDecay_01_Dambrosio_V1" ID="{CFF65581-9D8B-4FB3-A7A1-46045256988B}" Platform="Linked"/>
+																									</ActiveSourceList>
+																								</Sound>
+																								<Sound Name="OS_Amb_Jail_HellPitFireDecay_02_Dambrosio_V1" ID="{A06E99B6-A49A-4F46-8BB1-971502D1C9D1}" ShortID="520277142">
+																									<ReferenceList>
+																										<Reference Name="Conversion">
+																											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																										</Reference>
+																										<Reference Name="OutputBus">
+																											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																										</Reference>
+																									</ReferenceList>
+																									<ChildrenList>
+																										<AudioFileSource Name="OS_Amb_Jail_HellPitFireDecay_02_Dambrosio_V1" ID="{2A694BC1-2019-4520-86A9-5239577FDA6F}">
+																											<Language>SFX</Language>
+																											<AudioFile>OS_Amb_Jail_HellPitFireDecay_02_Dambrosio_V1.wav</AudioFile>
+																											<MediaIDList>
+																												<MediaID ID="886629269"/>
+																											</MediaIDList>
+																										</AudioFileSource>
+																									</ChildrenList>
+																									<ActiveSourceList>
+																										<ActiveSource Name="OS_Amb_Jail_HellPitFireDecay_02_Dambrosio_V1" ID="{2A694BC1-2019-4520-86A9-5239577FDA6F}" Platform="Linked"/>
+																									</ActiveSourceList>
+																								</Sound>
+																							</ChildrenList>
+																						</RandomSequenceContainer>
+																					</ChildrenList>
+																					<BlendTrackList>
+																						<BlendTrack Name="FireTorture" ID="{BB4801EB-FA7C-4BEB-A92D-EBA7F3BAD23A}" ShortID="555290747"/>
+																					</BlendTrackList>
+																				</BlendContainer>
+																				<RandomSequenceContainer Name="EvilLaugh_RND" ID="{15596B98-32A0-4626-AEA4-38221DA605BC}" ShortID="202659090">
+																					<PropertyList>
+																						<Property Name="InitialDelay" Type="Real64">
+																							<ValueList>
+																								<Value>1</Value>
+																							</ValueList>
+																						</Property>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>6</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<Sound Name="OS_Amb_Jail_HellPitEvilLaugh_01_Dambrosio_V1" ID="{6DAADE96-29CF-4C1D-8503-5843693F072E}" ShortID="757555784">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitEvilLaugh_01_Dambrosio_V1" ID="{15F0A7F6-6623-4930-BB6B-B0A03E4498A3}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitEvilLaugh_01_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="352882649"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitEvilLaugh_01_Dambrosio_V1" ID="{15F0A7F6-6623-4930-BB6B-B0A03E4498A3}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitEvilLaugh_02_Dambrosio_V1" ID="{140437E0-B4B6-4F55-AF53-299605312E28}" ShortID="44900977">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitEvilLaugh_02_Dambrosio_V1" ID="{80DDE587-4504-417C-AB83-F750FB8A8F9F}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitEvilLaugh_02_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="74530308"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitEvilLaugh_02_Dambrosio_V1" ID="{80DDE587-4504-417C-AB83-F750FB8A8F9F}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitEvilLaugh_03_Dambrosio_V1" ID="{079BB19C-94B6-4B09-AB6D-DE44EA3AE9CB}" ShortID="321936712">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitEvilLaugh_03_Dambrosio_V1" ID="{82C2522E-926E-4497-B54B-4FD1B915197B}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitEvilLaugh_03_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="308772252"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitEvilLaugh_03_Dambrosio_V1" ID="{82C2522E-926E-4497-B54B-4FD1B915197B}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitEvilLaugh_04_Dambrosio_V1" ID="{753E2D7B-E661-467A-A0A9-1668A1C45358}" ShortID="329430957">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitEvilLaugh_04_Dambrosio_V1" ID="{3B33A58C-2342-45E4-8BB0-359F0F5586A9}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitEvilLaugh_04_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="862003615"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitEvilLaugh_04_Dambrosio_V1" ID="{3B33A58C-2342-45E4-8BB0-359F0F5586A9}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																					</ChildrenList>
+																				</RandomSequenceContainer>
+																				<RandomSequenceContainer Name="Scream_RND" ID="{BF8748E7-6E2C-42FB-8D0F-AECA54F21893}" ShortID="156448112">
+																					<PropertyList>
+																						<Property Name="InitialDelay" Type="Real64">
+																							<ValueList>
+																								<Value>0.5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<Sound Name="OS_Amb_Jail_HellPitScream_01_Dambrosio_V1" ID="{52144ECC-7A44-461A-BAC2-4352228D1F44}" ShortID="838971912">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitScream_01_Dambrosio_V1" ID="{25A79520-E503-44C6-A8BD-76377398BAE2}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitScream_01_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="669641347"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitScream_01_Dambrosio_V1" ID="{25A79520-E503-44C6-A8BD-76377398BAE2}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitScream_02_Dambrosio_V1" ID="{51832B94-C658-4814-BF2D-51BA2EE61264}" ShortID="10750738">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitScream_02_Dambrosio_V1" ID="{B97CB53E-B883-4B62-B46F-597F421F150B}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitScream_02_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="1072452710"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitScream_02_Dambrosio_V1" ID="{B97CB53E-B883-4B62-B46F-597F421F150B}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitScream_03_Dambrosio_V1" ID="{3348C168-1E02-475E-98BE-F3BCBA6E84C2}" ShortID="197355778">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitScream_03_Dambrosio_V1" ID="{A1EC2BEF-7829-4A60-9643-9B90438BA4B4}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitScream_03_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="815960942"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitScream_03_Dambrosio_V1" ID="{A1EC2BEF-7829-4A60-9643-9B90438BA4B4}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitScream_04_Dambrosio_V1" ID="{0AABF5F4-4254-4FB1-A31F-6FE8989B5FCB}" ShortID="589770690">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitScream_04_Dambrosio_V1" ID="{F21C0B40-4DB0-400C-8799-6FF0196009D7}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitScream_04_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="912143159"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitScream_04_Dambrosio_V1" ID="{F21C0B40-4DB0-400C-8799-6FF0196009D7}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitScream_05_Dambrosio_V1" ID="{4B6657EB-871A-4A77-B1DA-05D78140B508}" ShortID="218578501">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitScream_05_Dambrosio_V1" ID="{AAE852AB-1D0F-4CA0-8E29-54E1322EF98D}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitScream_05_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="488331700"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitScream_05_Dambrosio_V1" ID="{AAE852AB-1D0F-4CA0-8E29-54E1322EF98D}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_Amb_Jail_HellPitScream_06_Dambrosio_V1" ID="{460E9A39-D8BB-47A1-B1BB-014BEB5E7ADE}" ShortID="426226801">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_Amb_Jail_HellPitScream_06_Dambrosio_V1" ID="{A158C12E-D52D-4091-8F0F-AECE42C47DF4}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_Amb_Jail_HellPitScream_06_Dambrosio_V1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="729215305"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_Amb_Jail_HellPitScream_06_Dambrosio_V1" ID="{A158C12E-D52D-4091-8F0F-AECE42C47DF4}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																					</ChildrenList>
+																				</RandomSequenceContainer>
+																			</ChildrenList>
+																		</BlendContainer>
+																	</ChildrenList>
+																	<Playlist>
+																		<ItemRef Name="FireTorture_All_BLD" ID="{34AD3BE3-03E2-4636-A4A0-916266FEEFAC}"/>
+																		<ItemRef Name="MonsterTorture_BLD" ID="{2BB8C08B-D673-4608-A75C-471F80618B51}"/>
+																	</Playlist>
+																</RandomSequenceContainer>
+															</ChildrenList>
+														</ActorMixer>
+													</ChildrenList>
+												</Folder>
 											</ChildrenList>
 										</ActorMixer>
 									</ChildrenList>
