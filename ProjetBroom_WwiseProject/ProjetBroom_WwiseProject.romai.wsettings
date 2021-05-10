@@ -3,9 +3,15 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{F2E5C9F0-6CD7-4005-85F8-FC85CCAFFC68}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\romai\Downloads\Wall Destrucible\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="F:\Sound Bank\Sound Design SB\Broom\"/>
+				<Property Name="Event Action List\{0425243C-83E9-4A58-863C-E1C85B526D8A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{25462DD6-0104-4D1F-8A8E-56A2925EAB32}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2C81A41A-6FFA-486D-8D2A-D885735521F6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3239AAE1-88CF-48A1-B531-FEC48055CF71}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6561695D-4A5C-42F9-A5D3-F1FAFCFF7181}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{867F8C69-6DE8-4547-946B-D7B10521DC25}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{AAC586A8-CE96-4187-9E1B-212124BE6F16}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C824E3DD-B962-4426-8AEB-3796992D62BD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DFCA4BE5-75DA-4CD7-9030-5C9F9BD08E4A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -40,7 +46,7 @@
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
-				<Property Name="ProjectExplorer\x64_Expanded_10_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_10_1" Type="string" Value="FJBZOphIXUGzndUrORx/tg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value=""/>
@@ -53,13 +59,14 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="6ls4yO3VLEeULLoztgF3IQ=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="kIxu6Pu00EOcl4QjcLBDuepbOMjt1SxHlCy6M7YBdyHW4jd8ro1gTY64a+IX8xIR"/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="2TniMUjaOkSdtEerRvt85xwGX2eP6JJMnnRhnBZqShA="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
+				<Property Name="RTPC\GameParameterSimValue\{250B3ED9-C1E8-4668-B835-6A391E9395FA}" Type="Real64" Value="0"/>
 				<Property Name="RTPC\GameParameterSimValue\{29C3E1C2-AF31-45DD-AAF7-8B2CEE14EBBB}" Type="Real64" Value="0.5"/>
 				<Property Name="RTPC\GameParameterSimValue\{8ADB53BC-CDEB-4DF8-BDBA-5421C56CD850}" Type="Real64" Value="0.5"/>
 				<Property Name="RTPC\GameParameterSimValue\{C0054CA0-46BD-4911-8ADF-2435B99B7B79}" Type="Real64" Value="0.5"/>
@@ -98,6 +105,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{F3AF0858-0CC8-4AA4-B8F4-F0737ED64EA6}"/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>
