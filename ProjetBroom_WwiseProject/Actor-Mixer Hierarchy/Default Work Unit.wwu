@@ -11280,87 +11280,6 @@
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</ActorMixer>
-										<RandomSequenceContainer Name="WalllDestructible_RND" ID="{DAC5B697-DB1F-4E12-B510-21B7161C608B}" ShortID="803807710">
-											<PropertyList>
-												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="AMB_OS_WallDestructible_01_Hezon_V1" ID="{BF15D70D-7F30-40CF-A0B5-60C396381114}" ShortID="898143924">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="AMB_OS_WallDestructible_01_Hezon_V1" ID="{697A4D83-ECB4-4CAA-9746-8C7E0B2B445C}">
-															<Language>SFX</Language>
-															<AudioFile>AMB_OS_WallDestructible_01_Hezon_V1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="53117553"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="AMB_OS_WallDestructible_01_Hezon_V1" ID="{697A4D83-ECB4-4CAA-9746-8C7E0B2B445C}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="AMB_OS_WallDestructible_02_Hezon_V1" ID="{3DDB7F0A-C031-4197-B5CA-91951EBB1E4E}" ShortID="380921499">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="AMB_OS_WallDestructible_02_Hezon_V1" ID="{EAEA7069-9288-48C6-B21D-B735014EF3C5}">
-															<Language>SFX</Language>
-															<AudioFile>AMB_OS_WallDestructible_02_Hezon_V1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="636024778"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="AMB_OS_WallDestructible_02_Hezon_V1" ID="{EAEA7069-9288-48C6-B21D-B735014EF3C5}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="AMB_OS_WallDestructible_03_Hezon_V1" ID="{FE12B4C9-AD61-4F40-B8F9-A1B01F68156A}" ShortID="345109655">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="AMB_OS_WallDestructible_03_Hezon_V1" ID="{7E7C8565-BF38-457F-9036-F2DCCBFD675E}">
-															<Language>SFX</Language>
-															<AudioFile>AMB_OS_WallDestructible_03_Hezon_V1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="944333697"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="AMB_OS_WallDestructible_03_Hezon_V1" ID="{7E7C8565-BF38-457F-9036-F2DCCBFD675E}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
 										<ActorMixer Name="SpikeTrap_Mixer" ID="{2F115820-6CE4-46D6-BDA3-931A8DF325C2}" ShortID="222305813">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -12352,6 +12271,208 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="Props_OS_BoneWall_01_Anger_V2" ID="{0E9853B0-2B96-4CDD-AEB4-E642F4F58E65}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
+										<ActorMixer Name="WalllDestructible_Mixer" ID="{414AC59B-9681-4566-A9A3-E1B85943D735}" ShortID="647777430">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="WalllDestructible_RND" ID="{DAC5B697-DB1F-4E12-B510-21B7161C608B}" ShortID="803807710">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="AMB_OS_WallDestructible_01_Hezon_V1" ID="{BF15D70D-7F30-40CF-A0B5-60C396381114}" ShortID="898143924">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_OS_WallDestructible_01_Hezon_V1" ID="{697A4D83-ECB4-4CAA-9746-8C7E0B2B445C}">
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_OS_WallDestructible_01_Hezon_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="53117553"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_OS_WallDestructible_01_Hezon_V1" ID="{697A4D83-ECB4-4CAA-9746-8C7E0B2B445C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AMB_OS_WallDestructible_02_Hezon_V1" ID="{3DDB7F0A-C031-4197-B5CA-91951EBB1E4E}" ShortID="380921499">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_OS_WallDestructible_02_Hezon_V1" ID="{EAEA7069-9288-48C6-B21D-B735014EF3C5}">
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_OS_WallDestructible_02_Hezon_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="636024778"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_OS_WallDestructible_02_Hezon_V1" ID="{EAEA7069-9288-48C6-B21D-B735014EF3C5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AMB_OS_WallDestructible_03_Hezon_V1" ID="{FE12B4C9-AD61-4F40-B8F9-A1B01F68156A}" ShortID="345109655">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_OS_WallDestructible_03_Hezon_V1" ID="{7E7C8565-BF38-457F-9036-F2DCCBFD675E}">
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_OS_WallDestructible_03_Hezon_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="944333697"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_OS_WallDestructible_03_Hezon_V1" ID="{7E7C8565-BF38-457F-9036-F2DCCBFD675E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</ActorMixer>
+										<ActorMixer Name="LavaPlatform_Mixer" ID="{1EC48CA0-9BC3-4E16-A8F2-9FE1CB6012A8}" ShortID="500780941">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="AMB_LP_LavaPlatform_Moving_RomainH_V1" ID="{7F7350F0-BA52-411D-AF75-996564DC4C34}" ShortID="528409367">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AMB_LP_LavaPlatform_Moving_RomainH_V1" ID="{171B3241-36C5-48D0-85C9-16F1A93BD859}">
+															<Language>SFX</Language>
+															<AudioFile>AMB_LP_LavaPlatform_Moving_RomainH_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="534816573"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AMB_LP_LavaPlatform_Moving_RomainH_V1" ID="{171B3241-36C5-48D0-85C9-16F1A93BD859}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AMB_OS_LavaPlatform_End_RomainH_V1" ID="{C6A8C7A1-D40A-464A-875A-DA0454FC90BD}" ShortID="756426491">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AMB_OS_LavaPlatform_End_RomainH_V1" ID="{6C76B1FA-76AA-4B8D-B6EE-D16F6BE9CEEA}">
+															<Language>SFX</Language>
+															<AudioFile>AMB_OS_LavaPlatform_End_RomainH_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="10566949"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AMB_OS_LavaPlatform_End_RomainH_V1" ID="{6C76B1FA-76AA-4B8D-B6EE-D16F6BE9CEEA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AMB_OS_LavaPlatform_Start_RomainH_V1" ID="{E1DD861A-C7AF-41CC-97E1-F511F19BE6B1}" ShortID="829784868">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AMB_OS_LavaPlatform_StartRomainH_V1" ID="{D062C2C2-4025-4751-92E8-4C94DC046AA9}">
+															<Language>SFX</Language>
+															<AudioFile>AMB_OS_LavaPlatform_StartRomainH_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="975793839"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AMB_OS_LavaPlatform_StartRomainH_V1" ID="{D062C2C2-4025-4751-92E8-4C94DC046AA9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AMB_OS_LavaPlatform_Submerge_RomainH_V1" ID="{E673C7AF-F073-40B5-8B55-D840EAC99CC2}" ShortID="71323950">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AMB_OS_LavaPlatform_Submerge_RomainH_V1" ID="{096F6CFF-B6B4-4106-BBD1-9E0D69DD8F74}">
+															<Language>SFX</Language>
+															<AudioFile>AMB_OS_LavaPlatform_Submerge_RomainH_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="104174538"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AMB_OS_LavaPlatform_Submerge_RomainH_V1" ID="{096F6CFF-B6B4-4106-BBD1-9E0D69DD8F74}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>

@@ -1410,6 +1410,87 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Folder Name="LavaPlatform" ID="{72168614-D27D-4D4F-B1A3-B1B6F8DE03FF}" ShortID="853243815">
+									<ChildrenList>
+										<Event Name="Event_LavaPlatform_End" ID="{C824E3DD-B962-4426-8AEB-3796992D62BD}">
+											<ChildrenList>
+												<Action Name="" ID="{23A17AEC-4515-4EF5-B35A-6E07A8104DF2}" ShortID="654831844">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="AMB_OS_LavaPlatform_End_RomainH_V1" ID="{C6A8C7A1-D40A-464A-875A-DA0454FC90BD}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{ACDA04E9-C666-4D9C-A390-1142F5E71C91}" ShortID="1048681913">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+														<Property Name="FadeTime" Type="Real64" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="AMB_LP_LavaPlatform_Moving_RomainH_V1" ID="{7F7350F0-BA52-411D-AF75-996564DC4C34}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_LavaPlatform_Moving" ID="{6561695D-4A5C-42F9-A5D3-F1FAFCFF7181}">
+											<ChildrenList>
+												<Action Name="" ID="{F6F5D644-DD43-4467-9C71-84EA5848EB59}" ShortID="363508699">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+														<Property Name="FadeTime" Type="Real64" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="AMB_OS_LavaPlatform_Submerge_RomainH_V1" ID="{E673C7AF-F073-40B5-8B55-D840EAC99CC2}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{DE55B62C-DDEA-42F4-B0A7-126F4DC6FE2D}" ShortID="774368844">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="AMB_LP_LavaPlatform_Moving_RomainH_V1" ID="{7F7350F0-BA52-411D-AF75-996564DC4C34}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_LavaPlatform_Start" ID="{0425243C-83E9-4A58-863C-E1C85B526D8A}">
+											<ChildrenList>
+												<Action Name="" ID="{D4304683-594E-4DC5-A4CF-0011FC5EC887}" ShortID="512112102">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="AMB_OS_LavaPlatform_Start_RomainH_V1" ID="{E1DD861A-C7AF-41CC-97E1-F511F19BE6B1}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_LavaPlatform_Submerge" ID="{2C81A41A-6FFA-486D-8D2A-D885735521F6}">
+											<ChildrenList>
+												<Action Name="" ID="{0D7CF874-4F16-4C5D-B47D-E2D736B36AC4}" ShortID="720394754">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="AMB_OS_LavaPlatform_Submerge_RomainH_V1" ID="{E673C7AF-F073-40B5-8B55-D840EAC99CC2}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{B68C9055-6EBD-45AC-95A6-4FE80A79C3BC}" ShortID="678143007">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+														<Property Name="FadeTime" Type="Real64" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="AMB_OS_LavaPlatform_Start_RomainH_V1" ID="{E1DD861A-C7AF-41CC-97E1-F511F19BE6B1}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Throne" ID="{FCC81E8B-B929-4746-85FA-ED985CCEEEF7}" ShortID="241807138">
