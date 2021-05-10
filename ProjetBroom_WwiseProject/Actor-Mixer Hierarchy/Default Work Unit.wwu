@@ -25486,96 +25486,6 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<Sound Name="ManaRefill_SFX" ID="{C4B1E852-AB80-4ED8-846E-DDEC2F235735}" ShortID="340312885">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{0E4A5AF6-8DC0-4115-8DA5-7238805F559E}">
-														<PropertyList>
-															<Property Name="Max" Type="Real64" Value="100"/>
-															<Property Name="Min" Type="Real64" Value="-100"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-9</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Props_OS_ManaRefill_02_Sabarros_v1" ID="{0D60CFB5-7BC2-4BE3-80F9-CE9749CF4F0A}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="1.44805691669808"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Refills\Props_OS_ManaRefill_02_Sabarros_v1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1040351313"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Props_OS_ManaRefill_02_Sabarros_v1" ID="{0D60CFB5-7BC2-4BE3-80F9-CE9749CF4F0A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="LifeRefill_SFX" ID="{3F66298C-4843-4293-97AF-92D319DE004B}" ShortID="845518276">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{8A10DFD3-E5E1-4315-8C96-425AF523AFCC}">
-														<PropertyList>
-															<Property Name="Max" Type="Real64" Value="5"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Props_OS_LifeRefill_01_Sabarros_v3" ID="{D5F83ABD-82FE-4AA0-9E85-FA8E6F6B7343}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="1.09160366521279"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Refills\Props_OS_LifeRefill_01_Sabarros_v3.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="438531335"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Props_OS_LifeRefill_01_Sabarros_v3" ID="{D5F83ABD-82FE-4AA0-9E85-FA8E6F6B7343}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<ActorMixer Name="Destructibles_AM" ID="{CAAF5A1C-2599-4BC6-BE8B-9429C759AC27}" ShortID="219416484">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -26139,6 +26049,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Props_OS_BreakGlass_01_Florent_v1" ID="{344DCCC3-50CE-4D66-9D4F-95BE7D2B9AA2}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.851746031746032"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Destructible\Props_OS_BreakGlass_01_Florent_v1.wav</AudioFile>
 															<MediaIDList>
@@ -26161,6 +26076,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Props_OS_BreakGlass_02_Florent_v1" ID="{6F0ABD6D-A38F-4425-AF4B-D4BEBCAFC22B}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.786077097505669"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Destructible\Props_OS_BreakGlass_02_Florent_v1.wav</AudioFile>
 															<MediaIDList>
@@ -26172,28 +26092,6 @@
 														<ActiveSource Name="Props_OS_BreakGlass_02_Florent_v1" ID="{6F0ABD6D-A38F-4425-AF4B-D4BEBCAFC22B}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Props_OS_BreakGlass_03_Florent_v1" ID="{D5AE0DC3-5345-412B-AD37-FBABE9D938A4}" ShortID="27517993">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Props_OS_BreakGlass_03_Florent_v1" ID="{A9622604-FCCF-4F46-88B9-FFFF15040B38}">
-															<Language>SFX</Language>
-															<AudioFile>Destructible\Props_OS_BreakGlass_03_Florent_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="692696093"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Props_OS_BreakGlass_03_Florent_v1" ID="{A9622604-FCCF-4F46-88B9-FFFF15040B38}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="BreakMugBowl_RND" ID="{E595D2D6-E79E-4F64-8B60-F0FDEA8B9E58}" ShortID="299021778">
@@ -26202,7 +26100,7 @@
 												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="Highpass" Type="int16">
 													<ValueList>
-														<Value>30</Value>
+														<Value>32</Value>
 													</ValueList>
 												</Property>
 												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
@@ -26247,33 +26145,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Props_OS_BreakMugBowl_01_Florent_v2" ID="{C99F1774-8A5A-4F7B-B6B3-2DB8CD32DEC6}" ShortID="975726912">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Props_OS_BreakMugBowl_01_Florent_v2" ID="{C81244CD-CC5F-4842-A985-2B75C75EA592}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.381714729044414"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>Destructible\Props_OS_BreakMugBowl_01_Florent_v2.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="525213878"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Props_OS_BreakMugBowl_01_Florent_v2" ID="{C81244CD-CC5F-4842-A985-2B75C75EA592}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 												<Sound Name="Props_OS_BreakMugBowl_02_Florent_v2" ID="{24584C4C-9F76-49C4-A2B3-5C9072CF429A}" ShortID="794594641">
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -26287,8 +26158,8 @@
 														<AudioFileSource Name="Props_OS_BreakMugBowl_02_Florent_v2" ID="{677FB463-097D-4571-A38D-ECE724AB2630}">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.392445474887445"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.46597363383927"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Destructible\Props_OS_BreakMugBowl_02_Florent_v2.wav</AudioFile>
@@ -26314,8 +26185,8 @@
 														<AudioFileSource Name="Props_OS_BreakMugBowl_03_Florent_v2" ID="{96159FCB-5619-42C8-8CC6-D4A07C2BBB71}">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.474531702597375"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.531127226760365"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Destructible\Props_OS_BreakMugBowl_03_Florent_v2.wav</AudioFile>
@@ -26387,6 +26258,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Props_OS_BreakTable_01_Florent_v1" ID="{908C31A5-D027-4D9A-AEB2-BE92B07C5E14}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0156801073577824"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0517443542806819"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Destructible\Props_OS_BreakTable_01_Florent_v1.wav</AudioFile>
 															<MediaIDList>
@@ -26409,6 +26285,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Props_OS_BreakTable_02_Florent_v1" ID="{E677CCF6-627C-478F-964E-783C594F6BE3}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0108695561007318"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0139751435580837"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Destructible\Props_OS_BreakTable_02_Florent_v1.wav</AudioFile>
 															<MediaIDList>
@@ -26622,6 +26503,108 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
+								<ActorMixer Name="Refills_AM" ID="{2706BF44-A4DD-4119-AA83-6218E910CB7D}" ShortID="130872578">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="LifeRefill_SFX" ID="{3F66298C-4843-4293-97AF-92D319DE004B}" ShortID="845518276">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8A10DFD3-E5E1-4315-8C96-425AF523AFCC}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Props_OS_LifeRefill_01_Sabarros_v3" ID="{D5F83ABD-82FE-4AA0-9E85-FA8E6F6B7343}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.09160366521279"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Refills\Props_OS_LifeRefill_01_Sabarros_v3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="438531335"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Props_OS_LifeRefill_01_Sabarros_v3" ID="{D5F83ABD-82FE-4AA0-9E85-FA8E6F6B7343}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ManaRefill_SFX" ID="{C4B1E852-AB80-4ED8-846E-DDEC2F235735}" ShortID="340312885">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0E4A5AF6-8DC0-4115-8DA5-7238805F559E}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Props_OS_ManaRefill_02_Sabarros_v1" ID="{0D60CFB5-7BC2-4BE3-80F9-CE9749CF4F0A}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.44805691669808"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Refills\Props_OS_ManaRefill_02_Sabarros_v1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1040351313"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Props_OS_ManaRefill_02_Sabarros_v1" ID="{0D60CFB5-7BC2-4BE3-80F9-CE9749CF4F0A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</ActorMixer>
 							</ChildrenList>
