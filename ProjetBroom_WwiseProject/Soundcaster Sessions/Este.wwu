@@ -20,8 +20,28 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="SFX_Volume_GP" ID="{29C3E1C2-AF31-45DD-AAF7-8B2CEE14EBBB}"/>
+							<Value>0.5</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="HeightPlayer" ID="{250B3ED9-C1E8-4668-B835-6A391E9395FA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Master_Volume_GP" ID="{C0054CA0-46BD-4911-8ADF-2435B99B7B79}"/>
+							<Value>0.5</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>
 							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="spell_distance" ID="{D9568FC2-08F0-4CF8-BE44-34EEF3822A5F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_Volume_GP" ID="{8ADB53BC-CDEB-4DF8-BDBA-5421C56CD850}"/>
+							<Value>0.5</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Distance" ID="{C1FB3B6B-0CEC-4F98-9EE2-487C8123E3DE}"/>
@@ -30,8 +50,10 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
+						<CurrentStateRef Name="None" ID="{84F7C088-EADC-42A7-9FC3-4384FBFC1D96}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
 						<CurrentSwitchRef Name="DryWood" ID="{B7624EDB-88F7-4B4F-8B22-48863C6006CF}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

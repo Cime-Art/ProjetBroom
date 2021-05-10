@@ -370,6 +370,14 @@
 								<State Name="Vertical_Attack" ID="{A5508C83-70A7-41D9-A58C-963227B6004B}"/>
 							</ChildrenList>
 						</StateGroup>
+						<StateGroup Name="GetHit_Armor_Texture" ID="{638CD667-E878-4B6D-A7A1-C44EA71CF349}">
+							<ChildrenList>
+								<State Name="None" ID="{89DDE0CA-D4D2-4ACD-81EB-50CCF17B5F83}"/>
+								<State Name="Metal" ID="{0ABC5705-4078-4363-87FD-93EDCA7AA609}"/>
+								<State Name="Wood" ID="{87D119C9-CD54-4701-999D-C6F27907575E}"/>
+								<State Name="Magic" ID="{02525265-B4FE-4064-86C7-909E7FA615F2}"/>
+							</ChildrenList>
+						</StateGroup>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{E27B5E44-30EC-4AF5-962C-3B20F0C1CB3D}" ShortID="104291780">
@@ -382,6 +390,16 @@
 								<State Name="None" ID="{ED3CB102-32F3-4ED3-A788-0C1278E25991}"/>
 								<State Name="Combat" ID="{AA86ACE6-11EF-4DD6-8631-9D60FBA16D6F}"/>
 								<State Name="Exploration" ID="{F4E8D336-C182-4523-A0EE-D4E297EBDD9E}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="Menu_Pause_State" ID="{D0FF239A-E94A-4831-AB09-1081E5CE7D54}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{84F7C088-EADC-42A7-9FC3-4384FBFC1D96}"/>
+								<State Name="On" ID="{21593DA0-FC4D-4578-BF81-BB34683C678C}"/>
+								<State Name="Off" ID="{0DADE348-17F7-45E7-9CF4-D3DCB9D317C3}"/>
 							</ChildrenList>
 						</StateGroup>
 					</ChildrenList>
