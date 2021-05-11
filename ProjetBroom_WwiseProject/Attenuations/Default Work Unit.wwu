@@ -374,7 +374,7 @@
 						</Attenuation>
 						<Attenuation Name="Fireplace_Att" ID="{FFC1A8A3-AFC9-453A-94EF-0B2C06393706}" ShortID="990258634">
 							<PropertyList>
-								<Property Name="RadiusMax" Type="Real64" Value="1350"/>
+								<Property Name="RadiusMax" Type="Real64" Value="1085"/>
 							</PropertyList>
 							<CurveUsageInfoList>
 								<VolumeDryUsage>
@@ -391,13 +391,13 @@
 													<SegmentShape>Exp2</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>526.70786625</XPos>
+													<XPos>423.317062875</XPos>
 													<YPos>-7.04239</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Log2</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>1350</XPos>
+													<XPos>1085</XPos>
 													<YPos>-200</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -424,7 +424,7 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>1350</XPos>
+													<XPos>1085</XPos>
 													<YPos>100</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -445,12 +445,12 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>507.8369925</XPos>
+													<XPos>408.15047175</XPos>
 													<YPos>35</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>1350</XPos>
+													<XPos>1085</XPos>
 													<YPos>35</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -472,18 +472,18 @@
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>506.25</XPos>
+													<XPos>406.875</XPos>
 													<YPos>100</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>838.4433975</XPos>
+													<XPos>673.860063916667</XPos>
 													<YPos>40</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>1350</XPos>
+													<XPos>1085</XPos>
 													<YPos>40</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -504,13 +504,13 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>452.821313414634</XPos>
+													<XPos>363.934166707317</XPos>
 													<YPos>68.16901</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>1350</XPos>
+													<XPos>1085</XPos>
 													<YPos>88.7324</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -1887,6 +1887,52 @@
 								</FocusUsage>
 							</CurveUsageInfoList>
 						</Attenuation>
+						<Attenuation Name="Hellpit_Att" ID="{6CB2D2FC-F1DB-494C-942A-91B54D09BBD7}" ShortID="620779594">
+							<PropertyList>
+								<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+							</PropertyList>
+							<CurveUsageInfoList>
+								<VolumeDryUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+										<Curve Name="VolumeDry" ID="{37D7D74C-CF6E-45A6-BF39-BEB328F38C5F}">
+											<PropertyList>
+												<Property Name="Flags" Type="int32" Value="3"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>0</YPos>
+													<Flags>5</Flags>
+												</Point>
+												<Point>
+													<XPos>1000</XPos>
+													<YPos>-200</YPos>
+													<Flags>37</Flags>
+												</Point>
+											</PointList>
+										</Curve>
+									</CurveUsageInfo>
+								</VolumeDryUsage>
+								<VolumeWetGameUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+								</VolumeWetGameUsage>
+								<VolumeWetUserUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+								</VolumeWetUserUsage>
+								<LowPassFilterUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+								</LowPassFilterUsage>
+								<HighPassFilterUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+								</HighPassFilterUsage>
+								<SpreadUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+								</SpreadUsage>
+								<FocusUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+								</FocusUsage>
+							</CurveUsageInfoList>
+						</Attenuation>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{D969267F-AC17-42FA-9B0C-E6C093CCFE09}" ShortID="160584434">
@@ -2358,7 +2404,7 @@
 										</Point>
 										<Point>
 											<XPos>2413.36634</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
