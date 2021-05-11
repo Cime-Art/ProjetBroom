@@ -27521,7 +27521,6 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Jailtool_RND" ID="{7FB040B7-379D-4795-B0B8-332463D52C04}" ShortID="304152759">
 											<PropertyList>
-												<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 											</PropertyList>
 											<ReferenceList>
@@ -27621,7 +27620,6 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Torturetool_RND" ID="{78542B03-467C-4874-B519-7B9153398E08}" ShortID="515751585">
 											<PropertyList>
-												<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 											</PropertyList>
 											<ReferenceList>
