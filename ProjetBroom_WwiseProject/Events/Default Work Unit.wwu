@@ -163,23 +163,12 @@
 						</Folder>
 						<Folder Name="SkeletonCac" ID="{7AB3C91B-BB02-4147-86AF-73CCCF7D246E}" ShortID="757083389">
 							<ChildrenList>
-								<Event Name="Event_SKCac_Voices" ID="{3CAD960A-20CF-4F6D-BD72-944D9584A2C3}">
-									<ChildrenList>
-										<Action Name="" ID="{788CA733-BFDC-4D25-A861-038ADFE1766E}" ShortID="108433945">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="SkCacVoice_Switch" ID="{6CAA416B-B670-43EB-BB5B-D3FA6C18F719}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
 								<Event Name="Event_SkCac_Death" ID="{43342A4F-F47F-496A-AC5E-554E0E9FD119}">
 									<ChildrenList>
 										<Action Name="" ID="{30A1F48A-9FF6-4321-9A7D-167A65031CDD}" ShortID="467081701">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="TestSkeletonVoice_01" ID="{E98E45AF-3408-4F8D-9F51-2F6DCB63A6E3}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="DeathScream_RND" ID="{FD613117-4927-4D2F-9FE5-C2C934DAA36E}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
