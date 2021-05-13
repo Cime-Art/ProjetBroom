@@ -1624,6 +1624,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Event_UI_Scroll" ID="{E6D765DB-05E5-4334-9426-59BE568171D4}">
+							<ChildrenList>
+								<Action Name="" ID="{84529C76-0C1C-49E2-8291-FDD08C93EB47}" ShortID="189317223">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_OS_Scroll_Pelloux_V1" ID="{BEA8CEE1-BDFE-405B-81EB-01D7EB3B8F15}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{2CEDBBDC-CB85-4E14-8222-C28F7310FCF3}" ShortID="881711098">
@@ -1819,6 +1830,39 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Open_Book" ID="{875E7597-3E31-462E-AC3A-F1597DA79A69}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_UI_Equip_Magic" ID="{9B0F1D95-AAAE-4F0A-B9FE-493049EB721B}">
+							<ChildrenList>
+								<Action Name="" ID="{9670BE2B-37C0-488E-9AA1-8D5566F174EF}" ShortID="685136128">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_OS_Equip_Magic_RomainP" ID="{E503232A-F0E5-491E-BABF-0E6D18ABCE5A}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_UI_Equip_Wood" ID="{EFD0DFDA-DDF7-48F6-A181-9B0E83148C16}">
+							<ChildrenList>
+								<Action Name="" ID="{4D060A24-6C6F-4823-8B45-52E94A389533}" ShortID="984193920">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_OS_Equip_Wood_RomainP" ID="{498C9EEA-2BFB-4CFA-8B2D-B758EB4DDBA5}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_UI_Equip_Metal" ID="{9CAE9B37-D16E-449B-9059-8FE0D5B26E51}">
+							<ChildrenList>
+								<Action Name="" ID="{42CEC570-1AEB-4BCE-AE1B-26376B45B757}" ShortID="1015572225">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_OS_Equip_Metal_RomainP" ID="{634E9F50-44F0-42DA-B017-C6257B78E0D0}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
