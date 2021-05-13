@@ -738,6 +738,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Event_Acid_Platform" ID="{F4416F5E-8220-4FE5-95B5-77138ABA8054}">
+											<ChildrenList>
+												<Action Name="" ID="{2D23A000-E56A-4910-8C05-61F8C4619D9E}" ShortID="1031756278">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Acid_Platform_RND" ID="{6DB2FA0A-FED9-4E77-B935-612509E3FDE2}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Animal" ID="{47D526AA-7169-4D66-BF75-F69FA009AC09}" ShortID="119963362">
@@ -1947,6 +1958,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Torturetool_RND" ID="{78542B03-467C-4874-B519-7B9153398E08}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_BreakBench" ID="{4CD222FD-390F-43B3-AB68-88111E17D923}">
+							<ChildrenList>
+								<Action Name="" ID="{AB312639-7225-4ACE-8EA0-910904F2F714}" ShortID="858705640">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakBench_RND" ID="{392162F3-3A48-4123-9F87-C00ECFF10003}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_BreakBucket" ID="{FBBA58B1-497C-4674-93D5-157572BCFFC0}">
+							<ChildrenList>
+								<Action Name="" ID="{7FC7CA22-9B85-477E-BC3B-B64EB6E00656}" ShortID="172062691">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakBucket_RND" ID="{CF738FBF-F540-45A8-BABA-ABBE4959801A}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
