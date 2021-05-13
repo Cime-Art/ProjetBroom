@@ -26774,6 +26774,532 @@
 								</Sound>
 							</ChildrenList>
 						</ActorMixer>
+						<ActorMixer Name="UI_PLayer_Life_Mixer" ID="{70541893-CCCD-4433-A4E5-1039024F0F02}" ShortID="934905363">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Folder Name="Player_Life" ID="{DE77B290-6907-43CE-938F-7DA36996076D}" ShortID="53608645">
+									<ChildrenList>
+										<BlendContainer Name="Player_Life_BLD" ID="{89D05BC0-F95F-42AF-936B-8B0A561D67F4}" ShortID="257504903">
+											<PropertyList>
+												<Property Name="BlendBehavior" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="UI_LP_Whispers_01_Anger_V1" ID="{EB93BD99-CD5E-4A14-A35D-45D407DC3561}" ShortID="670313981">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>33</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UI_LP_Whispers_01_Anger_V1" ID="{C6FBE9B6-C5F4-4248-9D14-05E26A57CB54}">
+															<Language>SFX</Language>
+															<AudioFile>UI_LP_Whispers_01_Anger_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="94239592"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UI_LP_Whispers_01_Anger_V1" ID="{C6FBE9B6-C5F4-4248-9D14-05E26A57CB54}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<RandomSequenceContainer Name="King_Voice_Whisper_RND" ID="{FF475644-A596-4C5F-A63D-7DC32F13E6C2}" ShortID="373762580">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>23</Value>
+															</ValueList>
+														</Property>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{69263C4A-0A39-459C-8A13-9764A5E0A650}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="100"/>
+																			<Property Name="Min" Type="Real64" Value="-100"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.3"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="UI_LP_King_Voice_Whispers_01_Anger_V1" ID="{A0DD05CA-71CE-4B4F-A250-B766FC16EE6C}" ShortID="977525580">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="UI_LP_King_Voice_Whispers_01_Anger_V1" ID="{E2318077-D35B-42EA-B5D0-2B5DACB24201}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.958544947659429"/>
+																		<Property Name="FadeInShape" Type="int16" Value="2"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.31748943869785"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>UI_LP_King_Voice_Whispers_01_Anger_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1060720514"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="UI_LP_King_Voice_Whispers_01_Anger_V1" ID="{E2318077-D35B-42EA-B5D0-2B5DACB24201}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="UI_LP_King_Voice_Whispers_02_Anger_V1" ID="{6D3E34A4-6132-41E2-A160-F10DECB09DBA}" ShortID="620472437">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="UI_LP_King_Voice_Whispers_02_Anger_V1" ID="{0E4EA969-7FDD-4754-9BA1-406520F14104}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.00601450625912"/>
+																		<Property Name="FadeInShape" Type="int16" Value="2"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.57824294101202"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>UI_LP_King_Voice_Whispers_02_Anger_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1030312937"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="UI_LP_King_Voice_Whispers_02_Anger_V1" ID="{0E4EA969-7FDD-4754-9BA1-406520F14104}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="UI_LP_King_Voice_Whispers_03_Anger_V1" ID="{C247C397-E1F7-4638-ABE3-ACAA132E9365}" ShortID="139878149">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="UI_LP_King_Voice_Whispers_03_Anger_V1" ID="{54D0B737-E70F-4343-B354-12442ACAC0B7}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.03899372534402"/>
+																		<Property Name="FadeInShape" Type="int16" Value="2"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.51331694778368"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>UI_LP_King_Voice_Whispers_03_Anger_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="669560046"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="UI_LP_King_Voice_Whispers_03_Anger_V1" ID="{54D0B737-E70F-4343-B354-12442ACAC0B7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="UI_LP_King_Voice_Whispers_04_Anger_V1" ID="{B6926771-F63A-4EDD-88A7-B509BDA1B3D5}" ShortID="746015321">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="UI_LP_King_Voice_Whispers_04_Anger_V1" ID="{8BFE1CB0-4AB2-4CF0-AE6E-B0A9F94E50BB}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.12369552387165"/>
+																		<Property Name="FadeInShape" Type="int16" Value="2"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.59476438977417"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>UI_LP_King_Voice_Whispers_04_Anger_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="329303336"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="UI_LP_King_Voice_Whispers_04_Anger_V1" ID="{8BFE1CB0-4AB2-4CF0-AE6E-B0A9F94E50BB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="UI_LP_King_Voice_Whispers_05_Anger_V1" ID="{938EA141-6513-4207-8BA4-16916F03FE74}" ShortID="939106312">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="UI_LP_King_Voice_Whispers_05_Anger_V1" ID="{605E3A05-20B2-4C2A-8C37-2E4C76B06589}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.51664274842357"/>
+																		<Property Name="FadeInShape" Type="int16" Value="2"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="2.28173484919082"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>UI_LP_King_Voice_Whispers_05_Anger_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1002468191"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="UI_LP_King_Voice_Whispers_05_Anger_V1" ID="{605E3A05-20B2-4C2A-8C37-2E4C76B06589}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="UI_LP_King_Voice_Whispers_06_Anger_V1" ID="{042C2211-EC95-44B2-8D9A-5ABFA67F4858}" ShortID="885154909">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="UI_LP_King_Voice_Whispers_06_Anger_V1" ID="{B2D15D6D-69DC-4368-AD40-48792328908D}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.12472276581865"/>
+																		<Property Name="FadeInShape" Type="int16" Value="2"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.69712631627994"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>UI_LP_King_Voice_Whispers_06_Anger_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="861295865"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="UI_LP_King_Voice_Whispers_06_Anger_V1" ID="{B2D15D6D-69DC-4368-AD40-48792328908D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="UI_LP_King_Voice_Whispers_07_Anger_V1" ID="{79D57904-F7B0-4BB0-9624-79E2B34F2AC1}" ShortID="599332051">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="UI_LP_King_Voice_Whispers_07_Anger_V1" ID="{B6B8DC4C-EB78-4232-A4FB-3A64F2FC28E2}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.27405390923493"/>
+																		<Property Name="FadeInShape" Type="int16" Value="2"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.8693542074364"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>UI_LP_King_Voice_Whispers_07_Anger_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="150434040"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="UI_LP_King_Voice_Whispers_07_Anger_V1" ID="{B6B8DC4C-EB78-4232-A4FB-3A64F2FC28E2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="UI_LP_King_Voice_Whispers_08_Anger_V1" ID="{5245BB20-8A9B-4BBD-AE3C-950B3DC86482}" ShortID="387099549">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="UI_LP_King_Voice_Whispers_08_Anger_V1" ID="{976175EB-51FA-42CA-9D4A-1A0D2D677CBB}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.05822977821265"/>
+																		<Property Name="FadeInShape" Type="int16" Value="2"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.49343250085422"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>UI_LP_King_Voice_Whispers_08_Anger_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1009922398"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="UI_LP_King_Voice_Whispers_08_Anger_V1" ID="{976175EB-51FA-42CA-9D4A-1A0D2D677CBB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="UI_LP_King_Voice_Whispers_09_Anger_V1" ID="{FA6F4272-51EE-4D81-984C-DB6673D4C56D}" ShortID="86032701">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="UI_LP_King_Voice_Whispers_09_Anger_V1" ID="{DDBF5835-AB41-42D9-8D4C-318F9235B07C}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.931475048923679"/>
+																		<Property Name="FadeInShape" Type="int16" Value="2"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.31858156276209"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>UI_LP_King_Voice_Whispers_09_Anger_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1029642112"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="UI_LP_King_Voice_Whispers_09_Anger_V1" ID="{DDBF5835-AB41-42D9-8D4C-318F9235B07C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="UI_LP_King_Voice_Whispers_10_Anger_V1" ID="{6AFA5667-3ACF-4DDC-A4D8-31EAA17348E3}" ShortID="853748760">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="UI_LP_King_Voice_Whispers_10_Anger_V1" ID="{5911708D-CDD9-4439-8058-D7F7A339B8A1}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.15705595937005"/>
+																		<Property Name="FadeInShape" Type="int16" Value="2"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.16565860590812"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>UI_LP_King_Voice_Whispers_10_Anger_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="858843491"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="UI_LP_King_Voice_Whispers_10_Anger_V1" ID="{5911708D-CDD9-4439-8058-D7F7A339B8A1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="UI_LP_King_Voice_Whispers_11_Anger_V1" ID="{F347E547-81EB-4A82-BE14-0F8341EDEF99}" ShortID="887178192">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="UI_LP_King_Voice_Whispers_11_Anger_V1" ID="{8E927931-6C75-45E1-88E6-AB5EC6350CA3}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.1441095890411"/>
+																		<Property Name="FadeInShape" Type="int16" Value="2"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.38544520547945"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>UI_LP_King_Voice_Whispers_11_Anger_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="350118765"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="UI_LP_King_Voice_Whispers_11_Anger_V1" ID="{8E927931-6C75-45E1-88E6-AB5EC6350CA3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="UI_LP_King_Voice_Whispers_13_Anger_V1" ID="{939E10FB-4697-4814-A020-1BF72A6BEF6A}" ShortID="1044589104">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="UI_LP_King_Voice_Whispers_13_Anger_V1" ID="{6DD79AF3-99E7-4798-AEE7-775DDB5CC45E}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.04850573105955"/>
+																		<Property Name="FadeInShape" Type="int16" Value="2"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.59165059174355"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>UI_LP_King_Voice_Whispers_13_Anger_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="660361888"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="UI_LP_King_Voice_Whispers_13_Anger_V1" ID="{6DD79AF3-99E7-4798-AEE7-775DDB5CC45E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+											<BlendTrackList>
+												<BlendTrack Name="King_Whispers" ID="{094D5438-E184-42A2-BDFD-FA8A6B4A8EC5}" ShortID="188626571">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{BC7F4FFF-8687-4297-9158-DB13FEEAEF37}" ShortID="673541212">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Player_Life" ID="{D6FDC341-5DEE-4931-BFE7-0E4BBEFAEE39}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{953EF538-6F6F-42DA-859C-C40163B206EB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-0.05524</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Exp1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>35</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="LayerCrossFadeControlInput">
+															<ObjectRef Name="Player_Life" ID="{D6FDC341-5DEE-4931-BFE7-0E4BBEFAEE39}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+														</Reference>
+													</ReferenceList>
+													<BlendTrackAssocList>
+														<BlendTrackAssoc>
+															<ItemRef Name="King_Voice_Whisper_RND" ID="{FF475644-A596-4C5F-A63D-7DC32F13E6C2}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>0</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>20</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+														<BlendTrackAssoc>
+															<ItemRef Name="UI_LP_Whispers_01_Anger_V1" ID="{EB93BD99-CD5E-4A14-A35D-45D407DC3561}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>40.00025</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>60.00025</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+													</BlendTrackAssocList>
+												</BlendTrack>
+											</BlendTrackList>
+										</BlendContainer>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Props" ID="{CD252EF5-C431-4F65-8CED-3CA2BE153D68}" ShortID="2655759">

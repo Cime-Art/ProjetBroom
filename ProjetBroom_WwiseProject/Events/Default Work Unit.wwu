@@ -2042,6 +2042,21 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="UI" ID="{B37D3109-6ACF-4282-B02F-A65CE3CB8052}" ShortID="330638814">
+					<ChildrenList>
+						<Event Name="Event_Player_Life" ID="{7D6BF7B6-3FFC-466E-B826-A6B72BDDD91E}">
+							<ChildrenList>
+								<Action Name="" ID="{E8F228D1-2412-49A5-B1D9-8F6EDEAACC81}" ShortID="425130593">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Life_BLD" ID="{89D05BC0-F95F-42AF-936B-8B0A561D67F4}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
