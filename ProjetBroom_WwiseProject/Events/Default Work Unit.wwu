@@ -297,7 +297,64 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Banana" ID="{CD2A7502-E151-4C15-8800-DE5209210607}" ShortID="910695610"/>
+						<Folder Name="Banana" ID="{CD2A7502-E151-4C15-8800-DE5209210607}" ShortID="910695610">
+							<ChildrenList>
+								<Event Name="Event_Banana_Gethit" ID="{C8BC68E6-2327-480A-A5C4-5513D9123C72}">
+									<ChildrenList>
+										<Action Name="" ID="{659DC6A8-CD14-4E32-9E5A-2D0AAC54712B}" ShortID="290702602">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="7"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Idle_Banana" ID="{F6F48F25-E577-4F8B-A5F2-4CD3317988EF}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{00F74ECC-4E87-4AAD-91BF-24B71CDE36CE}" ShortID="155310471">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="GetHit_Banana" ID="{04B67B50-95A0-4ED9-83C2-BD2CE236E6E6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{FD40E4FE-54BD-4371-ABD5-AABD1B5A6480}" ShortID="220610808">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="9"/>
+												<Property Name="Delay" Type="Real64" Value="1">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{99A4386F-3E9F-412E-8FF6-B76443132F07}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Idle_Banana" ID="{F6F48F25-E577-4F8B-A5F2-4CD3317988EF}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_Banana_Idle" ID="{0E27E860-4A77-4BA1-A276-F9F05AA8B698}">
+									<ChildrenList>
+										<Action Name="" ID="{55E76BF6-58EB-4DB0-9613-D6B32D6B4DAC}" ShortID="592347678">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Idle_Banana" ID="{F6F48F25-E577-4F8B-A5F2-4CD3317988EF}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 						<Folder Name="Blob" ID="{EB10F56A-7A64-49EE-A27E-B0E1FE1416FB}" ShortID="654289949">
 							<ChildrenList>
 								<Event Name="BlobAttack" ID="{2DC88B82-D31C-4441-9CD9-BCD5C2D9E843}">
@@ -2031,17 +2088,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Event_Banana_Gethit" ID="{C8BC68E6-2327-480A-A5C4-5513D9123C72}">
-					<ChildrenList>
-						<Action Name="" ID="{659DC6A8-CD14-4E32-9E5A-2D0AAC54712B}" ShortID="290702602">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="GetHit_Banana" ID="{04B67B50-95A0-4ED9-83C2-BD2CE236E6E6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="UI" ID="{B37D3109-6ACF-4282-B02F-A65CE3CB8052}" ShortID="330638814">
 					<ChildrenList>
 						<Event Name="Event_Player_Life" ID="{7D6BF7B6-3FFC-466E-B826-A6B72BDDD91E}">
