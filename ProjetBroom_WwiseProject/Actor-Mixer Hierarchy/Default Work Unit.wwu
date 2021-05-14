@@ -11993,6 +11993,7 @@
 													<PropertyList>
 														<Property Name="3DPosition" Type="int16" Value="1"/>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 														<Property Name="Lowpass" Type="int16">
 															<ValueList>
 																<Value>49</Value>
@@ -12002,7 +12003,7 @@
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="Pitch" Type="int32">
 															<ValueList>
-																<Value>-700</Value>
+																<Value>-680</Value>
 															</ValueList>
 														</Property>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -12022,9 +12023,14 @@
 														</Property>
 														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-3</Value>
+																<Value>-7</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
