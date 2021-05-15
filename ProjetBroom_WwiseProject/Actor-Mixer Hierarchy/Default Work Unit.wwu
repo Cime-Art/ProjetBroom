@@ -11894,20 +11894,26 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-600</XPos>
-																		<YPos>25</YPos>
+																		<XPos>-1469.52998</XPos>
+																		<YPos>24</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-490.48223</XPos>
-																		<YPos>3</YPos>
+																		<XPos>-1317.71075</XPos>
+																		<YPos>-1</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-328.88325</XPos>
-																		<YPos>25</YPos>
+																		<XPos>-96.92058</XPos>
+																		<YPos>3</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>23</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
@@ -11940,32 +11946,32 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-574.61929</XPos>
+																		<XPos>-1232.64198</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-500</XPos>
+																		<XPos>-1158.02269</XPos>
 																		<YPos>-12</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-420</XPos>
+																		<XPos>-1078.02269</XPos>
 																		<YPos>0.09814</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-250</XPos>
-																		<YPos>-8</YPos>
+																		<XPos>-29.09239</XPos>
+																		<YPos>0.16164</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-129.31472</XPos>
-																		<YPos>-38.1697</YPos>
+																		<XPos>91.59289</XPos>
+																		<YPos>-30.00806</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log1</SegmentShape>
 																	</Point>
@@ -11996,14 +12002,14 @@
 														<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 														<Property Name="Lowpass" Type="int16">
 															<ValueList>
-																<Value>49</Value>
+																<Value>50</Value>
 															</ValueList>
 														</Property>
 														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="Pitch" Type="int32">
 															<ValueList>
-																<Value>-680</Value>
+																<Value>-600</Value>
 															</ValueList>
 														</Property>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -12030,7 +12036,7 @@
 														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-7</Value>
+																<Value>-3</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
