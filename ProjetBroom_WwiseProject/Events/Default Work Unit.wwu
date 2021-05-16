@@ -896,7 +896,7 @@
 												<Action Name="" ID="{56A4F7D2-F25F-4451-AE26-17745DDCB5DD}" ShortID="43796306">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Amb_LP_Water_01_Anger_V1" ID="{73CDF9B8-4195-4E7C-A11E-15246786146A}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+															<ObjectRef Name="Amb_LP_WaterCalm_01_Anger_V2" ID="{05FEC798-8F4C-43FC-9465-C087D8435CC5}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -915,6 +915,28 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="LP_Hellpit_Texture" ID="{99309FB4-6223-42D5-9B72-B3E633BFF78E}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_RapidWater" ID="{E2B23E0D-FB6A-40C7-B525-12AC9116FDBA}">
+											<ChildrenList>
+												<Action Name="" ID="{10A73268-A123-4B30-B01E-B189315DF70B}" ShortID="754785620">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Amb_LP_RapidWater_01_Anger_V1" ID="{188D4F39-4F73-43B0-AAB6-213ED8EBC4B5}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_Water02" ID="{01E471CB-0A22-4D36-832B-44E20011572B}">
+											<ChildrenList>
+												<Action Name="" ID="{4C7E529A-A9EB-44EF-9D08-46288E71C11F}" ShortID="628965611">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Amb_LP_WaterCalm_01_Anger_V2_01" ID="{3D83AFA2-F831-4A4C-B6BE-611AA1514D5F}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -985,6 +1007,24 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Door_Slam_RND_02" ID="{9B9F81BD-1DBC-44F7-B085-861AB57D26AA}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_DoorSpike" ID="{26527BA9-D327-4494-A4DD-BBE5CEFB91BF}">
+											<ChildrenList>
+												<Action Name="" ID="{D7F82114-71B0-4B38-BEA3-2EABCDAE0567}" ShortID="797847294">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Props_OS_BoneWall_01_Anger_V2" ID="{062CC27E-0C7F-4022-9BFB-CAE78EE230D5}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{40E0D763-DF52-4B53-826F-ECEB441FFCAD}" ShortID="1003758732">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Spike_Door_RND" ID="{DEC12C4E-92D7-4FA6-A1EE-3792B97F740D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -2095,7 +2135,7 @@
 								<Action Name="" ID="{E8F228D1-2412-49A5-B1D9-8F6EDEAACC81}" ShortID="425130593">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Player_Life_BLD" ID="{89D05BC0-F95F-42AF-936B-8B0A561D67F4}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+											<ObjectRef Name="Voice_King_RND" ID="{96F74228-38D6-4523-84D7-22705E1A9F92}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
