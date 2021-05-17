@@ -906,3 +906,7 @@ Plugins/Wwise/ThirdParty/x64_vc160/Release/lib/iZTrashMultibandDistortionFX.pdb
 Plugins/Wwise/ThirdParty/x64_vc160/Release/lib/MasteringSuiteFX.pdb
 Plugins/Wwise/ThirdParty/x64_vc160/Release/lib/McDSPFutzBoxFX.pdb
 Plugins/Wwise/ThirdParty/x64_vc160/Release/lib/McDSPLimiterFX.pdb
+*.validationcache
+ProjetBroom_WwiseProject/ProjetBroom_WwiseProject.SMI.validationcache
+
+Plugins/Wwise/*.validationcache

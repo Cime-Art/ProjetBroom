@@ -17,6 +17,10 @@
 							<ObjectRef Name="Event_FireBoiler_LP" ID="{F98DAF6A-6CE6-418F-B05D-6AD9824BEEED}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Event_BubbleLava" ID="{DFCA4BE5-75DA-4CD7-9030-5C9F9BD08E4A}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
+							<Position X="2" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -25,11 +29,15 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="HeightPlayer" ID="{250B3ED9-C1E8-4668-B835-6A391E9395FA}"/>
-							<Value>0</Value>
+							<Value>-413.614262560778</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Master_Volume_GP" ID="{C0054CA0-46BD-4911-8ADF-2435B99B7B79}"/>
 							<Value>0.5</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Life" ID="{D6FDC341-5DEE-4931-BFE7-0E4BBEFAEE39}"/>
+							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>
@@ -49,7 +57,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
+						<CurrentStateRef Name="None" ID="{6D47C0C6-5A10-42E8-876A-0F1F09BE2DA8}"/>
 						<CurrentStateRef Name="None" ID="{84F7C088-EADC-42A7-9FC3-4384FBFC1D96}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

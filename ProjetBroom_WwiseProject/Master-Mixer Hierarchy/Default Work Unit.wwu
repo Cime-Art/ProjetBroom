@@ -68,6 +68,30 @@
 												</PointList>
 											</Curve>
 										</RTPC>
+										<RTPC Name="" ID="{BE61C979-A368-40CD-82DB-940D0CFE7492}" ShortID="1022943839">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Master_Volume_GP" ID="{C0054CA0-46BD-4911-8ADF-2435B99B7B79}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7C8A88CE-8B91-43E3-A2AC-0B739D188DBB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 									</RTPCList>
 								</Property>
 							</PropertyList>
@@ -184,6 +208,21 @@
 												</Reference>
 											</ReferenceList>
 										</AuxBus>
+										<AuxBus Name="Reverb_HellPit" ID="{31732CDE-06F1-4F2D-89B9-946CBA075F3F}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="12"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Hellpit_Att" ID="{6CB2D2FC-F1DB-494C-942A-91B54D09BBD7}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+												</Reference>
+												<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
 									</ChildrenList>
 								</Bus>
 							</ChildrenList>
@@ -199,6 +238,30 @@
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{EFE8D300-BE9F-4C3D-B574-6E61BBEAED47}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{FBDB0FCE-891D-4EE2-83EC-7504BA1EB8FA}" ShortID="8565286">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Master_Volume_GP" ID="{C0054CA0-46BD-4911-8ADF-2435B99B7B79}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6E9DC519-6A5C-4A45-95BA-DAC4D38F73FC}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="3"/>
 												</PropertyList>
@@ -239,6 +302,25 @@
 										</Reference>
 									</ReferenceList>
 								</AuxBus>
+								<AuxBus Name="RVB_Music_Tuto" ID="{A13212C2-959A-4E4F-886C-ED3485FD6339}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OutputBusLowpass" Type="int16">
+											<ValueList>
+												<Value>38</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Hall_Small_Bright" ID="{D8AD1955-D2BA-4C88-A806-E2D8AB47A90B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
@@ -246,6 +328,16 @@
 										<StateGroupRef Name="Menu_Pause_State" ID="{D0FF239A-E94A-4831-AB09-1081E5CE7D54}"/>
 									</StateGroupInfo>
 								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="On" ID="{21593DA0-FC4D-4578-BF81-BB34683C678C}"/>
+										<CustomState Name="" ID="{25518F9C-3803-46C6-94E6-7184536C6AE7}" ShortID="57589538"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Off" ID="{0DADE348-17F7-45E7-9CF4-D3DCB9D317C3}"/>
+										<CustomState Name="" ID="{9B9D9670-D694-40C2-8FDA-4C179C80437E}" ShortID="647992675"/>
+									</CustomState>
+								</CustomStateList>
 							</StateInfo>
 						</Bus>
 					</ChildrenList>
