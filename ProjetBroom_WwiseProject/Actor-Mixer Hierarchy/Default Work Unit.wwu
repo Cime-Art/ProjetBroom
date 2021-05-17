@@ -5478,7 +5478,7 @@
 																				</Property>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-11</Value>
+																						<Value>-15</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
@@ -27392,6 +27392,14 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Voice_King_RND" ID="{96F74228-38D6-4523-84D7-22705E1A9F92}" ShortID="57137926">
 											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
@@ -27426,7 +27434,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>33</XPos>
-																		<YPos>7.99999999999955</YPos>
+																		<YPos>12</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Constant</SegmentShape>
 																	</Point>
@@ -27447,10 +27455,56 @@
 													</RTPCList>
 												</Property>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-15</Value>
 													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{18843AB9-57E3-47E6-B894-B5067698E479}" ShortID="769770829">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Player_Life" ID="{D6FDC341-5DEE-4931-BFE7-0E4BBEFAEE39}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{725380FB-A1EE-4DA3-A65A-86C2B4EEF234}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-180.09526</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.001</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>33</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>33.001</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
