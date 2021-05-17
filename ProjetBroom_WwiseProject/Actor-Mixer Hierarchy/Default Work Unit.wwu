@@ -5478,7 +5478,7 @@
 																				</Property>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-11</Value>
+																						<Value>-15</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
@@ -6164,6 +6164,74 @@
 																					</ChildrenList>
 																					<ActiveSourceList>
 																						<ActiveSource Name="SplashAcid_Short_v4-004" ID="{0D189277-5555-499F-9D5D-FD048FB4711F}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																			</ChildrenList>
+																		</RandomSequenceContainer>
+																	</ChildrenList>
+																</ActorMixer>
+																<ActorMixer Name="Acid_Platform_Mixer" ID="{DD16A83A-E584-4F20-9F04-6C88CE4CFFEA}" ShortID="649244086">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<RandomSequenceContainer Name="Acid_Platform_RND" ID="{6DB2FA0A-FED9-4E77-B935-612509E3FDE2}" ShortID="657989614">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{E5972BA5-223B-41E6-A55F-4EEED40CB1C3}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="200"/>
+																									<Property Name="Min" Type="Real64" Value="-200"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<Sound Name="SplashAcid_Short_v6" ID="{77AE2439-A444-4892-B118-FE09C21A792B}" ShortID="521593114">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="SplashAcid_Short_v6" ID="{23DEE69F-5D3F-40F4-81AE-4F908090DC1D}">
+																							<PropertyList>
+																								<Property Name="VolumeOffset" Type="Real64">
+																									<ValueList>
+																										<Value>24</Value>
+																									</ValueList>
+																								</Property>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>SplashAcid_Short_v6.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="314787744"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="SplashAcid_Short_v6" ID="{23DEE69F-5D3F-40F4-81AE-4F908090DC1D}" Platform="Linked"/>
 																					</ActiveSourceList>
 																				</Sound>
 																			</ChildrenList>
@@ -8272,7 +8340,7 @@
 																				</Property>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-14</Value>
+																						<Value>-7</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
@@ -9950,17 +10018,16 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<Sound Name="Amb_LP_Water_01_Anger_V1" ID="{73CDF9B8-4195-4E7C-A11E-15246786146A}" ShortID="238679231">
+																		<Sound Name="Amb_LP_RapidWater_01_Anger_V1" ID="{188D4F39-4F73-43B0-AAB6-213ED8EBC4B5}" ShortID="653834998">
 																			<PropertyList>
-																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																				<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																				<Property Name="Lowpass" Type="int16">
-																					<ValueList>
-																						<Value>19</Value>
-																					</ValueList>
-																				</Property>
 																				<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																				<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																				<Property Name="Pitch" Type="int32">
+																					<ValueList>
+																						<Value>480</Value>
+																					</ValueList>
+																				</Property>
 																				<Property Name="UserAuxSendVolume0" Type="Real64">
 																					<ValueList>
 																						<Value>-11</Value>
@@ -9968,7 +10035,141 @@
 																				</Property>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-20</Value>
+																						<Value>-6</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Attenuation">
+																					<Custom CreatedFrom="{69F294FF-224C-4186-847B-BD39084D5C85}">
+																						<Attenuation Name="Water_Att (Custom)" ID="{84BF9D90-167E-4439-B85D-0129A97C8427}" ShortID="496345662">
+																							<PropertyList>
+																								<Property Name="RadiusMax" Type="Real64" Value="1800"/>
+																							</PropertyList>
+																							<CurveUsageInfoList>
+																								<VolumeDryUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="VolumeDry" ID="{44813D70-CD3B-4D27-B419-D9EDF94BBFC7}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="3"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>-1</YPos>
+																													<Flags>5</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1098.51301058824</XPos>
+																													<YPos>-1.05139</YPos>
+																													<Flags>0</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1800</XPos>
+																													<YPos>-200</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</VolumeDryUsage>
+																								<VolumeWetGameUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																								</VolumeWetGameUsage>
+																								<VolumeWetUserUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																								</VolumeWetUserUsage>
+																								<LowPassFilterUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																								</LowPassFilterUsage>
+																								<HighPassFilterUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																								</HighPassFilterUsage>
+																								<SpreadUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="Spread" ID="{39A82781-8FBE-4970-B826-B6CE5865A75F}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="1"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>100</YPos>
+																													<Flags>5</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1541.584164</XPos>
+																													<YPos>100</YPos>
+																													<Flags>0</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1800</XPos>
+																													<YPos>0</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</SpreadUsage>
+																								<FocusUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																								</FocusUsage>
+																							</CurveUsageInfoList>
+																						</Attenuation>
+																					</Custom>
+																				</Reference>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_LP_RapidWater_01_Anger_V1" ID="{7DCA5670-BF28-412D-96E7-39C519224A2C}">
+																					<PropertyList>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>9.7</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_LP_RapidWater_01_Anger_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="293009353"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_LP_RapidWater_01_Anger_V1" ID="{7DCA5670-BF28-412D-96E7-39C519224A2C}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="Amb_LP_WaterCalm_01_Anger_V2" ID="{05FEC798-8F4C-43FC-9465-C087D8435CC5}" ShortID="468203476">
+																			<PropertyList>
+																				<Property Name="Lowpass" Type="int16">
+																					<ValueList>
+																						<Value>30</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																				<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																				<Property Name="Pitch" Type="int32">
+																					<ValueList>
+																						<Value>-600</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="UserAuxSendVolume0" Type="Real64">
+																					<ValueList>
+																						<Value>-10</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-5</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
@@ -9987,25 +10188,265 @@
 																				</Reference>
 																			</ReferenceList>
 																			<ChildrenList>
-																				<AudioFileSource Name="Amb_LP_Water_01_Anger_V1" ID="{20232941-96B4-4CA2-B330-18F6F89DFEAD}">
-																					<PropertyList>
-																						<Property Name="VolumeOffset" Type="Real64">
-																							<ValueList>
-																								<Value>15</Value>
-																							</ValueList>
-																						</Property>
-																					</PropertyList>
+																				<AudioFileSource Name="Amb_LP_WaterCalm_01_Anger_V2" ID="{767A65B6-677D-40B2-B434-20515FD8DAAC}">
 																					<Language>SFX</Language>
-																					<AudioFile>Amb_LP_Water_01_Anger_V1.wav</AudioFile>
+																					<AudioFile>Amb_LP_WaterCalm_01_Anger_V2.wav</AudioFile>
 																					<MediaIDList>
-																						<MediaID ID="925045159"/>
+																						<MediaID ID="62609041"/>
 																					</MediaIDList>
 																				</AudioFileSource>
 																			</ChildrenList>
 																			<ActiveSourceList>
-																				<ActiveSource Name="Amb_LP_Water_01_Anger_V1" ID="{20232941-96B4-4CA2-B330-18F6F89DFEAD}" Platform="Linked"/>
+																				<ActiveSource Name="Amb_LP_WaterCalm_01_Anger_V2" ID="{767A65B6-677D-40B2-B434-20515FD8DAAC}" Platform="Linked"/>
 																			</ActiveSourceList>
 																		</Sound>
+																		<Sound Name="Amb_LP_WaterCalm_01_Anger_V2_01" ID="{3D83AFA2-F831-4A4C-B6BE-611AA1514D5F}" ShortID="907153498">
+																			<PropertyList>
+																				<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																				<Property Name="Lowpass" Type="int16">
+																					<ValueList>
+																						<Value>26</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																				<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																				<Property Name="Pitch" Type="int32">
+																					<ValueList>
+																						<Value>-600</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="UserAuxSendVolume0" Type="Real64">
+																					<ValueList>
+																						<Value>-7</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-7</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Attenuation">
+																					<Custom CreatedFrom="{69F294FF-224C-4186-847B-BD39084D5C85}">
+																						<Attenuation Name="Water_Att (Custom)" ID="{801D536B-198F-4384-B360-7F42F985083E}" ShortID="886079899">
+																							<PropertyList>
+																								<Property Name="RadiusMax" Type="Real64" Value="1300"/>
+																							</PropertyList>
+																							<CurveUsageInfoList>
+																								<VolumeDryUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="VolumeDry" ID="{250354DF-398E-4F3B-AC8C-BB7C43C69B5D}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="3"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>-5</YPos>
+																													<Flags>5</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1250</XPos>
+																													<YPos>-5</YPos>
+																													<Flags>0</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1300</XPos>
+																													<YPos>-200</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</VolumeDryUsage>
+																								<VolumeWetGameUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																								</VolumeWetGameUsage>
+																								<VolumeWetUserUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																								</VolumeWetUserUsage>
+																								<LowPassFilterUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																								</LowPassFilterUsage>
+																								<HighPassFilterUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																								</HighPassFilterUsage>
+																								<SpreadUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																										<Curve Name="Spread" ID="{ADDA623E-7C64-4241-9B70-58F0EBD3DEAA}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="1"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>100</YPos>
+																													<Flags>5</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1200</XPos>
+																													<YPos>100</YPos>
+																													<Flags>0</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1300</XPos>
+																													<YPos>0</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</CurveUsageInfo>
+																								</SpreadUsage>
+																								<FocusUsage>
+																									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																								</FocusUsage>
+																							</CurveUsageInfoList>
+																						</Attenuation>
+																					</Custom>
+																				</Reference>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="Amb_LP_WaterCalm_01_Anger_V2" ID="{347E448A-A901-4497-9DB3-5034B3FB03C1}">
+																					<PropertyList>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>14</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<Language>SFX</Language>
+																					<AudioFile>Amb_LP_WaterCalm_01_Anger_V2.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="83716802"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="Amb_LP_WaterCalm_01_Anger_V2" ID="{347E448A-A901-4497-9DB3-5034B3FB03C1}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</ActorMixer>
+																<ActorMixer Name="Spike_Door_Mixer" ID="{4D6E92AA-CA75-444E-9F71-8B0D013D1E28}" ShortID="149342177">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend1">
+																			<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<RandomSequenceContainer Name="Spike_Door_RND" ID="{DEC12C4E-92D7-4FA6-A1EE-3792B97F740D}" ShortID="235362611">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ValueList>
+																						<Value>-200</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-11</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<Sound Name="AMB_OS_SpikeDoor_02_Anger_V1" ID="{4ABA4DC6-42CA-403D-A8B3-1561ED82535A}" ShortID="38277330">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend0">
+																							<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend1">
+																							<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="AMB_OS_SpikeDoor_02_Anger_V1" ID="{430E8B9A-D6CB-495A-8EAE-89924D2FEA06}">
+																							<PropertyList>
+																								<Property Name="VolumeOffset" Type="Real64">
+																									<ValueList>
+																										<Value>20</Value>
+																									</ValueList>
+																								</Property>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>AMB_OS_SpikeDoor_02_Anger_V1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="788795561"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="AMB_OS_SpikeDoor_02_Anger_V1" ID="{430E8B9A-D6CB-495A-8EAE-89924D2FEA06}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="AMB_OS_SpikeDoor_01_Anger_V1" ID="{6B4596BE-EF2A-4F6F-BBAF-BBE7CCAD0D4E}" ShortID="760443276">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend0">
+																							<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend1">
+																							<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="AMB_OS_SpikeDoor_01_Anger_V1" ID="{46AFA278-E921-43AD-8910-D53FF244C6E1}">
+																							<PropertyList>
+																								<Property Name="VolumeOffset" Type="Real64">
+																									<ValueList>
+																										<Value>20</Value>
+																									</ValueList>
+																								</Property>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>AMB_OS_SpikeDoor_01_Anger_V1.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="1036300435"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="AMB_OS_SpikeDoor_01_Anger_V1" ID="{46AFA278-E921-43AD-8910-D53FF244C6E1}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																			</ChildrenList>
+																		</RandomSequenceContainer>
 																	</ChildrenList>
 																</ActorMixer>
 															</ChildrenList>
@@ -11826,20 +12267,26 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-600</XPos>
-																		<YPos>25</YPos>
+																		<XPos>-1469.52998</XPos>
+																		<YPos>24</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-490.48223</XPos>
-																		<YPos>3</YPos>
+																		<XPos>-1317.71075</XPos>
+																		<YPos>-1</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-328.88325</XPos>
-																		<YPos>25</YPos>
+																		<XPos>-96.92058</XPos>
+																		<YPos>3</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>23</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
@@ -11853,9 +12300,6 @@
 													</RTPCList>
 												</Property>
 												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-8</Value>
-													</ValueList>
 													<RTPCList>
 														<RTPC Name="" ID="{FC7EEE24-9BEE-4C00-8E28-760AD5C07C47}" ShortID="352311797">
 															<ReferenceList>
@@ -11875,32 +12319,32 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-574.61929</XPos>
+																		<XPos>-1232.64198</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-500</XPos>
+																		<XPos>-1158.02269</XPos>
 																		<YPos>-12</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-420</XPos>
+																		<XPos>-1078.02269</XPos>
 																		<YPos>0.09814</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-250</XPos>
-																		<YPos>-8</YPos>
+																		<XPos>-29.09239</XPos>
+																		<YPos>0.16164</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-129.31472</XPos>
-																		<YPos>-38.1697</YPos>
+																		<XPos>91.59289</XPos>
+																		<YPos>-30.00806</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log1</SegmentShape>
 																	</Point>
@@ -11928,16 +12372,17 @@
 													<PropertyList>
 														<Property Name="3DPosition" Type="int16" Value="1"/>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 														<Property Name="Lowpass" Type="int16">
 															<ValueList>
-																<Value>49</Value>
+																<Value>50</Value>
 															</ValueList>
 														</Property>
 														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="Pitch" Type="int32">
 															<ValueList>
-																<Value>-700</Value>
+																<Value>-600</Value>
 															</ValueList>
 														</Property>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -11957,8 +12402,21 @@
 														</Property>
 														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="BubbleLava_Att" ID="{20A93853-07A7-4B31-B3C6-C2A047D9B5F4}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 														</Reference>
@@ -20385,7 +20843,18 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="GetHit_Banana" ID="{04B67B50-95A0-4ED9-83C2-BD2CE236E6E6}" ShortID="485695194">
 											<PropertyList>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
 												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-6</Value>
@@ -20538,6 +21007,220 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="Mob_OS_BananaHit_06_Goico_v2" ID="{31265BA3-8BDB-452E-9109-5588C8F82947}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Idle_Banana" ID="{F6F48F25-E577-4F8B-A5F2-4CD3317988EF}" ShortID="612490604">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{91E52A06-329A-4F98-B05E-BA265D72BB78}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Banana_Att" ID="{D2972885-F68A-4F87-AF06-3551028D1D41}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Mob_OS_BananaIdle_01_Goico_v1" ID="{D33C408D-695B-4825-ACE9-48136088F807}" ShortID="857594384">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>36</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mob_OS_BananaIdle_01_Goico_v1" ID="{D965E77E-277F-4E45-B32A-9FF12256821A}">
+															<Language>SFX</Language>
+															<AudioFile>Mob_OS_BananaIdle_01_Goico_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="104064074"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mob_OS_BananaIdle_01_Goico_v1" ID="{D965E77E-277F-4E45-B32A-9FF12256821A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mob_OS_BananaIdle_02_Goico_v1" ID="{C0024245-29EE-4035-BD83-56F895852A1D}" ShortID="621821624">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>43</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mob_OS_BananaIdle_02_Goico_v1" ID="{1E74E691-201E-4502-BF40-898DE24BD7F6}">
+															<Language>SFX</Language>
+															<AudioFile>Mob_OS_BananaIdle_02_Goico_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="818833768"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mob_OS_BananaIdle_02_Goico_v1" ID="{1E74E691-201E-4502-BF40-898DE24BD7F6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mob_OS_BananaIdle_03_Goico_v1" ID="{F05E4703-85B5-4277-975C-EB6C677C641F}" ShortID="319194719">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mob_OS_BananaIdle_03_Goico_v1" ID="{54A51E12-17BD-46CE-B7DA-A7B10112EAB6}">
+															<Language>SFX</Language>
+															<AudioFile>Mob_OS_BananaIdle_03_Goico_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="894326198"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mob_OS_BananaIdle_03_Goico_v1" ID="{54A51E12-17BD-46CE-B7DA-A7B10112EAB6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mob_OS_BananaIdle_04_Goico_v1" ID="{D3814784-B773-47A4-A46D-7E4A079FF5D7}" ShortID="773874726">
+													<PropertyList>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>55</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mob_OS_BananaIdle_04_Goico_v1" ID="{5AAA4D10-8FD6-41EF-A751-FD71F340BA13}">
+															<Language>SFX</Language>
+															<AudioFile>Mob_OS_BananaIdle_04_Goico_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="939630480"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mob_OS_BananaIdle_04_Goico_v1" ID="{5AAA4D10-8FD6-41EF-A751-FD71F340BA13}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mob_OS_BananaIdle_05_Goico_v1" ID="{C85744BC-DA73-42CE-8D08-3B794405E046}" ShortID="341201876">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mob_OS_BananaIdle_05_Goico_v1" ID="{1FE57C6A-46BA-4AC1-8C04-87AF7CB2A79F}">
+															<Language>SFX</Language>
+															<AudioFile>Mob_OS_BananaIdle_05_Goico_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="211851736"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mob_OS_BananaIdle_05_Goico_v1" ID="{1FE57C6A-46BA-4AC1-8C04-87AF7CB2A79F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mob_OS_BananaIdle_06_Goico_v1" ID="{148FE1C8-3731-4A85-98F7-0B274BFB4470}" ShortID="784826012">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>59</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mob_OS_BananaIdle_06_Goico_v1" ID="{F8A58439-20D1-4A8F-81E9-C13BD2CE99A2}">
+															<Language>SFX</Language>
+															<AudioFile>Mob_OS_BananaIdle_06_Goico_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="201612192"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mob_OS_BananaIdle_06_Goico_v1" ID="{F8A58439-20D1-4A8F-81E9-C13BD2CE99A2}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -26408,6 +27091,28 @@
 										<ActiveSource Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{2436BB83-2614-49CF-B1EC-E3426C19A6A6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="UI_OS_Scroll_Pelloux_V1" ID="{BEA8CEE1-BDFE-405B-81EB-01D7EB3B8F15}" ShortID="894250167">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OS_Scroll_Pelloux_V1" ID="{E420E1D4-0569-48B1-8B52-0FBEB2068DCE}">
+											<Language>SFX</Language>
+											<AudioFile>UI_OS_Scroll_Pelloux_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="583141851"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OS_Scroll_Pelloux_V1" ID="{E420E1D4-0569-48B1-8B52-0FBEB2068DCE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="UI_Bestiaire_Mix" ID="{78E854D8-AF2C-4662-9DA2-8475A6346934}" ShortID="418094267">
@@ -26605,6 +27310,943 @@
 										<ActiveSource Name="UI_OS_OpenBook_Bestiary_01_Dambrosio_V2" ID="{D9169082-2297-4804-A743-28992F5A7410}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="UI_OS_Equip_Magic_RomainP" ID="{E503232A-F0E5-491E-BABF-0E6D18ABCE5A}" ShortID="303222103">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OS_Equip_Magic_RomainP" ID="{12E4991D-FEA0-4DD7-A2D3-2B1CDBCE0717}">
+											<Language>SFX</Language>
+											<AudioFile>UI_OS_Equip_Magic_RomainP.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="359650096"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OS_Equip_Magic_RomainP" ID="{12E4991D-FEA0-4DD7-A2D3-2B1CDBCE0717}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI_OS_Equip_Metal_RomainP" ID="{634E9F50-44F0-42DA-B017-C6257B78E0D0}" ShortID="439117458">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OS_Equip_Metal_RomainP" ID="{539CCA8E-2CA1-4F0B-8A82-096C75221106}">
+											<Language>SFX</Language>
+											<AudioFile>UI_OS_Equip_Metal_RomainP.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="105416264"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OS_Equip_Metal_RomainP" ID="{539CCA8E-2CA1-4F0B-8A82-096C75221106}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI_OS_Equip_Wood_RomainP" ID="{498C9EEA-2BFB-4CFA-8B2D-B758EB4DDBA5}" ShortID="886438534">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OS_Equip_Wood_RomainP" ID="{FC906BEF-D7F8-471A-9261-C5B7CEB4E6A9}">
+											<Language>SFX</Language>
+											<AudioFile>UI_OS_Equip_Wood_RomainP.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="702418945"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OS_Equip_Wood_RomainP" ID="{FC906BEF-D7F8-471A-9261-C5B7CEB4E6A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="UI_PLayer_Life_Mixer" ID="{70541893-CCCD-4433-A4E5-1039024F0F02}" ShortID="934905363">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Folder Name="Player_Life" ID="{DE77B290-6907-43CE-938F-7DA36996076D}" ShortID="53608645">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Voice_King_RND" ID="{96F74228-38D6-4523-84D7-22705E1A9F92}" ShortID="57137926">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{51108C70-EFB9-45E5-A344-07EA3B366F7E}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																	<Property Name="Min" Type="Real64" Value="-1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+													<RTPCList>
+														<RTPC Name="" ID="{2169B1B5-B95A-4244-9287-206E213DD300}" ShortID="452970137">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Player_Life" ID="{D6FDC341-5DEE-4931-BFE7-0E4BBEFAEE39}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{9D1279D4-01DC-463E-AC51-862820FF93C5}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>33</XPos>
+																		<YPos>12</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>33.001</XPos>
+																		<YPos>-3600</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-3600</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{18843AB9-57E3-47E6-B894-B5067698E479}" ShortID="769770829">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Player_Life" ID="{D6FDC341-5DEE-4931-BFE7-0E4BBEFAEE39}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{725380FB-A1EE-4DA3-A65A-86C2B4EEF234}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-180.09526</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.001</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>33</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>33.001</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="OS_NPC_KingVoice_01_Raph_V3" ID="{98D4A34D-35C0-4D44-A4AE-049890A05E6A}" ShortID="72263221">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_NPC_KingVoice_01_Raph_V3" ID="{7DAC8AC2-FF44-41EF-9720-3D5189A950DC}">
+															<Language>SFX</Language>
+															<AudioFile>OS_NPC_KingVoice_01_Raph_V3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="387191200"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_NPC_KingVoice_01_Raph_V3" ID="{7DAC8AC2-FF44-41EF-9720-3D5189A950DC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_NPC_KingVoice_02_Raph_V3" ID="{FDCBAA5E-8FAD-4A4C-A8B3-1DC5C243C7AF}" ShortID="982698854">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_NPC_KingVoice_02_Raph_V3" ID="{A91ED449-3E6D-4B24-9084-1EAC7109D5A4}">
+															<Language>SFX</Language>
+															<AudioFile>OS_NPC_KingVoice_02_Raph_V3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="85476270"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_NPC_KingVoice_02_Raph_V3" ID="{A91ED449-3E6D-4B24-9084-1EAC7109D5A4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_NPC_KingVoice_03_Raph_V3" ID="{268C0966-C5F7-485C-A77B-A010DC827C2C}" ShortID="65431823">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_NPC_KingVoice_03_Raph_V3" ID="{851D47B1-4AF0-4082-B62C-3317ED7E619F}">
+															<Language>SFX</Language>
+															<AudioFile>OS_NPC_KingVoice_03_Raph_V3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="334157468"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_NPC_KingVoice_03_Raph_V3" ID="{851D47B1-4AF0-4082-B62C-3317ED7E619F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_NPC_KingVoice_04_Raph_V3" ID="{0294DA75-4044-4C8E-AEB5-041B3A9B5F69}" ShortID="402195755">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_NPC_KingVoice_04_Raph_V3" ID="{D4E98245-231D-4022-8218-C8C2F4C2547E}">
+															<Language>SFX</Language>
+															<AudioFile>OS_NPC_KingVoice_04_Raph_V3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="869997720"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_NPC_KingVoice_04_Raph_V3" ID="{D4E98245-231D-4022-8218-C8C2F4C2547E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_NPC_KingVoice_05_Raph_V3" ID="{9C14836C-A2B7-4D99-92E6-CF84B79D9761}" ShortID="483004796">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_NPC_KingVoice_05_Raph_V3" ID="{220F0BF3-547E-42B9-861C-3858488FC637}">
+															<Language>SFX</Language>
+															<AudioFile>OS_NPC_KingVoice_05_Raph_V3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="550727308"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_NPC_KingVoice_05_Raph_V3" ID="{220F0BF3-547E-42B9-861C-3858488FC637}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_NPC_KingVoice_06_Raph_V3" ID="{4A3763BD-2B7A-4CD1-82F0-1313848D6510}" ShortID="178993147">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_NPC_KingVoice_06_Raph_V3" ID="{12E5BAD2-6129-4132-A5A8-6C9AD2295474}">
+															<Language>SFX</Language>
+															<AudioFile>OS_NPC_KingVoice_06_Raph_V3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="899548417"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_NPC_KingVoice_06_Raph_V3" ID="{12E5BAD2-6129-4132-A5A8-6C9AD2295474}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_NPC_KingVoice_07_Raph_V3" ID="{32AE4BB2-3CC3-4822-AA79-E210F456DD60}" ShortID="520241154">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_NPC_KingVoice_07_Raph_V3" ID="{42768379-3956-4F62-A134-C638E1E50066}">
+															<Language>SFX</Language>
+															<AudioFile>OS_NPC_KingVoice_07_Raph_V3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="936442203"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_NPC_KingVoice_07_Raph_V3" ID="{42768379-3956-4F62-A134-C638E1E50066}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_NPC_KingVoice_08_Raph_V3" ID="{865BFBBE-B625-450A-A412-C522CDD2B853}" ShortID="673000637">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_NPC_KingVoice_08_Raph_V3" ID="{9BAE5AC5-B4C0-4C92-8DA6-A20AA2906020}">
+															<Language>SFX</Language>
+															<AudioFile>OS_NPC_KingVoice_08_Raph_V3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="110897940"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_NPC_KingVoice_08_Raph_V3" ID="{9BAE5AC5-B4C0-4C92-8DA6-A20AA2906020}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_NPC_KingVoice_09_Raph_V3" ID="{941F5BE5-FAE2-47F5-8895-A4618E649DF9}" ShortID="61169820">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_NPC_KingVoice_09_Raph_V3" ID="{5839A073-AA0A-40C4-88C0-5CA8084137F5}">
+															<Language>SFX</Language>
+															<AudioFile>OS_NPC_KingVoice_09_Raph_V3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="180154936"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_NPC_KingVoice_09_Raph_V3" ID="{5839A073-AA0A-40C4-88C0-5CA8084137F5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_NPC_KingVoice_10_Raph_V3" ID="{38522284-9A52-4AD0-844E-2C522A1D5396}" ShortID="385789693">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_NPC_KingVoice_10_Raph_V3" ID="{045505DA-8232-4AF3-A939-3D504C032697}">
+															<Language>SFX</Language>
+															<AudioFile>OS_NPC_KingVoice_10_Raph_V3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="252717324"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_NPC_KingVoice_10_Raph_V3" ID="{045505DA-8232-4AF3-A939-3D504C032697}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_NPC_KingVoice_11_Raph_V3" ID="{CC187810-016A-4BCA-91C3-76752F93A171}" ShortID="462676182">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_NPC_KingVoice_11_Raph_V3" ID="{1F7446D5-C53C-48E9-9D41-5DAC25EB93DF}">
+															<Language>SFX</Language>
+															<AudioFile>OS_NPC_KingVoice_11_Raph_V3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="68200180"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_NPC_KingVoice_11_Raph_V3" ID="{1F7446D5-C53C-48E9-9D41-5DAC25EB93DF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_NPC_KingVoice_12_Raph_V3" ID="{498179D0-9A9F-44B2-B273-4F0D48E03D9E}" ShortID="791338875">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_NPC_KingVoice_12_Raph_V3" ID="{85B0188A-DD68-449E-950B-F4444297DEE1}">
+															<Language>SFX</Language>
+															<AudioFile>OS_NPC_KingVoice_12_Raph_V3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="280797154"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_NPC_KingVoice_12_Raph_V3" ID="{85B0188A-DD68-449E-950B-F4444297DEE1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OS_NPC_KingVoice_13_Raph_V3" ID="{BC32FF6A-DE7F-4716-BB86-5FCDACC16374}" ShortID="99915882">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OS_NPC_KingVoice_13_Raph_V3" ID="{9B2846AE-706B-40CA-BAF0-A7CE7B478A6D}">
+															<Language>SFX</Language>
+															<AudioFile>OS_NPC_KingVoice_13_Raph_V3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="256658426"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OS_NPC_KingVoice_13_Raph_V3" ID="{9B2846AE-706B-40CA-BAF0-A7CE7B478A6D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Voice_King_Whisper_RND" ID="{DB4CD5C0-BDBC-4FED-9D6B-B2DF695C73A7}" ShortID="339298491">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0">
+													<RTPCList>
+														<RTPC Name="" ID="{E269EF80-1CDB-4CDA-8E90-7B2F2A1D2336}" ShortID="497620373">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Player_Life" ID="{D6FDC341-5DEE-4931-BFE7-0E4BBEFAEE39}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{67A2143C-AEF9-4809-9402-B8CB2D865C50}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>33</XPos>
+																		<YPos>8</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>33.001</XPos>
+																		<YPos>-3600</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-3600</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="UI_LP_King_Voice_Whispers_09_Anger_V1" ID="{8CC24494-E4CE-4112-BED7-E3D120E96575}" ShortID="304656013">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UI_LP_King_Voice_Whispers_09_Anger_V1" ID="{C26BD3BC-B5DC-4434-9667-D5B9B9C8459E}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.822601341906625"/>
+																<Property Name="FadeInShape" Type="int16" Value="2"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.41132583170254"/>
+																<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UI_LP_King_Voice_Whispers_09_Anger_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1029642112"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UI_LP_King_Voice_Whispers_09_Anger_V1" ID="{C26BD3BC-B5DC-4434-9667-D5B9B9C8459E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UI_LP_King_Voice_Whispers_12_Anger_V1" ID="{3BC413DF-8EFF-4BC1-8C17-3432C89483C6}" ShortID="779963079">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UI_LP_King_Voice_Whispers_12_Anger_V1" ID="{F63C6C6D-CD84-41D2-B1D2-9EDFF215045C}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.57792986829435"/>
+																<Property Name="FadeInShape" Type="int16" Value="2"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.71284580498866"/>
+																<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UI_LP_King_Voice_Whispers_12_Anger_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="544254406"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UI_LP_King_Voice_Whispers_12_Anger_V1" ID="{F63C6C6D-CD84-41D2-B1D2-9EDFF215045C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UI_LP_King_Voice_Whispers_13_Anger_V1" ID="{02DC24D1-56B8-47B5-855F-5B0D605A1E06}" ShortID="93170258">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UI_LP_King_Voice_Whispers_13_Anger_V1" ID="{D3CCA10E-F8F0-4399-B91F-ECCEA6D8E777}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.987106746808313"/>
+																<Property Name="FadeInShape" Type="int16" Value="2"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.629434582052"/>
+																<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UI_LP_King_Voice_Whispers_13_Anger_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="660361888"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UI_LP_King_Voice_Whispers_13_Anger_V1" ID="{D3CCA10E-F8F0-4399-B91F-ECCEA6D8E777}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UI_LP_King_Voice_Whispers_11_Anger_V1" ID="{D9417D07-BDC2-4AA2-8436-55BD3B9BCAF4}" ShortID="834525431">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UI_LP_King_Voice_Whispers_11_Anger_V1" ID="{311E1BF8-0D75-44F3-9001-B86378457CB9}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.03684931506849"/>
+																<Property Name="FadeInShape" Type="int16" Value="2"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.40779109589041"/>
+																<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UI_LP_King_Voice_Whispers_11_Anger_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="350118765"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UI_LP_King_Voice_Whispers_11_Anger_V1" ID="{311E1BF8-0D75-44F3-9001-B86378457CB9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UI_LP_King_Voice_Whispers_10_Anger_V1" ID="{680D4359-95B3-4A8A-80E5-480194158A98}" ShortID="765008800">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UI_LP_King_Voice_Whispers_10_Anger_V1" ID="{9B1E914A-4DF1-49C3-B635-18ED88486D81}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.13124801975585"/>
+																<Property Name="FadeInShape" Type="int16" Value="2"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.27319168763396"/>
+																<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UI_LP_King_Voice_Whispers_10_Anger_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="858843491"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UI_LP_King_Voice_Whispers_10_Anger_V1" ID="{9B1E914A-4DF1-49C3-B635-18ED88486D81}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UI_LP_King_Voice_Whispers_03_Anger_V1" ID="{D2C906B7-09E4-4263-8032-2AB44578D4AD}" ShortID="644138495">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UI_LP_King_Voice_Whispers_03_Anger_V1" ID="{FFD276B1-2273-40D2-88AF-CBA4760E638C}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.980267993041966"/>
+																<Property Name="FadeInShape" Type="int16" Value="2"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.54945585996956"/>
+																<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UI_LP_King_Voice_Whispers_03_Anger_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="669560046"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UI_LP_King_Voice_Whispers_03_Anger_V1" ID="{FFD276B1-2273-40D2-88AF-CBA4760E638C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UI_LP_King_Voice_Whispers_04_Anger_V1" ID="{ED376DF2-A993-42F5-ACC9-D7E5AC966723}" ShortID="919638341">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UI_LP_King_Voice_Whispers_04_Anger_V1" ID="{3395021F-5D01-44FC-BAB1-F2234FADCD6E}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.17767216475631"/>
+																<Property Name="FadeInShape" Type="int16" Value="2"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.58495045506787"/>
+																<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UI_LP_King_Voice_Whispers_04_Anger_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="329303336"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UI_LP_King_Voice_Whispers_04_Anger_V1" ID="{3395021F-5D01-44FC-BAB1-F2234FADCD6E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UI_LP_King_Voice_Whispers_07_Anger_V1" ID="{FBC0F178-C4BD-4AC8-AE91-17E009DA38E0}" ShortID="442296009">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UI_LP_King_Voice_Whispers_07_Anger_V1" ID="{08BE34BB-141A-4BAE-98C0-43E3EC5F415F}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.62455782312925"/>
+																<Property Name="FadeInShape" Type="int16" Value="2"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.52997740191967"/>
+																<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UI_LP_King_Voice_Whispers_07_Anger_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="150434040"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UI_LP_King_Voice_Whispers_07_Anger_V1" ID="{08BE34BB-141A-4BAE-98C0-43E3EC5F415F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UI_LP_King_Voice_Whispers_08_Anger_V1" ID="{95BF2056-6CFC-4A87-B4F3-6DF5F75D3916}" ShortID="468106024">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UI_LP_King_Voice_Whispers_08_Anger_V1" ID="{F55DB103-3545-425D-814B-F350ABE4EBFB}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.856662201410245"/>
+																<Property Name="FadeInShape" Type="int16" Value="2"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.69500007765663"/>
+																<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UI_LP_King_Voice_Whispers_08_Anger_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1009922398"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UI_LP_King_Voice_Whispers_08_Anger_V1" ID="{F55DB103-3545-425D-814B-F350ABE4EBFB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UI_LP_King_Voice_Whispers_05_Anger_V1" ID="{75C20A4F-A534-4440-B36D-FE9339FA56E8}" ShortID="229404652">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UI_LP_King_Voice_Whispers_05_Anger_V1" ID="{2F749235-3D22-4EA4-8B4F-7FD67595A1B3}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.56403783431181"/>
+																<Property Name="FadeInShape" Type="int16" Value="2"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.22756903674712"/>
+																<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UI_LP_King_Voice_Whispers_05_Anger_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1002468191"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UI_LP_King_Voice_Whispers_05_Anger_V1" ID="{2F749235-3D22-4EA4-8B4F-7FD67595A1B3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UI_LP_King_Voice_Whispers_06_Anger_V1" ID="{AC28BB7C-9DD1-4FD9-AB86-2AB9B47EC65D}" ShortID="636753891">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UI_LP_King_Voice_Whispers_06_Anger_V1" ID="{5828016E-FF1C-4989-88E6-93EAB8CCAB94}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.02932217407511"/>
+																<Property Name="FadeInShape" Type="int16" Value="2"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.79252690802348"/>
+																<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UI_LP_King_Voice_Whispers_06_Anger_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="861295865"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UI_LP_King_Voice_Whispers_06_Anger_V1" ID="{5828016E-FF1C-4989-88E6-93EAB8CCAB94}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UI_LP_King_Voice_Whispers_01_Anger_V1" ID="{3880ABC4-DB94-431A-9EA3-2E76CFF5160E}" ShortID="385554422">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UI_LP_King_Voice_Whispers_01_Anger_V1" ID="{861D57DA-7468-4BE0-8CAC-FCC81361F22F}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.934071459634082"/>
+																<Property Name="FadeInShape" Type="int16" Value="2"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.37051532941944"/>
+																<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UI_LP_King_Voice_Whispers_01_Anger_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1060720514"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UI_LP_King_Voice_Whispers_01_Anger_V1" ID="{861D57DA-7468-4BE0-8CAC-FCC81361F22F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UI_LP_King_Voice_Whispers_02_Anger_V1" ID="{93844089-C3E8-408C-8DC3-7610AFA0E62B}" ShortID="640170066">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UI_LP_King_Voice_Whispers_02_Anger_V1" ID="{07AA8BD3-0ADA-4969-BC3B-7707724BED77}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.946022815518902"/>
+																<Property Name="FadeInShape" Type="int16" Value="2"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.63361988631069"/>
+																<Property Name="FadeOutShape" Type="int16" Value="7"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UI_LP_King_Voice_Whispers_02_Anger_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1030312937"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UI_LP_King_Voice_Whispers_02_Anger_V1" ID="{07AA8BD3-0ADA-4969-BC3B-7707724BED77}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
@@ -27521,7 +29163,6 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Jailtool_RND" ID="{7FB040B7-379D-4795-B0B8-332463D52C04}" ShortID="304152759">
 											<PropertyList>
-												<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 											</PropertyList>
 											<ReferenceList>
@@ -27621,7 +29262,6 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Torturetool_RND" ID="{78542B03-467C-4874-B519-7B9153398E08}" ShortID="515751585">
 											<PropertyList>
-												<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 											</PropertyList>
 											<ReferenceList>

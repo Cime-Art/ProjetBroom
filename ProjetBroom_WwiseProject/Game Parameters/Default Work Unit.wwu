@@ -44,6 +44,7 @@
 								<Property Name="Min" Type="Real64" Value="-2400"/>
 							</PropertyList>
 						</GameParameter>
+						<GameParameter Name="Player_Life" ID="{D6FDC341-5DEE-4931-BFE7-0E4BBEFAEE39}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
