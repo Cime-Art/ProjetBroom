@@ -27469,19 +27469,19 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>33</XPos>
+																		<XPos>0.33</XPos>
 																		<YPos>12</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Constant</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>33.001</XPos>
+																		<XPos>0.331</XPos>
 																		<YPos>-3600</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Constant</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>100</XPos>
+																		<XPos>1</XPos>
 																		<YPos>-3600</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -27523,17 +27523,17 @@
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>33</XPos>
+																		<XPos>0.33</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>33.001</XPos>
+																		<XPos>0.331</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>100</XPos>
+																		<XPos>1</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -27865,19 +27865,19 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>33</XPos>
+																		<XPos>0.33</XPos>
 																		<YPos>8</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Constant</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>33.001</XPos>
+																		<XPos>0.331</XPos>
 																		<YPos>-3600</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Constant</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>100</XPos>
+																		<XPos>1</XPos>
 																		<YPos>-3600</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -27891,6 +27891,42 @@
 													<ValueList>
 														<Value>-15</Value>
 													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{E1E0909A-0B7A-4A61-916F-1A9E2F74F721}" ShortID="722956957">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Player_Life" ID="{D6FDC341-5DEE-4931-BFE7-0E4BBEFAEE39}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{46550680-31B7-4CCB-8008-F80BBC049034}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.33</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.331</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-182.44988</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>

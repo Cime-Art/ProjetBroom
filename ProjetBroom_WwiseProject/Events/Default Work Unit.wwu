@@ -2128,7 +2128,7 @@
 								<Action Name="" ID="{E8F228D1-2412-49A5-B1D9-8F6EDEAACC81}" ShortID="425130593">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Voice_King_RND" ID="{96F74228-38D6-4523-84D7-22705E1A9F92}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+											<ObjectRef Name="Voice_King_Whisper_RND" ID="{DB4CD5C0-BDBC-4FED-9D6B-B2DF695C73A7}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
