@@ -2910,163 +2910,6 @@
 																				</Sound>
 																			</ChildrenList>
 																		</RandomSequenceContainer>
-																		<RandomSequenceContainer Name="PigChainSwing_RND" ID="{7A832747-D689-44D1-9C27-7D31D1C43581}" ShortID="291670670">
-																			<PropertyList>
-																				<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
-																				<Property Name="Highpass" Type="int16">
-																					<ValueList>
-																						<Value>22</Value>
-																					</ValueList>
-																				</Property>
-																				<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-																				<Property Name="MaxSoundPerInstance" Type="int16">
-																					<ValueList>
-																						<Value>3</Value>
-																					</ValueList>
-																				</Property>
-																				<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-																				<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
-																				<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
-																				<Property Name="Pitch" Type="int32">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{241AC00D-38C9-4019-9252-92AF7DA3C09D}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="200"/>
-																									<Property Name="Min" Type="Real64" Value="-150"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="UseMaxSoundPerInstance" Type="bool">
-																					<ValueList>
-																						<Value>True</Value>
-																					</ValueList>
-																				</Property>
-																				<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
-																				<Property Name="Volume" Type="Real64">
-																					<ValueList>
-																						<Value>-8</Value>
-																					</ValueList>
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{D15089D1-3657-4EAF-88AB-95B666D3B10B}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Min" Type="Real64" Value="-5"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																				<Reference Name="UserAuxSend0">
-																					<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																				<Reference Name="UserAuxSend1">
-																					<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<Sound Name="Kitchen_OS_PigChainSwing_06_Sabarros_v1" ID="{EF044DB0-4764-40D4-BC0E-483DC5E00A97}" ShortID="117397029">
-																					<ReferenceList>
-																						<Reference Name="Conversion">
-																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																						</Reference>
-																						<Reference Name="OutputBus">
-																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																						</Reference>
-																					</ReferenceList>
-																					<ChildrenList>
-																						<AudioFileSource Name="Kitchen_OS_PigChainSwing_06_Sabarros_v1" ID="{94B2E701-CE87-41BE-8FC1-90EA6AFDB5D5}">
-																							<Language>SFX</Language>
-																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSwing_06_Sabarros_v1.wav</AudioFile>
-																							<MediaIDList>
-																								<MediaID ID="692372655"/>
-																							</MediaIDList>
-																						</AudioFileSource>
-																					</ChildrenList>
-																					<ActiveSourceList>
-																						<ActiveSource Name="Kitchen_OS_PigChainSwing_06_Sabarros_v1" ID="{94B2E701-CE87-41BE-8FC1-90EA6AFDB5D5}" Platform="Linked"/>
-																					</ActiveSourceList>
-																				</Sound>
-																				<Sound Name="Kitchen_OS_PigChainSwing_07_Sabarros_v1" ID="{D63D097C-3F98-4731-983B-8C6A277CF4D6}" ShortID="154785255">
-																					<ReferenceList>
-																						<Reference Name="Conversion">
-																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																						</Reference>
-																						<Reference Name="OutputBus">
-																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																						</Reference>
-																					</ReferenceList>
-																					<ChildrenList>
-																						<AudioFileSource Name="Kitchen_OS_PigChainSwing_07_Sabarros_v1" ID="{432B40DB-6353-4026-BE44-EBC4A8ADB107}">
-																							<Language>SFX</Language>
-																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSwing_07_Sabarros_v1.wav</AudioFile>
-																							<MediaIDList>
-																								<MediaID ID="1073009624"/>
-																							</MediaIDList>
-																						</AudioFileSource>
-																					</ChildrenList>
-																					<ActiveSourceList>
-																						<ActiveSource Name="Kitchen_OS_PigChainSwing_07_Sabarros_v1" ID="{432B40DB-6353-4026-BE44-EBC4A8ADB107}" Platform="Linked"/>
-																					</ActiveSourceList>
-																				</Sound>
-																				<Sound Name="Kitchen_OS_PigChainSwing_08_Sabarros_v1" ID="{B5106962-5CB1-4181-BD36-BF764D4827E4}" ShortID="461679972">
-																					<ReferenceList>
-																						<Reference Name="Conversion">
-																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																						</Reference>
-																						<Reference Name="OutputBus">
-																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																						</Reference>
-																					</ReferenceList>
-																					<ChildrenList>
-																						<AudioFileSource Name="Kitchen_OS_PigChainSwing_08_Sabarros_v1" ID="{91B23951-47D5-40AD-87C0-251D8310AA6C}">
-																							<Language>SFX</Language>
-																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSwing_08_Sabarros_v1.wav</AudioFile>
-																							<MediaIDList>
-																								<MediaID ID="69683149"/>
-																							</MediaIDList>
-																						</AudioFileSource>
-																					</ChildrenList>
-																					<ActiveSourceList>
-																						<ActiveSource Name="Kitchen_OS_PigChainSwing_08_Sabarros_v1" ID="{91B23951-47D5-40AD-87C0-251D8310AA6C}" Platform="Linked"/>
-																					</ActiveSourceList>
-																				</Sound>
-																				<Sound Name="Kitchen_OS_PigChainSwing_09_Sabarros_v1" ID="{08017C72-4515-4F33-ACBB-AB07A657D0E4}" ShortID="1036292840">
-																					<ReferenceList>
-																						<Reference Name="Conversion">
-																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																						</Reference>
-																						<Reference Name="OutputBus">
-																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																						</Reference>
-																					</ReferenceList>
-																					<ChildrenList>
-																						<AudioFileSource Name="Kitchen_OS_PigChainSwing_09_Sabarros_v1" ID="{FC5A0209-DD34-4083-AEDC-DC6478A47497}">
-																							<Language>SFX</Language>
-																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSwing_09_Sabarros_v1.wav</AudioFile>
-																							<MediaIDList>
-																								<MediaID ID="830490783"/>
-																							</MediaIDList>
-																						</AudioFileSource>
-																					</ChildrenList>
-																					<ActiveSourceList>
-																						<ActiveSource Name="Kitchen_OS_PigChainSwing_09_Sabarros_v1" ID="{FC5A0209-DD34-4083-AEDC-DC6478A47497}" Platform="Linked"/>
-																					</ActiveSourceList>
-																				</Sound>
-																			</ChildrenList>
-																		</RandomSequenceContainer>
 																		<RandomSequenceContainer Name="GetHitLight_RND" ID="{EDACBF77-EA46-409D-A8AF-A5A48F0E125E}" ShortID="523448174">
 																			<PropertyList>
 																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
@@ -3214,63 +3057,7 @@
 																				</Sound>
 																			</ChildrenList>
 																		</RandomSequenceContainer>
-																		<RandomSequenceContainer Name="ChainSqueak_RND" ID="{4FD2C0D0-16ED-4E44-BA48-87CC31B75509}" ShortID="385737560">
-																			<PropertyList>
-																				<Property Name="Lowpass" Type="int16">
-																					<ValueList>
-																						<Value>8</Value>
-																					</ValueList>
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{C0AA735C-4E8B-48F6-8F2A-559A98630C66}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="35"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="MaxSoundPerInstance" Type="int16">
-																					<ValueList>
-																						<Value>1</Value>
-																					</ValueList>
-																				</Property>
-																				<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-																				<Property Name="Pitch" Type="int32">
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{7C8EA456-FB32-4425-9923-4A041B6CF0DA}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Max" Type="Real64" Value="250"/>
-																									<Property Name="Min" Type="Real64" Value="-150"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																				<Property Name="UseMaxSoundPerInstance" Type="bool">
-																					<ValueList>
-																						<Value>True</Value>
-																					</ValueList>
-																				</Property>
-																				<Property Name="Volume" Type="Real64">
-																					<ValueList>
-																						<Value>-6</Value>
-																					</ValueList>
-																					<ModifierList>
-																						<ModifierInfo>
-																							<Modifier Name="" ID="{C05892B8-D109-48E0-BAAC-D4602C409977}">
-																								<PropertyList>
-																									<Property Name="Enabled" Type="bool" Value="True"/>
-																									<Property Name="Min" Type="Real64" Value="-6"/>
-																								</PropertyList>
-																							</Modifier>
-																						</ModifierInfo>
-																					</ModifierList>
-																				</Property>
-																			</PropertyList>
+																		<BlendContainer Name="Blend_Mouvement Chain" ID="{A4B9ADFC-C1B3-41A0-8D8C-57F2E3EB1131}" ShortID="254621593">
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -3280,74 +3067,323 @@
 																				</Reference>
 																			</ReferenceList>
 																			<ChildrenList>
-																				<Sound Name="Kitchen_OS_PigChainSqueak_01_Sabarros_v1" ID="{88D567B4-10B3-44C1-8C0F-AEFCBFF1D843}" ShortID="318661767">
+																				<RandomSequenceContainer Name="PigChainSwing_RND" ID="{7A832747-D689-44D1-9C27-7D31D1C43581}" ShortID="291670670">
+																					<PropertyList>
+																						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+																						<Property Name="Highpass" Type="int16">
+																							<ValueList>
+																								<Value>22</Value>
+																							</ValueList>
+																						</Property>
+																						<Property Name="InitialDelay" Type="Real64">
+																							<ValueList>
+																								<Value>0.1</Value>
+																							</ValueList>
+																						</Property>
+																						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+																						<Property Name="MaxSoundPerInstance" Type="int16">
+																							<ValueList>
+																								<Value>3</Value>
+																							</ValueList>
+																						</Property>
+																						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+																						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+																						<Property Name="Pitch" Type="int32">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{241AC00D-38C9-4019-9252-92AF7DA3C09D}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="200"/>
+																											<Property Name="Min" Type="Real64" Value="-150"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="UseMaxSoundPerInstance" Type="bool">
+																							<ValueList>
+																								<Value>True</Value>
+																							</ValueList>
+																						</Property>
+																						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-8</Value>
+																							</ValueList>
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{D15089D1-3657-4EAF-88AB-95B666D3B10B}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Min" Type="Real64" Value="-5"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																					</PropertyList>
 																					<ReferenceList>
+																						<Reference Name="Attenuation">
+																							<ObjectRef Name="PigChain_Att" ID="{1FFFADBD-19DC-4D84-9756-B1673CA44EF1}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																						</Reference>
 																						<Reference Name="Conversion">
 																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																						</Reference>
 																						<Reference Name="OutputBus">
-																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																							<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend0">
+																							<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend1">
+																							<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																						</Reference>
 																					</ReferenceList>
 																					<ChildrenList>
-																						<AudioFileSource Name="Kitchen_OS_PigChainSqueak_01_Sabarros_v1" ID="{FF0D2115-D59C-490E-B2CD-B14BDEA88117}">
-																							<Language>SFX</Language>
-																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSqueak_01_Sabarros_v1.wav</AudioFile>
-																							<MediaIDList>
-																								<MediaID ID="757405393"/>
-																							</MediaIDList>
-																						</AudioFileSource>
+																						<Sound Name="Kitchen_OS_PigChainSwing_06_Sabarros_v1" ID="{EF044DB0-4764-40D4-BC0E-483DC5E00A97}" ShortID="117397029">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Kitchen_OS_PigChainSwing_06_Sabarros_v1" ID="{94B2E701-CE87-41BE-8FC1-90EA6AFDB5D5}">
+																									<Language>SFX</Language>
+																									<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSwing_06_Sabarros_v1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="692372655"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Kitchen_OS_PigChainSwing_06_Sabarros_v1" ID="{94B2E701-CE87-41BE-8FC1-90EA6AFDB5D5}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="Kitchen_OS_PigChainSwing_07_Sabarros_v1" ID="{D63D097C-3F98-4731-983B-8C6A277CF4D6}" ShortID="154785255">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Kitchen_OS_PigChainSwing_07_Sabarros_v1" ID="{432B40DB-6353-4026-BE44-EBC4A8ADB107}">
+																									<Language>SFX</Language>
+																									<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSwing_07_Sabarros_v1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="1073009624"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Kitchen_OS_PigChainSwing_07_Sabarros_v1" ID="{432B40DB-6353-4026-BE44-EBC4A8ADB107}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="Kitchen_OS_PigChainSwing_08_Sabarros_v1" ID="{B5106962-5CB1-4181-BD36-BF764D4827E4}" ShortID="461679972">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Kitchen_OS_PigChainSwing_08_Sabarros_v1" ID="{91B23951-47D5-40AD-87C0-251D8310AA6C}">
+																									<Language>SFX</Language>
+																									<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSwing_08_Sabarros_v1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="69683149"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Kitchen_OS_PigChainSwing_08_Sabarros_v1" ID="{91B23951-47D5-40AD-87C0-251D8310AA6C}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="Kitchen_OS_PigChainSwing_09_Sabarros_v1" ID="{08017C72-4515-4F33-ACBB-AB07A657D0E4}" ShortID="1036292840">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Kitchen_OS_PigChainSwing_09_Sabarros_v1" ID="{FC5A0209-DD34-4083-AEDC-DC6478A47497}">
+																									<Language>SFX</Language>
+																									<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSwing_09_Sabarros_v1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="830490783"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Kitchen_OS_PigChainSwing_09_Sabarros_v1" ID="{FC5A0209-DD34-4083-AEDC-DC6478A47497}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
 																					</ChildrenList>
-																					<ActiveSourceList>
-																						<ActiveSource Name="Kitchen_OS_PigChainSqueak_01_Sabarros_v1" ID="{FF0D2115-D59C-490E-B2CD-B14BDEA88117}" Platform="Linked"/>
-																					</ActiveSourceList>
-																				</Sound>
-																				<Sound Name="Kitchen_OS_PigChainSqueak_02_Sabarros_v1" ID="{F2977FAA-B8A4-4D42-BAC3-B44BDFC4D692}" ShortID="500300196">
+																				</RandomSequenceContainer>
+																				<RandomSequenceContainer Name="ChainSqueak_RND" ID="{4FD2C0D0-16ED-4E44-BA48-87CC31B75509}" ShortID="385737560">
+																					<PropertyList>
+																						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+																						<Property Name="Lowpass" Type="int16">
+																							<ValueList>
+																								<Value>8</Value>
+																							</ValueList>
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{C0AA735C-4E8B-48F6-8F2A-559A98630C66}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="35"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="MaxSoundPerInstance" Type="int16">
+																							<ValueList>
+																								<Value>1</Value>
+																							</ValueList>
+																						</Property>
+																						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																						<Property Name="Pitch" Type="int32">
+																							<ValueList>
+																								<Value>-300</Value>
+																							</ValueList>
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{7C8EA456-FB32-4425-9923-4A041B6CF0DA}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="250"/>
+																											<Property Name="Min" Type="Real64" Value="-150"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="UseMaxSoundPerInstance" Type="bool">
+																							<ValueList>
+																								<Value>True</Value>
+																							</ValueList>
+																						</Property>
+																						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-6</Value>
+																							</ValueList>
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{C05892B8-D109-48E0-BAAC-D4602C409977}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Min" Type="Real64" Value="-6"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																					</PropertyList>
 																					<ReferenceList>
+																						<Reference Name="Attenuation">
+																							<ObjectRef Name="PigChain_Att" ID="{1FFFADBD-19DC-4D84-9756-B1673CA44EF1}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																						</Reference>
 																						<Reference Name="Conversion">
 																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 																						</Reference>
 																						<Reference Name="OutputBus">
-																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																							<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend0">
+																							<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																						<Reference Name="UserAuxSend1">
+																							<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																						</Reference>
 																					</ReferenceList>
 																					<ChildrenList>
-																						<AudioFileSource Name="Kitchen_OS_PigChainSqueak_02_Sabarros_v1" ID="{1A1C06F5-7F9E-42D9-8390-8218D3D38307}">
-																							<Language>SFX</Language>
-																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSqueak_02_Sabarros_v1.wav</AudioFile>
-																							<MediaIDList>
-																								<MediaID ID="589897967"/>
-																							</MediaIDList>
-																						</AudioFileSource>
+																						<Sound Name="Kitchen_OS_PigChainSqueak_01_Sabarros_v1" ID="{88D567B4-10B3-44C1-8C0F-AEFCBFF1D843}" ShortID="318661767">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Kitchen_OS_PigChainSqueak_01_Sabarros_v1" ID="{FF0D2115-D59C-490E-B2CD-B14BDEA88117}">
+																									<Language>SFX</Language>
+																									<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSqueak_01_Sabarros_v1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="757405393"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Kitchen_OS_PigChainSqueak_01_Sabarros_v1" ID="{FF0D2115-D59C-490E-B2CD-B14BDEA88117}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="Kitchen_OS_PigChainSqueak_02_Sabarros_v1" ID="{F2977FAA-B8A4-4D42-BAC3-B44BDFC4D692}" ShortID="500300196">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Kitchen_OS_PigChainSqueak_02_Sabarros_v1" ID="{1A1C06F5-7F9E-42D9-8390-8218D3D38307}">
+																									<Language>SFX</Language>
+																									<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSqueak_02_Sabarros_v1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="589897967"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Kitchen_OS_PigChainSqueak_02_Sabarros_v1" ID="{1A1C06F5-7F9E-42D9-8390-8218D3D38307}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="Kitchen_OS_PigChainSqueak_03_Sabarros_v1" ID="{224CD438-6455-4052-983A-B9B5FD5A2175}" ShortID="737219266">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="Kitchen_OS_PigChainSqueak_03_Sabarros_v1" ID="{84B8ECAD-FD4D-4CE1-ACD2-E73A51BA2DB4}">
+																									<Language>SFX</Language>
+																									<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSqueak_03_Sabarros_v1.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="1014455322"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="Kitchen_OS_PigChainSqueak_03_Sabarros_v1" ID="{84B8ECAD-FD4D-4CE1-ACD2-E73A51BA2DB4}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
 																					</ChildrenList>
-																					<ActiveSourceList>
-																						<ActiveSource Name="Kitchen_OS_PigChainSqueak_02_Sabarros_v1" ID="{1A1C06F5-7F9E-42D9-8390-8218D3D38307}" Platform="Linked"/>
-																					</ActiveSourceList>
-																				</Sound>
-																				<Sound Name="Kitchen_OS_PigChainSqueak_03_Sabarros_v1" ID="{224CD438-6455-4052-983A-B9B5FD5A2175}" ShortID="737219266">
-																					<ReferenceList>
-																						<Reference Name="Conversion">
-																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																						</Reference>
-																						<Reference Name="OutputBus">
-																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																						</Reference>
-																					</ReferenceList>
-																					<ChildrenList>
-																						<AudioFileSource Name="Kitchen_OS_PigChainSqueak_03_Sabarros_v1" ID="{84B8ECAD-FD4D-4CE1-ACD2-E73A51BA2DB4}">
-																							<Language>SFX</Language>
-																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainSqueak_03_Sabarros_v1.wav</AudioFile>
-																							<MediaIDList>
-																								<MediaID ID="1014455322"/>
-																							</MediaIDList>
-																						</AudioFileSource>
-																					</ChildrenList>
-																					<ActiveSourceList>
-																						<ActiveSource Name="Kitchen_OS_PigChainSqueak_03_Sabarros_v1" ID="{84B8ECAD-FD4D-4CE1-ACD2-E73A51BA2DB4}" Platform="Linked"/>
-																					</ActiveSourceList>
-																				</Sound>
+																				</RandomSequenceContainer>
 																			</ChildrenList>
-																		</RandomSequenceContainer>
+																		</BlendContainer>
 																	</ChildrenList>
 																</ActorMixer>
 															</ChildrenList>
@@ -27433,19 +27469,19 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>33</XPos>
+																		<XPos>0.33</XPos>
 																		<YPos>12</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Constant</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>33.001</XPos>
+																		<XPos>0.331</XPos>
 																		<YPos>-3600</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Constant</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>100</XPos>
+																		<XPos>1</XPos>
 																		<YPos>-3600</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -27483,21 +27519,21 @@
 																	</Point>
 																	<Point>
 																		<XPos>0.001</XPos>
-																		<YPos>-0</YPos>
+																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>33</XPos>
-																		<YPos>-0</YPos>
+																		<XPos>0.33</XPos>
+																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>33.001</XPos>
+																		<XPos>0.331</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>100</XPos>
+																		<XPos>1</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -27829,19 +27865,19 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>33</XPos>
+																		<XPos>0.33</XPos>
 																		<YPos>8</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Constant</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>33.001</XPos>
+																		<XPos>0.331</XPos>
 																		<YPos>-3600</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Constant</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>100</XPos>
+																		<XPos>1</XPos>
 																		<YPos>-3600</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -27855,6 +27891,42 @@
 													<ValueList>
 														<Value>-15</Value>
 													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{E1E0909A-0B7A-4A61-916F-1A9E2F74F721}" ShortID="722956957">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Player_Life" ID="{D6FDC341-5DEE-4931-BFE7-0E4BBEFAEE39}" WorkUnitID="{9029B1E4-1B45-47CB-BBD0-C8529F763B6C}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{46550680-31B7-4CCB-8008-F80BBC049034}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.33</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.331</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-182.44988</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>

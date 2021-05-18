@@ -1195,50 +1195,6 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Event_PigChain_GetHit" ID="{82283B9A-2D83-434D-B906-672BEB24E691}">
-											<ChildrenList>
-												<Action Name="" ID="{59C4F061-FE90-408E-8EFC-DC1E590588D9}" ShortID="22430787">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="GetHit_RND" ID="{EEF59CB1-1A8A-4202-ABB8-EB1E0F487D46}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Event_PigChain_GetHitLight" ID="{ADCE461A-7DDF-4726-852D-0C72F5BFC70A}">
-											<ChildrenList>
-												<Action Name="" ID="{C86182C1-473B-4172-9835-FCC7B924310E}" ShortID="522586063">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="GetHitLight_RND" ID="{EDACBF77-EA46-409D-A8AF-A5A48F0E125E}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Event_PigChainSwing" ID="{D0B32994-02A0-47D0-AE3F-7987F5853371}">
-											<ChildrenList>
-												<Action Name="" ID="{9175E12A-52EF-4CEF-AF74-DBFC38E20133}" ShortID="657698920">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="PigChainSwing_RND" ID="{7A832747-D689-44D1-9C27-7D31D1C43581}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Event_PigChainSqueak" ID="{BC529EE4-8725-448C-B3A1-1392111DEFAF}">
-											<ChildrenList>
-												<Action Name="" ID="{BD1FF8CD-7CB1-40DB-B140-64F12C5CC019}" ShortID="239069564">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="ChainSqueak_RND" ID="{4FD2C0D0-16ED-4E44-BA48-87CC31B75509}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Boiler" ID="{E3693FC2-1B70-4FD8-A1E2-1B3E6707E479}" ShortID="756491329">
@@ -1401,6 +1357,43 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Birds_RND" ID="{6DAEA02D-6BEF-4306-AB32-B56A570FE1D6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Barn_02" ID="{F6E9FD2B-7D73-41BD-B304-843343C2FC21}" ShortID="477767617">
+									<ChildrenList>
+										<Event Name="Event_GetHit_Pig" ID="{8A9E914A-9042-4B62-91FA-3C7B1F321010}">
+											<ChildrenList>
+												<Action Name="" ID="{0AD42325-3218-4FF7-8341-0BFAA957E562}" ShortID="902665592">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GetHit_RND" ID="{EEF59CB1-1A8A-4202-ABB8-EB1E0F487D46}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_GetHit_Player_Pig" ID="{B216BD8C-64FD-458E-99FB-5AF271919414}">
+											<ChildrenList>
+												<Action Name="" ID="{81E99204-AA47-4E4D-9245-AD911A44F2C8}" ShortID="729255215">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GetHitLight_RND" ID="{EDACBF77-EA46-409D-A8AF-A5A48F0E125E}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_ChainMouvement" ID="{29E70945-DC72-4994-ABE0-7C5E818D886F}">
+											<ChildrenList>
+												<Action Name="" ID="{6EA09715-A2E5-4D2F-A081-452F58B5C98B}" ShortID="217403591">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Blend_Mouvement Chain" ID="{A4B9ADFC-C1B3-41A0-8D8C-57F2E3EB1131}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -2135,7 +2128,7 @@
 								<Action Name="" ID="{E8F228D1-2412-49A5-B1D9-8F6EDEAACC81}" ShortID="425130593">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Voice_King_RND" ID="{96F74228-38D6-4523-84D7-22705E1A9F92}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+											<ObjectRef Name="Voice_King_Whisper_RND" ID="{DB4CD5C0-BDBC-4FED-9D6B-B2DF695C73A7}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
