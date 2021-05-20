@@ -127,6 +127,10 @@
 							<Value>0.5</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Player_Life" ID="{D6FDC341-5DEE-4931-BFE7-0E4BBEFAEE39}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>
 							<Value>-48</Value>
 						</RTPCValue>
@@ -145,6 +149,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{6D47C0C6-5A10-42E8-876A-0F1F09BE2DA8}"/>
+						<CurrentStateRef Name="Boss" ID="{09A97156-473B-4DEB-BE19-FBDA384EEBF0}"/>
 						<CurrentStateRef Name="None" ID="{84F7C088-EADC-42A7-9FC3-4384FBFC1D96}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

@@ -402,6 +402,16 @@
 								<State Name="Off" ID="{0DADE348-17F7-45E7-9CF4-D3DCB9D317C3}"/>
 							</ChildrenList>
 						</StateGroup>
+						<StateGroup Name="Hell_Level_Boss" ID="{1B86A890-F568-41D7-9F76-78C18A6977F2}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{186EDAFE-DAAA-4B13-9F44-33B07EB9A648}"/>
+								<State Name="Level" ID="{BD943A07-32D6-4547-9D3D-4210380C79CD}"/>
+								<State Name="Boss" ID="{09A97156-473B-4DEB-BE19-FBDA384EEBF0}"/>
+							</ChildrenList>
+						</StateGroup>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

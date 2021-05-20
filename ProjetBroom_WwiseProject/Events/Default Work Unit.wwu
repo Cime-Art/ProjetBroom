@@ -1855,7 +1855,7 @@
 								<Action Name="" ID="{4D516784-3041-4627-BBA1-F19BC7EEEF23}" ShortID="753192770">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music Hell" ID="{9B9FC1EC-F8E7-4B7D-9A8C-588B09482E94}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+											<ObjectRef Name="Level_Boss_Switch" ID="{53ED204E-399C-4CAD-A294-9B18AA04736F}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1872,7 +1872,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music Hell" ID="{9B9FC1EC-F8E7-4B7D-9A8C-588B09482E94}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+											<ObjectRef Name="Level_Boss_Switch" ID="{53ED204E-399C-4CAD-A294-9B18AA04736F}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
