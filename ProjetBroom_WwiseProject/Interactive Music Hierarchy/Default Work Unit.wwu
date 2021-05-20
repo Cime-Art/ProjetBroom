@@ -2749,7 +2749,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+									<ObjectRef Name="Music" ID="{3AAA1A5D-7D18-49B8-944D-76833FC3D4F7}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 								</Reference>
 								<Reference Name="UserAuxSend0">
 									<ObjectRef Name="RVB_Music_Tuto" ID="{A13212C2-959A-4E4F-886C-ED3485FD6339}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>

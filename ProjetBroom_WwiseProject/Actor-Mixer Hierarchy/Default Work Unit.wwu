@@ -17230,6 +17230,11 @@
 																						<Property Name="FadeOutDuration" Type="Real64" Value="0.25889212962963"/>
 																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																						<Property Name="TrimEnd" Type="Real64" Value="0.917890277777778"/>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>3</Value>
+																							</ValueList>
+																						</Property>
 																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Mob_OS_SkeletonCacGetHit_01.wav</AudioFile>
@@ -17267,6 +17272,11 @@
 																						<Property Name="FadeOutDuration" Type="Real64" Value="0.329567307692308"/>
 																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																						<Property Name="TrimEnd" Type="Real64" Value="1.08317788461538"/>
+																						<Property Name="VolumeOffset" Type="Real64">
+																							<ValueList>
+																								<Value>3</Value>
+																							</ValueList>
+																						</Property>
 																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Mob_OS_SkeletonCacGetHit_02.wav</AudioFile>
