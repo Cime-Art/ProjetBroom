@@ -149,8 +149,9 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{6D47C0C6-5A10-42E8-876A-0F1F09BE2DA8}"/>
-						<CurrentStateRef Name="Boss" ID="{09A97156-473B-4DEB-BE19-FBDA384EEBF0}"/>
+						<CurrentStateRef Name="None" ID="{186EDAFE-DAAA-4B13-9F44-33B07EB9A648}"/>
 						<CurrentStateRef Name="None" ID="{84F7C088-EADC-42A7-9FC3-4384FBFC1D96}"/>
+						<CurrentStateRef Name="Exploration" ID="{F4E8D336-C182-4523-A0EE-D4E297EBDD9E}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
