@@ -349,6 +349,31 @@
 								</StateGroup>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="SkullFire" ID="{4B7869C3-86D6-43E6-A028-2BCF9EEABEA9}" ShortID="776892658">
+							<ChildrenList>
+								<StateGroup Name="SkullFireAttack_Group" ID="{FD97D2EF-686F-41F3-B22B-2B616AB69BDA}">
+									<ChildrenList>
+										<State Name="None" ID="{06270BCA-59A5-4B97-8248-1498688C49E1}"/>
+										<State Name="Skull_Attackhit_state" ID="{D5093DE0-4E58-408C-A769-085C92912BE2}"/>
+										<State Name="Skull_FireWave_state" ID="{D53A2A71-867D-431F-9996-A39869FF2E2A}"/>
+										<State Name="Skull_Fire_state" ID="{E32C7B60-2BBA-416A-9D0F-0B5C4BFE8280}"/>
+										<State Name="Skull_Fireball_state" ID="{4831D5D8-C572-4F14-9001-EDA63630C33E}"/>
+										<State Name="Skull_MoveForward_state" ID="{0A76D8B9-1E2B-454B-8C0E-EDB5C1D1076E}"/>
+										<State Name="Skull_Charge_state" ID="{239664C0-B569-45CC-B8A8-B6B672827511}"/>
+										<State Name="Skull_idle_state" ID="{E4164C07-0D3B-44E2-B5EE-0B802E0F1392}"/>
+										<State Name="Skull_Death_state" ID="{2F660630-8FA7-46E0-96F7-E3513EE2ED1F}"/>
+									</ChildrenList>
+									<TransitionList>
+										<Transition>
+											<StartState Name="Skull_idle_state" ID="{E4164C07-0D3B-44E2-B5EE-0B802E0F1392}"/>
+											<EndState Name="Skull_Attackhit_state" ID="{D5093DE0-4E58-408C-A769-085C92912BE2}"/>
+											<Time>0.5</Time>
+											<IsShared>true</IsShared>
+										</Transition>
+									</TransitionList>
+								</StateGroup>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{0E1C6292-8971-4BBB-80A0-0F23EB7A5EAB}" ShortID="284628511">

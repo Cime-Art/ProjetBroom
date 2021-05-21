@@ -21487,14 +21487,88 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="GetHit_Skull_OS_01" ID="{D0BFBEDD-D249-4AD6-830B-79E64DBDB650}" ShortID="686754591">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GetHit_Skull_OS_01" ID="{C35A254E-4CA3-476A-8EC4-4716433FA5C4}">
+															<Language>SFX</Language>
+															<AudioFile>GetHit_Skull_OS_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="393269593"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GetHit_Skull_OS_01" ID="{C35A254E-4CA3-476A-8EC4-4716433FA5C4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GetHit_Skull_OS_02" ID="{AD466FC8-F65E-46C4-9524-6FB0E0826335}" ShortID="502503690">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GetHit_Skull_OS_02" ID="{05C9A43B-4715-4FBC-9FFF-81CBA153F2A6}">
+															<Language>SFX</Language>
+															<AudioFile>GetHit_Skull_OS_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="349161527"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GetHit_Skull_OS_02" ID="{05C9A43B-4715-4FBC-9FFF-81CBA153F2A6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GetHit_Skull_OS_03" ID="{B02D1B9C-3B98-41E2-B907-24EB964DE53E}" ShortID="230176035">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GetHit_Skull_OS_03" ID="{1D098C2F-2319-48B2-864C-602AA4F61ED4}">
+															<Language>SFX</Language>
+															<AudioFile>GetHit_Skull_OS_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="207704496"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GetHit_Skull_OS_03" ID="{1D098C2F-2319-48B2-864C-602AA4F61ED4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<SwitchContainer Name="SkullFire_sw" ID="{95C0D2C4-1116-4356-878A-5DF643421D3C}" ShortID="843550238">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="Skull_idle_state" ID="{E4164C07-0D3B-44E2-B5EE-0B802E0F1392}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="SkullFireAttack_Group" ID="{FD97D2EF-686F-41F3-B22B-2B616AB69BDA}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -21519,6 +21593,11 @@
 													</ReferenceList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="MoveForward_rnd" ID="{3268A1D3-D559-464D-A52C-4FDBC857CD2A}" ShortID="971988819">
+													<PropertyList>
+														<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -21527,8 +21606,81 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="MoveForward_Skull_OS_01" ID="{A50CF889-55A9-49BC-9A12-71EAB8EF824C}" ShortID="80145304">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MoveForward_Skull_OS_01" ID="{9737B582-410F-4053-AF7D-8C3D222C8C91}">
+																	<Language>SFX</Language>
+																	<AudioFile>MoveForward_Skull_OS_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="201851228"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MoveForward_Skull_OS_01" ID="{9737B582-410F-4053-AF7D-8C3D222C8C91}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MoveForward_Skull_OS_02" ID="{0021D245-74EC-438C-8B7F-A86CD0EA4957}" ShortID="192069652">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MoveForward_Skull_OS_02" ID="{D75DAB4E-04DB-4D46-ABD5-90906F7D2F2F}">
+																	<Language>SFX</Language>
+																	<AudioFile>MoveForward_Skull_OS_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="686888638"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MoveForward_Skull_OS_02" ID="{D75DAB4E-04DB-4D46-ABD5-90906F7D2F2F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MoveForward_Skull_OS_03" ID="{0C679F83-3C96-48F8-A298-34B1CDBA97BB}" ShortID="650369239">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MoveForward_Skull_OS_03" ID="{722AF277-2786-4719-A509-3673B0C705E0}">
+																	<Language>SFX</Language>
+																	<AudioFile>MoveForward_Skull_OS_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="761713588"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MoveForward_Skull_OS_03" ID="{722AF277-2786-4719-A509-3673B0C705E0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="idle_rnd" ID="{1600B6FC-E306-4C8F-8C99-1D90D902D819}" ShortID="392490430">
+													<PropertyList>
+														<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -21537,8 +21689,37 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Idle_Skull_LP_01" ID="{3E42B7A9-0715-45D8-8294-6DFEFEFAF3A2}" ShortID="402246581">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Idle_Skull_LP_01" ID="{CF79EC19-357B-4347-AFFC-2DCD34CB522A}">
+																	<Language>SFX</Language>
+																	<AudioFile>Idle_Skull_LP_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="832076417"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Idle_Skull_LP_01" ID="{CF79EC19-357B-4347-AFFC-2DCD34CB522A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Fireball_rnd" ID="{FC1B0EC8-500E-4423-B9CF-F4095EC71FFB}" ShortID="943847105">
+													<PropertyList>
+														<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -21547,8 +21728,37 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Fireball_Skull_OS_01" ID="{71F2A2E9-3390-4061-A574-31D61868BC3B}" ShortID="609753831">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Fireball_Skull_OS_01" ID="{45E6CC37-CBA7-49AE-9A3B-EE997A89BC53}">
+																	<Language>SFX</Language>
+																	<AudioFile>Fireball_Skull_OS_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="938642391"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Fireball_Skull_OS_01" ID="{45E6CC37-CBA7-49AE-9A3B-EE997A89BC53}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Fire_rnd" ID="{857872B4-D172-40CD-AEDE-95E2A276A53A}" ShortID="730216486">
+													<PropertyList>
+														<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -21557,6 +21767,30 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Fire_Skull_OS_01" ID="{E0E024ED-1BB8-41EF-B526-3E3D41EA9332}" ShortID="878035770">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Fire_Skull_OS_01" ID="{4B144DA9-0170-4B13-97F6-2DCDE97A7527}">
+																	<Language>SFX</Language>
+																	<AudioFile>Fire_Skull_OS_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="18426967"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Fire_Skull_OS_01" ID="{4B144DA9-0170-4B13-97F6-2DCDE97A7527}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Death_rnd" ID="{D4A1C3AF-525D-4F65-A846-A5C655B2B8FE}" ShortID="85473956">
 													<ReferenceList>
@@ -21567,6 +21801,30 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Death_Skull_OS_01" ID="{25ED025C-9454-4725-90E8-B34F3BE85D9B}" ShortID="555977397">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Death_Skull_OS_01" ID="{0C818BFC-6656-483A-BEFA-2DC335639393}">
+																	<Language>SFX</Language>
+																	<AudioFile>Death_Skull_OS_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="794890848"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Death_Skull_OS_01" ID="{0C818BFC-6656-483A-BEFA-2DC335639393}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="ChargesStartLoop_rnd" ID="{AB5A6A7B-C375-405B-A852-F43522B19F12}" ShortID="516170691">
 													<ReferenceList>
@@ -21618,17 +21876,12 @@
 														</Reference>
 													</ReferenceList>
 												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="SkullCrush_rnd" ID="{95EE46F5-8668-4404-B880-514CED8BFFAA}" ShortID="902294240">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Attack_rnd" ID="{7C8308C6-5D70-40B4-87A5-1BCA2AAACD7F}" ShortID="678632318">
+													<PropertyList>
+														<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -21637,6 +21890,69 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="AttackHit_Skull_OS_01" ID="{AE8119B3-8072-41FD-A679-8E6607023E06}" ShortID="797570700">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AttackHit_02" ID="{0F4C3CE1-78B4-4DBE-BCE2-6C1C98877942}">
+																	<Language>SFX</Language>
+																	<AudioFile>AttackHit_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="967820506"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AttackHit_02" ID="{0F4C3CE1-78B4-4DBE-BCE2-6C1C98877942}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="FireWave_rnd" ID="{32F7E286-0798-4404-8648-3D7CF2778FDA}" ShortID="444086665">
+													<PropertyList>
+														<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Firewave_Skull_OS_01" ID="{E90EBE75-29FF-4F77-AA2D-74BC27B4F822}" ShortID="186024967">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Firewave_Skull_OS_01" ID="{560570B4-2C7C-4308-BEE6-951ADFA4D91D}">
+																	<Language>SFX</Language>
+																	<AudioFile>Firewave_Skull_OS_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="166328331"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Firewave_Skull_OS_01" ID="{560570B4-2C7C-4308-BEE6-951ADFA4D91D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 											<GroupingInfo>
@@ -21657,6 +21973,9 @@
 														<ItemRef Name="ChargesStartLoop_rnd" ID="{AB5A6A7B-C375-405B-A852-F43522B19F12}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
+														<ItemRef Name="FireWave_rnd" ID="{32F7E286-0798-4404-8648-3D7CF2778FDA}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
 														<ItemRef Name="Death_rnd" ID="{D4A1C3AF-525D-4F65-A846-A5C655B2B8FE}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
@@ -21675,15 +21994,56 @@
 														<ItemRef Name="MoveForward_rnd" ID="{3268A1D3-D559-464D-A52C-4FDBC857CD2A}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="SkullCrush_rnd" ID="{95EE46F5-8668-4404-B880-514CED8BFFAA}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
 														<ItemRef Name="idle_rnd" ID="{1600B6FC-E306-4C8F-8C99-1D90D902D819}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="ChargeEndNoHit_rnd" ID="{58E573FE-504C-4E5B-BD46-AD03BB648475}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Skull_idle_state" ID="{E4164C07-0D3B-44E2-B5EE-0B802E0F1392}"/>
+														<ItemList>
+															<ItemRef Name="idle_rnd" ID="{1600B6FC-E306-4C8F-8C99-1D90D902D819}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Skull_Death_state" ID="{2F660630-8FA7-46E0-96F7-E3513EE2ED1F}"/>
+														<ItemList>
+															<ItemRef Name="Death_rnd" ID="{D4A1C3AF-525D-4F65-A846-A5C655B2B8FE}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Skull_Fire_state" ID="{E32C7B60-2BBA-416A-9D0F-0B5C4BFE8280}"/>
+														<ItemList>
+															<ItemRef Name="Fire_rnd" ID="{857872B4-D172-40CD-AEDE-95E2A276A53A}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Skull_FireWave_state" ID="{D53A2A71-867D-431F-9996-A39869FF2E2A}"/>
+														<ItemList>
+															<ItemRef Name="FireWave_rnd" ID="{32F7E286-0798-4404-8648-3D7CF2778FDA}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Skull_MoveForward_state" ID="{0A76D8B9-1E2B-454B-8C0E-EDB5C1D1076E}"/>
+														<ItemList>
+															<ItemRef Name="MoveForward_rnd" ID="{3268A1D3-D559-464D-A52C-4FDBC857CD2A}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Skull_Fireball_state" ID="{4831D5D8-C572-4F14-9001-EDA63630C33E}"/>
+														<ItemList>
+															<ItemRef Name="Fireball_rnd" ID="{FC1B0EC8-500E-4423-B9CF-F4095EC71FFB}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Skull_Attackhit_state" ID="{D5093DE0-4E58-408C-A769-085C92912BE2}"/>
+														<ItemList>
+															<ItemRef Name="Attack_rnd" ID="{7C8308C6-5D70-40B4-87A5-1BCA2AAACD7F}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
 									</ChildrenList>
