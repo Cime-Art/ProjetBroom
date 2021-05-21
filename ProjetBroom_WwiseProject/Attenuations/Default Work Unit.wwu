@@ -2326,6 +2326,52 @@
 								</FocusUsage>
 							</CurveUsageInfoList>
 						</Attenuation>
+						<Attenuation Name="Acid-Platform_Att" ID="{74ADBC2A-7378-4F9D-9E48-9C52F3D45385}" ShortID="143366288">
+							<PropertyList>
+								<Property Name="RadiusMax" Type="Real64" Value="1500"/>
+							</PropertyList>
+							<CurveUsageInfoList>
+								<VolumeDryUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+										<Curve Name="VolumeDry" ID="{4A8D2F8C-661E-4261-8800-A675DD1F4C3F}">
+											<PropertyList>
+												<Property Name="Flags" Type="int32" Value="3"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>0</YPos>
+													<Flags>5</Flags>
+												</Point>
+												<Point>
+													<XPos>1500</XPos>
+													<YPos>-200</YPos>
+													<Flags>37</Flags>
+												</Point>
+											</PointList>
+										</Curve>
+									</CurveUsageInfo>
+								</VolumeDryUsage>
+								<VolumeWetGameUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+								</VolumeWetGameUsage>
+								<VolumeWetUserUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+								</VolumeWetUserUsage>
+								<LowPassFilterUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+								</LowPassFilterUsage>
+								<HighPassFilterUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+								</HighPassFilterUsage>
+								<SpreadUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+								</SpreadUsage>
+								<FocusUsage>
+									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+								</FocusUsage>
+							</CurveUsageInfoList>
+						</Attenuation>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{D969267F-AC17-42FA-9B0C-E6C093CCFE09}" ShortID="160584434">
