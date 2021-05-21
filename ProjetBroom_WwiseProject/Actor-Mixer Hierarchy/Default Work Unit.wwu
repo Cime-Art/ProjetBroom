@@ -13321,6 +13321,7 @@
 										</ActorMixer>
 										<ActorMixer Name="SubmergingLavaPlatform_Mixer" ID="{8190E787-9A3A-4F53-8BD2-66B00BD61405}" ShortID="492572688">
 											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -13336,6 +13337,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="FallingLavaPlatform" ID="{CDAC262B-1262-4EFB-A6F9-AA0A62506BD7}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 												</Reference>
@@ -13423,6 +13427,14 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Platform_Submerging" ID="{90FE981B-2461-4549-973B-61183CB22A54}" ShortID="547645197">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>0.5</Value>
+															</ValueList>
+														</Property>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -13432,7 +13444,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="AMB_OS_SubmergeLava_01_v1" ID="{FA2E0A09-C457-4489-B6F4-4946BBF5DB8B}" ShortID="1056894324">
+														<Sound Name="OS_SubmergeLava_v3-001" ID="{D1A20E10-E78E-4920-9EA9-833418E747C5}" ShortID="66824768">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -13442,19 +13454,23 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="AMB_OS_SubmergeLava_01_v1" ID="{235CC9E7-DCAB-4C98-B50F-0BCA2972AA80}">
+																<AudioFileSource Name="OS_SubmergeLava_v3-001" ID="{8F636BFD-A8FE-46B8-A427-1DD051D19CBE}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>AMB_OS_SubmergeLava_01_v1.wav</AudioFile>
+																	<AudioFile>OS_SubmergeLava_v3-001.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="861214564"/>
+																		<MediaID ID="497405110"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="AMB_OS_SubmergeLava_01_v1" ID="{235CC9E7-DCAB-4C98-B50F-0BCA2972AA80}" Platform="Linked"/>
+																<ActiveSource Name="OS_SubmergeLava_v3-001" ID="{8F636BFD-A8FE-46B8-A427-1DD051D19CBE}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="AMB_OS_SubmergeLava_02_v1" ID="{3948CFD0-2F5D-4F07-ACFB-656797089674}" ShortID="1015324950">
+														<Sound Name="OS_SubmergeLava_v3-002" ID="{3F7A14EA-DDE4-49F7-8059-4B89D82B1350}" ShortID="199325019">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -13464,19 +13480,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="AMB_OS_SubmergeLava_02_v1" ID="{A7C63ABC-2C73-48F9-A139-1B1B883F7FEA}">
+																<AudioFileSource Name="OS_SubmergeLava_v3-002" ID="{72E62E1A-1109-4A42-ADD0-36D45752BEB9}">
 																	<Language>SFX</Language>
-																	<AudioFile>AMB_OS_SubmergeLava_02_v1.wav</AudioFile>
+																	<AudioFile>OS_SubmergeLava_v3-002.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="889338379"/>
+																		<MediaID ID="979279293"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="AMB_OS_SubmergeLava_02_v1" ID="{A7C63ABC-2C73-48F9-A139-1B1B883F7FEA}" Platform="Linked"/>
+																<ActiveSource Name="OS_SubmergeLava_v3-002" ID="{72E62E1A-1109-4A42-ADD0-36D45752BEB9}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="AMB_OS_SubmergeLava_03_v1" ID="{076D2DB5-A3FC-44AA-B47C-8F1E552A9208}" ShortID="144701191">
+														<Sound Name="OS_SubmergeLava_v3-003" ID="{1847A5C4-2370-4BD9-93D6-F9010956110D}" ShortID="180536294">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -13486,16 +13502,16 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="AMB_OS_SubmergeLava_03_v1" ID="{5571E00D-F9E6-4E91-8ABD-442C090FA078}">
+																<AudioFileSource Name="OS_SubmergeLava_v3-003" ID="{2908D760-4C6A-4F58-B942-C9DDFAE8DFD8}">
 																	<Language>SFX</Language>
-																	<AudioFile>AMB_OS_SubmergeLava_03_v1.wav</AudioFile>
+																	<AudioFile>OS_SubmergeLava_v3-003.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="166249243"/>
+																		<MediaID ID="390714505"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="AMB_OS_SubmergeLava_03_v1" ID="{5571E00D-F9E6-4E91-8ABD-442C090FA078}" Platform="Linked"/>
+																<ActiveSource Name="OS_SubmergeLava_v3-003" ID="{2908D760-4C6A-4F58-B942-C9DDFAE8DFD8}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>

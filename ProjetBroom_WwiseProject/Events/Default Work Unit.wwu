@@ -1449,7 +1449,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Event_SubmergingLavaPlatform" ID="{C6F8E438-12DC-4391-8767-FC763A0CBF6B}">
+								<Event Name="Event_PlatformFallingInLava" ID="{C6F8E438-12DC-4391-8767-FC763A0CBF6B}">
 									<ChildrenList>
 										<Action Name="" ID="{B7DE4FFF-7059-4995-AFE1-7827F4CC4AE5}" ShortID="868625959">
 											<ReferenceList>
