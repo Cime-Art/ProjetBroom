@@ -669,7 +669,7 @@
 										<Action Name="" ID="{4E2E7781-33F4-4353-8BD9-D8C3C3F870A7}" ShortID="188889190">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Slayed_RND" ID="{26890386-0ABE-4313-8D00-A2990D4988F3}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="Death_Switch" ID="{30A3C3FC-F516-4DE4-B915-3473ECC74E5F}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
