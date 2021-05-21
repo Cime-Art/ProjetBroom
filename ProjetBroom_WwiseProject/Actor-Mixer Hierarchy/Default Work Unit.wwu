@@ -6343,7 +6343,7 @@
 																				</Reference>
 																			</ReferenceList>
 																			<ChildrenList>
-																				<Sound Name="SplashAcid_Short_v6" ID="{77AE2439-A444-4892-B118-FE09C21A792B}" ShortID="521593114">
+																				<Sound Name="OS_AcidPlatform_Short_v10-001" ID="{07D0650C-7C0C-4584-9DA9-8C680D63C51C}" ShortID="30407786">
 																					<ReferenceList>
 																						<Reference Name="Conversion">
 																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -6353,27 +6353,116 @@
 																						</Reference>
 																					</ReferenceList>
 																					<ChildrenList>
-																						<AudioFileSource Name="SplashAcid_Short_v6" ID="{23DEE69F-5D3F-40F4-81AE-4F908090DC1D}">
+																						<AudioFileSource Name="OS_AcidPlatform_Short_v10-001" ID="{6DC39073-1CE2-49C2-A336-B8E2E5A6D4C1}">
 																							<PropertyList>
-																								<Property Name="VolumeOffset" Type="Real64">
-																									<ValueList>
-																										<Value>24</Value>
-																									</ValueList>
-																								</Property>
+																								<Property Name="LoopBegin" Type="Real64" Value="2.22460045662101"/>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimBegin" Type="Real64" Value="2.22460045662101"/>
 																							</PropertyList>
 																							<Language>SFX</Language>
-																							<AudioFile>SplashAcid_Short_v6.wav</AudioFile>
+																							<AudioFile>OS_AcidPlatform_Short_v10-001.wav</AudioFile>
 																							<MediaIDList>
-																								<MediaID ID="314787744"/>
+																								<MediaID ID="514823820"/>
 																							</MediaIDList>
 																						</AudioFileSource>
 																					</ChildrenList>
 																					<ActiveSourceList>
-																						<ActiveSource Name="SplashAcid_Short_v6" ID="{23DEE69F-5D3F-40F4-81AE-4F908090DC1D}" Platform="Linked"/>
+																						<ActiveSource Name="OS_AcidPlatform_Short_v10-001" ID="{6DC39073-1CE2-49C2-A336-B8E2E5A6D4C1}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="OS_AcidPlatform_Short_v10-002" ID="{371FD17E-3EC0-4098-8DBF-1C536C883B6F}" ShortID="851894986">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="OS_AcidPlatform_Short_v10-002" ID="{C9478633-4056-4EF0-909B-3A736C88D13B}">
+																							<PropertyList>
+																								<Property Name="LoopBegin" Type="Real64" Value="2.26982667039418"/>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimBegin" Type="Real64" Value="2.26982667039418"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>OS_AcidPlatform_Short_v10-002.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="562238131"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="OS_AcidPlatform_Short_v10-002" ID="{C9478633-4056-4EF0-909B-3A736C88D13B}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="OS_AcidPlatform_Short_v10-003" ID="{09354ADF-989D-4E1D-8B11-D9A80443A532}" ShortID="902686944">
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="OS_AcidPlatform_Short_v10-003" ID="{B051E9AB-F7BD-45AE-B701-0786F823EF17}">
+																							<PropertyList>
+																								<Property Name="LoopBegin" Type="Real64" Value="2.2333748408039"/>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimBegin" Type="Real64" Value="2.2333748408039"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>OS_AcidPlatform_Short_v10-003.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="544222918"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="OS_AcidPlatform_Short_v10-003" ID="{B051E9AB-F7BD-45AE-B701-0786F823EF17}" Platform="Linked"/>
 																					</ActiveSourceList>
 																				</Sound>
 																			</ChildrenList>
 																		</RandomSequenceContainer>
+																		<Sound Name="OS_QuakePlatform_v1" ID="{D1351981-35E9-4C17-A60A-1CD6377360BD}" ShortID="396943011">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{2460DF9B-6626-474C-97EE-C99AC82E836D}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="200"/>
+																									<Property Name="Min" Type="Real64" Value="-200"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_QuakePlatform_v1" ID="{F1C383A5-8E42-4C2C-8C0C-7D065012625D}">
+																					<Language>SFX</Language>
+																					<AudioFile>OS_QuakePlatform_v1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="1007383013"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_QuakePlatform_v1" ID="{F1C383A5-8E42-4C2C-8C0C-7D065012625D}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
 																	</ChildrenList>
 																</ActorMixer>
 															</ChildrenList>

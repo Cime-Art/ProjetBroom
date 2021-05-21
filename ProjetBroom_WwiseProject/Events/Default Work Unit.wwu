@@ -1102,6 +1102,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Event_QuakePlatform" ID="{E8BF602D-DD22-469E-948C-ECC8F319B729}">
+									<ChildrenList>
+										<Action Name="" ID="{CB62F23D-FDCD-4284-9957-1E1DF9D8769A}" ShortID="413353842">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="OS_QuakePlatform_v1" ID="{D1351981-35E9-4C17-A60A-1CD6377360BD}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Tuto" ID="{C5848E0C-DB86-4041-B214-BE3A333D64A3}" ShortID="579642512">
