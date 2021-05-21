@@ -33,6 +33,14 @@
 								<Switch Name="Nothing" ID="{E45C10B8-578B-4F27-8EE7-AAA5239AAE21}"/>
 							</ChildrenList>
 						</SwitchGroup>
+						<SwitchGroup Name="Death_Type_Switch" ID="{0EDAEFA0-2C04-4129-AA07-434CA5E8257C}">
+							<ChildrenList>
+								<Switch Name="Acid" ID="{00E78FF5-D6D0-4078-9C77-03E23FDC4EB4}"/>
+								<Switch Name="Lava" ID="{C067C5AB-7AC6-4331-82C4-FEF8950AFBFC}"/>
+								<Switch Name="Slayed" ID="{DAC772B8-1D19-4BB0-B2F1-C1523402D90A}"/>
+								<Switch Name="Fall" ID="{0CB4F3C0-4122-4C5C-AAD0-48D4D2D379D9}"/>
+							</ChildrenList>
+						</SwitchGroup>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
