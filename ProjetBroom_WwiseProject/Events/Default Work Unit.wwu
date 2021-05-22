@@ -2130,6 +2130,21 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="MagicChest" ID="{B5AFF4AD-4494-4E54-8734-37ED1B3C3616}" ShortID="837573638">
+							<ChildrenList>
+								<Event Name="Event_Hell_MagicChest" ID="{7F0F9BEA-1271-4B83-9D03-4F7942BAC7A5}">
+									<ChildrenList>
+										<Action Name="" ID="{403A095C-88EC-4801-A5E8-4AEC71F461CE}" ShortID="14516567">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Hell_MagicChest_Helmet_SFX" ID="{DBAC9660-CEFB-4B30-BF5E-BEBF35F1E488}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{B37D3109-6ACF-4282-B02F-A65CE3CB8052}" ShortID="330638814">
