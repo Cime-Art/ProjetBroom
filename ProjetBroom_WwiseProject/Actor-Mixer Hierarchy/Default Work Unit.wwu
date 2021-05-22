@@ -3899,11 +3899,6 @@
 																						<Value>5</Value>
 																					</ValueList>
 																				</Property>
-																				<Property Name="Volume" Type="Real64">
-																					<ValueList>
-																						<Value>-5</Value>
-																					</ValueList>
-																				</Property>
 																				<Property Name="Weight" Type="Real64">
 																					<ValueList>
 																						<Value>20</Value>
@@ -7002,7 +6997,6 @@
 																		<RandomSequenceContainer Name="Door_Slam_RND_01" ID="{2DBBACC3-EA9E-4041-B5BE-F7E39B9E78C0}" ShortID="924331090">
 																			<PropertyList>
 																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																				<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 																				<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 																				<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																				<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
@@ -8516,6 +8510,481 @@
 																				</Sound>
 																			</ChildrenList>
 																		</RandomSequenceContainer>
+																		<RandomSequenceContainer Name="Loud_Scream_RND_Tuto" ID="{9EC5C874-4CC3-490B-AB06-A95AC0D92270}" ShortID="901502252">
+																			<PropertyList>
+																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																				<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+																				<Property Name="InitialDelay" Type="Real64">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{5C46DFEF-FDE2-4EF4-9294-78FF4CA62556}">
+																								<PropertyList>
+																									<Property Name="Max" Type="Real64" Value="2"/>
+																									<Property Name="Min" Type="Real64" Value="-2"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																				<Property Name="Lowpass" Type="int16">
+																					<ValueList>
+																						<Value>73</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																				<Property Name="OverrideOutput" Type="bool" Value="True"/>
+																				<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																				<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																				<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																				<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																				<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+																				<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{9C03765C-51D8-4400-BB57-E932B06B9B02}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="2"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																				<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																				<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+																				<Property Name="UserAuxSendVolume0" Type="Real64">
+																					<ValueList>
+																						<Value>6</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Attenuation">
+																					<ObjectRef Name="Loud_Scream_Tuto_Att" ID="{B4643426-6336-487A-99A2-934335C215C0}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																				</Reference>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend0">
+																					<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<Sound Name="Amb_OS_LoudScream _01" ID="{BAFC57C1-05FA-45BD-9E19-FDFA0FA1045C}" ShortID="436381882">
+																					<PropertyList>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_LoudScream _01" ID="{65502DA1-99AB-4412-ACEE-9425C3520E44}">
+																							<PropertyList>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimBegin" Type="Real64" Value="0.0469202835648148"/>
+																								<Property Name="TrimEnd" Type="Real64" Value="1.79150173611111"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_LoudScream _01.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="840104516"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_LoudScream _01" ID="{65502DA1-99AB-4412-ACEE-9425C3520E44}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Amb_OS_LoudScream _02" ID="{FCB69012-7355-48FF-8179-1857E06AF7B3}" ShortID="924256743">
+																					<PropertyList>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_LoudScream _02" ID="{D8F2EA80-F947-47D1-BA08-ECA75A4BADA7}">
+																							<PropertyList>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimBegin" Type="Real64" Value="0.0366720920138889"/>
+																								<Property Name="TrimEnd" Type="Real64" Value="2.95210340711806"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_LoudScream _02.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="141710724"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_LoudScream _02" ID="{D8F2EA80-F947-47D1-BA08-ECA75A4BADA7}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Amb_OS_LoudScream _03" ID="{4EB98B0C-39D2-4E3E-8B4F-9DF332D35079}" ShortID="321719262">
+																					<PropertyList>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_LoudScream _03" ID="{2F9AB724-57C4-410E-815E-FD8757CAFA51}">
+																							<PropertyList>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimBegin" Type="Real64" Value="0.0505385923032408"/>
+																								<Property Name="TrimEnd" Type="Real64" Value="3.13339272280092"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_LoudScream _03.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="468856394"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_LoudScream _03" ID="{2F9AB724-57C4-410E-815E-FD8757CAFA51}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Amb_OS_LoudScream _04" ID="{3E5A79C6-0AB9-407F-BEBD-3BD5144788D1}" ShortID="1051369309">
+																					<PropertyList>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_LoudScream _04" ID="{345BA2C7-1C5D-4FBF-8EC7-8ACC6516EF22}">
+																							<PropertyList>
+																								<Property Name="FadeOutDuration" Type="Real64" Value="4.49831357020548"/>
+																								<Property Name="FadeOutShape" Type="int16" Value="4"/>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimEnd" Type="Real64" Value="7.8033452690972"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_LoudScream _04.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="1031445948"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_LoudScream _04" ID="{345BA2C7-1C5D-4FBF-8EC7-8ACC6516EF22}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Amb_OS_LoudScream _05" ID="{C1D27D4E-78A2-4D9E-AE0D-98CE545360D4}" ShortID="301470082">
+																					<PropertyList>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_LoudScream _05" ID="{1CA193DB-1114-4EDA-8D01-5B9DFF6E68A1}">
+																							<PropertyList>
+																								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimEnd" Type="Real64" Value="5.52265158420139"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_LoudScream _05.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="315379876"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_LoudScream _05" ID="{1CA193DB-1114-4EDA-8D01-5B9DFF6E68A1}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Amb_OS_LoudScream _06" ID="{FEA53378-200E-422F-AE0E-0839A2CD36BC}" ShortID="613107948">
+																					<PropertyList>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_LoudScream _06" ID="{3C726073-94A3-4D2D-A104-35E126CCFCA3}">
+																							<PropertyList>
+																								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimEnd" Type="Real64" Value="2.28261140046296"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_LoudScream _06.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="268300467"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_LoudScream _06" ID="{3C726073-94A3-4D2D-A104-35E126CCFCA3}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Amb_OS_LoudScream _07" ID="{DD823D46-13E6-4D1E-B414-EA8E005A85AE}" ShortID="787239948">
+																					<PropertyList>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_LoudScream _07" ID="{173BE4A0-286C-4980-984D-713F22639EC0}">
+																							<PropertyList>
+																								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimEnd" Type="Real64" Value="1.01622178819445"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_LoudScream _07.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="526806339"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_LoudScream _07" ID="{173BE4A0-286C-4980-984D-713F22639EC0}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Amb_OS_LoudScream _08" ID="{45A4D0E1-8B39-478D-B6E7-8F29075DBF1D}" ShortID="403148560">
+																					<PropertyList>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_LoudScream _08" ID="{5D7470FE-DA88-4968-8E0D-113B6CD6C332}">
+																							<PropertyList>
+																								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimEnd" Type="Real64" Value="3.63013118489582"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_LoudScream _08.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="258094410"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_LoudScream _08" ID="{5D7470FE-DA88-4968-8E0D-113B6CD6C332}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Amb_OS_LoudScream _09" ID="{DDCC0885-AFF6-47C3-9B2D-9B65941078B2}" ShortID="776188601">
+																					<PropertyList>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_LoudScream _09" ID="{C5CCBF4D-7097-4C5A-9D2D-6D4FFE37E8D0}">
+																							<PropertyList>
+																								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimEnd" Type="Real64" Value="1.23596028645833"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_LoudScream _09.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="382280386"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_LoudScream _09" ID="{C5CCBF4D-7097-4C5A-9D2D-6D4FFE37E8D0}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Amb_OS_LoudScream _10" ID="{C41E465D-90EA-4CB2-95E3-1E99EBF5E50C}" ShortID="69121272">
+																					<PropertyList>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_LoudScream _10" ID="{61E35E11-86BE-43CC-A448-75DDC3B44B80}">
+																							<PropertyList>
+																								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimEnd" Type="Real64" Value="2.07288519965278"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_LoudScream _10.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="695790342"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_LoudScream _10" ID="{61E35E11-86BE-43CC-A448-75DDC3B44B80}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Amb_OS_LoudScream _11" ID="{C0CA2C30-579C-4A67-B173-7130ADB4D30D}" ShortID="309048038">
+																					<PropertyList>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_LoudScream _11" ID="{875E7946-58A6-43BF-9EF8-5B2E14705B37}">
+																							<PropertyList>
+																								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimEnd" Type="Real64" Value="2.06390972222222"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_LoudScream _11.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="415960007"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_LoudScream _11" ID="{875E7946-58A6-43BF-9EF8-5B2E14705B37}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Amb_OS_LoudScream _12" ID="{6C6202BA-6E50-4DB2-83E7-C0C641F53BC0}" ShortID="472771454">
+																					<PropertyList>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_LoudScream _12" ID="{9FE82CED-A080-44B6-A2E6-D5C2FE02BE2F}">
+																							<PropertyList>
+																								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimEnd" Type="Real64" Value="1.18138541666667"/>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_LoudScream _12.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="209811560"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_LoudScream _12" ID="{9FE82CED-A080-44B6-A2E6-D5C2FE02BE2F}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																			</ChildrenList>
+																		</RandomSequenceContainer>
 																	</ChildrenList>
 																</ActorMixer>
 																<ActorMixer Name="Metal_Crakles_Mixer" ID="{E1A299E4-28F0-40DE-B168-2C968306736F}" ShortID="104146817">
@@ -9440,6 +9909,196 @@
 																					</ChildrenList>
 																					<ActiveSourceList>
 																						<ActiveSource Name="Amb_OS_SmallAnimalRunAway _03" ID="{5D694A56-28AA-43BD-922A-C35ACF5E0933}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																			</ChildrenList>
+																		</RandomSequenceContainer>
+																		<RandomSequenceContainer Name="Small_Animal_Run_Away_RND_Tuto" ID="{D26AEE1B-04B8-423B-A31C-AFDC4BD74A2C}" ShortID="892694523">
+																			<PropertyList>
+																				<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																				<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+																				<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																				<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																				<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																				<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																				<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																				<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+																				<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{B999C5AB-E69E-46BF-A774-A38869A686D0}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="20"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																				<Property Name="UserAuxSendVolume2" Type="Real64">
+																					<ValueList>
+																						<Value>5</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-10</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Attenuation">
+																					<ObjectRef Name="Small_Animal_Run_Away_Att" ID="{E4D20ABF-6518-4584-B445-C1A55F9F0DCE}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																				</Reference>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																				<Reference Name="UserAuxSend2">
+																					<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<Sound Name="Amb_OS_SmallAnimalRunAway _01" ID="{47C19558-0CF1-48E1-9E75-CE0665EA41AD}" ShortID="911705602">
+																					<PropertyList>
+																						<Property Name="Pitch" Type="int32">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{2DED6B26-19C8-4018-AC58-4750B85582D9}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="100"/>
+																											<Property Name="Min" Type="Real64" Value="-100"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="Volume" Type="Real64">
+																							<ValueList>
+																								<Value>-9</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_SmallAnimalRunAway _01" ID="{430D9974-02AE-4AAC-BFD8-663FE85A5169}">
+																							<PropertyList>
+																								<Property Name="VolumeOffset" Type="Real64">
+																									<ValueList>
+																										<Value>16</Value>
+																									</ValueList>
+																								</Property>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_SmallAnimalRunAway _01.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="848181594"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_SmallAnimalRunAway _01" ID="{430D9974-02AE-4AAC-BFD8-663FE85A5169}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Amb_OS_SmallAnimalRunAway _02" ID="{D64E027B-8DF2-4AEF-8BD1-BB738DF6568F}" ShortID="29302559">
+																					<PropertyList>
+																						<Property Name="Pitch" Type="int32">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{18F72FE8-B4C9-4034-856B-2B91CB4EA149}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="100"/>
+																											<Property Name="Min" Type="Real64" Value="-100"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_SmallAnimalRunAway _02" ID="{64AC5C07-8BAC-485B-B393-800FBB352E97}">
+																							<PropertyList>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimBegin" Type="Real64" Value="0.173989800347222"/>
+																								<Property Name="TrimEnd" Type="Real64" Value="1.08619346788194"/>
+																								<Property Name="VolumeOffset" Type="Real64">
+																									<ValueList>
+																										<Value>20</Value>
+																									</ValueList>
+																								</Property>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_SmallAnimalRunAway _02.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="270351147"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_SmallAnimalRunAway _02" ID="{64AC5C07-8BAC-485B-B393-800FBB352E97}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
+																				<Sound Name="Amb_OS_SmallAnimalRunAway _03" ID="{4699C376-FF3D-49C5-9A13-E0851E27F028}" ShortID="281423143">
+																					<PropertyList>
+																						<Property Name="Pitch" Type="int32">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{0211D379-7EBD-41D2-B7A6-0D957B0CB901}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="100"/>
+																											<Property Name="Min" Type="Real64" Value="-100"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<AudioFileSource Name="Amb_OS_SmallAnimalRunAway _03" ID="{A225A6CE-4BCA-45E7-9A54-75474DE67FB6}">
+																							<PropertyList>
+																								<Property Name="VolumeOffset" Type="Real64">
+																									<ValueList>
+																										<Value>20</Value>
+																									</ValueList>
+																								</Property>
+																							</PropertyList>
+																							<Language>SFX</Language>
+																							<AudioFile>Amb_OS_SmallAnimalRunAway _03.wav</AudioFile>
+																							<MediaIDList>
+																								<MediaID ID="321878523"/>
+																							</MediaIDList>
+																						</AudioFileSource>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Amb_OS_SmallAnimalRunAway _03" ID="{A225A6CE-4BCA-45E7-9A54-75474DE67FB6}" Platform="Linked"/>
 																					</ActiveSourceList>
 																				</Sound>
 																			</ChildrenList>
@@ -11180,59 +11839,6 @@
 														</Folder>
 													</ChildrenList>
 												</Folder>
-												<SwitchContainer Name="General_Ambient_State" ID="{E98611D6-A510-43D1-AD7A-7017E869FDCF}" ShortID="629475324">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="DefaultSwitchOrState">
-															<ObjectRef Name="None" ID="{6D47C0C6-5A10-42E8-876A-0F1F09BE2DA8}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-														<Reference Name="SwitchGroupOrStateGroup">
-															<ObjectRef Name="State_Gate" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
-														</Reference>
-														<Reference Name="UserAuxSend0">
-															<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-														<Reference Name="UserAuxSend1">
-															<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="Amb_LP_Generalambient_02_Anger_V1" ID="{A6126004-CD5B-4289-BCB1-9E9019C8BABA}" ShortID="143727946">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Amb_LP_Generalambient_02_Anger_V1" ID="{B3D0FD42-C33A-4936-A785-52AD3DF0CF81}">
-																	<Language>SFX</Language>
-																	<AudioFile>Amb_LP_Generalambient_02_Anger_V1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="291272005"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Amb_LP_Generalambient_02_Anger_V1" ID="{B3D0FD42-C33A-4936-A785-52AD3DF0CF81}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-													<GroupingInfo>
-														<GroupingBehaviorList>
-															<GroupingBehavior>
-																<ItemRef Name="Amb_LP_Generalambient_02_Anger_V1" ID="{A6126004-CD5B-4289-BCB1-9E9019C8BABA}"/>
-															</GroupingBehavior>
-														</GroupingBehaviorList>
-													</GroupingInfo>
-												</SwitchContainer>
 												<Sound Name="Amb_LP_Generalambient_03_Anger_V1" ID="{97CE94F7-B051-42A7-B3D3-D7B87F8E3921}" ShortID="582380332">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
