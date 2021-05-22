@@ -5141,7 +5141,7 @@
 																								<Value>True</Value>
 																							</ValueList>
 																						</Property>
-																						<Property Name="RadiusMax" Type="Real64" Value="3000"/>
+																						<Property Name="RadiusMax" Type="Real64" Value="2500"/>
 																					</PropertyList>
 																					<CurveUsageInfoList>
 																						<VolumeDryUsage>
@@ -5157,13 +5157,13 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>1964.77363</XPos>
-																											<YPos>-5.2927</YPos>
+																											<XPos>1685.38827</XPos>
+																											<YPos>-2.40458</YPos>
 																											<Flags>0</Flags>
 																											<SegmentShape>Exp1</SegmentShape>
 																										</Point>
 																										<Point>
-																											<XPos>3000</XPos>
+																											<XPos>2500</XPos>
 																											<YPos>-200</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -5184,7 +5184,7 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>3000</XPos>
+																											<XPos>2500</XPos>
 																											<YPos>-200</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -5205,12 +5205,12 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>1781.25</XPos>
+																											<XPos>1484.375</XPos>
 																											<YPos>-7.62551</YPos>
 																											<Flags>0</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>3000</XPos>
+																											<XPos>2500</XPos>
 																											<YPos>-50</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -5232,7 +5232,7 @@
 																											<SegmentShape>Exp1</SegmentShape>
 																										</Point>
 																										<Point>
-																											<XPos>3000</XPos>
+																											<XPos>2500</XPos>
 																											<YPos>37</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -5253,7 +5253,7 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>3000</XPos>
+																											<XPos>2500</XPos>
 																											<YPos>100</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -5274,14 +5274,13 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>435.42319</XPos>
+																											<XPos>1500.67317</XPos>
 																											<YPos>100</YPos>
 																											<Flags>0</Flags>
-																											<SegmentShape>Log2</SegmentShape>
 																										</Point>
 																										<Point>
-																											<XPos>3000</XPos>
-																											<YPos>6.07729</YPos>
+																											<XPos>2500</XPos>
+																											<YPos>83.59667</YPos>
 																											<Flags>37</Flags>
 																										</Point>
 																									</PointList>
@@ -5747,7 +5746,7 @@
 																													<Flags>5</Flags>
 																												</Point>
 																												<Point>
-																													<XPos>1350</XPos>
+																													<XPos>1966.34515</XPos>
 																													<YPos>100</YPos>
 																													<Flags>0</Flags>
 																												</Point>
@@ -8520,6 +8519,19 @@
 																	</ChildrenList>
 																</ActorMixer>
 																<ActorMixer Name="Metal_Crakles_Mixer" ID="{E1A299E4-28F0-40DE-B168-2C968306736F}" ShortID="104146817">
+																	<PropertyList>
+																		<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																		<Property Name="UserAuxSendVolume0" Type="Real64">
+																			<ValueList>
+																				<Value>-6</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-12</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -8528,10 +8540,7 @@
 																			<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																		</Reference>
 																		<Reference Name="UserAuxSend0">
-																			<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend1">
-																			<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																			<ObjectRef Name="Reveb_Jail" ID="{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
@@ -10260,6 +10269,11 @@
 																		<Sound Name="Amb_LP_RapidWater_01_Anger_V1" ID="{188D4F39-4F73-43B0-AAB6-213ED8EBC4B5}" ShortID="653834998">
 																			<PropertyList>
 																				<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																				<Property Name="Lowpass" Type="int16">
+																					<ValueList>
+																						<Value>20</Value>
+																					</ValueList>
+																				</Property>
 																				<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																				<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 																				<Property Name="Pitch" Type="int32">
@@ -10269,12 +10283,12 @@
 																				</Property>
 																				<Property Name="UserAuxSendVolume0" Type="Real64">
 																					<ValueList>
-																						<Value>-11</Value>
+																						<Value>-10</Value>
 																					</ValueList>
 																				</Property>
 																				<Property Name="Volume" Type="Real64">
 																					<ValueList>
-																						<Value>-6</Value>
+																						<Value>-5</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
