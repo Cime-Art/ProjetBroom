@@ -27915,7 +27915,7 @@
 				</Folder>
 				<Folder Name="UI" ID="{7C37E2D6-8DAE-4D60-8EB8-6BE217F31211}" ShortID="923036066">
 					<ChildrenList>
-						<ActorMixer Name="UI_MEnu_Mix" ID="{FF50FE8F-8D87-4214-97D7-D1D0FF278D93}" ShortID="576610692">
+						<ActorMixer Name="UI_Menu_Mix" ID="{FF50FE8F-8D87-4214-97D7-D1D0FF278D93}" ShortID="576610692">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -28132,6 +28132,74 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="UI_OS_Scroll_Pelloux_V1" ID="{E420E1D4-0569-48B1-8B52-0FBEB2068DCE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_OS_UI+Menu_01_THOMAS_V1" ID="{C8BD5ED0-88A0-4356-9460-931E1AD9FDCB}" ShortID="334235769">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_OS_UI+Menu_01_THOMAS_V1" ID="{D0C8C44C-8CAE-42B1-8917-08B8A4B0E0F6}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_OS_UI+Menu_01_THOMAS_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="801920220"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_OS_UI+Menu_01_THOMAS_V1" ID="{D0C8C44C-8CAE-42B1-8917-08B8A4B0E0F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_OS_UI-Menu_01_THOMAS_V1" ID="{2B7B0D99-3A1D-4CC9-8E71-592A17860B83}" ShortID="696400052">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_OS_UI-Menu_01_THOMAS_V1" ID="{C76CE055-E988-4E1C-9EFB-690152DD469E}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_OS_UI-Menu_01_THOMAS_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="29850415"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_OS_UI-Menu_01_THOMAS_V1" ID="{C76CE055-E988-4E1C-9EFB-690152DD469E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

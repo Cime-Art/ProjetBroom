@@ -2145,6 +2145,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Event_MenuUI" ID="{94BFA7A0-4062-41A8-964F-5E7B470C1E49}">
+							<ChildrenList>
+								<Action Name="" ID="{4615C9CE-2FD6-40BB-AD62-496D2CA2F38A}" ShortID="201706030">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_OS_UI+Menu_01_THOMAS_V1" ID="{C8BD5ED0-88A0-4356-9460-931E1AD9FDCB}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_MenuUIError" ID="{92A03A66-192E-41E6-BC95-7871889A871E}">
+							<ChildrenList>
+								<Action Name="" ID="{2402B409-C704-47F6-8BB5-CC4785C5D606}" ShortID="1007096211">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_OS_UI-Menu_01_THOMAS_V1" ID="{2B7B0D99-3A1D-4CC9-8E71-592A17860B83}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_DoorsKitchen" ID="{9CA46F1E-3CD8-482A-A4EA-C33A5BE3C5D4}">

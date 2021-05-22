@@ -14,8 +14,16 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Event_MenuUI" ID="{94BFA7A0-4062-41A8-964F-5E7B470C1E49}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Event_FireBoiler_LP" ID="{F98DAF6A-6CE6-418F-B05D-6AD9824BEEED}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Event_MenuUIError" ID="{92A03A66-192E-41E6-BC95-7871889A871E}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
+							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Event_BubbleLava" ID="{DFCA4BE5-75DA-4CD7-9030-5C9F9BD08E4A}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
@@ -61,6 +69,7 @@
 						<CurrentStateRef Name="None" ID="{84F7C088-EADC-42A7-9FC3-4384FBFC1D96}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Acid" ID="{00E78FF5-D6D0-4078-9C77-03E23FDC4EB4}"/>
 						<CurrentSwitchRef Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
 						<CurrentSwitchRef Name="DryWood" ID="{B7624EDB-88F7-4B4F-8B22-48863C6006CF}"/>
 					</CurrentSwitchList>
