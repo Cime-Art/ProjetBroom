@@ -31194,13 +31194,19 @@
 										</Sound>
 									</ChildrenList>
 								</ActorMixer>
-								<ActorMixer Name="Hell_MagicChest_AM" ID="{7215A48E-0E56-4910-B0E1-D14B5756A3B1}" ShortID="606946828">
+								<SwitchContainer Name="Hell_MagicChest_SWITCH" ID="{988A1D72-F15E-4741-B558-0F21ACD43379}" ShortID="746262568">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="MagicChest_Broom" ID="{205FDDDF-2BA5-458F-89CE-A16E90071AEA}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Hell_MagicChest_SwitchGroup" ID="{26521612-A04F-4629-ABF7-E48199EA8132}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -31214,20 +31220,97 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Hell_OS_MagicChestOpen_Sabarros_v1" ID="{09CF0701-278D-4272-B124-227AA3397864}">
+												<AudioFileSource Name="Hell_OS_MagicChestOpen_Helmet_Sabarros_v1" ID="{FB97EC50-AEBE-4011-BB4D-6EDAAF4B7043}">
 													<Language>SFX</Language>
-													<AudioFile>Props\Hell_OS_MagicChestOpen_Sabarros_v1.wav</AudioFile>
+													<AudioFile>Props\Hell_OS_MagicChestOpen_Helmet_Sabarros_v1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1005154272"/>
+														<MediaID ID="581823869"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Hell_OS_MagicChestOpen_Sabarros_v1" ID="{09CF0701-278D-4272-B124-227AA3397864}" Platform="Linked"/>
+												<ActiveSource Name="Hell_OS_MagicChestOpen_Helmet_Sabarros_v1" ID="{FB97EC50-AEBE-4011-BB4D-6EDAAF4B7043}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hell_MagicChest_Body_SFX" ID="{4E329432-2B59-495A-BBE0-BAFB488FAD1F}" ShortID="456329120">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hell_OS_MagicChestOpen_Broom_Sabarros_v1" ID="{6FB4A545-EEF5-4695-88F9-4E8FBAC8B234}">
+													<Language>SFX</Language>
+													<AudioFile>Props\Hell_OS_MagicChestOpen_Broom_Sabarros_v1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="264483659"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hell_OS_MagicChestOpen_Broom_Sabarros_v1" ID="{6FB4A545-EEF5-4695-88F9-4E8FBAC8B234}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hell_MagicChest_Broom_SFX" ID="{95DBF091-D235-4238-B921-61FA65FB7985}" ShortID="191263655">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hell_OS_MagicChestOpen_Broom_Sabarros_v1" ID="{1D8B9845-0338-4639-A271-CAE6AA31A7B9}">
+													<Language>SFX</Language>
+													<AudioFile>Props\Hell_OS_MagicChestOpen_Broom_Sabarros_v1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="264483659"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hell_OS_MagicChestOpen_Broom_Sabarros_v1" ID="{1D8B9845-0338-4639-A271-CAE6AA31A7B9}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-								</ActorMixer>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Hell_MagicChest_Body_SFX" ID="{4E329432-2B59-495A-BBE0-BAFB488FAD1F}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Hell_MagicChest_Helmet_SFX" ID="{DBAC9660-CEFB-4B30-BF5E-BEBF35F1E488}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Hell_MagicChest_Broom_SFX" ID="{95DBF091-D235-4238-B921-61FA65FB7985}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="MagicChest_Body" ID="{9A54D802-8F19-4FB9-9F09-2DD4314689B0}"/>
+												<ItemList>
+													<ItemRef Name="Hell_MagicChest_Body_SFX" ID="{4E329432-2B59-495A-BBE0-BAFB488FAD1F}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="MagicChest_Helmet" ID="{01AB9C31-0156-4481-8043-EC0B644194E0}"/>
+												<ItemList>
+													<ItemRef Name="Hell_MagicChest_Helmet_SFX" ID="{DBAC9660-CEFB-4B30-BF5E-BEBF35F1E488}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="MagicChest_Broom" ID="{205FDDDF-2BA5-458F-89CE-A16E90071AEA}"/>
+												<ItemList>
+													<ItemRef Name="Hell_MagicChest_Broom_SFX" ID="{95DBF091-D235-4238-B921-61FA65FB7985}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
