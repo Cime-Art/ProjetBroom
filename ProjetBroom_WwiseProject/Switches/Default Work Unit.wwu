@@ -43,6 +43,17 @@
 						</SwitchGroup>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Hell_MagicChest" ID="{AAD958CC-23C3-4CE1-8509-A394493B4977}" ShortID="432051994">
+					<ChildrenList>
+						<SwitchGroup Name="Hell_MagicChest_SwitchGroup" ID="{26521612-A04F-4629-ABF7-E48199EA8132}">
+							<ChildrenList>
+								<Switch Name="MagicChest_Broom" ID="{205FDDDF-2BA5-458F-89CE-A16E90071AEA}"/>
+								<Switch Name="MagicChest_Body" ID="{9A54D802-8F19-4FB9-9F09-2DD4314689B0}"/>
+								<Switch Name="MagicChest_Helmet" ID="{01AB9C31-0156-4481-8043-EC0B644194E0}"/>
+							</ChildrenList>
+						</SwitchGroup>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
