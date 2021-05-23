@@ -31221,6 +31221,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Hell_OS_MagicChestOpen_Helmet_Sabarros_v1" ID="{FB97EC50-AEBE-4011-BB4D-6EDAAF4B7043}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0393314102391287"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.327761751992739"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.471976922869544"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Props\Hell_OS_MagicChestOpen_Helmet_Sabarros_v1.wav</AudioFile>
 													<MediaIDList>
@@ -31243,6 +31249,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Hell_OS_MagicChestOpen_Broom_Sabarros_v1" ID="{6FB4A545-EEF5-4695-88F9-4E8FBAC8B234}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0655523503985478"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.544215170876805"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Props\Hell_OS_MagicChestOpen_Broom_Sabarros_v1.wav</AudioFile>
 													<MediaIDList>
@@ -31265,10 +31276,17 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Hell_OS_MagicChestOpen_Broom_Sabarros_v1" ID="{1D8B9845-0338-4639-A271-CAE6AA31A7B9}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0655523503985478"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.393314102391287"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.54"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.17928899432957"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Props\Hell_OS_MagicChestOpen_Broom_Sabarros_v1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="264483659"/>
+														<MediaID ID="141964107"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
