@@ -28749,7 +28749,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -28774,16 +28774,16 @@
 										<ActiveSource Name="SFX_OS_UI+Menu_01_THOMAS_V1" ID="{D0C8C44C-8CAE-42B1-8917-08B8A4B0E0F6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="SFX_OS_UI-Menu_01_THOMAS_V1" ID="{2B7B0D99-3A1D-4CC9-8E71-592A17860B83}" ShortID="696400052">
+								<Sound Name="SFX_OS_UI-Menu_01_THOMAS_V2" ID="{471318B7-6F06-4EFA-9626-FAB14DB226A4}" ShortID="333843891">
 									<PropertyList>
-										<Property Name="Lowpass" Type="int16">
+										<Property Name="Highpass" Type="int16">
 											<ValueList>
-												<Value>30</Value>
+												<Value>20</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -28796,16 +28796,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SFX_OS_UI-Menu_01_THOMAS_V1" ID="{C76CE055-E988-4E1C-9EFB-690152DD469E}">
+										<AudioFileSource Name="SFX_OS_UI-Menu_01_THOMAS_V2" ID="{1F4DE3AD-6520-43C1-9E8A-6443E4FA8551}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_OS_UI-Menu_01_THOMAS_V1.wav</AudioFile>
+											<AudioFile>SFX_OS_UI-Menu_01_THOMAS_V2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="29850415"/>
+												<MediaID ID="1045113429"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="SFX_OS_UI-Menu_01_THOMAS_V1" ID="{C76CE055-E988-4E1C-9EFB-690152DD469E}" Platform="Linked"/>
+										<ActiveSource Name="SFX_OS_UI-Menu_01_THOMAS_V2" ID="{1F4DE3AD-6520-43C1-9E8A-6443E4FA8551}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
