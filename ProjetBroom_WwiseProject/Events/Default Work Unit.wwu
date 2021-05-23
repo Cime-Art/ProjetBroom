@@ -616,6 +616,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_General_GetHit_BLD" ID="{2520F7B3-8C44-43EA-967C-19CFBDDF4265}">
+									<ChildrenList>
+										<Action Name="" ID="{5B232A92-F19B-4D08-8D30-04C50CC1F924}" ShortID="650233744">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="General_GetHit_BLD" ID="{27FC3E49-AF21-478F-B472-4E97C3A30341}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Jump" ID="{C283CB0A-F45A-40BC-9543-6909F7F3FAA7}" ShortID="484522045">
@@ -1201,6 +1212,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Birds_RND" ID="{6DAEA02D-6BEF-4306-AB32-B56A570FE1D6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DoorsKitchen" ID="{9CA46F1E-3CD8-482A-A4EA-C33A5BE3C5D4}">
+											<ChildrenList>
+												<Action Name="" ID="{31E218DA-EDDD-45BD-A453-4989BEC9DA61}" ShortID="369315903">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="DoorsKitchen_RND" ID="{7422D507-E630-4A31-B208-61E7B37E58B9}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -2206,17 +2228,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_DoorsKitchen" ID="{9CA46F1E-3CD8-482A-A4EA-C33A5BE3C5D4}">
-					<ChildrenList>
-						<Action Name="" ID="{31E218DA-EDDD-45BD-A453-4989BEC9DA61}" ShortID="369315903">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="DoorsKitchen_RND" ID="{7422D507-E630-4A31-B208-61E7B37E58B9}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -396,11 +396,24 @@
 							</ChildrenList>
 						</StateGroup>
 						<StateGroup Name="GetHit_Armor_Texture" ID="{638CD667-E878-4B6D-A7A1-C44EA71CF349}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+							</PropertyList>
 							<ChildrenList>
 								<State Name="None" ID="{89DDE0CA-D4D2-4ACD-81EB-50CCF17B5F83}"/>
 								<State Name="Metal" ID="{0ABC5705-4078-4363-87FD-93EDCA7AA609}"/>
 								<State Name="Wood" ID="{87D119C9-CD54-4701-999D-C6F27907575E}"/>
 								<State Name="Magic" ID="{02525265-B4FE-4064-86C7-909E7FA615F2}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="GetHit_Weapon_Type" ID="{05BE03B9-0B22-4295-84FC-DCD0DA3EB7A8}">
+							<ChildrenList>
+								<State Name="None" ID="{DD498356-EAD6-4A76-BD62-2B1C70C2FDB4}"/>
+								<State Name="Sword" ID="{4D40FCEF-59AC-498E-8CD7-16908C91B3E6}"/>
+								<State Name="Arrow" ID="{99C7D5A5-2880-4312-BE58-DF07FD1F06C5}"/>
+								<State Name="Blob" ID="{73BF3FDB-5501-43B1-8B2F-8F36FA268EFB}"/>
+								<State Name="Alambic" ID="{B309D41F-3739-4193-9A1C-CBF2357DC949}"/>
+								<State Name="FireSkull" ID="{707F0AC8-A91C-4CB5-8FD9-B539584AA726}"/>
 							</ChildrenList>
 						</StateGroup>
 					</ChildrenList>

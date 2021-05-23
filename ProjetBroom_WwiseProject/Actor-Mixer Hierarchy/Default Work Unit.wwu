@@ -27130,12 +27130,308 @@
 																</GroupingList>
 															</GroupingInfo>
 														</SwitchContainer>
+														<SwitchContainer Name="Weapon_Type" ID="{4D6A2569-1FE0-448C-82EA-E8B141C494FA}" ShortID="633082250">
+															<PropertyList>
+																<Property Name="OverrideEffect" Type="bool" Value="True"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-11</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="DefaultSwitchOrState">
+																	<ObjectRef Name="None" ID="{DD498356-EAD6-4A76-BD62-2B1C70C2FDB4}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+																<Reference Name="SwitchGroupOrStateGroup">
+																	<ObjectRef Name="GetHit_Weapon_Type" ID="{05BE03B9-0B22-4295-84FC-DCD0DA3EB7A8}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<RandomSequenceContainer Name="Arrow" ID="{604B031F-144A-4FF1-84A4-1E8199FB733A}" ShortID="53829821">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="OS_PLAYER_GetHitArrow_01_Dambrosio_V1" ID="{4F4AAD9C-2239-483F-BECE-4BA637141C68}" ShortID="460802585">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_PLAYER_GetHitArrow_01_Dambrosio_V1" ID="{D71ED238-81E9-45AF-8D46-0900521E8ECB}">
+																					<Language>SFX</Language>
+																					<AudioFile>OS_PLAYER_GetHitArrow_01_Dambrosio_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="893025318"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_PLAYER_GetHitArrow_01_Dambrosio_V1" ID="{D71ED238-81E9-45AF-8D46-0900521E8ECB}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="OS_PLAYER_GetHitArrow_02_Dambrosio_V1" ID="{21F300FB-518A-4986-B33D-7B25B65047AF}" ShortID="488453322">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_PLAYER_GetHitArrow_02_Dambrosio_V1" ID="{86383B3B-C439-42BD-A52C-6485C5B39EAB}">
+																					<Language>SFX</Language>
+																					<AudioFile>OS_PLAYER_GetHitArrow_02_Dambrosio_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="561579156"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_PLAYER_GetHitArrow_02_Dambrosio_V1" ID="{86383B3B-C439-42BD-A52C-6485C5B39EAB}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="OS_PLAYER_GetHitArrow_03_Dambrosio_V1" ID="{23A087A1-16C5-4B5D-A77D-B87D2D70A23C}" ShortID="515634464">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_PLAYER_GetHitArrow_03_Dambrosio_V1" ID="{3BF4DB45-6B0B-46BE-B081-DB2D57458646}">
+																					<Language>SFX</Language>
+																					<AudioFile>OS_PLAYER_GetHitArrow_03_Dambrosio_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="760504916"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_PLAYER_GetHitArrow_03_Dambrosio_V1" ID="{3BF4DB45-6B0B-46BE-B081-DB2D57458646}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
+																<RandomSequenceContainer Name="Sword" ID="{797F205A-BA23-4F7D-ADC0-302226C586BB}" ShortID="709468703">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="OS_PLAYER_GetHitSword_01_Dambrosio_V1" ID="{C3EA4DCF-7F57-4C14-9BE5-2A63AB054E0A}" ShortID="479695135">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_PLAYER_GetHitSword_01_Dambrosio_V1" ID="{6767637B-4CC2-4D34-84A4-38733DC6EBC0}">
+																					<Language>SFX</Language>
+																					<AudioFile>OS_PLAYER_GetHitSword_01_Dambrosio_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="133433617"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_PLAYER_GetHitSword_01_Dambrosio_V1" ID="{6767637B-4CC2-4D34-84A4-38733DC6EBC0}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="OS_PLAYER_GetHitSword_02_Dambrosio_V1" ID="{51E87280-CDB1-43B1-B94C-159AFD850A95}" ShortID="208393539">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_PLAYER_GetHitSword_02_Dambrosio_V1" ID="{827AF76E-4844-4151-8437-2EB702721933}">
+																					<Language>SFX</Language>
+																					<AudioFile>OS_PLAYER_GetHitSword_02_Dambrosio_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="566502787"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_PLAYER_GetHitSword_02_Dambrosio_V1" ID="{827AF76E-4844-4151-8437-2EB702721933}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="OS_PLAYER_GetHitSword_03_Dambrosio_V1" ID="{532B296A-0F51-46E7-AC65-DC05579450CB}" ShortID="789527002">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_PLAYER_GetHitSword_03_Dambrosio_V1" ID="{04401B01-C00B-4C25-B66F-64C78CC05A68}">
+																					<Language>SFX</Language>
+																					<AudioFile>OS_PLAYER_GetHitSword_03_Dambrosio_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="1000039962"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_PLAYER_GetHitSword_03_Dambrosio_V1" ID="{04401B01-C00B-4C25-B66F-64C78CC05A68}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
+																<RandomSequenceContainer Name="Blob" ID="{04E12985-18DB-4859-9A84-44646D23233F}" ShortID="544360790">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="OS_PLAYER_GetHitBLOB_01_Dambrosio_V1" ID="{F77F6025-EA28-4F8F-8647-5249895149B3}" ShortID="664554364">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_PLAYER_GetHitBLOB_01_Dambrosio_V1" ID="{8C30D4C9-E31E-4530-92F0-06A01B617F1C}">
+																					<Language>SFX</Language>
+																					<AudioFile>OS_PLAYER_GetHitBLOB_01_Dambrosio_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="538838832"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_PLAYER_GetHitBLOB_01_Dambrosio_V1" ID="{8C30D4C9-E31E-4530-92F0-06A01B617F1C}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="OS_PLAYER_GetHitBLOB_02_Dambrosio_V1" ID="{A29FC1C4-7E44-4300-9104-628BBCD17AE5}" ShortID="154108310">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_PLAYER_GetHitBLOB_02_Dambrosio_V1" ID="{6CA14BCD-F080-45F0-AFDC-638558B201F1}">
+																					<Language>SFX</Language>
+																					<AudioFile>OS_PLAYER_GetHitBLOB_02_Dambrosio_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="88306621"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_PLAYER_GetHitBLOB_02_Dambrosio_V1" ID="{6CA14BCD-F080-45F0-AFDC-638558B201F1}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="OS_PLAYER_GetHitBLOB_03_Dambrosio_V1" ID="{88798E93-D3C6-4E7B-9D12-73E195FB50F4}" ShortID="123060321">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="OS_PLAYER_GetHitBLOB_03_Dambrosio_V1" ID="{032452D0-BFBC-46A8-9896-4744F1383654}">
+																					<Language>SFX</Language>
+																					<AudioFile>OS_PLAYER_GetHitBLOB_03_Dambrosio_V1.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="269733667"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="OS_PLAYER_GetHitBLOB_03_Dambrosio_V1" ID="{032452D0-BFBC-46A8-9896-4744F1383654}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
+															</ChildrenList>
+															<GroupingInfo>
+																<GroupingBehaviorList>
+																	<GroupingBehavior>
+																		<ItemRef Name="Arrow" ID="{604B031F-144A-4FF1-84A4-1E8199FB733A}"/>
+																	</GroupingBehavior>
+																	<GroupingBehavior>
+																		<ItemRef Name="Sword" ID="{797F205A-BA23-4F7D-ADC0-302226C586BB}"/>
+																	</GroupingBehavior>
+																	<GroupingBehavior>
+																		<ItemRef Name="Blob" ID="{04E12985-18DB-4859-9A84-44646D23233F}"/>
+																	</GroupingBehavior>
+																</GroupingBehaviorList>
+																<GroupingList>
+																	<Grouping>
+																		<SwitchRef Name="Arrow" ID="{99C7D5A5-2880-4312-BE58-DF07FD1F06C5}"/>
+																		<ItemList>
+																			<ItemRef Name="Arrow" ID="{604B031F-144A-4FF1-84A4-1E8199FB733A}"/>
+																		</ItemList>
+																	</Grouping>
+																	<Grouping>
+																		<SwitchRef Name="Blob" ID="{73BF3FDB-5501-43B1-8B2F-8F36FA268EFB}"/>
+																		<ItemList>
+																			<ItemRef Name="Blob" ID="{04E12985-18DB-4859-9A84-44646D23233F}"/>
+																		</ItemList>
+																	</Grouping>
+																	<Grouping>
+																		<SwitchRef Name="Sword" ID="{4D40FCEF-59AC-498E-8CD7-16908C91B3E6}"/>
+																		<ItemList>
+																			<ItemRef Name="Sword" ID="{797F205A-BA23-4F7D-ADC0-302226C586BB}"/>
+																		</ItemList>
+																	</Grouping>
+																</GroupingList>
+															</GroupingInfo>
+														</SwitchContainer>
 													</ChildrenList>
 													<BlendTrackList>
 														<BlendTrack Name="GetHit" ID="{052A623C-B8B7-4B50-942A-90ECBFF0393C}" ShortID="892565183">
 															<BlendTrackAssocList>
 																<BlendTrackAssoc>
 																	<ItemRef Name="General_GetHit_RND" ID="{09DFAF2B-5EF6-4634-889A-6848769B4F3C}"/>
+																</BlendTrackAssoc>
+																<BlendTrackAssoc>
+																	<ItemRef Name="Weapon_Type" ID="{4D6A2569-1FE0-448C-82EA-E8B141C494FA}"/>
 																</BlendTrackAssoc>
 																<BlendTrackAssoc>
 																	<ItemRef Name="Armor_Texture" ID="{A4AD8BB3-F862-438E-ACED-113B49662DBD}"/>

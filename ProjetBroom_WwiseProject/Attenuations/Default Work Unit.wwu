@@ -1964,7 +1964,25 @@
 									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 								</VolumeWetGameUsage>
 								<VolumeWetUserUsage>
-									<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+										<Curve Name="VolumeWetUser" ID="{1CC3AD45-2664-47A9-88CE-E280887DB22E}">
+											<PropertyList>
+												<Property Name="Flags" Type="int32" Value="3"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>0</YPos>
+													<Flags>5</Flags>
+												</Point>
+												<Point>
+													<XPos>1000</XPos>
+													<YPos>-200</YPos>
+													<Flags>37</Flags>
+												</Point>
+											</PointList>
+										</Curve>
+									</CurveUsageInfo>
 								</VolumeWetUserUsage>
 								<LowPassFilterUsage>
 									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -2393,7 +2411,7 @@
 											<PointList>
 												<Point>
 													<XPos>0</XPos>
-													<YPos>-0</YPos>
+													<YPos>0</YPos>
 													<Flags>5</Flags>
 												</Point>
 												<Point>
