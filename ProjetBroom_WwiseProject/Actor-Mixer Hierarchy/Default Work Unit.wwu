@@ -29040,12 +29040,12 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>9</Value>
+												<Value>20</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-7</Value>
+												<Value>-6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -29102,6 +29102,35 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="SFX_OS_UI-Menu_01_THOMAS_V2" ID="{1F4DE3AD-6520-43C1-9E8A-6443E4FA8551}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_OS_UIMenuNeutral_01_THOMAS_V1" ID="{AF16A185-5AEC-4AD0-B9A3-CA35AA4FAD2B}" ShortID="442945773">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_OS_UIMenuNeutral_01_THOMAS_V1" ID="{B5FA12AD-01FB-4938-B3B8-EAF4BDA6F960}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_OS_UIMenuNeutral_01_THOMAS_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="517991004"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_OS_UIMenuNeutral_01_THOMAS_V1" ID="{B5FA12AD-01FB-4938-B3B8-EAF4BDA6F960}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

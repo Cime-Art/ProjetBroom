@@ -1735,10 +1735,10 @@
 						</Event>
 						<Event Name="Event_UI_SelectMenu" ID="{7D7EBABF-4E99-406B-AC6B-92ED339DE302}">
 							<ChildrenList>
-								<Action Name="" ID="{C31F378A-61F1-4552-9F3D-BB3CEF79492C}" ShortID="799076710">
+								<Action Name="" ID="{E44B9484-9571-4054-8794-883E874B502F}" ShortID="697861217">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_OS_SelectMenu_Pelloux_V1" ID="{30DEF323-3C08-4756-9D63-C237D979AC9D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+											<ObjectRef Name="SFX_OS_UIMenuNeutral_01_THOMAS_V1" ID="{AF16A185-5AEC-4AD0-B9A3-CA35AA4FAD2B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1757,13 +1757,10 @@
 						</Event>
 						<Event Name="Pause_UI_SelectMenu" ID="{80D8B165-3855-4B00-9430-E8C58E83614E}">
 							<ChildrenList>
-								<Action Name="" ID="{DC445811-EDF5-490E-80CC-6B5E7351A2F3}" ShortID="53008549">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="7"/>
-									</PropertyList>
+								<Action Name="" ID="{5563639C-CC8B-452C-86CA-A3F3BC621C27}" ShortID="1009012665">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_OS_SelectMenu_Pelloux_V1" ID="{30DEF323-3C08-4756-9D63-C237D979AC9D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+											<ObjectRef Name="SFX_OS_UIMenuNeutral_01_THOMAS_V1" ID="{AF16A185-5AEC-4AD0-B9A3-CA35AA4FAD2B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1771,10 +1768,10 @@
 						</Event>
 						<Event Name="Event_UI_Scroll" ID="{E6D765DB-05E5-4334-9426-59BE568171D4}">
 							<ChildrenList>
-								<Action Name="" ID="{84529C76-0C1C-49E2-8291-FDD08C93EB47}" ShortID="189317223">
+								<Action Name="" ID="{024BEDE7-528C-4E98-846C-F9B30CDD4D2C}" ShortID="303791290">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_OS_Scroll_Pelloux_V1" ID="{BEA8CEE1-BDFE-405B-81EB-01D7EB3B8F15}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+											<ObjectRef Name="SFX_OS_UIMenuNeutral_01_THOMAS_V1" ID="{AF16A185-5AEC-4AD0-B9A3-CA35AA4FAD2B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
