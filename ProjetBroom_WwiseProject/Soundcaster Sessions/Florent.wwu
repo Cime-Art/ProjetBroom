@@ -17,6 +17,10 @@
 							<ObjectRef Name="Event_FallingRocks" ID="{A4AAAA6C-6DF0-4BBB-B327-3D094762BBA7}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
 							<Position X="1" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Event_Hell_MagicChest" ID="{7F0F9BEA-1271-4B83-9D03-4F7942BAC7A5}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
+							<Position X="2" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -30,6 +34,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="Master_Volume_GP" ID="{C0054CA0-46BD-4911-8ADF-2435B99B7B79}"/>
 							<Value>0.5</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Life" ID="{D6FDC341-5DEE-4931-BFE7-0E4BBEFAEE39}"/>
+							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="TriggerCreaks" ID="{D60472E1-FA29-4B23-9E0C-C57513358AB8}"/>
@@ -49,13 +57,18 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
+						<CurrentStateRef Name="None" ID="{6D47C0C6-5A10-42E8-876A-0F1F09BE2DA8}"/>
+						<CurrentStateRef Name="Level" ID="{BD943A07-32D6-4547-9D3D-4210380C79CD}"/>
 						<CurrentStateRef Name="None" ID="{76DD572D-951D-4027-93F0-2C3C154AB123}"/>
-						<CurrentStateRef Name="Jump" ID="{48A01FA1-801A-4377-B165-AF9E9E1694BE}"/>
-						<CurrentStateRef Name="snail_explosion_state" ID="{EAE40543-B022-4A55-A67E-4A6512A247C4}"/>
+						<CurrentStateRef Name="None" ID="{57BBBC35-1BE8-459C-845B-6BCDCF5ADB4F}"/>
+						<CurrentStateRef Name="None" ID="{84F7C088-EADC-42A7-9FC3-4384FBFC1D96}"/>
+						<CurrentStateRef Name="None" ID="{680AFC01-2598-4A67-8ADD-6047F9443835}"/>
+						<CurrentStateRef Name="Exploration" ID="{F4E8D336-C182-4523-A0EE-D4E297EBDD9E}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Acid" ID="{00E78FF5-D6D0-4078-9C77-03E23FDC4EB4}"/>
 						<CurrentSwitchRef Name="Bones" ID="{749251C1-B604-4A51-B0C6-BBADFECC6113}"/>
+						<CurrentSwitchRef Name="MagicChest_Helmet" ID="{01AB9C31-0156-4481-8043-EC0B644194E0}"/>
 						<CurrentSwitchRef Name="DryWood" ID="{B7624EDB-88F7-4B4F-8B22-48863C6006CF}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
