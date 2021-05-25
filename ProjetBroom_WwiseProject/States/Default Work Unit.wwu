@@ -349,6 +349,31 @@
 								</StateGroup>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="SkullFire" ID="{4B7869C3-86D6-43E6-A028-2BCF9EEABEA9}" ShortID="776892658">
+							<ChildrenList>
+								<StateGroup Name="SkullFireAttack_Group" ID="{FD97D2EF-686F-41F3-B22B-2B616AB69BDA}">
+									<ChildrenList>
+										<State Name="None" ID="{06270BCA-59A5-4B97-8248-1498688C49E1}"/>
+										<State Name="Skull_Attackhit_state" ID="{D5093DE0-4E58-408C-A769-085C92912BE2}"/>
+										<State Name="Skull_FireWave_state" ID="{D53A2A71-867D-431F-9996-A39869FF2E2A}"/>
+										<State Name="Skull_Fire_state" ID="{E32C7B60-2BBA-416A-9D0F-0B5C4BFE8280}"/>
+										<State Name="Skull_Fireball_state" ID="{4831D5D8-C572-4F14-9001-EDA63630C33E}"/>
+										<State Name="Skull_MoveForward_state" ID="{0A76D8B9-1E2B-454B-8C0E-EDB5C1D1076E}"/>
+										<State Name="Skull_Charge_state" ID="{239664C0-B569-45CC-B8A8-B6B672827511}"/>
+										<State Name="Skull_idle_state" ID="{E4164C07-0D3B-44E2-B5EE-0B802E0F1392}"/>
+										<State Name="Skull_Death_state" ID="{2F660630-8FA7-46E0-96F7-E3513EE2ED1F}"/>
+									</ChildrenList>
+									<TransitionList>
+										<Transition>
+											<StartState Name="Skull_idle_state" ID="{E4164C07-0D3B-44E2-B5EE-0B802E0F1392}"/>
+											<EndState Name="Skull_Attackhit_state" ID="{D5093DE0-4E58-408C-A769-085C92912BE2}"/>
+											<Time>0.5</Time>
+											<IsShared>true</IsShared>
+										</Transition>
+									</TransitionList>
+								</StateGroup>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{0E1C6292-8971-4BBB-80A0-0F23EB7A5EAB}" ShortID="284628511">
@@ -371,11 +396,24 @@
 							</ChildrenList>
 						</StateGroup>
 						<StateGroup Name="GetHit_Armor_Texture" ID="{638CD667-E878-4B6D-A7A1-C44EA71CF349}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+							</PropertyList>
 							<ChildrenList>
 								<State Name="None" ID="{89DDE0CA-D4D2-4ACD-81EB-50CCF17B5F83}"/>
 								<State Name="Metal" ID="{0ABC5705-4078-4363-87FD-93EDCA7AA609}"/>
 								<State Name="Wood" ID="{87D119C9-CD54-4701-999D-C6F27907575E}"/>
 								<State Name="Magic" ID="{02525265-B4FE-4064-86C7-909E7FA615F2}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="GetHit_Weapon_Type" ID="{05BE03B9-0B22-4295-84FC-DCD0DA3EB7A8}">
+							<ChildrenList>
+								<State Name="None" ID="{DD498356-EAD6-4A76-BD62-2B1C70C2FDB4}"/>
+								<State Name="Sword" ID="{4D40FCEF-59AC-498E-8CD7-16908C91B3E6}"/>
+								<State Name="Arrow" ID="{99C7D5A5-2880-4312-BE58-DF07FD1F06C5}"/>
+								<State Name="Blob" ID="{73BF3FDB-5501-43B1-8B2F-8F36FA268EFB}"/>
+								<State Name="Alambic" ID="{B309D41F-3739-4193-9A1C-CBF2357DC949}"/>
+								<State Name="FireSkull" ID="{707F0AC8-A91C-4CB5-8FD9-B539584AA726}"/>
 							</ChildrenList>
 						</StateGroup>
 					</ChildrenList>
@@ -400,6 +438,16 @@
 								<State Name="None" ID="{84F7C088-EADC-42A7-9FC3-4384FBFC1D96}"/>
 								<State Name="On" ID="{21593DA0-FC4D-4578-BF81-BB34683C678C}"/>
 								<State Name="Off" ID="{0DADE348-17F7-45E7-9CF4-D3DCB9D317C3}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="Hell_Level_Boss" ID="{1B86A890-F568-41D7-9F76-78C18A6977F2}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{186EDAFE-DAAA-4B13-9F44-33B07EB9A648}"/>
+								<State Name="Level" ID="{BD943A07-32D6-4547-9D3D-4210380C79CD}"/>
+								<State Name="Boss" ID="{09A97156-473B-4DEB-BE19-FBDA384EEBF0}"/>
 							</ChildrenList>
 						</StateGroup>
 					</ChildrenList>

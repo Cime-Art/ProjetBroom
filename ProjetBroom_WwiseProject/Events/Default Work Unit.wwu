@@ -616,6 +616,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_General_GetHit_BLD" ID="{2520F7B3-8C44-43EA-967C-19CFBDDF4265}">
+									<ChildrenList>
+										<Action Name="" ID="{5B232A92-F19B-4D08-8D30-04C50CC1F924}" ShortID="650233744">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="General_GetHit_BLD" ID="{27FC3E49-AF21-478F-B472-4E97C3A30341}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Jump" ID="{C283CB0A-F45A-40BC-9543-6909F7F3FAA7}" ShortID="484522045">
@@ -669,7 +680,7 @@
 										<Action Name="" ID="{4E2E7781-33F4-4353-8BD9-D8C3C3F870A7}" ShortID="188889190">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="VoiceDead_RND" ID="{26890386-0ABE-4313-8D00-A2990D4988F3}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="Death_Switch" ID="{30A3C3FC-F516-4DE4-B915-3473ECC74E5F}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1102,6 +1113,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Event_QuakePlatform" ID="{E8BF602D-DD22-469E-948C-ECC8F319B729}">
+									<ChildrenList>
+										<Action Name="" ID="{CB62F23D-FDCD-4284-9957-1E1DF9D8769A}" ShortID="413353842">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="OS_QuakePlatform_v1" ID="{D1351981-35E9-4C17-A60A-1CD6377360BD}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Tuto" ID="{C5848E0C-DB86-4041-B214-BE3A333D64A3}" ShortID="579642512">
@@ -1190,6 +1212,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Birds_RND" ID="{6DAEA02D-6BEF-4306-AB32-B56A570FE1D6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DoorsKitchen" ID="{9CA46F1E-3CD8-482A-A4EA-C33A5BE3C5D4}">
+											<ChildrenList>
+												<Action Name="" ID="{31E218DA-EDDD-45BD-A453-4989BEC9DA61}" ShortID="369315903">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="DoorsKitchen_RND" ID="{7422D507-E630-4A31-B208-61E7B37E58B9}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1362,6 +1395,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Event_SmallAnimalRunAway_Tuto" ID="{635D60D0-006E-40DD-87F9-F25CD89B3204}">
+											<ChildrenList>
+												<Action Name="" ID="{76A7AE4E-0029-4105-B689-D2BF38B17603}" ShortID="761938925">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Small_Animal_Run_Away_RND_Tuto" ID="{D26AEE1B-04B8-423B-A31C-AFDC4BD74A2C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Barn_02" ID="{F6E9FD2B-7D73-41BD-B304-843343C2FC21}" ShortID="477767617">
@@ -1401,6 +1445,17 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Event Name="Event_LoudScream_Tuto" ID="{D11C279B-1814-4EFD-8F9D-80F22E79137C}">
+									<ChildrenList>
+										<Action Name="" ID="{A67907D6-1D34-4BAB-9E7A-8151382FF147}" ShortID="340342591">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Loud_Scream_RND_Tuto" ID="{9EC5C874-4CC3-490B-AB06-A95AC0D92270}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Hell" ID="{246DE10D-6236-481E-B819-17F138DBE94D}" ShortID="241790163">
@@ -1438,7 +1493,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Event_SubmergingLavaPlatform" ID="{C6F8E438-12DC-4391-8767-FC763A0CBF6B}">
+								<Event Name="Event_PlatformFallingInLava" ID="{C6F8E438-12DC-4391-8767-FC763A0CBF6B}">
 									<ChildrenList>
 										<Action Name="" ID="{B7DE4FFF-7059-4995-AFE1-7827F4CC4AE5}" ShortID="868625959">
 											<ReferenceList>
@@ -1661,7 +1716,7 @@
 								<Action Name="" ID="{1EF47207-A1A2-4D88-A9CC-14E38D01CA50}" ShortID="811704560">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_OS_CancelMenu_Pelloux_V1" ID="{F03AC8C4-4A76-4AAD-9A68-EA0CE5EA6767}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+											<ObjectRef Name="SFX_OS_UI-Menu_01_THOMAS_V2" ID="{471318B7-6F06-4EFA-9626-FAB14DB226A4}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1672,7 +1727,7 @@
 								<Action Name="" ID="{F7EC9D29-10DC-4282-973D-4B5F3B2F2B00}" ShortID="628825241">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{B4772A2B-5C8F-4EE2-BE98-264B53932EBB}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+											<ObjectRef Name="SFX_OS_UI+Menu_01_THOMAS_V1" ID="{C8BD5ED0-88A0-4356-9460-931E1AD9FDCB}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1680,10 +1735,10 @@
 						</Event>
 						<Event Name="Event_UI_SelectMenu" ID="{7D7EBABF-4E99-406B-AC6B-92ED339DE302}">
 							<ChildrenList>
-								<Action Name="" ID="{C31F378A-61F1-4552-9F3D-BB3CEF79492C}" ShortID="799076710">
+								<Action Name="" ID="{E44B9484-9571-4054-8794-883E874B502F}" ShortID="697861217">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_OS_SelectMenu_Pelloux_V1" ID="{30DEF323-3C08-4756-9D63-C237D979AC9D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+											<ObjectRef Name="SFX_OS_UIMenuNeutral_01_THOMAS_V1" ID="{AF16A185-5AEC-4AD0-B9A3-CA35AA4FAD2B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1702,13 +1757,10 @@
 						</Event>
 						<Event Name="Pause_UI_SelectMenu" ID="{80D8B165-3855-4B00-9430-E8C58E83614E}">
 							<ChildrenList>
-								<Action Name="" ID="{DC445811-EDF5-490E-80CC-6B5E7351A2F3}" ShortID="53008549">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="7"/>
-									</PropertyList>
+								<Action Name="" ID="{5563639C-CC8B-452C-86CA-A3F3BC621C27}" ShortID="1009012665">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_OS_SelectMenu_Pelloux_V1" ID="{30DEF323-3C08-4756-9D63-C237D979AC9D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+											<ObjectRef Name="SFX_OS_UIMenuNeutral_01_THOMAS_V1" ID="{AF16A185-5AEC-4AD0-B9A3-CA35AA4FAD2B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1716,10 +1768,10 @@
 						</Event>
 						<Event Name="Event_UI_Scroll" ID="{E6D765DB-05E5-4334-9426-59BE568171D4}">
 							<ChildrenList>
-								<Action Name="" ID="{84529C76-0C1C-49E2-8291-FDD08C93EB47}" ShortID="189317223">
+								<Action Name="" ID="{024BEDE7-528C-4E98-846C-F9B30CDD4D2C}" ShortID="303791290">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_OS_Scroll_Pelloux_V1" ID="{BEA8CEE1-BDFE-405B-81EB-01D7EB3B8F15}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+											<ObjectRef Name="SFX_OS_UIMenuNeutral_01_THOMAS_V1" ID="{AF16A185-5AEC-4AD0-B9A3-CA35AA4FAD2B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1855,7 +1907,7 @@
 								<Action Name="" ID="{4D516784-3041-4627-BBA1-F19BC7EEEF23}" ShortID="753192770">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music Hell" ID="{9B9FC1EC-F8E7-4B7D-9A8C-588B09482E94}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+											<ObjectRef Name="Level_Boss_Switch" ID="{53ED204E-399C-4CAD-A294-9B18AA04736F}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1872,7 +1924,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music Hell" ID="{9B9FC1EC-F8E7-4B7D-9A8C-588B09482E94}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+											<ObjectRef Name="Level_Boss_Switch" ID="{53ED204E-399C-4CAD-A294-9B18AA04736F}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -2119,6 +2171,21 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="MagicChest" ID="{B5AFF4AD-4494-4E54-8734-37ED1B3C3616}" ShortID="837573638">
+							<ChildrenList>
+								<Event Name="Event_Hell_MagicChest" ID="{7F0F9BEA-1271-4B83-9D03-4F7942BAC7A5}">
+									<ChildrenList>
+										<Action Name="" ID="{403A095C-88EC-4801-A5E8-4AEC71F461CE}" ShortID="14516567">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Hell_MagicChest_SWITCH" ID="{988A1D72-F15E-4741-B558-0F21ACD43379}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{B37D3109-6ACF-4282-B02F-A65CE3CB8052}" ShortID="330638814">
@@ -2129,6 +2196,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Voice_King_Whisper_RND" ID="{DB4CD5C0-BDBC-4FED-9D6B-B2DF695C73A7}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_MenuUI" ID="{94BFA7A0-4062-41A8-964F-5E7B470C1E49}">
+							<ChildrenList>
+								<Action Name="" ID="{4615C9CE-2FD6-40BB-AD62-496D2CA2F38A}" ShortID="201706030">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_OS_UI+Menu_01_THOMAS_V1" ID="{C8BD5ED0-88A0-4356-9460-931E1AD9FDCB}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_MenuUIError" ID="{92A03A66-192E-41E6-BC95-7871889A871E}">
+							<ChildrenList>
+								<Action Name="" ID="{2E272476-4323-432F-9B78-65A9FA0AE30F}" ShortID="1043236850">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_OS_UI-Menu_01_THOMAS_V2" ID="{471318B7-6F06-4EFA-9626-FAB14DB226A4}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
