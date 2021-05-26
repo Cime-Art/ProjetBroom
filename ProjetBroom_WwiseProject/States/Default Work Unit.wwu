@@ -7,7 +7,7 @@
 					<ChildrenList>
 						<StateGroup Name="State_Gate" ID="{FFCCC612-A0ED-4008-9FA0-1AC564445A6B}">
 							<PropertyList>
-								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
 							</PropertyList>
 							<ChildrenList>
 								<State Name="None" ID="{6D47C0C6-5A10-42E8-876A-0F1F09BE2DA8}"/>
