@@ -1,0 +1,77 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4159716108",
+    "GUID": "{F7F03B0C-3B0C-1B0C-0C0C-0C0C0C0C0C0C}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_252E0F9279174B279C4F3AADECD02781",
+    "ShortName": "SB_252E0F9279174B279C4F3AADECD02781",
+    "Path": "SB_252E0F9279174B279C4F3AADECD02781.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "672792476",
+      "Name": "BlobJump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\Blob\\BlobJump",
+      "GUID": "{252E0F92-7917-4B27-9C4F-3AADECD02781}",
+      "MaxAttenuation": "700.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.655708",
+      "DurationMax": "0.858125",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "520602045",
+        "Language": "SFX",
+        "ShortName": "MOB_OS_BlobJump_02_DELIVERT_V4.wav",
+        "Path": "SFX\\MOB_OS_BlobJump_02_DELIVERT_V4_4A67AB6A.wem"
+       },
+       {
+        "Id": "580778480",
+        "Language": "SFX",
+        "ShortName": "MOB_OS_BlobJump_04_DELIVERT_V4.wav",
+        "Path": "SFX\\MOB_OS_BlobJump_04_DELIVERT_V4_4A67AB6A.wem"
+       },
+       {
+        "Id": "664061846",
+        "Language": "SFX",
+        "ShortName": "MOB_OS_BlobJump_03_DELIVERT_V4.wav",
+        "Path": "SFX\\MOB_OS_BlobJump_03_DELIVERT_V4_4A67AB6A.wem"
+       },
+       {
+        "Id": "980957349",
+        "Language": "SFX",
+        "ShortName": "MOB_OS_BlobJump_01_DELIVERT_V4.wav",
+        "Path": "SFX\\MOB_OS_BlobJump_01_DELIVERT_V4_4A67AB6A.wem"
+       },
+       {
+        "Id": "983790726",
+        "Language": "SFX",
+        "ShortName": "MOB_OS_BlobJump_05_DELIVERT_V4.wav",
+        "Path": "SFX\\MOB_OS_BlobJump_05_DELIVERT_V4_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1696050934",
+    "GUID": "{6517AEF6-AEF6-1EF6-F6F6-F6F6F6F6F6F6}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_0E27E8604A774BA1A276F9F05AA8B698",
+    "ShortName": "SB_0E27E8604A774BA1A276F9F05AA8B698",
+    "Path": "SB_0E27E8604A774BA1A276F9F05AA8B698.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2819538170",
+      "Name": "Event_Banana_Idle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\Banana\\Event_Banana_Idle",
+      "GUID": "{0E27E860-4A77-4BA1-A276-F9F05AA8B698}",
+      "MaxAttenuation": "1000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "12.665292",
+      "DurationMax": "37.665291",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "104064074",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_BananaIdle_01_Goico_v1.wav",
+        "Path": "SFX\\Mob_OS_BananaIdle_01_Goico_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "201612192",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_BananaIdle_06_Goico_v1.wav",
+        "Path": "SFX\\Mob_OS_BananaIdle_06_Goico_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "211851736",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_BananaIdle_05_Goico_v1.wav",
+        "Path": "SFX\\Mob_OS_BananaIdle_05_Goico_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "818833768",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_BananaIdle_02_Goico_v1.wav",
+        "Path": "SFX\\Mob_OS_BananaIdle_02_Goico_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "894326198",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_BananaIdle_03_Goico_v1.wav",
+        "Path": "SFX\\Mob_OS_BananaIdle_03_Goico_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "939630480",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_BananaIdle_04_Goico_v1.wav",
+        "Path": "SFX\\Mob_OS_BananaIdle_04_Goico_v1_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

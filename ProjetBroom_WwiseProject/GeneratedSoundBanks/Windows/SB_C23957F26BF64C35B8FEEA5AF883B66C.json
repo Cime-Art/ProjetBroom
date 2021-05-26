@@ -23,8 +23,9 @@
      {
       "Id": "3480754282",
       "Name": "Event_DropOfBlood",
-      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Event_DropOfBlood",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\General\\Event_DropOfBlood",
       "GUID": "{C23957F2-6BF6-4C35-B8FE-EA5AF883B66C}",
+      "MaxAttenuation": "2000.000000",
       "DurationType": "OneShot",
       "DurationMin": "0.222974",
       "DurationMax": "0.472466",

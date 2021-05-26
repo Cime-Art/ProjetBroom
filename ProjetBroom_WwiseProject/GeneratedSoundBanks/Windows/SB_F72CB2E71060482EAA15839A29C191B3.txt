@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3661683198	BlobIdle			\Default Work Unit\Mob\Blob\BlobIdle	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	949138207	BlobState			\Default Work Unit\Mob\Blob\BlobState	
+
+State	ID	Name	State Group			Notes
+	110619946	GetHit	BlobState			
+	428598047	AttackClose	BlobState			
+	748895195	None	BlobState			
+	779278001	Death	BlobState			
+	1874288895	Idle	BlobState			
+	1970639712	AttackSplash	BlobState			
+	2141674100	JumpingFoward	BlobState			
+	3979397271	HitPlayer	BlobState			
+

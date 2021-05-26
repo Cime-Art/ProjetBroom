@@ -1,0 +1,70 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4058001963",
+    "GUID": "{F1E0322B-322B-122B-2B2B-2B2B2B2B2B2B}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_9CA46F1E3CD8482AA4EAC33A5BE3C5D4",
+    "ShortName": "SB_9CA46F1E3CD8482AA4EAC33A5BE3C5D4",
+    "Path": "SB_9CA46F1E3CD8482AA4EAC33A5BE3C5D4.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2641202919",
+      "Name": "Play_DoorsKitchen",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Kitchen\\Play_DoorsKitchen",
+      "GUID": "{9CA46F1E-3CD8-482A-A4EA-C33A5BE3C5D4}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.532517",
+      "DurationMax": "1.787936",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "652529456",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Kitchen_KitchenDoors_03_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Kitchen_KitchenDoors_03_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "985664010",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Kitchen_KitchenDoors_01_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Kitchen_KitchenDoors_01_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "1009134668",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Kitchen_KitchenDoors_02_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Kitchen_KitchenDoors_02_Dambrosio_V1_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

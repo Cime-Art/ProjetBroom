@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1730248110",
+    "GUID": "{67217DAE-7DAE-1DAE-AEAE-AEAEAEAEAEAE}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_9B0F1D95AAAE4F0AB9FE493049EB721B",
+    "ShortName": "SB_9B0F1D95AAAE4F0AB9FE493049EB721B",
+    "Path": "SB_9B0F1D95AAAE4F0AB9FE493049EB721B.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1101415741",
+      "Name": "Event_UI_Equip_Magic",
+      "ObjectPath": "\\Events\\Default Work Unit\\HUD_Bestiaire\\Event_UI_Equip_Magic",
+      "GUID": "{9B0F1D95-AAAE-4F0A-B9FE-493049EB721B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.697120",
+      "DurationMax": "0.697120",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "359650096",
+        "Language": "SFX",
+        "ShortName": "UI_OS_Equip_Magic_RomainP.wav",
+        "Path": "SFX\\UI_OS_Equip_Magic_RomainP_4A67AB6A.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

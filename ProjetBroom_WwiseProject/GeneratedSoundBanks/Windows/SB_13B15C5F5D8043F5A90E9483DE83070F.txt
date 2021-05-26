@@ -1,6 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
 	4105230830	Event_Play_Music_Hell			\Default Work Unit\Music\Event_Play_Music_Hell	
 
-Effect plug-ins	ID	Name	Type				Notes
-	9516412	Wwise_Gain_(Custom)	Wwise Gain			
+State Group	ID	Name			Wwise Object Path	Notes
+	2460446717	Hell_Level_Boss			\Default Work Unit\Music\Hell_Level_Boss	
+	4071417932	Player_State			\Default Work Unit\Music\Player_State	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Hell_Level_Boss			
+	1560169506	Boss	Hell_Level_Boss			
+	2782712965	Level	Hell_Level_Boss			
+	748895195	None	Player_State			
+	2582085496	Exploration	Player_State			
+	2764240573	Combat	Player_State			
 

@@ -1,0 +1,62 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3627741873",
+    "GUID": "{D83AF2B1-F2B1-12B1-B1B1-B1B1B1B1B1B1}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_4CD222FD390F43B3AB6888111E17D923",
+    "ShortName": "SB_4CD222FD390F43B3AB6888111E17D923",
+    "Path": "SB_4CD222FD390F43B3AB6888111E17D923.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2295973499",
+      "Name": "Event_BreakBench",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Event_BreakBench",
+      "GUID": "{4CD222FD-390F-43B3-AB68-88111E17D923}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.459667",
+      "DurationMax": "2.049134",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "94034422",
+        "Language": "SFX",
+        "ShortName": "Props_OS_BreakBench_v1_003.wav",
+        "Path": "SFX\\Props_OS_BreakBench_v1_003_BF00F9A0.wem"
+       },
+       {
+        "Id": "358712693",
+        "Language": "SFX",
+        "ShortName": "Props_OS_BreakBench_v1_002.wav",
+        "Path": "SFX\\Props_OS_BreakBench_v1_002_BF28B4CB.wem"
+       },
+       {
+        "Id": "529746572",
+        "Language": "SFX",
+        "ShortName": "Props_OS_BreakBench_v1_004.wav",
+        "Path": "SFX\\Props_OS_BreakBench_v1_004_633DA19E.wem"
+       },
+       {
+        "Id": "1068100395",
+        "Language": "SFX",
+        "ShortName": "Props_OS_BreakBench_v1_001.wav",
+        "Path": "SFX\\Props_OS_BreakBench_v1_001_029A2F16.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

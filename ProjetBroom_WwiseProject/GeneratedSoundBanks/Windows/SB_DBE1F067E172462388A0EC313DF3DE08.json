@@ -1,0 +1,76 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "657398286",
+    "GUID": "{272F1A0E-1A0E-1A0E-0E0E-0E0E0E0E0E0E}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_DBE1F067E172462388A0EC313DF3DE08",
+    "ShortName": "SB_DBE1F067E172462388A0EC313DF3DE08",
+    "Path": "SB_DBE1F067E172462388A0EC313DF3DE08.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3707290340",
+      "Name": "Event_SkDist_GetHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\SkeletonDist\\Event_SkDist_GetHit",
+      "GUID": "{DBE1F067-E172-4623-88A0-EC313DF3DE08}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.436014",
+      "DurationMax": "0.756443",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "39940552",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonDistGetHit_01.wav",
+        "Path": "SFX\\Mob_OS_SkeletonDistGetHit_01_4A67AB6A.wem"
+       },
+       {
+        "Id": "141712550",
+        "Language": "SFX",
+        "ShortName": "OS_MOB_VoiceSkeletonGetHit_01_Raph_V2.wav",
+        "Path": "SFX\\OS_MOB_VoiceSkeletonGetHit_01_Raph_V2_4A67AB6A.wem"
+       },
+       {
+        "Id": "398627800",
+        "Language": "SFX",
+        "ShortName": "OS_MOB_VoiceSkeletonGetHit_02_Raph_V2.wav",
+        "Path": "SFX\\OS_MOB_VoiceSkeletonGetHit_02_Raph_V2_36E340FD.wem"
+       },
+       {
+        "Id": "645583938",
+        "Language": "SFX",
+        "ShortName": "OS_MOB_VoiceSkeletonGetHit_03_Raph_V2.wav",
+        "Path": "SFX\\OS_MOB_VoiceSkeletonGetHit_03_Raph_V2_4A67AB6A.wem"
+       },
+       {
+        "Id": "911393502",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonDistGetHit_02.wav",
+        "Path": "SFX\\Mob_OS_SkeletonDistGetHit_02_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

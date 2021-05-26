@@ -42,6 +42,12 @@
         "Path": "SFX\\SFX_OS_FTPSGrass_GOICO_07_v1_4A67AB6A.wem"
        },
        {
+        "Id": "119649774",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FTPS_Metal_01.wav",
+        "Path": "SFX\\Player_OS_FTPS_Metal_01_4A67AB6A.wem"
+       },
+       {
         "Id": "122166065",
         "Language": "SFX",
         "ShortName": "SFX_OS_FTPSGrass_GOICO_08_v1.wav",
@@ -72,6 +78,12 @@
         "Path": "SFX\\SFX_OS_FTPSRock_GOICO_04_v1_4A67AB6A.wem"
        },
        {
+        "Id": "176901859",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FTPS_Metal_03.wav",
+        "Path": "SFX\\Player_OS_FTPS_Metal_03_4A67AB6A.wem"
+       },
+       {
         "Id": "281005484",
         "Language": "SFX",
         "ShortName": "SFX_OS_FTPSWood_GOICO_03_v1.wav",
@@ -82,6 +94,12 @@
         "Language": "SFX",
         "ShortName": "SFX_OS_FTPSWood_GOICO_04_v1.wav",
         "Path": "SFX\\SFX_OS_FTPSWood_GOICO_04_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "343784066",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FTPS_Metal_04.wav",
+        "Path": "SFX\\Player_OS_FTPS_Metal_04_4A67AB6A.wem"
        },
        {
         "Id": "369875260",
@@ -172,6 +190,12 @@
         "Language": "SFX",
         "ShortName": "SFX_OS_FTPSMarble_GOICO_03_v1.wav",
         "Path": "SFX\\SFX_OS_FTPSMarble_GOICO_03_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "837276798",
+        "Language": "SFX",
+        "ShortName": "Player_OS_FTPS_Metal_02.wav",
+        "Path": "SFX\\Player_OS_FTPS_Metal_02_4A67AB6A.wem"
        },
        {
         "Id": "857428011",
@@ -345,6 +369,23 @@
           "Id": "669996436"
          }
         ]
+       },
+       {
+        "SwitchValue": "{F3EDFA9D-FC6F-4185-B4CE-37A2EF72FF77}",
+        "Media": [
+         {
+          "Id": "119649774"
+         },
+         {
+          "Id": "837276798"
+         },
+         {
+          "Id": "176901859"
+         },
+         {
+          "Id": "343784066"
+         }
+        ]
        }
       ],
       "AuxBusSends": [
@@ -417,6 +458,12 @@
         "Name": "Water",
         "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Water",
         "GUID": "{BAC1CACC-E3A0-46E9-A406-125228A7A757}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Metal",
+        "GUID": "{F3EDFA9D-FC6F-4185-B4CE-37A2EF72FF77}"
        }
       ]
      }

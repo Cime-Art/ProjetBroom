@@ -28,64 +28,348 @@
       "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {
-        "Id": "100477668",
+        "Id": "16053802",
         "Language": "SFX",
-        "ShortName": " it4 partie 2 wav.wav",
-        "Path": "SFX\\ it4 partie 2 wav_70232134.wem"
+        "ShortName": "BOSSFINAL_ALT1_RYTHM_135bpm_44.wav",
+        "Path": "SFX\\BOSSFINAL_ALT1_RYTHM_135bpm_44_70232134.wem"
        },
        {
-        "Id": "196792195",
+        "Id": "26116907",
         "Language": "SFX",
-        "ShortName": " it3 partie 2 .wav",
-        "Path": "SFX\\ it3 partie 2 _70232134.wem"
+        "ShortName": "FX 1.wav",
+        "Path": "SFX\\FX 1_70232134.wem"
        },
        {
-        "Id": "307042055",
+        "Id": "249322835",
         "Language": "SFX",
-        "ShortName": " ti 6 partie 2 .wav",
-        "Path": "SFX\\ ti 6 partie 2 _70232134.wem"
+        "ShortName": "FX 3.wav",
+        "Path": "SFX\\FX 3_70232134.wem"
        },
        {
-        "Id": "475124010",
+        "Id": "303959696",
         "Language": "SFX",
-        "ShortName": "partie 1 enfer.wav",
-        "Path": "SFX\\partie 1 enfer_70232134.wem"
+        "ShortName": "FX 2.wav",
+        "Path": "SFX\\FX 2_70232134.wem"
        },
        {
-        "Id": "572132429",
+        "Id": "356700828",
         "Language": "SFX",
-        "ShortName": "intro enfer.wav",
-        "Path": "SFX\\intro enfer_70232134.wem"
+        "ShortName": "FX 7.wav",
+        "Path": "SFX\\FX 7_70232134.wem"
        },
        {
-        "Id": "606939304",
+        "Id": "383654829",
         "Language": "SFX",
-        "ShortName": "partie 3 enfer.wav",
-        "Path": "SFX\\partie 3 enfer_70232134.wem"
+        "ShortName": "lead 1.wav",
+        "Path": "SFX\\lead 1_70232134.wem"
        },
        {
-        "Id": "744600156",
+        "Id": "385238077",
         "Language": "SFX",
-        "ShortName": "partie 2 lead  enfer.wav",
-        "Path": "SFX\\partie 2 lead  enfer_70232134.wem"
+        "ShortName": "BOSSFINAL_MAIN1_RYTHM_135bpm_44.wav",
+        "Path": "SFX\\BOSSFINAL_MAIN1_RYTHM_135bpm_44_70232134.wem"
        },
        {
-        "Id": "760775647",
+        "Id": "402851735",
         "Language": "SFX",
-        "ShortName": " it 1 partie 2 .wav",
-        "Path": "SFX\\ it 1 partie 2 _70232134.wem"
+        "ShortName": "Partie 2 enfer CB LEAD.wav",
+        "Path": "SFX\\Partie 2 enfer CB LEAD_70232134.wem"
        },
        {
-        "Id": "841212243",
+        "Id": "546790768",
         "Language": "SFX",
-        "ShortName": " it5 partie 2 .wav",
-        "Path": "SFX\\ it5 partie 2 _70232134.wem"
+        "ShortName": "AUX 3.wav",
+        "Path": "SFX\\AUX 3_70232134.wem"
        },
        {
-        "Id": "986913194",
+        "Id": "685872473",
         "Language": "SFX",
-        "ShortName": " it2 partie 2 .wav",
-        "Path": "SFX\\ it2 partie 2 _70232134.wem"
+        "ShortName": "FX 6.wav",
+        "Path": "SFX\\FX 6_70232134.wem"
+       },
+       {
+        "Id": "694919386",
+        "Language": "SFX",
+        "ShortName": "FX 4.wav",
+        "Path": "SFX\\FX 4_70232134.wem"
+       },
+       {
+        "Id": "708337362",
+        "Language": "SFX",
+        "ShortName": "BOSSFINAL_Intro_135bpm_44.wav",
+        "Path": "SFX\\BOSSFINAL_Intro_135bpm_44_70232134.wem"
+       },
+       {
+        "Id": "719984398",
+        "Language": "SFX",
+        "ShortName": "lead 2.wav",
+        "Path": "SFX\\lead 2_70232134.wem"
+       },
+       {
+        "Id": "720555310",
+        "Language": "SFX",
+        "ShortName": "BOSSFINAL_MAIN1_INST_135bpm_44.wav",
+        "Path": "SFX\\BOSSFINAL_MAIN1_INST_135bpm_44_70232134.wem"
+       },
+       {
+        "Id": "724116519",
+        "Language": "SFX",
+        "ShortName": "FX 5.wav",
+        "Path": "SFX\\FX 5_70232134.wem"
+       },
+       {
+        "Id": "746402585",
+        "Language": "SFX",
+        "ShortName": "Partie 1 enfer CB LEAD.wav",
+        "Path": "SFX\\Partie 1 enfer CB LEAD_70232134.wem"
+       },
+       {
+        "Id": "814866743",
+        "Language": "SFX",
+        "ShortName": "AUX 1.wav",
+        "Path": "SFX\\AUX 1_70232134.wem"
+       },
+       {
+        "Id": "839393428",
+        "Language": "SFX",
+        "ShortName": "AUX 4.wav",
+        "Path": "SFX\\AUX 4_70232134.wem"
+       },
+       {
+        "Id": "841333818",
+        "Language": "SFX",
+        "ShortName": "AUX 2.wav",
+        "Path": "SFX\\AUX 2_70232134.wem"
+       },
+       {
+        "Id": "896698015",
+        "Language": "SFX",
+        "ShortName": "BOSSFINAL_ALT1_INST_135bpm_44.wav",
+        "Path": "SFX\\BOSSFINAL_ALT1_INST_135bpm_44_70232134.wem"
+       },
+       {
+        "Id": "961932904",
+        "Language": "SFX",
+        "ShortName": "lead 3.wav",
+        "Path": "SFX\\lead 3_70232134.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{186EDAFE-DAAA-4B13-9F44-33B07EB9A648}",
+        "Children": [
+         {
+          "SwitchValue": "{3FF9E996-F192-4A6F-8022-DAB360D4DD64}",
+          "Media": [
+           {
+            "Id": "814866743"
+           },
+           {
+            "Id": "841333818"
+           },
+           {
+            "Id": "546790768"
+           },
+           {
+            "Id": "839393428"
+           },
+           {
+            "Id": "546790768"
+           }
+          ],
+          "Children": [
+           {
+            "SwitchValue": "{F4E8D336-C182-4523-A0EE-D4E297EBDD9E}",
+            "Media": [
+             {
+              "Id": "26116907"
+             },
+             {
+              "Id": "303959696"
+             },
+             {
+              "Id": "249322835"
+             },
+             {
+              "Id": "694919386"
+             },
+             {
+              "Id": "724116519"
+             },
+             {
+              "Id": "685872473"
+             },
+             {
+              "Id": "356700828"
+             },
+             {
+              "Id": "383654829"
+             },
+             {
+              "Id": "719984398"
+             },
+             {
+              "Id": "961932904"
+             },
+             {
+              "Id": "26116907"
+             },
+             {
+              "Id": "303959696"
+             },
+             {
+              "Id": "249322835"
+             },
+             {
+              "Id": "694919386"
+             },
+             {
+              "Id": "724116519"
+             },
+             {
+              "Id": "685872473"
+             },
+             {
+              "Id": "356700828"
+             },
+             {
+              "Id": "383654829"
+             }
+            ]
+           },
+           {
+            "SwitchValue": "{AA86ACE6-11EF-4DD6-8631-9D60FBA16D6F}",
+            "Media": [
+             {
+              "Id": "746402585"
+             },
+             {
+              "Id": "814866743"
+             },
+             {
+              "Id": "841333818"
+             },
+             {
+              "Id": "546790768"
+             },
+             {
+              "Id": "839393428"
+             },
+             {
+              "Id": "402851735"
+             },
+             {
+              "Id": "814866743"
+             },
+             {
+              "Id": "841333818"
+             },
+             {
+              "Id": "546790768"
+             },
+             {
+              "Id": "839393428"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{BD943A07-32D6-4547-9D3D-4210380C79CD}",
+        "Children": []
+       },
+       {
+        "SwitchValue": "{09A97156-473B-4DEB-BE19-FBDA384EEBF0}",
+        "Children": [
+         {
+          "SwitchValue": "{3FF9E996-F192-4A6F-8022-DAB360D4DD64}",
+          "Media": [
+           {
+            "Id": "16053802"
+           },
+           {
+            "Id": "896698015"
+           },
+           {
+            "Id": "708337362"
+           },
+           {
+            "Id": "385238077"
+           },
+           {
+            "Id": "720555310"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{09A97156-473B-4DEB-BE19-FBDA384EEBF0}",
+        "Children": []
+       },
+       {
+        "SwitchValue": "{09A97156-473B-4DEB-BE19-FBDA384EEBF0}",
+        "Children": []
+       },
+       {
+        "SwitchValue": "{09A97156-473B-4DEB-BE19-FBDA384EEBF0}",
+        "Children": []
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2460446717",
+      "Name": "Hell_Level_Boss",
+      "ObjectPath": "\\States\\Default Work Unit\\Music\\Hell_Level_Boss",
+      "GUID": "{1B86A890-F568-41D7-9F76-78C18A6977F2}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Hell_Level_Boss\\None",
+        "GUID": "{186EDAFE-DAAA-4B13-9F44-33B07EB9A648}"
+       },
+       {
+        "Id": "2782712965",
+        "Name": "Level",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Hell_Level_Boss\\Level",
+        "GUID": "{BD943A07-32D6-4547-9D3D-4210380C79CD}"
+       },
+       {
+        "Id": "1560169506",
+        "Name": "Boss",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Hell_Level_Boss\\Boss",
+        "GUID": "{09A97156-473B-4DEB-BE19-FBDA384EEBF0}"
+       }
+      ]
+     },
+     {
+      "Id": "4071417932",
+      "Name": "Player_State",
+      "ObjectPath": "\\States\\Default Work Unit\\Music\\Player_State",
+      "GUID": "{3FF9E996-F192-4A6F-8022-DAB360D4DD64}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Player_State\\None",
+        "GUID": "{ED3CB102-32F3-4ED3-A788-0C1278E25991}"
+       },
+       {
+        "Id": "2764240573",
+        "Name": "Combat",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Player_State\\Combat",
+        "GUID": "{AA86ACE6-11EF-4DD6-8631-9D60FBA16D6F}"
+       },
+       {
+        "Id": "2582085496",
+        "Name": "Exploration",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Player_State\\Exploration",
+        "GUID": "{F4E8D336-C182-4523-A0EE-D4E297EBDD9E}"
        }
       ]
      }

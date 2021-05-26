@@ -1,0 +1,93 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3918093250",
+    "GUID": "{E9895BC2-5BC2-1BC2-C2C2-C2C2C2C2C2C2}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_AB3655018C3A4B4E8A8390F82592C9D7",
+    "ShortName": "SB_AB3655018C3A4B4E8A8390F82592C9D7",
+    "Path": "SB_AB3655018C3A4B4E8A8390F82592C9D7.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1195744012",
+      "Name": "Event_GroaningPrisoner_02",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Voices\\Event_GroaningPrisoner_02",
+      "GUID": "{AB365501-8C3A-4B4E-8A83-90F82592C9D7}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "28394121",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_JailGraoningPrisoner_02_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_JailGraoningPrisoner_02_Ferreira_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "112244103",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_JailGraoningPrisoner_03_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_JailGraoningPrisoner_03_Ferreira_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "151852047",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_JailGraoningPrisoner_01_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_JailGraoningPrisoner_01_Ferreira_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "682508184",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_JailGraoningPrisoner_04_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_JailGraoningPrisoner_04_Ferreira_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "706947344",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_JailGraoningPrisoner_06_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_JailGraoningPrisoner_06_Ferreira_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "922211307",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_JailGraoningPrisoner_05_Ferreira_v1.wav",
+        "Path": "SFX\\Amb_OS_JailGraoningPrisoner_05_Ferreira_v1_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       },
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

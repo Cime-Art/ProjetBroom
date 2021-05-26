@@ -25,6 +25,7 @@
       "Name": "Event_MetalSlam",
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Metal\\Event_MetalSlam",
       "GUID": "{3EC97F90-8DC3-488D-9F11-734C12D0B777}",
+      "MaxAttenuation": "1200.000000",
       "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {

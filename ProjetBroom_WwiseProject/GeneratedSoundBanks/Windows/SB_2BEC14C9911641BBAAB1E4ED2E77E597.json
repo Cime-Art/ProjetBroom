@@ -1,0 +1,57 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2497510390",
+    "GUID": "{94DCFBF6-FBF6-1BF6-F6F6-F6F6F6F6F6F6}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_2BEC14C9911641BBAAB1E4ED2E77E597",
+    "ShortName": "SB_2BEC14C9911641BBAAB1E4ED2E77E597",
+    "Path": "SB_2BEC14C9911641BBAAB1E4ED2E77E597.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3124794758",
+      "Name": "Event_BreakFood_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Event_BreakFood_RND",
+      "GUID": "{2BEC14C9-9116-41BB-AAB1-E4ED2E77E597}",
+      "MaxAttenuation": "2300.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.441556",
+      "DurationMax": "0.853860",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "58126639",
+        "Language": "SFX",
+        "ShortName": "Destructible\\Props_OS_BreakFood_01_Florent_v1.wav",
+        "Path": "SFX\\Destructible\\Props_OS_BreakFood_01_Florent_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "269351406",
+        "Language": "SFX",
+        "ShortName": "Destructible\\Props_OS_BreakFood_02_Florent_v1.wav",
+        "Path": "SFX\\Destructible\\Props_OS_BreakFood_02_Florent_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "448288048",
+        "Language": "SFX",
+        "ShortName": "Destructible\\Props_OS_BreakFood_03_Florent_v1.wav",
+        "Path": "SFX\\Destructible\\Props_OS_BreakFood_03_Florent_v1_4A67AB6A.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

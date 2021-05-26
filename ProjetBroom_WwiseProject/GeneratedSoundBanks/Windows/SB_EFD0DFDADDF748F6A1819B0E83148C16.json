@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2546190135",
+    "GUID": "{97C3C737-C737-1737-3737-373737373737}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_EFD0DFDADDF748F6A1819B0E83148C16",
+    "ShortName": "SB_EFD0DFDADDF748F6A1819B0E83148C16",
+    "Path": "SB_EFD0DFDADDF748F6A1819B0E83148C16.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2633045307",
+      "Name": "Event_UI_Equip_Wood",
+      "ObjectPath": "\\Events\\Default Work Unit\\HUD_Bestiaire\\Event_UI_Equip_Wood",
+      "GUID": "{EFD0DFDA-DDF7-48F6-A181-9B0E83148C16}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.697120",
+      "DurationMax": "0.697120",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "702418945",
+        "Language": "SFX",
+        "ShortName": "UI_OS_Equip_Wood_RomainP.wav",
+        "Path": "SFX\\UI_OS_Equip_Wood_RomainP_4A67AB6A.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

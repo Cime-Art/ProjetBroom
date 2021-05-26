@@ -25,6 +25,7 @@
       "Name": "Event_EmergingLavaPlatform",
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Hell\\Event_EmergingLavaPlatform",
       "GUID": "{63C1FE5C-FB0D-4816-B876-25981EA4F6AE}",
+      "MaxAttenuation": "1000.000000",
       "DurationType": "OneShot",
       "DurationMin": "3.375415",
       "DurationMax": "4.252757",

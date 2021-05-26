@@ -1,4 +1,5 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	758275090	GetHit_Armor_Texture			\Default Work Unit\Player\GetHit_Armor_Texture	
 	891853681	AlambicState			\Default Work Unit\Mob\Alambic\AlambicState	
 	949138207	BlobState			\Default Work Unit\Mob\Blob\BlobState	
 	1069431850	Player			\Default Work Unit\Player\Player	
@@ -6,13 +7,21 @@ State Group	ID	Name			Wwise Object Path	Notes
 	1435919515	SkeletonsVoices_States			\Default Work Unit\Mob\Skeletons\SkeletonsVoices_States	
 	1911621787	snail_stateGroup			\Default Work Unit\Mob\Snail\snail_stateGroup	
 	2394864122	FullArmorBoss_State			\Default Work Unit\Mob\Boss\FullArmorBoss_State	
+	2460446717	Hell_Level_Boss			\Default Work Unit\Music\Hell_Level_Boss	
 	2519955112	Bat_State			\Default Work Unit\Mob\Bat\Bat_State	
 	2804720716	Skeletons_States			\Default Work Unit\Mob\Skeletons\Skeletons_States	
 	2854175295	Attack_Player			\Default Work Unit\Player\Attack_Player	
+	2856178705	Menu_Pause_State			\Default Work Unit\Music\Menu_Pause_State	
+	3394903004	SkullFireAttack_Group			\Default Work Unit\Mob\SkullFire\SkullFireAttack_Group	
+	3673025492	GetHit_Weapon_Type			\Default Work Unit\Player\GetHit_Weapon_Type	
 	3764303108	fusion_stateGroup			\Default Work Unit\Mob\Boss\fusion_stateGroup	
 	4071417932	Player_State			\Default Work Unit\Music\Player_State	
 
 State	ID	Name	State Group			Notes
+	748895195	None	GetHit_Armor_Texture			
+	1880439950	Magic	GetHit_Armor_Texture			
+	2058049674	Wood	GetHit_Armor_Texture			
+	2473969246	Metal	GetHit_Armor_Texture			
 	110619946	GetHit	AlambicState			
 	748895195	None	AlambicState			
 	779278001	Death	AlambicState			
@@ -50,6 +59,9 @@ State	ID	Name	State Group			Notes
 	748895195	None	FullArmorBoss_State			
 	1874288895	Idle	FullArmorBoss_State			
 	2129636626	Movement	FullArmorBoss_State			
+	748895195	None	Hell_Level_Boss			
+	1560169506	Boss	Hell_Level_Boss			
+	2782712965	Level	Hell_Level_Boss			
 	110619946	GetHit	Bat_State			
 	128707321	AttackDash	Bat_State			
 	748895195	None	Bat_State			
@@ -67,6 +79,24 @@ State	ID	Name	State Group			Notes
 	748895195	None	Attack_Player			
 	1763033380	Horizontal_Attack	Attack_Player			
 	2665482738	Vertical_Attack	Attack_Player			
+	748895195	None	Menu_Pause_State			
+	930712164	Off	Menu_Pause_State			
+	1651971902	On	Menu_Pause_State			
+	266297890	Skull_FireWave_state	SkullFireAttack_Group			
+	704085901	Skull_Charge_state	SkullFireAttack_Group			
+	732653573	Skull_MoveForward_state	SkullFireAttack_Group			
+	748895195	None	SkullFireAttack_Group			
+	862824993	Skull_Death_state	SkullFireAttack_Group			
+	914713024	Skull_Attackhit_state	SkullFireAttack_Group			
+	1582451034	Skull_Fireball_state	SkullFireAttack_Group			
+	2036223765	Skull_Fire_state	SkullFireAttack_Group			
+	3752028219	Skull_idle_state	SkullFireAttack_Group			
+	682465770	Alambic	GetHit_Weapon_Type			
+	748895195	None	GetHit_Weapon_Type			
+	1197258740	Arrow	GetHit_Weapon_Type			
+	1762045336	Blob	GetHit_Weapon_Type			
+	2137289812	FireSkull	GetHit_Weapon_Type			
+	2454616260	Sword	GetHit_Weapon_Type			
 	552373010	fusion_attackJump_state	fusion_stateGroup			
 	671989930	fusion_attackCACHeavy_state	fusion_stateGroup			
 	748895195	None	fusion_stateGroup			
@@ -94,12 +124,15 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1399649189	Master Bus			\Quentin\Barn\Barn\Master Bus	
 	1470635214	Bus_Jail_Rev			\Default Work Unit\Master Audio Bus\SFX\Bus_Jail_Rev	
 	3015854908	Bus_Tuto_Rev			\Default Work Unit\Master Audio Bus\SFX\Bus_Tuto_Rev	
+	3260141808	Death Effect			\Default Work Unit\Master Audio Bus\Death Effect	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	246525656	BarnRVB			\Quentin\Barn\Barn\Master Bus\BarnRVB	
 	335668392	Reveb_Jail			\Default Work Unit\Master Audio Bus\SFX\Bus_Jail_Rev\Reveb_Jail	
+	1471891922	RVB_Music_Tuto			\Default Work Unit\Master Audio Bus\Music\RVB_Music_Tuto	
+	2895845232	Reverb_HellPit			\Default Work Unit\Master Audio Bus\SFX\Bus_Jail_Rev\Reverb_HellPit	
 	2957976456	RVB_crash_stop			\Default Work Unit\Master Audio Bus\Music\RVB_crash_stop	
 	3246314181	WwiseMeterTrigger			\Quentin\Barn\Barn\Master Bus\WwiseMeterTrigger	
 	3639771593	Aux_Reverb_Out			\Default Work Unit\Master Audio Bus\SFX\Bus_Tuto_Rev\Aux_Reverb_Out	
@@ -111,6 +144,8 @@ Effect plug-ins	ID	Name	Type				Notes
 	780838069	New_Wwise_Meter	Wwise Meter			
 	2513915904	Hall_Large	Wwise RoomVerb			
 	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
+	2949243095	Hall_Small_Bright	Wwise RoomVerb			
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

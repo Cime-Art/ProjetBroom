@@ -1,0 +1,80 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3506575724",
+    "GUID": "{D102196C-196C-196C-6C6C-6C6C6C6C6C6C}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_6561695D4A5C42F9A5D3F1FAFCFF7181",
+    "ShortName": "SB_6561695D4A5C42F9A5D3F1FAFCFF7181",
+    "Path": "SB_6561695D4A5C42F9A5D3F1FAFCFF7181.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3549662494",
+      "Name": "Event_LavaPlatform_Moving",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Hell\\LavaPlatform\\Event_LavaPlatform_Moving",
+      "GUID": "{6561695D-4A5C-42F9-A5D3-F1FAFCFF7181}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "182945487",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_LavaPlatform_Burn_04_RomainH_V1.wav",
+        "Path": "SFX\\AMB_OS_LavaPlatform_Burn_04_RomainH_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "534816573",
+        "Language": "SFX",
+        "ShortName": "AMB_LP_LavaPlatform_Moving_RomainH_V1.wav",
+        "Path": "SFX\\AMB_LP_LavaPlatform_Moving_RomainH_V1_70232134.wem"
+       },
+       {
+        "Id": "783033622",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_LavaPlatform_Burn_01_RomainH_V1.wav",
+        "Path": "SFX\\AMB_OS_LavaPlatform_Burn_01_RomainH_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "809171826",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_LavaPlatform_Burn_03_RomainH_V1.wav",
+        "Path": "SFX\\AMB_OS_LavaPlatform_Burn_03_RomainH_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "1038393178",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_LavaPlatform_Burn_02_RomainH_V1.wav",
+        "Path": "SFX\\AMB_OS_LavaPlatform_Burn_02_RomainH_V1_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

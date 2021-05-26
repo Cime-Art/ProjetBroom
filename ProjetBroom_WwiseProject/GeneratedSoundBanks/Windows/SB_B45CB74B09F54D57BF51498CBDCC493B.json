@@ -23,11 +23,11 @@
      {
       "Id": "2429850886",
       "Name": "Event_StoneFall",
-      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Event_StoneFall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\General\\Event_StoneFall",
       "GUID": "{B45CB74B-09F5-4D57-BF51-498CBDCC493B}",
       "DurationType": "OneShot",
-      "DurationMin": "2.441563",
-      "DurationMax": "6.422679",
+      "DurationMin": "1.468631",
+      "DurationMax": "3.863322",
       "ExcludedMemoryFiles": [
        {
         "Id": "302866754",

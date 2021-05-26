@@ -1,3 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	3548686195	Event_VoiceGetHit			\Default Work Unit\Player\Voice\Event_VoiceGetHit	
 
+Effect plug-ins	ID	Name	Type				Notes
+	35304011	Wwise_Gain_(Custom)	Wwise Gain			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	878591935	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\General_Player_Mix\Voices\Voice_Mixer\VoiceGetHit_RND\Silence\Wwise Silence	
+

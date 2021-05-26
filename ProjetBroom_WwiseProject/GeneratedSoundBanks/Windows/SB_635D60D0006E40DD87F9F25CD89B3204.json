@@ -1,0 +1,71 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1207215796",
+    "GUID": "{47F4A6B4-A6B4-16B4-B4B4-B4B4B4B4B4B4}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_635D60D0006E40DD87F9F25CD89B3204",
+    "ShortName": "SB_635D60D0006E40DD87F9F25CD89B3204",
+    "Path": "SB_635D60D0006E40DD87F9F25CD89B3204.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1978182925",
+      "Name": "Event_SmallAnimalRunAway_Tuto",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Animal\\Event_SmallAnimalRunAway_Tuto",
+      "GUID": "{635D60D0-006E-40DD-87F9-F25CD89B3204}",
+      "MaxAttenuation": "400.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.861006",
+      "DurationMax": "1.367789",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "270351147",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_SmallAnimalRunAway _02.wav",
+        "Path": "SFX\\Amb_OS_SmallAnimalRunAway _02_F52E694F.wem"
+       },
+       {
+        "Id": "321878523",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_SmallAnimalRunAway _03.wav",
+        "Path": "SFX\\Amb_OS_SmallAnimalRunAway _03_4A67AB6A.wem"
+       },
+       {
+        "Id": "848181594",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_SmallAnimalRunAway _01.wav",
+        "Path": "SFX\\Amb_OS_SmallAnimalRunAway _01_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

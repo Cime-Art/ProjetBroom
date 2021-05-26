@@ -28,106 +28,150 @@
       "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {
-        "Id": "1079732",
+        "Id": "62219542",
         "Language": "SFX",
-        "ShortName": "Percu rythmée fill 2.wav",
-        "Path": "SFX\\Percu rythmée fill 2_70232134.wem"
+        "ShortName": "DrumRolls.wav",
+        "Path": "SFX\\DrumRolls_70232134.wem"
        },
        {
-        "Id": "34270120",
+        "Id": "81172913",
         "Language": "SFX",
-        "ShortName": "Percu calme transition 1.wav",
-        "Path": "SFX\\Percu calme transition 1_70232134.wem"
+        "ShortName": "Piccolo_Melody_02.wav",
+        "Path": "SFX\\Piccolo_Melody_02_70232134.wem"
        },
        {
-        "Id": "124986747",
+        "Id": "133920233",
         "Language": "SFX",
-        "ShortName": "flutio 3.wav",
-        "Path": "SFX\\flutio 3_70232134.wem"
+        "ShortName": "Lyre_Arp_02.wav",
+        "Path": "SFX\\Lyre_Arp_02_70232134.wem"
        },
        {
-        "Id": "187668819",
+        "Id": "211874791",
         "Language": "SFX",
-        "ShortName": "Percu rythmée transition 2.wav",
-        "Path": "SFX\\Percu rythmée transition 2_70232134.wem"
+        "ShortName": "Violins_Pad_02.wav",
+        "Path": "SFX\\Violins_Pad_02_70232134.wem"
        },
        {
-        "Id": "221811831",
+        "Id": "239816279",
         "Language": "SFX",
-        "ShortName": "flutio fill.wav",
-        "Path": "SFX\\flutio fill_70232134.wem"
+        "ShortName": "Charango_Arp_01.wav",
+        "Path": "SFX\\Charango_Arp_01_70232134.wem"
        },
        {
-        "Id": "232468241",
+        "Id": "262173033",
         "Language": "SFX",
-        "ShortName": "flutio 2.wav",
-        "Path": "SFX\\flutio 2_70232134.wem"
+        "ShortName": "Cello_Bass_02.wav",
+        "Path": "SFX\\Cello_Bass_02_70232134.wem"
        },
        {
-        "Id": "287604787",
+        "Id": "279322573",
         "Language": "SFX",
-        "ShortName": "flutio 4.wav",
-        "Path": "SFX\\flutio 4_70232134.wem"
+        "ShortName": "Charango_Chords_01.wav",
+        "Path": "SFX\\Charango_Chords_01_70232134.wem"
        },
        {
-        "Id": "331866552",
+        "Id": "393377209",
         "Language": "SFX",
-        "ShortName": "Percu rythmée fill 1.wav",
-        "Path": "SFX\\Percu rythmée fill 1_70232134.wem"
+        "ShortName": "Drums_03.wav",
+        "Path": "SFX\\Drums_03_70232134.wem"
        },
        {
-        "Id": "434914290",
+        "Id": "421723276",
         "Language": "SFX",
-        "ShortName": "Percu rythmée.wav",
-        "Path": "SFX\\Percu rythmée_70232134.wem"
+        "ShortName": "Drums_02.wav",
+        "Path": "SFX\\Drums_02_70232134.wem"
        },
        {
-        "Id": "466656813",
+        "Id": "431021665",
         "Language": "SFX",
-        "ShortName": "flutio 1.wav",
-        "Path": "SFX\\flutio 1_70232134.wem"
+        "ShortName": "Bassoons_Bass_01.wav",
+        "Path": "SFX\\Bassoons_Bass_01_70232134.wem"
        },
        {
-        "Id": "534682983",
+        "Id": "568467668",
         "Language": "SFX",
-        "ShortName": "Instru Rythmée.wav",
-        "Path": "SFX\\Instru Rythmée_70232134.wem"
+        "ShortName": "Cello_Bass_01.wav",
+        "Path": "SFX\\Cello_Bass_01_70232134.wem"
        },
        {
-        "Id": "697562573",
+        "Id": "598657302",
         "Language": "SFX",
-        "ShortName": "flutio 5.wav",
-        "Path": "SFX\\flutio 5_70232134.wem"
+        "ShortName": "Lyre_Arp_01.wav",
+        "Path": "SFX\\Lyre_Arp_01_70232134.wem"
        },
        {
-        "Id": "863627702",
+        "Id": "638214719",
         "Language": "SFX",
-        "ShortName": "Percu milit.wav",
-        "Path": "SFX\\Percu milit_70232134.wem"
+        "ShortName": "Charango_Chords_02.wav",
+        "Path": "SFX\\Charango_Chords_02_70232134.wem"
        },
        {
-        "Id": "882973908",
+        "Id": "641371351",
         "Language": "SFX",
-        "ShortName": "Percu rythmée transition 1.wav",
-        "Path": "SFX\\Percu rythmée transition 1_70232134.wem"
+        "ShortName": "Bassoons_Bass_02.wav",
+        "Path": "SFX\\Bassoons_Bass_02_70232134.wem"
        },
        {
-        "Id": "929368613",
+        "Id": "671282306",
         "Language": "SFX",
-        "ShortName": "Percu milit transition 1.wav",
-        "Path": "SFX\\Percu milit transition 1_70232134.wem"
+        "ShortName": "Drums_01.wav",
+        "Path": "SFX\\Drums_01_70232134.wem"
        },
        {
-        "Id": "976241216",
+        "Id": "681867941",
         "Language": "SFX",
-        "ShortName": "Instru calme.wav",
-        "Path": "SFX\\Instru calme_70232134.wem"
+        "ShortName": "Piccolo_Melody_04.wav",
+        "Path": "SFX\\Piccolo_Melody_04_70232134.wem"
        },
        {
-        "Id": "998878137",
+        "Id": "838088004",
         "Language": "SFX",
-        "ShortName": "Instru milit.wav",
-        "Path": "SFX\\Instru milit_70232134.wem"
+        "ShortName": "Violins_Pad_03.wav",
+        "Path": "SFX\\Violins_Pad_03_70232134.wem"
+       },
+       {
+        "Id": "858544153",
+        "Language": "SFX",
+        "ShortName": "Piccolo_Melody_03.wav",
+        "Path": "SFX\\Piccolo_Melody_03_70232134.wem"
+       },
+       {
+        "Id": "887706897",
+        "Language": "SFX",
+        "ShortName": "ContraBassoons_Bass_01.wav",
+        "Path": "SFX\\ContraBassoons_Bass_01_70232134.wem"
+       },
+       {
+        "Id": "910082504",
+        "Language": "SFX",
+        "ShortName": "Piccolo_Melody_01.wav",
+        "Path": "SFX\\Piccolo_Melody_01_70232134.wem"
+       },
+       {
+        "Id": "954710900",
+        "Language": "SFX",
+        "ShortName": "ContraBassoons_Bass_02.wav",
+        "Path": "SFX\\ContraBassoons_Bass_02_70232134.wem"
+       },
+       {
+        "Id": "971881874",
+        "Language": "SFX",
+        "ShortName": "Violins_Pad_01.wav",
+        "Path": "SFX\\Violins_Pad_01_70232134.wem"
+       },
+       {
+        "Id": "991311151",
+        "Language": "SFX",
+        "ShortName": "Bassoons_Bass_03.wav",
+        "Path": "SFX\\Bassoons_Bass_03_70232134.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1471891922",
+        "Name": "RVB_Music_Tuto",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music\\RVB_Music_Tuto",
+        "GUID": "{A13212C2-959A-4E4F-886C-ED3485FD6339}"
        }
       ]
      }

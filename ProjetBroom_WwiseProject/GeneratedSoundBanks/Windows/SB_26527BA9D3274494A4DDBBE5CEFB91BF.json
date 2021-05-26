@@ -1,0 +1,70 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2467585539",
+    "GUID": "{93145E03-5E03-1E03-0303-030303030303}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_26527BA9D3274494A4DDBBE5CEFB91BF",
+    "ShortName": "SB_26527BA9D3274494A4DDBBE5CEFB91BF",
+    "Path": "SB_26527BA9D3274494A4DDBBE5CEFB91BF.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "361111116",
+      "Name": "Event_DoorSpike",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Metal\\Event_DoorSpike",
+      "GUID": "{26527BA9-D327-4494-A4DD-BBE5CEFB91BF}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.439751",
+      "DurationMax": "2.439751",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "565535193",
+        "Language": "SFX",
+        "ShortName": "Props_OS_BoneWall_01_Anger_V2.wav",
+        "Path": "SFX\\Props_OS_BoneWall_01_Anger_V2_9D5556D2.wem"
+       },
+       {
+        "Id": "788795561",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_SpikeDoor_02_Anger_V1.wav",
+        "Path": "SFX\\AMB_OS_SpikeDoor_02_Anger_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "1036300435",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_SpikeDoor_01_Anger_V1.wav",
+        "Path": "SFX\\AMB_OS_SpikeDoor_01_Anger_V1_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

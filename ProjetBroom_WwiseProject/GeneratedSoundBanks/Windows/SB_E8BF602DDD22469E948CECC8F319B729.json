@@ -1,0 +1,59 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3447843226",
+    "GUID": "{CD81E99A-E99A-199A-9A9A-9A9A9A9A9A9A}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_E8BF602DDD22469E948CECC8F319B729",
+    "ShortName": "SB_E8BF602DDD22469E948CECC8F319B729",
+    "Path": "SB_E8BF602DDD22469E948CECC8F319B729.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "379172728",
+      "Name": "Event_QuakePlatform",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Event_QuakePlatform",
+      "GUID": "{E8BF602D-DD22-469E-948C-ECC8F319B729}",
+      "MaxAttenuation": "1500.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.822068",
+      "DurationMax": "3.555583",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "1007383013",
+        "Language": "SFX",
+        "ShortName": "OS_QuakePlatform_v1.wav",
+        "Path": "SFX\\OS_QuakePlatform_v1_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

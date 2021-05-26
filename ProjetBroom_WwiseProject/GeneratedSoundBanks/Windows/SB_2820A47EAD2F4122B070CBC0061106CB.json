@@ -26,14 +26,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\HUD_Menu\\Event_UI_ConfirmMenu",
       "GUID": "{2820A47E-AD2F-4122-B070-CBC0061106CB}",
       "DurationType": "OneShot",
-      "DurationMin": "0.350952",
-      "DurationMax": "0.350952",
+      "DurationMin": "0.202187",
+      "DurationMax": "0.202187",
       "ExcludedMemoryFiles": [
        {
-        "Id": "322099105",
+        "Id": "801920220",
         "Language": "SFX",
-        "ShortName": "UI_OS_ConfirmMenu_Pelloux_V1.wav",
-        "Path": "SFX\\UI_OS_ConfirmMenu_Pelloux_V1_4A67AB6A.wem"
+        "ShortName": "SFX_OS_UI+Menu_01_THOMAS_V1.wav",
+        "Path": "SFX\\SFX_OS_UI+Menu_01_THOMAS_V1_4A67AB6A.wem"
        }
       ]
      }
