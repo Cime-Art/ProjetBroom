@@ -20952,7 +20952,14 @@
 								<Folder Name="Blob" ID="{7943EACB-D32B-49F8-A881-0DCB9D5015EB}" ShortID="781670442">
 									<ChildrenList>
 										<ActorMixer Name="BlobMixer" ID="{828CB259-7186-4855-9CA0-32901AFE06C6}" ShortID="900430011">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="SKDist_Att" ID="{6933FD4D-AC59-4865-9000-C18AFCA1D526}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 												</Reference>
