@@ -241,8 +241,8 @@
 										<StateRef Name="Off" ID="{0DADE348-17F7-45E7-9CF4-D3DCB9D317C3}"/>
 										<CustomState Name="" ID="{088CEEBE-8FE3-4E59-8927-CA87A721762A}" ShortID="760824956">
 											<PropertyList>
-												<Property Name="Lowpass" Type="int16" Value="34"/>
-												<Property Name="Volume" Type="Real64" Value="-4"/>
+												<Property Name="Lowpass" Type="int16" Value="72"/>
+												<Property Name="Volume" Type="Real64" Value="-11"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
