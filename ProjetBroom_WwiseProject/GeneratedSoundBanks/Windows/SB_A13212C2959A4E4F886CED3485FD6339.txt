@@ -6,6 +6,9 @@ State	ID	Name	State Group			Notes
 	930712164	Off	Menu_Pause_State			
 	1651971902	On	Menu_Pause_State			
 
+Custom State	ID	Name	State Group	Owner		Notes
+	647992675	Off	Menu_Pause_State	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2093986695	Music_Volume_GP			\Default Work Unit\Option\Music_Volume_GP	
 	3931204830	Master_Volume_GP			\Default Work Unit\Option\Master_Volume_GP	
