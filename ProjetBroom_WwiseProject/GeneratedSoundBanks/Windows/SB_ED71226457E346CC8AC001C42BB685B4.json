@@ -28,7 +28,23 @@
       "MaxAttenuation": "0.000000",
       "DurationType": "OneShot",
       "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMax": "0.000000",
+      "ActionTrigger": [
+       {
+        "Id": "4003433129",
+        "Name": "Stop_Crash",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\Stop_Crash",
+        "GUID": "{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "4003433129",
+      "Name": "Stop_Crash",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\Stop_Crash",
+      "GUID": "{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}"
      }
     ]
    }

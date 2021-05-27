@@ -1,0 +1,122 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2682793839",
+    "GUID": "{9FE82F6F-2F6F-1F6F-6F6F-6F6F6F6F6F6F}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_7D6BF7B63FFC466EB826A6B72BDDD91E",
+    "ShortName": "SB_7D6BF7B63FFC466EB826A6B72BDDD91E",
+    "Path": "SB_7D6BF7B63FFC466EB826A6B72BDDD91E.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "73194198",
+      "Name": "Event_Player_Life",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Event_Player_Life",
+      "GUID": "{7D6BF7B6-3FFC-466E-B826-A6B72BDDD91E}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "150434040",
+        "Language": "SFX",
+        "ShortName": "UI_LP_King_Voice_Whispers_07_Anger_V1.wav",
+        "Path": "SFX\\UI_LP_King_Voice_Whispers_07_Anger_V1_024FAADF.wem"
+       },
+       {
+        "Id": "329303336",
+        "Language": "SFX",
+        "ShortName": "UI_LP_King_Voice_Whispers_04_Anger_V1.wav",
+        "Path": "SFX\\UI_LP_King_Voice_Whispers_04_Anger_V1_E2CD7E8E.wem"
+       },
+       {
+        "Id": "350118765",
+        "Language": "SFX",
+        "ShortName": "UI_LP_King_Voice_Whispers_11_Anger_V1.wav",
+        "Path": "SFX\\UI_LP_King_Voice_Whispers_11_Anger_V1_40EA7F47.wem"
+       },
+       {
+        "Id": "544254406",
+        "Language": "SFX",
+        "ShortName": "UI_LP_King_Voice_Whispers_12_Anger_V1.wav",
+        "Path": "SFX\\UI_LP_King_Voice_Whispers_12_Anger_V1_7E221DE2.wem"
+       },
+       {
+        "Id": "660361888",
+        "Language": "SFX",
+        "ShortName": "UI_LP_King_Voice_Whispers_13_Anger_V1.wav",
+        "Path": "SFX\\UI_LP_King_Voice_Whispers_13_Anger_V1_1C62341D.wem"
+       },
+       {
+        "Id": "669560046",
+        "Language": "SFX",
+        "ShortName": "UI_LP_King_Voice_Whispers_03_Anger_V1.wav",
+        "Path": "SFX\\UI_LP_King_Voice_Whispers_03_Anger_V1_6BBDE147.wem"
+       },
+       {
+        "Id": "858843491",
+        "Language": "SFX",
+        "ShortName": "UI_LP_King_Voice_Whispers_10_Anger_V1.wav",
+        "Path": "SFX\\UI_LP_King_Voice_Whispers_10_Anger_V1_7D109F12.wem"
+       },
+       {
+        "Id": "861295865",
+        "Language": "SFX",
+        "ShortName": "UI_LP_King_Voice_Whispers_06_Anger_V1.wav",
+        "Path": "SFX\\UI_LP_King_Voice_Whispers_06_Anger_V1_6CBCDBAB.wem"
+       },
+       {
+        "Id": "1002468191",
+        "Language": "SFX",
+        "ShortName": "UI_LP_King_Voice_Whispers_05_Anger_V1.wav",
+        "Path": "SFX\\UI_LP_King_Voice_Whispers_05_Anger_V1_861950C0.wem"
+       },
+       {
+        "Id": "1009922398",
+        "Language": "SFX",
+        "ShortName": "UI_LP_King_Voice_Whispers_08_Anger_V1.wav",
+        "Path": "SFX\\UI_LP_King_Voice_Whispers_08_Anger_V1_8EA099C4.wem"
+       },
+       {
+        "Id": "1029642112",
+        "Language": "SFX",
+        "ShortName": "UI_LP_King_Voice_Whispers_09_Anger_V1.wav",
+        "Path": "SFX\\UI_LP_King_Voice_Whispers_09_Anger_V1_A92958DA.wem"
+       },
+       {
+        "Id": "1030312937",
+        "Language": "SFX",
+        "ShortName": "UI_LP_King_Voice_Whispers_02_Anger_V1.wav",
+        "Path": "SFX\\UI_LP_King_Voice_Whispers_02_Anger_V1_4CC58B77.wem"
+       },
+       {
+        "Id": "1060720514",
+        "Language": "SFX",
+        "ShortName": "UI_LP_King_Voice_Whispers_01_Anger_V1.wav",
+        "Path": "SFX\\UI_LP_King_Voice_Whispers_01_Anger_V1_85CAD705.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3762137787",
+      "Name": "Player_Life",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Player\\Player_Life",
+      "GUID": "{D6FDC341-5DEE-4931-BFE7-0E4BBEFAEE39}"
+     }
+    ]
+   }
+  ]
+ }
+}

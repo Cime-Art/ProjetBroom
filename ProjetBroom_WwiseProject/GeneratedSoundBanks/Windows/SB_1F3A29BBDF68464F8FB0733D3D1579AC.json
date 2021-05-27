@@ -26,38 +26,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Event_PlatformDestructionVoid",
       "GUID": "{1F3A29BB-DF68-464F-8FB0-733D3D1579AC}",
       "DurationType": "OneShot",
-      "DurationMin": "8.057543",
-      "DurationMax": "10.151868",
+      "DurationMin": "7.166644",
+      "DurationMax": "9.029406",
       "ExcludedMemoryFiles": [
        {
-        "Id": "86395023",
+        "Id": "236921314",
         "Language": "SFX",
-        "ShortName": "Amb_OS_Destruction_stone_platform_v8-005.wav",
-        "Path": "SFX\\Amb_OS_Destruction_stone_platform_v8-005_4A67AB6A.wem"
-       },
-       {
-        "Id": "158159135",
-        "Language": "SFX",
-        "ShortName": "Amb_OS_Destruction_stone_platform_v8-001.wav",
-        "Path": "SFX\\Amb_OS_Destruction_stone_platform_v8-001_4A67AB6A.wem"
-       },
-       {
-        "Id": "368032753",
-        "Language": "SFX",
-        "ShortName": "Amb_OS_Destruction_stone_platform_v8-002.wav",
-        "Path": "SFX\\Amb_OS_Destruction_stone_platform_v8-002_4A67AB6A.wem"
-       },
-       {
-        "Id": "417540857",
-        "Language": "SFX",
-        "ShortName": "Amb_OS_Destruction_stone_platform_v8-004.wav",
-        "Path": "SFX\\Amb_OS_Destruction_stone_platform_v8-004_4A67AB6A.wem"
-       },
-       {
-        "Id": "557707415",
-        "Language": "SFX",
-        "ShortName": "Amb_OS_Destruction_stone_platform_v8-003.wav",
-        "Path": "SFX\\Amb_OS_Destruction_stone_platform_v8-003_4A67AB6A.wem"
+        "ShortName": "Amb_OS_Destruction_stone_platform_v9.wav",
+        "Path": "SFX\\Amb_OS_Destruction_stone_platform_v9_4A67AB6A.wem"
        }
       ],
       "AuxBusSends": [

@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "109475887",
+    "GUID": "{0686782F-782F-182F-2F2F-2F2F2F2F2F2F}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_9CAE9B37D16E449B90598FE0D5B26E51",
+    "ShortName": "SB_9CAE9B37D16E449B90598FE0D5B26E51",
+    "Path": "SB_9CAE9B37D16E449B90598FE0D5B26E51.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3994865269",
+      "Name": "Event_UI_Equip_Metal",
+      "ObjectPath": "\\Events\\Default Work Unit\\HUD_Bestiaire\\Event_UI_Equip_Metal",
+      "GUID": "{9CAE9B37-D16E-449B-9059-8FE0D5B26E51}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.701927",
+      "DurationMax": "0.701927",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "105416264",
+        "Language": "SFX",
+        "ShortName": "UI_OS_Equip_Metal_RomainP.wav",
+        "Path": "SFX\\UI_OS_Equip_Metal_RomainP_4A67AB6A.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

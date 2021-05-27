@@ -1,0 +1,59 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "70002369",
+    "GUID": "{042C26C1-26C1-16C1-C1C1-C1C1C1C1C1C1}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_49000E9EBA174F00962B50687F76AF5E",
+    "ShortName": "SB_49000E9EBA174F00962B50687F76AF5E",
+    "Path": "SB_49000E9EBA174F00962B50687F76AF5E.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2937144942",
+      "Name": "BlobDeath",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\Blob\\BlobDeath",
+      "GUID": "{49000E9E-BA17-4F00-962B-50687F76AF5E}",
+      "MaxAttenuation": "700.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.625000",
+      "DurationMax": "2.191208",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "58886455",
+        "Language": "SFX",
+        "ShortName": "MOB_OS_BlobDeath_02_DELIVERT_V4.wav",
+        "Path": "SFX\\MOB_OS_BlobDeath_02_DELIVERT_V4_4A67AB6A.wem"
+       },
+       {
+        "Id": "950154128",
+        "Language": "SFX",
+        "ShortName": "MOB_OS_BlobDeath_01_DELIVERT_V4.wav",
+        "Path": "SFX\\MOB_OS_BlobDeath_01_DELIVERT_V4_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

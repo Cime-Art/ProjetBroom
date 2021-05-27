@@ -1,3 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
 	4102594930	Event_VoiceDead			\Default Work Unit\Player\Voice\Event_VoiceDead	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1291227207	Death_Type_Switch			\Default Work Unit\Player\Death_Type_Switch	
+
+Switch	ID	Name	Switch Group			Notes
+	540301611	Lava	Death_Type_Switch			
+	2491259133	Slayed	Death_Type_Switch			
+	2512384458	Fall	Death_Type_Switch			
+	3554728690	Acid	Death_Type_Switch			
+

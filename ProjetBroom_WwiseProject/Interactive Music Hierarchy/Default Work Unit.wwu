@@ -2740,7 +2740,7 @@
 								<Property Name="Tempo" Type="Real64" Value="85"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -4764,6 +4764,12 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
+							<StingerList>
+								<MusicStinger Name="" ID="{5634A77A-CDE5-4DA6-8C7C-8C79ED0C55B8}">
+									<TriggerRef Name="Stop_Crash" ID="{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}" WorkUnitID="{22563B21-8DD4-4D99-8CA7-9928C730618D}"/>
+									<SegmentRef Name="MUS_OS_CrashEventStop_01_Dambrosio_V1" ID="{01D1E0D9-8CF9-424A-86E9-9A0578AAE2FF}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+								</MusicStinger>
+							</StingerList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{8EE613FE-2EBF-415E-AAF8-DF51D60B8371}" ShortID="645609225">
 									<ChildrenList>

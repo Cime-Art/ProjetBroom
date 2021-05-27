@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3392425681",
+    "GUID": "{CA344ED1-4ED1-1ED1-D1D1-D1D1D1D1D1D1}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_E6D9ABD203854E04882ED9BFED5A1F9E",
+    "ShortName": "SB_E6D9ABD203854E04882ED9BFED5A1F9E",
+    "Path": "SB_E6D9ABD203854E04882ED9BFED5A1F9E.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3312999361",
+      "Name": "Event_Jailtool_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Event_Jailtool_RND",
+      "GUID": "{E6D9ABD2-0385-4E04-882E-D9BFED5A1F9E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.662911",
+      "DurationMax": "0.713259",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "253887416",
+        "Language": "SFX",
+        "ShortName": "JailTool_Theo_OS_03.wav",
+        "Path": "SFX\\JailTool_Theo_OS_03_21FB831E.wem"
+       },
+       {
+        "Id": "374499274",
+        "Language": "SFX",
+        "ShortName": "JailTool_Theo_OS_01.wav",
+        "Path": "SFX\\JailTool_Theo_OS_01_28A16C63.wem"
+       },
+       {
+        "Id": "627147162",
+        "Language": "SFX",
+        "ShortName": "JailTool_Theo_OS_02.wav",
+        "Path": "SFX\\JailTool_Theo_OS_02_39304AA4.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

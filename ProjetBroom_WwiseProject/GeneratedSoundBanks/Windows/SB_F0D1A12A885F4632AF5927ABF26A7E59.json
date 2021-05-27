@@ -26,8 +26,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Jump\\Event_Land",
       "GUID": "{F0D1A12A-885F-4632-AF59-27ABF26A7E59}",
       "DurationType": "OneShot",
-      "DurationMin": "0.745000",
-      "DurationMax": "1.350000",
+      "DurationMin": "0.644825",
+      "DurationMax": "1.472185",
       "ExcludedMemoryFiles": [
        {
         "Id": "222004766",
@@ -215,6 +215,12 @@
         "Name": "Water",
         "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Water",
         "GUID": "{BAC1CACC-E3A0-46E9-A406-125228A7A757}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Metal",
+        "GUID": "{F3EDFA9D-FC6F-4185-B4CE-37A2EF72FF77}"
        }
       ]
      }

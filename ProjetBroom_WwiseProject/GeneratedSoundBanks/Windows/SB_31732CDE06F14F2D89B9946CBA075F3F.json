@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3896373892",
+    "GUID": "{E83DF284-F284-1284-8484-848484848484}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_31732CDE06F14F2D89B9946CBA075F3F",
+    "ShortName": "SB_31732CDE06F14F2D89B9946CBA075F3F",
+    "Path": "SB_31732CDE06F14F2D89B9946CBA075F3F.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "2895845232",
+      "Name": "Reverb_HellPit",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reverb_HellPit",
+      "GUID": "{31732CDE-06F1-4F2D-89B9-946CBA075F3F}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1130989983",
+      "Name": "SFX_Volume_GP",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Option\\SFX_Volume_GP",
+      "GUID": "{29C3E1C2-AF31-45DD-AAF7-8B2CEE14EBBB}"
+     },
+     {
+      "Id": "3931204830",
+      "Name": "Master_Volume_GP",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Option\\Master_Volume_GP",
+      "GUID": "{C0054CA0-46BD-4911-8ADF-2435B99B7B79}"
+     }
+    ]
+   }
+  ]
+ }
+}

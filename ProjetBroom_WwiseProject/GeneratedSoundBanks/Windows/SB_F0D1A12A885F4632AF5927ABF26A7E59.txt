@@ -11,17 +11,7 @@ Switch	ID	Name	Switch Group			Notes
 	2087559222	Bones	FTPS_Ground_Texture			
 	2144363834	Rock	FTPS_Ground_Texture			
 	2195636714	Dirt	FTPS_Ground_Texture			
+	2473969246	Metal	FTPS_Ground_Texture			
 	2654748154	Water	FTPS_Ground_Texture			
 	4248645337	Grass	FTPS_Ground_Texture			
-
-State Group	ID	Name			Wwise Object Path	Notes
-	1069431850	Player			\Default Work Unit\Player\Player	
-
-State	ID	Name	State Group			Notes
-	748895195	None	Player			
-	779278001	Death	Player			
-	1729783505	Get_Hit	Player			
-	1874288895	Idle	Player			
-	1942692385	Dash	Player			
-	3833651337	Jump	Player			
 

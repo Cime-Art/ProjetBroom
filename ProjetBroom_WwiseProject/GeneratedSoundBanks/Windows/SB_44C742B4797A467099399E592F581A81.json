@@ -26,14 +26,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\HUD_Menu\\Event_UI_CancelMenu",
       "GUID": "{44C742B4-797A-4670-9939-9E592F581A81}",
       "DurationType": "OneShot",
-      "DurationMin": "0.350952",
-      "DurationMax": "0.350952",
+      "DurationMin": "0.242667",
+      "DurationMax": "0.242667",
       "ExcludedMemoryFiles": [
        {
-        "Id": "325909341",
+        "Id": "1045113429",
         "Language": "SFX",
-        "ShortName": "UI_OS_CancelMenu_Pelloux_V1.wav",
-        "Path": "SFX\\UI_OS_CancelMenu_Pelloux_V1_4A67AB6A.wem"
+        "ShortName": "SFX_OS_UI-Menu_01_THOMAS_V2.wav",
+        "Path": "SFX\\SFX_OS_UI-Menu_01_THOMAS_V2_4A67AB6A.wem"
        }
       ]
      }

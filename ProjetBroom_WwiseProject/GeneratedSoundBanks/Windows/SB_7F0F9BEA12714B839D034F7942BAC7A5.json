@@ -1,0 +1,110 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4251781916",
+    "GUID": "{FD6D0B1C-0B1C-1B1C-1C1C-1C1C1C1C1C1C}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_7F0F9BEA12714B839D034F7942BAC7A5",
+    "ShortName": "SB_7F0F9BEA12714B839D034F7942BAC7A5",
+    "Path": "SB_7F0F9BEA12714B839D034F7942BAC7A5.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "436907394",
+      "Name": "Event_Hell_MagicChest",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\MagicChest\\Event_Hell_MagicChest",
+      "GUID": "{7F0F9BEA-1271-4B83-9D03-4F7942BAC7A5}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.639289",
+      "DurationMax": "4.490336",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "141964107",
+        "Language": "SFX",
+        "ShortName": "Props\\Hell_OS_MagicChestOpen_Broom_Sabarros_v1.wav",
+        "Path": "SFX\\Props\\Hell_OS_MagicChestOpen_Broom_Sabarros_v1_F87D0B56.wem"
+       },
+       {
+        "Id": "264483659",
+        "Language": "SFX",
+        "ShortName": "Props\\Hell_OS_MagicChestOpen_Broom_Sabarros_v1.wav",
+        "Path": "SFX\\Props\\Hell_OS_MagicChestOpen_Broom_Sabarros_v1_DA0F4305.wem"
+       },
+       {
+        "Id": "581823869",
+        "Language": "SFX",
+        "ShortName": "Props\\Hell_OS_MagicChestOpen_Helmet_Sabarros_v1.wav",
+        "Path": "SFX\\Props\\Hell_OS_MagicChestOpen_Helmet_Sabarros_v1_9D75A0BF.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{01AB9C31-0156-4481-8043-EC0B644194E0}",
+        "Media": [
+         {
+          "Id": "581823869"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{9A54D802-8F19-4FB9-9F09-2DD4314689B0}",
+        "Media": [
+         {
+          "Id": "264483659"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{205FDDDF-2BA5-458F-89CE-A16E90071AEA}",
+        "Media": [
+         {
+          "Id": "141964107"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1189170319",
+      "Name": "Hell_MagicChest_SwitchGroup",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Hell_MagicChest\\Hell_MagicChest_SwitchGroup",
+      "GUID": "{26521612-A04F-4629-ABF7-E48199EA8132}",
+      "Switches": [
+       {
+        "Id": "1622205611",
+        "Name": "MagicChest_Broom",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Hell_MagicChest\\Hell_MagicChest_SwitchGroup\\MagicChest_Broom",
+        "GUID": "{205FDDDF-2BA5-458F-89CE-A16E90071AEA}"
+       },
+       {
+        "Id": "3917399184",
+        "Name": "MagicChest_Body",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Hell_MagicChest\\Hell_MagicChest_SwitchGroup\\MagicChest_Body",
+        "GUID": "{9A54D802-8F19-4FB9-9F09-2DD4314689B0}"
+       },
+       {
+        "Id": "3079520859",
+        "Name": "MagicChest_Helmet",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Hell_MagicChest\\Hell_MagicChest_SwitchGroup\\MagicChest_Helmet",
+        "GUID": "{01AB9C31-0156-4481-8043-EC0B644194E0}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

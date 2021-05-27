@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	436907394	Event_Hell_MagicChest			\Default Work Unit\Props\MagicChest\Event_Hell_MagicChest	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1189170319	Hell_MagicChest_SwitchGroup			\Default Work Unit\Hell_MagicChest\Hell_MagicChest_SwitchGroup	
+
+Switch	ID	Name	Switch Group			Notes
+	1622205611	MagicChest_Broom	Hell_MagicChest_SwitchGroup			
+	3079520859	MagicChest_Helmet	Hell_MagicChest_SwitchGroup			
+	3917399184	MagicChest_Body	Hell_MagicChest_SwitchGroup			
+

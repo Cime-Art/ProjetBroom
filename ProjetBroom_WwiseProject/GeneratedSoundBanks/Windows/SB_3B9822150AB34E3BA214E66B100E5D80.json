@@ -27,26 +27,20 @@
       "GUID": "{3B982215-0AB3-4E3B-A214-E66B100E5D80}",
       "MaxAttenuation": "2300.000000",
       "DurationType": "OneShot",
-      "DurationMin": "0.597448",
-      "DurationMax": "0.924797",
+      "DurationMin": "0.415135",
+      "DurationMax": "0.596170",
       "ExcludedMemoryFiles": [
-       {
-        "Id": "525213878",
-        "Language": "SFX",
-        "ShortName": "Destructible\\Props_OS_BreakMugBowl_01_Florent_v2.wav",
-        "Path": "SFX\\Destructible\\Props_OS_BreakMugBowl_01_Florent_v2_B512EB55.wem"
-       },
        {
         "Id": "530727809",
         "Language": "SFX",
         "ShortName": "Destructible\\Props_OS_BreakMugBowl_03_Florent_v2.wav",
-        "Path": "SFX\\Destructible\\Props_OS_BreakMugBowl_03_Florent_v2_8DF11452.wem"
+        "Path": "SFX\\Destructible\\Props_OS_BreakMugBowl_03_Florent_v2_8165A6E2.wem"
        },
        {
         "Id": "532594395",
         "Language": "SFX",
         "ShortName": "Destructible\\Props_OS_BreakMugBowl_02_Florent_v2.wav",
-        "Path": "SFX\\Destructible\\Props_OS_BreakMugBowl_02_Florent_v2_12ACA005.wem"
+        "Path": "SFX\\Destructible\\Props_OS_BreakMugBowl_02_Florent_v2_5B980DE4.wem"
        }
       ]
      }

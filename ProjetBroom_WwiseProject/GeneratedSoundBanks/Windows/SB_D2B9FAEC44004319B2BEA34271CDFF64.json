@@ -1,0 +1,213 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2178813900",
+    "GUID": "{81DE0FCC-0FCC-1FCC-CCCC-CCCCCCCCCCCC}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_D2B9FAEC44004319B2BEA34271CDFF64",
+    "ShortName": "SB_D2B9FAEC44004319B2BEA34271CDFF64",
+    "Path": "SB_D2B9FAEC44004319B2BEA34271CDFF64.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2189780293",
+      "Name": "Event_Play_HellPit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\General\\Event_Play_HellPit",
+      "GUID": "{D2B9FAEC-4400-4319-B2BE-A34271CDFF64}",
+      "MaxAttenuation": "1000.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "27847264",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitMonster_01_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitMonster_01_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "74530308",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitEvilLaugh_02_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitEvilLaugh_02_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "163935640",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitFireAttack_02_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitFireAttack_02_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "206311130",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitMonster_02_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitMonster_02_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "308772252",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitEvilLaugh_03_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitEvilLaugh_03_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "322290649",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitAnvil_01_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitAnvil_01_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "352882649",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitEvilLaugh_01_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitEvilLaugh_01_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "394650327",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitGateOpen_01_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitGateOpen_01_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "462887200",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitMonster_04_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitMonster_04_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "473210859",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitAnvil_03_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitAnvil_03_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "488331700",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitScream_05_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitScream_05_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "565625661",
+        "Language": "SFX",
+        "ShortName": "LP_Amb_Jail_HellPitSoulMoan_01_Dambrosio_V1.wav",
+        "Path": "SFX\\LP_Amb_Jail_HellPitSoulMoan_01_Dambrosio_V1_70232134.wem"
+       },
+       {
+        "Id": "571871723",
+        "Language": "SFX",
+        "ShortName": "LP_Amb_Jail_HellPitCavernTone_01_Dambrosio_V1.wav",
+        "Path": "SFX\\LP_Amb_Jail_HellPitCavernTone_01_Dambrosio_V1_70232134.wem"
+       },
+       {
+        "Id": "669641347",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitScream_01_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitScream_01_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "669818178",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitFireAttack_03_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitFireAttack_03_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "717107617",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitAnvil_02_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitAnvil_02_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "729215305",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitScream_06_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitScream_06_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "757319143",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitFireDecay_01_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitFireDecay_01_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "815960942",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitScream_03_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitScream_03_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "862003615",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitEvilLaugh_04_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitEvilLaugh_04_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "886629269",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitFireDecay_02_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitFireDecay_02_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "912143159",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitScream_04_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitScream_04_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "968550973",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitMonster_03_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitMonster_03_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "1006835962",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitFireAttack_01_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitFireAttack_01_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "1035147855",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitGateOpen_02_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitGateOpen_02_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "1072452710",
+        "Language": "SFX",
+        "ShortName": "OS_Amb_Jail_HellPitScream_02_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_Amb_Jail_HellPitScream_02_Dambrosio_V1_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2895845232",
+        "Name": "Reverb_HellPit",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reverb_HellPit",
+        "GUID": "{31732CDE-06F1-4F2D-89B9-946CBA075F3F}"
+       },
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

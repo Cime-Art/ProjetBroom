@@ -1,0 +1,53 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1137681020",
+    "GUID": "{43CFA27C-A27C-127C-7C7C-7C7C7C7C7C7C}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_CE8DC8ED51A54FA787DAC3D8DA0D8040",
+    "ShortName": "SB_CE8DC8ED51A54FA787DAC3D8DA0D8040",
+    "Path": "SB_CE8DC8ED51A54FA787DAC3D8DA0D8040.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1640731136",
+      "Name": "Event_SkDist_RagFall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\SkeletonDist\\Event_SkDist_RagFall",
+      "GUID": "{CE8DC8ED-51A5-4FA7-87DA-C3D8DA0D8040}",
+      "MaxAttenuation": "1500.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.748878",
+      "DurationMax": "1.122049",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "879526073",
+        "Language": "SFX",
+        "ShortName": "Mob_OS_SkeletonDistDeath_01.wav",
+        "Path": "SFX\\Mob_OS_SkeletonDistDeath_01_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -27,7 +27,7 @@
       "GUID": "{40E6E976-BECD-4358-B4F3-EAF076383852}",
       "DurationType": "OneShot",
       "DurationMin": "0.647729",
-      "DurationMax": "1.290667",
+      "DurationMax": "2.664396",
       "ExcludedMemoryFiles": [
        {
         "Id": "42023635",
@@ -36,28 +36,92 @@
         "Path": "SFX\\OS_PLAYER_VoiceDead_02_Raph_V1_4A67AB6A.wem"
        },
        {
-        "Id": "137814462",
+        "Id": "186871910",
         "Language": "SFX",
-        "ShortName": "OS_PLAYER_VoiceDead_04_Raph_V1.wav",
-        "Path": "SFX\\OS_PLAYER_VoiceDead_04_Raph_V1_4A67AB6A.wem"
+        "ShortName": "OS_Player_VoicePlayerDieFalling_01_Raph_V2.wav",
+        "Path": "SFX\\OS_Player_VoicePlayerDieFalling_01_Raph_V2_4A67AB6A.wem"
        },
        {
-        "Id": "542100541",
+        "Id": "250390935",
         "Language": "SFX",
-        "ShortName": "OS_PLAYER_VoiceDead_01_Raph_V1.wav",
-        "Path": "SFX\\OS_PLAYER_VoiceDead_01_Raph_V1_4A67AB6A.wem"
+        "ShortName": "OS_Player_VoicePlayerDieFalling_03_Raph_V2.wav",
+        "Path": "SFX\\OS_Player_VoicePlayerDieFalling_03_Raph_V2_4A67AB6A.wem"
        },
        {
-        "Id": "713267408",
+        "Id": "446503391",
         "Language": "SFX",
-        "ShortName": "OS_PLAYER_VoiceDead_05_Raph_V1.wav",
-        "Path": "SFX\\OS_PLAYER_VoiceDead_05_Raph_V1_4A67AB6A.wem"
+        "ShortName": "OS_Player_VoicePlayerDeadAcid_01_Raph_V2.wav",
+        "Path": "SFX\\OS_Player_VoicePlayerDeadAcid_01_Raph_V2_4A67AB6A.wem"
        },
        {
-        "Id": "1021308722",
+        "Id": "576695727",
         "Language": "SFX",
-        "ShortName": "OS_PLAYER_VoiceDead_03_Raph_V1.wav",
-        "Path": "SFX\\OS_PLAYER_VoiceDead_03_Raph_V1_4A67AB6A.wem"
+        "ShortName": "OS_Player_VoicePlayerDeadAcid_02_Raph_V2.wav",
+        "Path": "SFX\\OS_Player_VoicePlayerDeadAcid_02_Raph_V2_4A67AB6A.wem"
+       },
+       {
+        "Id": "635823105",
+        "Language": "SFX",
+        "ShortName": "OS_Player_VoicePlayerDie_01_Raph_V2.wav",
+        "Path": "SFX\\OS_Player_VoicePlayerDie_01_Raph_V2_4A67AB6A.wem"
+       },
+       {
+        "Id": "667623990",
+        "Language": "SFX",
+        "ShortName": "OS_Player_VoicePlayerDeadLava_02_Raph_V2.wav",
+        "Path": "SFX\\OS_Player_VoicePlayerDeadLava_02_Raph_V2_126E8731.wem"
+       },
+       {
+        "Id": "944151476",
+        "Language": "SFX",
+        "ShortName": "OS_Player_VoicePlayerDeadLava_01_Raph_V2.wav",
+        "Path": "SFX\\OS_Player_VoicePlayerDeadLava_01_Raph_V2_4A67AB6A.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{DAC772B8-1D19-4BB0-B2F1-C1523402D90A}",
+        "Media": [
+         {
+          "Id": "42023635"
+         },
+         {
+          "Id": "635823105"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{0CB4F3C0-4122-4C5C-AAD0-48D4D2D379D9}",
+        "Media": [
+         {
+          "Id": "186871910"
+         },
+         {
+          "Id": "250390935"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{00E78FF5-D6D0-4078-9C77-03E23FDC4EB4}",
+        "Media": [
+         {
+          "Id": "446503391"
+         },
+         {
+          "Id": "576695727"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{C067C5AB-7AC6-4331-82C4-FEF8950AFBFC}",
+        "Media": [
+         {
+          "Id": "667623990"
+         },
+         {
+          "Id": "944151476"
+         }
+        ]
        }
       ],
       "AuxBusSends": [
@@ -72,6 +136,40 @@
         "Name": "Aux_Reverb_In",
         "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
         "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1291227207",
+      "Name": "Death_Type_Switch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Player\\Death_Type_Switch",
+      "GUID": "{0EDAEFA0-2C04-4129-AA07-434CA5E8257C}",
+      "Switches": [
+       {
+        "Id": "3554728690",
+        "Name": "Acid",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\Death_Type_Switch\\Acid",
+        "GUID": "{00E78FF5-D6D0-4078-9C77-03E23FDC4EB4}"
+       },
+       {
+        "Id": "540301611",
+        "Name": "Lava",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\Death_Type_Switch\\Lava",
+        "GUID": "{C067C5AB-7AC6-4331-82C4-FEF8950AFBFC}"
+       },
+       {
+        "Id": "2491259133",
+        "Name": "Slayed",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\Death_Type_Switch\\Slayed",
+        "GUID": "{DAC772B8-1D19-4BB0-B2F1-C1523402D90A}"
+       },
+       {
+        "Id": "2512384458",
+        "Name": "Fall",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\Death_Type_Switch\\Fall",
+        "GUID": "{0CB4F3C0-4122-4C5C-AAD0-48D4D2D379D9}"
        }
       ]
      }

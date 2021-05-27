@@ -10,6 +10,11 @@
     "DLL": "AkSilenceGenerator"
    },
    {
+    "Name": "Wwise Peak Limiter",
+    "ID": "7208963",
+    "DLL": "AkPeakLimiter"
+   },
+   {
     "Name": "Wwise RoomVerb",
     "ID": "7733251",
     "DLL": "AkRoomVerb"

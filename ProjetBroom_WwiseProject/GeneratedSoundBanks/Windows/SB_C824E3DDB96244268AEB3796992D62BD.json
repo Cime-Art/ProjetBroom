@@ -1,0 +1,58 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "835069728",
+    "GUID": "{31C62720-2720-1720-2020-202020202020}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_C824E3DDB96244268AEB3796992D62BD",
+    "ShortName": "SB_C824E3DDB96244268AEB3796992D62BD",
+    "Path": "SB_C824E3DDB96244268AEB3796992D62BD.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2849950059",
+      "Name": "Event_LavaPlatform_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Hell\\LavaPlatform\\Event_LavaPlatform_End",
+      "GUID": "{C824E3DD-B962-4426-8AEB-3796992D62BD}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.687500",
+      "DurationMax": "4.687500",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "625556946",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_LavaPlatform_End_RomainH_V2.wav",
+        "Path": "SFX\\AMB_OS_LavaPlatform_End_RomainH_V2_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

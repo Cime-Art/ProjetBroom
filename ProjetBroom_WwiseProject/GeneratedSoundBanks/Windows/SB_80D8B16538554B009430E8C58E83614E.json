@@ -25,10 +25,17 @@
       "Name": "Pause_UI_SelectMenu",
       "ObjectPath": "\\Events\\Default Work Unit\\HUD_Menu\\Pause_UI_SelectMenu",
       "GUID": "{80D8B165-3855-4B00-9430-E8C58E83614E}",
-      "MaxAttenuation": "0.000000",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.111333",
+      "DurationMax": "0.111333",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "517991004",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_UIMenuNeutral_01_THOMAS_V1.wav",
+        "Path": "SFX\\SFX_OS_UIMenuNeutral_01_THOMAS_V1_4A67AB6A.wem"
+       }
+      ]
      }
     ]
    }

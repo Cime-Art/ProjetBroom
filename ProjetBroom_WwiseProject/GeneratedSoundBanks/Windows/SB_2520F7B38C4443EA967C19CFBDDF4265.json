@@ -1,0 +1,376 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1877916469",
+    "GUID": "{6FEEBB35-BB35-1B35-3535-353535353535}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_2520F7B38C4443EA967C19CFBDDF4265",
+    "ShortName": "SB_2520F7B38C4443EA967C19CFBDDF4265",
+    "Path": "SB_2520F7B38C4443EA967C19CFBDDF4265.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3801664701",
+      "Name": "Play_General_GetHit_BLD",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Action\\Play_General_GetHit_BLD",
+      "GUID": "{2520F7B3-8C44-43EA-967C-19CFBDDF4265}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.441791",
+      "DurationMax": "0.711224",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "88306621",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitBLOB_02_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitBLOB_02_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "124209678",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHit_03_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHit_03_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "133433617",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitSword_01_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitSword_01_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "206173293",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitMage_04_Dambrosio_V1 [2021-05-09 194153].wav",
+        "Path": "SFX\\OS_PLAYER_GetHitMage_04_Dambrosio_V1 [2021-05-09 194153]_4A67AB6A.wem"
+       },
+       {
+        "Id": "238675254",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitMage_02_Dambrosio_V1 [2021-05-09 194152].wav",
+        "Path": "SFX\\OS_PLAYER_GetHitMage_02_Dambrosio_V1 [2021-05-09 194152]_4A67AB6A.wem"
+       },
+       {
+        "Id": "269733667",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitBLOB_03_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitBLOB_03_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "275887168",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHit_01_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHit_01_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "314708468",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitMage_01_Dambrosio_V1 [2021-05-09 194151].wav",
+        "Path": "SFX\\OS_PLAYER_GetHitMage_01_Dambrosio_V1 [2021-05-09 194151]_4A67AB6A.wem"
+       },
+       {
+        "Id": "324491482",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHit_04_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHit_04_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "393736454",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitWood_02_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitWood_02_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "410168759",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitWood_03_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitWood_03_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "439851180",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitWood_04_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitWood_04_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "538838832",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitBLOB_01_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitBLOB_01_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "561579156",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitArrow_02_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitArrow_02_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "566502787",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitSword_02_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitSword_02_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "591948628",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHit_02_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHit_02_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "692284863",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitMage_03_Dambrosio_V1 [2021-05-09 194152].wav",
+        "Path": "SFX\\OS_PLAYER_GetHitMage_03_Dambrosio_V1 [2021-05-09 194152]_4A67AB6A.wem"
+       },
+       {
+        "Id": "703280167",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitMetal_04_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitMetal_04_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "760504916",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitArrow_03_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitArrow_03_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "838116742",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitWood_01_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitWood_01_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "893025318",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitArrow_01_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitArrow_01_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "1000039962",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitSword_03_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitSword_03_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "1037394369",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitMetal_01_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitMetal_01_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "1045702930",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitMetal_02_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitMetal_02_Dambrosio_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "1067175307",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_GetHitMetal_03_Dambrosio_V1.wav",
+        "Path": "SFX\\OS_PLAYER_GetHitMetal_03_Dambrosio_V1_4A67AB6A.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{DD498356-EAD6-4A76-BD62-2B1C70C2FDB4}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{0ABC5705-4078-4363-87FD-93EDCA7AA609}",
+        "Media": [
+         {
+          "Id": "1037394369"
+         },
+         {
+          "Id": "1045702930"
+         },
+         {
+          "Id": "1067175307"
+         },
+         {
+          "Id": "703280167"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{87D119C9-CD54-4701-999D-C6F27907575E}",
+        "Media": [
+         {
+          "Id": "838116742"
+         },
+         {
+          "Id": "393736454"
+         },
+         {
+          "Id": "410168759"
+         },
+         {
+          "Id": "439851180"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{02525265-B4FE-4064-86C7-909E7FA615F2}",
+        "Media": [
+         {
+          "Id": "314708468"
+         },
+         {
+          "Id": "238675254"
+         },
+         {
+          "Id": "692284863"
+         },
+         {
+          "Id": "206173293"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{99C7D5A5-2880-4312-BE58-DF07FD1F06C5}",
+        "Media": [
+         {
+          "Id": "893025318"
+         },
+         {
+          "Id": "561579156"
+         },
+         {
+          "Id": "760504916"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{4D40FCEF-59AC-498E-8CD7-16908C91B3E6}",
+        "Media": [
+         {
+          "Id": "133433617"
+         },
+         {
+          "Id": "566502787"
+         },
+         {
+          "Id": "1000039962"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{73BF3FDB-5501-43B1-8B2F-8F36FA268EFB}",
+        "Media": [
+         {
+          "Id": "538838832"
+         },
+         {
+          "Id": "88306621"
+         },
+         {
+          "Id": "269733667"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "758275090",
+      "Name": "GetHit_Armor_Texture",
+      "ObjectPath": "\\States\\Default Work Unit\\Player\\GetHit_Armor_Texture",
+      "GUID": "{638CD667-E878-4B6D-A7A1-C44EA71CF349}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Player\\GetHit_Armor_Texture\\None",
+        "GUID": "{89DDE0CA-D4D2-4ACD-81EB-50CCF17B5F83}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\States\\Default Work Unit\\Player\\GetHit_Armor_Texture\\Metal",
+        "GUID": "{0ABC5705-4078-4363-87FD-93EDCA7AA609}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\States\\Default Work Unit\\Player\\GetHit_Armor_Texture\\Wood",
+        "GUID": "{87D119C9-CD54-4701-999D-C6F27907575E}"
+       },
+       {
+        "Id": "1880439950",
+        "Name": "Magic",
+        "ObjectPath": "\\States\\Default Work Unit\\Player\\GetHit_Armor_Texture\\Magic",
+        "GUID": "{02525265-B4FE-4064-86C7-909E7FA615F2}"
+       }
+      ]
+     },
+     {
+      "Id": "3673025492",
+      "Name": "GetHit_Weapon_Type",
+      "ObjectPath": "\\States\\Default Work Unit\\Player\\GetHit_Weapon_Type",
+      "GUID": "{05BE03B9-0B22-4295-84FC-DCD0DA3EB7A8}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Player\\GetHit_Weapon_Type\\None",
+        "GUID": "{DD498356-EAD6-4A76-BD62-2B1C70C2FDB4}"
+       },
+       {
+        "Id": "2454616260",
+        "Name": "Sword",
+        "ObjectPath": "\\States\\Default Work Unit\\Player\\GetHit_Weapon_Type\\Sword",
+        "GUID": "{4D40FCEF-59AC-498E-8CD7-16908C91B3E6}"
+       },
+       {
+        "Id": "1197258740",
+        "Name": "Arrow",
+        "ObjectPath": "\\States\\Default Work Unit\\Player\\GetHit_Weapon_Type\\Arrow",
+        "GUID": "{99C7D5A5-2880-4312-BE58-DF07FD1F06C5}"
+       },
+       {
+        "Id": "1762045336",
+        "Name": "Blob",
+        "ObjectPath": "\\States\\Default Work Unit\\Player\\GetHit_Weapon_Type\\Blob",
+        "GUID": "{73BF3FDB-5501-43B1-8B2F-8F36FA268EFB}"
+       },
+       {
+        "Id": "682465770",
+        "Name": "Alambic",
+        "ObjectPath": "\\States\\Default Work Unit\\Player\\GetHit_Weapon_Type\\Alambic",
+        "GUID": "{B309D41F-3739-4193-9A1C-CBF2357DC949}"
+       },
+       {
+        "Id": "2137289812",
+        "Name": "FireSkull",
+        "ObjectPath": "\\States\\Default Work Unit\\Player\\GetHit_Weapon_Type\\FireSkull",
+        "GUID": "{707F0AC8-A91C-4CB5-8FD9-B539584AA726}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

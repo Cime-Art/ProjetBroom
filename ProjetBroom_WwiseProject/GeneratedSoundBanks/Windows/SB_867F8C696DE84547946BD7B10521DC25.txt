@@ -1,6 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
 	3448802446	Event_Player_Action			\Default Work Unit\Player\Action\Event_Player_Action	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	217057930	FTPS_Ground_Texture			\Default Work Unit\Player\FTPS_Ground_Texture	
+
+Switch	ID	Name	Switch Group			Notes
+	294956043	HollowWood	FTPS_Ground_Texture			
+	1127618254	Marble	FTPS_Ground_Texture			
+	2058049674	Wood	FTPS_Ground_Texture			
+	2087559222	Bones	FTPS_Ground_Texture			
+	2144363834	Rock	FTPS_Ground_Texture			
+	2195636714	Dirt	FTPS_Ground_Texture			
+	2473969246	Metal	FTPS_Ground_Texture			
+	2654748154	Water	FTPS_Ground_Texture			
+	4248645337	Grass	FTPS_Ground_Texture			
+
 State Group	ID	Name			Wwise Object Path	Notes
 	1069431850	Player			\Default Work Unit\Player\Player	
 
@@ -13,5 +27,5 @@ State	ID	Name	State Group			Notes
 	3833651337	Jump	Player			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	84488110	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\General_Player_Mix\Player_State\PlayeVoicer_Jump\Player_Silence\Wwise Silence	
+	815310749	SoundSeed Air Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\Player\General_Player_Mix\Player_State\Jump_SFX\SoundSeed Air Woosh	
 

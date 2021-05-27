@@ -1,0 +1,51 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "944285016",
+    "GUID": "{3848A558-A558-1558-5858-585858585858}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_16178A33176F4C2B89971C26F4364CA0",
+    "ShortName": "SB_16178A33176F4C2B89971C26F4364CA0",
+    "Path": "SB_16178A33176F4C2B89971C26F4364CA0.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3394108455",
+      "Name": "Event_BreakChair_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Event_BreakChair_RND",
+      "GUID": "{16178A33-176F-4C2B-8997-1C26F4364CA0}",
+      "MaxAttenuation": "2300.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.716688",
+      "DurationMax": "0.993315",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "30617991",
+        "Language": "SFX",
+        "ShortName": "Destructible\\Props_OS_BreakChair_01_Florent_v1.wav",
+        "Path": "SFX\\Destructible\\Props_OS_BreakChair_01_Florent_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "873864191",
+        "Language": "SFX",
+        "ShortName": "Destructible\\Props_OS_BreakChair_02_Florent_v1.wav",
+        "Path": "SFX\\Destructible\\Props_OS_BreakChair_02_Florent_v1_4A67AB6A.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

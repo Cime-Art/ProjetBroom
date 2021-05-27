@@ -25,9 +25,10 @@
       "Name": "Event_BubbleLava",
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Hell\\Event_BubbleLava",
       "GUID": "{DFCA4BE5-75DA-4CD7-9030-5C9F9BD08E4A}",
+      "MaxAttenuation": "900.000000",
       "DurationType": "OneShot",
-      "DurationMin": "0.559618",
-      "DurationMax": "3.995486",
+      "DurationMin": "0.528209",
+      "DurationMax": "3.771236",
       "ExcludedMemoryFiles": [
        {
         "Id": "4438269",

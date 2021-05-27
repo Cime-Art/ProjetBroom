@@ -1,0 +1,51 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "348774582",
+    "GUID": "{14C9E0B6-E0B6-10B6-B6B6-B6B6B6B6B6B6}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_F72CB2E71060482EAA15839A29C191B3",
+    "ShortName": "SB_F72CB2E71060482EAA15839A29C191B3",
+    "Path": "SB_F72CB2E71060482EAA15839A29C191B3.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3661683198",
+      "Name": "BlobIdle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mob\\Blob\\BlobIdle",
+      "GUID": "{F72CB2E7-1060-482E-AA15-839A29C191B3}",
+      "MaxAttenuation": "700.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "73011469",
+        "Language": "SFX",
+        "ShortName": "MOB_LP_BlobIdle_01_DELIVERT_V4.wav",
+        "Path": "SFX\\MOB_LP_BlobIdle_01_DELIVERT_V4_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

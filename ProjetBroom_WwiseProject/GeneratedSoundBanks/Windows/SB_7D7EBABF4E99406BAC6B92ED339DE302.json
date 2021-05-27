@@ -26,14 +26,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\HUD_Menu\\Event_UI_SelectMenu",
       "GUID": "{7D7EBABF-4E99-406B-AC6B-92ED339DE302}",
       "DurationType": "OneShot",
-      "DurationMin": "1.850952",
-      "DurationMax": "1.850952",
+      "DurationMin": "0.111333",
+      "DurationMax": "0.111333",
       "ExcludedMemoryFiles": [
        {
-        "Id": "1034043911",
+        "Id": "517991004",
         "Language": "SFX",
-        "ShortName": "UI_OS_SelectMenu_Pelloux_V1.wav",
-        "Path": "SFX\\UI_OS_SelectMenu_Pelloux_V1_4A67AB6A.wem"
+        "ShortName": "SFX_OS_UIMenuNeutral_01_THOMAS_V1.wav",
+        "Path": "SFX\\SFX_OS_UIMenuNeutral_01_THOMAS_V1_4A67AB6A.wem"
        }
       ]
      }

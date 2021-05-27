@@ -21,31 +21,32 @@
     "Path": "SB_C6F8E43812DC43918767FC763A0CBF6B.bnk",
     "IncludedEvents": [
      {
-      "Id": "993529638",
-      "Name": "Event_SubmergingLavaPlatform",
-      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Hell\\Event_SubmergingLavaPlatform",
+      "Id": "3993462419",
+      "Name": "Event_PlatformFallingInLava",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Hell\\Event_PlatformFallingInLava",
       "GUID": "{C6F8E438-12DC-4391-8767-FC763A0CBF6B}",
+      "MaxAttenuation": "1000.000000",
       "DurationType": "OneShot",
-      "DurationMin": "3.499474",
-      "DurationMax": "4.763540",
+      "DurationMin": "3.999474",
+      "DurationMax": "5.263540",
       "ExcludedMemoryFiles": [
        {
-        "Id": "166249243",
+        "Id": "390714505",
         "Language": "SFX",
-        "ShortName": "AMB_OS_SubmergeLava_03_v1.wav",
-        "Path": "SFX\\AMB_OS_SubmergeLava_03_v1_4A67AB6A.wem"
+        "ShortName": "OS_SubmergeLava_v3-003.wav",
+        "Path": "SFX\\OS_SubmergeLava_v3-003_4A67AB6A.wem"
        },
        {
-        "Id": "861214564",
+        "Id": "497405110",
         "Language": "SFX",
-        "ShortName": "AMB_OS_SubmergeLava_01_v1.wav",
-        "Path": "SFX\\AMB_OS_SubmergeLava_01_v1_4A67AB6A.wem"
+        "ShortName": "OS_SubmergeLava_v3-001.wav",
+        "Path": "SFX\\OS_SubmergeLava_v3-001_4A67AB6A.wem"
        },
        {
-        "Id": "889338379",
+        "Id": "979279293",
         "Language": "SFX",
-        "ShortName": "AMB_OS_SubmergeLava_02_v1.wav",
-        "Path": "SFX\\AMB_OS_SubmergeLava_02_v1_4A67AB6A.wem"
+        "ShortName": "OS_SubmergeLava_v3-002.wav",
+        "Path": "SFX\\OS_SubmergeLava_v3-002_4A67AB6A.wem"
        }
       ],
       "AuxBusSends": [

@@ -25,10 +25,9 @@
       "Name": "Event_DoorSlam_01",
       "ObjectPath": "\\Events\\Default Work Unit\\Level\\Jail\\Metal\\Event_DoorSlam_01",
       "GUID": "{69A2596B-4BAC-40BB-8129-7D6DE554BAB2}",
-      "MaxAttenuation": "1200.000000",
       "DurationType": "OneShot",
-      "DurationMin": "1.899629",
-      "DurationMax": "4.165458",
+      "DurationMin": "1.894150",
+      "DurationMax": "4.153445",
       "ExcludedMemoryFiles": [
        {
         "Id": "417621774",

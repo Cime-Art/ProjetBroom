@@ -1,0 +1,51 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2220831521",
+    "GUID": "{845F3321-3321-1321-2121-212121212121}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_65CFE69807864462BA52734DCC70CDA6",
+    "ShortName": "SB_65CFE69807864462BA52734DCC70CDA6",
+    "Path": "SB_65CFE69807864462BA52734DCC70CDA6.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1939143344",
+      "Name": "Event_BreakGlass_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Event_BreakGlass_RND",
+      "GUID": "{65CFE698-0786-4462-BA52-734DCC70CDA6}",
+      "MaxAttenuation": "2300.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.700315",
+      "DurationMax": "0.956053",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "98769265",
+        "Language": "SFX",
+        "ShortName": "Destructible\\Props_OS_BreakGlass_01_Florent_v1.wav",
+        "Path": "SFX\\Destructible\\Props_OS_BreakGlass_01_Florent_v1_B3ABF67D.wem"
+       },
+       {
+        "Id": "637431352",
+        "Language": "SFX",
+        "ShortName": "Destructible\\Props_OS_BreakGlass_02_Florent_v1.wav",
+        "Path": "SFX\\Destructible\\Props_OS_BreakGlass_02_Florent_v1_7CF818A7.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

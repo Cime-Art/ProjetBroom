@@ -40,6 +40,34 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Option\\Master_Volume_GP",
       "GUID": "{C0054CA0-46BD-4911-8ADF-2435B99B7B79}"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2856178705",
+      "Name": "Menu_Pause_State",
+      "ObjectPath": "\\States\\Default Work Unit\\Music\\Menu_Pause_State",
+      "GUID": "{D0FF239A-E94A-4831-AB09-1081E5CE7D54}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Menu_Pause_State\\None",
+        "GUID": "{84F7C088-EADC-42A7-9FC3-4384FBFC1D96}"
+       },
+       {
+        "Id": "1651971902",
+        "Name": "On",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Menu_Pause_State\\On",
+        "GUID": "{21593DA0-FC4D-4578-BF81-BB34683C678C}"
+       },
+       {
+        "Id": "930712164",
+        "Name": "Off",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Menu_Pause_State\\Off",
+        "GUID": "{0DADE348-17F7-45E7-9CF4-D3DCB9D317C3}"
+       }
+      ]
+     }
     ]
    }
   ]

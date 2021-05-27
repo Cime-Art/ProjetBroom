@@ -27,13 +27,25 @@
       "GUID": "{43342A4F-F47F-496A-AC5E-554E0E9FD119}",
       "DurationType": "OneShot",
       "DurationMin": "0.862662",
-      "DurationMax": "0.982389",
+      "DurationMax": "1.656781",
       "ExcludedMemoryFiles": [
+       {
+        "Id": "79247711",
+        "Language": "SFX",
+        "ShortName": "OS_MOB_VoiceSkeletonDead_01_Raph_V2.wav",
+        "Path": "SFX\\OS_MOB_VoiceSkeletonDead_01_Raph_V2_4A67AB6A.wem"
+       },
        {
         "Id": "364397768",
         "Language": "SFX",
         "ShortName": "TestSkeletonVoice_01.wav",
         "Path": "SFX\\TestSkeletonVoice_01_4A67AB6A.wem"
+       },
+       {
+        "Id": "618274109",
+        "Language": "SFX",
+        "ShortName": "OS_MOB_VoiceSkeletonDead_03_Raph_V2.wav",
+        "Path": "SFX\\OS_MOB_VoiceSkeletonDead_03_Raph_V2_4A67AB6A.wem"
        }
       ],
       "AuxBusSends": [

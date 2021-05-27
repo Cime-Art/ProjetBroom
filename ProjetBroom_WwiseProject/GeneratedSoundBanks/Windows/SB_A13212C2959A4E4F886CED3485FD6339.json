@@ -1,0 +1,75 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1334009944",
+    "GUID": "{4F836058-6058-1058-5858-585858585858}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_A13212C2959A4E4F886CED3485FD6339",
+    "ShortName": "SB_A13212C2959A4E4F886CED3485FD6339",
+    "Path": "SB_A13212C2959A4E4F886CED3485FD6339.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "1471891922",
+      "Name": "RVB_Music_Tuto",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music\\RVB_Music_Tuto",
+      "GUID": "{A13212C2-959A-4E4F-886C-ED3485FD6339}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2093986695",
+      "Name": "Music_Volume_GP",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Option\\Music_Volume_GP",
+      "GUID": "{8ADB53BC-CDEB-4DF8-BDBA-5421C56CD850}"
+     },
+     {
+      "Id": "3931204830",
+      "Name": "Master_Volume_GP",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Option\\Master_Volume_GP",
+      "GUID": "{C0054CA0-46BD-4911-8ADF-2435B99B7B79}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2856178705",
+      "Name": "Menu_Pause_State",
+      "ObjectPath": "\\States\\Default Work Unit\\Music\\Menu_Pause_State",
+      "GUID": "{D0FF239A-E94A-4831-AB09-1081E5CE7D54}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Menu_Pause_State\\None",
+        "GUID": "{84F7C088-EADC-42A7-9FC3-4384FBFC1D96}"
+       },
+       {
+        "Id": "1651971902",
+        "Name": "On",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Menu_Pause_State\\On",
+        "GUID": "{21593DA0-FC4D-4578-BF81-BB34683C678C}"
+       },
+       {
+        "Id": "930712164",
+        "Name": "Off",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Menu_Pause_State\\Off",
+        "GUID": "{0DADE348-17F7-45E7-9CF4-D3DCB9D317C3}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

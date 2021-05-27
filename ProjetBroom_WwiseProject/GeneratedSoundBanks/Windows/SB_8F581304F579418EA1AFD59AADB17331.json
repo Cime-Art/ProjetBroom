@@ -27,8 +27,14 @@
       "GUID": "{8F581304-F579-418E-A1AF-D59AADB17331}",
       "DurationType": "OneShot",
       "DurationMin": "0.582319",
-      "DurationMax": "0.654386",
+      "DurationMax": "0.684293",
       "ExcludedMemoryFiles": [
+       {
+        "Id": "24949192",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_VoiceAttack_03_Raph_V1.wav",
+        "Path": "SFX\\OS_PLAYER_VoiceAttack_03_Raph_V1_4A67AB6A.wem"
+       },
        {
         "Id": "96729159",
         "Language": "SFX",
@@ -48,10 +54,34 @@
         "Path": "SFX\\Perso_OS_Attack_Horizontal_02_Dambrosio_V1 [2021-05-02 174348]_4A67AB6A.wem"
        },
        {
+        "Id": "441284196",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_VoiceAttack_01_Raph_V1.wav",
+        "Path": "SFX\\OS_PLAYER_VoiceAttack_01_Raph_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "534149977",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_VoiceAttack_05_Raph_V1.wav",
+        "Path": "SFX\\OS_PLAYER_VoiceAttack_05_Raph_V1_4A67AB6A.wem"
+       },
+       {
         "Id": "661413129",
         "Language": "SFX",
         "ShortName": "Perso_OS_Attack_Horizontal_04_Dambrosio_V1 [2021-05-02 174349].wav",
         "Path": "SFX\\Perso_OS_Attack_Horizontal_04_Dambrosio_V1 [2021-05-02 174349]_4A67AB6A.wem"
+       },
+       {
+        "Id": "738237027",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_VoiceAttack_02_Raph_V1.wav",
+        "Path": "SFX\\OS_PLAYER_VoiceAttack_02_Raph_V1_4A67AB6A.wem"
+       },
+       {
+        "Id": "750078486",
+        "Language": "SFX",
+        "ShortName": "OS_PLAYER_VoiceAttack_04_Raph_V1.wav",
+        "Path": "SFX\\OS_PLAYER_VoiceAttack_04_Raph_V1_4A67AB6A.wem"
        }
       ],
       "AuxBusSends": [

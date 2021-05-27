@@ -226,6 +226,28 @@
 									</ChildrenList>
 								</Bus>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Menu_Pause_State" ID="{D0FF239A-E94A-4831-AB09-1081E5CE7D54}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="On" ID="{21593DA0-FC4D-4578-BF81-BB34683C678C}"/>
+										<CustomState Name="" ID="{07140A1E-C83B-4E27-ADC1-F3EED68866D7}" ShortID="567664425"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Off" ID="{0DADE348-17F7-45E7-9CF4-D3DCB9D317C3}"/>
+										<CustomState Name="" ID="{088CEEBE-8FE3-4E59-8927-CA87A721762A}" ShortID="760824956">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="72"/>
+												<Property Name="Volume" Type="Real64" Value="-11"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
 						<Bus Name="Music" ID="{3AAA1A5D-7D18-49B8-944D-76833FC3D4F7}">
 							<PropertyList>
@@ -335,7 +357,12 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="Off" ID="{0DADE348-17F7-45E7-9CF4-D3DCB9D317C3}"/>
-										<CustomState Name="" ID="{9B9D9670-D694-40C2-8FDA-4C179C80437E}" ShortID="647992675"/>
+										<CustomState Name="" ID="{9B9D9670-D694-40C2-8FDA-4C179C80437E}" ShortID="647992675">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="80"/>
+												<Property Name="Volume" Type="Real64" Value="-4"/>
+											</PropertyList>
+										</CustomState>
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>

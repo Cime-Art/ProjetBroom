@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3759971902",
+    "GUID": "{E01C9E3E-9E3E-1E3E-3E3E-3E3E3E3E3E3E}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_94BFA7A0406241A8964F5E7B470C1E49",
+    "ShortName": "SB_94BFA7A0406241A8964F5E7B470C1E49",
+    "Path": "SB_94BFA7A0406241A8964F5E7B470C1E49.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "812045293",
+      "Name": "Event_MenuUI",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Event_MenuUI",
+      "GUID": "{94BFA7A0-4062-41A8-964F-5E7B470C1E49}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.202187",
+      "DurationMax": "0.202187",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "801920220",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_UI+Menu_01_THOMAS_V1.wav",
+        "Path": "SFX\\SFX_OS_UI+Menu_01_THOMAS_V1_4A67AB6A.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2056122238",
+    "GUID": "{7A8DEF7E-EF7E-1F7E-7E7E-7E7E7E7E7E7E}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_FBBA58B1497C467493D5157572BCFFC0",
+    "ShortName": "SB_FBBA58B1497C467493D5157572BCFFC0",
+    "Path": "SB_FBBA58B1497C467493D5157572BCFFC0.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "628475717",
+      "Name": "Event_BreakBucket",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Event_BreakBucket",
+      "GUID": "{FBBA58B1-497C-4674-93D5-157572BCFFC0}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.315081",
+      "DurationMax": "2.052793",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "170420544",
+        "Language": "SFX",
+        "ShortName": "Props_OS_BreakBucket_v1_004.wav",
+        "Path": "SFX\\Props_OS_BreakBucket_v1_004_9AE33C2D.wem"
+       },
+       {
+        "Id": "412028961",
+        "Language": "SFX",
+        "ShortName": "Props_OS_BreakBucket_v1_003.wav",
+        "Path": "SFX\\Props_OS_BreakBucket_v1_003_F2321285.wem"
+       },
+       {
+        "Id": "753314943",
+        "Language": "SFX",
+        "ShortName": "Props_OS_BreakBucket_v1_002.wav",
+        "Path": "SFX\\Props_OS_BreakBucket_v1_002_5866BD39.wem"
+       },
+       {
+        "Id": "888014988",
+        "Language": "SFX",
+        "ShortName": "Props_OS_BreakBucket_v1_001.wav",
+        "Path": "SFX\\Props_OS_BreakBucket_v1_001_0CACE8AF.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

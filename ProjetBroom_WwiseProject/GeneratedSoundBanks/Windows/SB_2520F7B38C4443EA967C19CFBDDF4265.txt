@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3801664701	Play_General_GetHit_BLD			\Default Work Unit\Player\Action\Play_General_GetHit_BLD	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	758275090	GetHit_Armor_Texture			\Default Work Unit\Player\GetHit_Armor_Texture	
+	3673025492	GetHit_Weapon_Type			\Default Work Unit\Player\GetHit_Weapon_Type	
+
+State	ID	Name	State Group			Notes
+	748895195	None	GetHit_Armor_Texture			
+	1880439950	Magic	GetHit_Armor_Texture			
+	2058049674	Wood	GetHit_Armor_Texture			
+	2473969246	Metal	GetHit_Armor_Texture			
+	682465770	Alambic	GetHit_Weapon_Type			
+	748895195	None	GetHit_Weapon_Type			
+	1197258740	Arrow	GetHit_Weapon_Type			
+	1762045336	Blob	GetHit_Weapon_Type			
+	2137289812	FireSkull	GetHit_Weapon_Type			
+	2454616260	Sword	GetHit_Weapon_Type			
+

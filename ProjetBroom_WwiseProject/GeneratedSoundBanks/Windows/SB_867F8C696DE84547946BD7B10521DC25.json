@@ -27,19 +27,31 @@
       "GUID": "{867F8C69-6DE8-4547-946B-D7B10521DC25}",
       "DurationType": "OneShot",
       "DurationMin": "0.270833",
-      "DurationMax": "1.855760",
+      "DurationMax": "0.680000",
       "ExcludedMemoryFiles": [
        {
-        "Id": "87198404",
+        "Id": "43230357",
         "Language": "SFX",
-        "ShortName": "PLAYER_OS_GETHIT_03_LAURIER_V1.wav",
-        "Path": "SFX\\PLAYER_OS_GETHIT_03_LAURIER_V1_4A67AB6A.wem"
+        "ShortName": "SFX_OS_JumpDirt_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_JumpDirt_GOICO_01_v1_4A67AB6A.wem"
        },
        {
-        "Id": "116961432",
+        "Id": "218005042",
         "Language": "SFX",
-        "ShortName": "PLAYER_OS_DEATH_03_LAURIER_V1.wav",
-        "Path": "SFX\\PLAYER_OS_DEATH_03_LAURIER_V1_4A67AB6A.wem"
+        "ShortName": "SFX_OS_JumpWood_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_JumpWood_GOICO_01_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "235545300",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_JumpBones_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_JumpBones_GOICO_01_v1_4A67AB6A.wem"
+       },
+       {
+        "Id": "265675621",
+        "Language": "SFX",
+        "ShortName": "SFX_OS_JumpGrass_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_JumpGrass_GOICO_01_v1_4A67AB6A.wem"
        },
        {
         "Id": "288079192",
@@ -48,34 +60,16 @@
         "Path": "SFX\\Player_OS_Dash_02_Hezon_V1_4A67AB6A.wem"
        },
        {
-        "Id": "361458916",
+        "Id": "574786028",
         "Language": "SFX",
-        "ShortName": "PLAYER_OS_GETHIT_01_LAURIER_V1.wav",
-        "Path": "SFX\\PLAYER_OS_GETHIT_01_LAURIER_V1_4A67AB6A.wem"
+        "ShortName": "SFX_OS_JumpRock_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_JumpRock_GOICO_01_v1_4A67AB6A.wem"
        },
        {
-        "Id": "506745443",
+        "Id": "584267432",
         "Language": "SFX",
-        "ShortName": "PLAYER_OS_GETHIT_02_LAURIER_V1.wav",
-        "Path": "SFX\\PLAYER_OS_GETHIT_02_LAURIER_V1_4A67AB6A.wem"
-       },
-       {
-        "Id": "558899718",
-        "Language": "SFX",
-        "ShortName": "PLAYER_LP_IDLE_02_LAURIER_V1.wav",
-        "Path": "SFX\\PLAYER_LP_IDLE_02_LAURIER_V1_4A67AB6A.wem"
-       },
-       {
-        "Id": "682910594",
-        "Language": "SFX",
-        "ShortName": "PLAYER_LP_IDLE_01_LAURIER_V1.wav",
-        "Path": "SFX\\PLAYER_LP_IDLE_01_LAURIER_V1_4A67AB6A.wem"
-       },
-       {
-        "Id": "719930065",
-        "Language": "SFX",
-        "ShortName": "PLAYER_OS_DEATH_01_LAURIER_V1.wav",
-        "Path": "SFX\\PLAYER_OS_DEATH_01_LAURIER_V1_4A67AB6A.wem"
+        "ShortName": "SFX_OS_JumpMarble_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_JumpMarble_GOICO_01_v1_4A67AB6A.wem"
        },
        {
         "Id": "730505517",
@@ -84,131 +78,14 @@
         "Path": "SFX\\Player_OS_Dash_01_Hezon_V1_4A67AB6A.wem"
        },
        {
-        "Id": "797792194",
+        "Id": "1047376910",
         "Language": "SFX",
-        "ShortName": "PLAYER_OS_JUMP_01_LAURIER_V1.wav",
-        "Path": "SFX\\PLAYER_OS_JUMP_01_LAURIER_V1_4A67AB6A.wem"
-       },
-       {
-        "Id": "854687985",
-        "Language": "SFX",
-        "ShortName": "PLAYER_OS_DEATH_02_LAURIER_V1.wav",
-        "Path": "SFX\\PLAYER_OS_DEATH_02_LAURIER_V1_4A67AB6A.wem"
+        "ShortName": "SFX_OS_JumpWater_GOICO_01_v1.wav",
+        "Path": "SFX\\SFX_OS_JumpWater_GOICO_01_v1_4A67AB6A.wem"
        }
       ],
-      "DefaultSwitchValue": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}",
+      "DefaultSwitchValue": "{67ECEA7E-FD7F-46CE-AB6E-68E9C4CAE5D9}",
       "SwitchContainers": [
-       {
-        "SwitchValue": "{67ECEA7E-FD7F-46CE-AB6E-68E9C4CAE5D9}",
-        "Media": [
-         {
-          "Id": "682910594"
-         },
-         {
-          "Id": "558899718"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{313417D2-528F-4AE5-BEC8-7103D6B8B063}",
-        "Media": [
-         {
-          "Id": "361458916"
-         },
-         {
-          "Id": "506745443"
-         },
-         {
-          "Id": "87198404"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{9BA5A500-913D-4768-9D2F-5188A4C59867}",
-        "Media": [
-         {
-          "Id": "719930065"
-         },
-         {
-          "Id": "854687985"
-         },
-         {
-          "Id": "116961432"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{749251C1-B604-4A51-B0C6-BBADFECC6113}",
-        "Media": [
-         {
-          "Id": "705531483"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{582AA115-3908-4988-A027-4CA5D944777B}",
-        "Media": [
-         {
-          "Id": "232066212"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}",
-        "Media": [
-         {
-          "Id": "701497178"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{26008F53-70C5-4250-94E4-85ADD5226647}",
-        "Media": [
-         {
-          "Id": "222004766"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{9B9060B1-E708-451D-A47A-B7BDBAEB466B}",
-        "Media": [
-         {
-          "Id": "446005177"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{BAC1CACC-E3A0-46E9-A406-125228A7A757}",
-        "Media": [
-         {
-          "Id": "519586556"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{C46FAED0-B41E-4EE9-9947-400381ADF4E9}",
-        "Media": [
-         {
-          "Id": "703188090"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{4C39F64F-8808-49DB-962F-DAE2302BDFB2}",
-        "Media": [
-         {
-          "Id": "535599306"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{48A01FA1-801A-4377-B165-AF9E9E1694BE}",
-        "Media": [
-         {
-          "Id": "797792194"
-         }
-        ]
-       },
        {
         "SwitchValue": "{76359FD8-18FA-4D9C-B17F-EAFD751C4275}",
         "Media": [
@@ -221,58 +98,64 @@
         ]
        },
        {
-        "SwitchValue": "{749251C1-B604-4A51-B0C6-BBADFECC6113}",
-        "Media": [
+        "SwitchValue": "{48A01FA1-801A-4377-B165-AF9E9E1694BE}",
+        "DefaultSwitchValue": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}",
+        "Children": [
          {
-          "Id": "235545300"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{582AA115-3908-4988-A027-4CA5D944777B}",
-        "Media": [
+          "SwitchValue": "{749251C1-B604-4A51-B0C6-BBADFECC6113}",
+          "Media": [
+           {
+            "Id": "235545300"
+           }
+          ]
+         },
          {
-          "Id": "43230357"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}",
-        "Media": [
+          "SwitchValue": "{582AA115-3908-4988-A027-4CA5D944777B}",
+          "Media": [
+           {
+            "Id": "43230357"
+           }
+          ]
+         },
          {
-          "Id": "265675621"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{26008F53-70C5-4250-94E4-85ADD5226647}",
-        "Media": [
+          "SwitchValue": "{E69716C4-CC1E-4C82-93F1-E0FFD5C22D0A}",
+          "Media": [
+           {
+            "Id": "265675621"
+           }
+          ]
+         },
          {
-          "Id": "584267432"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{9B9060B1-E708-451D-A47A-B7BDBAEB466B}",
-        "Media": [
+          "SwitchValue": "{26008F53-70C5-4250-94E4-85ADD5226647}",
+          "Media": [
+           {
+            "Id": "584267432"
+           }
+          ]
+         },
          {
-          "Id": "574786028"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{BAC1CACC-E3A0-46E9-A406-125228A7A757}",
-        "Media": [
+          "SwitchValue": "{9B9060B1-E708-451D-A47A-B7BDBAEB466B}",
+          "Media": [
+           {
+            "Id": "574786028"
+           }
+          ]
+         },
          {
-          "Id": "1047376910"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{C46FAED0-B41E-4EE9-9947-400381ADF4E9}",
-        "Media": [
+          "SwitchValue": "{BAC1CACC-E3A0-46E9-A406-125228A7A757}",
+          "Media": [
+           {
+            "Id": "1047376910"
+           }
+          ]
+         },
          {
-          "Id": "218005042"
+          "SwitchValue": "{C46FAED0-B41E-4EE9-9947-400381ADF4E9}",
+          "Media": [
+           {
+            "Id": "218005042"
+           }
+          ]
          }
         ]
        }
@@ -393,6 +276,12 @@
         "Name": "Water",
         "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Water",
         "GUID": "{BAC1CACC-E3A0-46E9-A406-125228A7A757}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player\\FTPS_Ground_Texture\\Metal",
+        "GUID": "{F3EDFA9D-FC6F-4185-B4CE-37A2EF72FF77}"
        }
       ]
      }

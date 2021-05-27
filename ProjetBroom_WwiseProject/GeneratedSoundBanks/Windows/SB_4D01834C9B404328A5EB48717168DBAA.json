@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3414257725",
+    "GUID": "{CB81703D-703D-103D-3D3D-3D3D3D3D3D3D}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_4D01834C9B404328A5EB48717168DBAA",
+    "ShortName": "SB_4D01834C9B404328A5EB48717168DBAA",
+    "Path": "SB_4D01834C9B404328A5EB48717168DBAA.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "885461184",
+      "Name": "Event_Torturetool_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Event_Torturetool_RND",
+      "GUID": "{4D01834C-9B40-4328-A5EB-48717168DBAA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.604172",
+      "DurationMax": "0.751513",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "25950749",
+        "Language": "SFX",
+        "ShortName": "TortureTool_Theo_OS_01.wav",
+        "Path": "SFX\\TortureTool_Theo_OS_01_F5BA95B8.wem"
+       },
+       {
+        "Id": "126854528",
+        "Language": "SFX",
+        "ShortName": "TortureTool_Theo_OS_02.wav",
+        "Path": "SFX\\TortureTool_Theo_OS_02_1BC06EC5.wem"
+       },
+       {
+        "Id": "644787260",
+        "Language": "SFX",
+        "ShortName": "TortureTool_Theo_OS_03.wav",
+        "Path": "SFX\\TortureTool_Theo_OS_03_82105406.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

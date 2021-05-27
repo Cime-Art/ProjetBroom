@@ -1,0 +1,58 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2487485012",
+    "GUID": "{94440254-0254-1254-5454-545454545454}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_2C81A41A6FFA486D8D2AD885735521F6",
+    "ShortName": "SB_2C81A41A6FFA486D8D2AD885735521F6",
+    "Path": "SB_2C81A41A6FFA486D8D2AD885735521F6.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "725043754",
+      "Name": "Event_LavaPlatform_Submerge",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Hell\\LavaPlatform\\Event_LavaPlatform_Submerge",
+      "GUID": "{2C81A41A-6FFA-486D-8D2A-D885735521F6}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.500000",
+      "DurationMax": "3.500000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "104174538",
+        "Language": "SFX",
+        "ShortName": "AMB_OS_LavaPlatform_Submerge_RomainH_V1.wav",
+        "Path": "SFX\\AMB_OS_LavaPlatform_Submerge_RomainH_V1_4A67AB6A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

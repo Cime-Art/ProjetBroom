@@ -1,0 +1,129 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2896067227",
+    "GUID": "{AC9E7A9B-7A9B-1A9B-9B9B-9B9B9B9B9B9B}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_D11C279B18144EFD8F9D80F22E79137C",
+    "ShortName": "SB_D11C279B18144EFD8F9D80F22E79137C",
+    "Path": "SB_D11C279B18144EFD8F9D80F22E79137C.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "551163394",
+      "Name": "Event_LoudScream_Tuto",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level\\Tuto\\Event_LoudScream_Tuto",
+      "GUID": "{D11C279B-1814-4EFD-8F9D-80F22E79137C}",
+      "MaxAttenuation": "3500.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "141710724",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_LoudScream _02.wav",
+        "Path": "SFX\\Amb_OS_LoudScream _02_AA27FEB3.wem"
+       },
+       {
+        "Id": "209811560",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_LoudScream _12.wav",
+        "Path": "SFX\\Amb_OS_LoudScream _12_83F74C2E.wem"
+       },
+       {
+        "Id": "258094410",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_LoudScream _08.wav",
+        "Path": "SFX\\Amb_OS_LoudScream _08_6FE7C0F7.wem"
+       },
+       {
+        "Id": "268300467",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_LoudScream _06.wav",
+        "Path": "SFX\\Amb_OS_LoudScream _06_7E54C2EA.wem"
+       },
+       {
+        "Id": "315379876",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_LoudScream _05.wav",
+        "Path": "SFX\\Amb_OS_LoudScream _05_2BBC9635.wem"
+       },
+       {
+        "Id": "382280386",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_LoudScream _09.wav",
+        "Path": "SFX\\Amb_OS_LoudScream _09_72B46CFA.wem"
+       },
+       {
+        "Id": "415960007",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_LoudScream _11.wav",
+        "Path": "SFX\\Amb_OS_LoudScream _11_7C652D8B.wem"
+       },
+       {
+        "Id": "468856394",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_LoudScream _03.wav",
+        "Path": "SFX\\Amb_OS_LoudScream _03_E6057FDF.wem"
+       },
+       {
+        "Id": "526806339",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_LoudScream _07.wav",
+        "Path": "SFX\\Amb_OS_LoudScream _07_61930440.wem"
+       },
+       {
+        "Id": "695790342",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_LoudScream _10.wav",
+        "Path": "SFX\\Amb_OS_LoudScream _10_B9DC7C7C.wem"
+       },
+       {
+        "Id": "840104516",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_LoudScream _01.wav",
+        "Path": "SFX\\Amb_OS_LoudScream _01_9B0EA36D.wem"
+       },
+       {
+        "Id": "1031445948",
+        "Language": "SFX",
+        "ShortName": "Amb_OS_LoudScream _04.wav",
+        "Path": "SFX\\Amb_OS_LoudScream _04_FD5B24C2.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "335668392",
+        "Name": "Reveb_Jail",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Jail_Rev\\Reveb_Jail",
+        "GUID": "{3543D160-D4C6-4E60-A2E8-FFC700AEAE27}"
+       },
+       {
+        "Id": "3639771593",
+        "Name": "Aux_Reverb_Out",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_Out",
+        "GUID": "{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}"
+       },
+       {
+        "Id": "4017534918",
+        "Name": "Aux_Reverb_In",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Bus_Tuto_Rev\\Aux_Reverb_In",
+        "GUID": "{7E302D24-3F91-4EDE-848E-FBDE705BFE57}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
