@@ -14,3 +14,6 @@ Custom State	ID	Name	State Group	Owner		Notes
 	830573647	In_Kitchen	State_Gate	\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\General_Amb_Mix\Tuto\General_Tuto_Mix\Garden\AMB_Garden_Mix\Wind\Wind_Loop		
 	847184870	In_Barn	State_Gate	\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\General_Amb_Mix\Tuto\General_Tuto_Mix\Garden\AMB_Garden_Mix\Wind\Wind_Loop		
 
+Effect plug-ins	ID	Name	Type				Notes
+	259813508	Wwise_Gain_(Custom)	Wwise Gain			
+

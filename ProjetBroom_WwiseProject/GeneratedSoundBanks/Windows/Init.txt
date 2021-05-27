@@ -113,6 +113,8 @@ State	ID	Name	State Group			Notes
 Custom State	ID	Name	State Group	Owner		Notes
 	110557687	In_Barn	State_Gate	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Bus_Tuto_Rev\Aux_Reverb_Out		
 	328018132	Out	State_Gate	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Bus_Tuto_Rev\Aux_Reverb_In		
+	647992675	Off	Menu_Pause_State	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
+	760824956	Off	Menu_Pause_State	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1130989983	SFX_Volume_GP			\Default Work Unit\Option\SFX_Volume_GP	

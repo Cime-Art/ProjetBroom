@@ -14,6 +14,9 @@ Custom State	ID	Name	State Group	Owner		Notes
 	63781986	In_Barn	State_Gate	\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\General_Amb_Mix\Tuto\General_Tuto_Mix\Garden\AMB_Garden_Mix\Animals\Animals_Mix		
 	386049026	In_Kitchen	State_Gate	\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\General_Amb_Mix\Tuto\General_Tuto_Mix\Garden\AMB_Garden_Mix\Animals\Animals_Mix		
 
+Effect plug-ins	ID	Name	Type				Notes
+	259813508	Wwise_Gain_(Custom)	Wwise Gain			
+
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	42928060	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\General_Amb_Mix\Tuto\General_Tuto_Mix\Garden\AMB_Garden_Mix\Animals\Animals_Mix\Insects_RND\Silence\Wwise Silence	
 

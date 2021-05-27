@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\",
-   "SourceFilesRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\",
+   "SourceFilesRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Cime ART\\GitHub\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "E:\\github\\ProjetBroom\\ProjetBroom_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -86,6 +86,12 @@
         "Language": "SFX",
         "ShortName": "Bassoons_Bass_01.wav",
         "Path": "SFX\\Bassoons_Bass_01_70232134.wem"
+       },
+       {
+        "Id": "487484988",
+        "Language": "SFX",
+        "ShortName": "MUS_OS_CrashEventStop_01_Dambrosio_V1.wav",
+        "Path": "SFX\\MUS_OS_CrashEventStop_01_Dambrosio_V1_70232134.wem"
        },
        {
         "Id": "568467668",
@@ -172,8 +178,22 @@
         "Name": "RVB_Music_Tuto",
         "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music\\RVB_Music_Tuto",
         "GUID": "{A13212C2-959A-4E4F-886C-ED3485FD6339}"
+       },
+       {
+        "Id": "2957976456",
+        "Name": "RVB_crash_stop",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music\\RVB_crash_stop",
+        "GUID": "{378C0390-8212-4574-A063-4C60DB877840}"
        }
       ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "4003433129",
+      "Name": "Stop_Crash",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\Stop_Crash",
+      "GUID": "{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}"
      }
     ]
    }
