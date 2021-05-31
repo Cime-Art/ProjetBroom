@@ -1,3 +1,14 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2856178705	Menu_Pause_State			\Default Work Unit\Music\Menu_Pause_State	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Menu_Pause_State			
+	930712164	Off	Menu_Pause_State			
+	1651971902	On	Menu_Pause_State			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	760824956	Off	Menu_Pause_State	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1130989983	SFX_Volume_GP			\Default Work Unit\Option\SFX_Volume_GP	
 	3931204830	Master_Volume_GP			\Default Work Unit\Option\Master_Volume_GP	
