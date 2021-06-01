@@ -19584,18 +19584,13 @@
 												<SwitchContainer Name="snail_sw" ID="{9755276C-D2F5-4D9F-BF19-93760A3986D9}" ShortID="1051313732">
 													<PropertyList>
 														<Property Name="SwitchBehavior" Type="int16" Value="1"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-6</Value>
-															</ValueList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 														</Reference>
 														<Reference Name="DefaultSwitchOrState">
-															<ObjectRef Name="snail_idle_state" ID="{0FA01A6A-8402-4707-8D0C-DB4F741AC1D1}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
+															<ObjectRef Name="snail_inactive_state" ID="{C29F46DE-3588-4BCD-AEE3-9C3B3407E892}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
@@ -19607,6 +19602,11 @@
 													<ChildrenList>
 														<RandomSequenceContainer Name="idle_rnd" ID="{BBC6B1AF-4331-4589-84D6-9655FB0EB96F}" ShortID="832494362">
 															<PropertyList>
+																<Property Name="Highpass" Type="int16">
+																	<ValueList>
+																		<Value>27</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 																<Property Name="Pitch" Type="int32">
 																	<ModifierList>
@@ -19638,7 +19638,7 @@
 																<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
-																		<Value>-8</Value>
+																		<Value>-10</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -19985,6 +19985,10 @@
 																				<Property Name="Volume" Type="Real64" Value="-96"/>
 																			</PropertyList>
 																		</CustomState>
+																	</CustomState>
+																	<CustomState>
+																		<StateRef Name="snail_inactive_state" ID="{C29F46DE-3588-4BCD-AEE3-9C3B3407E892}"/>
+																		<CustomState Name="" ID="{FEED740E-58B3-4064-B751-CF29739022BC}" ShortID="631964121"/>
 																	</CustomState>
 																	<CustomState>
 																		<StateRef Name="snail_forward_state" ID="{DDC224E8-4B12-4DFB-B007-7F5676DE062C}"/>
@@ -20507,6 +20511,10 @@
 																		</CustomState>
 																	</CustomState>
 																	<CustomState>
+																		<StateRef Name="snail_inactive_state" ID="{C29F46DE-3588-4BCD-AEE3-9C3B3407E892}"/>
+																		<CustomState Name="" ID="{4A4DB009-F233-4B90-B377-D3565F1F387D}" ShortID="1048344617"/>
+																	</CustomState>
+																	<CustomState>
 																		<StateRef Name="snail_forward_state" ID="{DDC224E8-4B12-4DFB-B007-7F5676DE062C}"/>
 																		<CustomState Name="" ID="{D01E01FD-31D5-4E9C-8ACC-7BE3A302A678}" ShortID="707372707"/>
 																	</CustomState>
@@ -20545,11 +20553,6 @@
 																			</ModifierList>
 																		</Property>
 																		<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-																		<Property Name="Volume" Type="Real64">
-																			<ValueList>
-																				<Value>5</Value>
-																			</ValueList>
-																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
@@ -20624,6 +20627,11 @@
 																		<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																		<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-2</Value>
+																			</ValueList>
+																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
@@ -20783,6 +20791,10 @@
 																				<CustomState Name="" ID="{62B2948A-816D-4760-8A7B-A5B18D37B571}" ShortID="354551222"/>
 																			</CustomState>
 																			<CustomState>
+																				<StateRef Name="snail_inactive_state" ID="{C29F46DE-3588-4BCD-AEE3-9C3B3407E892}"/>
+																				<CustomState Name="" ID="{C0708E32-453B-4347-BF1B-9DA51F630E32}" ShortID="391214394"/>
+																			</CustomState>
+																			<CustomState>
 																				<StateRef Name="snail_forward_state" ID="{DDC224E8-4B12-4DFB-B007-7F5676DE062C}"/>
 																				<CustomState Name="" ID="{7D886B1D-BEE4-4411-B876-859EDCF5CCAE}" ShortID="824813461">
 																					<PropertyList>
@@ -20843,17 +20855,14 @@
 																	<Modifier Name="" ID="{9E67E876-AB48-4827-84C0-D0E5EDD2AD3C}">
 																		<PropertyList>
 																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="0.3"/>
+																			<Property Name="Max" Type="Real64" Value="150"/>
+																			<Property Name="Min" Type="Real64" Value="-100"/>
 																		</PropertyList>
 																	</Modifier>
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
-														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-4</Value>
-															</ValueList>
 															<ModifierList>
 																<ModifierInfo>
 																	<Modifier Name="" ID="{C1E4B2CE-316B-466B-8478-436D824BAA5F}">

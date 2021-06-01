@@ -14,6 +14,10 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Event_Snail_States" ID="{6C6BE9D7-52FF-4EC9-B691-135BA2A8E3B2}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Event_FallingRocks" ID="{A4AAAA6C-6DF0-4BBB-B327-3D094762BBA7}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
 							<Position X="1" Y="1"/>
 						</Module>
@@ -62,8 +66,9 @@
 						<CurrentStateRef Name="None" ID="{76DD572D-951D-4027-93F0-2C3C154AB123}"/>
 						<CurrentStateRef Name="None" ID="{57BBBC35-1BE8-459C-845B-6BCDCF5ADB4F}"/>
 						<CurrentStateRef Name="None" ID="{84F7C088-EADC-42A7-9FC3-4384FBFC1D96}"/>
-						<CurrentStateRef Name="None" ID="{680AFC01-2598-4A67-8ADD-6047F9443835}"/>
+						<CurrentStateRef Name="snail_inactive_state" ID="{C29F46DE-3588-4BCD-AEE3-9C3B3407E892}"/>
 						<CurrentStateRef Name="Exploration" ID="{F4E8D336-C182-4523-A0EE-D4E297EBDD9E}"/>
+						<CurrentStateRef Name="None" ID="{B6BEE669-9401-4B04-A8B0-DBF3EB29A0C7}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Acid" ID="{00E78FF5-D6D0-4078-9C77-03E23FDC4EB4}"/>
