@@ -414,6 +414,32 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Snail" ID="{C92D75BE-05D3-41A6-A90F-EE4BEDD3D9DD}" ShortID="845918154">
+							<ChildrenList>
+								<Event Name="Event_Snail_GetHit" ID="{C84EE36B-EFFE-45BC-ACB7-87E09C42D6B8}">
+									<ChildrenList>
+										<Action Name="" ID="{9441F796-7086-4463-B887-425DD936CA39}" ShortID="1002355791">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="GetHit_blend" ID="{C58DE284-1F14-438D-BE20-B3E29C3A13F2}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_Snail_States" ID="{6C6BE9D7-52FF-4EC9-B691-135BA2A8E3B2}">
+									<ChildrenList>
+										<Action Name="" ID="{C86B2F49-7E97-445C-BFD7-D2BCB744DE3C}" ShortID="870565292">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="snail_sw" ID="{9755276C-D2F5-4D9F-BF19-93760A3986D9}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{E0B7312B-EEF9-4945-A695-D1ABB792191B}" ShortID="611497882">
