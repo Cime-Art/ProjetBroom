@@ -14173,6 +14173,28 @@
 											</ChildrenList>
 										</ActorMixer>
 										<ActorMixer Name="Moving_Wall_Mixer" ID="{FAE92C1B-4FD0-444E-9FEC-64947D30282A}" ShortID="1020769098">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9B9671BC-482F-4101-B33D-7B8A202DD3EB}">
+																<PropertyList>
+																	<Property Name="Min" Type="Real64" Value="-50"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -31172,9 +31194,9 @@
 													<ChildrenList>
 														<AudioFileSource Name="Props_OS_BreakGlass_01_Florent_v1" ID="{344DCCC3-50CE-4D66-9D4F-95BE7D2B9AA2}">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.851746031746032"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.761473696710604"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.761473696710604"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Destructible\Props_OS_BreakGlass_01_Florent_v1.wav</AudioFile>
@@ -31199,9 +31221,9 @@
 													<ChildrenList>
 														<AudioFileSource Name="Props_OS_BreakGlass_02_Florent_v1" ID="{6F0ABD6D-A38F-4425-AF4B-D4BEBCAFC22B}">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.786077097505669"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.717195572610424"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.717195572610424"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Destructible\Props_OS_BreakGlass_02_Florent_v1.wav</AudioFile>
