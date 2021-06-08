@@ -31751,20 +31751,174 @@
 										</Sound>
 									</ChildrenList>
 								</ActorMixer>
-								<SwitchContainer Name="Hell_MagicChest_SWITCH" ID="{988A1D72-F15E-4741-B558-0F21ACD43379}" ShortID="746262568">
+								<ActorMixer Name="MagicChest_AM" ID="{A0057123-3158-4AA0-BD93-2C579E10BA76}" ShortID="764594718">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="MagicChest_Att" ID="{8A83B8B6-A243-422B-9BF6-D2B06ECE2A9F}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Hell_MagicChest_SwitchGroup" ID="{26521612-A04F-4629-ABF7-E48199EA8132}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
-										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Hell_MagicChest_Helmet_SFX" ID="{DBAC9660-CEFB-4B30-BF5E-BEBF35F1E488}" ShortID="980688679">
+										<SwitchContainer Name="Hell_MagicChest_SWITCH" ID="{988A1D72-F15E-4741-B558-0F21ACD43379}" ShortID="746262568">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="Hell_MagicChest_SwitchGroup" ID="{26521612-A04F-4629-ABF7-E48199EA8132}" WorkUnitID="{900B4E28-F9F5-461D-9A05-6EAE0178AC79}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Hell_MagicChest_Helmet_SFX" ID="{DBAC9660-CEFB-4B30-BF5E-BEBF35F1E488}" ShortID="980688679">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hell_OS_MagicChestOpen_Helmet_Sabarros_v1" ID="{FB97EC50-AEBE-4011-BB4D-6EDAAF4B7043}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0393314102391287"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.327761751992739"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.471976922869544"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Props\Hell_OS_MagicChestOpen_Helmet_Sabarros_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="581823869"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hell_OS_MagicChestOpen_Helmet_Sabarros_v1" ID="{FB97EC50-AEBE-4011-BB4D-6EDAAF4B7043}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hell_MagicChest_Body_SFX" ID="{4E329432-2B59-495A-BBE0-BAFB488FAD1F}" ShortID="456329120">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hell_OS_MagicChestOpen_Broom_Sabarros_v1" ID="{6FB4A545-EEF5-4695-88F9-4E8FBAC8B234}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0655523503985478"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.544215170876805"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Props\Hell_OS_MagicChestOpen_Broom_Sabarros_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="264483659"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hell_OS_MagicChestOpen_Broom_Sabarros_v1" ID="{6FB4A545-EEF5-4695-88F9-4E8FBAC8B234}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hell_MagicChest_Broom_SFX" ID="{95DBF091-D235-4238-B921-61FA65FB7985}" ShortID="191263655">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hell_OS_MagicChestOpen_Broom_Sabarros_v1" ID="{1D8B9845-0338-4639-A271-CAE6AA31A7B9}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0655523503985478"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.393314102391287"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.54"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.17928899432957"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Props\Hell_OS_MagicChestOpen_Broom_Sabarros_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="141964107"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hell_OS_MagicChestOpen_Broom_Sabarros_v1" ID="{1D8B9845-0338-4639-A271-CAE6AA31A7B9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Hell_MagicChest_Body_SFX" ID="{4E329432-2B59-495A-BBE0-BAFB488FAD1F}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Hell_MagicChest_Helmet_SFX" ID="{DBAC9660-CEFB-4B30-BF5E-BEBF35F1E488}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Hell_MagicChest_Broom_SFX" ID="{95DBF091-D235-4238-B921-61FA65FB7985}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="MagicChest_Body" ID="{9A54D802-8F19-4FB9-9F09-2DD4314689B0}"/>
+														<ItemList>
+															<ItemRef Name="Hell_MagicChest_Body_SFX" ID="{4E329432-2B59-495A-BBE0-BAFB488FAD1F}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="MagicChest_Helmet" ID="{01AB9C31-0156-4481-8043-EC0B644194E0}"/>
+														<ItemList>
+															<ItemRef Name="Hell_MagicChest_Helmet_SFX" ID="{DBAC9660-CEFB-4B30-BF5E-BEBF35F1E488}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="MagicChest_Broom" ID="{205FDDDF-2BA5-458F-89CE-A16E90071AEA}"/>
+														<ItemList>
+															<ItemRef Name="Hell_MagicChest_Broom_SFX" ID="{95DBF091-D235-4238-B921-61FA65FB7985}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+										<Sound Name="Hell_LP_MagicChestIdle_01_Sabarros_v1" ID="{534278B5-AFE4-4E02-869A-B2725161E35D}" ShortID="56094292">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-22</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -31774,25 +31928,26 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Hell_OS_MagicChestOpen_Helmet_Sabarros_v1" ID="{FB97EC50-AEBE-4011-BB4D-6EDAAF4B7043}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0393314102391287"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.327761751992739"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.471976922869544"/>
-													</PropertyList>
+												<AudioFileSource Name="Hell_LP_MagicChestIdle_01_Sabarros_v1" ID="{273C361D-1A3C-41A0-8FA7-DD2AED0F9692}">
 													<Language>SFX</Language>
-													<AudioFile>Props\Hell_OS_MagicChestOpen_Helmet_Sabarros_v1.wav</AudioFile>
+													<AudioFile>Props\Hell_LP_MagicChestIdle_01_Sabarros_v1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="581823869"/>
+														<MediaID ID="242813576"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Hell_OS_MagicChestOpen_Helmet_Sabarros_v1" ID="{FB97EC50-AEBE-4011-BB4D-6EDAAF4B7043}" Platform="Linked"/>
+												<ActiveSource Name="Hell_LP_MagicChestIdle_01_Sabarros_v1" ID="{273C361D-1A3C-41A0-8FA7-DD2AED0F9692}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Hell_MagicChest_Body_SFX" ID="{4E329432-2B59-495A-BBE0-BAFB488FAD1F}" ShortID="456329120">
+										<Sound Name="Hell_OS_MagicChestOpen_01_Sabarros_v2" ID="{C2EFA6E7-F6D5-46EB-AF85-DF41837170A0}" ShortID="273323212">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -31802,24 +31957,26 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Hell_OS_MagicChestOpen_Broom_Sabarros_v1" ID="{6FB4A545-EEF5-4695-88F9-4E8FBAC8B234}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0655523503985478"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.544215170876805"/>
-													</PropertyList>
+												<AudioFileSource Name="Hell_OS_MagicChestOpen_01_Sabarros_v2" ID="{907575DA-FCDE-4107-B2E6-D459DA1C156B}">
 													<Language>SFX</Language>
-													<AudioFile>Props\Hell_OS_MagicChestOpen_Broom_Sabarros_v1.wav</AudioFile>
+													<AudioFile>Props\Hell_OS_MagicChestOpen_01_Sabarros_v2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="264483659"/>
+														<MediaID ID="576468278"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Hell_OS_MagicChestOpen_Broom_Sabarros_v1" ID="{6FB4A545-EEF5-4695-88F9-4E8FBAC8B234}" Platform="Linked"/>
+												<ActiveSource Name="Hell_OS_MagicChestOpen_01_Sabarros_v2" ID="{907575DA-FCDE-4107-B2E6-D459DA1C156B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Hell_MagicChest_Broom_SFX" ID="{95DBF091-D235-4238-B921-61FA65FB7985}" ShortID="191263655">
+										<Sound Name="Hell_OS_MagicChestPickup_01_Sabarros_v1" ID="{3EE698F2-BEA2-449B-A26E-15265CFE52FB}" ShortID="924042404">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -31829,60 +31986,20 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Hell_OS_MagicChestOpen_Broom_Sabarros_v1" ID="{1D8B9845-0338-4639-A271-CAE6AA31A7B9}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0655523503985478"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.393314102391287"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.54"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.17928899432957"/>
-													</PropertyList>
+												<AudioFileSource Name="Hell_OS_MagicChestPickup_01_Sabarros_v1" ID="{5C87A6A1-64C0-474B-8EC5-B862B2CD9012}">
 													<Language>SFX</Language>
-													<AudioFile>Props\Hell_OS_MagicChestOpen_Broom_Sabarros_v1.wav</AudioFile>
+													<AudioFile>Props\Hell_OS_MagicChestPickup_01_Sabarros_v1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="141964107"/>
+														<MediaID ID="992474973"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Hell_OS_MagicChestOpen_Broom_Sabarros_v1" ID="{1D8B9845-0338-4639-A271-CAE6AA31A7B9}" Platform="Linked"/>
+												<ActiveSource Name="Hell_OS_MagicChestPickup_01_Sabarros_v1" ID="{5C87A6A1-64C0-474B-8EC5-B862B2CD9012}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<GroupingInfo>
-										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="Hell_MagicChest_Body_SFX" ID="{4E329432-2B59-495A-BBE0-BAFB488FAD1F}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="Hell_MagicChest_Helmet_SFX" ID="{DBAC9660-CEFB-4B30-BF5E-BEBF35F1E488}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="Hell_MagicChest_Broom_SFX" ID="{95DBF091-D235-4238-B921-61FA65FB7985}"/>
-											</GroupingBehavior>
-										</GroupingBehaviorList>
-										<GroupingList>
-											<Grouping>
-												<SwitchRef Name="MagicChest_Body" ID="{9A54D802-8F19-4FB9-9F09-2DD4314689B0}"/>
-												<ItemList>
-													<ItemRef Name="Hell_MagicChest_Body_SFX" ID="{4E329432-2B59-495A-BBE0-BAFB488FAD1F}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="MagicChest_Helmet" ID="{01AB9C31-0156-4481-8043-EC0B644194E0}"/>
-												<ItemList>
-													<ItemRef Name="Hell_MagicChest_Helmet_SFX" ID="{DBAC9660-CEFB-4B30-BF5E-BEBF35F1E488}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="MagicChest_Broom" ID="{205FDDDF-2BA5-458F-89CE-A16E90071AEA}"/>
-												<ItemList>
-													<ItemRef Name="Hell_MagicChest_Broom_SFX" ID="{95DBF091-D235-4238-B921-61FA65FB7985}"/>
-												</ItemList>
-											</Grouping>
-										</GroupingList>
-									</GroupingInfo>
-								</SwitchContainer>
+								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
