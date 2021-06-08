@@ -2251,6 +2251,39 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Hell_OS_MagicChestOpen_01_Sabarros_v2" ID="{97E5D9D4-02A1-45BF-9D2E-A20FF3B0BC68}">
+					<ChildrenList>
+						<Action Name="" ID="{D4F97BD1-B707-4128-B899-FD4766A9EFCE}" ShortID="355910760">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hell_OS_MagicChestOpen_01_Sabarros_v2" ID="{C2EFA6E7-F6D5-46EB-AF85-DF41837170A0}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hell_LP_MagicChestIdle_01_Sabarros_v1" ID="{6A481C85-F67C-449C-A21F-8EB7A194F290}">
+					<ChildrenList>
+						<Action Name="" ID="{4F47D2CD-2BCD-428B-8F87-8027429A6F50}" ShortID="197377509">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hell_LP_MagicChestIdle_01_Sabarros_v1" ID="{534278B5-AFE4-4E02-869A-B2725161E35D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hell_OS_MagicChestPickup_01_Sabarros_v1" ID="{6C6FA534-66D2-45A0-9F41-81A47246A35D}">
+					<ChildrenList>
+						<Action Name="" ID="{6B7095AE-369B-4142-82D3-0F80F9FC1134}" ShortID="73550914">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hell_OS_MagicChestPickup_01_Sabarros_v1" ID="{3EE698F2-BEA2-449B-A26E-15265CFE52FB}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
