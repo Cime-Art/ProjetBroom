@@ -30633,6 +30633,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<ActorMixer Name="Destructibles_AM" ID="{CAAF5A1C-2599-4BC6-BE8B-9429C759AC27}" ShortID="219416484">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -31749,6 +31756,47 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<Sound Name="BreakStoneWall_SFX" ID="{5378E2E8-F0F8-43F1-A49F-12B410360C78}" ShortID="1020249969">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>19</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B3AE58C1-9FC3-413E-A6BE-13AD8B5B2B00}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Props_OS_BreakStoneWall_01_Florent_v1" ID="{0D049F06-FE2E-4DA1-8DD4-07ADF85C3883}">
+													<Language>SFX</Language>
+													<AudioFile>Destructible\Props_OS_BreakStoneWall_01_Florent_v1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="325578802"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Props_OS_BreakStoneWall_01_Florent_v1" ID="{0D049F06-FE2E-4DA1-8DD4-07ADF85C3883}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</ActorMixer>
 								<ActorMixer Name="Refills_AM" ID="{2706BF44-A4DD-4119-AA83-6218E910CB7D}" ShortID="130872578">

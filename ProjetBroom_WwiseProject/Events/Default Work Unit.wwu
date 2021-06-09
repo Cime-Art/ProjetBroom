@@ -2245,6 +2245,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Event_BreakStoneWall" ID="{B7559B3B-6A2B-4F2D-937C-2B3BC014D39B}">
+							<ChildrenList>
+								<Action Name="" ID="{04646170-F974-492C-8FBC-5552A5768726}" ShortID="270985453">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakStoneWall_SFX" ID="{5378E2E8-F0F8-43F1-A49F-12B410360C78}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{B37D3109-6ACF-4282-B02F-A65CE3CB8052}" ShortID="330638814">
