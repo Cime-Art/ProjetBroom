@@ -24,6 +24,13 @@
 								<Folder Name="Tuto" ID="{1AF78D00-D280-44DA-8AAE-DC3B8B2B1079}" ShortID="694963355">
 									<ChildrenList>
 										<ActorMixer Name="General_Tuto_Mix" ID="{B418F7F8-EB92-41BA-959B-BD28B429F673}" ShortID="271348100">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -24174,6 +24181,11 @@
 														<Value>-21</Value>
 													</ValueList>
 												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6.5</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -24733,7 +24745,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-10</Value>
+														<Value>-12</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -31976,15 +31988,10 @@
 												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="Highpass" Type="int16">
 													<ValueList>
-														<Value>9</Value>
+														<Value>11</Value>
 													</ValueList>
 												</Property>
 												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-												<Property Name="Lowpass" Type="int16">
-													<ValueList>
-														<Value>12</Value>
-													</ValueList>
-												</Property>
 												<Property Name="MaxSoundPerInstance" Type="int16">
 													<ValueList>
 														<Value>3</Value>
@@ -32000,8 +32007,8 @@
 															<Modifier Name="" ID="{916C45E1-2D59-47BF-A9AA-BA835920D336}">
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="200"/>
-																	<Property Name="Min" Type="Real64" Value="-200"/>
+																	<Property Name="Max" Type="Real64" Value="227"/>
+																	<Property Name="Min" Type="Real64" Value="-101"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
