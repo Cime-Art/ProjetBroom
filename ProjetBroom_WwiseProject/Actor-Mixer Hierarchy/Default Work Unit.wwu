@@ -21728,6 +21728,96 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="OS_MOB_AlambicMovingForward_01_DELIVERT_V4" ID="{5511ACBD-70D1-4AFC-BA93-0F4CF44C00FC}" ShortID="451772107">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_MOB_AlambicMovingForward_01_DELIVERT_V4" ID="{AE2AFFC6-0956-4534-BAA7-86B10B6294C2}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_MOB_AlambicMovingForward_01_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="501589100"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_MOB_AlambicMovingForward_01_DELIVERT_V4" ID="{AE2AFFC6-0956-4534-BAA7-86B10B6294C2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_MOB_AlambicMovingForward_02_DELIVERT_V4" ID="{F846E30F-8010-4587-A2F5-5BE5BD0731B3}" ShortID="319032698">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_MOB_AlambicMovingForward_02_DELIVERT_V4" ID="{ED8FB84D-C0D4-4776-99AE-0CFF5FD6B132}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_MOB_AlambicMovingForward_02_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="913517610"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_MOB_AlambicMovingForward_02_DELIVERT_V4" ID="{ED8FB84D-C0D4-4776-99AE-0CFF5FD6B132}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_MOB_AlambicMovingForward_03_DELIVERT_V4" ID="{59EA4692-4214-48D7-80C6-57C557A8F6E1}" ShortID="359931569">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_MOB_AlambicMovingForward_03_DELIVERT_V4" ID="{5C174D2C-B5BD-4F0D-A32F-610E41E1FC63}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_MOB_AlambicMovingForward_03_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="459678204"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_MOB_AlambicMovingForward_03_DELIVERT_V4" ID="{5C174D2C-B5BD-4F0D-A32F-610E41E1FC63}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_MOB_AlambicMovingForward_04_DELIVERT_V4" ID="{1DFCD4DD-CCD6-490B-ABE4-E7413DC2A43A}" ShortID="167087267">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_MOB_AlambicMovingForward_04_DELIVERT_V4" ID="{9D228637-7E4C-4A04-91BE-C08C510125F7}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_MOB_AlambicMovingForward_04_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="81915787"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_MOB_AlambicMovingForward_04_DELIVERT_V4" ID="{9D228637-7E4C-4A04-91BE-C08C510125F7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="AlambicHitplayer" ID="{07FD025E-0CE0-4369-8924-7F334F0F7897}" ShortID="582163515">
 													<ReferenceList>
@@ -21741,6 +21831,7 @@
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="AlambicGethit" ID="{1A7C9F87-36EC-4C0D-950C-DEA3C190D6E3}" ShortID="264231021">
 													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 														<Property Name="Pitch" Type="int32">
 															<ModifierList>
 																<ModifierInfo>
@@ -21763,6 +21854,74 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="OS_MOB_AlambicGetHit_01_DELIVERT_V3" ID="{8E1B57E2-EE8D-4BF0-AEDB-38131DBA61FC}" ShortID="985895973">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_MOB_AlambicGetHit_01_DELIVERT_V3" ID="{F995FB4F-3DE2-46A3-91FB-BCD97388773F}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_MOB_AlambicGetHit_01_DELIVERT_V3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="287588459"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_MOB_AlambicGetHit_01_DELIVERT_V3" ID="{F995FB4F-3DE2-46A3-91FB-BCD97388773F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_MOB_AlambicGetHit_02_DELIVERT_V3" ID="{0B18C259-39AE-435A-AE19-D94B785B0649}" ShortID="928435471">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_MOB_AlambicGetHit_02_DELIVERT_V3" ID="{06F9E4A9-1FC3-421B-9554-C1F7485C344D}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_MOB_AlambicGetHit_02_DELIVERT_V3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="685172679"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_MOB_AlambicGetHit_02_DELIVERT_V3" ID="{06F9E4A9-1FC3-421B-9554-C1F7485C344D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_MOB_AlambicGetHit_03_DELIVERT_V3" ID="{265D0971-FE6B-43C3-972A-8182284C6EE6}" ShortID="424954221">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_MOB_AlambicGetHit_03_DELIVERT_V3" ID="{D5C3C242-BA8A-4841-BF2A-B10F586DD919}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_MOB_AlambicGetHit_03_DELIVERT_V3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="167208954"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_MOB_AlambicGetHit_03_DELIVERT_V3" ID="{D5C3C242-BA8A-4841-BF2A-B10F586DD919}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="AlambicPoppingsmoke" ID="{144DD922-B0A1-4F2D-A1D6-016D2C226459}" ShortID="710432582">
 													<PropertyList>
@@ -21788,9 +21947,34 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="OS_MOB_AlambicPoppingSmoke_DELIVERT_V4" ID="{4BD66F4B-AEC8-4AAC-8B22-3913ACAB2435}" ShortID="525880011">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_MOB_AlambicPoppingSmoke_DELIVERT_V4" ID="{99C4820A-A13D-4AB8-9439-E6952DC7E258}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_MOB_AlambicPoppingSmoke_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="661644386"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_MOB_AlambicPoppingSmoke_DELIVERT_V4" ID="{99C4820A-A13D-4AB8-9439-E6952DC7E258}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="AlambicDeath" ID="{A2022FB6-AD11-41A2-A4ED-02FD4D0C7D1B}" ShortID="650646622">
 													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 														<Property Name="Pitch" Type="int32">
 															<ModifierList>
 																<ModifierInfo>
@@ -21813,8 +21997,35 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="OS_MOB_AlambicDeath_DELIVERT_V4" ID="{519B0636-BAC4-42F2-BD33-6EE92FBCE76D}" ShortID="612247355">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_MOB_AlambicDeath_DELIVERT_V4" ID="{389DC817-2B83-41DA-9C6E-3761ECE51229}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_MOB_AlambicDeath_DELIVERT_V4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="974056005"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_MOB_AlambicDeath_DELIVERT_V4" ID="{389DC817-2B83-41DA-9C6E-3761ECE51229}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<BlendContainer Name="AlambicIdle" ID="{E6903C66-01F4-4858-901E-FDE1EC60C5E2}" ShortID="966916410">
+													<PropertyList>
+														<Property Name="BlendBehavior" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -21825,6 +22036,9 @@
 													</ReferenceList>
 													<ChildrenList>
 														<Sound Name="AlambicIdleStand" ID="{D40AD388-6E00-4E26-90D8-E3D8CFA9DADA}" ShortID="246508321">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -21833,8 +22047,52 @@
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="LP_MOB_AlambicIdle_DELIVERT_V3" ID="{C14F0FDF-1E94-442E-A8FB-4480311F2B8F}">
+																	<Language>SFX</Language>
+																	<AudioFile>LP_MOB_AlambicIdle_DELIVERT_V3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="723233961"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="LP_MOB_AlambicIdle_DELIVERT_V3" ID="{C14F0FDF-1E94-442E-A8FB-4480311F2B8F}" Platform="Linked"/>
+															</ActiveSourceList>
 														</Sound>
 														<RandomSequenceContainer Name="AlambicIdleSmoke" ID="{A383F900-8414-415F-80A0-F97F7C4C02F6}" ShortID="1067170772">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{E7A9427E-D619-44B1-975E-C6C3E45519A2}">
+																				<PropertyList>
+																					<Property Name="Max" Type="Real64" Value="6"/>
+																					<Property Name="Min" Type="Real64" Value="-9"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{F44637FA-3FB0-4C0E-8DAB-12F3580CB3BF}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="7"/>
+																					<Property Name="Min" Type="Real64" Value="-4"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -21843,16 +22101,74 @@
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 																</Reference>
 															</ReferenceList>
-														</RandomSequenceContainer>
-														<RandomSequenceContainer Name="AlambicIdleVoice" ID="{63AF08B0-5B0A-4C02-9D78-6E70F0705F2A}" ShortID="67065614">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="OS_MOB_AlambicIdleSmoke_01_DELIVERT_V3" ID="{9966817B-76F4-4C9B-BF87-F6F2B80AA902}" ShortID="235772285">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="OS_MOB_AlambicIdleSmoke_01_DELIVERT_V3" ID="{064160E1-1AA1-4934-AC46-FD471F4BEB1A}">
+																			<Language>SFX</Language>
+																			<AudioFile>OS_MOB_AlambicIdleSmoke_01_DELIVERT_V3.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="264351187"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="OS_MOB_AlambicIdleSmoke_01_DELIVERT_V3" ID="{064160E1-1AA1-4934-AC46-FD471F4BEB1A}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="OS_MOB_AlambicIdleSmoke_02_DELIVERT_V3" ID="{B13C1389-9F59-475C-800C-7A3D3D9A4016}" ShortID="271115305">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="OS_MOB_AlambicIdleSmoke_02_DELIVERT_V3" ID="{46D23E6E-AF9D-4CAB-9DEA-4F931467D938}">
+																			<Language>SFX</Language>
+																			<AudioFile>OS_MOB_AlambicIdleSmoke_02_DELIVERT_V3.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="751911059"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="OS_MOB_AlambicIdleSmoke_02_DELIVERT_V3" ID="{46D23E6E-AF9D-4CAB-9DEA-4F931467D938}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="OS_MOB_AlambicIdleSmoke_03_DELIVERT_V3" ID="{52FF20BA-6961-4621-A6A3-2D7368120009}" ShortID="908101786">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="OS_MOB_AlambicIdleSmoke_03_DELIVERT_V3" ID="{A8711C24-4464-42FD-B8A7-2F14BB813ACA}">
+																			<Language>SFX</Language>
+																			<AudioFile>OS_MOB_AlambicIdleSmoke_03_DELIVERT_V3.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="321784494"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="OS_MOB_AlambicIdleSmoke_03_DELIVERT_V3" ID="{A8711C24-4464-42FD-B8A7-2F14BB813ACA}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
 														</RandomSequenceContainer>
 													</ChildrenList>
 												</BlendContainer>
