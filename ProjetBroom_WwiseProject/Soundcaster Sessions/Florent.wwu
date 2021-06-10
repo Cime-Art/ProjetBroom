@@ -21,10 +21,6 @@
 							<ObjectRef Name="Event_FallingRocks" ID="{A4AAAA6C-6DF0-4BBB-B327-3D094762BBA7}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
 							<Position X="1" Y="1"/>
 						</Module>
-						<Module>
-							<ObjectRef Name="Event_Hell_MagicChest" ID="{7F0F9BEA-1271-4B83-9D03-4F7942BAC7A5}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
-							<Position X="2" Y="1"/>
-						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
