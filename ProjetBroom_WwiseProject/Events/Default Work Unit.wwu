@@ -440,6 +440,65 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Alambic" ID="{1583FFDC-3DD4-4566-8BDB-D09CA9D7703A}" ShortID="339858976">
+							<ChildrenList>
+								<Event Name="AlambicDeath" ID="{6E9BEAF6-068D-42EB-8069-82927828D4DC}">
+									<ChildrenList>
+										<Action Name="" ID="{B824AD71-541A-4612-9F58-E4E694A841AE}" ShortID="78275441">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AlambicDeath" ID="{A2022FB6-AD11-41A2-A4ED-02FD4D0C7D1B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="AlambicGethit" ID="{C1DFEDD3-F0DD-40E4-964D-D02930F1DF03}">
+									<ChildrenList>
+										<Action Name="" ID="{B1B4005C-A2CA-4126-AFFD-3D9FD8651012}" ShortID="615217264">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AlambicGethit" ID="{1A7C9F87-36EC-4C0D-950C-DEA3C190D6E3}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="AlambicJumpingfoward" ID="{066996D2-EF73-4C93-AC29-8D637BB09F6D}">
+									<ChildrenList>
+										<Action Name="" ID="{D8184FF4-1490-4DA8-BC29-699E5A516442}" ShortID="377682878">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AlambicJumpingfoward" ID="{8A5A44EF-909D-468F-B62B-B4DD5BD14850}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="AlambicPoppingsmoke" ID="{EACA7712-0CCC-4906-88E5-60C5281FA000}">
+									<ChildrenList>
+										<Action Name="" ID="{88B6D17C-C071-4D92-A93F-B7C3B9BB98D6}" ShortID="919576406">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AlambicPoppingsmoke" ID="{144DD922-B0A1-4F2D-A1D6-016D2C226459}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="AlambicIdle" ID="{7C8A4F64-F683-4C42-85BE-275E360DB067}">
+									<ChildrenList>
+										<Action Name="" ID="{15E5DBD3-91ED-4E0B-B6C4-7BA3A84F0C58}" ShortID="352620180">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AlambicIdle" ID="{E6903C66-01F4-4858-901E-FDE1EC60C5E2}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{E0B7312B-EEF9-4945-A695-D1ABB792191B}" ShortID="611497882">
