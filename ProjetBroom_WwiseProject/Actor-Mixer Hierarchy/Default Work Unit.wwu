@@ -21702,7 +21702,14 @@
 								<Folder Name="Alambic" ID="{74CDA0CB-B4C1-4A0F-B90D-460ACBD108AC}" ShortID="846749898">
 									<ChildrenList>
 										<ActorMixer Name="AlambicMixer" ID="{58439F01-DE31-48F5-8A17-CADDBA386924}" ShortID="24978027">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Alambic_Att" ID="{968E3426-0AB3-499F-A58E-30512293A202}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 												</Reference>
