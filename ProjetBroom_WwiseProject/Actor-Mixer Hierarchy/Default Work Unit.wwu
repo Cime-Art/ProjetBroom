@@ -32047,103 +32047,6 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="BreakWoodenWall_RND" ID="{8E5DFBB7-E5FC-4A16-A6AD-30C638104A22}" ShortID="785682516">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="2"/>
-												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
-												<Property Name="Highpass" Type="int16">
-													<ValueList>
-														<Value>11</Value>
-													</ValueList>
-												</Property>
-												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-												<Property Name="MaxSoundPerInstance" Type="int16">
-													<ValueList>
-														<Value>3</Value>
-													</ValueList>
-												</Property>
-												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-												<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{916C45E1-2D59-47BF-A9AA-BA835920D336}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="227"/>
-																	<Property Name="Min" Type="Real64" Value="-101"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-												<Property Name="UseMaxSoundPerInstance" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Destructibles_Att" ID="{4546CF95-2DC7-4FC1-9D98-C3FC96AD0243}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Props_OS_BreakWoodenWall_01_Florent_v1" ID="{80FAB106-8BE4-40D5-9F0A-20F93E9DB383}" ShortID="116035374">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Props_OS_BreakWoodenWall_01_Florent_v1" ID="{7A9B5885-7FDA-4561-89BF-EB47DD92D195}">
-															<Language>SFX</Language>
-															<AudioFile>Props\Props_OS_BreakWoodenWall_01_Florent_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="626004543"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Props_OS_BreakWoodenWall_01_Florent_v1" ID="{7A9B5885-7FDA-4561-89BF-EB47DD92D195}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Props_OS_BreakWoodenWall_03_Florent_v1" ID="{9B26FA47-AD1D-4562-8E7E-65F74D2799A8}" ShortID="785906517">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Props_OS_BreakWoodenWall_03_Florent_v1" ID="{09447FBB-34C2-4770-8189-902EADAA6AE2}">
-															<Language>SFX</Language>
-															<AudioFile>Props\Props_OS_BreakWoodenWall_03_Florent_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="254736956"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Props_OS_BreakWoodenWall_03_Florent_v1" ID="{09447FBB-34C2-4770-8189-902EADAA6AE2}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
 										<Sound Name="BreakStoneWall_SFX" ID="{5378E2E8-F0F8-43F1-A49F-12B410360C78}" ShortID="1020249969">
 											<PropertyList>
 												<Property Name="Lowpass" Type="int16">
@@ -32157,7 +32060,7 @@
 															<Modifier Name="" ID="{B3AE58C1-9FC3-413E-A6BE-13AD8B5B2B00}">
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Min" Type="Real64" Value="-200"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -32183,6 +32086,47 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Props_OS_BreakStoneWall_01_Florent_v1" ID="{0D049F06-FE2E-4DA1-8DD4-07ADF85C3883}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BreakWoodenWall_SFX" ID="{5F6E60F3-DE80-4E7E-8BF5-4958FA752432}" ShortID="571457024">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>19</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{100753EA-BF47-4441-911C-1F4A7B8935C2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Props_OS_BreakWoodenWall_04_Florent_v1" ID="{51C50151-DEA7-4FED-94AA-C76143E6495B}">
+													<Language>SFX</Language>
+													<AudioFile>Props_OS_BreakWoodenWall_04_Florent_v1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="788611221"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Props_OS_BreakWoodenWall_04_Florent_v1" ID="{51C50151-DEA7-4FED-94AA-C76143E6495B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
