@@ -2298,7 +2298,7 @@
 								<Action Name="" ID="{8C0D3C1A-D73F-42B5-AD61-FABB4C100251}" ShortID="439713183">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="BreakWoodenWall_RND" ID="{8E5DFBB7-E5FC-4A16-A6AD-30C638104A22}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+											<ObjectRef Name="BreakWoodenWall_SFX" ID="{5F6E60F3-DE80-4E7E-8BF5-4958FA752432}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -21702,7 +21702,14 @@
 								<Folder Name="Alambic" ID="{74CDA0CB-B4C1-4A0F-B90D-460ACBD108AC}" ShortID="846749898">
 									<ChildrenList>
 										<ActorMixer Name="AlambicMixer" ID="{58439F01-DE31-48F5-8A17-CADDBA386924}" ShortID="24978027">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Alambic_Att" ID="{968E3426-0AB3-499F-A58E-30512293A202}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 												</Reference>
@@ -29403,199 +29410,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="UI_OS_CancelMenu_Pelloux_V1" ID="{F03AC8C4-4A76-4AAD-9A68-EA0CE5EA6767}" ShortID="782027835">
-									<PropertyList>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="UI_OS_CancelMenu_Pelloux_V1" ID="{28F076E5-D078-46CA-8369-F6E4DEA96484}">
-											<Language>SFX</Language>
-											<AudioFile>UI_OS_CancelMenu_Pelloux_V1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="325909341"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="UI_OS_CancelMenu_Pelloux_V1" ID="{28F076E5-D078-46CA-8369-F6E4DEA96484}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="UI_OS_PauseNegative_Pelloux_V1" ID="{EFE276CF-75ED-4AF8-9270-59C2D71D9B71}" ShortID="144697571">
-									<PropertyList>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="UI_OS_PauseNegative_Pelloux_V1" ID="{B281417D-E6A5-4E3E-B90A-312CF0F84FD6}">
-											<Language>SFX</Language>
-											<AudioFile>UI_OS_PauseNegative_Pelloux_V1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="903510209"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="UI_OS_PauseNegative_Pelloux_V1" ID="{B281417D-E6A5-4E3E-B90A-312CF0F84FD6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="UI_OS_PausePositive_Pelloux_V1" ID="{60901711-FE2A-4173-9841-749670B300C6}" ShortID="1071673396">
-									<PropertyList>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="UI_OS_PausePositive_Pelloux_V1" ID="{06557DD1-3D9F-46CD-96E5-1F9C7AC94E53}">
-											<Language>SFX</Language>
-											<AudioFile>UI_OS_PausePositive_Pelloux_V1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="780457335"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="UI_OS_PausePositive_Pelloux_V1" ID="{06557DD1-3D9F-46CD-96E5-1F9C7AC94E53}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="UI_OS_SelectMenu_Pelloux_V1" ID="{30DEF323-3C08-4756-9D63-C237D979AC9D}" ShortID="533432436">
-									<PropertyList>
-										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="UI_OS_SelectMenu_Pelloux_V1" ID="{F43C6805-0AA8-4683-AD45-51C93B079CE7}">
-											<Language>SFX</Language>
-											<AudioFile>UI_OS_SelectMenu_Pelloux_V1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1034043911"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="UI_OS_SelectMenu_Pelloux_V1" ID="{F43C6805-0AA8-4683-AD45-51C93B079CE7}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{B4772A2B-5C8F-4EE2-BE98-264B53932EBB}" ShortID="434826888">
-									<PropertyList>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{2436BB83-2614-49CF-B1EC-E3426C19A6A6}">
-											<Language>SFX</Language>
-											<AudioFile>UI_OS_ConfirmMenu_Pelloux_V1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="322099105"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{2436BB83-2614-49CF-B1EC-E3426C19A6A6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="UI_OS_Scroll_Pelloux_V1" ID="{BEA8CEE1-BDFE-405B-81EB-01D7EB3B8F15}" ShortID="894250167">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="UI_OS_Scroll_Pelloux_V1" ID="{E420E1D4-0569-48B1-8B52-0FBEB2068DCE}">
-											<Language>SFX</Language>
-											<AudioFile>UI_OS_Scroll_Pelloux_V1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="583141851"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="UI_OS_Scroll_Pelloux_V1" ID="{E420E1D4-0569-48B1-8B52-0FBEB2068DCE}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="SFX_OS_UI+Menu_01_THOMAS_V1" ID="{C8BD5ED0-88A0-4356-9460-931E1AD9FDCB}" ShortID="334235769">
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
@@ -29693,6 +29507,257 @@
 										<ActiveSource Name="SFX_OS_UIMenuNeutral_01_THOMAS_V1" ID="{B5FA12AD-01FB-4938-B3B8-EAF4BDA6F960}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Folder Name="RomainP" ID="{F8487CCC-370D-4870-83A6-D602FAFA8A89}" ShortID="54456622">
+									<ChildrenList>
+										<Sound Name="UI_OS_PauseNegative_Pelloux_V1" ID="{EFE276CF-75ED-4AF8-9270-59C2D71D9B71}" ShortID="144697571">
+											<PropertyList>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise_Gain_(Custom)" ID="{4114844F-11B5-4D1E-B3CE-94C18A999F32}" ShortID="507739067" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+															<PropertyList>
+																<Property Name="FullBandGain" Type="Real32" Value="8.5"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_OS_PauseNegative_Pelloux_V1" ID="{B281417D-E6A5-4E3E-B90A-312CF0F84FD6}">
+													<Language>SFX</Language>
+													<AudioFile>UI_OS_PauseNegative_Pelloux_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="903510209"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_OS_PauseNegative_Pelloux_V1" ID="{B281417D-E6A5-4E3E-B90A-312CF0F84FD6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{B4772A2B-5C8F-4EE2-BE98-264B53932EBB}" ShortID="434826888">
+											<PropertyList>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise_Gain_(Custom)" ID="{C1FDFD9A-1632-4E82-989B-4D23E9935CD0}" ShortID="158447930" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+															<PropertyList>
+																<Property Name="FullBandGain" Type="Real32" Value="8.5"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{2436BB83-2614-49CF-B1EC-E3426C19A6A6}">
+													<Language>SFX</Language>
+													<AudioFile>UI_OS_ConfirmMenu_Pelloux_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="322099105"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_OS_ConfirmMenu_Pelloux_V1" ID="{2436BB83-2614-49CF-B1EC-E3426C19A6A6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_OS_CancelMenu_Pelloux_V1" ID="{F03AC8C4-4A76-4AAD-9A68-EA0CE5EA6767}" ShortID="782027835">
+											<PropertyList>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise_Gain_(Custom)" ID="{8F7BE808-E8FC-498D-AC11-74A871850263}" ShortID="289891474" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+															<PropertyList>
+																<Property Name="FullBandGain" Type="Real32" Value="8.5"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_OS_CancelMenu_Pelloux_V1" ID="{28F076E5-D078-46CA-8369-F6E4DEA96484}">
+													<Language>SFX</Language>
+													<AudioFile>UI_OS_CancelMenu_Pelloux_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="325909341"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_OS_CancelMenu_Pelloux_V1" ID="{28F076E5-D078-46CA-8369-F6E4DEA96484}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_OS_Scroll_Pelloux_V1" ID="{BEA8CEE1-BDFE-405B-81EB-01D7EB3B8F15}" ShortID="894250167">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise_Gain_(Custom)" ID="{5E5483FE-0D22-4535-BB54-37CCF74026B6}" ShortID="518780069" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+															<PropertyList>
+																<Property Name="FullBandGain" Type="Real32" Value="8.5"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_OS_Scroll_Pelloux_V1" ID="{E420E1D4-0569-48B1-8B52-0FBEB2068DCE}">
+													<Language>SFX</Language>
+													<AudioFile>UI_OS_Scroll_Pelloux_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="583141851"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_OS_Scroll_Pelloux_V1" ID="{E420E1D4-0569-48B1-8B52-0FBEB2068DCE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_OS_SelectMenu_Pelloux_V1" ID="{30DEF323-3C08-4756-9D63-C237D979AC9D}" ShortID="533432436">
+											<PropertyList>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise_Gain_(Custom)" ID="{1EF3E011-6103-4A4A-B40B-39BADB61B945}" ShortID="132235194" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+															<PropertyList>
+																<Property Name="FullBandGain" Type="Real32" Value="8.5"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_OS_SelectMenu_Pelloux_V1" ID="{F43C6805-0AA8-4683-AD45-51C93B079CE7}">
+													<Language>SFX</Language>
+													<AudioFile>UI_OS_SelectMenu_Pelloux_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1034043911"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_OS_SelectMenu_Pelloux_V1" ID="{F43C6805-0AA8-4683-AD45-51C93B079CE7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_OS_PausePositive_Pelloux_V1" ID="{60901711-FE2A-4173-9841-749670B300C6}" ShortID="1071673396">
+											<PropertyList>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise_Gain_(Custom)" ID="{2428BBDE-A667-40FB-A403-AF579FF76CE5}" ShortID="1070624281" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+															<PropertyList>
+																<Property Name="FullBandGain" Type="Real32" Value="8.5"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_OS_PausePositive_Pelloux_V1" ID="{06557DD1-3D9F-46CD-96E5-1F9C7AC94E53}">
+													<Language>SFX</Language>
+													<AudioFile>UI_OS_PausePositive_Pelloux_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="780457335"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_OS_PausePositive_Pelloux_V1" ID="{06557DD1-3D9F-46CD-96E5-1F9C7AC94E53}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="UI_Bestiaire_Mix" ID="{78E854D8-AF2C-4662-9DA2-8475A6346934}" ShortID="418094267">
@@ -29964,7 +30029,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+									<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -30875,7 +30940,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+									<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -31982,103 +32047,6 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="BreakWoodenWall_RND" ID="{8E5DFBB7-E5FC-4A16-A6AD-30C638104A22}" ShortID="785682516">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="2"/>
-												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
-												<Property Name="Highpass" Type="int16">
-													<ValueList>
-														<Value>11</Value>
-													</ValueList>
-												</Property>
-												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-												<Property Name="MaxSoundPerInstance" Type="int16">
-													<ValueList>
-														<Value>3</Value>
-													</ValueList>
-												</Property>
-												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-												<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{916C45E1-2D59-47BF-A9AA-BA835920D336}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="227"/>
-																	<Property Name="Min" Type="Real64" Value="-101"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-												<Property Name="UseMaxSoundPerInstance" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Destructibles_Att" ID="{4546CF95-2DC7-4FC1-9D98-C3FC96AD0243}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Props_OS_BreakWoodenWall_01_Florent_v1" ID="{80FAB106-8BE4-40D5-9F0A-20F93E9DB383}" ShortID="116035374">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Props_OS_BreakWoodenWall_01_Florent_v1" ID="{7A9B5885-7FDA-4561-89BF-EB47DD92D195}">
-															<Language>SFX</Language>
-															<AudioFile>Props\Props_OS_BreakWoodenWall_01_Florent_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="626004543"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Props_OS_BreakWoodenWall_01_Florent_v1" ID="{7A9B5885-7FDA-4561-89BF-EB47DD92D195}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Props_OS_BreakWoodenWall_03_Florent_v1" ID="{9B26FA47-AD1D-4562-8E7E-65F74D2799A8}" ShortID="785906517">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Props_OS_BreakWoodenWall_03_Florent_v1" ID="{09447FBB-34C2-4770-8189-902EADAA6AE2}">
-															<Language>SFX</Language>
-															<AudioFile>Props\Props_OS_BreakWoodenWall_03_Florent_v1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="254736956"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Props_OS_BreakWoodenWall_03_Florent_v1" ID="{09447FBB-34C2-4770-8189-902EADAA6AE2}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
 										<Sound Name="BreakStoneWall_SFX" ID="{5378E2E8-F0F8-43F1-A49F-12B410360C78}" ShortID="1020249969">
 											<PropertyList>
 												<Property Name="Lowpass" Type="int16">
@@ -32092,7 +32060,7 @@
 															<Modifier Name="" ID="{B3AE58C1-9FC3-413E-A6BE-13AD8B5B2B00}">
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Min" Type="Real64" Value="-200"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -32118,6 +32086,47 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Props_OS_BreakStoneWall_01_Florent_v1" ID="{0D049F06-FE2E-4DA1-8DD4-07ADF85C3883}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BreakWoodenWall_SFX" ID="{5F6E60F3-DE80-4E7E-8BF5-4958FA752432}" ShortID="571457024">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>19</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{100753EA-BF47-4441-911C-1F4A7B8935C2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{F8DE6C6E-A6CC-4298-9374-69553745D019}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Props_OS_BreakWoodenWall_04_Florent_v1" ID="{51C50151-DEA7-4FED-94AA-C76143E6495B}">
+													<Language>SFX</Language>
+													<AudioFile>Props_OS_BreakWoodenWall_04_Florent_v1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="788611221"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Props_OS_BreakWoodenWall_04_Florent_v1" ID="{51C50151-DEA7-4FED-94AA-C76143E6495B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
