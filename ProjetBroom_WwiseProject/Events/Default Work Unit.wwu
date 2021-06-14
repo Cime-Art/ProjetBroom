@@ -499,6 +499,109 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Spider" ID="{ED62567A-CFD4-443A-AFB4-05FB7F0B4048}" ShortID="770761980">
+							<ChildrenList>
+								<Event Name="Event_SpiderGetHit" ID="{BB0D4534-F483-4E80-A79C-C4926A870690}">
+									<ChildrenList>
+										<Action Name="" ID="{24C75726-439A-40ED-A9EE-7903142DB411}" ShortID="586593174">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_OS_SpiderGetHit_01_THOMAS_V1" ID="{969BA30E-D588-47D8-819C-CCFCF50D4EFD}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SpiderGetHitLong" ID="{EA4DBD09-A94C-4C52-9AEF-01D4247914A6}">
+									<ChildrenList>
+										<Action Name="" ID="{C74BB798-958A-40B9-A25B-E486AE7A9B8F}" ShortID="1036158673">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_OS_SpiderGetHitLong_01_THOMAS_V1" ID="{D12DD0C1-7C03-4099-A822-110DED74FE86}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SpiderAttack01" ID="{9790DAFC-D247-4AB4-B1F7-032627C184E2}">
+									<ChildrenList>
+										<Action Name="" ID="{0DC826F3-FDA9-4711-96AA-52260C42FF69}" ShortID="1023816582">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_OS_SpiderAttack01_01_THOMAS_V1" ID="{48A06972-2425-449F-B45E-0360B4FB9927}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SpiderAttack02" ID="{2A1EE9CA-8956-4775-B25B-89B8C19756F2}">
+									<ChildrenList>
+										<Action Name="" ID="{0E2D1A87-49A8-4B90-8D20-E57C3E03778D}" ShortID="405206716">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_OS_SpiderAttack02_01_THOMAS_V1" ID="{F56B2391-C47D-4137-A498-4FA8EAA65174}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SpiderSpawn" ID="{A10543E6-5A42-4E5E-920F-983356B2674A}">
+									<ChildrenList>
+										<Action Name="" ID="{1C02397D-413B-42B2-8905-467FEF98DCDF}" ShortID="55369537">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_OS_SpiderSpawn_01_THOMAS_V1" ID="{AC7C4779-044D-4688-A7D0-904078C44B15}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SpiderFlee" ID="{83FCC82E-D25A-4395-80CA-015FB8B32291}">
+									<ChildrenList>
+										<Action Name="" ID="{A870E5D9-ADB9-443A-BD17-8FD0203A5991}" ShortID="979879430">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_OS_SpiderFlee_01_THOMAS_V1" ID="{D286CFB8-A40D-41B9-8EEF-74281BE733A2}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SpiderHowl" ID="{2226AD78-83DA-48C0-A7C1-381AD3F2E766}">
+									<ChildrenList>
+										<Action Name="" ID="{73B4FA14-F4B8-4830-8E13-FFD00095D7D1}" ShortID="1065978140">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_OS_SpiderIdleHowl_01_THOMAS_V1" ID="{C623C1E5-90C7-4F59-93B8-908364B3AE3D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SpiderIdleBreak" ID="{74C8D96C-A2CF-485C-917A-E6D7913E5BCC}">
+									<ChildrenList>
+										<Action Name="" ID="{45B528DD-A941-4F46-8158-9A4DD19FECCD}" ShortID="553360608">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_OS_SpiderIdleBreak_01_THOMAS_V1" ID="{CC92A5CA-C16A-42F4-9A28-ABDD9E5394A6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_SpiderSpit" ID="{C4834593-C8F7-411D-91A6-0A84E97AFDC6}">
+									<ChildrenList>
+										<Action Name="" ID="{208DF9EA-42FF-496F-819A-639FC030CCE4}" ShortID="580999646">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_OS_SpiderSpit_01_THOMAS_V1" ID="{9C03B4C2-CC9C-4703-BA6F-7D3EDCF8DD23}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{E0B7312B-EEF9-4945-A695-D1ABB792191B}" ShortID="611497882">
