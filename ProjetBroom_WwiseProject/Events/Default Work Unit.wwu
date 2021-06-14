@@ -444,10 +444,10 @@
 							<ChildrenList>
 								<Event Name="AlambicDeath" ID="{6E9BEAF6-068D-42EB-8069-82927828D4DC}">
 									<ChildrenList>
-										<Action Name="" ID="{B824AD71-541A-4612-9F58-E4E694A841AE}" ShortID="78275441">
+										<Action Name="" ID="{2B0B73F2-7031-4478-9B45-604C4540EC86}" ShortID="324714590">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="AlambicDeath" ID="{A2022FB6-AD11-41A2-A4ED-02FD4D0C7D1B}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="SFX_OS_AlambicDeath_01_THOMAS_V1" ID="{7EA5A0C8-5D72-43C4-83EC-50EC442E2F58}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -455,10 +455,10 @@
 								</Event>
 								<Event Name="AlambicGethit" ID="{C1DFEDD3-F0DD-40E4-964D-D02930F1DF03}">
 									<ChildrenList>
-										<Action Name="" ID="{B1B4005C-A2CA-4126-AFFD-3D9FD8651012}" ShortID="615217264">
+										<Action Name="" ID="{06CD2114-F4A6-43E0-B983-2AF75BB08FCE}" ShortID="526278842">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="AlambicGethit" ID="{1A7C9F87-36EC-4C0D-950C-DEA3C190D6E3}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="SFX_OS_AlambicGetHit_01_THOMAS_V1" ID="{CFC7F671-FF3D-4A7A-BE08-F66FDBAA5893}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -466,10 +466,10 @@
 								</Event>
 								<Event Name="AlambicJumpingfoward" ID="{066996D2-EF73-4C93-AC29-8D637BB09F6D}">
 									<ChildrenList>
-										<Action Name="" ID="{D8184FF4-1490-4DA8-BC29-699E5A516442}" ShortID="377682878">
+										<Action Name="" ID="{A9BDA766-4ED7-4047-8D92-353FC068EBE9}" ShortID="832542515">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="AlambicJumpingfoward" ID="{8A5A44EF-909D-468F-B62B-B4DD5BD14850}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="AlambicFTPS_RND" ID="{3D627753-71A4-4BD0-8866-B7F695E524D6}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -477,10 +477,10 @@
 								</Event>
 								<Event Name="AlambicPoppingsmoke" ID="{EACA7712-0CCC-4906-88E5-60C5281FA000}">
 									<ChildrenList>
-										<Action Name="" ID="{88B6D17C-C071-4D92-A93F-B7C3B9BB98D6}" ShortID="919576406">
+										<Action Name="" ID="{51436F6E-9D23-4C7E-B8BF-10E2578A94F1}" ShortID="563264468">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="AlambicPoppingsmoke" ID="{144DD922-B0A1-4F2D-A1D6-016D2C226459}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="SFX_OS_AlambicSmoke_01_THOMAS_V1" ID="{61EEB323-03FE-4610-A513-04DD1D9F62B3}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
