@@ -5177,7 +5177,7 @@
 																								<Value>True</Value>
 																							</ValueList>
 																						</Property>
-																						<Property Name="RadiusMax" Type="Real64" Value="2500"/>
+																						<Property Name="RadiusMax" Type="Real64" Value="2300"/>
 																					</PropertyList>
 																					<CurveUsageInfoList>
 																						<VolumeDryUsage>
@@ -5191,15 +5191,15 @@
 																											<XPos>0</XPos>
 																											<YPos>0</YPos>
 																											<Flags>5</Flags>
+																											<SegmentShape>Exp2</SegmentShape>
 																										</Point>
 																										<Point>
-																											<XPos>1685.38827</XPos>
-																											<YPos>-2.40458</YPos>
+																											<XPos>1329.9337</XPos>
+																											<YPos>-3.58775</YPos>
 																											<Flags>0</Flags>
-																											<SegmentShape>Exp1</SegmentShape>
 																										</Point>
 																										<Point>
-																											<XPos>2500</XPos>
+																											<XPos>2300</XPos>
 																											<YPos>-200</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -5220,7 +5220,7 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>2500</XPos>
+																											<XPos>2300</XPos>
 																											<YPos>-200</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -5241,12 +5241,12 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>1484.375</XPos>
+																											<XPos>1365.625</XPos>
 																											<YPos>-7.62551</YPos>
 																											<Flags>0</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>2500</XPos>
+																											<XPos>2300</XPos>
 																											<YPos>-50</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -5268,7 +5268,7 @@
 																											<SegmentShape>Exp1</SegmentShape>
 																										</Point>
 																										<Point>
-																											<XPos>2500</XPos>
+																											<XPos>2300</XPos>
 																											<YPos>37</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -5289,7 +5289,7 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>2500</XPos>
+																											<XPos>2300</XPos>
 																											<YPos>100</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -5310,12 +5310,12 @@
 																											<Flags>5</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>1500.67317</XPos>
+																											<XPos>1380.6193164</XPos>
 																											<YPos>100</YPos>
 																											<Flags>0</Flags>
 																										</Point>
 																										<Point>
-																											<XPos>2500</XPos>
+																											<XPos>2300</XPos>
 																											<YPos>83.59667</YPos>
 																											<Flags>37</Flags>
 																										</Point>
@@ -5646,7 +5646,7 @@
 																				<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 																				<Property Name="UserAuxSendVolume0" Type="Real64">
 																					<ValueList>
-																						<Value>-10</Value>
+																						<Value>-13</Value>
 																					</ValueList>
 																				</Property>
 																				<Property Name="Volume" Type="Real64">
@@ -5667,7 +5667,7 @@
 																										<Value>True</Value>
 																									</ValueList>
 																								</Property>
-																								<Property Name="RadiusMax" Type="Real64" Value="3000"/>
+																								<Property Name="RadiusMax" Type="Real64" Value="4000"/>
 																							</PropertyList>
 																							<CurveUsageInfoList>
 																								<VolumeDryUsage>
@@ -5683,13 +5683,12 @@
 																													<Flags>5</Flags>
 																												</Point>
 																												<Point>
-																													<XPos>1350</XPos>
+																													<XPos>1166.90648</XPos>
 																													<YPos>-2</YPos>
 																													<Flags>0</Flags>
-																													<SegmentShape>Log1</SegmentShape>
 																												</Point>
 																												<Point>
-																													<XPos>3000</XPos>
+																													<XPos>4000</XPos>
 																													<YPos>-50</YPos>
 																													<Flags>37</Flags>
 																												</Point>
@@ -5713,12 +5712,12 @@
 																													<Flags>5</Flags>
 																												</Point>
 																												<Point>
-																													<XPos>1781.25</XPos>
+																													<XPos>2375</XPos>
 																													<YPos>-7.62551</YPos>
 																													<Flags>0</Flags>
 																												</Point>
 																												<Point>
-																													<XPos>3000</XPos>
+																													<XPos>4000</XPos>
 																													<YPos>-50</YPos>
 																													<Flags>37</Flags>
 																												</Point>
@@ -5737,11 +5736,11 @@
 																													<XPos>0</XPos>
 																													<YPos>0</YPos>
 																													<Flags>5</Flags>
-																													<SegmentShape>Exp3</SegmentShape>
+																													<SegmentShape>Exp2</SegmentShape>
 																												</Point>
 																												<Point>
-																													<XPos>3000</XPos>
-																													<YPos>50</YPos>
+																													<XPos>4000</XPos>
+																													<YPos>75</YPos>
 																													<Flags>37</Flags>
 																												</Point>
 																											</PointList>
@@ -5761,7 +5760,7 @@
 																													<Flags>5</Flags>
 																												</Point>
 																												<Point>
-																													<XPos>3000</XPos>
+																													<XPos>4000</XPos>
 																													<YPos>100</YPos>
 																													<Flags>37</Flags>
 																												</Point>
@@ -5782,12 +5781,12 @@
 																													<Flags>5</Flags>
 																												</Point>
 																												<Point>
-																													<XPos>1966.34515</XPos>
+																													<XPos>1979.10768</XPos>
 																													<YPos>100</YPos>
 																													<Flags>0</Flags>
 																												</Point>
 																												<Point>
-																													<XPos>3000</XPos>
+																													<XPos>4000</XPos>
 																													<YPos>6.07729</YPos>
 																													<Flags>37</Flags>
 																												</Point>
@@ -5817,7 +5816,7 @@
 																					<PropertyList>
 																						<Property Name="VolumeOffset" Type="Real64">
 																							<ValueList>
-																								<Value>24</Value>
+																								<Value>16</Value>
 																							</ValueList>
 																						</Property>
 																					</PropertyList>
