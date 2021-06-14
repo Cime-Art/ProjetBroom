@@ -26328,6 +26328,12 @@
 														</ItemList>
 													</Grouping>
 													<Grouping>
+														<SwitchRef Name="Water" ID="{BAC1CACC-E3A0-46E9-A406-125228A7A757}"/>
+														<ItemList>
+															<ItemRef Name="FTPS_Water_RND" ID="{11561E7B-4F1D-4984-B8B8-1F3D459ADC28}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
 														<SwitchRef Name="Wood" ID="{C46FAED0-B41E-4EE9-9947-400381ADF4E9}"/>
 														<ItemList>
 															<ItemRef Name="FTPS_Wood_RND" ID="{A4669991-30D0-4987-86AD-DCDB346E303C}"/>
