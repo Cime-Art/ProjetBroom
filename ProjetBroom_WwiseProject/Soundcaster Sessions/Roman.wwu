@@ -148,11 +148,13 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Out" ID="{B02F4069-2C09-4CCA-8C28-116E8B00C97F}"/>
+						<CurrentStateRef Name="None" ID="{6D47C0C6-5A10-42E8-876A-0F1F09BE2DA8}"/>
+						<CurrentStateRef Name="None" ID="{7C618440-98D7-4E0F-918D-DC80C67D7657}"/>
 						<CurrentStateRef Name="None" ID="{186EDAFE-DAAA-4B13-9F44-33B07EB9A648}"/>
 						<CurrentStateRef Name="Arrow" ID="{99C7D5A5-2880-4312-BE58-DF07FD1F06C5}"/>
 						<CurrentStateRef Name="Jump" ID="{48A01FA1-801A-4377-B165-AF9E9E1694BE}"/>
-						<CurrentStateRef Name="On" ID="{21593DA0-FC4D-4578-BF81-BB34683C678C}"/>
+						<CurrentStateRef Name="None" ID="{84F7C088-EADC-42A7-9FC3-4384FBFC1D96}"/>
+						<CurrentStateRef Name="snail_idle_state" ID="{0FA01A6A-8402-4707-8D0C-DB4F741AC1D1}"/>
 						<CurrentStateRef Name="None" ID="{ED3CB102-32F3-4ED3-A788-0C1278E25991}"/>
 						<CurrentStateRef Name="Metal" ID="{0ABC5705-4078-4363-87FD-93EDCA7AA609}"/>
 					</CurrentStateList>
