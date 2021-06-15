@@ -602,6 +602,54 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="BossFire" ID="{3BB3AEAA-7539-42E0-9B74-D1C5B06EA0BA}" ShortID="866062131">
+							<ChildrenList>
+								<Event Name="Event_BossFire_sw" ID="{3E516C77-7CC2-403C-B541-7CD06DEE4B11}">
+									<ChildrenList>
+										<Action Name="" ID="{67ED5C34-9F6F-41F6-951C-D866C4548D58}" ShortID="242584970">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BossFire_sw" ID="{95C0D2C4-1116-4356-878A-5DF643421D3C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{3E651834-1B27-4A61-8853-3E2A1906CFA5}" ShortID="1060279857">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Charge_rnd" ID="{C978DE74-EAE0-45AD-BA7E-A369AB83D0B3}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_Charge_rnd" ID="{A951B27E-5213-4890-B9C3-F3B976B73F9C}">
+									<ChildrenList>
+										<Action Name="" ID="{52A110A2-5054-4186-8F6E-9298F680178F}" ShortID="659259400">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Charge_rnd" ID="{C978DE74-EAE0-45AD-BA7E-A369AB83D0B3}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_Get_Hit_rnd" ID="{0A0E3944-E704-4DED-AFB4-5AF2A67C1CBD}">
+									<ChildrenList>
+										<Action Name="" ID="{ECA4C4DA-CEBC-46B7-BF73-01B0095BA1EC}" ShortID="3660252">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Get_Hit_rnd" ID="{040C459D-F628-466C-9CBC-59E346AD185F}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{E0B7312B-EEF9-4945-A695-D1ABB792191B}" ShortID="611497882">
