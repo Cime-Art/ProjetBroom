@@ -2513,6 +2513,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Event_Lever" ID="{728091A9-6123-4F58-A04E-81D5317F0464}">
+							<ChildrenList>
+								<Action Name="" ID="{2596F9E1-45FD-4550-9899-066182A625ED}" ShortID="697170805">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Props_OS_Lever_01_V1_Anger" ID="{4B984BA3-1BBB-4600-8ACF-9C02B060E88F}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{B37D3109-6ACF-4282-B02F-A65CE3CB8052}" ShortID="330638814">

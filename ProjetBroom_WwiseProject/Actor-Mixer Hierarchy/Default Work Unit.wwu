@@ -25,6 +25,11 @@
 									<ChildrenList>
 										<ActorMixer Name="General_Tuto_Mix" ID="{B418F7F8-EB92-41BA-959B-BD28B429F673}" ShortID="271348100">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-3</Value>
@@ -33183,6 +33188,57 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Hell_OS_MagicChestPickup_01_Sabarros_v1" ID="{5C87A6A1-64C0-474B-8EC5-B862B2CD9012}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</ActorMixer>
+								<ActorMixer Name="Lever_Mixer" ID="{A87E61D2-69C8-4EDE-8BFC-BA035AF62D17}" ShortID="1048306623">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Props_OS_Lever_01_V1_Anger" ID="{4B984BA3-1BBB-4600-8ACF-9C02B060E88F}" ShortID="735713521">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Props_OS_Lever_01_V1_Anger" ID="{92E3E7B0-D95E-4775-BFAB-C42F8AE94A87}">
+													<PropertyList>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>14</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Props_OS_Lever_01_V1_Anger.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="177690782"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Props_OS_Lever_01_V1_Anger" ID="{92E3E7B0-D95E-4775-BFAB-C42F8AE94A87}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
