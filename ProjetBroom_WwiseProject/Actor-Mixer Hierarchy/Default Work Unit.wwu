@@ -25,11 +25,6 @@
 									<ChildrenList>
 										<ActorMixer Name="General_Tuto_Mix" ID="{B418F7F8-EB92-41BA-959B-BD28B429F673}" ShortID="271348100">
 											<PropertyList>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList>
-														<Value>False</Value>
-													</ValueList>
-												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-3</Value>
