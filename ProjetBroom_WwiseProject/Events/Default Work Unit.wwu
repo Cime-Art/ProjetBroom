@@ -455,10 +455,10 @@
 								</Event>
 								<Event Name="AlambicGethit" ID="{C1DFEDD3-F0DD-40E4-964D-D02930F1DF03}">
 									<ChildrenList>
-										<Action Name="" ID="{06CD2114-F4A6-43E0-B983-2AF75BB08FCE}" ShortID="526278842">
+										<Action Name="" ID="{05F1A03A-5842-431E-8F77-D9187605AFF6}" ShortID="917845978">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="SFX_OS_AlambicGetHit_01_THOMAS_V1" ID="{CFC7F671-FF3D-4A7A-BE08-F66FDBAA5893}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+													<ObjectRef Name="AlambicGetHit_RND" ID="{5AA80FBC-06CB-464D-A375-650339D22312}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
