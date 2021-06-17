@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="Project" SchemaVersion="97" WwiseVersion="v2019.2.11" WwiseBuild="7512">
+<WwiseDocument Type="Project" SchemaVersion="97" WwiseVersion="v2019.2.5" WwiseBuild="7349">
 	<ProjectInfo>
 		<Project Name="ProjetBroom_WwiseProject" ID="{60B89C0B-7696-4DC3-96B9-0C2A5F0F9C6E}">
 			<Platforms>
@@ -9864,11 +9864,6 @@
 								<Value>0</Value>
 							</ValueList>
 						</Property>
-						<Property Name="InputThreshold" Type="Real32">
-							<ValueList>
-								<Value>-60</Value>
-							</ValueList>
-						</Property>
 						<Property Name="LFELevel" Type="Real32">
 							<ValueList>
 								<Value>-96.3</Value>
@@ -10587,6 +10582,35 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
+				<SharedPropertyList ClassName="" PluginType="7" CompanyID="0" PluginID="168">
+					<PropertyList>
+						<Property Name="BaseChannel" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ChannelConfig" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
 				<SharedPropertyList ClassName="" PluginType="7" CompanyID="275" PluginID="170">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
@@ -10866,7 +10890,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="SoundSeed Grain" PluginType="2" CompanyID="0" PluginID="183">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="183">
 					<PropertyList>
 						<Property Name="Amplitude" Type="Real32">
 							<ValueList>
@@ -11750,7 +11774,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="ParameterModulatorAssociation" PluginType="0" CompanyID="0" PluginID="185">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="0" PluginID="185">
 					<PropertyList>
 						<Property Name="ModDisplayName" Type="string">
 							<ValueList>
@@ -11784,7 +11808,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="186">
+				<SharedPropertyList ClassName="Mastering Suite" PluginType="3" CompanyID="0" PluginID="186">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -12375,6 +12399,20 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="204">
+					<PropertyList>
+						<Property Name="BaseChannel" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ChannelConfig" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
 				<SharedPropertyList ClassName="Wwise Motion Generator (Deprecated)" PluginType="2" CompanyID="0" PluginID="405">
 					<PropertyList>
 						<Property Name="AttackTime" Type="Real32">
@@ -12523,6 +12561,227 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="261" PluginID="416">
+					<PropertyList>
+						<Property Name="EnableShifting" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Gain" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Gear" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RPM" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RPMGameParameter" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Throttle" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Velocity" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="261" PluginID="417">
+					<PropertyList>
+						<Property Name="ClutchRPMMergeTime" Type="Real32">
+							<ValueList>
+								<Value>0.6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ClutchRPMSpike" Type="Real32">
+							<ValueList>
+								<Value>0.6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ClutchRPMSpikeDuration" Type="Real32">
+							<ValueList>
+								<Value>0.5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DownShiftDuration" Type="Real32">
+							<ValueList>
+								<Value>0.3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UpShiftAttackDuration" Type="Real32">
+							<ValueList>
+								<Value>0.05</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UpShiftAttackRPM" Type="Real32">
+							<ValueList>
+								<Value>0.25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UpShiftAttackThrottleTime" Type="Real32">
+							<ValueList>
+								<Value>0.02</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UpShiftAttackVolumeSpike" Type="Real32">
+							<ValueList>
+								<Value>1.5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UpShiftDuration" Type="Real32">
+							<ValueList>
+								<Value>0.2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UpShiftWobbleDuration" Type="Real32">
+							<ValueList>
+								<Value>0.3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UpShiftWobbleEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UpShiftWobblePitchAmp" Type="Real32">
+							<ValueList>
+								<Value>0.2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UpShiftWobblePitchFreq" Type="Real32">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UpShiftWobbleVolAmp" Type="Real32">
+							<ValueList>
+								<Value>0.2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UpShiftWobbleVolFreq" Type="Real32">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="261" PluginID="418">
+					<PropertyList>
+						<Property Name="CrossfadeDuration" Type="int32">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterDepth" Type="Real32">
+							<ValueList>
+								<Value>0.7</Value>
+							</ValueList>
+						</Property>
+						<Property Name="HarmonicToTrack" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IdleRampIn" Type="Real32">
+							<ValueList>
+								<Value>0.1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IdleTechnique" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IdleVolume" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LowPassEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MasterVolume" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="QFactor" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RPMSmoothness" Type="Real32">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Version" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="261" PluginID="419">
+					<PropertyList>
+						<Property Name="GrainWidth" Type="int32">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LoadVolumeOff" Type="Real32">
+							<ValueList>
+								<Value>0.7</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LoadVolumeOn" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LoopCrossfadeStyle" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MasterVolume" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RampVsLoopMaxWetDry" Type="Real32">
+							<ValueList>
+								<Value>0.9</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RampVsLoopMinWetDry" Type="Real32">
+							<ValueList>
+								<Value>0.1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RampVsLoopSensitivity" Type="Real32">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
 				<SharedPropertyList ClassName="Wwise Motion" PluginType="7" CompanyID="0" PluginID="507">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
@@ -12645,7 +12904,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="263" PluginID="1100">
+				<SharedPropertyList ClassName="Auro Headphone" PluginType="3" CompanyID="263" PluginID="1100">
 					<PropertyList>
 						<Property Name="Bypass" Type="bool">
 							<ValueList>
