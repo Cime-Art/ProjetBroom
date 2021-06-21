@@ -13336,6 +13336,35 @@
 																<ActiveSource Name="SFX_OS_MetalGateJail_01_THOMAS_V1" ID="{8D0C0370-D7EE-4645-A6A8-627827ABFD76}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
+														<Sound Name="SFX_OS_LeverRotate_01_THOMAS_V1" ID="{0EDFEFD3-88BE-489C-B841-20D6C23B1C56}" ShortID="65945526">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-4</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_OS_LeverRotate_01_THOMAS_V1" ID="{155DEDC9-CCA6-4E33-97FA-047AB05EB761}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_OS_LeverRotate_01_THOMAS_V1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="50707875"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_OS_LeverRotate_01_THOMAS_V1" ID="{155DEDC9-CCA6-4E33-97FA-047AB05EB761}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
 												</ActorMixer>
 												<ActorMixer Name="LittleBridgeJailDestruction_Mixer" ID="{A31D7741-E1DB-47E9-ADA6-87A9A05FC761}" ShortID="337531371">
