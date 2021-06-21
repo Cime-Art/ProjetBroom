@@ -2779,7 +2779,7 @@
 						</Attenuation>
 						<Attenuation Name="MetalGateJail_Att" ID="{FCAF5D76-A20E-4E2C-AB2D-36D89BC87D7C}" ShortID="849527637">
 							<PropertyList>
-								<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+								<Property Name="RadiusMax" Type="Real64" Value="10000"/>
 							</PropertyList>
 							<CurveUsageInfoList>
 								<VolumeDryUsage>
@@ -2796,7 +2796,7 @@
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>1000</XPos>
+													<XPos>10000</XPos>
 													<YPos>-200</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -2824,7 +2824,7 @@
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>1000</XPos>
+													<XPos>10000</XPos>
 													<YPos>47</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -2836,7 +2836,26 @@
 									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 								</HighPassFilterUsage>
 								<SpreadUsage>
-									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+									<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+										<Curve Name="Spread" ID="{B2734B71-0F59-47A5-94C7-FB2245845C8C}">
+											<PropertyList>
+												<Property Name="Flags" Type="int32" Value="1"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>75.35211</YPos>
+													<Flags>5</Flags>
+													<SegmentShape>Log1</SegmentShape>
+												</Point>
+												<Point>
+													<XPos>10000</XPos>
+													<YPos>0</YPos>
+													<Flags>37</Flags>
+												</Point>
+											</PointList>
+										</Curve>
+									</CurveUsageInfo>
 								</SpreadUsage>
 								<FocusUsage>
 									<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
