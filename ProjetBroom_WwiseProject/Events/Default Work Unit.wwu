@@ -1991,6 +1991,17 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Event Name="Event_Statue_Voices" ID="{CFF31CA5-AA2C-4DAE-883B-90C33325ED57}">
+									<ChildrenList>
+										<Action Name="" ID="{15DC5E9A-6DC0-47CC-8896-7A92E27DCDC6}" ShortID="637659447">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Statue_Voices_RND" ID="{C7C0FE2C-5FAA-42FE-9347-BC43E5F269DD}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Throne" ID="{FCC81E8B-B929-4746-85FA-ED985CCEEEF7}" ShortID="241807138">
@@ -2563,6 +2574,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Props_OS_Lever_01_V1_Anger" ID="{4B984BA3-1BBB-4600-8ACF-9C02B060E88F}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Pickup_Crown" ID="{B1A52F48-8D23-49A7-B9A0-616D6EAE2CAA}">
+							<ChildrenList>
+								<Action Name="" ID="{B9F27C71-0898-4366-B631-85782C83B1FF}" ShortID="159440507">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pickup_Crown_RND" ID="{DA5E1601-4AA6-4114-B0B4-45D4DD86824A}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
