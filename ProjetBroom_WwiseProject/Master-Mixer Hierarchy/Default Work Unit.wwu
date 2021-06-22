@@ -225,6 +225,17 @@
 										</AuxBus>
 									</ChildrenList>
 								</Bus>
+								<Bus Name="Bus_Hell_Rev" ID="{B3CBE5D2-D1F7-4DC6-8E54-4A684BFC27CC}">
+									<ChildrenList>
+										<AuxBus Name="Statue_Rev" ID="{8ABECAF7-0DB5-4C57-920A-FDE99EABB4AB}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Plate_Sizzle" ID="{D4A5BBF1-6A59-47A7-BB97-E7695900B72F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>

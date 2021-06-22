@@ -1277,6 +1277,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Event_MetalGateJail" ID="{DF3EB59E-BBA3-4228-8B20-3BBE350EF08B}">
+											<ChildrenList>
+												<Action Name="" ID="{217D616B-50CE-4E77-99EA-D5C3E63B273D}" ShortID="408590809">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_OS_MetalGateJail_01_THOMAS_V1" ID="{6D538091-C582-4C32-AB47-E03222B3DFD3}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Voices" ID="{6B9AF06D-6EB1-4A6E-830A-8FD002CFBAD6}" ShortID="912728728">
@@ -1355,6 +1366,28 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="OS_QuakePlatform_v1" ID="{D1351981-35E9-4C17-A60A-1CD6377360BD}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_LittleBridgeJailDestruction" ID="{52E095A7-20C1-47F7-8D31-3CC00266B769}">
+									<ChildrenList>
+										<Action Name="" ID="{FC36C92D-24B4-41F4-8ACF-D4047378A98B}" ShortID="933130864">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_OS_LittleBridgeDestruction_01_THOMAS_V1" ID="{34C93A29-2AF2-403D-9A63-0267B3589504}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_LeverRotate" ID="{7677F18A-0323-4C37-A28F-54E205E22BF5}">
+									<ChildrenList>
+										<Action Name="" ID="{B77D493E-DB9F-495B-A0AB-0D2FA7A06AA2}" ShortID="43724683">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_OS_LeverRotate_01_THOMAS_V1" ID="{0EDFEFD3-88BE-489C-B841-20D6C23B1C56}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1559,6 +1592,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Stone_Fall_RND" ID="{1FE95C46-8D20-4DF6-8BF9-E1667EB6A09C}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_MetalGate" ID="{753D78C0-2C8A-4211-828C-9AFB3DDD34ED}">
+											<ChildrenList>
+												<Action Name="" ID="{CC87408F-7769-49A4-BDE1-1EB2E7169A8D}" ShortID="3871650">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_OS_MetalGate_01_THOMAS_V2" ID="{4CB561E2-D4FD-41D6-8F18-4C074D8A6B5D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1947,6 +1991,17 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Event Name="Event_Statue_Voices" ID="{CFF31CA5-AA2C-4DAE-883B-90C33325ED57}">
+									<ChildrenList>
+										<Action Name="" ID="{15DC5E9A-6DC0-47CC-8896-7A92E27DCDC6}" ShortID="637659447">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Statue_Voices_RND" ID="{C7C0FE2C-5FAA-42FE-9347-BC43E5F269DD}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Throne" ID="{FCC81E8B-B929-4746-85FA-ED985CCEEEF7}" ShortID="241807138">
@@ -2519,6 +2574,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Props_OS_Lever_01_V1_Anger" ID="{4B984BA3-1BBB-4600-8ACF-9C02B060E88F}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Pickup_Crown" ID="{B1A52F48-8D23-49A7-B9A0-616D6EAE2CAA}">
+							<ChildrenList>
+								<Action Name="" ID="{B9F27C71-0898-4366-B631-85782C83B1FF}" ShortID="159440507">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pickup_Crown_RND" ID="{DA5E1601-4AA6-4114-B0B4-45D4DD86824A}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
