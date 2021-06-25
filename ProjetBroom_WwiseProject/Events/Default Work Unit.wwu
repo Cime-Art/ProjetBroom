@@ -2629,6 +2629,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Event_Play_SEQSPIDER_Door" ID="{1D504ED2-6D31-4EEA-A196-3F238DDA5F25}">
+					<ChildrenList>
+						<Action Name="" ID="{C46614D8-3FDB-4C59-A1D6-6463CCAE3507}" ShortID="529197114">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_OS_SEQSPIDER_Door_Dambrosio_V1" ID="{F9A0BCB4-E1A8-4C19-93DE-B12CEBB6DC33}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
