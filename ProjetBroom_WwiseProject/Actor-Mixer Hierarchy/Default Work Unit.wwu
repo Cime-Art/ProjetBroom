@@ -5334,7 +5334,7 @@
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-13</Value>
+																				<Value>-21</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -5345,16 +5345,16 @@
 																					<PropertyList>
 																						<Property Name="ConeAttenuation" Type="Real64">
 																							<ValueList>
-																								<Value>-17</Value>
+																								<Value>-53</Value>
 																							</ValueList>
 																						</Property>
-																						<Property Name="ConeInnerAngle" Type="int32" Value="125"/>
+																						<Property Name="ConeInnerAngle" Type="int32" Value="180"/>
 																						<Property Name="ConeLowPassFilterValue" Type="int32">
 																							<ValueList>
-																								<Value>51</Value>
+																								<Value>58</Value>
 																							</ValueList>
 																						</Property>
-																						<Property Name="ConeOuterAngle" Type="int32" Value="335"/>
+																						<Property Name="ConeOuterAngle" Type="int32" Value="265"/>
 																						<Property Name="ConeUse" Type="bool">
 																							<ValueList>
 																								<Value>True</Value>
@@ -6020,6 +6020,13 @@
 																	</ChildrenList>
 																</Folder>
 																<ActorMixer Name="Acid_Burn_Mixer" ID="{49549CC7-7B06-40AE-909E-7EB0FDE01E10}" ShortID="760745814">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-5</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -13357,48 +13364,18 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="SFX_OS_MetalGateJail_01_THOMAS_V1" ID="{6D538091-C582-4C32-AB47-E03222B3DFD3}" ShortID="848644078">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-																<Reference Name="UserAuxSend0">
-																	<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-																<Reference Name="UserAuxSend1">
-																	<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="SFX_OS_MetalGateJail_01_THOMAS_V1" ID="{8D0C0370-D7EE-4645-A6A8-627827ABFD76}">
-																	<PropertyList>
-																		<Property Name="VolumeOffset" Type="Real64">
-																			<ValueList>
-																				<Value>15</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>SFX_OS_MetalGateJail_01_THOMAS_V1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="621701480"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="SFX_OS_MetalGateJail_01_THOMAS_V1" ID="{8D0C0370-D7EE-4645-A6A8-627827ABFD76}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="SFX_OS_LeverRotate_01_THOMAS_V1" ID="{0EDFEFD3-88BE-489C-B841-20D6C23B1C56}" ShortID="65945526">
+														<RandomSequenceContainer Name="MetalGateJail_SQ" ID="{C9C37113-5BF7-4F50-9A3B-7EA3B3C8E75D}" ShortID="1052566084">
 															<PropertyList>
-																<Property Name="Volume" Type="Real64">
+																<Property Name="Lowpass" Type="int16">
 																	<ValueList>
-																		<Value>-4</Value>
+																		<Value>21</Value>
 																	</ValueList>
 																</Property>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.35"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -13409,18 +13386,92 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_OS_LeverRotate_01_THOMAS_V1" ID="{155DEDC9-CCA6-4E33-97FA-047AB05EB761}">
-																	<Language>SFX</Language>
-																	<AudioFile>SFX_OS_LeverRotate_01_THOMAS_V1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="50707875"/>
-																	</MediaIDList>
-																</AudioFileSource>
+																<Sound Name="SFX_OS_MetalGateJail_01_THOMAS_V1" ID="{6D538091-C582-4C32-AB47-E03222B3DFD3}" ShortID="848644078">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MetalGateJail_Att" ID="{FCAF5D76-A20E-4E2C-AB2D-36D89BC87D7C}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend1">
+																			<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_OS_MetalGateJail_01_THOMAS_V1" ID="{8D0C0370-D7EE-4645-A6A8-627827ABFD76}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>15</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_OS_MetalGateJail_01_THOMAS_V1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="621701480"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_OS_MetalGateJail_01_THOMAS_V1" ID="{8D0C0370-D7EE-4645-A6A8-627827ABFD76}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_OS_LeverRotate_01_THOMAS_V1" ID="{0EDFEFD3-88BE-489C-B841-20D6C23B1C56}" ShortID="65945526">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-3</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MetalGateJail_Att" ID="{FCAF5D76-A20E-4E2C-AB2D-36D89BC87D7C}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Bus_Tuto_Rev" ID="{57622A57-C774-468F-9076-C83F1BD659DB}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="Aux_Reverb_In" ID="{7E302D24-3F91-4EDE-848E-FBDE705BFE57}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend1">
+																			<ObjectRef Name="Aux_Reverb_Out" ID="{8811B204-780F-4F51-A8A5-2CD9AF12F3C5}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_OS_LeverRotate_01_THOMAS_V1" ID="{155DEDC9-CCA6-4E33-97FA-047AB05EB761}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_OS_LeverRotate_01_THOMAS_V1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="50707875"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_OS_LeverRotate_01_THOMAS_V1" ID="{155DEDC9-CCA6-4E33-97FA-047AB05EB761}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
 															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="SFX_OS_LeverRotate_01_THOMAS_V1" ID="{155DEDC9-CCA6-4E33-97FA-047AB05EB761}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
+															<Playlist>
+																<ItemRef Name="SFX_OS_LeverRotate_01_THOMAS_V1" ID="{0EDFEFD3-88BE-489C-B841-20D6C23B1C56}"/>
+																<ItemRef Name="SFX_OS_MetalGateJail_01_THOMAS_V1" ID="{6D538091-C582-4C32-AB47-E03222B3DFD3}"/>
+															</Playlist>
+														</RandomSequenceContainer>
 													</ChildrenList>
 												</ActorMixer>
 												<ActorMixer Name="LittleBridgeJailDestruction_Mixer" ID="{A31D7741-E1DB-47E9-ADA6-87A9A05FC761}" ShortID="337531371">
@@ -27201,6 +27252,18 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="FTPS_Sand_RND" ID="{F6DF41DB-0275-4C41-A9F5-C19A21D96F52}" ShortID="313782406">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-200</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>

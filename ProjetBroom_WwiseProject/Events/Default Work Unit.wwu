@@ -1282,7 +1282,7 @@
 												<Action Name="" ID="{217D616B-50CE-4E77-99EA-D5C3E63B273D}" ShortID="408590809">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_OS_MetalGateJail_01_THOMAS_V1" ID="{6D538091-C582-4C32-AB47-E03222B3DFD3}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+															<ObjectRef Name="MetalGateJail_SQ" ID="{C9C37113-5BF7-4F50-9A3B-7EA3B3C8E75D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1377,17 +1377,6 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="SFX_OS_LittleBridgeDestruction_01_THOMAS_V1" ID="{34C93A29-2AF2-403D-9A63-0267B3589504}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Event_LeverRotate" ID="{7677F18A-0323-4C37-A28F-54E205E22BF5}">
-									<ChildrenList>
-										<Action Name="" ID="{B77D493E-DB9F-495B-A0AB-0D2FA7A06AA2}" ShortID="43724683">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="SFX_OS_LeverRotate_01_THOMAS_V1" ID="{0EDFEFD3-88BE-489C-B841-20D6C23B1C56}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
