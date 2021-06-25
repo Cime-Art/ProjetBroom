@@ -5345,16 +5345,16 @@
 																					<PropertyList>
 																						<Property Name="ConeAttenuation" Type="Real64">
 																							<ValueList>
-																								<Value>-10</Value>
+																								<Value>-17</Value>
 																							</ValueList>
 																						</Property>
-																						<Property Name="ConeInnerAngle" Type="int32" Value="95"/>
+																						<Property Name="ConeInnerAngle" Type="int32" Value="125"/>
 																						<Property Name="ConeLowPassFilterValue" Type="int32">
 																							<ValueList>
-																								<Value>24</Value>
+																								<Value>51</Value>
 																							</ValueList>
 																						</Property>
-																						<Property Name="ConeOuterAngle" Type="int32" Value="185"/>
+																						<Property Name="ConeOuterAngle" Type="int32" Value="335"/>
 																						<Property Name="ConeUse" Type="bool">
 																							<ValueList>
 																								<Value>True</Value>
