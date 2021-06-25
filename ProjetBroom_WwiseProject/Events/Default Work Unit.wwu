@@ -1783,6 +1783,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Event_FireCamp" ID="{E230A960-9D13-4679-B9D7-ECB37E8A7713}">
+									<ChildrenList>
+										<Action Name="" ID="{FA527B94-42A4-4DC7-A2A4-3B222C88D5A7}" ShortID="563865700">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_LP_FirecampTuto_01_THOMAS_V1" ID="{71B036BA-0D3B-47F1-9EF5-135846FD0735}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Hell" ID="{246DE10D-6236-481E-B819-17F138DBE94D}" ShortID="241790163">
