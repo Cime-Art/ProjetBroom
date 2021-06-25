@@ -3105,6 +3105,11 @@
 																					</ReferenceList>
 																					<ChildrenList>
 																						<AudioFileSource Name="Kitchen_OS_PigChainHitLight_01_Sabarros_v2" ID="{A621D559-3514-4126-8E1B-6B7045B8E3AB}">
+																							<PropertyList>
+																								<Property Name="FadeInDuration" Type="Real64" Value="0.0230240506594536"/>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimBegin" Type="Real64" Value="0.157879204521967"/>
+																							</PropertyList>
 																							<Language>SFX</Language>
 																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHitLight_01_Sabarros_v2.wav</AudioFile>
 																							<MediaIDList>
@@ -3127,6 +3132,11 @@
 																					</ReferenceList>
 																					<ChildrenList>
 																						<AudioFileSource Name="Kitchen_OS_PigChainHitLight_02_Sabarros_v2" ID="{1504F575-E156-4F30-AB8E-833373D12C98}">
+																							<PropertyList>
+																								<Property Name="FadeInDuration" Type="Real64" Value="0.0112012748736659"/>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimBegin" Type="Real64" Value="0.0672076492419954"/>
+																							</PropertyList>
 																							<Language>SFX</Language>
 																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHitLight_02_Sabarros_v2.wav</AudioFile>
 																							<MediaIDList>
@@ -3149,6 +3159,11 @@
 																					</ReferenceList>
 																					<ChildrenList>
 																						<AudioFileSource Name="Kitchen_OS_PigChainHitLight_03_Sabarros_v2" ID="{8E2FE3AF-E5EB-401D-8711-41868A8CCA8D}">
+																							<PropertyList>
+																								<Property Name="FadeInDuration" Type="Real64" Value="0.0146126403005059"/>
+																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																								<Property Name="TrimBegin" Type="Real64" Value="0.0511442410517708"/>
+																							</PropertyList>
 																							<Language>SFX</Language>
 																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHitLight_03_Sabarros_v2.wav</AudioFile>
 																							<MediaIDList>
