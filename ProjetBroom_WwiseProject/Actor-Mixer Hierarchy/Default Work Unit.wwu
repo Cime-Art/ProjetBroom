@@ -5097,18 +5097,8 @@
 																</Sound>
 																<Sound Name="Amb_LP_FireEscape" ID="{6F64D8EA-2C40-4B7B-BB99-E22FC70D8A4D}" ShortID="346997844">
 																	<PropertyList>
-																		<Property Name="Highpass" Type="int16">
-																			<ValueList>
-																				<Value>8</Value>
-																			</ValueList>
-																		</Property>
 																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
-																		<Property Name="Volume" Type="Real64">
-																			<ValueList>
-																				<Value>-7</Value>
-																			</ValueList>
-																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Attenuation">
@@ -5126,7 +5116,7 @@
 																			<PropertyList>
 																				<Property Name="VolumeOffset" Type="Real64">
 																					<ValueList>
-																						<Value>5</Value>
+																						<Value>10</Value>
 																					</ValueList>
 																				</Property>
 																			</PropertyList>
@@ -5241,6 +5231,48 @@
 														</Sound>
 													</ChildrenList>
 												</Folder>
+												<Sound Name="SFX_LP_FirecampTuto_01_THOMAS_V1" ID="{71B036BA-0D3B-47F1-9EF5-135846FD0735}" ShortID="492823791">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="FirecampTuto_Att" ID="{9D04B3C2-259D-4314-BE57-606219210ADC}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LP_FirecampTuto_01_THOMAS_V1" ID="{CD9A365F-5181-4E65-A9ED-629B0CF16E71}">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>20</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_LP_FirecampTuto_01_THOMAS_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="379670010"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LP_FirecampTuto_01_THOMAS_V1" ID="{CD9A365F-5181-4E65-A9ED-629B0CF16E71}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</ActorMixer>
 									</ChildrenList>
