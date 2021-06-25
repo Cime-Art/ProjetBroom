@@ -15930,6 +15930,54 @@
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</ActorMixer>
+										<ActorMixer Name="LavaFlow_Mixer" ID="{7524F1E1-C3FE-4C8A-B29E-8AB8B99D91C6}" ShortID="235791356">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="LavaFlow" ID="{20B64A65-F039-43EB-AC1D-49FAB7F07809}" ShortID="276069749">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="OverrideEffect" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+														</Reference>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise_Gain_(Custom)" ID="{E5A8B0B8-EDA1-466F-9EE8-AFB4BFC2DD79}" ShortID="915468642" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+																	<PropertyList>
+																		<Property Name="FullBandGain" Type="Real32" Value="9"/>
+																		<Property Name="LFEGain" Type="Real32" Value="-0.5"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LP_AmbHell_LavaFlowLow_Dambrosio_V1" ID="{5DA4B4E3-92BF-47A5-98B0-A2494CE27E82}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LP_AmbHell_LavaFlowLow_Dambrosio_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="526010278"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LP_AmbHell_LavaFlowLow_Dambrosio_V1" ID="{5DA4B4E3-92BF-47A5-98B0-A2494CE27E82}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Throne" ID="{66DD4DA5-7563-4648-AF0D-AE7C512F7DED}" ShortID="799175653">

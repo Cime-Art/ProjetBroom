@@ -2640,6 +2640,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Event_Play_LavaFlow" ID="{B85B5053-B78C-4B55-A34E-246FC18D4D56}">
+					<ChildrenList>
+						<Action Name="" ID="{ED3BCC60-FF0C-470F-9322-F2F8298FF933}" ShortID="641917999">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LavaFlow" ID="{20B64A65-F039-43EB-AC1D-49FAB7F07809}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Stop_LavaFlow" ID="{236BE76D-5999-49B3-A6CE-D9617A877600}">
+					<ChildrenList>
+						<Action Name="" ID="{9BF03D2D-F5A8-429E-9591-8A42892C0F3E}" ShortID="407379767">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LavaFlow" ID="{20B64A65-F039-43EB-AC1D-49FAB7F07809}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
