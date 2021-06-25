@@ -2947,7 +2947,7 @@
 																				</Reference>
 																			</ReferenceList>
 																			<ChildrenList>
-																				<Sound Name="Kitchen_OS_PigChainHit_01_Sabarros_v1" ID="{25A90594-E3A5-4B7F-8495-84A6197DE976}" ShortID="494203206">
+																				<Sound Name="Kitchen_OS_PigChainHit_01_Sabarros" ID="{25A90594-E3A5-4B7F-8495-84A6197DE976}" ShortID="494203206">
 																					<ReferenceList>
 																						<Reference Name="Conversion">
 																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -2957,19 +2957,19 @@
 																						</Reference>
 																					</ReferenceList>
 																					<ChildrenList>
-																						<AudioFileSource Name="Kitchen_OS_PigChainHit_01_Sabarros_v1" ID="{D047E3A6-0AE9-42E4-9418-8C611E846572}">
+																						<AudioFileSource Name="Kitchen_OS_PigChainHit_01_Sabarros_v3" ID="{B922D9DE-9A07-464C-BBDA-DC06F747B86B}">
 																							<Language>SFX</Language>
-																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHit_01_Sabarros_v1.wav</AudioFile>
+																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHit_01_Sabarros_v3.wav</AudioFile>
 																							<MediaIDList>
-																								<MediaID ID="37272919"/>
+																								<MediaID ID="154389233"/>
 																							</MediaIDList>
 																						</AudioFileSource>
 																					</ChildrenList>
 																					<ActiveSourceList>
-																						<ActiveSource Name="Kitchen_OS_PigChainHit_01_Sabarros_v1" ID="{D047E3A6-0AE9-42E4-9418-8C611E846572}" Platform="Linked"/>
+																						<ActiveSource Name="Kitchen_OS_PigChainHit_01_Sabarros_v3" ID="{B922D9DE-9A07-464C-BBDA-DC06F747B86B}" Platform="Linked"/>
 																					</ActiveSourceList>
 																				</Sound>
-																				<Sound Name="Kitchen_OS_PigChainHit_02_Sabarros_v1" ID="{E8BDF344-E73E-46F2-BB70-F3C09E846DE7}" ShortID="896078619">
+																				<Sound Name="Kitchen_OS_PigChainHit_02_Sabarros" ID="{E8BDF344-E73E-46F2-BB70-F3C09E846DE7}" ShortID="896078619">
 																					<ReferenceList>
 																						<Reference Name="Conversion">
 																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -2979,19 +2979,19 @@
 																						</Reference>
 																					</ReferenceList>
 																					<ChildrenList>
-																						<AudioFileSource Name="Kitchen_OS_PigChainHit_02_Sabarros_v1" ID="{7CA1417D-4EB2-4FA6-8E78-F2F2148DA83E}">
+																						<AudioFileSource Name="Kitchen_OS_PigChainHit_02_Sabarros_v2" ID="{75CE88AD-E41C-4AF5-B626-D51DF424F81C}">
 																							<Language>SFX</Language>
-																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHit_02_Sabarros_v1.wav</AudioFile>
+																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHit_02_Sabarros_v2.wav</AudioFile>
 																							<MediaIDList>
-																								<MediaID ID="34656901"/>
+																								<MediaID ID="927131147"/>
 																							</MediaIDList>
 																						</AudioFileSource>
 																					</ChildrenList>
 																					<ActiveSourceList>
-																						<ActiveSource Name="Kitchen_OS_PigChainHit_02_Sabarros_v1" ID="{7CA1417D-4EB2-4FA6-8E78-F2F2148DA83E}" Platform="Linked"/>
+																						<ActiveSource Name="Kitchen_OS_PigChainHit_02_Sabarros_v2" ID="{75CE88AD-E41C-4AF5-B626-D51DF424F81C}" Platform="Linked"/>
 																					</ActiveSourceList>
 																				</Sound>
-																				<Sound Name="Kitchen_OS_PigChainHit_03_Sabarros_v1" ID="{40DF24DC-2954-4B67-83E7-E6C36D038217}" ShortID="593862074">
+																				<Sound Name="Kitchen_OS_PigChainHit_03_Sabarros" ID="{40DF24DC-2954-4B67-83E7-E6C36D038217}" ShortID="593862074">
 																					<ReferenceList>
 																						<Reference Name="Conversion">
 																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -3001,16 +3001,16 @@
 																						</Reference>
 																					</ReferenceList>
 																					<ChildrenList>
-																						<AudioFileSource Name="Kitchen_OS_PigChainHit_03_Sabarros_v1" ID="{5B4EA5F4-4AE7-46C7-884D-41108716137A}">
+																						<AudioFileSource Name="Kitchen_OS_PigChainHit_03_Sabarros_v2" ID="{D0174C52-F1BF-4B4B-A54D-D68B1A987D31}">
 																							<Language>SFX</Language>
-																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHit_03_Sabarros_v1.wav</AudioFile>
+																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHit_03_Sabarros_v2.wav</AudioFile>
 																							<MediaIDList>
-																								<MediaID ID="969078221"/>
+																								<MediaID ID="565222420"/>
 																							</MediaIDList>
 																						</AudioFileSource>
 																					</ChildrenList>
 																					<ActiveSourceList>
-																						<ActiveSource Name="Kitchen_OS_PigChainHit_03_Sabarros_v1" ID="{5B4EA5F4-4AE7-46C7-884D-41108716137A}" Platform="Linked"/>
+																						<ActiveSource Name="Kitchen_OS_PigChainHit_03_Sabarros_v2" ID="{D0174C52-F1BF-4B4B-A54D-D68B1A987D31}" Platform="Linked"/>
 																					</ActiveSourceList>
 																				</Sound>
 																			</ChildrenList>
@@ -3107,8 +3107,10 @@
 																						<AudioFileSource Name="Kitchen_OS_PigChainHitLight_01_Sabarros_v2" ID="{A621D559-3514-4126-8E1B-6B7045B8E3AB}">
 																							<PropertyList>
 																								<Property Name="FadeInDuration" Type="Real64" Value="0.0230240506594536"/>
+																								<Property Name="FadeOutDuration" Type="Real64" Value="0.677564919406776"/>
 																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																								<Property Name="TrimBegin" Type="Real64" Value="0.157879204521967"/>
+																								<Property Name="TrimBegin" Type="Real64" Value="0.304246383714208"/>
+																								<Property Name="TrimEnd" Type="Real64" Value="1.0739075057588"/>
 																							</PropertyList>
 																							<Language>SFX</Language>
 																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHitLight_01_Sabarros_v2.wav</AudioFile>
@@ -3135,7 +3137,7 @@
 																							<PropertyList>
 																								<Property Name="FadeInDuration" Type="Real64" Value="0.0112012748736659"/>
 																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																								<Property Name="TrimBegin" Type="Real64" Value="0.0672076492419954"/>
+																								<Property Name="TrimBegin" Type="Real64" Value="0.127694533559791"/>
 																							</PropertyList>
 																							<Language>SFX</Language>
 																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHitLight_02_Sabarros_v2.wav</AudioFile>
@@ -3162,7 +3164,7 @@
 																							<PropertyList>
 																								<Property Name="FadeInDuration" Type="Real64" Value="0.0146126403005059"/>
 																								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																								<Property Name="TrimBegin" Type="Real64" Value="0.0511442410517708"/>
+																								<Property Name="TrimBegin" Type="Real64" Value="0.166218783418255"/>
 																							</PropertyList>
 																							<Language>SFX</Language>
 																							<AudioFile>KitchenPigChain\Kitchen_OS_PigChainHitLight_03_Sabarros_v2.wav</AudioFile>
