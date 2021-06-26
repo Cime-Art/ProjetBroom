@@ -2013,6 +2013,28 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Event_ScreamMonster" ID="{3BA5C24A-F9DD-4421-902B-FC0DA8102B64}">
+									<ChildrenList>
+										<Action Name="" ID="{4C5AEB4F-63ED-414E-BA0C-24026B21B2B9}" ShortID="752133126">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ScreamMonster_RND" ID="{09FB8A5F-C11B-47EB-B939-20BF7E878DD1}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_CascadLava" ID="{9F9248C5-CE22-4CEB-927C-FC88BE1CB2AE}">
+									<ChildrenList>
+										<Action Name="" ID="{2056BF08-8FFC-4B18-BB73-FFC48D9F2BE2}" ShortID="684913338">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_LP_Lava Cascad_01 _Anger_V1" ID="{8817FB04-78B8-4C04-9E33-5F9F9DBD6DA1}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Throne" ID="{FCC81E8B-B929-4746-85FA-ED985CCEEEF7}" ShortID="241807138">
