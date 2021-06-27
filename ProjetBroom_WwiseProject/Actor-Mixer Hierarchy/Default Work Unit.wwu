@@ -13896,10 +13896,15 @@
 															<ChildrenList>
 																<Sound Name="LavaFlow" ID="{20B64A65-F039-43EB-AC1D-49FAB7F07809}" ShortID="276069749">
 																	<PropertyList>
-																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
 																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																		<Property Name="OverrideEffect" Type="bool" Value="True"/>
 																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-22</Value>
+																			</ValueList>
+																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Attenuation">
