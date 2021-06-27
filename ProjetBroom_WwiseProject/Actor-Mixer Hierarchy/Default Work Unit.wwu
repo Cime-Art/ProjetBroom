@@ -15659,6 +15659,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<ActorMixer Name="BoneWall_Mixer" ID="{23D7A78A-F50E-4CD6-8323-49754004F658}" ShortID="362190477">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-4</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -15693,7 +15700,7 @@
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
-																				<Value>-12</Value>
+																				<Value>-18</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -22872,6 +22879,11 @@
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -23505,6 +23517,13 @@
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="SFX_OS_AlambicSmoke_01_THOMAS_V1" ID="{61EEB323-03FE-4610-A513-04DD1D9F62B3}" ShortID="828262786">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-6</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
@@ -25937,6 +25956,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Perso_OS_Attack_Horizontal_01_Dambrosio_V1 [2021-05-02 174347]" ID="{6D98DB06-14F2-4B7A-A54B-7C710D16CB4C}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.283274150960575"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.283274150960575"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Perso_OS_Attack_Horizontal_01_Dambrosio_V1 [2021-05-02 174347].wav</AudioFile>
 															<MediaIDList>
@@ -25959,6 +25983,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Perso_OS_Attack_Horizontal_02_Dambrosio_V1 [2021-05-02 174348]" ID="{AA2772D1-C197-4BAF-9750-C9034AA5E818}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.305109866763786"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.305109866763786"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Perso_OS_Attack_Horizontal_02_Dambrosio_V1 [2021-05-02 174348].wav</AudioFile>
 															<MediaIDList>
@@ -25981,6 +26010,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Perso_OS_Attack_Horizontal_03_Dambrosio_V1 [2021-05-02 174348]" ID="{02BEAFF5-779D-4E3B-ACBA-8BCF70FBA301}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.300978785395611"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.300978785395611"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Perso_OS_Attack_Horizontal_03_Dambrosio_V1 [2021-05-02 174348].wav</AudioFile>
 															<MediaIDList>
@@ -26003,6 +26037,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Perso_OS_Attack_Horizontal_04_Dambrosio_V1 [2021-05-02 174349]" ID="{A1D67D69-9F40-486B-A3B9-7E2AD0AE1285}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.299798476433276"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.299798476433276"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Perso_OS_Attack_Horizontal_04_Dambrosio_V1 [2021-05-02 174349].wav</AudioFile>
 															<MediaIDList>
@@ -30522,6 +30561,13 @@
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="VoiceAttack_RND" ID="{689ABA43-50F4-4032-BC85-1823AC6C1DE5}" ShortID="592098715">
 													<PropertyList>
+														<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+														<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Pitch" Type="int32">
 															<ModifierList>
 																<ModifierInfo>
@@ -30541,6 +30587,11 @@
 																	<Modifier Name="" ID="{E52D9CEA-93D6-4800-BC8C-69D17D61D3F9}"/>
 																</ModifierInfo>
 															</ModifierList>
+														</Property>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
 														</Property>
 														<Property Name="UserAuxSendVolume0" Type="Real64">
 															<ValueList>
@@ -30586,6 +30637,11 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="OS_PLAYER_VoiceAttack_01_Raph_V1" ID="{04CDC4F3-EE48-4821-8FBF-E624CAC86BB9}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.0204206500956023"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0204206500956023"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>OS_PLAYER_VoiceAttack_01_Raph_V1.wav</AudioFile>
 																	<MediaIDList>
@@ -30615,6 +30671,11 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="OS_PLAYER_VoiceAttack_02_Raph_V1" ID="{81278278-C6C4-414C-8747-28D85B1E0582}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0309394518801785"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0343352453792224"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>OS_PLAYER_VoiceAttack_02_Raph_V1.wav</AudioFile>
 																	<MediaIDList>
@@ -30644,6 +30705,11 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="OS_PLAYER_VoiceAttack_03_Raph_V1" ID="{94C0DF24-A5D5-4D43-A883-176D4A352AE6}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0372848948374761"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0465264499681326"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>OS_PLAYER_VoiceAttack_03_Raph_V1.wav</AudioFile>
 																	<MediaIDList>
@@ -30673,6 +30739,11 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="OS_PLAYER_VoiceAttack_04_Raph_V1" ID="{B34C0A75-6514-45BC-844A-6DB80F6D8472}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.0211013384321224"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0211013384321224"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>OS_PLAYER_VoiceAttack_04_Raph_V1.wav</AudioFile>
 																	<MediaIDList>
@@ -30702,6 +30773,11 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="OS_PLAYER_VoiceAttack_05_Raph_V1" ID="{1B9F638E-12F8-47FC-9C3A-383E5BE74D26}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0165353728489484"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0302562141491396"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>OS_PLAYER_VoiceAttack_05_Raph_V1.wav</AudioFile>
 																	<MediaIDList>

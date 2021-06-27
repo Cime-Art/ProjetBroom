@@ -6385,6 +6385,13 @@
 				<Folder Name="Musique Hell" ID="{3297C66A-64A4-465D-85EA-68C90C6C3045}" ShortID="875017064">
 					<ChildrenList>
 						<MusicSwitchContainer Name="Level_Boss_Switch" ID="{53ED204E-399C-4CAD-A294-9B18AA04736F}" ShortID="899529793">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
