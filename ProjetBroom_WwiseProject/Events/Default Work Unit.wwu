@@ -2312,7 +2312,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Musique Jail_Playlist" ID="{C382EAE6-D60D-4C2F-B31D-956E3027ACA1}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+											<ObjectRef Name="Switch_Jail" ID="{93CA99EE-EB8E-43F7-B834-2BE843584596}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -2330,10 +2330,10 @@
 						</Event>
 						<Event Name="Event_Play_Musique_Jail_Playlist" ID="{D96F774E-2CD6-4C6A-B1F9-2E3943502D21}">
 							<ChildrenList>
-								<Action Name="" ID="{E1793302-3C6F-4FD2-BB7A-54B5B60A37E0}" ShortID="631585815">
+								<Action Name="" ID="{468DEF21-0D77-4172-9F67-822B9541E2B7}" ShortID="444798007">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Musique Jail_Playlist" ID="{C382EAE6-D60D-4C2F-B31D-956E3027ACA1}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+											<ObjectRef Name="Switch_Jail" ID="{93CA99EE-EB8E-43F7-B834-2BE843584596}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -2759,6 +2759,42 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="LavaFlow" ID="{20B64A65-F039-43EB-AC1D-49FAB7F07809}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Play_Spider_Boss_MX" ID="{18426D42-CCE0-4ED3-B4B5-51B19BA78CD5}">
+					<ChildrenList>
+						<Action Name="" ID="{A909F36D-125E-4732-A721-3A07D16FF516}" ShortID="1002238445">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spider_Boss_Playlist" ID="{4D57EE35-BEB4-4440-ABE7-CF97CB231BC9}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Play_Spider_Seq" ID="{8EFDE854-10DA-4C17-AEF2-F31092497FB3}">
+					<ChildrenList>
+						<Action Name="" ID="{C8D40EB2-4E43-4460-8E7B-B3E5AF35DD59}" ShortID="441937310">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spider_Seq" ID="{06D8E166-E361-437A-B006-511048BDD075}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Stop_Spider_Boss_MX" ID="{1728134B-97E9-49AB-BA6D-BD424F099AAA}">
+					<ChildrenList>
+						<Action Name="" ID="{BA1F69EA-8C91-425E-9BDB-1B1E1F7F41FE}" ShortID="192670762">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spider_Boss_Playlist" ID="{4D57EE35-BEB4-4440-ABE7-CF97CB231BC9}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

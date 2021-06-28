@@ -457,6 +457,16 @@
 								<State Name="Boss" ID="{09A97156-473B-4DEB-BE19-FBDA384EEBF0}"/>
 							</ChildrenList>
 						</StateGroup>
+						<StateGroup Name="Jail_State" ID="{6881AC64-40EE-4987-B04C-5EE0AA40E7B1}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{A1257C11-345D-4809-A0F3-C38B9D3A8767}"/>
+								<State Name="Jail" ID="{2B3F4D42-3DDA-412D-B454-11B9C073DA45}"/>
+								<State Name="Spider" ID="{7CAE95B7-14B2-42AE-846D-E94D184C831F}"/>
+							</ChildrenList>
+						</StateGroup>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
