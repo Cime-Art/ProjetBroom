@@ -16820,6 +16820,161 @@
 																</Sound>
 															</ChildrenList>
 														</RandomSequenceContainer>
+														<ActorMixer Name="Blade_Mixer" ID="{96B8CE8D-3FE8-4152-99F5-587E4A3B6A02}" ShortID="340721811">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="OverridePositioning" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="PizzaArenaBlade_Att" ID="{3B52C9BC-6861-4685-83F8-57EE011039B9}" WorkUnitID="{32F1BFA1-B0C0-400A-AC0B-1312C135CA26}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_OS_PizzaArenaBlade01_THOMAS_01_V1" ID="{387D092A-769D-4A93-B6CB-E400D4D4432F}" ShortID="704308498">
+																	<PropertyList>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{0CCD8268-9BDA-43AC-A75A-122DDA44049D}"/>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="Volume" Type="Real64">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{432D4E40-02A0-4DEF-A56F-69951C7331EF}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Min" Type="Real64" Value="-4"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_OS_PizzaArenaBlade01_THOMAS_01_V1" ID="{9D53BF56-824E-4C05-BDC1-3F16617853A2}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>17</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_OS_PizzaArenaBlade01_THOMAS_01_V1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="797364289"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_OS_PizzaArenaBlade01_THOMAS_01_V1" ID="{9D53BF56-824E-4C05-BDC1-3F16617853A2}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_OS_PizzaArenaBlade02_THOMAS_01_V1" ID="{57E2BCB1-21A1-436B-9706-AD1CBECF64AF}" ShortID="595400491">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{60DDB9BB-FDF8-4A98-9429-3C49E7EB4911}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Min" Type="Real64" Value="-4"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_OS_PizzaArenaBlade02_THOMAS_01_V1" ID="{985964FD-E4A4-4D93-AFE8-D9178BCED022}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>17</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_OS_PizzaArenaBlade02_THOMAS_01_V1.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1038619342"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_OS_PizzaArenaBlade02_THOMAS_01_V1" ID="{985964FD-E4A4-4D93-AFE8-D9178BCED022}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_OS_PizzaArenaBlade03_THOMAS_01_V2" ID="{99C837C6-99AE-45B7-8E93-5C1D433CA824}" ShortID="711447850">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{2D33BEFA-8839-4842-AA96-E91113DD4B41}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Min" Type="Real64" Value="-5"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AAD0B836-A806-4CE8-A626-47649D30AC57}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F80829F1-CCC4-4179-B60D-F3C97FED5DCF}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_OS_PizzaArenaBlade03_THOMAS_01_V2" ID="{72629F26-FE12-47B1-9E2E-46F0551DCD2F}">
+																			<PropertyList>
+																				<Property Name="VolumeOffset" Type="Real64">
+																					<ValueList>
+																						<Value>17</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_OS_PizzaArenaBlade03_THOMAS_01_V2.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="894255623"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_OS_PizzaArenaBlade03_THOMAS_01_V2" ID="{72629F26-FE12-47B1-9E2E-46F0551DCD2F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</ActorMixer>
 													</ChildrenList>
 												</ActorMixer>
 											</ChildrenList>

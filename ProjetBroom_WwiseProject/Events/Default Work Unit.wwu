@@ -2035,35 +2035,72 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Event_PizzaArenaPlateform" ID="{C0F498FD-78A1-4149-8166-A78521D45FF6}">
+								<Folder Name="PizzaArena" ID="{DC1873EC-9C67-4590-8275-F105B94EF690}" ShortID="334088768">
 									<ChildrenList>
-										<Action Name="" ID="{9CF09A86-BD00-49BB-BCF3-FB1265B7B48A}" ShortID="391444302">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="SFX_OS_PlateformPizzaArena_THOMAS_01_V1" ID="{2ACD5846-429A-407E-BAE4-9A1832252108}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-										<Action Name="" ID="{A59392FF-22F0-4410-92D6-6106BF16B09C}" ShortID="763423660">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="PizzaArenaPlateformFinish_RND" ID="{64217D99-7A66-4024-8195-677F6E374DDC}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
+										<Event Name="Event_PizzaArenaPlateform" ID="{C0F498FD-78A1-4149-8166-A78521D45FF6}">
+											<ChildrenList>
+												<Action Name="" ID="{9CF09A86-BD00-49BB-BCF3-FB1265B7B48A}" ShortID="391444302">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_OS_PlateformPizzaArena_THOMAS_01_V1" ID="{2ACD5846-429A-407E-BAE4-9A1832252108}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{A59392FF-22F0-4410-92D6-6106BF16B09C}" ShortID="763423660">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="PizzaArenaPlateformFinish_RND" ID="{64217D99-7A66-4024-8195-677F6E374DDC}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_PizzaArenaChain" ID="{050D4680-A0FF-4096-91C2-6D831933C5F0}">
+											<ChildrenList>
+												<Action Name="" ID="{A914BF87-A91F-4911-91F9-E9E156010C5B}" ShortID="230818509">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_OS_MecaClickChainPizzaArena_THOMAS_01_V1" ID="{C8A99135-386A-4018-A0F4-B47CEFE42B85}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_PizzaArenaBlade01" ID="{140297DB-40B7-497C-B964-B2EE2A1965BD}">
+											<ChildrenList>
+												<Action Name="" ID="{988C598B-D143-4F2B-ADF4-2CC1FBEB983E}" ShortID="116513031">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_OS_PizzaArenaBlade01_THOMAS_01_V1" ID="{387D092A-769D-4A93-B6CB-E400D4D4432F}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_PizzaArenaBlade02" ID="{EFCE5C76-4D29-42CD-909C-F830BCDA3806}">
+											<ChildrenList>
+												<Action Name="" ID="{97F5AE2E-BB98-4124-AB4E-FE91D42686A0}" ShortID="870236003">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_OS_PizzaArenaBlade02_THOMAS_01_V1" ID="{57E2BCB1-21A1-436B-9706-AD1CBECF64AF}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_PizzaArenaBlade03" ID="{CF24AA87-722F-4B63-813D-8922F02E54E4}">
+											<ChildrenList>
+												<Action Name="" ID="{5A3793E8-DF8B-4B60-A2E9-3FB26EF5FEEF}" ShortID="51573881">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_OS_PizzaArenaBlade03_THOMAS_01_V2" ID="{99C837C6-99AE-45B7-8E93-5C1D433CA824}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
-								</Event>
-								<Event Name="Event_PizzaArenaChain" ID="{050D4680-A0FF-4096-91C2-6D831933C5F0}">
-									<ChildrenList>
-										<Action Name="" ID="{A914BF87-A91F-4911-91F9-E9E156010C5B}" ShortID="230818509">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="SFX_OS_MecaClickChainPizzaArena_THOMAS_01_V1" ID="{C8A99135-386A-4018-A0F4-B47CEFE42B85}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Throne" ID="{FCC81E8B-B929-4746-85FA-ED985CCEEEF7}" ShortID="241807138">
