@@ -12157,7 +12157,7 @@
 																							<PropertyList>
 																								<Property Name="VolumeOffset" Type="Real64">
 																									<ValueList>
-																										<Value>20</Value>
+																										<Value>6</Value>
 																									</ValueList>
 																								</Property>
 																							</PropertyList>
@@ -12192,7 +12192,7 @@
 																							<PropertyList>
 																								<Property Name="VolumeOffset" Type="Real64">
 																									<ValueList>
-																										<Value>20</Value>
+																										<Value>6</Value>
 																									</ValueList>
 																								</Property>
 																							</PropertyList>
@@ -25962,9 +25962,9 @@
 													<ChildrenList>
 														<AudioFileSource Name="Perso_OS_Attack_Horizontal_01_Dambrosio_V1 [2021-05-02 174347]" ID="{6D98DB06-14F2-4B7A-A54B-7C710D16CB4C}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0.283274150960575"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0106227806610216"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.283274150960575"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.289175695772254"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Perso_OS_Attack_Horizontal_01_Dambrosio_V1 [2021-05-02 174347].wav</AudioFile>
@@ -25989,9 +25989,9 @@
 													<ChildrenList>
 														<AudioFileSource Name="Perso_OS_Attack_Horizontal_02_Dambrosio_V1 [2021-05-02 174348]" ID="{AA2772D1-C197-4BAF-9750-C9034AA5E818}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0.305109866763786"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0141637075480288"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.305109866763786"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.312781875018968"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Perso_OS_Attack_Horizontal_02_Dambrosio_V1 [2021-05-02 174348].wav</AudioFile>
@@ -26016,9 +26016,9 @@
 													<ChildrenList>
 														<AudioFileSource Name="Perso_OS_Attack_Horizontal_03_Dambrosio_V1 [2021-05-02 174348]" ID="{02BEAFF5-779D-4E3B-ACBA-8BCF70FBA301}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0.300978785395611"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0100326261798537"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.300978785395611"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.309240948131961"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Perso_OS_Attack_Horizontal_03_Dambrosio_V1 [2021-05-02 174348].wav</AudioFile>
@@ -26043,9 +26043,9 @@
 													<ChildrenList>
 														<AudioFileSource Name="Perso_OS_Attack_Horizontal_04_Dambrosio_V1 [2021-05-02 174349]" ID="{A1D67D69-9F40-486B-A3B9-7E2AD0AE1285}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0.299798476433276"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00885231721751795"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.299798476433276"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.309240948131962"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Perso_OS_Attack_Horizontal_04_Dambrosio_V1 [2021-05-02 174349].wav</AudioFile>
