@@ -34610,7 +34610,7 @@
 															<Modifier Name="" ID="{B3AE58C1-9FC3-413E-A6BE-13AD8B5B2B00}">
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Min" Type="Real64" Value="-100"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -34626,16 +34626,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Props_OS_BreakStoneWall_01_Florent_v1" ID="{0D049F06-FE2E-4DA1-8DD4-07ADF85C3883}">
+												<AudioFileSource Name="Props_OS_BreakStoneWall_01_Florent_v2" ID="{26B46027-584B-4D3C-816B-8541254E1CF8}">
 													<Language>SFX</Language>
-													<AudioFile>Destructible\Props_OS_BreakStoneWall_01_Florent_v1.wav</AudioFile>
+													<AudioFile>Props\Props_OS_BreakStoneWall_01_Florent_v2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="325578802"/>
+														<MediaID ID="577425654"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Props_OS_BreakStoneWall_01_Florent_v1" ID="{0D049F06-FE2E-4DA1-8DD4-07ADF85C3883}" Platform="Linked"/>
+												<ActiveSource Name="Props_OS_BreakStoneWall_01_Florent_v2" ID="{26B46027-584B-4D3C-816B-8541254E1CF8}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="BreakWoodenWall_SFX" ID="{5F6E60F3-DE80-4E7E-8BF5-4958FA752432}" ShortID="571457024">
