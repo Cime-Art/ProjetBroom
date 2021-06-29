@@ -16605,7 +16605,7 @@
 																	<PropertyList>
 																		<Property Name="VolumeOffset" Type="Real64">
 																			<ValueList>
-																				<Value>20</Value>
+																				<Value>12</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -16690,7 +16690,7 @@
 																	<PropertyList>
 																		<Property Name="VolumeOffset" Type="Real64">
 																			<ValueList>
-																				<Value>20</Value>
+																				<Value>9</Value>
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
@@ -16824,6 +16824,11 @@
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-3</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -16839,6 +16844,11 @@
 															<ChildrenList>
 																<Sound Name="SFX_OS_PizzaArenaBlade01_THOMAS_01_V1" ID="{387D092A-769D-4A93-B6CB-E400D4D4432F}" ShortID="704308498">
 																	<PropertyList>
+																		<Property Name="Highpass" Type="int16">
+																			<ValueList>
+																				<Value>34</Value>
+																			</ValueList>
+																		</Property>
 																		<Property Name="Pitch" Type="int32">
 																			<ModifierList>
 																				<ModifierInfo>
@@ -16889,6 +16899,11 @@
 																</Sound>
 																<Sound Name="SFX_OS_PizzaArenaBlade02_THOMAS_01_V1" ID="{57E2BCB1-21A1-436B-9706-AD1CBECF64AF}" ShortID="595400491">
 																	<PropertyList>
+																		<Property Name="Highpass" Type="int16">
+																			<ValueList>
+																				<Value>27</Value>
+																			</ValueList>
+																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ModifierList>
 																				<ModifierInfo>
@@ -16932,6 +16947,11 @@
 																</Sound>
 																<Sound Name="SFX_OS_PizzaArenaBlade03_THOMAS_01_V2" ID="{99C837C6-99AE-45B7-8E93-5C1D433CA824}" ShortID="711447850">
 																	<PropertyList>
+																		<Property Name="Highpass" Type="int16">
+																			<ValueList>
+																				<Value>22</Value>
+																			</ValueList>
+																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ModifierList>
 																				<ModifierInfo>

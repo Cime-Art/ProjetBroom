@@ -3674,7 +3674,7 @@
 						</Attenuation>
 						<Attenuation Name="PizzaArenaBlade_Att" ID="{3B52C9BC-6861-4685-83F8-57EE011039B9}" ShortID="641107628">
 							<PropertyList>
-								<Property Name="RadiusMax" Type="Real64" Value="7000"/>
+								<Property Name="RadiusMax" Type="Real64" Value="3000"/>
 							</PropertyList>
 							<CurveUsageInfoList>
 								<VolumeDryUsage>
@@ -3691,13 +3691,13 @@
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>2962.38245</XPos>
-													<YPos>-8.09484</YPos>
+													<XPos>1396.55173</XPos>
+													<YPos>-6.15815</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>7000</XPos>
+													<XPos>3000</XPos>
 													<YPos>-200</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -3724,7 +3724,7 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>7000</XPos>
+													<XPos>3000</XPos>
 													<YPos>39</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -3749,7 +3749,7 @@
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>7000</XPos>
+													<XPos>3000</XPos>
 													<YPos>0</YPos>
 													<Flags>37</Flags>
 												</Point>
