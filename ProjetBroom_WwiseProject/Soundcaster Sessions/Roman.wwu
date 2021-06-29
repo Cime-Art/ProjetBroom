@@ -89,12 +89,20 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Event_Play_Spider_Boss_MX" ID="{18426D42-CCE0-4ED3-B4B5-51B19BA78CD5}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Event_Stop_Music_Menu_Playlist" ID="{44975B61-D219-4206-B9CC-FA6E0585D70E}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Event_Stop_Musique_Tuto_Playlist" ID="{A89C0662-10EE-4477-A981-7BA3F33AC8E4}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
 							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Event_Stop_Spider_Boss_MX" ID="{1728134B-97E9-49AB-BA6D-BD424F099AAA}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Event_Play_Music_Hell" ID="{13B15C5F-5D80-43F5-A90E-9483DE83070F}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
@@ -105,12 +113,20 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="State_Spider" ID="{6146463F-CA48-4495-83CE-C1785DEFC068}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Event_Stop_Music_Hell" ID="{ED712264-57E3-46CC-8AC0-01C42BB685B4}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Event_Stop_Musique_Jail_Playlist" ID="{1641D33C-4BD8-4BC2-9B91-4CA0922B25FB}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
 							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="State_Jail" ID="{F505D9E4-93B4-47BD-9C7D-691F77F4D5AB}" WorkUnitID="{675F061C-E88F-4C92-9E74-619C166A4A10}"/>
+							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -154,6 +170,7 @@
 						<CurrentStateRef Name="Arrow" ID="{99C7D5A5-2880-4312-BE58-DF07FD1F06C5}"/>
 						<CurrentStateRef Name="Jump" ID="{48A01FA1-801A-4377-B165-AF9E9E1694BE}"/>
 						<CurrentStateRef Name="None" ID="{84F7C088-EADC-42A7-9FC3-4384FBFC1D96}"/>
+						<CurrentStateRef Name="Jail" ID="{2B3F4D42-3DDA-412D-B454-11B9C073DA45}"/>
 						<CurrentStateRef Name="snail_idle_state" ID="{0FA01A6A-8402-4707-8D0C-DB4F741AC1D1}"/>
 						<CurrentStateRef Name="None" ID="{ED3CB102-32F3-4ED3-A788-0C1278E25991}"/>
 						<CurrentStateRef Name="Metal" ID="{0ABC5705-4078-4363-87FD-93EDCA7AA609}"/>

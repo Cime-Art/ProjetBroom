@@ -600,6 +600,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Event_SpiderWallDestructible" ID="{85DDC5FA-9C11-4833-AF02-E9BA6CAA0287}">
+									<ChildrenList>
+										<Action Name="" ID="{EE820465-E879-4D48-BD2B-CD8995E672CC}" ShortID="34459203">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_OS_WallDestructibleSpider_01_THOMAS_V1" ID="{7F6245DE-4B83-4077-A5DE-2BF9C0A0256A}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="BossFire" ID="{3BB3AEAA-7539-42E0-9B74-D1C5B06EA0BA}" ShortID="866062131">
@@ -1282,7 +1293,7 @@
 												<Action Name="" ID="{217D616B-50CE-4E77-99EA-D5C3E63B273D}" ShortID="408590809">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_OS_MetalGateJail_01_THOMAS_V1" ID="{6D538091-C582-4C32-AB47-E03222B3DFD3}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+															<ObjectRef Name="MetalGateJail_SQ" ID="{C9C37113-5BF7-4F50-9A3B-7EA3B3C8E75D}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1377,17 +1388,6 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="SFX_OS_LittleBridgeDestruction_01_THOMAS_V1" ID="{34C93A29-2AF2-403D-9A63-0267B3589504}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Event_LeverRotate" ID="{7677F18A-0323-4C37-A28F-54E205E22BF5}">
-									<ChildrenList>
-										<Action Name="" ID="{B77D493E-DB9F-495B-A0AB-0D2FA7A06AA2}" ShortID="43724683">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="SFX_OS_LeverRotate_01_THOMAS_V1" ID="{0EDFEFD3-88BE-489C-B841-20D6C23B1C56}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -2013,6 +2013,94 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Event_ScreamMonster" ID="{3BA5C24A-F9DD-4421-902B-FC0DA8102B64}">
+									<ChildrenList>
+										<Action Name="" ID="{4C5AEB4F-63ED-414E-BA0C-24026B21B2B9}" ShortID="752133126">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ScreamMonster_RND" ID="{09FB8A5F-C11B-47EB-B939-20BF7E878DD1}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Event_CascadLava" ID="{9F9248C5-CE22-4CEB-927C-FC88BE1CB2AE}">
+									<ChildrenList>
+										<Action Name="" ID="{2056BF08-8FFC-4B18-BB73-FFC48D9F2BE2}" ShortID="684913338">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_LP_Lava Cascad_01 _Anger_V1" ID="{8817FB04-78B8-4C04-9E33-5F9F9DBD6DA1}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Folder Name="PizzaArena" ID="{DC1873EC-9C67-4590-8275-F105B94EF690}" ShortID="334088768">
+									<ChildrenList>
+										<Event Name="Event_PizzaArenaPlateform" ID="{C0F498FD-78A1-4149-8166-A78521D45FF6}">
+											<ChildrenList>
+												<Action Name="" ID="{9CF09A86-BD00-49BB-BCF3-FB1265B7B48A}" ShortID="391444302">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_OS_PlateformPizzaArena_THOMAS_01_V1" ID="{2ACD5846-429A-407E-BAE4-9A1832252108}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{A59392FF-22F0-4410-92D6-6106BF16B09C}" ShortID="763423660">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="PizzaArenaPlateformFinish_RND" ID="{64217D99-7A66-4024-8195-677F6E374DDC}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_PizzaArenaChain" ID="{050D4680-A0FF-4096-91C2-6D831933C5F0}">
+											<ChildrenList>
+												<Action Name="" ID="{A914BF87-A91F-4911-91F9-E9E156010C5B}" ShortID="230818509">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_OS_MecaClickChainPizzaArena_THOMAS_01_V1" ID="{C8A99135-386A-4018-A0F4-B47CEFE42B85}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_PizzaArenaBlade01" ID="{140297DB-40B7-497C-B964-B2EE2A1965BD}">
+											<ChildrenList>
+												<Action Name="" ID="{988C598B-D143-4F2B-ADF4-2CC1FBEB983E}" ShortID="116513031">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_OS_PizzaArenaBlade01_THOMAS_01_V1" ID="{387D092A-769D-4A93-B6CB-E400D4D4432F}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_PizzaArenaBlade02" ID="{EFCE5C76-4D29-42CD-909C-F830BCDA3806}">
+											<ChildrenList>
+												<Action Name="" ID="{97F5AE2E-BB98-4124-AB4E-FE91D42686A0}" ShortID="870236003">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_OS_PizzaArenaBlade02_THOMAS_01_V1" ID="{57E2BCB1-21A1-436B-9706-AD1CBECF64AF}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Event_PizzaArenaBlade03" ID="{CF24AA87-722F-4B63-813D-8922F02E54E4}">
+											<ChildrenList>
+												<Action Name="" ID="{5A3793E8-DF8B-4B60-A2E9-3FB26EF5FEEF}" ShortID="51573881">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_OS_PizzaArenaBlade03_THOMAS_01_V2" ID="{99C837C6-99AE-45B7-8E93-5C1D433CA824}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Throne" ID="{FCC81E8B-B929-4746-85FA-ED985CCEEEF7}" ShortID="241807138">
@@ -2224,7 +2312,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Musique Jail_Playlist" ID="{C382EAE6-D60D-4C2F-B31D-956E3027ACA1}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+											<ObjectRef Name="Switch_Jail" ID="{93CA99EE-EB8E-43F7-B834-2BE843584596}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -2242,10 +2330,10 @@
 						</Event>
 						<Event Name="Event_Play_Musique_Jail_Playlist" ID="{D96F774E-2CD6-4C6A-B1F9-2E3943502D21}">
 							<ChildrenList>
-								<Action Name="" ID="{E1793302-3C6F-4FD2-BB7A-54B5B60A37E0}" ShortID="631585815">
+								<Action Name="" ID="{468DEF21-0D77-4172-9F67-822B9541E2B7}" ShortID="444798007">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Musique Jail_Playlist" ID="{C382EAE6-D60D-4C2F-B31D-956E3027ACA1}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+											<ObjectRef Name="Switch_Jail" ID="{93CA99EE-EB8E-43F7-B834-2BE843584596}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -2284,6 +2372,81 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Stop_Crash" ID="{8BC6E69A-1790-404D-AE4C-0A0BB493DA2F}" WorkUnitID="{22563B21-8DD4-4D99-8CA7-9928C730618D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Play_Spider_Boss_MX" ID="{18426D42-CCE0-4ED3-B4B5-51B19BA78CD5}">
+							<ChildrenList>
+								<Action Name="" ID="{A909F36D-125E-4732-A721-3A07D16FF516}" ShortID="1002238445">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spider_Boss_Playlist" ID="{4D57EE35-BEB4-4440-ABE7-CF97CB231BC9}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Stop_Spider_Boss_MX" ID="{1728134B-97E9-49AB-BA6D-BD424F099AAA}">
+							<ChildrenList>
+								<Action Name="" ID="{BA1F69EA-8C91-425E-9BDB-1B1E1F7F41FE}" ShortID="192670762">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spider_Boss_Playlist" ID="{4D57EE35-BEB4-4440-ABE7-CF97CB231BC9}" WorkUnitID="{3099F1EE-1C49-4FEC-B5F0-5402DD249DD8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Play_SEQSPIDER_Door" ID="{1D504ED2-6D31-4EEA-A196-3F238DDA5F25}">
+							<ChildrenList>
+								<Action Name="" ID="{C46614D8-3FDB-4C59-A1D6-6463CCAE3507}" ShortID="529197114">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_OS_SEQSPIDER_Door_Dambrosio_V1" ID="{F9A0BCB4-E1A8-4C19-93DE-B12CEBB6DC33}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Play_Spider_Seq" ID="{8EFDE854-10DA-4C17-AEF2-F31092497FB3}">
+							<ChildrenList>
+								<Action Name="" ID="{C8D40EB2-4E43-4460-8E7B-B3E5AF35DD59}" ShortID="441937310">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spider_Seq" ID="{06D8E166-E361-437A-B006-511048BDD075}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="State_Jail" ID="{F505D9E4-93B4-47BD-9C7D-691F77F4D5AB}">
+							<ChildrenList>
+								<Action Name="" ID="{17ABB073-F63E-49ED-881B-EEE4ACEB2F5E}" ShortID="1030711132">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jail" ID="{2B3F4D42-3DDA-412D-B454-11B9C073DA45}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="State_Spider" ID="{6146463F-CA48-4495-83CE-C1785DEFC068}">
+							<ChildrenList>
+								<Action Name="" ID="{B0D4547D-409C-4B31-9CC8-0B521FE335C8}" ShortID="572699117">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spider" ID="{7CAE95B7-14B2-42AE-846D-E94D184C831F}" WorkUnitID="{E04C7BBE-AE1F-48DD-96B5-B6141490A6FD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -2640,6 +2803,31 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Event_Play_LavaFlow" ID="{B85B5053-B78C-4B55-A34E-246FC18D4D56}">
+					<ChildrenList>
+						<Action Name="" ID="{ED3BCC60-FF0C-470F-9322-F2F8298FF933}" ShortID="641917999">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LavaFlow" ID="{20B64A65-F039-43EB-AC1D-49FAB7F07809}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Stop_LavaFlow" ID="{236BE76D-5999-49B3-A6CE-D9617A877600}">
+					<ChildrenList>
+						<Action Name="" ID="{9BF03D2D-F5A8-429E-9591-8A42892C0F3E}" ShortID="407379767">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LavaFlow" ID="{20B64A65-F039-43EB-AC1D-49FAB7F07809}" WorkUnitID="{C8385BEA-D5ED-472C-942C-BA33B6017721}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
